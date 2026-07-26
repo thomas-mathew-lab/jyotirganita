@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: jyotirganita
+abstract: >-
+  A deterministic, fully parameterized pañcāṅgam computation engine for the
+  scientific study of Indian calendrical traditions — historical almanacs,
+  inscriptions, and siddhantic astronomy. Version 0.0.1 is a placeholder
+  release that reserves the package name; the engine is under active
+  development.
+type: software
+authors:
+  - given-names: Thomas
+    family-names: Mathew
+    orcid: "https://orcid.org/0000-0002-5289-4056"
+    affiliation: "Department of Physics, St. Stephen's College, Uzhavoor, Kottayam, Kerala, India"
+    email: mathew.physics@gmail.com
+version: 0.0.1
+license: Apache-2.0
+repository-code: "https://github.com/thomas-mathew-lab/jyotirganita"
+url: "https://github.com/thomas-mathew-lab/jyotirganita"
+keywords:
+  - pañcāṅgam
+  - Indian calendar
+  - siddhantic astronomy
+  - computational astronomy
