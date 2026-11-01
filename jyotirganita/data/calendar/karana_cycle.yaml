@@ -1,0 +1,82 @@
+- key: calendar.karana_cycle.sewell_dikshit_1896
+  value:
+  - [1, Kiṁstughna, 1]
+  - [2, 2, 3]
+  - [3, 4, 5]
+  - [4, 6, 7]
+  - [5, 1, 2]
+  - [6, 3, 4]
+  - [7, 5, 6]
+  - [8, 7, 1]
+  - [9, 2, 3]
+  - [10, 4, 5]
+  - [11, 6, 7]
+  - [12, 1, 2]
+  - [13, 3, 4]
+  - [14, 5, 6]
+  - [15, 7, 1]
+  - [16, 2, 3]
+  - [17, 4, 5]
+  - [18, 6, 7]
+  - [19, 1, 2]
+  - [20, 3, 4]
+  - [21, 5, 6]
+  - [22, 7, 1]
+  - [23, 2, 3]
+  - [24, 4, 5]
+  - [25, 6, 7]
+  - [26, 1, 2]
+  - [27, 3, 4]
+  - [28, 5, 6]
+  - [29, 7, Śakuni]
+  - [30, Chatushpada, Nâga]
+  form: table
+  columns: [serial, first_half, second_half]
+  unit: karana number or name
+  script: latin
+  source: sewell_dikshit_1896
+  file: sewell_dikshit_1896-sewell-dikshit-indian-calendar-1896.pdf
+  edition_page: cxiii
+  pdf_page: 239
+  locus: sewell_dikshit_1896 printed cxiii, Table VIII, columns 1, 4 and 5 (Serial number; Karaṇas, for the 1st half of the tithi, for the 2nd half of the tithi), rows numbered 1–30 in printed order; the pakṣa headings and the blank row between rows 21 and 22 not keyed. A cell that prints a numeral before its name is keyed as that numeral alone (the integer); a cell with no numeral is keyed as its name, as printed, first to last letter with its case and diacritics (a circumflex, a dot or a macron as printed); leaders, punctuation and footnote marks not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 401
+    clip: [8, 128, 150, 313]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: tile r1c1 of --clip 8,128,150,490 --tiles 1x2 --overlap 8 (rows 1–18)
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 401
+    clip: [8, 305, 150, 490]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: tile r2c1 of the same (rows 18–30)
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 1600
+    clip: [78, 140, 150, 152]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: row 1, columns 4–5, --upsample
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 1600
+    clip: [78, 404, 150, 428]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: rows 28–30, columns 4–5, --upsample
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'The karaṇa of each half-tithi of the month by the table''s own number (1–7, the movable karaṇas in the order of names.yaml indices 1–7) or, for a fixed karaṇa, its name; regions/base.py derives the sixty name indices from it. Internal checks the loader applies: every numeral is 1–7 and every name is a Latin form of a profile name.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-09-r4
+    on: 2026-10-09
+    dpi: 401
+    clip: [8, 128, 150, 313]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''

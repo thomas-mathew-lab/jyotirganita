@@ -1,0 +1,85 @@
+id: authority/calendar/sewell_dikshit_1896_art31_ending_two_encodings
+methods: [calendar]
+class: editor_computed
+source: sewell_dikshit_1896
+file: sewell_dikshit_1896-sewell-dikshit-indian-calendar-1896.pdf
+edition_page: 16
+pdf_page: 32
+locus: Art. 31, the example of the written agreement
+rounding: 'the editors'' ''about'': hours and minutes rounded, clock time to the minute'
+precision: about a minute (the editors' own 'about')
+datum_keys: [time_standards.lmt.definition.sewell_dikshit_1896, regions.kerala.conventions.civil_day.start.sewell_dikshit_1896]
+notes: 'One printed instant in two encodings: a tithi''s ending in ghaṭikās and palas after sunrise and the same in hours and minutes after sunrise, with the clock time under sewell_dikshit_1896''s mean sunrise at 6 a.m. Pins the fixed-unit nāḍikā elapsed after sunrise.'
+values:
+- name: input.ending_ghatika
+  role: input
+  value: 5 gh. 18 p.
+  form: text
+  unit: ghatika_pala_after_sunrise
+  script: latin
+  locus: 'sewell_dikshit_1896 printed 16, Art. 31, the example of the written agreement (the sentence from ''Suppose a written agreement''): the ending printed after ''(see the table)'', from its first figure to ''p.''. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 401
+    clip: [15, 350, 375, 420]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: tiles 2x1 --overlap 6 of this clip, native 401 ppi
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r16
+    on: 2026-10-08
+    dpi: 401
+    clip: [16, 385, 375, 410]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+- name: output.ending_hours
+  role: output
+  value: about 2 h. 7 m.
+  form: text
+  unit: hours_minutes_after_sunrise
+  script: latin
+  locus: 'sewell_dikshit_1896 printed 16, Art. 31, the example of the written agreement (the sentence from ''Suppose a written agreement''): the parenthesis after it, its content without the brackets. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 401
+    clip: [15, 350, 375, 420]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: tiles 2x1 --overlap 6 of this clip, native 401 ppi
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r16
+    on: 2026-10-08
+    dpi: 401
+    clip: [16, 385, 375, 410]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+- name: output.ending_clock
+  role: output
+  value: about 8.7 a.m
+  form: text
+  unit: clock_time
+  script: latin
+  locus: 'sewell_dikshit_1896 printed 16, Art. 31, the example of the written agreement (the sentence from ''Suppose a written agreement''): the clock time after ''or at'', from ''about'' to ''a.m'' (the sentence''s full stop not keyed). Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 401
+    clip: [15, 350, 375, 420]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: tiles 2x1 --overlap 6 of this clip, native 401 ppi
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r16
+    on: 2026-10-08
+    dpi: 401
+    clip: [16, 385, 375, 410]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''

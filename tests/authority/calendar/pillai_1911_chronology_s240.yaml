@@ -1,0 +1,130 @@
+id: authority/calendar/pillai_1911_chronology_s240
+methods: [calendar]
+class: text_computed
+source: pillai_1911_chronology
+edition_page: 87
+pdf_page: 109
+locus: §240, a year's first week-day
+rounding: 'none: whole days'
+precision: null
+datum_keys: []
+notes: 'The printed week-day ''Sunday'' contradicts the book''s own numbering (§233: remainder 6 is Friday, so 7 or 0 is Saturday); recorded as printed with the emendation.'
+values:
+- name: input.date
+  role: input
+  value: 1st January A.D. 1910
+  form: text
+  unit: date
+  script: latin
+  locus: '§240: the date whose week-day the paragraph names Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 360
+    clip: [15, 440, 625, 520]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: tiles 2x1 --overlap 8 of this clip ([15,440,324,520], [316,440,625,520])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 360
+    clip: [15, 440, 625, 520]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: ''
+- name: output.number
+  role: output
+  value: 7 or 0
+  form: text
+  unit: weekday_number
+  script: latin
+  locus: '§240: the number given for that week-day (''is also ...'') Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 360
+    clip: [15, 440, 625, 520]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: tiles 2x1 --overlap 8 of this clip ([15,440,324,520], [316,440,625,520])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 360
+    clip: [15, 440, 625, 520]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: ''
+- name: output.weekday
+  role: output
+  value: Sunday
+  form: text
+  unit: weekday
+  script: latin
+  locus: '§240: the week-day named after ''i.e.,'' Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 360
+    clip: [15, 440, 625, 520]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: tiles 2x1 --overlap 8 of this clip ([15,440,324,520], [316,440,625,520])
+  status: double_read
+  emendation:
+    printed: Sunday
+    adopted: Saturday
+    evidence: 'the book''s own week-day numbering: §233 (PDF p. 108) counts the remainder 6 as Friday, so the number it prints here, 7 or 0, is Saturday; §235 the same. Inference from the text''s rule; no erratum found in the volume''s front matter as paged'
+    evidence_indic: false
+    by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    owner_signoff: null
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 360
+    clip: [15, 440, 625, 520]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: ''
+- name: calendar.statement
+  role: input
+  value: For Old Style dates, i.e., dates down to, and inclusive of, 2 Sep. A.D. 1752, the reader should use the co-efficients of centuries appearing under "Old Style" in Table IV.
+  form: text
+  unit: statement
+  script: latin
+  edition_page: 87
+  pdf_page: 109
+  locus: '§236: the sentence beginning ''For Old Style dates'' Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 360
+    clip: [15, 45, 625, 235]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: tiles 2x1 --overlap 8 of this clip ([15,45,324,235], [316,45,625,235])
+  status: double_read
+  notes: 'The book''s statement of its dates'' calendar: Old Style (Julian) down to 2 Sep. 1752, New Style (Gregorian) after.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 360
+    clip: [15, 45, 625, 235]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-03-r2
+      on: 2026-10-03
+      dpi: 360
+      clip: [15, 45, 625, 235]
+      delivered_ppi: 360
+      max_edge: 2000
+      note: ''
+    matches: second_read

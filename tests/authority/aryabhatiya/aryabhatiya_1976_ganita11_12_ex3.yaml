@@ -1,0 +1,741 @@
+id: authority/aryabhatiya/aryabhatiya_1976_ganita11_12_ex3
+methods: [aryabhatiya]
+class: editor_computed
+source: aryabhatiya_1976
+file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+edition_page: 49
+pdf_page: 123
+locus: Gaṇita 11, Example 3 (the twenty-four Rsines at intervals of …° …′) and its solution, pp. 49–51 (PDF 123–125)
+rounding: not stated; each Rsine and chord printed in whole minutes of arc
+precision: whole minutes of arc, as printed
+datum_keys: [texts.aryabhatiya.trig.rsine_differences.d01, texts.aryabhatiya.trig.rsine_differences.d02, texts.aryabhatiya.trig.rsine_differences.d03, texts.aryabhatiya.trig.rsine_differences.d04, texts.aryabhatiya.trig.rsine_differences.d05, texts.aryabhatiya.trig.rsine_differences.d06, texts.aryabhatiya.trig.rsine_differences.d07, texts.aryabhatiya.trig.rsine_differences.d08, texts.aryabhatiya.trig.rsine_differences.d09, texts.aryabhatiya.trig.rsine_differences.d10, texts.aryabhatiya.trig.rsine_differences.d11, texts.aryabhatiya.trig.rsine_differences.d12, texts.aryabhatiya.trig.rsine_differences.d13, texts.aryabhatiya.trig.rsine_differences.d14, texts.aryabhatiya.trig.rsine_differences.d15, texts.aryabhatiya.trig.rsine_differences.d16, texts.aryabhatiya.trig.rsine_differences.d17, texts.aryabhatiya.trig.rsine_differences.d18, texts.aryabhatiya.trig.rsine_differences.d19, texts.aryabhatiya.trig.rsine_differences.d20, texts.aryabhatiya.trig.rsine_differences.d21, texts.aryabhatiya.trig.rsine_differences.d22, texts.aryabhatiya.trig.rsine_differences.d23, texts.aryabhatiya.trig.rsine_differences.d24]
+notes: 'The editors'' solution of Bhāskara I''s example (editor_computed): the twenty-four Rsines in the order the derivation yields them, each by its order number (output.rsine.nn), without the intermediate chords. The forward test compares each with the cumulative sum of the first nn Rsine-differences of Gītikā 12. The editors'' table of Rsines and Rsine-differences after Gītikā 12 (pp. 29–30, PDF 103–104) prints the same figures as a column (not keyed; a lead).'
+values:
+- name: input.radius
+  role: input
+  value: 3438
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 49
+  pdf_page: 123
+  locus: Gaṇita 11, the editors' solution of 'Example 3. Find the twentyfour Rsines at the equal intervals of …° …′ in the circle of radius R ( =…′).', pp. 49–51 (PDF 123–125), p. 49, the question's 'R ( =…′)'. The minute sign ′ after a figure is the unit, not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r3c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 123)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.interval.degrees
+  role: input
+  value: 3
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 49
+  pdf_page: 123
+  locus: 'Gaṇita 11, the editors'' solution of ''Example 3. Find the twentyfour Rsines at the equal intervals of …° …′ in the circle of radius R ( =…′).'', pp. 49–51 (PDF 123–125), p. 49, the question''s ''intervals of …° …′'': the degrees.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r3c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 123)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.interval.minutes
+  role: input
+  value: 45
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 49
+  pdf_page: 123
+  locus: 'Gaṇita 11, the editors'' solution of ''Example 3. Find the twentyfour Rsines at the equal intervals of …° …′ in the circle of radius R ( =…′).'', pp. 49–51 (PDF 123–125), p. 49, the same: the minutes.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r3c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 123)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.count
+  role: input
+  value: 24
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 49
+  pdf_page: 123
+  locus: Gaṇita 11, the editors' solution of 'Example 3. Find the twentyfour Rsines at the equal intervals of …° …′ in the circle of radius R ( =…′).', pp. 49–51 (PDF 123–125), p. 49, the question's 'the twentyfour Rsines'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r3c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 123)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.rsine.08
+  role: output
+  value: 1719
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 50
+  pdf_page: 124
+  locus: Gaṇita 11, the editors' solution of 'Example 3. Find the twentyfour Rsines at the equal intervals of …° …′ in the circle of radius R ( =…′).', pp. 49–51 (PDF 123–125), p. 50, 'From stanza 9 (c-d) 8th Rsine=R/…=…′.' The minute sign ′ after a figure is the unit, not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 124)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.rsine.16
+  role: output
+  value: 2978
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 50
+  pdf_page: 124
+  locus: 'Gaṇita 11, the editors'' solution of ''Example 3. Find the twentyfour Rsines at the equal intervals of …° …′ in the circle of radius R ( =…′).'', pp. 49–51 (PDF 123–125), p. 50, ''This yields : 16th Rsine=√R²—(R/…)² =…′'' The minute sign ′ after a figure is the unit, not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 124)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.rsine.04
+  role: output
+  value: 890
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 50
+  pdf_page: 124
+  locus: Gaṇita 11, the editors' solution of 'Example 3. Find the twentyfour Rsines at the equal intervals of …° …′ in the circle of radius R ( =…′).', pp. 49–51 (PDF 123–125), p. 50, '4th Rsine=…√ (Rsin …°)²+(Rvers …°)² =…′.' The minute sign ′ after a figure is the unit, not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 124)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.rsine.20
+  role: output
+  value: 3321
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 50
+  pdf_page: 124
+  locus: 'Gaṇita 11, the editors'' solution of ''Example 3. Find the twentyfour Rsines at the equal intervals of …° …′ in the circle of radius R ( =…′).'', pp. 49–51 (PDF 123–125), p. 50, ''The 4th Rsine yields : 20th Rsine=√R²—(…′)² =…′'' The minute sign ′ after a figure is the unit, not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 124)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.rsine.02
+  role: output
+  value: 449
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 50
+  pdf_page: 124
+  locus: Gaṇita 11, the editors' solution of 'Example 3. Find the twentyfour Rsines at the equal intervals of …° …′ in the circle of radius R ( =…′).', pp. 49–51 (PDF 123–125), p. 50, '2nd Rsine =…′' The minute sign ′ after a figure is the unit, not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 124)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.rsine.10
+  role: output
+  value: 2093
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 50
+  pdf_page: 124
+  locus: 'Gaṇita 11, the editors'' solution of ''Example 3. Find the twentyfour Rsines at the equal intervals of …° …′ in the circle of radius R ( =…′).'', pp. 49–51 (PDF 123–125), p. 50, ''The 20th Rsine yields : 10th Rsine=…′'' The minute sign ′ after a figure is the unit, not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 124)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.rsine.01
+  role: output
+  value: 225
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 50
+  pdf_page: 124
+  locus: 'Gaṇita 11, the editors'' solution of ''Example 3. Find the twentyfour Rsines at the equal intervals of …° …′ in the circle of radius R ( =…′).'', pp. 49–51 (PDF 123–125), p. 50, ''The 2nd Rsine yields : 1st Rsine=…′'' The minute sign ′ after a figure is the unit, not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 124)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.rsine.22
+  role: output
+  value: 3409
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 50
+  pdf_page: 124
+  locus: Gaṇita 11, the editors' solution of 'Example 3. Find the twentyfour Rsines at the equal intervals of …° …′ in the circle of radius R ( =…′).', pp. 49–51 (PDF 123–125), p. 50, '22nd Rsine=…′' The minute sign ′ after a figure is the unit, not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 124)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.rsine.23
+  role: output
+  value: 3431
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 50
+  pdf_page: 124
+  locus: 'Gaṇita 11, the editors'' solution of ''Example 3. Find the twentyfour Rsines at the equal intervals of …° …′ in the circle of radius R ( =…′).'', pp. 49–51 (PDF 123–125), p. 50, ''The 1st Rsine yields : 23rd Rsine=…′'' The minute sign ′ after a figure is the unit, not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 124)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.rsine.11
+  role: output
+  value: 2267
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 50
+  pdf_page: 124
+  locus: 'Gaṇita 11, the editors'' solution of ''Example 3. Find the twentyfour Rsines at the equal intervals of …° …′ in the circle of radius R ( =…′).'', pp. 49–51 (PDF 123–125), p. 50, ''and the 22nd Rsine yields : 11th Rsine=…′.'' The minute sign ′ after a figure is the unit, not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 124)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.rsine.13
+  role: output
+  value: 2585
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 50
+  pdf_page: 124
+  locus: 'Gaṇita 11, the editors'' solution of ''Example 3. Find the twentyfour Rsines at the equal intervals of …° …′ in the circle of radius R ( =…′).'', pp. 49–51 (PDF 123–125), p. 50, ''The 11th Rsine yields : 13th Rsine=…′.'' The minute sign ′ after a figure is the unit, not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 124)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.rsine.05
+  role: output
+  value: 1105
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 50
+  pdf_page: 124
+  locus: 'Gaṇita 11, the editors'' solution of ''Example 3. Find the twentyfour Rsines at the equal intervals of …° …′ in the circle of radius R ( =…′).'', pp. 49–51 (PDF 123–125), p. 50, ''The 10th Rsine yields : 5th Rsine=…′'' The minute sign ′ after a figure is the unit, not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r3c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 124)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.rsine.14
+  role: output
+  value: 2728
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 50
+  pdf_page: 124
+  locus: Gaṇita 11, the editors' solution of 'Example 3. Find the twentyfour Rsines at the equal intervals of …° …′ in the circle of radius R ( =…′).', pp. 49–51 (PDF 123–125), p. 50, '14th Rsine=…′.' The minute sign ′ after a figure is the unit, not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r3c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 124)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.rsine.19
+  role: output
+  value: 3256
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 50
+  pdf_page: 124
+  locus: 'Gaṇita 11, the editors'' solution of ''Example 3. Find the twentyfour Rsines at the equal intervals of …° …′ in the circle of radius R ( =…′).'', pp. 49–51 (PDF 123–125), p. 50, ''The 5th Rsine yields : 19th Rsine=…′.'' The minute sign ′ after a figure is the unit, not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r3c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 124)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.rsine.07
+  role: output
+  value: 1520
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 50
+  pdf_page: 124
+  locus: 'Gaṇita 11, the editors'' solution of ''Example 3. Find the twentyfour Rsines at the equal intervals of …° …′ in the circle of radius R ( =…′).'', pp. 49–51 (PDF 123–125), p. 50, ''The 14th Rsine yields : 7th Rsine=…′.'' The minute sign ′ after a figure is the unit, not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r3c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 124)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.rsine.17
+  role: output
+  value: 3084
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 50
+  pdf_page: 124
+  locus: 'Gaṇita 11, the editors'' solution of ''Example 3. Find the twentyfour Rsines at the equal intervals of …° …′ in the circle of radius R ( =…′).'', pp. 49–51 (PDF 123–125), p. 50, ''The 7th Rsine yields : 17th Rsine=…′.'' The minute sign ′ after a figure is the unit, not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r3c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 124)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.rsine.24
+  role: output
+  value: 3438
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 51
+  pdf_page: 125
+  locus: 'Gaṇita 11, the editors'' solution of ''Example 3. Find the twentyfour Rsines at the equal intervals of …° …′ in the circle of radius R ( =…′).'', pp. 49–51 (PDF 123–125), p. 51, ''Now, we start with : 24th Rsine=…′.'' The minute sign ′ after a figure is the unit, not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 125)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.rsine.12
+  role: output
+  value: 2431
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 51
+  pdf_page: 125
+  locus: 'Gaṇita 11, the editors'' solution of ''Example 3. Find the twentyfour Rsines at the equal intervals of …° …′ in the circle of radius R ( =…′).'', pp. 49–51 (PDF 123–125), p. 51, ''This yields : 12th Rsine=…′.'' The minute sign ′ after a figure is the unit, not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 125)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.rsine.06
+  role: output
+  value: 1315
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 51
+  pdf_page: 125
+  locus: 'Gaṇita 11, the editors'' solution of ''Example 3. Find the twentyfour Rsines at the equal intervals of …° …′ in the circle of radius R ( =…′).'', pp. 49–51 (PDF 123–125), p. 51, ''This 12th Rsine yields : 6th Rsine=…′.'' The minute sign ′ after a figure is the unit, not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 125)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.rsine.03
+  role: output
+  value: 671
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 51
+  pdf_page: 125
+  locus: 'Gaṇita 11, the editors'' solution of ''Example 3. Find the twentyfour Rsines at the equal intervals of …° …′ in the circle of radius R ( =…′).'', pp. 49–51 (PDF 123–125), p. 51, ''The 6th Rsine yields : 3rd Rsine=…′'' The minute sign ′ after a figure is the unit, not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 125)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.rsine.18
+  role: output
+  value: 3177
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 51
+  pdf_page: 125
+  locus: Gaṇita 11, the editors' solution of 'Example 3. Find the twentyfour Rsines at the equal intervals of …° …′ in the circle of radius R ( =…′).', pp. 49–51 (PDF 123–125), p. 51, '18th Rsine=…′.' The minute sign ′ after a figure is the unit, not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 125)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.rsine.21
+  role: output
+  value: 3372
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 51
+  pdf_page: 125
+  locus: 'Gaṇita 11, the editors'' solution of ''Example 3. Find the twentyfour Rsines at the equal intervals of …° …′ in the circle of radius R ( =…′).'', pp. 49–51 (PDF 123–125), p. 51, ''The 3rd Rsine yields : 21st Rsine=…′'' The minute sign ′ after a figure is the unit, not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 125)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.rsine.09
+  role: output
+  value: 1910
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 51
+  pdf_page: 125
+  locus: 'Gaṇita 11, the editors'' solution of ''Example 3. Find the twentyfour Rsines at the equal intervals of …° …′ in the circle of radius R ( =…′).'', pp. 49–51 (PDF 123–125), p. 51, ''and the 18th Rsine yields : 9th Rsine=…′.'' The minute sign ′ after a figure is the unit, not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 125)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.rsine.15
+  role: output
+  value: 2859
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 51
+  pdf_page: 125
+  locus: 'Gaṇita 11, the editors'' solution of ''Example 3. Find the twentyfour Rsines at the equal intervals of …° …′ in the circle of radius R ( =…′).'', pp. 49–51 (PDF 123–125), p. 51, ''The 9th Rsine yields : 15th Rsine=…′.'' The minute sign ′ after a figure is the unit, not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 125)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

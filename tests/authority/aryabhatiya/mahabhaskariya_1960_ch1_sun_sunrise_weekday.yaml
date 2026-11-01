@@ -1,0 +1,592 @@
+id: authority/aryabhatiya/mahabhaskariya_1960_ch1_sun_sunrise_weekday
+methods: [aryabhatiya]
+class: editor_computed
+source: mahabhaskariya_1960
+file: mahabhaskariya_1960-mahabhaskariya-shukla-1960.pdf
+edition_page: 37
+pdf_page: 122
+locus: I.48 (the week-day pulveriser), 'Example. "The mean longitude of the Sun (for sunrise) on a Wednesday is stated to be … signs, … degrees, … minutes, and … seconds. Say correctly after how much time (since the beginning of Kaliyuga) will the Sun again assume the same position (at sunrise) on a Thursday, Friday, and Wednesday."' and Shukla's solution with cases (i)–(iii), pp. 37–38 (PDF 122–123)
+rounding: seconds of arc, the fraction dropped (Shukla's residue 155222 is the quotient)
+precision: seconds of arc; whole days
+datum_keys: [texts.aryabhatiya.sun.revolutions, texts.aryabhatiya.civil_days.laghubhaskariya_1963, texts.aryabhatiya.procedures.residue.from_longitude.mahabhaskariya_1960, texts.aryabhatiya.procedures.weekday.rule]
+notes: 'Footnote 2 on p. 37: ''Bhāskara I''s example occurring in his comm. on Ā, ii. 32-33.'' The question is Bhāskara I''s; the solution and its figures are Shukla''s (editor_computed). The forward test is the Sun''s mean longitude at ahargaṇa 1000, 421778, 842556 and 1473723 (the printed seconds, fraction dropped) and the weekday of each (Wednesday, Thursday, Friday, Wednesday). The weekday offsets agree with the VIII.21-22 fixture''s Sunday at 7500 (by the reader''s arithmetic, not printed: both put the remainder 0 on a Thursday) and run one day behind laghubhaskariya_1963 I.8 and mahabhaskariya_1960''s own rule (texts.aryabhatiya.procedures.weekday.rule.mahabhaskariya_1960, p. 19), under which the remainder 0 is a Friday. The weekdays are Bhāskara I''s problem statements and Shukla''s solution takes differences only; that the examples'' ahargaṇa is the day''s ordinal is an inference. The test compares the weekday differences modulo 7 only. The I.48 rule is not keyed as a datum: the engine solves no pulveriser.'
+values:
+- name: input.sun_longitude
+  role: input
+  value: [8, 25, 36, 10]
+  form: rdms
+  unit: rasi_deg_min_sec
+  script: latin
+  edition_page: 37
+  pdf_page: 122
+  locus: the 'Example. "The mean longitude of the Sun (for sunrise) on a Wednesday is stated to be … signs, … degrees, … minutes, and … seconds. …"' under I.48 and Shukla's solution, 'Since the Sun's mean longitude = … signs …° …′ …″'. A degree sign printed as a superscript … is keyed as °.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 122)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.sun_seconds
+  role: output
+  value: 956170
+  form: integer
+  unit: arcseconds
+  script: latin
+  edition_page: 37
+  pdf_page: 122
+  locus: the 'Example. "The mean longitude of the Sun (for sunrise) on a Wednesday is stated to be … signs, … degrees, … minutes, and … seconds. …"' under I.48 and Shukla's solution, '= …″'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 122)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.residue
+  role: output
+  value: 155222
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 37
+  pdf_page: 122
+  locus: the 'Example. "The mean longitude of the Sun (for sunrise) on a Wednesday is stated to be … signs, … degrees, … minutes, and … seconds. …"' under I.48 and Shukla's solution, 'therefore, by stanza 46(ii), the residue of revolutions = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 122)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.abraded_sun_revolutions
+  role: output
+  value: 576
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 37
+  pdf_page: 122
+  locus: the 'Example. "The mean longitude of the Sun (for sunrise) on a Wednesday is stated to be … signs, … degrees, … minutes, and … seconds. …"' under I.48 and Shukla's solution, the pulveriser '(… x — …) / … = y', the coefficient of x.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 122)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.abraded_civil_days
+  role: output
+  value: 210389
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 37
+  pdf_page: 122
+  locus: the 'Example. "The mean longitude of the Sun (for sunrise) on a Wednesday is stated to be … signs, … degrees, … minutes, and … seconds. …"' under I.48 and Shukla's solution, the same pulveriser, the denominator.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 122)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.ahargana_wednesday
+  role: output
+  value: 1000
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 37
+  pdf_page: 122
+  locus: the 'Example. "The mean longitude of the Sun (for sunrise) on a Wednesday is stated to be … signs, … degrees, … minutes, and … seconds. …"' under I.48 and Shukla's solution, 'x = …,'; and 'Hence the ahargaṇa for the given Wednesday = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 122)
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 122)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.revolutions
+  role: output
+  value: 2
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 37
+  pdf_page: 122
+  locus: the 'Example. "The mean longitude of the Sun (for sunrise) on a Wednesday is stated to be … signs, … degrees, … minutes, and … seconds. …"' under I.48 and Shukla's solution, 'y = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 122)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: case1.week_residue
+  role: output
+  value: 1
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 38
+  pdf_page: 123
+  locus: the 'Example. "The mean longitude of the Sun (for sunrise) on a Wednesday is stated to be … signs, … degrees, … minutes, and … seconds. …"' under I.48 and Shukla's solution, p. 38, case (i), 'the residue of the week-cycle is unity'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 123)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: case1.reduced_coefficient
+  role: output
+  value: 4
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 38
+  pdf_page: 123
+  locus: the 'Example. "The mean longitude of the Sun (for sunrise) on a Wednesday is stated to be … signs, … degrees, … minutes, and … seconds. …"' under I.48 and Shukla's solution, p. 38, case (i), the pulveriser '(4X — …) / … = Y′, (…)', the coefficient of X.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 123)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: case1.quotient_multiplier
+  role: output
+  value: 30055
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 38
+  pdf_page: 123
+  locus: the 'Example. "The mean longitude of the Sun (for sunrise) on a Wednesday is stated to be … signs, … degrees, … minutes, and … seconds. …"' under I.48 and Shukla's solution, p. 38, 'where Y = … X+Y′'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 123)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: case1.x
+  role: output
+  value: 2
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 38
+  pdf_page: 123
+  locus: 'the ''Example. "The mean longitude of the Sun (for sunrise) on a Wednesday is stated to be … signs, … degrees, … minutes, and … seconds. …"'' under I.48 and Shukla''s solution, p. 38, ''Evidently, a solution of (…) is X = …, Y′ = …'': X.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 123)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: case1.y_reduced
+  role: output
+  value: 1
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 38
+  pdf_page: 123
+  locus: 'the ''Example. "The mean longitude of the Sun (for sunrise) on a Wednesday is stated to be … signs, … degrees, … minutes, and … seconds. …"'' under I.48 and Shukla''s solution, the same sentence: Y′.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 123)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: case1.y
+  role: output
+  value: 60111
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 38
+  pdf_page: 123
+  locus: the 'Example. "The mean longitude of the Sun (for sunrise) on a Wednesday is stated to be … signs, … degrees, … minutes, and … seconds. …"' under I.48 and Shukla's solution, p. 38, 'Y = …×… + … = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 123)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.ahargana_thursday
+  role: output
+  value: 421778
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 38
+  pdf_page: 123
+  locus: the 'Example. "The mean longitude of the Sun (for sunrise) on a Wednesday is stated to be … signs, … degrees, … minutes, and … seconds. …"' under I.48 and Shukla's solution, p. 38, case (i), 'i.e., … + …×… or …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 123)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: case2.week_residue
+  role: output
+  value: 2
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 38
+  pdf_page: 123
+  locus: the 'Example. "The mean longitude of the Sun (for sunrise) on a Wednesday is stated to be … signs, … degrees, … minutes, and … seconds. …"' under I.48 and Shukla's solution, p. 38, case (ii), 'In this case, the residue of the week-cycle is …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 123)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: case2.x
+  role: output
+  value: 4
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 38
+  pdf_page: 123
+  locus: 'the ''Example. "The mean longitude of the Sun (for sunrise) on a Wednesday is stated to be … signs, … degrees, … minutes, and … seconds. …"'' under I.48 and Shukla''s solution, p. 38, ''Evidently, a solution of (…) is X = …, Y′ = …'': X.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 123)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: case2.y_reduced
+  role: output
+  value: 2
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 38
+  pdf_page: 123
+  locus: 'the ''Example. "The mean longitude of the Sun (for sunrise) on a Wednesday is stated to be … signs, … degrees, … minutes, and … seconds. …"'' under I.48 and Shukla''s solution, the same sentence: Y′.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 123)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: case2.y
+  role: output
+  value: 120222
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 38
+  pdf_page: 123
+  locus: the 'Example. "The mean longitude of the Sun (for sunrise) on a Wednesday is stated to be … signs, … degrees, … minutes, and … seconds. …"' under I.48 and Shukla's solution, p. 38, 'Y = 30055X+… = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 123)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.ahargana_friday
+  role: output
+  value: 842556
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 38
+  pdf_page: 123
+  locus: the 'Example. "The mean longitude of the Sun (for sunrise) on a Wednesday is stated to be … signs, … degrees, … minutes, and … seconds. …"' under I.48 and Shukla's solution, p. 38, 'The required ahargaṇa is therefore …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 123)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: case3.week_residue
+  role: output
+  value: 0
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 38
+  pdf_page: 123
+  locus: the 'Example. "The mean longitude of the Sun (for sunrise) on a Wednesday is stated to be … signs, … degrees, … minutes, and … seconds. …"' under I.48 and Shukla's solution, p. 38, case (iii), 'the residue of the week-cycle is …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 123)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: case3.x
+  role: output
+  value: 7
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 38
+  pdf_page: 123
+  locus: the 'Example. "The mean longitude of the Sun (for sunrise) on a Wednesday is stated to be … signs, … degrees, … minutes, and … seconds. …"' under I.48 and Shukla's solution, p. 38, 'we evidently have X=…'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 123)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.ahargana_wednesday_again
+  role: output
+  value: 1473723
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 38
+  pdf_page: 123
+  locus: the 'Example. "The mean longitude of the Sun (for sunrise) on a Wednesday is stated to be … signs, … degrees, … minutes, and … seconds. …"' under I.48 and Shukla's solution, p. 38, 'the required ahargaṇa is …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 123)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''

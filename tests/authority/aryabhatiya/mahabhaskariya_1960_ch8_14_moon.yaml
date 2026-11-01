@@ -1,0 +1,195 @@
+id: authority/aryabhatiya/mahabhaskariya_1960_ch8_14_moon
+methods: [aryabhatiya]
+class: editor_computed
+source: mahabhaskariya_1960
+file: mahabhaskariya_1960-mahabhaskariya-shukla-1960.pdf
+edition_page: 219
+pdf_page: 304
+locus: VIII.14 and Shukla's solution ('The following is the solution of this example'), p. 219 (PDF 304)
+rounding: none (integers)
+precision: integers, as printed
+datum_keys: [texts.aryabhatiya.moon.revolutions, texts.aryabhatiya.civil_days.laghubhaskariya_1963, texts.aryabhatiya.procedures.residue.from_longitude.mahabhaskariya_1960]
+notes: 'The question is Bhāskara I''s (mahabhaskariya_1960 ch. VIII); the solution and its figures are Shukla''s (editor_computed). A pulveriser: the test checks the printed pair against the keyed revolution number and civil days, not the solving.'
+values:
+- name: input.residue_seconds
+  role: input
+  value: 25
+  form: integer
+  unit: arcseconds
+  script: latin
+  edition_page: 219
+  pdf_page: 304
+  locus: VIII.14 (the Moon), 'twenty-five seconds are seen to remain (undestroyed)'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 304)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.abraded_moon_revolution_minutes
+  role: input
+  value: 68167872
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 219
+  pdf_page: 304
+  locus: 'VIII.14 (the Moon), the solution: ''Revolution-number of the Moon reduced to minutes / civil days in a yuga = … / …'', the numerator.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 304)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.abraded_civil_days
+  role: input
+  value: 86225
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 219
+  pdf_page: 304
+  locus: VIII.14 (the Moon), the same fraction, the denominator.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 304)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.residue_minutes
+  role: output
+  value: 35927
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 219
+  pdf_page: 304
+  locus: VIII.14 (the Moon), 'Multiplying … by … and dividing the product by …, the quotient is …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 304)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.ahargana
+  role: output
+  value: 70091
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 219
+  pdf_page: 304
+  locus: VIII.14 (the Moon), 'x = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 304)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.minutes
+  role: output
+  value: 55412633
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 219
+  pdf_page: 304
+  locus: VIII.14 (the Moon), 'y = …′'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 304)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.moon_longitude
+  role: output
+  value: [4, 23, 53, 25]
+  form: rdms
+  unit: rasi_deg_min_sec
+  script: latin
+  edition_page: 219
+  pdf_page: 304
+  locus: VIII.14 (the Moon), 'the Moon's mean longitude = … signs …° …′ …″'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 304)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''

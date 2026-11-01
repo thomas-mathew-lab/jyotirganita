@@ -1,0 +1,142 @@
+id: authority/suryasiddhanta/whitney_sun_day_radius
+methods: [suryasiddhanta]
+class: editor_computed
+source: suryasiddhanta_burgess_1860
+edition_page: 233
+pdf_page: 94
+locus: 'Whitney''s note to ii. 60, printed p. 233: the paragraph from ''In illustration of the rule, it will be sufficient to find the radius of the diurnal circle'' to ''... the day-radius is also south of the equator.'''
+rounding: not stated
+precision: minutes of arc
+datum_keys: [texts.suryasiddhanta.procedures.half_day.day_radius.ii60.suryasiddhanta_burgess_1860]
+notes: 'The sun''s day-radius: the versed sine of his declination from the table of sines, subtracted from radius, gives the day-radius, south since the declination is south. Fig. 8 and the verse citation (ii. 22-27) are not keyed. Errata (suryasiddhanta_burgess_1860_reprint PDF 364) checked: no entry on this page. First read lat-b, fixture file sha256 3ff66999.'
+values:
+- name: input.sun.declination
+  role: input
+  value: [23, 41]
+  form: sexagesimal
+  unit: degrees_minutes
+  negative: true
+  script: latin
+  edition_page: 233
+  pdf_page: 94
+  locus: sentence 'His declination, E d (Fig. …) was found to be', line 3 of the paragraph
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 180, 370, 262]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 3ff66999); suryasiddhanta_burgess_1860_p94_600dpi_r1c2_clip40-180.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 180, 209, 262]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p94_600dpi_r1c1_clip40-180.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 252, 209, 275]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p94_600dpi_r1c1_clip40-252.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 252, 370, 275]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p94_600dpi_r1c2_clip40-252.png
+  status: double_read
+  notes: 'printed unsigned; the paragraph''s last sentence says ''The declination in this case being south'', keyed as negative: true on that word. locus as first keyed: sentence ''His declination, E d (Fig. 8) was found to be'', line 3 of the paragraph'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 180, 370, 262]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.sun.versed_sine_of_declination
+  role: input
+  value: 290
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 233
+  pdf_page: 94
+  locus: sentence 'of this the versed sine, E F, is, by the table given above (ii. …),' at the start of the next line
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 180, 209, 262]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 3ff66999); suryasiddhanta_burgess_1860_p94_600dpi_r1c1_clip40-180.png
+  status: double_read
+  notes: 'locus as first keyed: sentence ''of this the versed sine, E F, is, by the table given above (ii. 22-27),'' at the start of the next line'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 180, 209, 262]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.radius
+  role: input
+  value: 3438
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 233
+  pdf_page: 94
+  locus: sentence 'the difference between this and radius, E C, or'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 180, 370, 262]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 3ff66999); suryasiddhanta_burgess_1860_p94_600dpi_r1c2_clip40-180.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 180, 370, 262]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sun.day_radius
+  role: output
+  value: 3148
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 233
+  pdf_page: 94
+  locus: same sentence, after 'is', before 'which is the value of C F or b d, the day-radius'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 180, 370, 262]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 3ff66999); suryasiddhanta_burgess_1860_p94_600dpi_r1c2_clip40-180.png
+  status: double_read
+  notes: printed unsigned; the last sentence says the day-radius 'is also south of the equator'.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 180, 370, 262]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

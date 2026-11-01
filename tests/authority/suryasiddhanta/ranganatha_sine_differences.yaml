@@ -1,0 +1,928 @@
+id: authority/suryasiddhanta/ranganatha_sine_differences
+methods: [suryasiddhanta]
+class: text_computed
+source: suryasiddhanta_hall_1859
+edition_page: 66
+pdf_page: 78
+locus: 'PDF 78 l. 7 (''yatha prathamakhandam'') to l. 19 (the quoted rounding verse); PDF 79 l. 17-20 (the first sine); PDF 80 l. 1-3 (the greatest khanda difference): the commentary on ii.15-16'
+rounding: 'quotients are taken as integers: the commentary (l. 8) counts a fraction above a half as one; the quoted verse (input.rounding_verse) names the differences where that is not done (paraphrase; not keyed)'
+precision: integers (minutes of arc); the greatest khanda difference to thirds
+datum_keys: [texts.suryasiddhanta.procedures.interpolation.rule]
+notes: 'Values span three pages: PDF 78 (printed 66), PDF 79 (printed 67), PDF 80 (printed 68); each value carries its own page. The commentary''s chain: each khanda (here the commentary''s word for the Rsine pinda: 225, 449, 671, 890, 1105) is divided by the first, the quotients summed, the first less the sum gives the next difference, which added to the previous khanda gives the next. Not keyed: ''dvigunaprathamam ekonam'' (l. 3, a rule statement, no digits), the numbers inside the quoted verse''s ablatives, and lemma words. Errata (suryasiddhanta_hall_1859 PDF 402-403): no entry for printed p. 66 or 67; p. 68 l. 12 and l. 21 do not touch these values.'
+values:
+- name: input.khanda_1
+  role: input
+  value: 225
+  form: integer
+  unit: minutes_of_arc
+  script: devanagari
+  edition_page: 66
+  pdf_page: 78
+  locus: PDF 78 l. 7, digit group after 'yatha prathamakhandam'; Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1200
+    clip: [130, 216, 249, 236]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)
+  status: double_read
+  notes: a small dot printed after the 5 (not keyed)
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1089
+    clip: [130, 216, 249, 236]
+    delivered_ppi: 300
+    note: ''
+- name: output.quotient_1
+  role: output
+  value: 1
+  form: integer
+  unit: none
+  script: devanagari
+  edition_page: 66
+  pdf_page: 78
+  locus: PDF 78 l. 7, digit after 'prathamabhaktam phalam'; Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1200
+    clip: [249, 216, 330, 236]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1089
+    clip: [249, 216, 330, 236]
+    delivered_ppi: 300
+    note: ''
+- name: input.khanda_2
+  role: input
+  value: 449
+  form: integer
+  unit: minutes_of_arc
+  script: devanagari
+  edition_page: 66
+  pdf_page: 78
+  locus: PDF 78 l. 7-8, digit group after 'dvitiyakhandam' (l. 7 end), at the start of l. 8; Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1200
+    clip: [38, 238, 140, 258]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1089
+    clip: [38, 238, 140, 258]
+    delivered_ppi: 300
+    note: ''
+- name: output.quotient_2
+  role: output
+  value: 2
+  form: integer
+  unit: none
+  script: devanagari
+  edition_page: 66
+  pdf_page: 78
+  locus: PDF 78 l. 8, the digit after 'prathamabhaktam phalam' and the number word that follows it; Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1200
+    clip: [140, 238, 200, 258]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)
+  status: double_read
+  notes: the same quotient is also printed in words just before it (dvayam), keyed as output.quotient_2_word
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1089
+    clip: [140, 238, 200, 258]
+    delivered_ppi: 300
+    note: ''
+- name: output.quotient_2_word
+  role: output
+  value: 2
+  form: numeral_word
+  value_form: integer
+  word:
+    text: द्वय
+    script: devanagari
+    system: bhutasankhya
+    decode: 2
+  unit: none
+  script: devanagari
+  edition_page: 66
+  pdf_page: 78
+  locus: 'PDF 78 l. 8, the number word after ''prathamabhaktam phalam'', before the digit: case ending dropped; numeral-word convention (stem, numeral members only)'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1200
+    clip: [140, 238, 200, 258]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)
+  status: double_read
+  notes: ordinary number word ('a pair'), counted as it means
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1089
+    clip: [140, 238, 200, 258]
+    delivered_ppi: 300
+    note: value = the word's decode (the frozen file carries the word only)
+- name: output.first_less_quotients_sum_2
+  role: output
+  value: 222
+  form: integer
+  unit: minutes_of_arc
+  script: devanagari
+  edition_page: 66
+  pdf_page: 78
+  locus: PDF 78 l. 9, digit group after 'phalaikyonam prathamam'; Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1200
+    clip: [200, 260, 290, 280]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)
+  status: double_read
+  notes: the first khanda less the sum of the quotients; then added to the second (l. 10)
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1089
+    clip: [200, 260, 290, 280]
+    delivered_ppi: 300
+    note: ''
+- name: input.khanda_2_again
+  role: input
+  value: 449
+  form: integer
+  unit: minutes_of_arc
+  script: devanagari
+  edition_page: 66
+  pdf_page: 78
+  locus: PDF 78 l. 10, 1st digit group ('anena dvitiyakhando ...'); Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1200
+    clip: [38, 282, 170, 302]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: clip auto-split into tiles r1c1 and r1c2; upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1089
+    clip: [38, 282, 170, 302]
+    delivered_ppi: 300
+    note: ''
+- name: output.khanda_3
+  role: output
+  value: 671
+  form: integer
+  unit: minutes_of_arc
+  script: devanagari
+  edition_page: 66
+  pdf_page: 78
+  locus: PDF 78 l. 10, digit group after 'yutas trtiyam'; Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1200
+    clip: [150, 282, 215, 302]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1089
+    clip: [150, 282, 215, 302]
+    delivered_ppi: 300
+    note: ''
+- name: output.quotient_3
+  role: output
+  value: 3
+  form: integer
+  unit: none
+  script: devanagari
+  edition_page: 66
+  pdf_page: 78
+  locus: PDF 78 l. 10-11, after 'evam idam prathamakhandabhaktam phalam' (l. 10 end), the digit at the start of l. 11; Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1200
+    clip: [38, 304, 110, 324]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)
+  status: double_read
+  notes: the glyph is heavily inked (its upper counters filled); read as 3, the same shape as the clearer 3 that follows on the line
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1089
+    clip: [38, 304, 110, 324]
+    delivered_ppi: 300
+    note: ''
+- name: input.prior_quotients_sum_3
+  role: input
+  value: 3
+  form: integer
+  unit: none
+  script: devanagari
+  edition_page: 66
+  pdf_page: 78
+  locus: PDF 78 l. 11, digit after 'anena purvaphalaikyam'; Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1200
+    clip: [110, 304, 200, 324]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1089
+    clip: [110, 304, 200, 324]
+    delivered_ppi: 300
+    note: ''
+- name: output.quotients_sum_3
+  role: output
+  value: 6
+  form: integer
+  unit: none
+  script: devanagari
+  edition_page: 66
+  pdf_page: 78
+  locus: PDF 78 l. 11, digit after 'yutam jatam'; Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1200
+    clip: [190, 304, 240, 324]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1089
+    clip: [190, 304, 240, 324]
+    delivered_ppi: 300
+    note: ''
+- name: output.first_less_quotients_sum_3
+  role: output
+  value: 219
+  form: integer
+  unit: minutes_of_arc
+  script: devanagari
+  edition_page: 66
+  pdf_page: 78
+  locus: PDF 78 l. 12, 1st digit group ('sarvaphalaikyam anena prathamam khandam hinam ...', l. 11 end to l. 12); Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1200
+    clip: [60, 327, 110, 347]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1089
+    clip: [60, 327, 110, 347]
+    delivered_ppi: 300
+    note: ''
+- name: input.khanda_3_again
+  role: input
+  value: 671
+  form: integer
+  unit: minutes_of_arc
+  script: devanagari
+  edition_page: 66
+  pdf_page: 78
+  locus: PDF 78 l. 12, digit group after 'anena trtiyam'; Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1200
+    clip: [150, 327, 200, 347]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1089
+    clip: [150, 327, 200, 347]
+    delivered_ppi: 300
+    note: ''
+- name: output.khanda_4
+  role: output
+  value: 890
+  form: integer
+  unit: minutes_of_arc
+  script: devanagari
+  edition_page: 66
+  pdf_page: 78
+  locus: PDF 78 l. 12, digit group after 'yutam caturtham'; Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1200
+    clip: [225, 327, 280, 347]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)
+  status: double_read
+  notes: a stray dot printed before the 8 (not keyed)
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1089
+    clip: [225, 327, 280, 347]
+    delivered_ppi: 300
+    note: ''
+- name: output.quotient_4
+  role: output
+  value: 4
+  form: integer
+  unit: none
+  script: devanagari
+  edition_page: 66
+  pdf_page: 78
+  locus: PDF 78 l. 13, digit after 'evam idam prathamakhandabhaktam phalam' (l. 12 end 'prathama-', l. 13); Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1200
+    clip: [100, 349, 130, 369]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1089
+    clip: [100, 349, 130, 369]
+    delivered_ppi: 300
+    note: ''
+- name: output.first_less_prior_quotients_sum_4
+  role: output
+  value: 219
+  form: integer
+  unit: minutes_of_arc
+  script: devanagari
+  edition_page: 66
+  pdf_page: 78
+  locus: PDF 78 l. 13, digit group after 'purvalabdhaikyonaprathamakhandarupam'; Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1200
+    clip: [260, 349, 310, 369]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1089
+    clip: [260, 349, 310, 369]
+    delivered_ppi: 300
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-fable-5-1/2026-10-15-r1
+      on: 2026-10-15
+      dpi: 1200
+      clip: [260, 349, 310, 369]
+      delivered_ppi: 300
+      max_edge: 2000
+      note: ''
+    matches: read
+- name: input.quotient_4_again
+  role: input
+  value: 4
+  form: integer
+  unit: none
+  script: devanagari
+  edition_page: 66
+  pdf_page: 78
+  locus: PDF 78 l. 14, digit after 'jyantararupakhandakam anena' (l. 13 end 'jyantara-', l. 14); Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1200
+    clip: [100, 371, 160, 391]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1089
+    clip: [100, 371, 160, 391]
+    delivered_ppi: 300
+    note: ''
+- name: output.difference_5
+  role: output
+  value: 215
+  form: integer
+  unit: minutes_of_arc
+  script: devanagari
+  edition_page: 66
+  pdf_page: 78
+  locus: PDF 78 l. 14, digit group after 'hinam'; Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1200
+    clip: [150, 371, 200, 391]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1089
+    clip: [150, 371, 200, 391]
+    delivered_ppi: 300
+    note: ''
+- name: output.khanda_5
+  role: output
+  value: 1105
+  form: integer
+  unit: minutes_of_arc
+  script: devanagari
+  edition_page: 66
+  pdf_page: 78
+  locus: PDF 78 l. 14, digit group after 'anena caturtham yutam pancamam'; Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1200
+    clip: [290, 371, 348, 391]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)
+  status: double_read
+  notes: a small dot printed after the 5 (not keyed)
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1089
+    clip: [290, 371, 348, 391]
+    delivered_ppi: 300
+    note: ''
+- name: input.khanda_count_word
+  role: input
+  value: 24
+  form: numeral_word
+  value_form: integer
+  word:
+    text: चतुर्विंशत्
+    script: devanagari
+    system: bhutasankhya
+    decode: 24
+  unit: none
+  script: devanagari
+  edition_page: 66
+  pdf_page: 78
+  locus: 'PDF 78 l. 16, 3rd word (a compound with सङ्ख्याक): numeral member; the member सङ्ख्याक not keyed; numeral-word convention (stem, numeral members only)'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 450
+    clip: [38, 412, 348, 431]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tile r1c1 of clip [38,412,348,448] 1x2 --overlap 2 at 450 dpi; upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)
+  status: double_read
+  notes: the sines (jyardhapindas) to be made are twenty-four, not more
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 450
+    clip: [38, 412, 348, 431]
+    delivered_ppi: 300
+    note: value = the word's decode (the frozen file carries the word only)
+- name: input.rounding_verse
+  role: input
+  value: एकविंशाच्च त्रिंशाच्च षष्ठात् पञ्चदशादपि सप्तमाद्द्वादशात् सप्तदशान्नार्धोत्तरं मतम्
+  form: text
+  unit: statement
+  script: devanagari
+  edition_page: 66
+  pdf_page: 78
+  locus: PDF 78 l. 18-19 (the indented verse after 'atra'), from 'ekavimsac' to 'matam', before the double danda; Devanagari statement convention (NFC as printed, dandas not keyed, footnote marks not keyed)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1100
+    clip: [80, 455, 300, 479]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tiles r1c1, r1c2 (2x1); upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1100
+    clip: [80, 476, 300, 500]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tiles r1c1, r1c2 (2x1); upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 2400
+    clip: [100, 478, 140, 500]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: the conjunct of 'saptamad dvadasat'; upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 2400
+    clip: [140, 457, 175, 477]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: '''sasthat''; upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)'
+  status: read
+  notes: 'followed on l. 20 by ''iti brahmasiddhantoktes ... '' (the verse is quoted, not this text''s own). DOUBT: the conjunct in ''saptamad dvadasat'' is a single stacked glyph, read द्द्व (d + d + v); a mid-line dot after ''trimsac ca'' (l. 18) and dots below ''pancadasad'' and ''sasan'' are printed marks or specks, not keyed. Each ablative names a sine-difference index; the numbers in it are not keyed separately as numeral words.'
+  read_issue: disputed
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 653
+    clip: [80, 455, 300, 500]
+    delivered_ppi: 300
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-15-r3
+      on: 2026-10-15
+      dpi: 1100
+      clip: [80, 455, 300, 479]
+      delivered_ppi: 300
+      max_edge: 2000
+      note: ''
+    matches: neither
+- name: input.quoted_circle_part_word
+  role: input
+  value: 96
+  form: numeral_word
+  value_form: integer
+  word:
+    text: षण्णवति
+    script: devanagari
+    system: bhutasankhya
+    decode: 96
+  unit: none
+  script: devanagari
+  edition_page: 67
+  pdf_page: 79
+  locus: 'PDF 79 l. 17, the indented half-verse (beginning ''vrttasya''), 2nd word: numeral member; the member अंश not keyed; numeral-word convention (stem, numeral members only)'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 700
+    clip: [38, 432.5, 194.5, 456]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tile r2c1 of clip [38,412,348,456] 2x2 --overlap 3 at 700 dpi; upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)
+  status: double_read
+  notes: 'a quoted half-verse, attributed on l. 18 (''iti sakalyokteh''): the ninety-sixth part of a circle appears straight'
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 700
+    clip: [38, 432.5, 194.5, 456]
+    delivered_ppi: 300
+    note: value = the word's decode (the frozen file carries the word only)
+- name: input.circle_minutes_divisor_word
+  role: input
+  value: 12
+  form: numeral_word
+  value_form: integer
+  word:
+    text: द्वादश
+    script: devanagari
+    system: bhutasankhya
+    decode: 12
+  unit: none
+  script: devanagari
+  edition_page: 67
+  pdf_page: 79
+  locus: 'PDF 79 l. 18, in the long compound beginning चक्रकला: its first numeral member; the members चक्रकला, अंश, रूप not keyed; numeral-word convention (stem, numeral members only)'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 700
+    clip: [191.5, 452, 348, 476.7]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tile r1c2 of clip [38,452,348,520] 2x3 --overlap 3 at 700 dpi; upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)
+  status: double_read
+  notes: the twelfth part of the circle-minutes
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 700
+    clip: [191.5, 452, 348, 476.7]
+    delivered_ppi: 300
+    note: value = the word's decode (the frozen file carries the word only)
+- name: input.sign_word
+  role: input
+  value: 1
+  form: numeral_word
+  value_form: integer
+  word:
+    text: एक
+    script: devanagari
+    system: bhutasankhya
+    decode: 1
+  unit: none
+  script: devanagari
+  edition_page: 67
+  pdf_page: 79
+  locus: 'PDF 79 l. 18-19, in the same compound (split at the end of l. 18): its second numeral member, before राशि; राशि, कला not keyed; numeral-word convention (stem, numeral members only)'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 700
+    clip: [191.5, 452, 348, 476.7]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tile r1c2 of clip [38,452,348,520] 2x3 --overlap 3 at 700 dpi; upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 700
+    clip: [191.5, 452, 348, 476.7]
+    delivered_ppi: 300
+    note: value = the word's decode (the frozen file carries the word only)
+- name: input.part_word
+  role: input
+  value: 8
+  form: numeral_word
+  value_form: integer
+  word:
+    text: अष्ट
+    script: devanagari
+    system: bhutasankhya
+    decode: 8
+  unit: none
+  script: devanagari
+  edition_page: 67
+  pdf_page: 79
+  locus: 'PDF 79 l. 19, the compound with भाग: numeral member; the member भाग not keyed; numeral-word convention (stem, numeral members only)'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 700
+    clip: [38, 473.7, 194.5, 498.3]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tile r2c1 of clip [38,452,348,520] 2x3 --overlap 3 at 700 dpi; upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 700
+    clip: [38, 473.7, 194.5, 498.3]
+    delivered_ppi: 300
+    note: value = the word's decode (the frozen file carries the word only)
+- name: output.first_sine_word
+  role: output
+  value: 225
+  form: numeral_word
+  value_form: integer
+  word:
+    text: तत्त्वाश्वि
+    script: devanagari
+    system: bhutasankhya
+    decode: 225
+  unit: none
+  script: devanagari
+  edition_page: 67
+  pdf_page: 79
+  locus: 'PDF 79 l. 19, the compound with मित after the compound with भाग: its numeral members; the member मित not keyed; the स् of the preceding visarga sandhi dropped; numeral-word convention (stem, numeral members only)'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 700
+    clip: [38, 473.7, 194.5, 498.3]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tile r2c1 of clip [38,452,348,520] 2x3 --overlap 3 at 700 dpi; upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)
+  status: double_read
+  notes: 'bhutasankhya: tattva 25 (units and tens), asvin 2 -> 225; the first sine (prathamajya), equal to the first arc'
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 700
+    clip: [38, 473.7, 194.5, 498.3]
+    delivered_ppi: 300
+    note: value = the word's decode (the frozen file carries the word only)
+- name: input.sine_count_word_2
+  role: input
+  value: 24
+  form: numeral_word
+  value_form: integer
+  word:
+    text: चतुर्विंशत्
+    script: devanagari
+    system: bhutasankhya
+    decode: 24
+  unit: none
+  script: devanagari
+  edition_page: 67
+  pdf_page: 79
+  locus: PDF 79 l. 20, the last word of the sentence beginning 'etadantarenabhista jyas' (the number of the sines); numeral-word convention (stem, numeral members only)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 700
+    clip: [38, 495.3, 348, 520]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tiles r3c1, r3c2 of clip [38,452,348,520] 2x3 --overlap 3 at 700 dpi; upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)
+  status: double_read
+  notes: the following 'caturvimsatijivanam' (l. 20) opens the next sentence and is not keyed
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 463
+    clip: [38, 495.3, 348, 520]
+    delivered_ppi: 300
+    note: value = the word's decode (the frozen file carries the word only)
+- name: input.sine_index_a_word
+  role: input
+  value: 22
+  form: numeral_word
+  value_form: integer
+  word:
+    text: द्वाविंशति
+    script: devanagari
+    system: bhutasankhya
+    decode: 22
+  unit: none
+  script: devanagari
+  edition_page: 68
+  pdf_page: 80
+  locus: 'PDF 80 l. 1, in the compound ending in ज्यानाम्: 1st numeral member; numeral-word convention (stem, numeral members only)'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 700
+    clip: [38, 84, 194.5, 104]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tile r1c1 of clip [38,84,348,104] 2x1 --overlap 3 at 700 dpi; upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 700
+    clip: [38, 84, 194.5, 104]
+    delivered_ppi: 300
+    note: value = the word's decode (the frozen file carries the word only)
+- name: input.sine_index_b_word
+  role: input
+  value: 23
+  form: numeral_word
+  value_form: integer
+  word:
+    text: त्रयोविंशति
+    script: devanagari
+    system: bhutasankhya
+    decode: 23
+  unit: none
+  script: devanagari
+  edition_page: 68
+  pdf_page: 80
+  locus: PDF 80 l. 1, same compound, 2nd numeral member; numeral-word convention (stem, numeral members only)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 700
+    clip: [38, 84, 348, 104]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tiles r1c1, r1c2 of clip [38,84,348,104] 2x1 --overlap 3 at 700 dpi; upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 463
+    clip: [38, 84, 348, 104]
+    delivered_ppi: 300
+    note: value = the word's decode (the frozen file carries the word only)
+- name: input.sine_index_c_word
+  role: input
+  value: 24
+  form: numeral_word
+  value_form: integer
+  word:
+    text: चतुर्विंशति
+    script: devanagari
+    system: bhutasankhya
+    decode: 24
+  unit: none
+  script: devanagari
+  edition_page: 68
+  pdf_page: 80
+  locus: PDF 80 l. 1, same compound, 3rd numeral member; the member ज्या not keyed; numeral-word convention (stem, numeral members only)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 700
+    clip: [191.5, 84, 348, 104]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tile r1c2 of clip [38,84,348,104] 2x1 --overlap 3 at 700 dpi; upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)
+  status: double_read
+  notes: the 22nd, 23rd and 24th sines; their differences (antara, l. 1-2) and the difference of those, the greatest khanda difference, follows on l. 3
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 700
+    clip: [191.5, 84, 348, 104]
+    delivered_ppi: 300
+    note: value = the word's decode (the frozen file carries the word only)
+- name: output.max_khanda_difference
+  role: output
+  value: [15, 16, 48]
+  form: sexagesimal
+  unit: minutes_seconds_thirds
+  script: devanagari
+  edition_page: 68
+  pdf_page: 80
+  locus: PDF 80 l. 3, the digit string at the start of l. 3, after 'paramam khandantaram suksmajyotpattiprakarenavagatam' (l. 2); parts separated by danda in print; Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1500
+    clip: [38, 121, 110, 143]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_sine_differences.yaml (sha256 4becd4be)
+  status: double_read
+  notes: 'parts as printed [15, 16, 48]; the unit is not printed on the line (the khandas are in minutes of arc). The end of the commentary on ii.16 per the task. Errata (suryasiddhanta_hall_1859 PDF 403) for p. 68: l. 12 and l. 21 only; neither touches l. 1-3.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1500
+    clip: [38, 121, 110, 143]
+    delivered_ppi: 300
+    note: ''

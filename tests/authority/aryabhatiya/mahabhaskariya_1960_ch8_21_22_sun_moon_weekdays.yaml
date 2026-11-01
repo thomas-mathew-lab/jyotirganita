@@ -1,0 +1,325 @@
+id: authority/aryabhatiya/mahabhaskariya_1960_ch8_21_22_sun_moon_weekdays
+methods: [aryabhatiya]
+class: editor_computed
+source: mahabhaskariya_1960
+file: mahabhaskariya_1960-mahabhaskariya-shukla-1960.pdf
+edition_page: 223
+pdf_page: 308
+locus: VIII.21-22, 'The Sun and Moon on a Sunday at sunrise are carefully seen by me in (the sign) Libra. …', and Shukla's solution with cases (i)–(iii), pp. 223–224 (PDF 308–309)
+rounding: the longitudes to the printed second (the text's question gives degrees and minutes and the seconds to add or subtract)
+precision: seconds of arc; whole days
+datum_keys: [texts.aryabhatiya.sun.revolutions, texts.aryabhatiya.moon.revolutions, texts.aryabhatiya.civil_days.laghubhaskariya_1963, texts.aryabhatiya.procedures.weekday.rule]
+notes: 'Footnote 2: ''Bhāskara I''s example, occurring in his comm. on A, ii. 32-33.'' The question is Bhāskara I''s; the solution and its figures are Shukla''s (editor_computed). Shukla states without working that the two longitudes hold on a Sunday 7500 days after the Kali epoch; the forward test is the Sun''s and the Moon''s mean longitudes at ahargaṇa 7500, to the printed second, and the weekday of 7500 (Sunday). Like the ch. I fixture''s, this weekday runs one day behind laghubhaskariya_1963 I.8 and mahabhaskariya_1960''s own rule (texts.aryabhatiya.procedures.weekday.rule.mahabhaskariya_1960, p. 19), under which the remainder 0 is a Friday; it is Bhāskara I''s problem statement, and that the example''s ahargaṇa is the day''s ordinal is an inference. The test compares the weekday differences modulo 7 only. Footnote 3: ''131493125 … is the L.C.M. of 210389 and 2155625.'''
+values:
+- name: input.sun_longitude
+  role: input
+  value: [6, 12, 1, 17]
+  form: rdms
+  unit: rasi_deg_min_sec
+  script: latin
+  edition_page: 223
+  pdf_page: 308
+  locus: VIII.21-22 (the Sun and Moon on a Sunday) and Shukla's solution, 'That is to say, the Sun's longitude = … signs, … degrees, … minute, and … seconds'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 308)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.moon_longitude
+  role: input
+  value: [6, 2, 39, 42]
+  form: rdms
+  unit: rasi_deg_min_sec
+  script: latin
+  edition_page: 223
+  pdf_page: 308
+  locus: VIII.21-22 (the Sun and Moon on a Sunday) and Shukla's solution, 'and the Moon's longitude = … signs, … degrees, … minutes, and … seconds'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 308)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.ahargana_sunday
+  role: output
+  value: 7500
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 223
+  pdf_page: 308
+  locus: VIII.21-22 (the Sun and Moon on a Sunday) and Shukla's solution, 'Calculation will show that the Sun and Moon assume these longitudes on a Sunday … days after the commencement of Kaliyuga'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 308)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.abraded_sun_revolutions
+  role: output
+  value: 576
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 223
+  pdf_page: 308
+  locus: VIII.21-22 (the Sun and Moon on a Sunday) and Shukla's solution, the first fraction '576A / …', the numerator.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 308)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.abraded_sun_civil_days
+  role: output
+  value: 210389
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 223
+  pdf_page: 308
+  locus: VIII.21-22 (the Sun and Moon on a Sunday) and Shukla's solution, the same fraction, the denominator.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 308)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.abraded_moon_revolutions
+  role: output
+  value: 78898
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 223
+  pdf_page: 308
+  locus: VIII.21-22 (the Sun and Moon on a Sunday) and Shukla's solution, the second fraction '78898A / …', the numerator.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 308)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.abraded_moon_civil_days
+  role: output
+  value: 2155625
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 223
+  pdf_page: 308
+  locus: VIII.21-22 (the Sun and Moon on a Sunday) and Shukla's solution, the same fraction, the denominator.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 308)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.lcm
+  role: output
+  value: 131493125
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 223
+  pdf_page: 308
+  locus: VIII.21-22 (the Sun and Moon on a Sunday) and Shukla's solution, 'If we assume A = 131493125X'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 308)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.x
+  role: output
+  value: 4
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 224
+  pdf_page: 309
+  locus: VIII.21-22 (the Sun and Moon on a Sunday) and Shukla's solution, p. 224, 'we find that X = … makes (131493125X—…)/… a whole number'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 309)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.ahargana_thursday
+  role: output
+  value: 525980000
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 224
+  pdf_page: 309
+  locus: VIII.21-22 (the Sun and Moon on a Sunday) and Shukla's solution, p. 224, case (i), '= … days'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 309)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.ahargana_friday
+  role: output
+  value: 657473125
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 224
+  pdf_page: 309
+  locus: VIII.21-22 (the Sun and Moon on a Sunday) and Shukla's solution, p. 224, case (ii), 'i.e., … days'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 309)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.ahargana_saturday
+  role: output
+  value: 788966250
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 224
+  pdf_page: 309
+  locus: VIII.21-22 (the Sun and Moon on a Sunday) and Shukla's solution, p. 224, case (iii), '= … days'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 309)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''

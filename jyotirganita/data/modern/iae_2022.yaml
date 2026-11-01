@@ -1,0 +1,1351 @@
+- key: modern.iae.calendar_sunrise.statement
+  value: The Sunrise and Sunset times, calculated for the Central Station, relate respectively to the appearance and disappearance of the upper limb of the Sun on the horizon. The amount of horizontal refraction taken for this purpose is 31′ and the semi-diameter of the Sun as 16′, so that at the given times of Sunrise and Sunset, the centre of the Sun actually 47′ below the horizon
+  form: text
+  unit: statement
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 378
+  pdf_page: 385
+  locus: 'Indian Calendar, Explanatory Note, the paragraph on Sunrise and Sunset: from ''The Sunrise and Sunset times'' to ''below the horizon''. Latin text keyed as printed (spelling, case; italics not marked); spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; a formula in plain characters (superscripts as ^n, subscripts as _x, Greek letters as Unicode); the value ends before the closing full stop.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 690, 522, 745]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: prime marks printed as a slanted superscript stroke, keyed as ′ (U+2032) and ″ (U+2033)
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 690, 522, 745]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.refraction.iae_india.horizontal
+  value: '31'
+  form: fraction
+  unit: arcminutes
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 378
+  pdf_page: 385
+  locus: 'Indian Calendar, Explanatory Note, the Sunrise and Sunset paragraph: the amount of horizontal refraction its second sentence states. a decimal coefficient keyed as printed digit for digit, trailing zeros kept, the printed grouping of digits dropped, its sign as `negative`; a unit mark printed inside the number is not keyed (it is the `unit`; its placement in `notes`).'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 690, 522, 745]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: printed with a prime after the number
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 690, 522, 745]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: no re-read
+- key: modern.sun.semidiameter.iae
+  value: '16'
+  form: fraction
+  unit: arcminutes
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 378
+  pdf_page: 385
+  locus: 'Indian Calendar, Explanatory Note, the Sunrise and Sunset paragraph: the semi-diameter of the Sun its second sentence states. a decimal coefficient keyed as printed digit for digit, trailing zeros kept, the printed grouping of digits dropped, its sign as `negative`; a unit mark printed inside the number is not keyed (it is the `unit`; its placement in `notes`).'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 690, 522, 745]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: printed with a prime after the number
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 690, 522, 745]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: no re-read
+- key: modern.iae.observer_frame.statement
+  value: The phenomena being geocentric ones, their timings in I.S.T. are applicable for the whole of India without any modification
+  form: text
+  unit: statement
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 379
+  pdf_page: 386
+  locus: 'Indian Calendar, Explanatory Note, the paragraph ''The ending moments of tithis …'': from ''The phenomena being geocentric'' to ''without any modification''. Latin text keyed as printed (spelling, case; italics not marked); spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; a formula in plain characters (superscripts as ^n, subscripts as _x, Greek letters as Unicode); the value ends before the closing full stop.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 140, 522, 175]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 140, 522, 175]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.ayanamsa.iae_lahiri.initial_point
+  value: For the purpose of calculation of rasis, nakshatras and yogas, an initial point which occupies a fixed position on the ecliptic has been adopted as the origin for the measurement of longitudes. The position of this initial point coincides with the vernal equinoctial point of vernal equinox day of 285 A.D. For the purpose of assigning a precise position to it, the tropical longitude of this initial point has been adopted as 23° 15′ 00″ for 0^h on 21st March, 1956. The tropical longitude of this fixed initial point for any day is known as ayanamsa. The longitude of a celestial body measured from this initial point is known as nirayana longitude
+  form: text
+  unit: statement
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 379
+  pdf_page: 386
+  locus: 'Indian Calendar, Explanatory Note: from ''For the purpose of calculation of rasis'' to ''is known as nirayana longitude'', the whole paragraph. Latin text keyed as printed (spelling, case; italics not marked); spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; a formula in plain characters (superscripts as ^n, subscripts as _x, Greek letters as Unicode); the value ends before the closing full stop.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 458, 522, 540]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: prime marks printed as a slanted superscript stroke, keyed as ′ (U+2032) and ″ (U+2033); the h of 0h printed as a superscript
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 458, 522, 540]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.ayanamsa.iae_lahiri.mean_statement
+  value: The value of ayanamsa has been given in the calendar for the first day of the month and also in a separate table at the end at interval of three days. The ayanamsa value has been calculated from the polynomial of precession in longitude published by N.Capitaine et. al. (2003) in journal Astronomy and Astrophysics. The polynomial for ayanamsa has been introduced in this publication from the year 2021. The polynomial used is as given below
+  form: text
+  unit: statement
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 380
+  pdf_page: 387
+  locus: 'Indian Calendar, Explanatory Note, AYANAMSA: from ''The value of ayanamsa'' to ''as given below'', the paragraph before the polynomial. Latin text keyed as printed (spelling, case; italics not marked); spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; a formula in plain characters (superscripts as ^n, subscripts as _x, Greek letters as Unicode); the value ends before the closing full stop.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 388, 522, 490]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: '''N.Capitaine'' printed without a space after the point'
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 388, 522, 490]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.ayanamsa.iae_lahiri.mean.c0.degrees
+  value: 23
+  form: integer
+  unit: degrees
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 380
+  pdf_page: 387
+  locus: 'Indian Calendar, Explanatory Note, AYANAMSA, the line beginning ''Mean Ayanamsa ='': the constant term''s degrees (the term is printed in degrees, minutes and seconds; each part is a datum, since a sexagesimal datum carries integer parts only). a decimal coefficient keyed as printed digit for digit, trailing zeros kept, the printed grouping of digits dropped, its sign as `negative`; a unit mark printed inside the number is not keyed (it is the `unit`; its placement in `notes`).'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 388, 522, 490]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'printed 23°51′25″.53: the degree mark a superscript o, the seconds'' mark before the decimal point'
+  kind: model
+  range: unstated
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 388, 522, 490]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.ayanamsa.iae_lahiri.mean.c0.arcminutes
+  value: 51
+  form: integer
+  unit: arcminutes
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 380
+  pdf_page: 387
+  locus: 'Indian Calendar, Explanatory Note, AYANAMSA, the line beginning ''Mean Ayanamsa ='': the constant term''s minutes (the term is printed in degrees, minutes and seconds; each part is a datum, since a sexagesimal datum carries integer parts only). a decimal coefficient keyed as printed digit for digit, trailing zeros kept, the printed grouping of digits dropped, its sign as `negative`; a unit mark printed inside the number is not keyed (it is the `unit`; its placement in `notes`).'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 388, 522, 490]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'printed 23°51′25″.53: the degree mark a superscript o, the seconds'' mark before the decimal point'
+  kind: model
+  range: unstated
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 388, 522, 490]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.ayanamsa.iae_lahiri.mean.c0.arcseconds
+  value: '25.53'
+  form: fraction
+  unit: arcseconds
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 380
+  pdf_page: 387
+  locus: 'Indian Calendar, Explanatory Note, AYANAMSA, the line beginning ''Mean Ayanamsa ='': the constant term''s seconds with their decimal (the term is printed in degrees, minutes and seconds; each part is a datum, since a sexagesimal datum carries integer parts only). a decimal coefficient keyed as printed digit for digit, trailing zeros kept, the printed grouping of digits dropped, its sign as `negative`; a unit mark printed inside the number is not keyed (it is the `unit`; its placement in `notes`).'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 388, 522, 490]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'printed 23°51′25″.53: the degree mark a superscript o, the seconds'' mark before the decimal point'
+  kind: model
+  range: unstated
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 388, 522, 490]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.ayanamsa.iae_lahiri.mean.c1
+  value: '5028.796195'
+  form: fraction
+  unit: arcseconds
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 380
+  pdf_page: 387
+  locus: 'Indian Calendar, Explanatory Note, AYANAMSA, the line beginning ''Mean Ayanamsa ='': the coefficient of T (the term''s sign as printed before it). a decimal coefficient keyed as printed digit for digit, trailing zeros kept, the printed grouping of digits dropped, its sign as `negative`; a unit mark printed inside the number is not keyed (it is the `unit`; its placement in `notes`).'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 388, 522, 490]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: printed with the seconds' mark before the decimal point; the power of T a superscript
+  kind: model
+  range: unstated
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 388, 522, 490]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.ayanamsa.iae_lahiri.mean.c2
+  value: '1.1054348'
+  form: fraction
+  unit: arcseconds
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 380
+  pdf_page: 387
+  locus: 'Indian Calendar, Explanatory Note, AYANAMSA, the line beginning ''Mean Ayanamsa ='': the coefficient of T^2 (the term''s sign as printed before it). a decimal coefficient keyed as printed digit for digit, trailing zeros kept, the printed grouping of digits dropped, its sign as `negative`; a unit mark printed inside the number is not keyed (it is the `unit`; its placement in `notes`).'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 388, 522, 490]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: printed with the seconds' mark before the decimal point; the power of T a superscript
+  kind: model
+  range: unstated
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 388, 522, 490]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.ayanamsa.iae_lahiri.mean.c3
+  value: '0.00007964'
+  form: fraction
+  unit: arcseconds
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 380
+  pdf_page: 387
+  locus: 'Indian Calendar, Explanatory Note, AYANAMSA, the line beginning ''Mean Ayanamsa ='': the coefficient of T^3 (the term''s sign as printed before it). a decimal coefficient keyed as printed digit for digit, trailing zeros kept, the printed grouping of digits dropped, its sign as `negative`; a unit mark printed inside the number is not keyed (it is the `unit`; its placement in `notes`).'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 388, 522, 490]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: printed with the seconds' mark before the decimal point; the power of T a superscript
+  kind: model
+  range: unstated
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 388, 522, 490]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.ayanamsa.iae_lahiri.mean.c4
+  value: '0.00023857'
+  form: fraction
+  negative: true
+  unit: arcseconds
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 380
+  pdf_page: 387
+  locus: 'Indian Calendar, Explanatory Note, AYANAMSA, the line beginning ''Mean Ayanamsa ='': the coefficient of T^4 (the term''s sign as printed before it). a decimal coefficient keyed as printed digit for digit, trailing zeros kept, the printed grouping of digits dropped, its sign as `negative`; a unit mark printed inside the number is not keyed (it is the `unit`; its placement in `notes`).'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 388, 522, 490]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation:
+    printed: '0.00023857'
+    adopted: '0.000023857'
+    evidence: 'inference from an independent evaluation, not a witness of the page: the IAE states that its mean ayanamsa follows the IAU 2006 precession, and a least-squares fit of the general precession in longitude from the IAU 2006 Fukushima-Williams angles of the fetched TN36 table (tests/crosscheck/test_modern_iae_polynomial.py) agrees with the printed T, T^2, T^3 and T^5 coefficients within one unit of their last printed digit and with the adopted T^4 coefficient within one unit of the printed one''s last digit, while the printed T^4 coefficient is about ten times the fit. The adopted value is the printed digits with one more zero after the decimal point (a dropped zero). No second printing is held: the IAE volumes 2018-2021 print no polynomial. Adopted by the library author''s ruling'
+    evidence_indic: false
+    by: claude-opus-5-5/2026-10-24-r4
+    on: 2026-10-24
+    owner_signoff: null
+  notes: 'printed with the seconds'' mark before the decimal point; the power of T a superscript. The T^4 check (audit addendum A2): a least-squares fit of the general precession in longitude computed from the IAU 2006 Fukushima–Williams angles (iau2006_precession; tests/crosscheck/test_modern_iae_polynomial.py) gives a T^4 coefficient about one tenth of the printed one, while the fit agrees with the printed T, T^2, T^3 and T^5 coefficients within one unit of their last printed digit. the library author adopted the emendation on this evidence on 2026-10-24. The difference is below 0.001″ from 1900 to 2100, about 0.9″ at 1200 CE and 2.1″ at 1000 CE.'
+  kind: model
+  range: unstated
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 388, 522, 490]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.ayanamsa.iae_lahiri.mean.c5
+  value: '0.0000000383'
+  form: fraction
+  negative: true
+  unit: arcseconds
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 380
+  pdf_page: 387
+  locus: 'Indian Calendar, Explanatory Note, AYANAMSA, the line beginning ''Mean Ayanamsa ='': the coefficient of T^5 (the term''s sign as printed before it). a decimal coefficient keyed as printed digit for digit, trailing zeros kept, the printed grouping of digits dropped, its sign as `negative`; a unit mark printed inside the number is not keyed (it is the `unit`; its placement in `notes`).'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 388, 522, 490]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: printed with the seconds' mark before the decimal point; the power of T a superscript
+  kind: model
+  range: unstated
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 388, 522, 490]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.ayanamsa.iae_lahiri.time_argument
+  value: Where T=(JD−2451545)/36525
+  form: text
+  unit: statement
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 380
+  pdf_page: 387
+  locus: 'Indian Calendar, Explanatory Note, AYANAMSA: the line beginning ''Where T='', whole. Latin text keyed as printed (spelling, case; italics not marked); spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; a formula in plain characters (superscripts as ^n, subscripts as _x, Greek letters as Unicode); the value ends before the closing full stop.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 388, 522, 490]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: printed without spaces
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 388, 522, 490]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.ayanamsa.iae_lahiri.j2000
+  value: Ayanamsha for J2000.0 is taken as 23°51′25″.53
+  form: text
+  unit: statement
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 380
+  pdf_page: 387
+  locus: 'Indian Calendar, Explanatory Note, AYANAMSA: the line beginning ''Ayanamsha for J2000.0'', whole. Latin text keyed as printed (spelling, case; italics not marked); spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; a formula in plain characters (superscripts as ^n, subscripts as _x, Greek letters as Unicode); the value ends before the closing full stop.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 388, 522, 490]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: prime marks printed as a slanted superscript stroke, keyed as ′ (U+2032) and ″ (U+2033); the degree mark a superscript o; 'Ayanamsha' so spelt
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 388, 522, 490]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.node.iae.statement
+  value: MEAN RAHU, 2023
+  form: text
+  unit: statement
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 381
+  pdf_page: 388
+  locus: the heading of the table of the Moon's node for 2023 (the lower table of the page), whole. Latin text keyed as printed (spelling, case; italics not marked); spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; a formula in plain characters (superscripts as ^n, subscripts as _x, Greek letters as Unicode); the value ends before the closing full stop.
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [200, 485, 400, 512]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'one tile of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: bold capitals
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [200, 485, 400, 512]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.ayanamsa.iae_lahiri.true_definition
+  value: True Ayanamsa= Mean Ayanamsa+ nutation in longitude
+  form: text
+  unit: statement
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 421
+  pdf_page: 428
+  locus: 'AYANAMSA, 2022, the foot of the table, the last line: from ''True Ayanamsa='' to ''in longitude''. Latin text keyed as printed (spelling, case; italics not marked); spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; a formula in plain characters (superscripts as ^n, subscripts as _x, Greek letters as Unicode); the value ends before the closing full stop.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [100, 433, 309.5, 740]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tiles r2c1 and r2c2 (2x2 --overlap 14 of [100,140,505,740]); the foot lines run across both; born-digital page rendered at 400 dpi
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: printed without a space before '='; the three foot lines above it ('Mean Ayanamsa= …') are not keyed here
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [100, 680, 505, 745]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.timescales.tdb_minus_tt.statement
+  value: TDB = TT + 0^s.001657 sin g + 0^s.000022 sin (L − L_J), where higher order terms have been neglected. Here g is the mean anomaly of the Earth in its orbit around the Sun and is given by:- g = 357°.53 + 0°.98560028 (JD − 2451545.0) L − L_J = 246°.11 + 0.90251792 (JD − 2451545.0) Where L − L_J is the difference in the mean longitude of the Sun and Jupiter
+  form: text
+  unit: statement
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 432
+  pdf_page: 439
+  locus: 'EXPLANATION, Time scales: from ''TDB = TT +'' to ''the Sun and Jupiter'', the expression of TDB − TT, the definitions of g and L − L_J, and the sentence after them (the display lines joined with single spaces). Latin text keyed as printed (spelling, case; italics not marked); spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; a formula in plain characters (superscripts as ^n, subscripts as _x, Greek letters as Unicode); the value ends before the closing full stop. Formula spacing: one space each side of a binary operator or relation (+, −, ×, /, =) between two operands, none between a sign and its operand, inside a compound symbol or before a subscript; a gap the print leaves inside a number is dropped.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 405, 522, 540]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi; no re-read'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: the s of 0s printed above the zero; the printed digit groups dropped under ruling R1
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 405, 522, 540]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: no re-read
+  third_look:
+    issue: disputed
+    read:
+      by: claude-fable-5-1/2026-10-09-r1
+      on: 2026-10-09
+      dpi: 600
+      clip: [60, 405, 522, 540]
+      delivered_ppi: 600
+      max_edge: 2000
+      note: no re-read
+    matches: read
+- key: modern.timescales.tdb_minus_tt.a_g
+  value: '0.001657'
+  form: fraction
+  unit: seconds
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 432
+  pdf_page: 439
+  locus: 'EXPLANATION, Time scales, the expression of TDB − TT and its arguments: the coefficient of sin g. a decimal coefficient keyed as printed digit for digit, trailing zeros kept, the printed grouping of digits dropped, its sign as `negative`; a unit mark printed inside the number is not keyed (it is the `unit`; its placement in `notes`).'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 405, 522, 540]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: printed 0s.001 657
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 405, 522, 540]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.timescales.tdb_minus_tt.a_lj
+  value: '0.000022'
+  form: fraction
+  unit: seconds
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 432
+  pdf_page: 439
+  locus: 'EXPLANATION, Time scales, the expression of TDB − TT and its arguments: the coefficient of sin (L − L_J). a decimal coefficient keyed as printed digit for digit, trailing zeros kept, the printed grouping of digits dropped, its sign as `negative`; a unit mark printed inside the number is not keyed (it is the `unit`; its placement in `notes`).'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 405, 522, 540]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: printed 0s. 000 022, a space after the point
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 405, 522, 540]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.timescales.tdb_minus_tt.g0
+  value: '357.53'
+  form: fraction
+  unit: degrees
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 432
+  pdf_page: 439
+  locus: 'EXPLANATION, Time scales, the expression of TDB − TT and its arguments: the constant term of g. a decimal coefficient keyed as printed digit for digit, trailing zeros kept, the printed grouping of digits dropped, its sign as `negative`; a unit mark printed inside the number is not keyed (it is the `unit`; its placement in `notes`).'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 405, 522, 540]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: printed 357°.53
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 405, 522, 540]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.timescales.tdb_minus_tt.g1
+  value: '0.98560028'
+  form: fraction
+  unit: degrees_per_day
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 432
+  pdf_page: 439
+  locus: 'EXPLANATION, Time scales, the expression of TDB − TT and its arguments: the coefficient of (JD − 245 1545.0) in g. a decimal coefficient keyed as printed digit for digit, trailing zeros kept, the printed grouping of digits dropped, its sign as `negative`; a unit mark printed inside the number is not keyed (it is the `unit`; its placement in `notes`).'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 405, 522, 540]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: printed 0°.985 600 28
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 405, 522, 540]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.timescales.tdb_minus_tt.lj0
+  value: '246.11'
+  form: fraction
+  unit: degrees
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 432
+  pdf_page: 439
+  locus: 'EXPLANATION, Time scales, the expression of TDB − TT and its arguments: the constant term of L − L_J. a decimal coefficient keyed as printed digit for digit, trailing zeros kept, the printed grouping of digits dropped, its sign as `negative`; a unit mark printed inside the number is not keyed (it is the `unit`; its placement in `notes`).'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 405, 522, 540]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: printed 246°.11
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 405, 522, 540]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.timescales.tdb_minus_tt.lj1
+  value: '0.90251792'
+  form: fraction
+  unit: degrees_per_day
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 432
+  pdf_page: 439
+  locus: 'EXPLANATION, Time scales, the expression of TDB − TT and its arguments: the coefficient of (JD − 245 1545.0) in L − L_J. a decimal coefficient keyed as printed digit for digit, trailing zeros kept, the printed grouping of digits dropped, its sign as `negative`; a unit mark printed inside the number is not keyed (it is the `unit`; its placement in `notes`).'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 405, 522, 540]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: printed 0.902 517 92 with no degree mark
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 405, 522, 540]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.timescales.tdb_minus_tt.epoch_jd
+  value: '2451545.0'
+  form: fraction
+  unit: julian_day
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 432
+  pdf_page: 439
+  locus: 'EXPLANATION, Time scales, the expression of TDB − TT and its arguments: the Julian date subtracted from JD in g and in L − L_J. a decimal coefficient keyed as printed digit for digit, trailing zeros kept, the printed grouping of digits dropped, its sign as `negative`; a unit mark printed inside the number is not keyed (it is the `unit`; its placement in `notes`).'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 405, 522, 540]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: printed 245 1545.0
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [60, 405, 522, 540]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.timescales.tt_minus_tai
+  value: '32.184'
+  form: fraction
+  unit: seconds
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 434
+  pdf_page: 441
+  locus: 'EXPLANATION, Notation for time-scales: the line ''TT = TAI + …'', the number. a decimal coefficient keyed as printed digit for digit, trailing zeros kept, the printed grouping of digits dropped, its sign as `negative`; a unit mark printed inside the number is not keyed (it is the `unit`; its placement in `notes`).'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [55, 455, 520, 582]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: printed 32s.184, the s a superscript
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [55, 455, 520, 582]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.timescales.teph_tdb.statement
+  value: the independent variable of the equations of motion used by the JPL ephemerides, in particular DE405/LE405. T_eph and TDB may be considered to be equivalent
+  form: text
+  unit: statement
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 434
+  pdf_page: 441
+  locus: 'EXPLANATION, Notation for time-scales, the entry T_eph: from ''the independent variable'' to ''considered to be equivalent''. Latin text keyed as printed (spelling, case; italics not marked); spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; a formula in plain characters (superscripts as ^n, subscripts as _x, Greek letters as Unicode); the value ends before the closing full stop.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [55, 455, 520, 582]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: eph printed as a subscript
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [55, 455, 520, 582]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.iae.general_sunrise.statement
+  value: At the given times of Sunrise and Sunset, the upper limb of the Sun is on the horizon; the true zenith distance of the Sun's center is then taken as 90° 50′, allowing 16′ for semi- diameter and 34′ for horizontal refraction
+  form: text
+  unit: statement
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 460
+  pdf_page: 467
+  locus: 'EXPLANATION, PART III, second paragraph: from ''At the given times'' to ''horizontal refraction''. Latin text keyed as printed (spelling, case; italics not marked); spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; a formula in plain characters (superscripts as ^n, subscripts as _x, Greek letters as Unicode); the value ends before the closing full stop.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [75, 225, 540, 268]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: '''semi- diameter'' printed with a hyphen and a space within the line, kept as printed'
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [75, 225, 540, 268]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.refraction.iae_general.horizontal
+  value: '34'
+  form: fraction
+  unit: arcminutes
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 460
+  pdf_page: 467
+  locus: 'EXPLANATION, PART III, second paragraph: the allowance for horizontal refraction. a decimal coefficient keyed as printed digit for digit, trailing zeros kept, the printed grouping of digits dropped, its sign as `negative`; a unit mark printed inside the number is not keyed (it is the `unit`; its placement in `notes`).'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [75, 225, 540, 268]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: printed with a prime after the number
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [75, 225, 540, 268]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: no re-read
+- key: modern.iae.india_sunrise.statement
+  value: The Sunrise and Sunset times for certain stations in India (Kolkata, Varanasi, Chennai, Delhi, Mumbai) have been separately computed and given in Indian Standard Time. In these calculations the amount of horizontal refraction has been taken as 31′, the value derived from consideration of the atmospheric conditions in India, and consequently the zenith distance of the Sun's center is 90° 47′ at the times given. In the section on Indian Calendar, the Sunrise and Sunset times which have been given for latitude 23° 11′ North and Central Meridian of India, also relates to the times when upper limb of the Sun is on the horizon as in the general tables
+  form: text
+  unit: statement
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 460
+  pdf_page: 467
+  locus: 'EXPLANATION, PART III: from ''The Sunrise and Sunset times for certain stations'' to ''as in the general tables'', the whole paragraph. Latin text keyed as printed (spelling, case; italics not marked); spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; a formula in plain characters (superscripts as ^n, subscripts as _x, Greek letters as Unicode); the value ends before the closing full stop.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [75, 474, 540, 553]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [75, 474, 540, 553]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.dip.iae.statement
+  value: For an observer stationed at some elevation above the surface, the rising will be further accelerated and the setting retarded according to the height of the observer. The additional arc of depression to be considered on this account is 2′.10√h where h is the height of the observer in meters above the ground level. The dip of the sensible horizon is however 1′.77 √h. The effect of atmospheric refraction is included in the above results, without which both the terms would have got reduced to the same value of 1′.93 √h
+  form: text
+  unit: statement
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 460
+  pdf_page: 467
+  locus: 'EXPLANATION, PART III, last paragraph: from ''For an observer stationed'' to the end of the paragraph''s last sentence (its closing formula included). Latin text keyed as printed (spelling, case; italics not marked); spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; a formula in plain characters (superscripts as ^n, subscripts as _x, Greek letters as Unicode); the value ends before the closing full stop.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [75, 709, 540, 777]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: the spacing before √h as printed (none in the first, one in the other two)
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r3
+    on: 2026-10-09
+    dpi: 400
+    clip: [75, 709, 540, 777]
+    delivered_ppi: 400
+    note: ''
+- key: modern.dip.iae.depression
+  value: '2.10'
+  form: fraction
+  unit: arcminutes_per_sqrt_metre
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 460
+  pdf_page: 467
+  locus: 'EXPLANATION, PART III, last paragraph: the additional arc of depression per square root of the height (refraction included). a decimal coefficient keyed as printed digit for digit, trailing zeros kept, the printed grouping of digits dropped, its sign as `negative`; a unit mark printed inside the number is not keyed (it is the `unit`; its placement in `notes`).'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [75, 709, 540, 777]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: printed with the minute mark before the decimal point and √h after
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [75, 709, 540, 777]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.dip.iae.sensible_horizon
+  value: '1.77'
+  form: fraction
+  unit: arcminutes_per_sqrt_metre
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 460
+  pdf_page: 467
+  locus: 'EXPLANATION, PART III, last paragraph: the dip of the sensible horizon per square root of the height (refraction included). a decimal coefficient keyed as printed digit for digit, trailing zeros kept, the printed grouping of digits dropped, its sign as `negative`; a unit mark printed inside the number is not keyed (it is the `unit`; its placement in `notes`).'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [75, 709, 540, 777]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: printed with the minute mark before the decimal point and √h after
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [75, 709, 540, 777]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.dip.iae.geometric
+  value: '1.93'
+  form: fraction
+  unit: arcminutes_per_sqrt_metre
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 460
+  pdf_page: 467
+  locus: 'EXPLANATION, PART III, last paragraph: the value both terms reduce to without refraction. a decimal coefficient keyed as printed digit for digit, trailing zeros kept, the printed grouping of digits dropped, its sign as `negative`; a unit mark printed inside the number is not keyed (it is the `unit`; its placement in `notes`).'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [75, 709, 540, 777]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: printed with the minute mark before the decimal point and √h after
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r3
+    on: 2026-10-09
+    dpi: 400
+    clip: [75, 709, 540, 777]
+    delivered_ppi: 400
+    note: ''
+- key: modern.constants.c
+  value: '299792458'
+  form: fraction
+  unit: metres_per_second
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 469
+  pdf_page: 476
+  locus: 'ASTRONOMICAL CONSTANTS, Defining Constants, item 2 (Speed of light): the value. a decimal coefficient keyed as printed digit for digit, trailing zeros kept, the printed grouping of digits dropped, its sign as `negative`; a unit mark printed inside the number is not keyed (it is the `unit`; its placement in `notes`).'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [110, 727, 540, 748]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: printed 299 792 458 ms^-1
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [110, 727, 540, 748]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: no re-read
+- key: modern.constants.earth_equatorial_radius
+  value: '6378136.6'
+  form: fraction
+  unit: metres
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 470
+  pdf_page: 477
+  locus: 'ASTRONOMICAL CONSTANTS, Primary Constants, item 4 (Equatorial radius for Earth): the value a_e, not the bracketed IUGG value below it. a decimal coefficient keyed as printed digit for digit, trailing zeros kept, the printed grouping of digits dropped, its sign as `negative`; a unit mark printed inside the number is not keyed (it is the `unit`; its placement in `notes`).'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [110, 167, 470, 198]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: printed 637 8136.6 m
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [110, 167, 470, 198]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.constants.earth_flattening
+  value: '0.00335282'
+  form: fraction
+  unit: ratio
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 470
+  pdf_page: 477
+  locus: 'ASTRONOMICAL CONSTANTS, Derived Constants, item 15 (Flattening factor for the Earth): the decimal value. a decimal coefficient keyed as printed digit for digit, trailing zeros kept, the printed grouping of digits dropped, its sign as `negative`; a unit mark printed inside the number is not keyed (it is the `unit`; its placement in `notes`).'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [110, 391, 470, 410]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: printed f = 0.003 352 82 = 1/298.25642
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [110, 391, 470, 410]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.constants.earth_flattening_inverse
+  value: '298.25642'
+  form: fraction
+  unit: ratio
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 470
+  pdf_page: 477
+  locus: 'ASTRONOMICAL CONSTANTS, Derived Constants, item 15: the denominator of the fraction 1/… printed after the decimal value. a decimal coefficient keyed as printed digit for digit, trailing zeros kept, the printed grouping of digits dropped, its sign as `negative`; a unit mark printed inside the number is not keyed (it is the `unit`; its placement in `notes`).'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [110, 391, 470, 410]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: printed f = 0.003 352 82 = 1/298.25642
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [110, 391, 470, 410]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.constants.radius.sun
+  value: '696000'
+  form: fraction
+  unit: kilometres
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 471
+  pdf_page: 478
+  locus: 'ASTRONOMICAL CONSTANTS, item 23 (Equatorial radii in km.): the entry for the Sun. a decimal coefficient keyed as printed digit for digit, trailing zeros kept, the printed grouping of digits dropped, its sign as `negative`; a unit mark printed inside the number is not keyed (it is the `unit`; its placement in `notes`).'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [110, 250, 470, 326]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [110, 250, 470, 326]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: no re-read
+- key: modern.constants.radius.moon
+  value: '1737.4'
+  form: fraction
+  unit: kilometres
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 471
+  pdf_page: 478
+  locus: 'ASTRONOMICAL CONSTANTS, item 23 (Equatorial radii in km.): the entry for the Moon. a decimal coefficient keyed as printed digit for digit, trailing zeros kept, the printed grouping of digits dropped, its sign as `negative`; a unit mark printed inside the number is not keyed (it is the `unit`; its placement in `notes`).'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [110, 250, 470, 326]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [110, 250, 470, 326]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.apparent.iae.planetary_aberration
+  value: First, the barycentric position of the body at time t − Δt is combined with the barycentric position of the Earth at time t and then the correction for annual aberration is applied
+  form: text
+  unit: statement
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 446
+  pdf_page: 453
+  locus: 'EXPLANATION, the paragraph ''For solar system objects, the displacement …'': from ''First, the barycentric position'' to ''annual aberration is applied''. Latin text keyed as printed (spelling, case; italics not marked); spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; a formula in plain characters (superscripts as ^n, subscripts as _x, Greek letters as Unicode); the value ends before the closing full stop. Formula spacing: one space each side of a binary operator or relation (+, −, ×, /, =) between two operands, none between a sign and its operand, inside a compound symbol or before a subscript; a gap the print leaves inside a number is dropped.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [55, 735, 525, 760]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: the minus in 't − Δt' printed as a hyphen, keyed U+2212 (a minus between two quantities) Operator spacing under ruling R1.
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r3
+    on: 2026-10-09
+    dpi: 400
+    clip: [55, 735, 525, 760]
+    delivered_ppi: 400
+    note: no re-read
+- key: modern.light_time.iae.statement
+  value: 'The light time Δt is given by: Δt (in days) = 0.0057755 x distance in a.u.'
+  form: text
+  unit: statement
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 447
+  pdf_page: 454
+  locus: 'EXPLANATION, the page''s first paragraph and the formula below it: from ''The light time'' to ''distance in a.u.'', the value ending with the abbreviation''s own full stop. Latin text keyed as printed (spelling, case; italics not marked); spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; a formula in plain characters (superscripts as ^n, subscripts as _x, Greek letters as Unicode); a number''s printed grouping space kept. Formula spacing: one space each side of a binary operator or relation (+, −, ×, /, =) between two operands, none between a sign and its operand, inside a compound symbol or before a subscript; a gap the print leaves inside a number is dropped.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [55, 138, 525, 182]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi; no re-read'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: the formula is on its own line, centred; 'x' printed as the letter. The engine reads the procedure (the body's position at t − Δt, Δt the light time over the distance) and takes the speed of light from modern.constants.c; the coefficient of the formula is not used The printed digit group of the coefficient dropped and the symbol keyed without an inner space under ruling R1.
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r3
+    on: 2026-10-09
+    dpi: 400
+    clip: [55, 138, 525, 182]
+    delivered_ppi: 400
+    note: no re-read
+- key: modern.aberration.iae.annual
+  value: 'Annual aberration for reduction from a geometric place (α_0, δ_o) to an apparent geocentric place (α, δ) is given by: α = α_0 + (−Ẋ sin α_0 + Ẏ cos α_0) / (c cos δ_0) δ = δ_0 + (−Ẋ cos α_0 sin δ_0 − Ẏ sin α_0 sin δ_0 + Ż cos δ_0) / c, where c = 173.14 a.u./day and Ẋ, Ẏ, Ż are the velocity components of the Earth (pages 256 to 270)'
+  form: text
+  unit: statement
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2022.pdf
+  edition_page: 447
+  pdf_page: 454
+  locus: 'EXPLANATION, the paragraph beginning ''Annual aberration'' and its two formulas: from ''Annual aberration for reduction'' to ''(pages 256 to 270)'' (the closing parenthesis kept, the full stop after it not). Latin text keyed as printed (spelling, case; italics and bold not marked); spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; a formula in plain characters (superscripts as ^n, subscripts as _x, Greek letters as Unicode, a dotted letter as the precomposed Unicode letter with dot above); the two formula lines joined by one space. Formula spacing: one space each side of a binary operator or relation (+, −, ×, /, =) between two operands, none between a sign and its operand, inside a compound symbol or before a subscript; a gap the print leaves inside a number is dropped.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [55, 182, 525, 268]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi; no re-read'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: the second subscript of the first pair printed as a small 'o' (δ_o), elsewhere a zero; a space printed before the closing parenthesis of '270)' normalised. The engine applies the formula in its vector form, to first order in the Earth's barycentric velocity over c (modern/apparent.py), with c from modern.constants.c; its own 173.14 a.u./day is not used Operator spacing set under ruling R1.
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r3
+    on: 2026-10-09
+    dpi: 400
+    clip: [55, 182, 525, 268]
+    delivered_ppi: 400
+    note: no re-read

@@ -1,0 +1,606 @@
+id: authority/suryasiddhanta/rao_mean_planets
+methods: [suryasiddhanta]
+class: editor_computed
+source: balachandra_rao_2000
+edition_page: 81
+pdf_page: 95
+locus: '§7.4: from "Example: Find the mean longitudes of the … planets" (printed p. 81) to the end of item (5) "(after removing the nearest integral multiple of …°)" (printed p. 82); inputs from Table 7.4 (printed p. 81, mean daily motion column) and Table 7.3 (printed p. 78, Sūryasiddhānta column, planets'' rows) (pdf_page as keyed: 95-96; edition_page as keyed: 81-82)'
+rounding: products printed to 1-3 decimals of a degree; the reduced longitudes printed to whole seconds (Kuja, Guru, Śani) or whole minutes (Budha's and Śukra's śīghroccas); the author says "there is a small amount of rounding off error" and that "the nearest integral multiple of 360°" is removed
+precision: seconds of arc (minutes for the two śīghroccas)
+datum_keys: [texts.suryasiddhanta.procedures.mean_longitude.rule]
+notes: 'A × mean daily motion (decimal degrees, 7 decimals) reduced mod 360°, for Kuja, Budha''s śīghrocca, Guru, Śukra''s śīghrocca and Śani at the midnight stated in the example. The daily motions are Rao''s decimal derivation from the revolution numbers in the same table (the revolution column and the caption''s civil days are not keyed; only the cells the computation uses). The epoch positions of Table 7.3 enter only implicitly (no addition is shown). Fixture pages: the first page recorded as the fixture''s page, the span in the locus.'
+values:
+- name: input.mars.epoch_position
+  role: input
+  value: [0, 0, 0]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 78
+  pdf_page: 92
+  locus: Table 7.3 (printed p. 78), row Kuja, column Sūryasiddhānta; sexagesimal [deg, min, sec] as printed (as many parts as printed), marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_planets.yaml (sha256 80e6fcd8)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.mercury_sighrocca.epoch_position
+  role: input
+  value: [0, 0, 0]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 78
+  pdf_page: 92
+  locus: Table 7.3 (printed p. 78), row Budha śīghrocca, column Sūryasiddhānta; sexagesimal [deg, min, sec] as printed (as many parts as printed), marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_planets.yaml (sha256 80e6fcd8)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.jupiter.epoch_position
+  role: input
+  value: [0, 0, 0]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 78
+  pdf_page: 92
+  locus: Table 7.3 (printed p. 78), row Guru, column Sūryasiddhānta; sexagesimal [deg, min, sec] as printed (as many parts as printed), marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_planets.yaml (sha256 80e6fcd8)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.venus_sighrocca.epoch_position
+  role: input
+  value: [0, 0, 0]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 78
+  pdf_page: 92
+  locus: Table 7.3 (printed p. 78), row Śukra śīghrocca, column Sūryasiddhānta; sexagesimal [deg, min, sec] as printed (as many parts as printed), marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_planets.yaml (sha256 80e6fcd8)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.saturn.epoch_position
+  role: input
+  value: [0, 0, 0]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 78
+  pdf_page: 92
+  locus: Table 7.3 (printed p. 78), row Śani, column Sūryasiddhānta; sexagesimal [deg, min, sec] as printed (as many parts as printed), marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_planets.yaml (sha256 80e6fcd8)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.mars.daily_motion
+  role: input
+  value: '0.5240193'
+  form: fraction
+  unit: degrees_per_day
+  script: latin
+  edition_page: 81
+  pdf_page: 95
+  locus: Table 7.4, row Kuja, column "Mean daily motion (d)"; decimal string with the point as printed, degree mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_planets.yaml (sha256 80e6fcd8)
+  status: double_read
+  notes: restated in the display (1)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.mercury_sighrocca.daily_motion
+  role: input
+  value: '4.0923181'
+  form: fraction
+  unit: degrees_per_day
+  script: latin
+  edition_page: 81
+  pdf_page: 95
+  locus: Table 7.4, row Budha śīghrocca, column "Mean daily motion (d)"; decimal string with the point as printed, degree mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_planets.yaml (sha256 80e6fcd8)
+  status: double_read
+  notes: restated in display (2)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.jupiter.daily_motion
+  role: input
+  value: '0.0830963'
+  form: fraction
+  unit: degrees_per_day
+  script: latin
+  edition_page: 81
+  pdf_page: 95
+  locus: Table 7.4, row Guru, column "Mean daily motion (d)"; decimal string with the point as printed, degree mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_planets.yaml (sha256 80e6fcd8)
+  status: double_read
+  notes: restated in display (3)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.venus_sighrocca.daily_motion
+  role: input
+  value: '1.6021464'
+  form: fraction
+  unit: degrees_per_day
+  script: latin
+  edition_page: 81
+  pdf_page: 95
+  locus: Table 7.4, row Śukra śīghrocca, column "Mean daily motion (d)"; decimal string with the point as printed, degree mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_planets.yaml (sha256 80e6fcd8)
+  status: double_read
+  notes: restated in display (4)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.saturn.daily_motion
+  role: input
+  value: '0.0334393'
+  form: fraction
+  unit: degrees_per_day
+  script: latin
+  edition_page: 81
+  pdf_page: 95
+  locus: Table 7.4, row Śani, column "Mean daily motion (d)"; decimal string with the point as printed, degree mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_planets.yaml (sha256 80e6fcd8)
+  status: double_read
+  notes: restated in display (5)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.date
+  role: input
+  value: the midnight between March 21 and 22, 1991
+  form: text
+  unit: none
+  script: latin
+  edition_page: 81
+  pdf_page: 95
+  locus: '"Example:" sentence, from "the midnight" to the year; Latin text'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_planets.yaml (sha256 80e6fcd8)
+  status: double_read
+  notes: calendar not stated
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.kali_ahargana
+  role: input
+  value: 1859872
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 81
+  pdf_page: 95
+  locus: '"Now, the ahargaṇa elapsed : ..."; Latin figure, digit grouping dropped'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_planets.yaml (sha256 80e6fcd8)
+  status: double_read
+  notes: restated ungrouped in each display (1)-(5)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.mars.motion_deg
+  role: output
+  value: '974608.82'
+  form: fraction
+  unit: degrees
+  script: latin
+  edition_page: 81
+  pdf_page: 95
+  locus: display (1), last line, before the … "="; decimal string with the point as printed, degree mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_planets.yaml (sha256 80e6fcd8)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.mars.mean_longitude
+  role: output
+  value: [88, 49, 12]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 81
+  pdf_page: 95
+  locus: display (1), last line, after the … "="; sexagesimal [deg, min, sec] as printed (as many parts as printed), marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_planets.yaml (sha256 80e6fcd8)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.mercury_sighrocca.motion_deg
+  role: output
+  value: '7611187.8'
+  form: fraction
+  unit: degrees
+  script: latin
+  edition_page: 81
+  pdf_page: 95
+  locus: display (2), last line, before the … "="; decimal string with the point as printed, degree mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_planets.yaml (sha256 80e6fcd8)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.mercury_sighrocca.mean_longitude
+  role: output
+  value: [67, 48]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 81
+  pdf_page: 95
+  locus: display (2), last line, after the … "=" (degrees and minutes only printed); sexagesimal [deg, min, sec] as printed (as many parts as printed), marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_planets.yaml (sha256 80e6fcd8)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.jupiter.motion_deg
+  role: output
+  value: '154548.48'
+  form: fraction
+  unit: degrees
+  script: latin
+  edition_page: 82
+  pdf_page: 96
+  locus: display (3), last line, before the … "="; decimal string with the point as printed, degree mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_planets.yaml (sha256 80e6fcd8)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.jupiter.mean_longitude
+  role: output
+  value: [108, 28, 48]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 82
+  pdf_page: 96
+  locus: display (3), last line, after the … "="; sexagesimal [deg, min, sec] as printed (as many parts as printed), marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_planets.yaml (sha256 80e6fcd8)
+  status: double_read
+  notes: a stray mark after the seconds sign
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.venus_sighrocca.motion_deg
+  role: output
+  value: '2979787.2'
+  form: fraction
+  unit: degrees
+  script: latin
+  edition_page: 82
+  pdf_page: 96
+  locus: display (4), last line, before the … "="; decimal string with the point as printed, degree mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_planets.yaml (sha256 80e6fcd8)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.venus_sighrocca.mean_longitude
+  role: output
+  value: [67, 12]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 82
+  pdf_page: 96
+  locus: display (4), last line, after the … "=" (degrees and minutes only printed); sexagesimal [deg, min, sec] as printed (as many parts as printed), marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_planets.yaml (sha256 80e6fcd8)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.saturn.motion_deg
+  role: output
+  value: '62192.818'
+  form: fraction
+  unit: degrees
+  script: latin
+  edition_page: 82
+  pdf_page: 96
+  locus: display (5), last line, before the … "="; decimal string with the point as printed, degree mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_planets.yaml (sha256 80e6fcd8)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.saturn.mean_longitude
+  role: output
+  value: [272, 49, 5]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 82
+  pdf_page: 96
+  locus: display (5), last line, after the … "="; sexagesimal [deg, min, sec] as printed (as many parts as printed), marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_planets.yaml (sha256 80e6fcd8)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''

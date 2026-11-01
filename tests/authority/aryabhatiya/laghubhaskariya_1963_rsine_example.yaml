@@ -1,0 +1,203 @@
+id: authority/aryabhatiya/laghubhaskariya_1963_rsine_example
+methods: [aryabhatiya]
+class: editor_computed
+source: laghubhaskariya_1963
+file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+edition_page: 17
+pdf_page: 90
+locus: 'Shukla''s note on II.2(ii)–3(i): Rsine …° by the rule'
+rounding: 'none needed: the interpolated part divides exactly as printed'
+precision: whole minutes of arc, as printed
+datum_keys: [texts.aryabhatiya.procedures.rsine.rule, texts.aryabhatiya.trig.rsine_differences.d01, texts.aryabhatiya.trig.rsine_differences.d07]
+notes: Shukla's table of Rsine-differences on the same page restates Gītikā 12 (not keyed).
+values:
+- name: input.bhuja_degrees
+  role: input
+  value: 24
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 17
+  pdf_page: 90
+  locus: Shukla's note on II.2(ii)–3(i), 'Suppose that bhujā = …°', the figure '…°'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 360
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 90)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 360
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: ''
+- name: output.bhuja_minutes
+  role: output
+  value: 1440
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 17
+  pdf_page: 90
+  locus: Shukla's note on II.2(ii)–3(i), 'Suppose that bhujā = …°', 'we get …′'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 360
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 90)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 358
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 358
+    max_edge: 2000
+    note: ''
+- name: output.quotient
+  role: output
+  value: 6
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 17
+  pdf_page: 90
+  locus: Shukla's note on II.2(ii)–3(i), 'Suppose that bhujā = …°', 'we get … as the quotient'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 360
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 90)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 358
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 358
+    max_edge: 2000
+    note: ''
+- name: output.remainder
+  role: output
+  value: 90
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 17
+  pdf_page: 90
+  locus: Shukla's note on II.2(ii)–3(i), 'Suppose that bhujā = …°', 'and …′ as the remainder'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 360
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 90)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 358
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 358
+    max_edge: 2000
+    note: ''
+- name: output.sum_six
+  role: output
+  value: 1315
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 17
+  pdf_page: 90
+  locus: Shukla's note on II.2(ii)–3(i), 'Suppose that bhujā = …°', the sum '= …′' of the first six differences.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 360
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 90)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 358
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 358
+    max_edge: 2000
+    note: ''
+- name: output.interpolated
+  role: output
+  value: 82
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 17
+  pdf_page: 90
+  locus: Shukla's note on II.2(ii)–3(i), 'Suppose that bhujā = …°', '…′ × … / … = …′'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 360
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 90)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 358
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 358
+    max_edge: 2000
+    note: ''
+- name: output.rsine
+  role: output
+  value: 1597
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 17
+  pdf_page: 90
+  locus: Shukla's note on II.2(ii)–3(i), 'Suppose that bhujā = …°', 'we get … + …′ = …′. This is the required value of Rsin …°.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 360
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 90)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 358
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 358
+    max_edge: 2000
+    note: ''
+  emendation:
+    printed: 1597
+    adopted: 1397
+    evidence: 'internal arithmetic (inference from the page''s own figures, no second witness): the page''s own sum of six Rsine-differences 1315′ (output.sum_six) plus the interpolated 82′ (output.interpolated) is 1397′, and Rsin 24° by the table of Gītikā 12 is 1397′; the printed ''1315+ 82′=1597′'' (laghubhaskariya_1963 p. 17, PDF 90, tile [25,484.67,400,580] at 358 ppi) misadds. No other printing of Shukla''s note is held.'
+    evidence_indic: false
+    by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    owner_signoff: null

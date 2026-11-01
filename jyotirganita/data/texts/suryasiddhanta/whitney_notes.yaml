@@ -1,0 +1,446 @@
+- key: texts.suryasiddhanta.frame.zero_point.whitney_note
+  value: The initial point of the fixed Hindu sphere, from which longitudes are reckoned, and at which the planetary motions are held by all the schools of Hindu astronomy to have commenced at the creation, is the end of the asterism Revatî, or the beginning of Açvinî (see chapter viii. for a full account of the asterisms).
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 158
+  pdf_page: 19
+  locus: Whitney's note on i.27, paragraph 3, first sentence, from "The initial point" to "the asterisms)."; Latin text convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 135, 370, 240]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: single full-width strip
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: The next sentences of the paragraph place the point 10' east of the principal star of Revatî per the SS (zeta Piscium) -- not keyed.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 135, 370, 240]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.computation_instant.whitney_note
+  value: This, then, is the required sum of days, for the beginning of the year A.D. 1860, at midnight, upon the Hindu prime meridian.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 175
+  pdf_page: 36
+  locus: Whitney's note on i.48-51 (end of the worked example), the sentence "This, then, is the required sum of days ... prime meridian."; Latin text convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 425, 370, 552]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: single full-width strip
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: '"A.D." printed without a space; an ink speck after "Hindu" (not keyed). The worked example of PDF 35-36 (the ahargana for Jan. 1, 1860) is a computation; not keyed here (TASK names statements only).'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 406, 385, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.weekday.first_day_note
+  value: As the first day of the subsistence of the present order of things is supposed to have been a Sunday, it is only necessary to divide the sum of days by seven, and the remainder will be found, in the first column, opposite the name of the planet to which the required day belongs.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 177
+  pdf_page: 38
+  locus: Whitney's note on i.51-52, paragraph after the table of days, first sentence, from "As the … day" to "required day belongs."; Latin text convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 150, 370, 200]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: single full-width strip
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Whitney gives the Sunday as a supposition ("is supposed to have been"), without citing a verse; it is the premise of the rule of i.51 ("counting from the sun", "beginning with the sun"): his own statement of what the rule presupposes, not a quotation of the text. The paragraph goes on to the worked check that Jan. 1, 1860 falls on a Sunday "by Hindu reckoning, as by our own" (not keyed).'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 20, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.epoch.any_yuga_note
+  value: 'The words at the end of verse 56 the commentator interprets to mean: "from the beginning of the current, i. e., the Silver, Age."'
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 181
+  pdf_page: 42
+  locus: Whitney's note on i.56-58, paragraph 2, first sentence, from "The words at the end of verse …" to "the Silver, Age."; Latin text convention; the printed double quotation marks keyed as U+0022
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 125, 370, 200]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: tile r2c1 of clip [20,50,370,200] 1x2
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Printed "mean :" with a space before the colon (normalised); the closing period inside the closing quotation mark. The next sentences say the commentator goes beyond the text, which "expressly says: "from any desired (ishtatus) yuga."" (not keyed). Double quotes: the convention fixes only the apostrophe; the curly double quotes are keyed as straight U+0022 (a choice; flagged in REPORT).'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 40, 225, 205]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.epoch_advance.whitney_note
+  value: 'The proportion is as follows: as the number of nâḍîs in a day (sixty) is to those in the interval between midnight and the time for which the mean place of the planet is sought, so is the whole daily motion of the planet to its motion during the interval; and the result is additive or subtractive, of course, according as the time fixed upon is after or before midnight. In order to furnish a practical test of the accuracy of this text-book of astronomy, and of its ability to yield correct results at the present time, we have calculated, by the rule given in this verse, the mean longitudes of the planets for a time after midnight of the first of January, 1860, on the meridian of Ujjayinî, which is equal to the distance in time of the meridian of Washington, viz. 25n 28v 1p.8, or 0d.42453; and we present the results in the annexed table. The longitudes are given as reckoned from the vernal equinox of that date, which we make to be distant 18° 5′ 8″.25 from the point established by the Sûrya-Siddhânta as the beginning of the Hindu sidereal sphere; this is (see below, chap. viii) 10′ east of ζ Piscium. We have ascertained the mean places both as determined by the text of our Siddhânta, and by the same with the correction of the bîja. Added are the actual mean places at the time designated: those of the primary planets have been found from Le Verrier''s elements, presented in Biot''s treatise, as cited above; those of the moon, and of her apsis and node, were kindly furnished us from the office of the American Nautical Almanac, at Cambridge.'
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 187
+  pdf_page: 48
+  locus: Whitney's note on i.67, its two paragraphs up to the first table (which is on PDF 49), from "The proportion is as follows" to "at Cambridge."; Latin text convention; the footnote mark * not keyed; superscript unit letters keyed inline as plain letters (25n 28v 1p.8, 0d.42453); the degree, minute and second marks as U+00B0, U+2032, U+2033; the Greek zeta as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 290, 370, 366.67]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: tile r1c1 of clip [20,290,370,520] 1x3
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 366.67, 370, 443.33]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: tile r2c1
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 443.33, 370, 520]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: tile r3c1
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'The rule statement proper is the first paragraph (one sentence); the second paragraph introduces the table of errors of 1860 (PDF 49), which is not keyed. "0d.42453 ;" and "above ;*" printed with spaces before semicolons (normalised). Footnote (PDF 48, clip [20,520,370,575]): Whitney warns of a press error in Biot''s table (the earth''s yearly motion) -- an errata statement about Biot, not about suryasiddhanta_burgess_1860; not keyed.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 340, 225, 525]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.epicycle.even_odd_note
+  value: Let P be the place of a planet, and divide its orbit into the four quadrants P Q, Q R, R S, and S P; the first and third of these are called the odd (vishama) quadrants; the second and fourth, the even (yugma) quadrants.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 203
+  pdf_page: 64
+  locus: Whitney's note on ii.29-30 (not ii.34-37), paragraph 3, the sentence beside Fig. 2, from "Let P be the place" to "the even (yugma) quadrants."; Latin text convention; the letter pairs naming arcs printed with a thin space between the letters, keyed with one space
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 450, 370, 560]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: single strip; the text runs in a narrow column left of Fig. 2
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: The TASK points to Whitney's note on ii.34-37 (PDF 66-67); that note (PDF 66-67) contains no sentence defining "even" and "odd"; its paragraph on the contraction of the epicycles (keyed below as a proposed key) implies the even-quadrant ends are the apsis/conjunction and its opposite and the odd ends the quadratures, without the words. The definition sentence is here, PDF 64, in the note on ii.29-30. "S P ;" and "quadrants ;" printed with spaces before semicolons (normalised).
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 450, 370, 560]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.epicycle.contraction_note
+  value: A remarkable peculiarity of the Hindu system is that the epicycles are supposed to contract their dimensions as they leave the apsis or the conjunction respectively (excepting in the case of the epicycles of the conjunction of Jupiter and Saturn, which expand instead of contracting), becoming smallest at the quadrature, then again expanding till the lower apsis, or opposition, is reached, and decreasing and increasing in like manner in the other half of the orbit; the rate of increase and diminution being as the sine of the distance from the apsis, or conjunction.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 206
+  pdf_page: 67
+  locus: Whitney's note on ii.34-38, paragraph after the table of epicycles, first sentence, from "A remarkable peculiarity" to "the apsis, or conjunction."; Latin text convention, line-end hyphens joined
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 215, 370, 290]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: tile r1c1 of clip [20,215,370,365] 1x2
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 290, 370, 365]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: tile r2c1
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Keyed as the note-on-ii.34-37 sentence nearest to the even/odd question: it places the extreme epicycles at the apsis/opposition and the quadrature, which is how the "end of the even/odd quadrant" dimensions of ii.34-37 are to be placed; it does not use the words even or odd. "orbit ;" normalised. Key formed by the reader (proposed_key).'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 215, 370, 290]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.order.whitney_note
+  value: 'The rule contained in the last verse is a general one, applying to all the processes of calculation of the equations of place, and has already been anticipated by us above. Its meaning is, that when the anomaly, (mandakendra), or commutation (çîghrakendra), reckoned always forward from the planet to the apsis or conjunction, is less than six signs, the equation of place is additive; when the former is more than six signs, the equation is subtractive. The reason is made clear by the figures given above, and by the explanations under verses 1−5 of this chapter. It should have been mentioned above, under verse 29, where the word kendra was first introduced, that, as employed in this sense by the Hindus, it properly signifies the position (see note to i. 53) of the "centre" of the epicycle—which coincides with the mean place of the planet itself—relative to the apsis or conjunction respectively. In the text of the Sûrya-Siddhânta it is used only with this signification: the commentary employs it also to designate the centre of any circle. Since the sun and moon have but a single inequality, according to the Hindu system, the calculation of their true places is simple and easy. With the other planets the case is different, on account of the existence of two causes of disturbance in their orbits, and the consequent necessity both of applying two equations, and also of allowing for the effect of each cause in determining the equation due to the other. For, to the apprehension of the Hindu astronomer, it would not be proper to calculate the two equations from the mean place of the planet; nor, again, to calculate either of the two from the mean place, and, having applied it, to take the new position thus found as a basis from which to calculate the other; since the planet is virtually drawn away from its mean place by the divinity at either apex (ucca) before it is submitted to the action of the other. The method adopted in this Siddhânta of balancing the two influences, and arriving at their joint effect upon the planet, is stated in verses 43 and 44. The phraseology of the text is not entirely explicit, and would bear, if taken alone, a different interpretation from that which the commentary puts upon it, and which the rules to be given later show to be its true meaning; this is as follows: first calculate from the mean place of the planet the equation of the conjunction, and apply the half of it to the mean place; from the position thus obtained calculate the equation of the apsis, and apply half of it to the longitude as already once equated; from this result find once more the equation of the apsis, and apply it to the original mean place of the planet; and finally, calculate from, and apply to, this last place the whole equation of the conjunction.'
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 215
+  pdf_page: 76
+  locus: Whitney's note on ii.43-45, from its first sentence "The rule contained in the last verse" through paragraph 3 ending "the whole equation of the conjunction." (three paragraphs, joined by one space); Latin text convention (em dashes U+2014; a dash between numbers U+2212); line-end hyphens joined
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 133.33, 370, 226.67]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: tile r2c1 of clip [20,40,370,600] 1x6
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 226.67, 370, 320]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: tile r3c1
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 320, 370, 413.33]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: tile r4c1
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 413.33, 370, 506.67]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: tile r5c1
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 506.67, 370, 600]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: tile r6c1; the lines at tile boundaries checked on strips [20,215,370,237], [20,310,370,332], [20,403,370,425], [20,497,370,519]
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: The paragraph saying how Whitney understands the order is the third ("Since the sun and moon ..."); extent per TASK from the note's first sentence to its end. "this is as follows" printed "thi3" with a broken s (keyed "this"). The quoted "centre" keyed with straight double quotes U+0022 (curly as printed). The dash in "1−5" keyed U+2212 per convention. Semicolons and colons printed with a space before them (normalised).
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 133.33, 370, 226.67]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.bhujantara.whitney_note_time
+  value: The other source of difference between true and apparent time, the difference in the daily increment of the arcs of the ecliptic, in which the sun moves, and of those of the equinoctial, which are the measures of time, is not taken account of in this treatise. This is the more strange, as that difference is, for some other purposes, calculated and allowed for.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 221
+  pdf_page: 82
+  locus: Whitney's note on ii.46, paragraph 2 (two sentences), from "The other source of difference" to "calculated and allowed for."; Latin text convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 240, 370, 330]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: single full-width strip
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Relevant to the cara search (section 3): it says the ecliptic/equinoctial (right-ascension) part of the equation of time is not applied; it does not mention the ascensional difference (cara) as such. Keyed because it bounds what the text applies to a planet''s place at the mean-midnight instant. Key formed by the reader (proposed_key).'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 240, 370, 330]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.cara.whitney_note_day
+  value: In order to this, it is necessary to ascertain, for the planet in question, its ascensional difference (cara), or the difference between its right and oblique ascension, the amount of which varies with the declination of the planet and the latitude of the observer.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 233
+  pdf_page: 94
+  locus: Whitney's note on ii.61-63, paragraph 2, first sentence, from "In order to this" to "the latitude of the observer."; Latin text convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 460, 370, 540]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: single full-width strip
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: '"this" = ascertaining the length of a planet''s day and night (paragraph 1). Whitney''s worked example (PDF 95) applies cara to the length of the Sun''s day and night at Washington (a computation; not keyed). Key formed by the reader (proposed_key).'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 460, 370, 540]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.meridian.identification.suryasiddhanta_burgess_1860
+  value: But the circumstance which actually fixes the position of the prime meridian is the situation of the city of Ŭjjayinî, the Οζηνη of the Greeks, the modern Ojein. It is called in the text by one of its ancient names, Avantî.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 185
+  pdf_page: 46
+  locus: Whitney's note on i.62, second paragraph, from "But the circumstance which actually fixes the position of the prime meridian" to "Avantî." (two sentences); the rest of the paragraph left out; Latin text convention, line-end hyphens joined
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 85, 201.5, 215]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p46_600dpi_r1c1_clip40-85.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 85, 355, 215]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p46_600dpi_r1c2_clip40-85.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 1500
+    clip: [195, 133, 285, 150]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'suryasiddhanta_burgess_1860_p46_1500dpi_clip195-133.png (enlarged: the mark over the U and the Greek word)'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'The city is named on the line of i.62 (the note identifies it). Doubtful character: the mark over the initial U of the city name looks like a breve, keyed U+016C; elsewhere on these pages (PDF 47, 48) the name is printed Ujjayinî with no mark over the U, so the mark here may be a damaged or different accent. The Greek word is italic Greek, keyed without accents (none visible at 600 ppi). Locator (notes only): the sentences that follow ("Its actual situation is stated by Warren (Kâla Sankalita, p. 9) ...") print Warren''s position as lat. 23° 11′ 30″ N., long. 75° 53′ E. from Greenwich, and Thornton''s Gazetteer of India (London: 1857) as lat. 23° 10′ N., long. 75° 47′ E.; the note says the latter position will be assumed in the farther calculations. Read from suryasiddhanta_burgess_1860_p46_600dpi_r1c{1,2}_clip40-205.png, clip [40, 205, 355, 290].'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 85, 355, 215]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.meridian.modern_longitude
+  status: gap
+  reason: the text names its prime meridian by the places on it (i.62, texts.suryasiddhanta.meridian.statement), never by a modern longitude; the line's place among modern coordinates is the editor's identification of Avantī with Ujjayinī (Whitney's note on i.62, texts.suryasiddhanta.meridian.identification.suryasiddhanta_burgess_1860)
+  searched: suryasiddhanta_burgess_1860 i.59-67 with Whitney's notes, PDF 43-48 (printed 182-187); i.62 keyed earlier
+  effect: 'the Kerala places reach suryasiddhanta by route (b) on the Ujjain modern longitude of the Āryabhaṭīya (texts.aryabhatiya.meridian.ujjain_longitude.laghubhaskariya_1963) through the editor''s identification: every record of that route carries provisional:texts.suryasiddhanta.meridian.identification.suryasiddhanta_burgess_1860, as the Dṛk line''s does'
+  source: suryasiddhanta_burgess_1860
+  notes: ''
+- key: texts.suryasiddhanta.procedures.time_reckoning.whitney_note_xiv18
+  value: 'The term sâvana we have translated "civil," as being a convenient way of distinguishing this from the other kinds of time, and as being very properly applicable to the day as reckoned in practical use from sunrise to sunrise: in the more general sense, as denoting the mode of reckoning the mean motions of the planets, and the regency of successive periods, sâvana corresponds to what we call "mean solar" time. The word itself seems to be a derivative from savana, "libation," the three daily savanas, or the sunrise, noon, and sunset libations, being determined by this reckoning.'
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 416
+  pdf_page: 277
+  locus: Whitney's note after xiv.19, the whole note, "The term sâvana we have translated" to "being determined by this reckoning." (three sentences); verse 20 follows; Latin text convention, line-end hyphens joined
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 399.5, 201.5, 462]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p277_600dpi_r2c1_clip40-345.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 399.5, 355, 462]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p277_600dpi_r2c2_clip40-345.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 455, 201.5, 538.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p277_600dpi_r1c1_clip40-455.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 455, 355, 538.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p277_600dpi_r1c2_clip40-455.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 1800
+    clip: [110, 448, 180, 462]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p277_1800dpi_clip110-448.png (enlarged, upsampled; "in the")
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Doubtful mark: between "in" and "the" (line 4 of the note, "sunrise to sunrise: in the more general sense") a small raised stroke stands in the word space; on the enlarged clip it is a short slanted speck at mid-height, not a full hyphen; keyed as a space. Quotation marks keyed as the typographic double quotes printed. sâvana italic with circumflex; savana and savanas italic, no circumflex. "succes-" / "sive" line-end hyphen joined. Space before the colon after the second "sunrise" normalised. no reading changed.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 399.5, 355, 538.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

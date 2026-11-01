@@ -1,0 +1,377 @@
+id: authority/aryabhatiya/mahabhaskariya_1960_ch4_rsine_rversine_example
+methods: [aryabhatiya]
+class: editor_computed
+source: mahabhaskariya_1960
+file: mahabhaskariya_1960-mahabhaskariya-shukla-1960.pdf
+edition_page: 109
+pdf_page: 194
+locus: Shukla's note on IV.3-4(i), 'Example. Calculate Rsin …° and Rversin …°.' and its working (…) and (…)
+rounding: the interpolated part to seconds; the result rounded to the nearest minute ('or 1821′ approx.', 'or 523′ approx.')
+precision: minutes and seconds of arc, as printed
+datum_keys: [texts.aryabhatiya.procedures.rsine.rule, texts.aryabhatiya.procedures.rsine.rule.mahabhaskariya_1960, texts.aryabhatiya.trig.rsine_differences.d01, texts.aryabhatiya.trig.rsine_differences.d09, texts.aryabhatiya.trig.rsine_differences.d16, texts.aryabhatiya.trig.rsine_differences.d24]
+notes: The Rversed-sine-differences are the Rsine-differences reversed (texts.aryabhatiya.procedures.rsine.rversine_table_note.mahabhaskariya_1960). Footnote 1 compares with modern four-figure tables (an editor's modern recomputation, not keyed).
+values:
+- name: input.arc_degrees
+  role: input
+  value: 32
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 109
+  pdf_page: 194
+  locus: Shukla's 'Example. Calculate Rsin …° and Rversin …°.' on IV.3-4(i), the figure '…°'. A degree sign printed as a superscript … is keyed as °.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 194)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.arc_minutes
+  role: output
+  value: 1920
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 109
+  pdf_page: 194
+  locus: Shukla's 'Example. Calculate Rsin …° and Rversin …°.' on IV.3-4(i), 'we get …′'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 194)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.quotient
+  role: output
+  value: 8
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 109
+  pdf_page: 194
+  locus: Shukla's 'Example. Calculate Rsin …° and Rversin …°.' on IV.3-4(i), 'we get … as the quotient'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 194)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.remainder
+  role: output
+  value: 120
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 109
+  pdf_page: 194
+  locus: Shukla's 'Example. Calculate Rsin …° and Rversin …°.' on IV.3-4(i), 'and … as the remainder'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 194)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.rsine.sum_eight
+  role: output
+  value: 1719
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 109
+  pdf_page: 194
+  locus: Shukla's 'Example. Calculate Rsin …° and Rversin …°.' on IV.3-4(i), (…), 'The sum of the first … Rsine-differences is …′'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 194)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.rsine.ninth_difference
+  role: output
+  value: 191
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 109
+  pdf_page: 194
+  locus: Shukla's 'Example. Calculate Rsin …° and Rversin …°.' on IV.3-4(i), (…), '(viz. …′)'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 194)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.rsine.interpolated
+  role: output
+  value: [101, 52]
+  form: sexagesimal
+  unit: arcminutes
+  script: latin
+  edition_page: 109
+  pdf_page: 194
+  locus: Shukla's 'Example. Calculate Rsin …° and Rversin …°.' on IV.3-4(i), (…), 'we get …′ …″' (minutes and seconds).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 194)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.rsine.value
+  role: output
+  value: [1820, 52]
+  form: sexagesimal
+  unit: arcminutes
+  script: latin
+  edition_page: 109
+  pdf_page: 194
+  locus: Shukla's 'Example. Calculate Rsin …° and Rversin …°.' on IV.3-4(i), (…), 'we get …′ …″' (minutes and seconds; a speck before '…′' not kept).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 194)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.rsine.rounded
+  role: output
+  value: 1821
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 109
+  pdf_page: 194
+  locus: Shukla's 'Example. Calculate Rsin …° and Rversin …°.' on IV.3-4(i), (…), 'or …′ approx. This is the value of Rsin …°.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 194)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.rversine.sum_eight
+  role: output
+  value: 460
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 109
+  pdf_page: 194
+  locus: Shukla's 'Example. Calculate Rsin …° and Rversin …°.' on IV.3-4(i), (…), 'The sum of the first … Rversed-sine-differences is …′'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 194)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.rversine.ninth_difference
+  role: output
+  value: 119
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 109
+  pdf_page: 194
+  locus: Shukla's 'Example. Calculate Rsin …° and Rversin …°.' on IV.3-4(i), (…), '(viz. …′)'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 194)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.rversine.interpolated
+  role: output
+  value: [63, 28]
+  form: sexagesimal
+  unit: arcminutes
+  script: latin
+  edition_page: 109
+  pdf_page: 194
+  locus: Shukla's 'Example. Calculate Rsin …° and Rversin …°.' on IV.3-4(i), (…), 'we get …′ …″' (minutes and seconds).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 194)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.rversine.value
+  role: output
+  value: [523, 28]
+  form: sexagesimal
+  unit: arcminutes
+  script: latin
+  edition_page: 109
+  pdf_page: 194
+  locus: Shukla's 'Example. Calculate Rsin …° and Rversin …°.' on IV.3-4(i), (…), 'we get …′ …″' (minutes and seconds).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 194)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.rversine.rounded
+  role: output
+  value: 523
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 109
+  pdf_page: 194
+  locus: Shukla's 'Example. Calculate Rsin …° and Rversin …°.' on IV.3-4(i), (…), 'or …′ approx. This is the value of Rversin …°.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 194)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''

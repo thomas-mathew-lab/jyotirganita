@@ -1,0 +1,61 @@
+# A fetched table: not a page read and never a second witness for one. Written
+# by the script its fetch header names; do not edit by hand.
+table: hipparcos
+fetch:
+  source: hipparcos
+  file: VizieR asu-tsv response (I/239/hip_main, HIP 65474)
+  sha256: 4805f08ab14579c32ea4924ce8d374931f9ed27202182b62766dfac8f1182ed1
+  readme_sha256: 7a7d54903d16460a76c240f07c41b019d57becfd27b5dfa2908e828f52f90c27
+  script: tools/extract_hipparcos.py
+  script_version: 3
+  extracted: the columns HIP, RAICRS, DEICRS, Plx, pmRA, pmDE, e_RAICRS, e_DEICRS, e_Plx, e_pmRA, e_pmDE
+    of response line(s) [114]; ReadMe lines [121, 122, 124, 125, 126, 127, 128, 129, 130, 131] (hip_main.dat's
+    descriptions of those columns)
+catalogue: I/239/hip_main
+readme_lines:
+- '  52- 63  F12.8 deg     RAdeg    *? alpha, degrees (ICRS, Epoch=J1991.25)   (H8)'
+- '  65- 76  F12.8 deg     DEdeg    *? delta, degrees (ICRS, Epoch=J1991.25)   (H9)'
+- '  80- 86  F7.2  mas     Plx       ? Trigonometric parallax                 (H11)'
+- '  88- 95  F8.2 mas/yr   pmRA     *? Proper motion mu_alpha.cos(delta), ICRS(H12)'
+- '  97-104  F8.2 mas/yr   pmDE     *? Proper motion mu_delta, ICRS           (H13)'
+- ' 106-111  F6.2  mas   e_RAdeg    *? Standard error in RA*cos(DEdeg)        (H14)'
+- ' 113-118  F6.2  mas   e_DEdeg    *? Standard error in DE                   (H15)'
+- ' 120-125  F6.2  mas   e_Plx       ? Standard error in Plx                  (H16)'
+- ' 127-132  F6.2 mas/yr e_pmRA      ? Standard error in pmRA                 (H17)'
+- ' 134-139  F6.2 mas/yr e_pmDE      ? Standard error in pmDE                 (H18)'
+radial_velocity: not in the catalogue (gap)
+stars:
+  spica:
+    HIP:
+      value: '65474'
+      unit: none
+    RAICRS:
+      value: '201.29835230'
+      unit: deg
+    DEICRS:
+      value: '-11.16124491'
+      unit: deg
+    Plx:
+      value: '12.44'
+      unit: mas
+    pmRA:
+      value: '-42.50'
+      unit: mas/yr
+    pmDE:
+      value: '-31.73'
+      unit: mas/yr
+    e_RAICRS:
+      value: '0.75'
+      unit: mas
+    e_DEICRS:
+      value: '0.54'
+      unit: mas
+    e_Plx:
+      value: '0.86'
+      unit: mas
+    e_pmRA:
+      value: '0.79'
+      unit: mas/yr
+    e_pmDE:
+      value: '0.52'
+      unit: mas/yr

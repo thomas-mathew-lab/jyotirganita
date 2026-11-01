@@ -1,0 +1,1493 @@
+- key: texts.suryasiddhanta.trig.step
+  value: 1/8
+  form: fraction
+  unit: of_minutes_of_a_sign
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.15 translation, "The … part of the minutes of a sign is called the first sine (jyardha)": the fraction; Latin figure, printed in words, keyed as "num/den"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 58, 202, 150]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,58,202,150] / r1c2 [194,58,360,150] of clip [36,58,360,150] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.step]
+  emendation: null
+  notes: printed in words ("The eighth part"); the verse does not print the number of minutes in a sign (i.28 gives the divisions).
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 58, 202, 150]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rsine.count
+  value: 24
+  form: integer
+  unit: sines
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.16 translation, "the result is … tabular sines (jyardhapinda), in order, as follows": the figure; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 145, 202, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,145,202,240] / r1c2 [194,145,360,240] of clip [36,145,360,240] 2x1 --overlap 8
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: printed in words. Key formed by the reader (proposed_key).
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 145, 202, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rsine.e01
+  value: 225
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.17-22 translation, the …-th of the twenty-four sines in printed order: ii.17, 1st figure, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 145, 202, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,145,202,240] / r1c2 [194,145,360,240] of clip [36,145,360,240] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rsine.e01]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 145, 202, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rsine.e02
+  value: 449
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.17-22 translation, the …-th of the twenty-four sines in printed order: ii.17, 2nd, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 145, 202, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,145,202,240] / r1c2 [194,145,360,240] of clip [36,145,360,240] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rsine.e02]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 145, 202, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rsine.e03
+  value: 671
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.17-22 translation, the …-th of the twenty-four sines in printed order: ii.17, 3rd, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 145, 202, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,145,202,240] / r1c2 [194,145,360,240] of clip [36,145,360,240] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rsine.e03]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 145, 202, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rsine.e04
+  value: 890
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.17-22 translation, the …-th of the twenty-four sines in printed order: ii.17, 4th, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 145, 202, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,145,202,240] / r1c2 [194,145,360,240] of clip [36,145,360,240] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rsine.e04]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 145, 202, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rsine.e05
+  value: 1105
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.17-22 translation, the …-th of the twenty-four sines in printed order: ii.17, 5th, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 145, 202, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,145,202,240] / r1c2 [194,145,360,240] of clip [36,145,360,240] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rsine.e05]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 145, 202, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rsine.e06
+  value: 1315
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.17-22 translation, the …-th of the twenty-four sines in printed order: ii.17, 6th, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 145, 202, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,145,202,240] / r1c2 [194,145,360,240] of clip [36,145,360,240] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rsine.e06]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 145, 202, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rsine.e07
+  value: 1520
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.17-22 translation, the …-th of the twenty-four sines in printed order: ii.18, 1st, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 145, 202, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,145,202,240] / r1c2 [194,145,360,240] of clip [36,145,360,240] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rsine.e07]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 145, 202, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rsine.e08
+  value: 1719
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.17-22 translation, the …-th of the twenty-four sines in printed order: ii.18, 2nd, "…" ("…-/teen" across the line end); Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 145, 202, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,145,202,240] / r1c2 [194,145,360,240] of clip [36,145,360,240] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rsine.e08]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 145, 202, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rsine.e09
+  value: 1910
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.17-22 translation, the …-th of the twenty-four sines in printed order: ii.18, 3rd, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 145, 202, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,145,202,240] / r1c2 [194,145,360,240] of clip [36,145,360,240] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rsine.e09]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 145, 202, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rsine.e10
+  value: 2093
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.17-22 translation, the …-th of the twenty-four sines in printed order: ii.18, 4th, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 145, 202, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,145,202,240] / r1c2 [194,145,360,240] of clip [36,145,360,240] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rsine.e10]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 145, 202, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rsine.e11
+  value: 2267
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.17-22 translation, the …-th of the twenty-four sines in printed order: ii.19, 1st, "…" (verse start in tile pair [36,145,360,240], end in [36,235,360,330]); Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 235, 202, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,235,202,330] / r1c2 [194,235,360,330] of clip [36,235,360,330] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rsine.e11]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 235, 202, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rsine.e12
+  value: 2431
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.17-22 translation, the …-th of the twenty-four sines in printed order: ii.19, 2nd, "…" ("… thous-/and …"); Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 235, 202, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,235,202,330] / r1c2 [194,235,360,330] of clip [36,235,360,330] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rsine.e12]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 235, 202, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rsine.e13
+  value: 2585
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.17-22 translation, the …-th of the twenty-four sines in printed order: ii.19, 3rd, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 235, 202, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,235,202,330] / r1c2 [194,235,360,330] of clip [36,235,360,330] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rsine.e13]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 235, 202, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rsine.e14
+  value: 2728
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.17-22 translation, the …-th of the twenty-four sines in printed order: ii.19, 4th, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 235, 202, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,235,202,330] / r1c2 [194,235,360,330] of clip [36,235,360,330] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rsine.e14]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 235, 202, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rsine.e15
+  value: 2859
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.17-22 translation, the …-th of the twenty-four sines in printed order: ii.20, 1st, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 235, 202, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,235,202,330] / r1c2 [194,235,360,330] of clip [36,235,360,330] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rsine.e15]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 235, 202, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rsine.e16
+  value: 2978
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.17-22 translation, the …-th of the twenty-four sines in printed order: ii.20, 2nd, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 235, 202, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,235,202,330] / r1c2 [194,235,360,330] of clip [36,235,360,330] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rsine.e16]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 235, 202, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rsine.e17
+  value: 3084
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.17-22 translation, the …-th of the twenty-four sines in printed order: ii.20, 3rd, "…" ("…"); Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 235, 202, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,235,202,330] / r1c2 [194,235,360,330] of clip [36,235,360,330] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rsine.e17]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 235, 202, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rsine.e18
+  value: 3177
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.17-22 translation, the …-th of the twenty-four sines in printed order: ii.20, 4th, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 235, 202, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,235,202,330] / r1c2 [194,235,360,330] of clip [36,235,360,330] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rsine.e18]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 235, 202, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rsine.e19
+  value: 3256
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.17-22 translation, the …-th of the twenty-four sines in printed order: ii.21, 1st, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 235, 202, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,235,202,330] / r1c2 [194,235,360,330] of clip [36,235,360,330] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rsine.e19]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 235, 202, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rsine.e20
+  value: 3321
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.17-22 translation, the …-th of the twenty-four sines in printed order: ii.21, 2nd, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 235, 202, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,235,202,330] / r1c2 [194,235,360,330] of clip [36,235,360,330] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rsine.e20]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 235, 202, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rsine.e21
+  value: 3372
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.17-22 translation, the …-th of the twenty-four sines in printed order: ii.21, 3rd, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 235, 202, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,235,202,330] / r1c2 [194,235,360,330] of clip [36,235,360,330] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rsine.e21]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 235, 202, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rsine.e22
+  value: 3409
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.17-22 translation, the …-th of the twenty-four sines in printed order: ii.21, 4th, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 235, 202, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,235,202,330] / r1c2 [194,235,360,330] of clip [36,235,360,330] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rsine.e22]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 235, 202, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rsine.e23
+  value: 3431
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.17-22 translation, the …-th of the twenty-four sines in printed order: ii.22, 1st, "…" (seen in [36,235,360,330] and [36,325,360,420]); Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 325, 202, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,325,202,420] / r1c2 [194,325,360,420] of clip [36,325,360,420] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rsine.e23]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 325, 202, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rsine.e24
+  value: 3438
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.17-22 translation, the …-th of the twenty-four sines in printed order: ii.22, 2nd, "…" ("… thous-/and …."); Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 325, 202, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,325,202,420] / r1c2 [194,325,360,420] of clip [36,325,360,420] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rsine.e24]
+  emendation: null
+  notes: 'printed in words. The verse goes on: "Subtracting these, in reversed order, from the half-diameter, gives the tabular versed-sines (utkramajyardhapindaka)"; the half-diameter is not stated as a figure.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 325, 202, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rversine.e01
+  value: 7
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.23-27 translation, the …-th of the versed sines in printed order: ii.23, 1st, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 325, 202, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,325,202,420] / r1c2 [194,325,360,420] of clip [36,325,360,420] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rversine.e01]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 325, 202, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rversine.e02
+  value: 29
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.23-27 translation, the …-th of the versed sines in printed order: ii.23, 2nd, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 325, 202, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,325,202,420] / r1c2 [194,325,360,420] of clip [36,325,360,420] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rversine.e02]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 325, 202, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rversine.e03
+  value: 66
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.23-27 translation, the …-th of the versed sines in printed order: ii.23, 3rd, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 325, 202, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,325,202,420] / r1c2 [194,325,360,420] of clip [36,325,360,420] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rversine.e03]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 325, 202, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rversine.e04
+  value: 117
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.23-27 translation, the …-th of the versed sines in printed order: ii.23, 4th, "…" ("…-/teen"); Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 325, 202, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,325,202,420] / r1c2 [194,325,360,420] of clip [36,325,360,420] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rversine.e04]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 325, 202, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rversine.e05
+  value: 182
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.23-27 translation, the …-th of the versed sines in printed order: ii.23, 5th, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 325, 202, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,325,202,420] / r1c2 [194,325,360,420] of clip [36,325,360,420] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rversine.e05]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 325, 202, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rversine.e06
+  value: 261
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.23-27 translation, the …-th of the versed sines in printed order: ii.23, 6th, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 325, 202, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,325,202,420] / r1c2 [194,325,360,420] of clip [36,325,360,420] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rversine.e06]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 325, 202, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rversine.e07
+  value: 354
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.23-27 translation, the …-th of the versed sines in printed order: ii.23, 7th, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 325, 202, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,325,202,420] / r1c2 [194,325,360,420] of clip [36,325,360,420] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rversine.e07]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 325, 202, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rversine.e08
+  value: 460
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.23-27 translation, the …-th of the versed sines in printed order: ii.24, 1st, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 325, 202, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,325,202,420] / r1c2 [194,325,360,420] of clip [36,325,360,420] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rversine.e08]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 325, 202, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rversine.e09
+  value: 579
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.23-27 translation, the …-th of the versed sines in printed order: ii.24, 2nd, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 325, 202, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,325,202,420] / r1c2 [194,325,360,420] of clip [36,325,360,420] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rversine.e09]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 325, 202, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rversine.e10
+  value: 710
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.23-27 translation, the …-th of the versed sines in printed order: ii.24, 3rd, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 325, 202, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,325,202,420] / r1c2 [194,325,360,420] of clip [36,325,360,420] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rversine.e10]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 325, 202, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rversine.e11
+  value: 853
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.23-27 translation, the …-th of the versed sines in printed order: ii.24, 4th, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 325, 202, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,325,202,420] / r1c2 [194,325,360,420] of clip [36,325,360,420] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rversine.e11]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 325, 202, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rversine.e12
+  value: 1007
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.23-27 translation, the …-th of the versed sines in printed order: ii.24, 5th, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 325, 202, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,325,202,420] / r1c2 [194,325,360,420] of clip [36,325,360,420] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rversine.e12]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 325, 202, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rversine.e13
+  value: 1171
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.23-27 translation, the …-th of the versed sines in printed order: ii.24, 6th, "…" (seen in [36,325,360,420] and [36,415,360,515]); Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 325, 202, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,325,202,420] / r1c2 [194,325,360,420] of clip [36,325,360,420] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rversine.e13]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 325, 202, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rversine.e14
+  value: 1345
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.23-27 translation, the …-th of the versed sines in printed order: ii.25, 1st, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 415, 202, 515]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,415,202,515] / r1c2 [194,415,360,515] of clip [36,415,360,515] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rversine.e14]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 415, 202, 515]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rversine.e15
+  value: 1528
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.23-27 translation, the …-th of the versed sines in printed order: ii.25, 2nd, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 415, 202, 515]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,415,202,515] / r1c2 [194,415,360,515] of clip [36,415,360,515] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rversine.e15]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 415, 202, 515]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rversine.e16
+  value: 1719
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.23-27 translation, the …-th of the versed sines in printed order: ii.25, 3rd, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 415, 202, 515]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,415,202,515] / r1c2 [194,415,360,515] of clip [36,415,360,515] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rversine.e16]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 415, 202, 515]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rversine.e17
+  value: 1918
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.23-27 translation, the …-th of the versed sines in printed order: ii.25, 4th, "…" ("… hund-/red and …"); Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 415, 202, 515]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,415,202,515] / r1c2 [194,415,360,515] of clip [36,415,360,515] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rversine.e17]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 415, 202, 515]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rversine.e18
+  value: 2123
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.23-27 translation, the …-th of the versed sines in printed order: ii.26, 1st, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 415, 202, 515]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,415,202,515] / r1c2 [194,415,360,515] of clip [36,415,360,515] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rversine.e18]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 415, 202, 515]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rversine.e19
+  value: 2333
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.23-27 translation, the …-th of the versed sines in printed order: ii.26, 2nd, "…" ("… thous-/and …"); Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 415, 202, 515]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,415,202,515] / r1c2 [194,415,360,515] of clip [36,415,360,515] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rversine.e19]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 415, 202, 515]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rversine.e20
+  value: 2548
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.23-27 translation, the …-th of the versed sines in printed order: ii.26, 3rd, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 415, 202, 515]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,415,202,515] / r1c2 [194,415,360,515] of clip [36,415,360,515] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rversine.e20]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 415, 202, 515]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rversine.e21
+  value: 2767
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.23-27 translation, the …-th of the versed sines in printed order: ii.26, 4th, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 415, 202, 515]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,415,202,515] / r1c2 [194,415,360,515] of clip [36,415,360,515] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rversine.e21]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 415, 202, 515]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rversine.e22
+  value: 2989
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.23-27 translation, the …-th of the versed sines in printed order: ii.27, 1st, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 415, 202, 515]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,415,202,515] / r1c2 [194,415,360,515] of clip [36,415,360,515] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rversine.e22]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 415, 202, 515]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rversine.e23
+  value: 3213
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.23-27 translation, the …-th of the versed sines in printed order: ii.27, 2nd, "…" ("… thous-/and …"); Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 415, 202, 515]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,415,202,515] / r1c2 [194,415,360,515] of clip [36,415,360,515] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rversine.e23]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 415, 202, 515]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.rversine.e24
+  value: 3438
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: 'ii.23-27 translation, the …-th of the versed sines in printed order: ii.27, 3rd, "…"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 415, 202, 515]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,415,202,515] / r1c2 [194,415,360,515] of clip [36,415,360,515] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.trig.rversine.e24]
+  emendation: null
+  notes: 'printed in words. The verse ends ": these are the versed sines."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 415, 202, 515]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.trig.radius
+  status: gap
+  reason: ii.15–16, ii.22 and i.60 name the radius without a figure of its own (the last entry of the Rsine table is the quadrant's sine)
+  searched: suryasiddhanta_burgess_1860 PDF 57 ii.14-27 translation; suryasiddhanta_burgess_1860 PDF 43 i.59-60 translation (clip [36,405,360,472] 2x1)
+  effect: the radius is taken as the last Rsine of the table (trig.rsine.e24), the quadrant's sine; derived, never a literal
+  source: suryasiddhanta_burgess_1860
+  notes: 'Reader''s note: the translations name the radius ("half-diameter", ii.22; "radius (trijiva)", i.60) without a figure apart from the last sine.'
+- key: texts.suryasiddhanta.trig.construction
+  value: 'The eighth part of the minutes of a sign is called the first sine (jyârdha); that, increased by the remainder left after subtracting from it the quotient arising from dividing it by itself, is the second sine. Thus, dividing the tabular sines in succession by the first, and adding to them, in each case, what is left after subtracting the quotients from the first, the result is twenty-four tabular sines (jyârdhapiṇḍa), in order, as follows:'
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 196
+  pdf_page: 57
+  locus: ii.15-16 translation, from "The … part" (ii.15) to "in order, as follows:" (end of ii.16); the two verses joined by one space; Latin text convention, line-end hyphens joined
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 60, 370, 170]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: single full-width strip
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 150, 370, 200]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: last line of ii.16
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: '"jyârdhapiṇḍa" with n and d dot-below. "(jyârdha) ;" and "follows :" printed with spaces before punctuation (normalised). ii.16 ends with a colon introducing the sines of ii.17-22 (not keyed here).'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 60, 370, 170]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''

@@ -1,0 +1,2915 @@
+- key: texts.aryabhatiya.sun.revolutions
+  value: 4320000
+  form: numeral_word
+  value_form: integer
+  word:
+    text: ख्युघृ
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 4320000
+  unit: revolutions_per_yuga
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 6
+  pdf_page: 80
+  locus: 'Gītikā 3–4: the verse''s word for the Sun (yuga-ravi-bhagaṇāḥ) and the bold translation''s figure for it. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 30, 262, 167.2]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [45,30,262,429.6] 1x3 --overlap 8: the verse'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 159.2, 262, 300.4]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of the same clip: the bold translation'
+  status: double_read
+  verified_by: [texts.aryabhatiya.sun.revolutions.laghubhaskariya_1963]
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 30, 262, 167.2]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.moon.revolutions
+  value: 57753336
+  form: numeral_word
+  value_form: integer
+  word:
+    text: चयगियिङुशुछ्लृ
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 57753336
+  unit: revolutions_per_yuga
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 6
+  pdf_page: 80
+  locus: 'Gītikā 3–4: the verse''s word for the Moon (śaśi) and the bold translation''s figure for it. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 30, 262, 167.2]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [45,30,262,429.6] 1x3 --overlap 8: the verse'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 159.2, 262, 300.4]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of the same clip: the bold translation'
+  status: double_read
+  verified_by: [texts.aryabhatiya.moon.revolutions.laghubhaskariya_1963]
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 30, 262, 167.2]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.earth.rotations
+  value: 1582237500
+  form: numeral_word
+  value_form: integer
+  word:
+    text: ङिशिबुणॢष्खृ
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 1582237500
+  unit: rotations_per_yuga
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 6
+  pdf_page: 80
+  locus: 'Gītikā 3–4: the verse''s word for the Earth (ku) and the bold translation''s figure for it. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 30, 262, 167.2]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [45,30,262,429.6] 1x3 --overlap 8: the verse'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 159.2, 262, 300.4]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of the same clip: the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  variants:
+  - witness: 'Go. (aryabhatiya_1976 vol. 1 p. 6 footnote 1: ष्खु for ष्खृ)'
+    word: ङिशिबुणॢष्खु
+    decode: 1501057500
+  notes: 'The translation''s footnote 3: ''These are the rotations of the Earth, eastward.'' The akṣara ṇḷ is set as ṇa with the vowel ḷ beneath (a glyph like लृ); read as ṇḷ, the only reading under which the word decodes to a ten-digit number.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 30, 262, 167.2]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.saturn.revolutions
+  value: 146564
+  form: numeral_word
+  value_form: integer
+  word:
+    text: ढुङ्विघ्व
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 146564
+  unit: revolutions_per_yuga
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 6
+  pdf_page: 80
+  locus: 'Gītikā 3–4: the verse''s word for Saturn (śani) and the bold translation''s figure for it. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 30, 262, 167.2]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [45,30,262,429.6] 1x3 --overlap 8: the verse'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 159.2, 262, 300.4]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of the same clip: the bold translation'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [80, 76, 215, 110]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tighter clip of the verse's third and fourth lines
+  status: double_read
+  verified_by: [texts.aryabhatiya.saturn.revolutions.laghubhaskariya_1963]
+  emendation: null
+  notes: 'The first akṣara is read ḍhu (ढु): its lower curl differs from the plain da of भद्लि on the next line; at the scan''s native 600 ppi the u-sign joins the curl, so the reading of ḍh against d rests on that comparison.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 30, 262, 167.2]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.jupiter.revolutions
+  value: 364224
+  form: numeral_word
+  value_form: integer
+  word:
+    text: ख्रिच्युभ
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 364224
+  unit: revolutions_per_yuga
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 6
+  pdf_page: 80
+  locus: 'Gītikā 3–4: the verse''s word for Jupiter (guru) and the bold translation''s figure for it. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 30, 262, 167.2]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [45,30,262,429.6] 1x3 --overlap 8: the verse'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 159.2, 262, 300.4]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of the same clip: the bold translation'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [80, 76, 215, 110]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tighter clip of the verse's third and fourth lines
+  status: double_read
+  verified_by: [texts.aryabhatiya.jupiter.revolutions.laghubhaskariya_1963]
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 30, 262, 167.2]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.mars.revolutions
+  value: 2296824
+  form: numeral_word
+  value_form: integer
+  word:
+    text: भद्लिझ्नुखृ
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 2296824
+  unit: revolutions_per_yuga
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 6
+  pdf_page: 80
+  locus: 'Gītikā 3–4: the verse''s word for Mars (kuja) and the bold translation''s figure for it. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 30, 262, 167.2]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [45,30,262,429.6] 1x3 --overlap 8: the verse'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 159.2, 262, 300.4]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of the same clip: the bold translation'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [80, 76, 215, 110]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tighter clip of the verse's third and fourth lines
+  status: double_read
+  verified_by: [texts.aryabhatiya.mars.revolutions.laghubhaskariya_1963]
+  emendation: null
+  notes: 'The akṣara after dli is read jhnu (झ्नु): its half-form carries the top-left hook that the bha opening the word lacks.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 30, 262, 167.2]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.moon_apogee.revolutions
+  value: 488219
+  form: numeral_word
+  value_form: integer
+  word:
+    text: र्जुष्खिध
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 488219
+  unit: revolutions_per_yuga
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 6
+  pdf_page: 80
+  locus: 'Gītikā 3–4: the verse''s word for the Moon''s apogee (candrocca) and the bold translation''s figure for it. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 30, 262, 167.2]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [45,30,262,429.6] 1x3 --overlap 8: the verse'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 159.2, 262, 300.4]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of the same clip: the bold translation'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [80, 110, 215, 150]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tighter clip of the verse's fifth to seventh lines
+  status: double_read
+  verified_by: [texts.aryabhatiya.moon_apogee.revolutions.laghubhaskariya_1963]
+  emendation: null
+  variants:
+  - witness: C.D. Kṛ. Pa. Sū. (aryabhatiya_1976 vol. 1 p. 6 footnote 2)
+    word: ज्रुष्खिध
+    decode: 488219
+  notes: Printed with the reph (rju); footnote 2 gives jru for C.D. Kṛ. Pa. Sū. and rju for Bh. Nī. Pa. (alt.), Ra. So.; the two spellings decode alike.
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 30, 262, 167.2]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-fable-5-1/2026-10-03-r2
+      on: 2026-10-03
+      dpi: 600
+      clip: [100, 108, 140, 126]
+      delivered_ppi: 600
+      max_edge: 2000
+      note: ''
+    matches: read
+- key: texts.aryabhatiya.mercury_sighrocca.revolutions
+  value: 17937020
+  form: numeral_word
+  value_form: integer
+  word:
+    text: सुगुशिथृन
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 17937020
+  unit: revolutions_per_yuga
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 6
+  pdf_page: 80
+  locus: 'Gītikā 3–4: the verse''s word for Mercury (budha), its śīghrocca and the bold translation''s figure for it. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 30, 262, 167.2]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [45,30,262,429.6] 1x3 --overlap 8: the verse'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 159.2, 262, 300.4]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of the same clip: the bold translation'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [80, 110, 215, 150]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tighter clip of the verse's fifth to seventh lines
+  status: double_read
+  verified_by: [texts.aryabhatiya.mercury_sighrocca.revolutions.laghubhaskariya_1963]
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 30, 262, 167.2]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.venus_sighrocca.revolutions
+  value: 7022388
+  form: numeral_word
+  value_form: integer
+  word:
+    text: जषबिखुछृ
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 7022388
+  unit: revolutions_per_yuga
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 6
+  pdf_page: 80
+  locus: 'Gītikā 3–4: the verse''s word for Venus (bhṛgu), its śīghrocca and the bold translation''s figure for it. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 30, 262, 167.2]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [45,30,262,429.6] 1x3 --overlap 8: the verse'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 159.2, 262, 300.4]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of the same clip: the bold translation'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [80, 110, 215, 150]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tighter clip of the verse's fifth to seventh lines
+  status: double_read
+  verified_by: [texts.aryabhatiya.venus_sighrocca.revolutions.laghubhaskariya_1963]
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 30, 262, 167.2]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.moon_node.revolutions
+  value: 232226
+  form: numeral_word
+  value_form: integer
+  word:
+    text: बुफिनच
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 232226
+  unit: revolutions_per_yuga
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 6
+  pdf_page: 80
+  locus: 'Gītikā 3–4: the verse''s word for the Moon''s node (pāta, vilomāḥ) and the bold translation''s figure for it. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 30, 262, 167.2]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [45,30,262,429.6] 1x3 --overlap 8: the verse'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 159.2, 262, 300.4]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of the same clip: the bold translation'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [80, 110, 215, 150]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tighter clip of the verse's fifth to seventh lines
+  status: double_read
+  verified_by: [texts.aryabhatiya.moon_node.revolutions.laghubhaskariya_1963]
+  emendation: null
+  notes: The node's revolutions are westward (texts.aryabhatiya.moon_node.direction); the value is the printed positive count.
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 30, 262, 167.2]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.revolutions.mercury_venus
+  value: of Mercury and Venus, the same as those of the Sun
+  form: text
+  unit: statement
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 6
+  pdf_page: 80
+  locus: Gītikā 3–4, bold translation, the clause between 'of Mars, …;' and the next semicolon (bhṛgu-budha-saurāḥ of the verse). Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 159.2, 262, 300.4]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of the same clip: the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 159.2, 262, 300.4]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.revolutions.other_sighroccas
+  value: of (the śīghroccas of) the other planets, the same as those of the Sun
+  form: text
+  unit: statement
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 6
+  pdf_page: 80
+  locus: Gītikā 3–4, bold translation, the clause after 'of (the śīghrocca of Venus, …;' (śeṣārkāḥ of the verse). Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 159.2, 262, 300.4]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of the same clip: the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 159.2, 262, 300.4]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the diacritic part is untouched
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-08-r1
+      on: 2026-10-08
+      dpi: 600
+      clip: [45, 159.2, 262, 300.4]
+      delivered_ppi: 600
+      note: ''
+    matches: read
+- key: texts.aryabhatiya.moon_node.direction
+  value: of the moon's ascending node in the opposite direction (i.e., westward)
+  form: text
+  unit: statement
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 6
+  pdf_page: 80
+  locus: Gītikā 3–4, bold translation, the clause before the node's figure. Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 159.2, 262, 300.4]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of the same clip: the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 159.2, 262, 300.4]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.revolutions.direction
+  value: In a yuga, the eastward revolutions
+  form: text
+  unit: statement
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 6
+  pdf_page: 80
+  locus: Gītikā 3–4, bold translation, the opening words. Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 159.2, 262, 300.4]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of the same clip: the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 159.2, 262, 300.4]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epoch.yuga_start
+  value: These revolutions commenced at the beginning of the sign Aries on Wednesday at sunrise at Laṅkā (when it was the commencement of the current yuga).
+  form: text
+  unit: statement
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 6
+  pdf_page: 80
+  locus: Gītikā 3–4, bold translation, the last sentence. Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 159.2, 262, 300.4]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of the same clip: the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'The epoch of the revolution numbers: Aries 0°, a Wednesday, sunrise at Laṅkā, the beginning of the current yuga.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [45, 159.2, 262, 300.4]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.kalpa.manus
+  value: 14
+  form: numeral_word
+  value_form: integer
+  word:
+    text: ढ
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 14
+  unit: manus_per_kalpa
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 9
+  pdf_page: 83
+  locus: 'Gītikā 5: the verse''s word for the Manus in a Kalpa (a day of Brahmā) and the bold translation''s figure for it. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.kalpa.yugas_per_manu
+  value: 72
+  form: numeral_word
+  value_form: integer
+  word:
+    text: श्ख
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 72
+  unit: yugas_per_manu
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 9
+  pdf_page: 83
+  locus: 'Gītikā 5: the verse''s word for the yugas in a Manu and the bold translation''s figure for it. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.kali.manus_elapsed
+  value: 6
+  form: numeral_word
+  value_form: integer
+  word:
+    text: च
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 6
+  unit: manus
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 9
+  pdf_page: 83
+  locus: 'Gītikā 5: the verse''s word for the Manus elapsed (gatās te) and the bold translation''s figure for it. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.kali.yugas_elapsed
+  value: 27
+  form: numeral_word
+  value_form: integer
+  word:
+    text: छ्ना
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 27
+  unit: yugas
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 9
+  pdf_page: 83
+  locus: 'Gītikā 5: the verse''s word for the yugas elapsed (manuyugāḥ) and the bold translation''s figure for it. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.kali.quarter_yugas_elapsed
+  value: 3
+  form: numeral_word
+  value_form: integer
+  word:
+    text: ग
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 3
+  unit: quarter_yugas
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 9
+  pdf_page: 83
+  locus: 'Gītikā 5: the verse''s word for the quarter yugas elapsed (yugapādāḥ) and the bold translation''s figure for it. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.kali.elapsed_statement
+  value: Since Thursday, the beginning of the current Kalpa, 6 Manus, 27 yugas and 3 quarter yugas had elapsed before the beginning of the current Kaliyuga (lit. before Bhārata).
+  form: text
+  unit: statement
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 9
+  pdf_page: 83
+  locus: Gītikā 5, bold translation, the second sentence. Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: The weekday of the Kalpa's beginning and the time elapsed from it to the beginning of Kali. The editors' statement of the Kali epoch is eras.kali.epoch.date.aryabhatiya_1976.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epoch.kali_day_start.aryabhatiya_1976
+  value: at sunrise at Laṅkā (a hypothetical place on the equator where the meridian of Ujjain intersects it)
+  form: text
+  unit: statement
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 8
+  pdf_page: 82
+  locus: 'Editors'' note on Gītikā 3–4, the sentence ''The current Kaliyuga began on Friday, February …, … B.C., …'': the words from ''at sunrise'' to the closing parenthesis. Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: The instant of the Kali epoch as the editors state it; the date is eras.kali.epoch.date.aryabhatiya_1976.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.obliquity
+  value: 24
+  form: numeral_word
+  value_form: integer
+  word:
+    text: भ
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 24
+  unit: degrees
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 17
+  pdf_page: 91
+  locus: 'Gītikā 8: the numeral akṣara bha of bhāpakramo (bha + apakramaḥ, ''the declination of the ecliptic … degrees'') and the bold translation''s figure for the Sun''s greatest declination, in degrees. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [70, 252, 215, 300]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tighter clip of the verse
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r3c1 of the same clip: the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: The numeral is the akṣara bha (24) inside bhāpakramo, as Parameśvara parses it (grahāṇāṃ bha aṃśāś caturviṃśatibhāgā apakramaḥ), quoted by Clark (aryabhatiya_clark_1930 printed p. 16, PDF 45; read from that page image). The editors' note (p. 18, PDF 92) calls it the obliquity of the ecliptic.
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.moon.latitude_max
+  value: 9/2
+  form: numeral_word
+  value_form: fraction
+  word:
+    text: झार्धम्
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 9/2
+  unit: degrees
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 17
+  pdf_page: 91
+  locus: 'Gītikā 8: the verse''s word for the Moon (śaśivikṣepo ''pamaṇḍalāt) and the bold translation''s figure for it, in degrees. A mixed number printed with a half (…) is keyed as the improper ratio (…/…). The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [70, 252, 215, 300]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tighter clip of the verse
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r3c1 of the same clip: the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'jha (9) with ardham (half): nine halves of a degree.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.saturn.latitude_max
+  value: 2
+  form: numeral_word
+  value_form: fraction
+  word:
+    text: ख
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 2
+  unit: degrees
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 17
+  pdf_page: 91
+  locus: 'Gītikā 8: the verse''s word for Saturn (first of śani-guru-kuja) and the bold translation''s figure for it, in degrees. A mixed number printed with a half (…) is keyed as the improper ratio (…/…). The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [70, 252, 215, 300]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tighter clip of the verse
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r3c1 of the same clip: the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.jupiter.latitude_max
+  value: 1
+  form: numeral_word
+  value_form: fraction
+  word:
+    text: क
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 1
+  unit: degrees
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 17
+  pdf_page: 91
+  locus: 'Gītikā 8: the verse''s word for Jupiter (second of śani-guru-kuja) and the bold translation''s figure for it, in degrees. A mixed number printed with a half (…) is keyed as the improper ratio (…/…). The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [70, 252, 215, 300]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tighter clip of the verse
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r3c1 of the same clip: the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.mars.latitude_max
+  value: 3/2
+  form: numeral_word
+  value_form: fraction
+  word:
+    text: गार्धं
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 3/2
+  unit: degrees
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 17
+  pdf_page: 91
+  locus: 'Gītikā 8: the verse''s word for Mars (third of śani-guru-kuja) and the bold translation''s figure for it, in degrees. A mixed number printed with a half (…) is keyed as the improper ratio (…/…). The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [70, 252, 215, 300]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tighter clip of the verse
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r3c1 of the same clip: the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ga (3) with ardham (half).
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.mercury.latitude_max
+  value: 2
+  form: numeral_word
+  value_form: fraction
+  word:
+    text: ख
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 2
+  unit: degrees
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 18
+  pdf_page: 92
+  locus: 'Gītikā 8: the verse''s word for Mercury (bhṛgu-budha, one word for both, in the verse on p. 17, PDF 91, last line) and the figure on p. 18 (PDF 92), first line: ''and of Mercury and Venus (each), …°'' and the bold translation''s figure for it, in degrees. A mixed number printed with a half (…) is keyed as the improper ratio (…/…). The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'the figure: tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 on PDF 92; the word read on PDF 91 from clip [70,252,215,300]'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: One word, kha (2), for both Mercury and Venus (texts.aryabhatiya.venus.latitude_max).
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.venus.latitude_max
+  value: 2
+  form: numeral_word
+  value_form: fraction
+  word:
+    text: ख
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 2
+  unit: degrees
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 18
+  pdf_page: 92
+  locus: 'Gītikā 8: the verse''s word for Venus (bhṛgu-budha, one word for both, in the verse on p. 17, PDF 91, last line) and the figure on p. 18 (PDF 92), first line: ''and of Mercury and Venus (each), …°'' and the bold translation''s figure for it, in degrees. A mixed number printed with a half (…) is keyed as the improper ratio (…/…). The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'the figure: tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 on PDF 92; the word read on PDF 91 from clip [70,252,215,300]'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: One word, kha (2), for both Mercury and Venus (texts.aryabhatiya.mercury.latitude_max).
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.mercury.node
+  value: 20
+  form: numeral_word
+  value_form: integer
+  word:
+    text: न
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 20
+  unit: degrees
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 19
+  pdf_page: 93
+  locus: 'Gītikā 9: the verse''s word for Mercury''s ascending node (first of the verse''s five words) and the bold translation''s figure for it, in degrees from the beginning of Aries. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Footnote 1 prints the group of five as A.-G. Sū. नवरषहा, Bh. नवराषह, Pṛ. नवरषाह: spellings with the same decodes. Struck (the locus carried the first reader''s transliteration of the word): claude-fable-5-1/2026-10-03-r3.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r2
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.venus.node
+  value: 60
+  form: numeral_word
+  value_form: integer
+  word:
+    text: व
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 60
+  unit: degrees
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 19
+  pdf_page: 93
+  locus: 'Gītikā 9: the verse''s word for Venus''s ascending node (second of the verse''s five words) and the bold translation''s figure for it, in degrees from the beginning of Aries. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Struck (the locus carried the first reader''s transliteration of the word): claude-fable-5-1/2026-10-03-r3.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r2
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.mars.node
+  value: 40
+  form: numeral_word
+  value_form: integer
+  word:
+    text: रा
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 40
+  unit: degrees
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 19
+  pdf_page: 93
+  locus: 'Gītikā 9: the verse''s word for Mars''s ascending node (third of the verse''s five words) and the bold translation''s figure for it, in degrees from the beginning of Aries. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Struck (the locus carried the first reader''s transliteration of the word): claude-fable-5-1/2026-10-03-r3.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r2
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.jupiter.node
+  value: 80
+  form: numeral_word
+  value_form: integer
+  word:
+    text: ष
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 80
+  unit: degrees
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 19
+  pdf_page: 93
+  locus: 'Gītikā 9: the verse''s word for Jupiter''s ascending node (fourth of the verse''s five words) and the bold translation''s figure for it, in degrees from the beginning of Aries. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Struck (the locus carried the first reader''s transliteration of the word): claude-fable-5-1/2026-10-03-r3.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r2
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.saturn.node
+  value: 100
+  form: numeral_word
+  value_form: integer
+  word:
+    text: ह
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 100
+  unit: degrees
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 19
+  pdf_page: 93
+  locus: 'Gītikā 9: the verse''s word for Saturn''s ascending node (fifth of the verse''s five words) and the bold translation''s figure for it, in degrees from the beginning of Aries. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Struck (the locus carried the first reader''s transliteration of the word): claude-fable-5-1/2026-10-03-r3.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r2
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sun.apogee
+  value: 78
+  form: numeral_word
+  value_form: integer
+  word:
+    text: द्वा
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 78
+  unit: degrees
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 19
+  pdf_page: 93
+  locus: 'Gītikā 9: the verse''s word for the Sun''s apogee (savituḥ; first of the six) and the bold translation''s figure for it, in degrees from the beginning of Aries. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [80, 215, 250, 260]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tighter clip of the verse's last two lines
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Read dvā: the subjoined letter closes in the loop of va, not the oblique stroke of ra. Bhāskara I''s commentary (aryabhatiya_1976 vol. 2, PDF 156) spells it aṣṭasaptati (78).'
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.mercury.apogee
+  value: 210
+  form: numeral_word
+  value_form: integer
+  word:
+    text: ञखि
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 210
+  unit: degrees
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 19
+  pdf_page: 93
+  locus: 'Gītikā 9: the verse''s word for Mercury''s apogee (second of the six) and the bold translation''s figure for it, in degrees from the beginning of Aries. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [80, 215, 250, 260]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tighter clip of the verse's last two lines
+  status: double_read
+  verified_by: [texts.aryabhatiya.mercury.apogee.laghubhaskariya_1963]
+  emendation: null
+  notes: Read as the full ña (10) followed by khi (200), not the conjunct ñkhi; Bhāskara I's commentary (aryabhatiya_1976 vol. 2, PDF 156) prints ञखि and spells it śatadvayaṃ daśottaram (210).
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.venus.apogee
+  value: 90
+  form: numeral_word
+  value_form: integer
+  word:
+    text: सा
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 90
+  unit: degrees
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 19
+  pdf_page: 93
+  locus: 'Gītikā 9: the verse''s word for Venus''s apogee (third of the six) and the bold translation''s figure for it, in degrees from the beginning of Aries. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [80, 215, 250, 260]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tighter clip of the verse's last two lines
+  status: double_read
+  verified_by: [texts.aryabhatiya.venus.apogee.laghubhaskariya_1963]
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.mars.apogee
+  value: 118
+  form: numeral_word
+  value_form: integer
+  word:
+    text: ह्दा
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 118
+  unit: degrees
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 19
+  pdf_page: 93
+  locus: 'Gītikā 9: the verse''s word for Mars''s apogee (fourth of the six) and the bold translation''s figure for it, in degrees from the beginning of Aries. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [80, 215, 250, 260]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tighter clip of the verse's last two lines
+  status: double_read
+  verified_by: [texts.aryabhatiya.mars.apogee.laghubhaskariya_1963]
+  emendation: null
+  variants:
+  - witness: Kṛ. (aryabhatiya_1976 vol. 1 p. 19 footnote 2)
+    word: ह्द
+    decode: 118
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.jupiter.apogee
+  value: 180
+  form: numeral_word
+  value_form: integer
+  word:
+    text: ह्लय
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 180
+  unit: degrees
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 19
+  pdf_page: 93
+  locus: 'Gītikā 9: the verse''s word for Jupiter''s apogee (fifth of the six) and the bold translation''s figure for it, in degrees from the beginning of Aries. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [80, 215, 250, 260]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tighter clip of the verse's last two lines
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [140, 219, 205, 235]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tighter clip of the fifth and sixth words
+  status: double_read
+  verified_by: [texts.aryabhatiya.jupiter.apogee.laghubhaskariya_1963]
+  emendation: null
+  notes: The first read keyed ह्ल्य, the ya subjoined, noting that the last letter has the shape of the ya ending खिच्य beside it, not of ca; both decode to 180. Bhāskara I's commentary (aryabhatiya_1976 vol. 2, PDF 156) spells it sāśītikaṃ śatam (180).
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-fable-5-1/2026-10-03-r2
+      on: 2026-10-03
+      dpi: 600
+      clip: [120, 220, 265, 238]
+      delivered_ppi: 600
+      note: ''
+    matches: second_read
+  further_look:
+  - issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-08-r3
+      on: 2026-10-08
+      dpi: 600
+      clip: [145, 218, 175, 240]
+      delivered_ppi: 600
+      max_edge: 2000
+      note: ''
+    matches: second_read
+- key: texts.aryabhatiya.saturn.apogee
+  value: 236
+  form: numeral_word
+  value_form: integer
+  word:
+    text: खिच्य
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 236
+  unit: degrees
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 19
+  pdf_page: 93
+  locus: 'Gītikā 9: the verse''s word for Saturn''s apogee (sixth of the six) and the bold translation''s figure for it, in degrees from the beginning of Aries. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [80, 215, 250, 260]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tighter clip of the verse's last two lines
+  status: double_read
+  verified_by: [texts.aryabhatiya.saturn.apogee.laghubhaskariya_1963]
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.nodes_apogees.statement
+  value: having moved to 20°, 60°, 40°, 80° and 100° respectively (from the beginning of the sign Aries) (occupy those positions)
+  form: text
+  unit: statement
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 19
+  pdf_page: 93
+  locus: 'Gītikā 9, bold translation: the words from ''having moved'' to the first ''positions)''. Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: The nodes (and, in the same words, the apogees) are stated as positions reached; whether they move is the editors' note (texts.aryabhatiya.apogees.motion).
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.apogees.motion
+  value: The word gatvā (meaning 'having moved' or 'having moved to') is used in the text to show that the ascending nodes and the apogees of the planets are not stationary but have a motion.
+  form: text
+  unit: statement
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 20
+  pdf_page: 94
+  locus: Editors' note on Gītikā 9, the paragraph below Table 7 on p. 20 (PDF 94), ending on the first line of p. 21 (PDF 95). Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r3c1 of the same clip; the sentence ends on PDF 95, tile r1c1 [40,25,265,163.67]
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: The text gives the planets' apogees and nodes as positions (Gītikā 9) and no revolution numbers for them; the editors' Table 8 (p. 21, PDF 95) gives the apogees' revolution numbers 'as handed down to Bhāskara I by tradition' (class 2, not keyed). Bhāskara I's commentary on Gītikā 9 (aryabhatiya_1976 vol. 2, PDF 156) adds that for practical purposes the positions do not move. The engine holds them fixed.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.time_units.months_per_year
+  value: 12
+  form: integer
+  unit: months
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 85
+  pdf_page: 159
+  locus: 'Kālakriyā 1, bold translation: ''A year consists of … months.'' The verse states the number in an ordinary Sanskrit number word, not in Āryabhaṭa''s alphabetic notation; the value is the bold translation''s figure (Latin).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Footnote 1: So. reads द्वादशमासः for द्वादश मासा-; the number word is the same.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.time_units.days_per_month
+  value: 30
+  form: integer
+  unit: days
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 85
+  pdf_page: 159
+  locus: 'Kālakriyā 1, bold translation: ''A month consists of … days.'' The verse states the number in an ordinary Sanskrit number word, not in Āryabhaṭa''s alphabetic notation; the value is the bold translation''s figure (Latin).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.time_units.nadis_per_day
+  value: 60
+  form: integer
+  unit: nadis
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 85
+  pdf_page: 159
+  locus: 'Kālakriyā 1, bold translation: ''A day consists of … nāḍīs.'' The verse states the number in an ordinary Sanskrit number word, not in Āryabhaṭa''s alphabetic notation; the value is the bold translation''s figure (Latin).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.time_units.vinadikas_per_nadi
+  value: 60
+  form: integer
+  unit: vinadikas
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 85
+  pdf_page: 159
+  locus: 'Kālakriyā 1, bold translation: ''A nāḍī consists of … vināḍikās (or vināḍīs).'' The verse states the number in an ordinary Sanskrit number word, not in Āryabhaṭa''s alphabetic notation; the value is the bold translation''s figure (Latin).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.time_units.long_syllables_per_vinadika
+  value: 60
+  form: integer
+  unit: long_syllables
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 85
+  pdf_page: 159
+  locus: 'Kālakriyā 2, bold translation: ''A sidereal vināḍikā is equal to … … long syllables''. The verse states the number in an ordinary Sanskrit number word, not in Āryabhaṭa''s alphabetic notation; the value is the bold translation''s figure (Latin).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: The translation's 'sidereal' renders the verse's word read as विनाडिकार्क्षी (vināḍikā ārkṣī).
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.time_units.pranas_per_vinadika
+  value: 6
+  form: integer
+  unit: pranas
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 85
+  pdf_page: 159
+  locus: 'Kālakriyā 2, bold translation: ''… or (in taking) … respirations (prāṇas).'' The verse states the number in an ordinary Sanskrit number word, not in Āryabhaṭa''s alphabetic notation; the value is the bold translation''s figure (Latin).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.time_units.circle_division
+  value: This is the division of time. The division of a circle (lit. the ecliptic) proceeds in a similar manner from the revolution.
+  form: text
+  unit: statement
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 85
+  pdf_page: 159
+  locus: Kālakriyā 2, bold translation, the last two sentences (the footnote mark … after 'revolution' not keyed). Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r3c1 of the same clip: the translation''s last sentence and the footnotes'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: Footnote 4 refers to Gītikā 6 (p. 13) for the circle's divisions.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.time_units.solar_year
+  value: The revolutions of the Sun are solar years.
+  form: text
+  unit: statement
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 91
+  pdf_page: 165
+  locus: Kālakriyā 5, bold translation, the sentence 'The revolutions of the Sun …'. Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: Kālakriyā 5, verse and bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.time_units.lunar_month
+  value: The conjunctions of the Sun and the Moon are lunar months.
+  form: text
+  unit: statement
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 91
+  pdf_page: 165
+  locus: Kālakriyā 5, bold translation, the sentence 'The conjunctions of the Sun and the Moon …'. Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: Kālakriyā 5, verse and bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.civil_days.rule
+  value: The conjunctions of the Sun and Earth are (civil) days.
+  form: text
+  unit: statement
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 91
+  pdf_page: 165
+  locus: Kālakriyā 5, bold translation, the sentence 'The conjunctions of the Sun and Earth …'. Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: Kālakriyā 5, verse and bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'The rule from which the civil days of a yuga follow: the Earth''s rotations (texts.aryabhatiya.earth.rotations) less the Sun''s revolutions (texts.aryabhatiya.sun.revolutions). The editors'' tabulation below the verse (fixture authority/aryabhatiya/aryabhatiya_1976_kalakriya5_yuga_counts) is a check on that derivation, not a datum.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.time_units.sidereal_day
+  value: The rotations of the Earth are sidereal days.
+  form: text
+  unit: statement
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 91
+  pdf_page: 165
+  locus: Kālakriyā 5, bold translation, the sentence 'The rotations of the Earth …'. Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: Kālakriyā 5, verse and bold translation'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of the same clip: the editors'' tabulation and note'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Footnote 1 and the editors'' note: the commentators read bhāvartāś cāpi nākṣatrāḥ (others) where the text prints kvāvartāś (Bh. and Ra. quoting it as an alternative); the editors adopt kvāvartāś. The rule is the same under both readings for the count of days.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.time_units.adhimasa_rule
+  value: The lunar months (in a yuga) which are in excess of the solar months (in a yuga) are (known as) the intercalary months in a yuga
+  form: text
+  unit: statement
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 91
+  pdf_page: 165
+  locus: Kālakriyā 6, bold translation, to the semicolon. Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r3c1 of the same clip: Kālakriyā 6 and footnote 1'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.time_units.avama_rule
+  value: and the lunar days (in a yuga) diminished by the civil days (in a yuga) are known as the omitted lunar days (in a yuga).
+  form: text
+  unit: statement
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 91
+  pdf_page: 165
+  locus: Kālakriyā 6, bold translation, after the semicolon. Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r3c1 of the same clip: Kālakriyā 6 and footnote 1'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.composed
+  value: 3600
+  form: integer
+  unit: kali_years_elapsed
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 95
+  pdf_page: 169
+  locus: 'Kālakriyā 10, the editors'' note below the bold translation: the figure in ''This stanza mentions the epoch when … years had elapsed since the beginning of the current Kaliyuga.'''
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r3c1 of clip [40,25,265,429] 1x3 --overlap 8: the bold translation and the editors'' note'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of the same clip: the verse'
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: inferred
+  basis_ref: 'aryabhatiya_1976 vol. 1 p. 95 (PDF 169), Kālakriyā 10: the stanza states the author''s age (23 years) when sixty times sixty years and three quarter-yugas had elapsed; it does not say the work was composed then (texts.aryabhatiya.composed.statement)'
+  convention: stated
+  notes: 'Elapsed: the translation reads ''had elapsed'' (vyatītāḥ of the verse) and the editors'' note ''had elapsed since the beginning of the current Kaliyuga'' (p. 95, PDF 169). The editors pair Kali 3600 with Śaka 421 on p. 96 (PDF 170; texts.aryabhatiya.composed.saka_pair). The verse states the numbers in ordinary Sanskrit number words (ṣaṣṭy-abdānāṃ ṣaṣṭiḥ, tryadhikā viṃśatiḥ), not in Āryabhaṭa''s alphabetic notation; the value is the editors'' figure (Latin). Study: sarma_2001_aryabhata.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.composed.statement
+  value: When sixty times sixty years and three quarter yugas (of the current yuga) had elapsed, twentythree years had then passed since my birth.
+  form: text
+  unit: statement
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 95
+  pdf_page: 169
+  locus: Kālakriyā 10, bold translation. Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r3c1 of clip [40,25,265,429] 1x3 --overlap 8: the bold translation and the editors'' note'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.composed.saka_pair
+  value: 421
+  form: integer
+  unit: saka_years
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 96
+  pdf_page: 170
+  locus: 'Editors'' note on Kālakriyā 10, the paragraph after Table 17: the Śaka figure in ''The Kali year … (or Śaka year …) was, according to Sūryadeva …''.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8 on PDF 170: the paragraph after Table 17'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: The editors' Śaka equivalent of the Kali year of texts.aryabhatiya.composed (class 2, cited individually). Table 17's heading on the same page names Śaka 421 as the epoch of zero correction 'taken as Śaka 420 for facility of computation' (Lalla's bīja).
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.meridian.four_cities
+  value: When it is sunrise at Laṅkā, it is sunset at Siddhapura, midday at Yavakoṭi, and midnight at Romaka.
+  form: text
+  unit: statement
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 123
+  pdf_page: 197
+  locus: Gola 13, bold translation (the footnote mark … not keyed). Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: Gola 13, verse and bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.meridian.lanka_ujjayini
+  value: From the centres of the land and the water, at a distance of one-quarter of the Earth's circumference, lies Laṅkā; and from Laṅkā, at a distance of one-fourth thereof, exactly northwards, lies Ujjayini.
+  form: text
+  unit: statement
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 123
+  pdf_page: 197
+  locus: Gola 14, bold translation (r2c1 to r3c1; the footnote mark … not keyed). Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of the same clip: the editors'' note on Gola 13 and Gola 14''s verse'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r3c1 of the same clip: Gola 14''s bold translation, continued, and the footnotes'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Footnote 7: Nī. Sū. read पञ्चदशांशे (one-fifteenth) for तच्चतुरंशे; Gh. Nī. Pa. Ra. Sū. note both readings. The text''s meridian: Laṅkā on the equator, Ujjayinī due north of it (the prime meridian).'
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the diacritic part is untouched
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-08-r1
+      on: 2026-10-08
+      dpi: 600
+      clip: [40, 155.67, 265, 298.33]
+      delivered_ppi: 600
+      note: ''
+    matches: second_read
+- key: texts.aryabhatiya.meridian.editors_statement
+  value: Laṅkā is supposed to be at the place where the meridian of Ujjayinī (long. 75°.43 E., lat. 23°.09 N) intersects the equator, Yavakoṭi 90° to the east of Laṅkā, Romaka 90° to the west of Laṅkā, and Siddhapura diametrically opposite to Laṅkā.
+  form: text
+  unit: statement
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 123
+  pdf_page: 197
+  locus: Editors' note on Gola 13, the second paragraph. Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of the same clip: the editors'' note on Gola 13 and Gola 14''s verse'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.meridian.ujjayini_longitude.aryabhatiya_1976
+  value: '75.43'
+  form: fraction
+  unit: degrees_east
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 123
+  pdf_page: 197
+  locus: 'Editors'' note on Gola 13, the sentence ''Laṅkā is supposed to be at the place where the meridian of Ujjayinī (long. …°.… E., lat. …°.… N) intersects the equator, …'': the longitude, keyed as a decimal (the degree sign printed before the point dropped).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of the same clip: the editors'' note on Gola 13 and Gola 14''s verse'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: The editors' modern longitude of Ujjayinī (class 2, a printed modern coordinate cited individually); not the text's. Printed as 75°.43, read as decimal degrees.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.meridian.ujjayini_latitude.aryabhatiya_1976
+  value: '23.09'
+  form: fraction
+  unit: degrees_north
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 123
+  pdf_page: 197
+  locus: 'Editors'' note on Gola 13, the sentence ''Laṅkā is supposed to be at the place where the meridian of Ujjayinī (long. …°.… E., lat. …°.… N) intersects the equator, …'': the latitude, keyed as a decimal (the degree sign printed before the point dropped).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of the same clip: the editors'' note on Gola 13 and Gola 14''s verse'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: The editors' modern latitude of Ujjayinī (class 2, cited individually); not the text's. Printed as 23°.09.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.meridian.ujjain_longitude.laghubhaskariya_1963
+  value: [75, 52]
+  form: sexagesimal
+  unit: degrees_east
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 2
+  pdf_page: 75
+  locus: 'Shukla''s footnote 2 on p. 2: ''Laṅkā is a hypothetical place on the equator where the meridian of Ujjain (long …°…′ E from Greenwich) intersects it.'': the longitude, as [degrees, minutes].'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 344
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 344
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 75)
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'The editor''s modern longitude of Ujjain (class 2, cited individually). It differs from the aryabhatiya_1976 editors'' ''long. 75°.43 E.'' (texts.aryabhatiya.meridian.ujjayini_longitude.aryabhatiya_1976): both are recorded. Route (b) of regions/kerala/places.yaml takes this one, by the library author''s decision; the conflict stays on record.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 344
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 344
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sun.revolutions.laghubhaskariya_1963
+  value: 4320000
+  form: integer
+  unit: revolutions_per_yuga
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 5
+  pdf_page: 78
+  locus: 'I.9–14, Shukla''s translation: the figure of the Sun, the figure after ''i.e.''.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: tile r1c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 78)
+  status: double_read
+  verified_by: [texts.aryabhatiya.sun.revolutions]
+  emendation: null
+  notes: Bhāskara I's statement in the Laghubhāskarīya, a second witness of the Āryabhaṭīya's value (aryabhatiya_1976 Gītikā 3–4); not the aryabhatiya_1976 datum.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 349
+    clip: [60, 100, 360, 210]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.moon.revolutions.laghubhaskariya_1963
+  value: 57753336
+  form: integer
+  unit: revolutions_per_yuga
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 5
+  pdf_page: 78
+  locus: 'I.9–14, Shukla''s translation: the figure ''of the Moon, …''.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: tile r1c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 78)
+  status: double_read
+  verified_by: [texts.aryabhatiya.moon.revolutions]
+  emendation: null
+  notes: Bhāskara I's statement in the Laghubhāskarīya, a second witness of the Āryabhaṭīya's value (aryabhatiya_1976 Gītikā 3–4); not the aryabhatiya_1976 datum.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 349
+    clip: [60, 100, 360, 210]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.mars.revolutions.laghubhaskariya_1963
+  value: 2296824
+  form: integer
+  unit: revolutions_per_yuga
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 5
+  pdf_page: 78
+  locus: 'I.9–14, Shukla''s translation: the figure ''of Mars, …''.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: tile r1c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 78)
+  status: double_read
+  verified_by: [texts.aryabhatiya.mars.revolutions]
+  emendation: null
+  notes: Bhāskara I's statement in the Laghubhāskarīya, a second witness of the Āryabhaṭīya's value (aryabhatiya_1976 Gītikā 3–4); not the aryabhatiya_1976 datum.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 349
+    clip: [60, 100, 360, 210]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.jupiter.revolutions.laghubhaskariya_1963
+  value: 364224
+  form: integer
+  unit: revolutions_per_yuga
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 5
+  pdf_page: 78
+  locus: 'I.9–14, Shukla''s translation: the figure ''of Jupiter, …''.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: tile r1c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 78)
+  status: double_read
+  verified_by: [texts.aryabhatiya.jupiter.revolutions]
+  emendation: null
+  notes: Bhāskara I's statement in the Laghubhāskarīya, a second witness of the Āryabhaṭīya's value (aryabhatiya_1976 Gītikā 3–4); not the aryabhatiya_1976 datum.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 349
+    clip: [60, 100, 360, 210]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.saturn.revolutions.laghubhaskariya_1963
+  value: 146564
+  form: integer
+  unit: revolutions_per_yuga
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 5
+  pdf_page: 78
+  locus: 'I.9–14, Shukla''s translation: the figure ''of Saturn, …''.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: tile r1c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 78)
+  status: double_read
+  verified_by: [texts.aryabhatiya.saturn.revolutions]
+  emendation: null
+  notes: Bhāskara I's statement in the Laghubhāskarīya, a second witness of the Āryabhaṭīya's value (aryabhatiya_1976 Gītikā 3–4); not the aryabhatiya_1976 datum.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 349
+    clip: [60, 100, 360, 210]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.moon_apogee.revolutions.laghubhaskariya_1963
+  value: 488219
+  form: integer
+  unit: revolutions_per_yuga
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 5
+  pdf_page: 78
+  locus: 'I.9–14, Shukla''s translation: the figure ''of the Moon''s apogee (mandocca), …''.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: tile r1c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 78)
+  status: double_read
+  verified_by: [texts.aryabhatiya.moon_apogee.revolutions]
+  emendation: null
+  notes: Bhāskara I's statement in the Laghubhāskarīya, a second witness of the Āryabhaṭīya's value (aryabhatiya_1976 Gītikā 3–4); not the aryabhatiya_1976 datum.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 349
+    clip: [60, 100, 360, 210]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.mercury_sighrocca.revolutions.laghubhaskariya_1963
+  value: 17937020
+  form: integer
+  unit: revolutions_per_yuga
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 5
+  pdf_page: 78
+  locus: 'I.9–14, Shukla''s translation: the figure ''of (the śīghrocca of) Mercury; …''.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: tile r1c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 78)
+  status: double_read
+  verified_by: [texts.aryabhatiya.mercury_sighrocca.revolutions]
+  emendation: null
+  notes: Bhāskara I's statement in the Laghubhāskarīya, a second witness of the Āryabhaṭīya's value (aryabhatiya_1976 Gītikā 3–4); not the aryabhatiya_1976 datum.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 349
+    clip: [60, 100, 360, 210]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.venus_sighrocca.revolutions.laghubhaskariya_1963
+  value: 7022388
+  form: integer
+  unit: revolutions_per_yuga
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 5
+  pdf_page: 78
+  locus: 'I.9–14, Shukla''s translation: the figure ''and of (the śīghrocca of) Venus, …''.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: tile r1c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 78)
+  status: double_read
+  verified_by: [texts.aryabhatiya.venus_sighrocca.revolutions]
+  emendation: null
+  notes: Bhāskara I's statement in the Laghubhāskarīya, a second witness of the Āryabhaṭīya's value (aryabhatiya_1976 Gītikā 3–4); not the aryabhatiya_1976 datum.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 349
+    clip: [60, 100, 360, 210]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.moon_node.revolutions.laghubhaskariya_1963
+  value: 232226
+  form: integer
+  unit: revolutions_per_yuga
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 5
+  pdf_page: 78
+  locus: 'I.9–14, Shukla''s translation: the figure ''The revolution-number of the Moon''s ascending node (pāta) is …''.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: tile r1c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 78)
+  status: double_read
+  verified_by: [texts.aryabhatiya.moon_node.revolutions]
+  emendation: null
+  notes: Bhāskara I's statement in the Laghubhāskarīya, a second witness of the Āryabhaṭīya's value (aryabhatiya_1976 Gītikā 3–4); not the aryabhatiya_1976 datum.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 349
+    clip: [60, 100, 360, 210]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.civil_days.laghubhaskariya_1963
+  value: 1577917500
+  form: integer
+  unit: days_per_yuga
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 5
+  pdf_page: 78
+  locus: 'I.9–14, Shukla''s translation: the figure ''and the number of civil days (in a yuga), …'' (the footnote mark … not keyed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: tile r1c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 78)
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 78)
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: Bhāskara I's stated count of civil days in a yuga; the Āryabhaṭīya states the rule (texts.aryabhatiya.civil_days.rule), not the count.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 349
+    clip: [60, 200, 360, 240]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.mars.apogee.laghubhaskariya_1963
+  value: 118
+  form: integer
+  unit: degrees
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 6
+  pdf_page: 79
+  locus: 'I.18, Shukla''s translation ''(The longitudes of the apogees of the planets) beginning with Mars are … plus …, … plus …, half a circle (i.e., …), … and … degrees respectively.'': ''… plus …''. The values are assigned to Mars, Mercury, Jupiter, Venus and Saturn in that order (the order of the week-days beginning with Mars, ''beginning with Mars'' of the translation).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 79)
+  status: double_read
+  verified_by: [texts.aryabhatiya.mars.apogee]
+  emendation: null
+  notes: Bhāskara I's statement in the Laghubhāskarīya, a second witness of the Āryabhaṭīya's value (aryabhatiya_1976 Gītikā 9); not the aryabhatiya_1976 datum.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.mercury.apogee.laghubhaskariya_1963
+  value: 210
+  form: integer
+  unit: degrees
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 6
+  pdf_page: 79
+  locus: 'I.18, Shukla''s translation ''(The longitudes of the apogees of the planets) beginning with Mars are … plus …, … plus …, half a circle (i.e., …), … and … degrees respectively.'': ''… plus …''. The values are assigned to Mars, Mercury, Jupiter, Venus and Saturn in that order (the order of the week-days beginning with Mars, ''beginning with Mars'' of the translation).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 79)
+  status: double_read
+  verified_by: [texts.aryabhatiya.mercury.apogee]
+  emendation: null
+  notes: Bhāskara I's statement in the Laghubhāskarīya, a second witness of the Āryabhaṭīya's value (aryabhatiya_1976 Gītikā 9); not the aryabhatiya_1976 datum.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.jupiter.apogee.laghubhaskariya_1963
+  value: 180
+  form: integer
+  unit: degrees
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 6
+  pdf_page: 79
+  locus: 'I.18, Shukla''s translation ''(The longitudes of the apogees of the planets) beginning with Mars are … plus …, … plus …, half a circle (i.e., …), … and … degrees respectively.'': ''half a circle (i.e., …)'', the i.e. figure. The values are assigned to Mars, Mercury, Jupiter, Venus and Saturn in that order (the order of the week-days beginning with Mars, ''beginning with Mars'' of the translation).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 79)
+  status: double_read
+  verified_by: [texts.aryabhatiya.jupiter.apogee]
+  emendation: null
+  notes: Bhāskara I's statement in the Laghubhāskarīya, a second witness of the Āryabhaṭīya's value (aryabhatiya_1976 Gītikā 9); not the aryabhatiya_1976 datum.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.venus.apogee.laghubhaskariya_1963
+  value: 90
+  form: integer
+  unit: degrees
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 6
+  pdf_page: 79
+  locus: 'I.18, Shukla''s translation ''(The longitudes of the apogees of the planets) beginning with Mars are … plus …, … plus …, half a circle (i.e., …), … and … degrees respectively.'': ''…''. The values are assigned to Mars, Mercury, Jupiter, Venus and Saturn in that order (the order of the week-days beginning with Mars, ''beginning with Mars'' of the translation).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 79)
+  status: double_read
+  verified_by: [texts.aryabhatiya.venus.apogee]
+  emendation: null
+  notes: Bhāskara I's statement in the Laghubhāskarīya, a second witness of the Āryabhaṭīya's value (aryabhatiya_1976 Gītikā 9); not the aryabhatiya_1976 datum.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.saturn.apogee.laghubhaskariya_1963
+  value: 236
+  form: integer
+  unit: degrees
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 6
+  pdf_page: 79
+  locus: 'I.18, Shukla''s translation ''(The longitudes of the apogees of the planets) beginning with Mars are … plus …, … plus …, half a circle (i.e., …), … and … degrees respectively.'': ''…''. The values are assigned to Mars, Mercury, Jupiter, Venus and Saturn in that order (the order of the week-days beginning with Mars, ''beginning with Mars'' of the translation).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 79)
+  status: double_read
+  verified_by: [texts.aryabhatiya.saturn.apogee]
+  emendation: null
+  notes: Bhāskara I's statement in the Laghubhāskarīya, a second witness of the Āryabhaṭīya's value (aryabhatiya_1976 Gītikā 9); not the aryabhatiya_1976 datum.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''

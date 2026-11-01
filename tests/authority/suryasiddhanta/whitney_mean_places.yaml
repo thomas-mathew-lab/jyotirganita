@@ -1,0 +1,553 @@
+id: authority/suryasiddhanta/whitney_mean_places
+methods: [suryasiddhanta]
+class: editor_computed
+source: suryasiddhanta_burgess_1860
+edition_page: 178
+pdf_page: 39
+locus: note under i.53, p. 178 (PDF 39) from "We have calculated in this manner the positions of all the planets" to the table "Mean Places of the Planets, Jan. …st, … midnight, at Ujjayini." (column "According to the Surya-Siddhanta."); its explanation continues on p. 179 (PDF 40) to "under vv. …)."
+rounding: whole seconds of arc
+precision: seconds of arc
+datum_keys: [texts.suryasiddhanta.procedures.mean_longitude.rule]
+notes: 'Table heads as printed: "Planet." | "According to the Surya-Siddhanta." (sub-heads "(rev.)", s, deg, '', '''') | "The same corrected by the bija." (s, deg, '', ''''; a lead, not keyed). Per p. 178 the positions are reckoned from the beginning of the Iron Age (sum of days 1,811,945) with the revolution numbers of the lesser period of 1,080,000 years (v. 56); per p. 179 the prefixed numbers are complete revolutions since the epoch, and for the moon''s apsis and node the whole-Age revolution numbers were used and their longitude at the epoch added (vv. 57, 58). The node''s revolutions are printed "(267-)" (the node is retrograde); keyed 267 with negative: true from the trailing minus. Mercury and Venus rows give the planet''s own mean place (p. 179: "it is this which we have given for Mercury and Venus").'
+values:
+- name: input.sum_of_days_from_kali
+  role: input
+  value: 1811945
+  form: integer
+  unit: civil_days
+  script: latin
+  edition_page: 178
+  pdf_page: 39
+  locus: 'p. 178 text: "(from which time the sum of days is …)"; grouping dropped'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [204.5, 318, 375, 400]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [40,318,375,400] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_mean_places_1860.yaml (sha256 e26e749a)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.lesser_period_years
+  role: input
+  value: 1080000
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 178
+  pdf_page: 39
+  locus: 'p. 178 text: "the numbers afforded by the lesser period of … years"; grouping dropped'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [40, 318, 210.5, 400]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [40,318,375,400] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_mean_places_1860.yaml (sha256 e26e749a)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sun.revolutions
+  role: output
+  value: 4960
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 178
+  pdf_page: 39
+  locus: table row "Sun", column "According to the Surya-Siddhanta.", "(rev.)"; integer in parentheses, grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,395,280,520]; check clip [145,438,185,456] 1800 dpi --upsample; first-read fixture file k7/fixtures/whitney_mean_places_1860.yaml (sha256 e26e749a)
+  status: double_read
+  notes: 'printed "(4.960)": the separator after the 4 is a point, not a comma, on the 1800 dpi --upsample check clip [145,438,185,456]; keyed as the grouped integer (the other entries group with commas); doubtful separator'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sun.mean_place
+  role: output
+  value: [8, 17, 48, 7]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 178
+  pdf_page: 39
+  locus: table row "Sun", column "According to the Surya-Siddhanta.", [s, deg, ', ''] as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,395,280,520]; first-read fixture file k7/fixtures/whitney_mean_places_1860.yaml (sha256 e26e749a)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mercury.revolutions
+  role: output
+  value: 20597
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 178
+  pdf_page: 39
+  locus: table row "Mercury", column "According to the Surya-Siddhanta.", "(rev.)"; integer in parentheses, grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,395,280,520]; first-read fixture file k7/fixtures/whitney_mean_places_1860.yaml (sha256 e26e749a)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mercury.mean_place
+  role: output
+  value: [4, 15, 13, 8]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 178
+  pdf_page: 39
+  locus: table row "Mercury", column "According to the Surya-Siddhanta.", [s, deg, ', ''] as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,395,280,520]; first-read fixture file k7/fixtures/whitney_mean_places_1860.yaml (sha256 e26e749a)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.venus.revolutions
+  role: output
+  value: 8063
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 178
+  pdf_page: 39
+  locus: table row "Venus", column "According to the Surya-Siddhanta.", "(rev.)"; integer in parentheses, grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,395,280,520]; first-read fixture file k7/fixtures/whitney_mean_places_1860.yaml (sha256 e26e749a)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.venus.mean_place
+  role: output
+  value: [10, 21, 8, 59]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 178
+  pdf_page: 39
+  locus: table row "Venus", column "According to the Surya-Siddhanta.", [s, deg, ', ''] as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,395,280,520]; first-read fixture file k7/fixtures/whitney_mean_places_1860.yaml (sha256 e26e749a)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mars.revolutions
+  role: output
+  value: 2637
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 178
+  pdf_page: 39
+  locus: table row "Mars", column "According to the Surya-Siddhanta.", "(rev.)"; integer in parentheses, grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,395,280,520]; first-read fixture file k7/fixtures/whitney_mean_places_1860.yaml (sha256 e26e749a)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mars.mean_place
+  role: output
+  value: [5, 24, 17, 36]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 178
+  pdf_page: 39
+  locus: table row "Mars", column "According to the Surya-Siddhanta.", [s, deg, ', ''] as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,395,280,520]; first-read fixture file k7/fixtures/whitney_mean_places_1860.yaml (sha256 e26e749a)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.jupiter.revolutions
+  role: output
+  value: 418
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 178
+  pdf_page: 39
+  locus: table row "Jupiter", column "According to the Surya-Siddhanta.", "(rev.)"; integer in parentheses, grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,395,280,520]; first-read fixture file k7/fixtures/whitney_mean_places_1860.yaml (sha256 e26e749a)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.jupiter.mean_place
+  role: output
+  value: [2, 26, 0, 7]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 178
+  pdf_page: 39
+  locus: table row "Jupiter", column "According to the Surya-Siddhanta.", [s, deg, ', ''] as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,395,280,520]; first-read fixture file k7/fixtures/whitney_mean_places_1860.yaml (sha256 e26e749a)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.saturn.revolutions
+  role: output
+  value: 168
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 178
+  pdf_page: 39
+  locus: table row "Saturn", column "According to the Surya-Siddhanta.", "(rev.)"; integer in parentheses, grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,395,280,520]; first-read fixture file k7/fixtures/whitney_mean_places_1860.yaml (sha256 e26e749a)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.saturn.mean_place
+  role: output
+  value: [3, 20, 11, 12]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 178
+  pdf_page: 39
+  locus: table row "Saturn", column "According to the Surya-Siddhanta.", [s, deg, ', ''] as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,395,280,520]; first-read fixture file k7/fixtures/whitney_mean_places_1860.yaml (sha256 e26e749a)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.moon.revolutions
+  role: output
+  value: 66318
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 178
+  pdf_page: 39
+  locus: table row "Moon", column "According to the Surya-Siddhanta.", "(rev.)"; integer in parentheses, grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,395,280,520]; first-read fixture file k7/fixtures/whitney_mean_places_1860.yaml (sha256 e26e749a)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.moon.mean_place
+  role: output
+  value: [11, 15, 23, 24]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 178
+  pdf_page: 39
+  locus: table row "Moon", column "According to the Surya-Siddhanta.", [s, deg, ', ''] as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,395,280,520]; first-read fixture file k7/fixtures/whitney_mean_places_1860.yaml (sha256 e26e749a)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.moon_apsis.revolutions
+  role: output
+  value: 560
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 178
+  pdf_page: 39
+  locus: table row "" apsis", column "According to the Surya-Siddhanta.", "(rev.)"; integer in parentheses, grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,395,280,520]; first-read fixture file k7/fixtures/whitney_mean_places_1860.yaml (sha256 e26e749a)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.moon_apsis.mean_place
+  role: output
+  value: [10, 9, 42, 26]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 178
+  pdf_page: 39
+  locus: table row "" apsis", column "According to the Surya-Siddhanta.", [s, deg, ', ''] as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,395,280,520]; first-read fixture file k7/fixtures/whitney_mean_places_1860.yaml (sha256 e26e749a)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.moon_node.revolutions
+  role: output
+  value: 267
+  form: integer
+  negative: true
+  unit: revolutions
+  script: latin
+  edition_page: 178
+  pdf_page: 39
+  locus: table row "" node", column "According to the Surya-Siddhanta.", "(rev.)"; integer in parentheses, grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,395,280,520]; first-read fixture file k7/fixtures/whitney_mean_places_1860.yaml (sha256 e26e749a)
+  status: double_read
+  notes: printed "(267-)"; the minus follows the number
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.moon_node.mean_place
+  role: output
+  value: [9, 24, 26, 4]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 178
+  pdf_page: 39
+  locus: table row "" node", column "According to the Surya-Siddhanta.", [s, deg, ', ''] as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,395,280,520]; first-read fixture file k7/fixtures/whitney_mean_places_1860.yaml (sha256 e26e749a)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 395, 280, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

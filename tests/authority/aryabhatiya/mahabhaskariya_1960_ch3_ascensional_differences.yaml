@@ -1,0 +1,1209 @@
+id: authority/aryabhatiya/mahabhaskariya_1960_ch3_ascensional_differences
+methods: [aryabhatiya]
+class: editor_computed
+source: mahabhaskariya_1960
+file: mahabhaskariya_1960-mahabhaskariya-shukla-1960.pdf
+edition_page: 66
+pdf_page: 151
+locus: Shukla's note on III.8, p. 66 (PDF 151) from 'Now we will calculate the ascensional differences of Aries, Taurus, and Gemini for a place having … for the equinoctial midday shadow.' with '(1) Calculation of the ascensional difference of Aries.' through p. 67 (PDF 152) to p. 68 (PDF 153) '… This is the ascensional difference of Gemini.'; and p. 68 fn 1, its English sentences to 'Four times of these are …, … and … asus approx.'
+rounding: '''approx.'' printed after the quotients; the footnote calls the body''s figures ''approximate values'' and gives ''better values'' to two decimals'
+precision: whole minutes and whole asus in the body ('approx.'); hundredths of an asu in fn 1
+datum_keys: [texts.aryabhatiya.procedures.cara.rule, texts.aryabhatiya.procedures.rsine.rule.mahabhaskariya_1960, texts.aryabhatiya.procedures.arc_from_rsine.rule.mahabhaskariya_1960, texts.aryabhatiya.procedures.cara.rule.mahabhaskariya_1960, texts.aryabhatiya.procedures.cara.signs_rule.mahabhaskariya_1960, texts.aryabhatiya.procedures.declination.rule.mahabhaskariya_1960]
+notes: The item numbers (1)–(3) are not keyed; the shadow input, printed as a word, is keyed. The Devanagari reading after 'give the following reading of the text:' in fn 1, with the figures printed beside it, is outside the extent (a lead) and was not keyed. The radius '(=3438′)' before the extent is not keyed. The body's rounded quotients are the editor's approximations (fn 1 says so). the body's 'approx.' figures lie within one asu of the exact cara; the editor's Rsine of 60° is the modern value, one minute off the table's; fn 1's better values for Aries + Taurus and Aries + Taurus + Gemini are reproduced neither from the table nor from the editor's printed intermediates to the hundredth (residuals attributed to the editor's arithmetic, route not identified).
+values:
+- name: input.equinoctial_shadow
+  role: input
+  value: 1
+  form: integer
+  unit: angulas
+  script: latin
+  edition_page: 66
+  pdf_page: 151
+  locus: 'Shukla''s note on III.8, the paragraph ''Now we will calculate …'' before ''(1) Calculation of the ascensional difference of Aries.'': the number of aṅgulas of the equinoctial midday shadow, printed as an English word, keyed as the integer it names.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 151); keyed for the review's B2
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r11
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.aries.lambda
+  role: input
+  value: 30
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 66
+  pdf_page: 151
+  locus: Shukla's note on III.8, '(1) Calculation of the ascensional difference of Aries. At the last point of Aries, λ = …°'.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 151)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.aries.rsin_lambda_divisor
+  role: input
+  value: 2
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 66
+  pdf_page: 151
+  locus: Shukla's note on III.8, 'so that Rsin λ = R/….', the divisor.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 151)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.aries.rsin_greatest_declination
+  role: input
+  value: 1397
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 66
+  pdf_page: 151
+  locus: Shukla's note on III.8, 'Therefore, Rsin δ′=…/… = …′ ·…', the numerator.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 151)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.aries.half_divisor
+  role: input
+  value: 2
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 66
+  pdf_page: 151
+  locus: Shukla's note on III.8, 'Therefore, Rsin δ′=…/… = …′ ·…', the divisor.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 151)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.aries.rsin_declination
+  role: output
+  value: '698.5'
+  form: fraction
+  unit: arcminutes
+  script: latin
+  edition_page: 66
+  pdf_page: 151
+  locus: Shukla's note on III.8, 'Therefore, Rsin δ′=…/… = …′ ·…', the result, printed with the minute mark before a raised point and the decimal digit; keyed as the decimal '…'.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 151)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.aries.rcos_declination
+  role: output
+  value: 3366
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 66
+  pdf_page: 151
+  locus: Shukla's note on III.8, 'and Rcos δ = …′.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 151)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.aries.f.rsin_declination
+  role: output
+  value: '698.5'
+  form: fraction
+  unit: arcminutes
+  script: latin
+  edition_page: 67
+  pdf_page: 152
+  locus: Shukla's note on III.8, p. 67 'Hence Rsin (asc. diff. of Aries) = …×… / …×…', the first factor of the numerator (raised point keyed as '.').
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 152)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.aries.f.radius
+  role: input
+  value: 3438
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 67
+  pdf_page: 152
+  locus: Shukla's note on III.8, the same formula, the second factor of the numerator.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 152)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.aries.f.rcos_declination
+  role: output
+  value: 3366
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 67
+  pdf_page: 152
+  locus: Shukla's note on III.8, the same formula, the first factor of the denominator.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 152)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.aries.f.gnomon
+  role: input
+  value: 12
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 67
+  pdf_page: 152
+  locus: Shukla's note on III.8, the same formula, the second factor of the denominator.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 152)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.aries.numerator
+  role: output
+  value: 2401443
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 67
+  pdf_page: 152
+  locus: Shukla's note on III.8, '= … / …', the numerator.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 152)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.aries.denominator
+  role: output
+  value: 40392
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 67
+  pdf_page: 152
+  locus: Shukla's note on III.8, '= … / …', the denominator.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 152)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.aries.rsin_asc_diff
+  role: output
+  value: 60
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 67
+  pdf_page: 152
+  locus: Shukla's note on III.8, '= …′ approx.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 152)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.aries.asc_diff
+  role: output
+  value: 60
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 67
+  pdf_page: 152
+  locus: Shukla's note on III.8, 'Therefore, the ascensional difference of Aries is … asus approximately.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 152)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.taurus.lambda
+  role: input
+  value: 60
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 67
+  pdf_page: 152
+  locus: Shukla's note on III.8, '(2) Calculation of the ascensional difference of Taurus. At the last point of Taurus, λ = …°'.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 152)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.taurus.rsin_lambda
+  role: output
+  value: 2977
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 67
+  pdf_page: 152
+  locus: Shukla's note on III.8, 'so that Rsin λ = …′.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 152)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.taurus.rsin_declination
+  role: output
+  value: 1210
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 67
+  pdf_page: 152
+  locus: Shukla's note on III.8, 'Therefore, Rsin δ = …′ approx.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 152)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.taurus.rcos_declination
+  role: output
+  value: 3218
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 67
+  pdf_page: 152
+  locus: Shukla's note on III.8, 'and Rcos δ = …′ approx.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 152)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.taurus.f.rsin_declination
+  role: output
+  value: 1210
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 67
+  pdf_page: 152
+  locus: Shukla's note on III.8, 'Hence Rsin (asc. diff. of Aries and Taurus) = …×… / …×…', the first factor of the numerator.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 152)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.taurus.f.radius
+  role: input
+  value: 3438
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 67
+  pdf_page: 152
+  locus: Shukla's note on III.8, the same formula, the second factor of the numerator.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 152)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.taurus.f.gnomon
+  role: input
+  value: 12
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 67
+  pdf_page: 152
+  locus: Shukla's note on III.8, the same formula, the first factor of the denominator.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 152)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.taurus.f.rcos_declination
+  role: output
+  value: 3218
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 67
+  pdf_page: 152
+  locus: Shukla's note on III.8, the same formula, the second factor of the denominator.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 152)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.aries_taurus.rsin_asc_diff
+  role: output
+  value: 108
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 67
+  pdf_page: 152
+  locus: Shukla's note on III.8, '= …′ approx.' (asc. diff. of Aries and Taurus).
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 152)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.aries_taurus.asc_diff
+  role: output
+  value: 108
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 67
+  pdf_page: 152
+  locus: Shukla's note on III.8, 'Therefore, the ascensional difference of Aries and Taurus is … asus.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 152)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.taurus.asc_diff
+  role: output
+  value: 48
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 67
+  pdf_page: 152
+  locus: Shukla's note on III.8, 'Subtracting from it the ascensional difference of Aries, the ascensional difference of Taurus comes out to be … asus.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 152)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.gemini.lambda
+  role: input
+  value: 90
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 67
+  pdf_page: 152
+  locus: Shukla's note on III.8, '(3) Calculation of the ascensional difference of Gemini. At the last point of Gemini, λ = …°, so that Rsin λ = R.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 152)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.gemini.rsin_declination
+  role: output
+  value: 1397
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 67
+  pdf_page: 152
+  locus: Shukla's note on III.8, 'Therefore, Rsin δ = …′ and Rcos δ = …′.', the first figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 152)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.gemini.rcos_declination
+  role: output
+  value: 3141
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 67
+  pdf_page: 152
+  locus: Shukla's note on III.8, 'Therefore, Rsin δ = …′ and Rcos δ = …′.', the second figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 152)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.gemini.f.rsin_declination
+  role: output
+  value: 1397
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 67
+  pdf_page: 152
+  locus: Shukla's note on III.8, 'Hence Rsin (asc. diff. of Aries, Taurus, and Gemini) = …× R / …×…', the figure in the numerator.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 152)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.gemini.f.gnomon
+  role: input
+  value: 12
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 67
+  pdf_page: 152
+  locus: Shukla's note on III.8, the same formula, the first factor of the denominator.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 152)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.gemini.f.rcos_declination
+  role: output
+  value: 3141
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 67
+  pdf_page: 152
+  locus: Shukla's note on III.8, the same formula, the second factor of the denominator.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 152)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.gemini.numerator
+  role: output
+  value: 4802886
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 67
+  pdf_page: 152
+  locus: Shukla's note on III.8, '= … / …', the numerator.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 152)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.gemini.denominator
+  role: output
+  value: 37692
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 67
+  pdf_page: 152
+  locus: Shukla's note on III.8, '= … / …', the denominator.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 152)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.aries_taurus_gemini.rsin_asc_diff
+  role: output
+  value: 128
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 67
+  pdf_page: 152
+  locus: Shukla's note on III.8, '= …′ approx.' (asc. diff. of Aries, Taurus, and Gemini).
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 152)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.aries_taurus_gemini.asc_diff
+  role: output
+  value: 128
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 68
+  pdf_page: 153
+  locus: Shukla's note on III.8, p. 68 'It follows that the ascensional difference of Aries, Taurus, and Gemini (taken as a whole) is … asus.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 153)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.gemini.asc_diff
+  role: output
+  value: 20
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 68
+  pdf_page: 153
+  locus: Shukla's note on III.8, 'Subtracting from it the ascensional difference of Aries and Taurus, we get … asus. This is the ascensional difference of Gemini.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 153)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.fn1.better.aries
+  role: output
+  value: '59.45'
+  form: fraction
+  unit: asus
+  script: latin
+  edition_page: 68
+  pdf_page: 153
+  locus: p. 68 fn 1, 'Better values are …, … and … asus.', the first figure (raised point keyed as '.').
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 385, 380, 445]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tight tile clip [30,385,380,445] 1x1 at native 400 (mahabhaskariya_1960 PDF 153), footnote 1; also tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 385, 380, 445]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.fn1.better.aries_taurus
+  role: output
+  value: '107.77'
+  form: fraction
+  unit: asus
+  script: latin
+  edition_page: 68
+  pdf_page: 153
+  locus: p. 68 fn 1, 'Better values are …, … and … asus.', the second figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 385, 380, 445]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tight tile clip [30,385,380,445] 1x1 at native 400 (mahabhaskariya_1960 PDF 153), footnote 1; also tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 385, 380, 445]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.fn1.better.aries_taurus_gemini
+  role: output
+  value: '127.4'
+  form: fraction
+  unit: asus
+  script: latin
+  edition_page: 68
+  pdf_page: 153
+  locus: p. 68 fn 1, 'Better values are …, … and … asus.', the third figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 385, 380, 445]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tight tile clip [30,385,380,445] 1x1 at native 400 (mahabhaskariya_1960 PDF 153), footnote 1; also tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 385, 380, 445]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.fn1.asc_diff.aries
+  role: output
+  value: '59.45'
+  form: fraction
+  unit: asus
+  script: latin
+  edition_page: 68
+  pdf_page: 153
+  locus: p. 68 fn 1, 'the ascensional differences of Aries, Taurus, and Gemini would come out to be …, …, and … asus.', the first figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 385, 380, 445]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tight tile clip [30,385,380,445] 1x1 at native 400 (mahabhaskariya_1960 PDF 153), footnote 1; also tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 385, 380, 445]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.fn1.asc_diff.taurus
+  role: output
+  value: '48.32'
+  form: fraction
+  unit: asus
+  script: latin
+  edition_page: 68
+  pdf_page: 153
+  locus: p. 68 fn 1, the same sentence, the second figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 385, 380, 445]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tight tile clip [30,385,380,445] 1x1 at native 400 (mahabhaskariya_1960 PDF 153), footnote 1; also tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 385, 380, 445]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.fn1.asc_diff.gemini
+  role: output
+  value: '19.63'
+  form: fraction
+  unit: asus
+  script: latin
+  edition_page: 68
+  pdf_page: 153
+  locus: p. 68 fn 1, the same sentence, the third figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 385, 380, 445]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tight tile clip [30,385,380,445] 1x1 at native 400 (mahabhaskariya_1960 PDF 153), footnote 1; also tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 385, 380, 445]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.fn1.four_times.aries
+  role: output
+  value: 238
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 68
+  pdf_page: 153
+  locus: p. 68 fn 1, 'Four times of these are …, … and … asus approx.', the first figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 385, 380, 445]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tight tile clip [30,385,380,445] 1x1 at native 400 (mahabhaskariya_1960 PDF 153), footnote 1; also tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 385, 380, 445]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.fn1.four_times.taurus
+  role: output
+  value: 193
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 68
+  pdf_page: 153
+  locus: p. 68 fn 1, the same sentence, the second figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 385, 380, 445]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tight tile clip [30,385,380,445] 1x1 at native 400 (mahabhaskariya_1960 PDF 153), footnote 1; also tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 385, 380, 445]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.fn1.four_times.gemini
+  role: output
+  value: 79
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 68
+  pdf_page: 153
+  locus: p. 68 fn 1, the same sentence, the third figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 385, 380, 445]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tight tile clip [30,385,380,445] 1x1 at native 400 (mahabhaskariya_1960 PDF 153), footnote 1; also tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 385, 380, 445]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''

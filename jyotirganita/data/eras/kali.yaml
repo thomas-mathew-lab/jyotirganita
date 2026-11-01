@@ -1,0 +1,608 @@
+era: kali
+epoch:
+  date: eras.kali.epoch.date.pillai_1911_chronology
+  calendar: julian
+  calendar_ref: eras.kali.epoch.calendar.sewell_dikshit_1896
+  day_start: eras.kali.epoch.day_start.vakyakarana_1962
+counting:
+  mode: elapsed
+  datum: eras.kali.counting.vakyakarana_1962
+year_start:
+  mean:
+    rule: sankranti.mesha
+    sun: mean
+    epoch: era
+    datum: eras.kali.epoch.day_start.vakyakarana_1962
+  'true':
+    rule: sankranti.mesha
+    sun: true
+    epoch: era
+    datum: eras.kali.year_start.true.vakyakarana_1962
+range:
+  from: epoch
+  to: open
+  datum: eras.kali.range.calendar_reform_committee_1955
+months:
+  naming: rasi
+  datum: eras.kali.months.vakyakarana_1962
+notes: Kaliyuga. Epoch 18 February 3102 B.C., Julian, the day beginning at mean sunrise at the Ujjain meridian (vakyakarana_1962), a Friday. sewell_dikshit_1896 Art. 16 and bag_2003_julian_days also print the midnight 17/18 February epoch; calendar_reform_committee_1955 Table 1 the 17 February Julian day. Years counted elapsed (vakyakarana_1962).
+data:
+- key: eras.kali.epoch.date.pillai_1911_chronology
+  value: 18 February 3102 B.C.
+  form: text
+  unit: date
+  script: latin
+  source: pillai_1911_chronology
+  edition_page: 86
+  pdf_page: 108
+  locus: '§235: the date whose week-day the paragraph computes (the first day of Kaliyuga): the date only Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 360
+    clip: [55, 380, 640, 885]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: tiles 2x2 --overlap 8 of this clip (r1c1 [55,380,351.5,636.5], r1c2 [343.5,380,640,636.5], r2c1 [55,628.5,351.5,885], r2c2 [343.5,628.5,640,885])
+  status: double_read
+  verified_by: [eras.kali.epoch.date.aryabhatiya_1976, eras.kali.epoch.day_start.vakyakarana_1962, eras.kali.epoch.calendar.sewell_dikshit_1896, eras.kali.epoch.date.aryabhatiya_1976_intro, eras.kali.epoch.bag_2003_julian_days, authority/calendar/pillai_1911_chronology_s235]
+  emendation: null
+  notes: 'The era''s epoch date. Its calendar is stated by sewell_dikshit_1896 Art. 16 (''3102 B.C., old style'', eras.kali.epoch.calendar.sewell_dikshit_1896) and, for this book, by pillai_1911_chronology §236 (Old Style down to 2 Sep. A.D. 1752; fixture authority/calendar/pillai_1911_chronology_s236). Witnesses by source: aryabhatiya_1976 (eras.kali.epoch.date.aryabhatiya_1976, .aryabhatiya_1976_intro), vakyakarana_1962 (eras.kali.epoch.day_start.vakyakarana_1962, a Friday), sewell_dikshit_1896 (eras.kali.epoch.calendar.sewell_dikshit_1896), bag_2003_julian_days (eras.kali.epoch.bag_2003_julian_days).'
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 360
+    clip: [55, 380, 640, 885]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: ''
+- key: eras.kali.epoch.calendar.sewell_dikshit_1896
+  value: at midnight on a Thursday corresponding to 17th—18th February, 3102 B. C., old style
+  form: text
+  unit: statement
+  script: latin
+  source: sewell_dikshit_1896
+  edition_page: 6
+  pdf_page: 22
+  locus: 'Art. 16, first sentence: the words from ''at midnight'' to ''old style'' Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 401
+    clip: [18, 100, 370, 222]
+    delivered_ppi: 401
+    max_edge: 2000
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'The calendar statement of the Kali epoch: Old Style, i.e. Julian. sewell_dikshit_1896''s witness of the epoch.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 401
+    clip: [18, 100, 370, 222]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-03-r2
+      on: 2026-10-03
+      dpi: 401
+      clip: [18, 100, 370, 250]
+      delivered_ppi: 401
+      max_edge: 2000
+      note: ''
+    matches: second_read
+- key: eras.kali.epoch.day_start.sewell_dikshit_1896
+  value: by others it is calculated to have commenced on the following sunrise, viz., Friday, 18th February.
+  form: text
+  unit: statement
+  script: latin
+  source: sewell_dikshit_1896
+  edition_page: 6
+  pdf_page: 22
+  locus: 'Art. 16, first sentence: the words from ''by others'' to the end of the sentence Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 401
+    clip: [18, 100, 370, 222]
+    delivered_ppi: 401
+    max_edge: 2000
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 401
+    clip: [18, 100, 370, 222]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+- key: eras.kali.epoch.jdn.sewell_dikshit_1896
+  value: The 18th February, 3102 B. C., coincided with the 588,466th day of the Julian Period.
+  form: text
+  unit: statement
+  script: latin
+  source: sewell_dikshit_1896
+  edition_page: 6
+  pdf_page: 22
+  locus: Art. 16, the sentence naming the day of the Julian Period Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 401
+    clip: [18, 100, 370, 222]
+    delivered_ppi: 401
+    max_edge: 2000
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 401
+    clip: [18, 215, 370, 250]
+    delivered_ppi: 401
+    max_edge: 2000
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: Recorded as printed.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 401
+    clip: [18, 215, 370, 250]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-03-r2
+      on: 2026-10-03
+      dpi: 401
+      clip: [18, 215, 370, 250]
+      delivered_ppi: 401
+      max_edge: 2000
+      note: ''
+    matches: second_read
+- key: eras.kali.julian_period.sewell_dikshit_1896
+  value: beginning Tuesday 1st January, 4713 B. C.
+  form: text
+  unit: statement
+  script: latin
+  source: sewell_dikshit_1896
+  edition_page: 6
+  pdf_page: 22
+  locus: 'Art. 16, the sentence on the ''Julian Period'': the words from ''beginning'' to the end of the sentence Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 401
+    clip: [18, 100, 370, 222]
+    delivered_ppi: 401
+    max_edge: 2000
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 401
+    clip: [18, 215, 370, 250]
+    delivered_ppi: 401
+    max_edge: 2000
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: Tuesday disagrees with bag_2003_julian_days p. 30 ('Monday, January 1, 4713 BC') and with Julian arithmetic; recorded both ways.
+  contradiction:
+    issue: disputed
+    with: [eras.kali.julian_period.bag_2003_julian_days]
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 401
+    clip: [18, 215, 370, 250]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-03-r2
+      on: 2026-10-03
+      dpi: 401
+      clip: [18, 215, 370, 250]
+      delivered_ppi: 401
+      max_edge: 2000
+      note: ''
+    matches: second_read
+- key: eras.kali.epoch.date.aryabhatiya_1976
+  value: Friday, February 18, 3102 B.C.
+  form: text
+  unit: date
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 8
+  pdf_page: 82
+  locus: 'vol. 1, notes to Gītikā 3 (the beginning of the Kaliyuga): the date with its week-day Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 600
+    clip: [28, 70, 262, 110]
+    delivered_ppi: 600
+    max_edge: 2000
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: aryabhatiya_1976's witness of the epoch. aryabhatiya_1976 states no calendar on this page; the printed weekday is a Friday only in the Julian reading (tests/unit/test_era_records.py).
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [28, 70, 262, 110]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-03-r2
+      on: 2026-10-03
+      dpi: 600
+      clip: [28, 70, 262, 110]
+      delivered_ppi: 600
+      max_edge: 2000
+      note: ''
+    matches: read
+- key: eras.kali.epoch.date.aryabhatiya_1976_intro
+  value: Friday, February, 18, 3102 B.C.
+  form: text
+  unit: date
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: xxxi
+  pdf_page: 28
+  locus: 'vol. 1, Introduction: ''the beginning of the current Kaliyuga according to both of them falls on the same day, viz.'' and the date: the date with its week-day Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 600
+    clip: [30, 135, 268, 185]
+    delivered_ppi: 600
+    max_edge: 2000
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 600
+    clip: [30, 175, 268, 215]
+    delivered_ppi: 600
+    max_edge: 2000
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: Same edition as eras.kali.epoch.date.aryabhatiya_1976 (the editors' introduction); not an independent source.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [30, 175, 268, 215]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-03-r2
+      on: 2026-10-03
+      dpi: 600
+      clip: [30, 135, 268, 215]
+      delivered_ppi: 600
+      max_edge: 2000
+      note: ''
+    matches: read
+- key: eras.kali.epoch.day_start.aryabhatiya_1976
+  value: at sunrise at Laṅkā (a hypothetical place on the equator where the meridian of Ujjain intersects it)
+  form: text
+  unit: statement
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 8
+  pdf_page: 82
+  locus: 'vol. 1, notes to Gītikā 3: the words from ''at sunrise'' to the closing parenthesis Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 600
+    clip: [28, 70, 262, 110]
+    delivered_ppi: 600
+    max_edge: 2000
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [28, 70, 262, 110]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: eras.kali.epoch.day_start.vakyakarana_1962
+  value: The epoch is the mean sun-rise at Ujjain-meridian on the first day of the first mean-solar year after Kali, and the day is a Friday.
+  form: text
+  unit: statement
+  script: latin
+  source: vakyakarana_1962
+  edition_page: xiii
+  pdf_page: 20
+  locus: Introduction, the sentence beginning 'The epoch is' Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 600
+    clip: [60, 50, 435, 450]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles 2x2 --overlap 8 of this clip (r1c1 [60,50,251.5,254], r1c2 [243.5,50,435,254], r2c1 [60,246,251.5,450], r2c2 [243.5,246,435,450])
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: vakyakarana_1962's witness of the epoch (a Friday) and the record's day-start statement; also the statement of the mean year start.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [60, 50, 435, 450]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: eras.kali.year_start.true.vakyakarana_1962
+  value: This gives the Kali days to the end of the True Solar year,(3) the first (Kali) day being a Friday.(4)
+  form: text
+  unit: statement
+  script: latin
+  source: vakyakarana_1962
+  edition_page: 250
+  pdf_page: 287
+  locus: 'verses 2–3, the translation: the sentence beginning ''This gives'', footnote marks kept as ''(3)'' and ''(4)'' Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 600
+    clip: [65, 240, 390, 372]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles 2x1 --overlap 8 of this clip (r1c1 [65,240,231.5,372], r1c2 [223.5,240,390,372])
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [65, 240, 390, 372]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: eras.kali.counting.vakyakarana_1962
+  value: Multiply the Kali year elapsed by 365.
+  form: text
+  unit: statement
+  script: latin
+  source: vakyakarana_1962
+  edition_page: 250
+  pdf_page: 287
+  locus: 'verses 2–3, the translation: the sentence beginning ''Multiply'' Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 600
+    clip: [65, 240, 390, 372]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles 2x1 --overlap 8 of this clip (r1c1 [65,240,231.5,372], r1c2 [223.5,240,390,372])
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Kali years are counted elapsed: year N begins when N years have elapsed.'
+  convention: stated
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [65, 240, 390, 372]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: eras.kali.counting.pillai_1922_ephemeris
+  value: It should be noted that the Kaliyuga years quoted in the ordinary South-Indian panchāngas are current, and will be found to exceed in each case the Kaliyuga year marked in this book by one.
+  form: text
+  unit: statement
+  script: latin
+  source: pillai_1922_ephemeris
+  edition_page: '[i]'
+  pdf_page: 3
+  locus: Preface, the sentence beginning 'It should be noted' Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 600
+    clip: [25, 462, 415, 500]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles 2x1 of this clip ([25,462,220,500], [220,462,415,500])
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'With eras.kollam.counting.pillai_1922_ephemeris (the preceding sentence: the Kaliyuga years of the book are expired years).'
+  convention: stated
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [25, 440, 415, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-03-r2
+      on: 2026-10-03
+      dpi: 600
+      clip: [25, 440, 415, 505]
+      delivered_ppi: 600
+      max_edge: 2000
+      note: ''
+    matches: second_read
+- key: eras.kali.months.vakyakarana_1962
+  value: find the Kali days for the beginning of the year Sarvajit, and for the end of the 24th day of Kanyā
+  form: text
+  unit: statement
+  script: latin
+  source: vakyakarana_1962
+  edition_page: 250
+  pdf_page: 287
+  locus: 'Example 1, the question: the words from ''find'' to ''Kanyā'' Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 600
+    clip: [65, 355, 390, 400]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles 2x1 --overlap 8 of this clip
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: Days of the year named by the solar month (rāśi), Kanyā.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [65, 355, 390, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: eras.kali.epoch.bag_2003_julian_days
+  value: The counting started on – 3101 AD, Friday, 17 – 18 Feb. mean midnight (Ujjain). Under audayika system, this switched over to morning 6AM (Ujjain) on 18 Feb., – 3101 AD.
+  form: text
+  unit: statement
+  script: latin
+  source: bag_2003_julian_days
+  edition_page: 30
+  pdf_page: 14
+  locus: the paragraph 'KA :', its first two sentences Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [30, 330, 405, 500]
+    delivered_ppi: 300
+    max_edge: 2000
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [30, 330, 405, 500]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- key: eras.kali.julian_period.bag_2003_julian_days
+  value: The counting of JD started on mid-night (GMT) Monday, January 1, 4713 BC. At the beginning JD = 0.
+  form: text
+  unit: statement
+  script: latin
+  source: bag_2003_julian_days
+  edition_page: 30
+  pdf_page: 14
+  locus: the paragraph 'JD :', its first two sentences Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [30, 330, 405, 500]
+    delivered_ppi: 300
+    max_edge: 2000
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [30, 330, 405, 500]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- key: eras.kali.epoch.calendar_reform_committee_1955
+  value:
+  - [Kaliyuga, '17 February, 3102 B.C.', 588465]
+  form: table
+  columns: [era, date, julian_day]
+  unit: days
+  script: latin
+  source: calendar_reform_committee_1955
+  edition_page: 162
+  pdf_page: 174
+  locus: Table 1 'Julian day numbers', the Kaliyuga row. A number printed with comma grouping is keyed as the integer
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 330, 320, 550]
+    delivered_ppi: 300
+    max_edge: 2000
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'calendar_reform_committee_1955 gives the civil date 17 February with Julian day 588,465, the Julian day ''completed at noon'' (same page): the Sūrya-siddhānta''s midnight epoch of sewell_dikshit_1896 Art. 16. Not a witness of the sunrise epoch the record adopts; calendar_reform_committee_1955 states no calendar for this table.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 330, 320, 550]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- key: eras.kali.range.calendar_reform_committee_1955
+  value:
+  - [Kali Yuga, -3101, 5055, April, Meṣādi(Ver.equi.), Caitra S 1]
+  form: table
+  columns: [era, zero_year, current_1954, commencement_1954, solar, luni_solar]
+  unit: statement
+  script: latin
+  source: calendar_reform_committee_1955
+  edition_page: 258
+  pdf_page: 270
+  locus: 'Table 27 ''Indian Eras'', the Kali Yuga row: era, zero year of era (A.D.; the label ''A. D.'' printed above the first row is not keyed), year current in 1954 A.D., date of commencement in 1954 A.D., year-beginning solar, year-beginning luni-solar'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [120, 413.5, 175, 800]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: 'landscape table: the tile was rotated 90 degrees clockwise for reading (the same pixels)'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: The era's range is from its epoch, open (calendar_reform_committee_1955 lists the era in use in 1954).
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [110, 413.5, 180, 800]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''

@@ -1,0 +1,478 @@
+id: authority/suryasiddhanta/whitney_moon_true_daily_motion
+methods: [suryasiddhanta]
+class: editor_computed
+source: suryasiddhanta_burgess_1860
+edition_page: 223
+pdf_page: 84
+locus: 'Whitney''s note to ii. 51 (continuing the example of ii. 47-49), printed p. 223: from ''Moon''s mean daily motion (i. 30)'' to the line ''Moon''s true daily motion at given time'' and its figure; then the sentence ''The equation of the sun''s motion, calculated in a similar manner, is found to be ... and his true motion ...''. The intervening sentence on the roughness of the process is outside the extent and not keyed.'
+rounding: not stated
+precision: seconds of arc
+datum_keys: [texts.suryasiddhanta.procedures.gati.rule.ii48.suryasiddhanta_burgess_1860]
+notes: 'Moon''s true daily motion: mean daily motion less apsis motion gives mean anomalistic motion; the difference of tabular sines at the moon''s mean anomaly, by the proportion sine-table interval : difference :: anomalistic motion : increase of sine, gives the daily increase of the sine of anomaly; by 360 deg : epicycle :: increase : equation, the equation of motion, subtractive here; mean motion less equation gives true daily motion. Then the sun''s equation of motion and true motion as results only. Verse citations (i. 30), (i. 33), (ii. 15-27), verse 49 and the number words nine and three (signs) in the rule''s condition are not keyed. Errata (suryasiddhanta_burgess_1860_reprint PDF 364) checked: no entry on this page. Figures restated in the proportions and the second subtraction are keyed once. First read lat-b, fixture file sha256 caa46fc4.'
+values:
+- name: input.moon.mean_daily_motion
+  role: input
+  value: [790, 35]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 223
+  pdf_page: 84
+  locus: line 'Moon's mean daily motion (i. 30),' right column; restated as the … line of the … subtraction (after 'Therefore, from the')
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 55, 370, 169]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 caa46fc4); suryasiddhanta_burgess_1860_p84_600dpi_r1c2_clip40-55.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 55, 209, 169]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p84_600dpi_r1c1_clip40-55.png
+  status: double_read
+  notes: 'restated in the second subtraction (not keyed again); 790 set in old-style figures. locus as first keyed: line ''Moon''s mean daily motion (i. 30),'' right column; restated as the first line of the second subtraction (after ''Therefore, from the'')'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 55, 370, 169]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.moon.apsis_daily_motion
+  role: input
+  value: [6, 41]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 223
+  pdf_page: 84
+  locus: line 'deduct daily motion of apsis (i. …),' right column
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 55, 370, 169]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 caa46fc4); suryasiddhanta_burgess_1860_p84_600dpi_r1c2_clip40-55.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 55, 209, 169]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p84_600dpi_r1c1_clip40-55.png
+  status: double_read
+  notes: 'printed without accent marks, under the minutes and seconds columns. locus as first keyed: line ''deduct daily motion of apsis (i. 33),'' right column'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 55, 370, 169]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.moon.mean_anomalistic_motion
+  role: output
+  value: [783, 54]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 223
+  pdf_page: 84
+  locus: line 'Moon's mean anomalistic motion,' below the rule
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 55, 370, 169]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 caa46fc4); suryasiddhanta_burgess_1860_p84_600dpi_r1c2_clip40-55.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 55, 209, 169]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p84_600dpi_r1c1_clip40-55.png
+  status: double_read
+  notes: printed without accent marks; restated in the first proportion as 783' 54''.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 55, 370, 169]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.moon.mean_anomaly
+  role: input
+  value: [10, 18, 46, 15]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 223
+  pdf_page: 84
+  locus: line 'Moon's mean anomaly,' right column
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 55, 370, 169]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 caa46fc4); suryasiddhanta_burgess_1860_p84_600dpi_r1c2_clip40-55.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 55, 209, 169]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p84_600dpi_r1c1_clip40-55.png
+  status: double_read
+  notes: signs marked with a superscript s.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 55, 370, 169]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.moon.sine_of_anomaly
+  role: input
+  value: 2266
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 223
+  pdf_page: 84
+  locus: line 'Sine of anomaly (bhujajyâ),' right column
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 55, 370, 169]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 caa46fc4); suryasiddhanta_burgess_1860_p84_600dpi_r1c2_clip40-55.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 55, 209, 169]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p84_600dpi_r1c1_clip40-55.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 55, 370, 169]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.moon.difference_of_tabular_sines
+  role: input
+  value: 174
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 223
+  pdf_page: 84
+  locus: line 'Corresponding difference of tabular sines,' right column
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 161, 370, 279]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 caa46fc4); suryasiddhanta_burgess_1860_p84_600dpi_r2c2_clip40-55.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 161, 209, 279]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p84_600dpi_r2c1_clip40-55.png
+  status: double_read
+  notes: restated in the first proportion as 174'.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 161, 370, 279]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.sine_table_interval
+  role: input
+  value: 225
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 223
+  pdf_page: 84
+  locus: first proportion after 'Hence the proportion', first term
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 161, 209, 279]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 caa46fc4); suryasiddhanta_burgess_1860_p84_600dpi_r2c1_clip40-55.png
+  status: double_read
+  notes: 'the proportion reads 225'' : 174'' :: 783'' 54'''' : 606'' 13''''.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 161, 209, 279]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.moon.daily_increase_of_sine
+  role: output
+  value: [606, 13]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 223
+  pdf_page: 84
+  locus: first proportion, fourth term; restated in the text that follows ('in a day at this point to be') and as the third term of the second proportion
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 161, 370, 279]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 caa46fc4); suryasiddhanta_burgess_1860_p84_600dpi_r2c2_clip40-55.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 161, 209, 279]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p84_600dpi_r2c1_clip40-55.png
+  status: double_read
+  notes: restated twice, keyed once.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 161, 370, 279]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.moon.epicycle_of_apsis
+  role: input
+  value: [31, 47]
+  form: sexagesimal
+  unit: degrees_minutes
+  script: latin
+  edition_page: 223
+  pdf_page: 84
+  locus: text 'The dimensions of the epicycle were found to be'; restated as the second term of the second proportion
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 161, 370, 279]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 caa46fc4); suryasiddhanta_burgess_1860_p84_600dpi_r2c2_clip40-55.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 161, 209, 279]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p84_600dpi_r2c1_clip40-55.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 161, 370, 279]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.degrees_in_circle
+  role: input
+  value: 360
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 223
+  pdf_page: 84
+  locus: second proportion, first term
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 161, 209, 279]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 caa46fc4); suryasiddhanta_burgess_1860_p84_600dpi_r2c1_clip40-55.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 161, 209, 279]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.moon.equation_of_motion
+  role: output
+  value: [53, 31]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 223
+  pdf_page: 84
+  locus: second proportion, fourth term; restated after 'give us the desired equation of motion, as' and in the subtraction 'subtract the equation,'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 161, 370, 279]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 caa46fc4); suryasiddhanta_burgess_1860_p84_600dpi_r2c2_clip40-55.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 161, 209, 279]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p84_600dpi_r2c1_clip40-55.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 271, 370, 385]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p84_600dpi_r3c2_clip40-55.png
+  status: double_read
+  notes: 'subtractive: the text says ''By verse 49 it is subtractive''; restated twice, keyed once; 31 in old-style figures.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 161, 370, 279]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-22-r12
+      on: 2026-10-22
+      dpi: 600
+      clip: [201, 161, 370, 279]
+      delivered_ppi: 600
+      max_edge: 2000
+      note: ''
+    matches: second_read
+- name: output.moon.true_daily_motion
+  role: output
+  value: [737, 4]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 223
+  pdf_page: 84
+  locus: line 'Moon's true daily motion at given time,' below the rule
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 271, 370, 385]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 caa46fc4); suryasiddhanta_burgess_1860_p84_600dpi_r3c2_clip40-55.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 271, 209, 385]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p84_600dpi_r3c1_clip40-55.png
+  status: double_read
+  notes: printed without accent marks; 737 in old-style figures.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 271, 370, 385]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sun.equation_of_motion
+  role: output
+  value: [2, 18]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 223
+  pdf_page: 84
+  locus: sentence 'The equation of the sun's motion, calculated in a similar manner, is found to be'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 271, 209, 385]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 caa46fc4); suryasiddhanta_burgess_1860_p84_600dpi_r3c1_clip40-55.png
+  status: double_read
+  notes: printed with a plus sign (+2' 18"), additive.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 271, 209, 385]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sun.true_daily_motion
+  role: output
+  value: [61, 26]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 223
+  pdf_page: 84
+  locus: same sentence, after 'and his true motion'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 271, 370, 385]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 caa46fc4); suryasiddhanta_burgess_1860_p84_600dpi_r3c2_clip40-55.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 271, 370, 385]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

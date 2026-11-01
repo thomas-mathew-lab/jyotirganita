@@ -1,0 +1,911 @@
+id: authority/suryasiddhanta/rao_saturn_true_daily_motion
+methods: [suryasiddhanta]
+class: editor_computed
+source: balachandra_rao_2000
+edition_page: 118
+pdf_page: 132
+locus: '§9.5, from "Example: Find the true daily motion of Śani at the midnight preceding March 22, 1991." (printed p. 118, PDF 132) to "Hence, Śani''s true daily motion : 4′27″" (printed p. 119, PDF 133), before the Note (spans edition page 118-119) (spans pdf page 132-133)'
+rounding: not stated
+precision: seconds of arc; decimal minutes to six or seven places; degrees to six decimal places for the periphery
+datum_keys: [texts.suryasiddhanta.procedures.gati.rule.ii48.suryasiddhanta_burgess_1860]
+notes: 'Native resolution 300 ppi (page.py). Printed page = PDF - 14 confirmed by the running heads 118 (PDF 132) and 119 (PDF 133). The inputs quoted from earlier steps (mean longitudes, mandocca, P2 from the third operation, k from the last process) are keyed where printed in the extent. Printed misprint carried as printed: the subtrahend 33438 in "k − R" (see input.k_minus_r.subtrahend_as_printed). Restated figures not keyed again (noted on the first keying). First read lat-a, fixture file sha256 60760354. Edition_page 118-119 recorded as its first page, the span in the locus. Pdf_page 132-133 recorded as its first page, the span in the locus.'
+values:
+- name: input.date
+  role: input
+  value: March 22, 1991
+  form: text
+  unit: date
+  script: latin
+  edition_page: 118
+  pdf_page: 132
+  locus: 'Example, lines 1-2: the whole date printed after "at the midnight preceding", from its month name to its year'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 30, 400, 224]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 60760354); balachandra_rao_2000_p132_300dpi_r1c1_clip50-30.png
+  status: double_read
+  notes: 'calendar date, month in words, day and year in figures. locus as first keyed: Example, lines 1-2, "at the midnight preceding March 22, 1991."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 30, 400, 224]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: no reading changed
+- name: input.saturn.mean_daily_motion_decimal
+  role: input
+  value: '0.0334393'
+  form: fraction
+  unit: degrees
+  script: latin
+  edition_page: 118
+  pdf_page: 132
+  locus: 'value list row 1, "The mean daily motion of Śani : … i.e., n = ………"'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 30, 400, 224]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 60760354); balachandra_rao_2000_p132_300dpi_r1c1_clip50-30.png
+  status: double_read
+  notes: 'printed 0.0334393°. locus as first keyed: value list row 1, "The mean daily motion of Śani: 0.0334393° i.e., n = 0°2′0″"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 30, 400, 224]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.saturn.mean_daily_motion
+  role: input
+  value: [0, 2, 0]
+  form: sexagesimal
+  unit: degrees_minutes_seconds
+  script: latin
+  edition_page: 118
+  pdf_page: 132
+  locus: same row, "i.e., n = ………"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 30, 400, 224]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 60760354); balachandra_rao_2000_p132_300dpi_r1c1_clip50-30.png
+  status: double_read
+  notes: 'restated as "n = 0° 2′ 0″" lower on the page (not keyed again). locus as first keyed: same row, "i.e., n = 0°2′0″"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 30, 400, 224]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.saturn.mean_longitude_after_desantara
+  role: input
+  value: [272, 49, 4]
+  form: sexagesimal
+  unit: degrees_minutes_seconds
+  script: latin
+  edition_page: 118
+  pdf_page: 132
+  locus: 'value list row 2, "Mean longitude of Śani (after deśāntara cor.) : …"'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 30, 400, 224]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 60760354); balachandra_rao_2000_p132_300dpi_r1c1_clip50-30.png
+  status: double_read
+  notes: 'seconds printed "04". locus as first keyed: value list row 2, "Mean longitude of Śani (after deśāntara cor.): 272° 49′ 04″"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 30, 400, 224]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.sighrocca.mean_longitude
+  role: input
+  value: [334, 51, 30]
+  form: sexagesimal
+  unit: degrees_minutes_seconds
+  script: latin
+  edition_page: 118
+  pdf_page: 132
+  locus: 'value list row 3, "Mean longitude of śīghrocca (i.e., the mean Sun) : ………"'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 30, 400, 224]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 60760354); balachandra_rao_2000_p132_300dpi_r1c1_clip50-30.png
+  status: double_read
+  notes: 'locus as first keyed: value list row 3, "Mean longitude of śīghrocca (i.e., the mean Sun): 334°51′30″"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 30, 400, 224]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.saturn.mandocca
+  role: input
+  value: [236, 37, 36]
+  form: sexagesimal
+  unit: degrees_minutes_seconds
+  script: latin
+  edition_page: 118
+  pdf_page: 132
+  locus: 'value list row 4, "Mandocca of Śani : ………"'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 30, 400, 224]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 60760354); balachandra_rao_2000_p132_300dpi_r1c1_clip50-30.png
+  status: double_read
+  notes: 'restated in the subtraction for m (not keyed again). locus as first keyed: value list row 4, "Mandocca of Śani: 236°37′36″"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 30, 400, 224]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.saturn.equated_longitude_p2
+  role: input
+  value: [273, 12, 1]
+  form: sexagesimal
+  unit: degrees_minutes_seconds
+  script: latin
+  edition_page: 118
+  pdf_page: 132
+  locus: '"In the … operation ... we had obtained: Śani''s equated longitude (P…) : …."'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 216, 400, 414]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 60760354); balachandra_rao_2000_p132_300dpi_r2c1_clip50-30.png
+  status: double_read
+  notes: 'seconds printed "01"; the subscript 2 of P2 is a label, not keyed; "third" is a word ordinal, not keyed; restated in the subtraction for m (not keyed again). locus as first keyed: "In the third operation ... we had obtained: Śani''s equated longitude (P2): 273° 12′ 01″."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 216, 400, 414]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.saturn.manda_anomaly
+  role: output
+  value: [323, 25, 35]
+  form: sexagesimal
+  unit: degrees_minutes_seconds
+  script: latin
+  edition_page: 118
+  pdf_page: 132
+  locus: '"m = mandocca − P……………"'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 216, 400, 414]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 60760354); balachandra_rao_2000_p132_300dpi_r2c1_clip50-30.png
+  status: double_read
+  notes: 'restated in "for 360° − 323° 25′ 35″", in "|sin (323°25′35″)|" and in "m = 323°25′35″" (not keyed again). locus as first keyed: "m = mandocca − P2 = 236°37′36″ − 273°12′01″ = 323° 25′ 35″"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 216, 400, 414]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.saturn.tabular_sine_difference
+  role: input
+  value: 183
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 118
+  pdf_page: 132
+  locus: '"Tabulated difference of sines : …"'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 216, 400, 414]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 60760354); balachandra_rao_2000_p132_300dpi_r2c1_clip50-30.png
+  status: double_read
+  notes: 'restated in the substituted line (not keyed again). locus as first keyed: "Tabulated difference of sines: 183′"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 216, 400, 414]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.circle_degrees
+  role: input
+  value: 360
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 118
+  pdf_page: 132
+  locus: '"(for … = ..."'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 216, 400, 414]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 60760354); balachandra_rao_2000_p132_300dpi_r2c1_clip50-30.png
+  status: double_read
+  notes: 'reappears as "360°" in the divisor of the formula and the substituted line (not keyed again). locus as first keyed: "(for 360° − 323° 25′ 35″ = ..."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 216, 400, 414]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.saturn.anomaly_from_circle
+  role: output
+  value: [36, 34, 25]
+  form: sexagesimal
+  unit: degrees_minutes_seconds
+  script: latin
+  edition_page: 118
+  pdf_page: 132
+  locus: '"= …"'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 216, 400, 414]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 60760354); balachandra_rao_2000_p132_300dpi_r2c1_clip50-30.png
+  status: double_read
+  notes: 'runs over the line end after "36°". locus as first keyed: "= 36° 34′ 25″"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 216, 400, 414]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.table_ref.serial_lower
+  role: input
+  value: 9
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 118
+  pdf_page: 132
+  locus: '"see Table … between Sl. nos. …"'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 216, 400, 414]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 60760354); balachandra_rao_2000_p132_300dpi_r2c1_clip50-30.png
+  status: double_read
+  notes: 'table row number; the table number "8.2" is a cross-reference label and is not keyed. locus as first keyed: "see Table 8.2 between Sl. nos. 9 and 10"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 216, 400, 414]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.table_ref.serial_upper
+  role: input
+  value: 10
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 118
+  pdf_page: 132
+  locus: '"between Sl. nos. …"'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 216, 400, 414]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 60760354); balachandra_rao_2000_p132_300dpi_r2c1_clip50-30.png
+  status: double_read
+  notes: 'table row number. locus as first keyed: "between Sl. nos. 9 and 10"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 216, 400, 414]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.saturn.periphery_pe
+  role: input
+  value: 49
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 118
+  pdf_page: 132
+  locus: '"p = pe − (pe − po) |sin m| = … |sin (………)|"'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 216, 400, 414]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 60760354); balachandra_rao_2000_p132_300dpi_r2c1_clip50-30.png
+  status: double_read
+  notes: 'first term, standing for pe. locus as first keyed: "p = pe − (pe − po) |sin m| = 49° − 1° |sin (323°25′35″)|"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 216, 400, 414]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.saturn.periphery_difference
+  role: input
+  value: 1
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 118
+  pdf_page: 132
+  locus: same line, "− …"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 216, 400, 414]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 60760354); balachandra_rao_2000_p132_300dpi_r2c1_clip50-30.png
+  status: double_read
+  notes: 'standing for (pe − po). locus as first keyed: same line, "− 1°"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 216, 400, 414]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.saturn.corrected_periphery
+  role: output
+  value: '48.404145'
+  form: fraction
+  unit: degrees
+  script: latin
+  edition_page: 118
+  pdf_page: 132
+  locus: same line, "= …"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 216, 400, 414]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 60760354); balachandra_rao_2000_p132_300dpi_r2c1_clip50-30.png
+  status: double_read
+  notes: 'restated in the substituted line (not keyed again). locus as first keyed: same line, "= 48.404145°"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 216, 400, 414]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.formula.divisor_sine_step
+  role: input
+  value: 225
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 118
+  pdf_page: 132
+  locus: formula line "= n′ × p° × Tab. sin diff. / (…)"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 406, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 60760354); balachandra_rao_2000_p132_300dpi_r3c1_clip50-30.png
+  status: double_read
+  notes: 'printed 225′; restated in the substituted line (not keyed again). locus as first keyed: formula line "= n′ × p° × Tab. sin diff. / (360° × 225′)"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 406, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.saturn.mean_daily_motion_minutes
+  role: input
+  value: 2
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 118
+  pdf_page: 132
+  locus: substituted line "= … / (…)"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 406, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 60760354); balachandra_rao_2000_p132_300dpi_r3c1_clip50-30.png
+  status: double_read
+  notes: 'printed 2′, standing for n′ of the formula line. locus as first keyed: substituted line "= 2′ × 48.404145° × 183′ / (360° × 225′)"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 406, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.saturn.manda_correction_decimal
+  role: output
+  value: '0.218715'
+  form: fraction
+  unit: minutes
+  script: latin
+  edition_page: 118
+  pdf_page: 132
+  locus: result line "= …"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 406, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 60760354); balachandra_rao_2000_p132_300dpi_r3c1_clip50-30.png
+  status: double_read
+  notes: 'printed 0.218715′. locus as first keyed: result line "= 0.218715′"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 406, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.saturn.manda_correction
+  role: output
+  value: 13
+  form: integer
+  unit: seconds
+  script: latin
+  edition_page: 118
+  pdf_page: 132
+  locus: result line "= …"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 406, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 60760354); balachandra_rao_2000_p132_300dpi_r3c1_clip50-30.png
+  status: double_read
+  notes: 'locus as first keyed: result line "= 13″"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 406, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.quadrant
+  role: input
+  value: 4
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 118
+  pdf_page: 132
+  locus: '"lies in the …th quadrant"'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 406, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 60760354); balachandra_rao_2000_p132_300dpi_r3c1_clip50-30.png
+  status: double_read
+  notes: 'ordinal, printed "4th" with th superscript. locus as first keyed: "lies in the 4th quadrant"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 406, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.saturn.manda_correction_signed
+  role: output
+  value: 13
+  form: integer
+  unit: seconds
+  negative: true
+  script: latin
+  edition_page: 118
+  pdf_page: 132
+  locus: '"the correction to the daily motion due to manda is …."'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 406, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 60760354); balachandra_rao_2000_p132_300dpi_r3c1_clip50-30.png
+  status: double_read
+  notes: 'printed with a minus, "−13″" (the word "subtractive" in the same sentence); restates output.saturn.manda_correction with its sign; restated again as "−13″" in the tabulation below (not keyed again). locus as first keyed: "the correction to the daily motion due to manda is −13″."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 406, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.saturn.manda_corrected_daily_motion_n1
+  role: output
+  value: [0, 1, 47]
+  form: sexagesimal
+  unit: degrees_minutes_seconds
+  script: latin
+  edition_page: 118
+  pdf_page: 132
+  locus: '"Hence, Sani''s manda-corrected daily motion n……"'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 406, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 60760354); balachandra_rao_2000_p132_300dpi_r3c1_clip50-30.png
+  status: double_read
+  notes: 'the addends of this tabulation restate n ("0° 2′ 0″") and the signed correction ("−13″"), not keyed again; restated on p. 119 as "−1′47″" (deducted) and "1′47″" (not keyed again). locus as first keyed: "Hence, Sani''s manda-corrected daily motion n1: 0° 1′47″"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 406, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.sighrocca.mean_daily_motion_n2
+  role: input
+  value: [59, 8]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 119
+  pdf_page: 133
+  locus: '"Now, the mean daily motion of śīghrocca n… (i.e., daily motion of the Sun) : ……"'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 30, 400, 184]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 60760354); balachandra_rao_2000_p133_300dpi_r1c1_clip50-30.png
+  status: double_read
+  notes: 'seconds printed "08". locus as first keyed: "Now, the mean daily motion of śīghrocca n2 (i.e., daily motion of the Sun): 59′08″"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 30, 400, 184]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.saturn.synodic_motion_n2_minus_n1
+  role: output
+  value: [57, 21]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 119
+  pdf_page: 133
+  locus: '"Therefore, Śani''s equated daily synodical motion (n… − n…) : …"'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 30, 400, 184]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 60760354); balachandra_rao_2000_p133_300dpi_r1c1_clip50-30.png
+  status: double_read
+  notes: 'the line above prints the deducted n1 as "−1′47″" (restated, not keyed again). locus as first keyed: "Therefore, Śani''s equated daily synodical motion (n2 − n1): 57′ 21″"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 30, 400, 184]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.saturn.variable_hypotenuse_k
+  role: input
+  value: '3606.2288'
+  form: fraction
+  unit: minutes
+  script: latin
+  edition_page: 119
+  pdf_page: 133
+  locus: '"true place of Śani, k = …."'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 30, 400, 184]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 60760354); balachandra_rao_2000_p133_300dpi_r1c1_clip50-30.png
+  status: double_read
+  notes: 'printed 3606.2288′; restated twice below (not keyed again). locus as first keyed: "true place of Śani, k = 3606.2288′."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 30, 400, 184]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.deferent_radius
+  role: input
+  value: 3438
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 119
+  pdf_page: 133
+  locus: '"Its excess over the deferent radius (=…) is:"'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 176, 400, 330]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 60760354); balachandra_rao_2000_p133_300dpi_r2c1_clip50-30.png
+  status: double_read
+  notes: 'printed 3438′. locus as first keyed: "Its excess over the deferent radius (=3438′) is:"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 176, 400, 330]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.k_minus_r.subtrahend_as_printed
+  role: input
+  value: 33438
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 119
+  pdf_page: 133
+  locus: '"k − R = …"'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 176, 400, 330]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 60760354); balachandra_rao_2000_p133_300dpi_r2c1_clip50-30.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 900
+    clip: [150, 195, 300, 215]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: balachandra_rao_2000_p133_900dpi_clip150-195.png (enlarged, upsampled; the subtrahend)
+  status: double_read
+  notes: 'printed 33438, no unit sign, where the deferent radius 3438′ of the line above stands in the formula and the printed difference 168.2288′ is 3606.2288 − 3438; a misprint by that internal evidence (inference from the page, no second printing consulted); keyed as printed, not corrected; confirmed on the enlarged clip. locus as first keyed: "k − R = 3606.2288′ − 33438 = 168.2288′"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 176, 400, 330]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.saturn.hypotenuse_excess
+  role: output
+  value: '168.2288'
+  form: fraction
+  unit: minutes
+  script: latin
+  edition_page: 119
+  pdf_page: 133
+  locus: same line, "= …"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 176, 400, 330]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 60760354); balachandra_rao_2000_p133_300dpi_r2c1_clip50-30.png
+  status: double_read
+  notes: 'restated in the substituted line (not keyed again). locus as first keyed: same line, "= 168.2288′"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 176, 400, 330]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.saturn.synodic_motion_decimal
+  role: input
+  value: '57.35'
+  form: fraction
+  unit: minutes
+  script: latin
+  edition_page: 119
+  pdf_page: 133
+  locus: substituted line "= (…) × …"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 176, 400, 330]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 60760354); balachandra_rao_2000_p133_300dpi_r2c1_clip50-30.png
+  status: double_read
+  notes: 'printed 57.35′. locus as first keyed: substituted line "= (168.2288′ / 3606.2288′) × 57.35′"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 176, 400, 330]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.saturn.sighra_correction_decimal
+  role: output
+  value: '2.6753493'
+  form: fraction
+  unit: minutes
+  script: latin
+  edition_page: 119
+  pdf_page: 133
+  locus: result line "= …"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 176, 400, 330]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 60760354); balachandra_rao_2000_p133_300dpi_r2c1_clip50-30.png
+  status: double_read
+  notes: 'printed 2.6753493′. locus as first keyed: result line "= 2.6753493′ = 2′ 40″"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 176, 400, 330]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.saturn.sighra_correction
+  role: output
+  value: [2, 40]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 119
+  pdf_page: 133
+  locus: result line, "= …"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 176, 400, 330]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 60760354); balachandra_rao_2000_p133_300dpi_r2c1_clip50-30.png
+  status: double_read
+  notes: 'restated with a plus sign as "+2′40″" in the next sentence and "+2′ 40″" in the tabulation (not keyed again). locus as first keyed: result line, "= 2′ 40″"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 176, 400, 330]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.saturn.true_daily_motion
+  role: output
+  value: [4, 27]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 119
+  pdf_page: 133
+  locus: '"Hence, Śani''s true daily motion : ……"'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 390, 400, 420]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 60760354); balachandra_rao_2000_p133_300dpi_clip50-390.png
+  status: double_read
+  notes: 'end of the extent; the tabulation above it restates n1 ("1′47″") and the śīghra correction ("+2′ 40″") (tile balachandra_rao_2000_p133_300dpi_clip50-320.png, clip [50, 320, 400, 400]). locus as first keyed: "Hence, Śani''s true daily motion: 4′27″"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 390, 400, 420]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''

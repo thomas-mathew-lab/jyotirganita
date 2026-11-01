@@ -1,0 +1,19 @@
+preset: suryasiddhanta_text
+header:
+  represents: The Sūrya-siddhānta's own computation as Burgess and Whitney translate it (suryasiddhanta_burgess_1860), with Hall and Bāpū Deva's text and Raṅganātha's commentary (suryasiddhanta_hall_1859) the witness of its elements, counted from the end of creation (i.48–51) at the text's meridian on the equator (meridians/suryasiddhanta_lanka, Laṅkā's mean sunrise), without a region (text_only).
+  hypothesis: No almanac is claimed to have printed this computation. The Kerala profile's conventions are suryasiddhanta_kerala's; the deśāntara, bhujāntara, cara and the text's sunrise are served, and a place of a region's table reaches the text's meridian through the editor's identification, whose flags its records carry. The Kali year is the method's mean year (sun mean), not an almanac's.
+  range: docs/verification.md prints the computed date range (from the method's runs_from, no upper end) and the effective composition date; neither is typed here.
+method: suryasiddhanta
+variants: {}
+conventions: text_only
+time_standard: text_local:suryasiddhanta
+intraday: intraday.linear_gati
+sunrise: text
+output:
+  elements: [tithi, nakshatra, yoga, karana]
+  scripts: []
+engine_data:
+  text: suryasiddhanta
+  layers: []
+observer:
+  required: true

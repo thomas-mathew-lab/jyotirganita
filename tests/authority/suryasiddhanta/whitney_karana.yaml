@@ -1,0 +1,127 @@
+id: authority/suryasiddhanta/whitney_karana
+methods: [suryasiddhanta]
+class: editor_computed
+source: suryasiddhanta_burgess_1860
+edition_page: 238
+pdf_page: 99
+locus: 'Whitney''s note to ii. 69, printed p. 238: the sentence ''The time which we have had in view in our other calculations being, as is shown under the preceding passage, in the first half of the eighth lunar day, is, of course, in the fifteenth karana, which is named Vishṭi.'''
+rounding: not stated
+precision: one karana (half a lunar day)
+datum_keys: [texts.suryasiddhanta.procedures.endings.naksatra.ii64.suryasiddhanta_burgess_1860]
+notes: 'The karana at the given time: the given time falls in the first half of the eighth lunar day (from the preceding note), hence in the fifteenth karana, whose name is given. All three numbers are printed in words (first, eighth, fifteenth); they are keyed as integers with notes. Errata (suryasiddhanta_burgess_1860_reprint PDF 364) checked: no entry on this page. First read lat-b, fixture file sha256 537fe37d.'
+values:
+- name: input.tithi.half
+  role: input
+  value: 1
+  form: integer
+  unit: half
+  script: latin
+  edition_page: 238
+  pdf_page: 99
+  locus: sentence 'The time which we have had in view in our other calculations being, as is shown under the preceding passage, in the', before '… of the'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 120, 370, 165]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 537fe37d); suryasiddhanta_burgess_1860_p99_600dpi_r1c2_clip40-120.png
+  status: double_read
+  notes: 'printed in words as an ordinal (first half). locus as first keyed: sentence ''The time which we have had in view in our other calculations being, as is shown under the preceding passage, in the'', before ''half of the'''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 120, 370, 165]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.tithi.number
+  role: input
+  value: 8
+  form: integer
+  unit: tithi
+  script: latin
+  edition_page: 238
+  pdf_page: 99
+  locus: same sentence, after '… of the', before 'lunar day'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 120, 370, 165]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 537fe37d); suryasiddhanta_burgess_1860_p99_600dpi_r1c2_clip40-120.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 120, 209, 165]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p99_600dpi_r1c1_clip40-120.png
+  status: double_read
+  notes: 'printed in words as an ordinal (eighth). locus as first keyed: same sentence, after ''half of the'', before ''lunar day'''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 120, 370, 165]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.karana.number
+  role: output
+  value: 15
+  form: integer
+  unit: karana
+  script: latin
+  edition_page: 238
+  pdf_page: 99
+  locus: same sentence, after 'is, of course, in the', before 'karana'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 120, 209, 165]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 537fe37d); suryasiddhanta_burgess_1860_p99_600dpi_r1c1_clip40-120.png
+  status: double_read
+  notes: printed in words as an ordinal (fifteenth)
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 120, 209, 165]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.karana.name
+  role: output
+  value: Vishṭi
+  form: text
+  unit: statement
+  script: latin
+  edition_page: 238
+  pdf_page: 99
+  locus: same sentence, after 'which is named'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 120, 370, 165]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 537fe37d); suryasiddhanta_burgess_1860_p99_600dpi_r1c2_clip40-120.png
+  status: double_read
+  notes: name as printed, with a dot below the t (U+1E6D)
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 120, 370, 165]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

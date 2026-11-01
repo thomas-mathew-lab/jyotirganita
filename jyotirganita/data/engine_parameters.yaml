@@ -1,0 +1,271 @@
+# Engine parameters.
+#
+# Quantities that are neither physical constants nor read from a page:
+# scan steps, tolerances, iteration caps, bisection resolutions, sampling
+# seeds, the search's horizon and floor, the hybrid-sunrise quantum. Each
+# entry states its justification (typically the bound that makes it safe)
+# and is recorded in provenance. None is tuned to make a comparison pass.
+#
+# Engine code names an entry with `# engine-parameter: <key>` where a
+# literal is unavoidable; the firewall asserts the literal equals `value`.
+# Every sampling test draws its seed from here.
+#
+# Fields, all required: key, kind (seed | scan_step | tolerance |
+# iteration_cap | resolution | horizon | quantum | factor), value (an integer, or an
+# exact decimal or ratio written as a string), unit, justification,
+# used_by. Floats are not accepted.
+
+parameters:
+  - key: seeds.signoff_sample
+    kind: seed
+    value: 20261002
+    unit: none
+    justification: >-
+      Seed of the seeded random sample of an Indic-script table or source that the
+      library author signs off in batch. Fixed by the library author on 2026-10-02,
+      before any Indic-script datum was keyed, so that the sample cannot be chosen after
+      the data are seen; the value is that date.
+    used_by: []
+  - key: seeds.conformance_year
+    kind: seed
+    value: 20261008
+    unit: none
+    justification: >-
+      Seed of the year the day-rule conformance items run over (the seam rule is tested
+      "on a seeded year"): a Gregorian year drawn from 1900–2099, so that the test is
+      not run on a year chosen after its results are seen. Fixed by the project on
+      2026-10-08, before the test was first run; the value is that date. The diagnostic
+      report runs over the same year.
+    used_by: [tests/conformance/test_methods.py, tools/wp8_report.py, tests/invariants/test_suryasiddhanta_recension_invariants.py]
+  - key: seeds.modern_sample
+    kind: seed
+    value: 20261009
+    unit: none
+    justification: >-
+      Seed of the sampled days of the checks: the IERS extract read back by the engine
+      and compared with the fetched file on a seeded sample of days, and the days the
+      modern invariants and refusal tests run on, so that no day is chosen after its
+      result is seen. Fixed by the project on 2026-10-09, before the tests were first
+      run; the value is that date.
+    used_by: [tests/crosscheck/test_modern_fetched.py, tests/invariants/test_modern_invariants.py, tests/invariants/test_calendar_layer_invariants.py, tests/conformance/test_modern_presets.py]
+  - key: siddhantic.karna_root_resolution
+    kind: resolution
+    value: "1/3600"
+    unit: arcminute
+    justification: >-
+      The śīghrakarṇa is a square root (laghubhaskariya_1963 II.33–37(i)); the texts state no precision
+      for it, and the siddhantic engine is integers and fractions only, so the root is
+      the exact one truncated at this resolution. An error δ in the karṇa h moves the
+      Rsine of the śīghra equation, bāhuphala × R ÷ h, by at most δ × r ÷ √(1 − r²), r
+      being the epicycle over the divisor 80: at most 1.1 δ for the largest keyed
+      (Venus, 59/80); the equation is then at most 48°, where the arc moves by at most
+      1.5 times its Rsine. The longitude so moves by under 1/2000 arcminute, below the
+      vikalā (1/60 arcminute) at which the texts state positions
+      (texts.aryabhatiya.procedures.mean_longitude.precision). Not tuned to any
+      comparison.
+    used_by: [jyotirganita/siddhantic/epicycle.py, jyotirganita/methods/compose.py]
+  - key: siddhantic.hybrid_sunrise_quantum
+    kind: quantum
+    value: "1/86400"
+    unit: day
+    justification: >-
+      A geometric sunrise provider returns a float; the siddhantic engine takes it
+      quantised to this exact fraction of a day, half to even, so that a run is the same
+      on every platform except at an exact half-quantum tie. One second of time moves
+      the fastest element, the Moon (mean daily motion about 13° 10′ a day,
+      authority/aryabhatiya/laghubhaskariya_1963_sankaranarayana_daily_motions), by about 0.55″, under
+      the vikalā at which the texts state positions; a provider's float error is many
+      orders smaller. Recorded in provenance on every hybrid record.
+    used_by: [jyotirganita/siddhantic/engine.py, jyotirganita/methods/compose.py]
+  - key: siddhantic.day_radius_root_resolution
+    kind: resolution
+    value: "1/3600"
+    unit: arcminute
+    justification: >-
+      The day-radius is a square root, the root of R² − Rsin²δ (laghubhaskariya_1963 II.17; mahabhaskariya_1960 III.6–7);
+      the texts state no precision for it, and the siddhantic engine is integers and
+      fractions only, so the root is the exact one truncated at this resolution. An
+      error δ in the day-radius D moves the Rsine of the ascensional difference,
+      earthsine × R ÷ D, by at most that Rsine × δ ÷ D; D is at least the Rsine of the
+      colatitude of the greatest declination (about 3140′) and the Rsine at most R
+      (3438′), so the Rsine moves by under 1/3000 arcminute and the arc by under 1/1500,
+      under 1/1500 asu, far below the asu (1/360 nāḍikā) in which the texts state times
+      (texts.aryabhatiya.procedures.proportional_parts.tithi.mahabhaskariya_1960). Not tuned to any
+      comparison.
+    used_by: [jyotirganita/siddhantic/sunrise.py, jyotirganita/methods/compose.py]
+  - key: siddhantic.root_resolution
+    kind: resolution
+    value: "1/3600"
+    unit: nadika
+    justification: >-
+      The exact-root ending (a diagnostic, never a text's procedure) is a bisection in
+      exact arithmetic on the full evaluation; it stops when the bracket is no wider
+      than this, and returns the bracket's upper end, so the ending is never before the
+      crossing and at most this much after it. One sixtieth of a vināḍikā is a tenth of
+      the asu (1/360 nāḍikā), the unit in which mahabhaskariya_1960 IV.31–32 states an ending
+      (texts.aryabhatiya.procedures.proportional_parts.tithi.mahabhaskariya_1960), so the diagnostic's
+      difference from the proportional parts is resolved ten times finer than the text
+      prints. Not tuned to any comparison.
+    used_by: [jyotirganita/methods/compose.py, tools/wp8_report.py]
+  - key: modern.cio_locator_step
+    kind: resolution
+    value: "1/10"
+    unit: julian_centuries
+    justification: >-
+      The grid on which modern/frames.py sums the integral of TN36 eq. (5.9), ∫ Ẋ Y dt
+      along the precession-only celestial pole, by the trapezoid rule in X (the CIO
+      locator s, hence the equation of the origins and the sidereal time of the rise and
+      set). Measured on 2026-10-09 against a grid ten times finer: under vondrak2011 at
+      t = −35 centuries (1500 BC) the two differ by 0.013″ in s, and by less nearer
+      J2000.0; 0.013″ of sidereal time is under a thousandth of a second of time, far
+      below the second to which a rise or set is stated. Not tuned to any comparison.
+    used_by: [jyotirganita/modern/frames.py]
+  - key: modern.light_time_iterations
+    kind: iteration_cap
+    value: "4"
+    unit: evaluations
+    justification: >-
+      The number of times modern/apparent.py evaluates the body's position in the
+      light-time iteration of the IAE's procedure (indian_astronomical_ephemeris 2022 p. 446,
+      modern.apparent.iae.planetary_aberration), starting from Δt = 0. Measured on
+      2026-10-09 under DE440 for the Sun, the Moon and Mercury to Saturn at JD
+      2300000.7, 2451545.0 and 2460000.3: the fourth evaluation changes Δt by at most
+      7e-15 day (under a nanosecond), the third by at most 7e-11 day. Not tuned to any
+      comparison.
+    used_by: [jyotirganita/modern/apparent.py]
+  - key: modern.root.scan_step
+    kind: scan_step
+    value: "1/4"
+    unit: days
+    justification: >-
+      The absolute grid on which modern/roots.py samples an element's arc (tithi,
+      karaṇa, nakṣatra, yoga, the Sun's rāśi) before Brent refines each bracketed
+      crossing. The arcs increase with time (the Sun and the Moon are never retrograde)
+      and the fastest (the Moon plus the Sun, the yoga's) moves less than 17° a day, so
+      a quarter-day step moves an arc by under 4.25°, less than the narrowest span (the
+      karaṇa's 6°): no step can pass over two boundaries or hide one. Not tuned to any
+      comparison.
+    used_by: [jyotirganita/modern/engine.py, jyotirganita/modern/roots.py]
+  - key: modern.riseset.scan_step
+    kind: scan_step
+    value: "1/24"
+    unit: days
+    justification: >-
+      The absolute grid on which modern/riseset.py samples a body's altitude less the
+      event's threshold before Brent refines each bracketed crossing. A rise and the
+      following set (or a set and the following rise) of the Sun or the Moon are hours
+      apart at the latitudes of the place tables (under 35° north), so an hour's step
+      brackets each one alone. Not tuned to any comparison.
+    used_by: [jyotirganita/modern/riseset.py, jyotirganita/modern/roots.py]
+  - key: modern.root.tolerance
+    kind: tolerance
+    value: "1/100000000"
+    unit: days
+    justification: >-
+      The width below which Brent's bracket counts as closed, for every instant the
+      modern engine reports: 1e-8 day is under a millisecond, far below the second to
+      which a rise, set or ending is stated and below a thousandth of a vināḍikā. Not
+      tuned to any comparison.
+    used_by: [jyotirganita/modern/roots.py]
+  - key: modern.root.iteration_cap
+    kind: iteration_cap
+    value: "100"
+    unit: iterations
+    justification: >-
+      The most iterations Brent's method may take on one bracket before the engine stops
+      with an error (no silent best guess). Brent's method falls back to bisection at
+      worst, which halves a bracket of a quarter day to the tolerance (1e-8 day) in
+      under 25 steps, so the cap is reached only by a defect. Not tuned to any
+      comparison.
+    used_by: [jyotirganita/modern/roots.py]
+  - key: modern.calendar_quantum
+    kind: quantum
+    value: "1/86400"
+    unit: day
+    justification: >-
+      The modern element stream (modern/source.py) states every time of the civil day
+      (its length, sunrise, sunset, midnight and each ending, as durations from the
+      day's start) quantised to this exact fraction of a day, half to even, so that a
+      record is the same on every platform except at an exact half-quantum tie: the
+      convention of siddhantic.hybrid_sunrise_quantum. A second of time is below the
+      minute (or the vināḍikā, 24 seconds) to which an almanac states an ending and the
+      second to which the IAE states a rise or set; the roots themselves are found to
+      modern.root.tolerance, a thousand times finer. Not tuned to any comparison.
+    used_by: [jyotirganita/modern/source.py]
+  - key: search.floor
+    kind: horizon
+    value: 1794108
+    unit: jdn
+    justification: >-
+      The earliest civil day the staged search serves: JDN 1794108, Julian 200-01-01,
+      the library author's choice, so that every century the engine serves is
+      searchable. tools/step_scan.py scans each method from here, cut to the method's
+      runs_from where that is later, and under modern_de to the kernel's span; a window
+      starting before the scanned range is refused by the staged path, never by the
+      brute path. The cost is scan time only (the step scan).
+    used_by: [tools/step_scan.py, jyotirganita/search/stages.py]
+  - key: search.horizon
+    kind: horizon
+    value: 2524958
+    unit: jdn
+    justification: >-
+      The last civil day the staged search serves: JDN 2524958, Gregorian 2200-12-31. It
+      covers every held almanac and a long run of future years at the cost of scan time
+      only; under modern_de the scan is also cut to the kernel's span. A window ending
+      after the scanned range is refused by the staged path, never by the brute path.
+    used_by: [tools/step_scan.py, jyotirganita/search/stages.py]
+  - key: search.safety_factor
+    kind: factor
+    value: "5/4"
+    unit: none
+    justification: >-
+      The factor the staged search multiplies each derived step bound by. The bound is
+      the larger of the largest absolute sunrise-to-sunrise step and the largest
+      absolute day's motion found by the exhaustive daily scan at the text's meridian
+      point under the registered procedures (tools/step_scan.py). Three terms lie
+      outside the scan. The observer term: a run at another observer carries the sunrise
+      by up to about twenty minutes (a seventy-second of a day), so a step there differs
+      from the scanned one by at most two seventy-seconds of the bound, under three per
+      cent. The mean-position argument: a mean longitude moves at the mean rate, and the
+      maximum true rate over the scanned range is never below the mean rate (the true
+      rate averages to it), so the bound also covers `position: mean`. Under modern_de,
+      positions come from the kernel at any instant and daily_motion is the arc between
+      consecutive civil-day starts: a body's excursion within a day exceeds that arc
+      only by the change of its rate within the day, which near its greatest rate is
+      second order and elsewhere leaves the excursion below the bound, a few per cent at
+      most for Mercury, the fastest-varying body scanned. A quarter covers the three
+      with room; a larger factor costs only pruning efficiency. Not tuned to any
+      comparison.
+    used_by: [jyotirganita/search/stages.py]
+  - key: search.margin_horizon
+    kind: horizon
+    value: 400
+    unit: days
+    justification: >-
+      How far either side of a near-miss candidate the search looks for the nearest day
+      on which a failed element holds, for the elements whose margin the search states
+      in days to the nearest such day (an overlap, an eclipse; an occurrence element's
+      nearest instant is found within its own cycle, well inside this). Four hundred
+      days cover a solar year with room, so any element tied to the solar year or the
+      lunar month is found; beyond it the margin is reported as beyond this horizon,
+      never guessed. It changes no candidate's class. Not tuned to any comparison.
+    used_by: [jyotirganita/search/evaluate.py]
+  - key: seeds.search_windows
+    kind: seed
+    value: 20261015
+    unit: none
+    justification: >-
+      Seed of the sampled windows of the invariants: the staged-equals-brute windows and
+      the round-trip days per method, drawn before either test was first run, so that no
+      window is chosen after its result is seen. Fixed by the project on 2026-10-15; the
+      value is that date.
+    used_by: [tests/invariants/test_search_invariants.py, tests/conformance/test_search.py]
+  - key: seeds.search_sample
+    kind: seed
+    value: 20261016
+    unit: none
+    justification: >-
+      Seed of the sample year per method that CI re-scans against the stored step bound.
+      Fixed by the project on 2026-10-15, before the test first ran; the value is the
+      next day's date, so that its stream differs from seeds.search_windows.
+    used_by: [tests/unit/test_derived.py]

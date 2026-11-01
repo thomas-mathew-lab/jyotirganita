@@ -1,0 +1,164 @@
+# A fetched table: not a page read and never a second witness for one. Written
+# by the script its fetch header names; do not edit by hand.
+table: precession_iau2006
+fetch:
+  source: iau2006_precession
+  file: icc5.pdf
+  sha256: 9ec6fac43f7037ff43896539d759333fc7e6007176cd72043b38d71cfd3e69c0
+  script: tools/extract_tn36.py
+  script_version: 2
+  extracted:
+    eps0: 'p. 21: after ''with ϵ0 ='' (0 further ''='') to '': PA'''
+    chi_a: 'p. 22: after ''χA ='' (0 further ''='') to '', ϵA ='''
+    eps_a: 'p. 22: after ''ϵA = ϵ0'' (0 further ''='') to '', ¯γ ='''
+    gamma_bar: 'p. 22: after ''¯γ ='' (0 further ''='') to '', ¯φ ='''
+    phi_bar: 'p. 22: after ''¯φ ='' (0 further ''='') to '', ¯ψ ='''
+    psi_bar: 'p. 22: after ''¯ψ ='' (0 further ''='') to '', (5.40)'''
+    era: 'p. 9: after ''ERA(Tu) = 2π('' (0 further ''='') to ''), (5.14)'''
+    gmst: 'p. 18: after ''GMST = ERA(UT1) +'' (0 further ''='') to ''. (5.32)'''
+    l: 'p. 23: after ''F1 ≡l = Mean Anomaly of the Moon ='' (0 further ''='') to '', F2'''
+    l_prime: 'p. 23: after ''F2 ≡l′ = Mean Anomaly of the Sun ='' (0 further ''='') to '', F3'''
+    f: 'p. 23: after ''F3 ≡'' (2 further ''='') to '', F4'''
+    d: 'p. 23: after ''F4 ≡D = Mean Elongation of the Moon from the Sun ='' (0 further ''='') to '', F5'''
+    omega: 'p. 23: after ''F5 ≡'' (2 further ''='') to '' (5.43)'''
+    l_me: 'p. 24: after ''F6 ≡ LMe ='' (0 further ''='') to '', F7'''
+    l_ve: 'p. 24: after ''F7 ≡ LV e ='' (0 further ''='') to '', F8'''
+    l_e: 'p. 24: after ''F8 ≡ LE ='' (0 further ''='') to '', F9'''
+    l_ma: 'p. 24: after ''F9 ≡ LMa ='' (0 further ''='') to '', F10'''
+    l_j: 'p. 24: after ''F10 ≡ LJ ='' (0 further ''='') to '', F11'''
+    l_sa: 'p. 24: after ''F11 ≡ LSa ='' (0 further ''='') to '', F12'''
+    l_u: 'p. 24: after ''F12 ≡ LU ='' (0 further ''='') to '', F13'''
+    l_ne: 'p. 24: after ''F13 ≡ LNe ='' (0 further ''='') to '', F14'''
+    p_a: 'p. 24: after ''F14 ≡ pA ='' (0 further ''='') to ''. (5.44)'''
+time_argument: 't: Julian centuries of TT from J2000.0 (statement time_argument); ERA: Tu = Julian UT1
+  date − 2451545.0'
+eps0:
+- ['84381.406', 0, arcsec]
+fukushima_williams:
+  chi_a:
+  - ['10.556403', 1, arcsec]
+  - ['-2.3814292', 2, arcsec]
+  - ['-0.00121197', 3, arcsec]
+  - ['0.000170663', 4, arcsec]
+  - ['-0.0000000560', 5, arcsec]
+  eps_a:
+  - ['-46.836769', 1, arcsec]
+  - ['-0.0001831', 2, arcsec]
+  - ['0.00200340', 3, arcsec]
+  - ['-0.000000576', 4, arcsec]
+  - ['-0.0000000434', 5, arcsec]
+  gamma_bar:
+  - ['-0.052928', 0, arcsec]
+  - ['10.556378', 1, arcsec]
+  - ['0.4932044', 2, arcsec]
+  - ['-0.00031238', 3, arcsec]
+  - ['-0.000002788', 4, arcsec]
+  - ['0.0000000260', 5, arcsec]
+  phi_bar:
+  - ['84381.412819', 0, arcsec]
+  - ['-46.811016', 1, arcsec]
+  - ['0.0511268', 2, arcsec]
+  - ['0.00053289', 3, arcsec]
+  - ['-0.000000440', 4, arcsec]
+  - ['-0.0000000176', 5, arcsec]
+  psi_bar:
+  - ['-0.041775', 0, arcsec]
+  - ['5038.481484', 1, arcsec]
+  - ['1.5584175', 2, arcsec]
+  - ['-0.00018522', 3, arcsec]
+  - ['-0.000026452', 4, arcsec]
+  - ['-0.0000000148', 5, arcsec]
+era:
+- ['0.7790572732640', 0, revolution]
+- ['1.00273781191135448', 1, revolution]
+gmst:
+- ['0.014506', 0, arcsec]
+- ['4612.156534', 1, arcsec]
+- ['1.3915817', 2, arcsec]
+- ['-0.00000044', 3, arcsec]
+- ['-0.000029956', 4, arcsec]
+- ['-0.0000000368', 5, arcsec]
+delaunay:
+  l:
+  - ['134.96340251', 0, deg]
+  - ['1717915923.2178', 1, arcsec]
+  - ['31.8792', 2, arcsec]
+  - ['0.051635', 3, arcsec]
+  - ['-0.00024470', 4, arcsec]
+  l_prime:
+  - ['357.52910918', 0, deg]
+  - ['129596581.0481', 1, arcsec]
+  - ['-0.5532', 2, arcsec]
+  - ['0.000136', 3, arcsec]
+  - ['-0.00001149', 4, arcsec]
+  f:
+  - ['93.27209062', 0, deg]
+  - ['1739527262.8478', 1, arcsec]
+  - ['-12.7512', 2, arcsec]
+  - ['-0.001037', 3, arcsec]
+  - ['0.00000417', 4, arcsec]
+  d:
+  - ['297.85019547', 0, deg]
+  - ['1602961601.2090', 1, arcsec]
+  - ['-6.3706', 2, arcsec]
+  - ['0.006593', 3, arcsec]
+  - ['-0.00003169', 4, arcsec]
+  omega:
+  - ['125.04455501', 0, deg]
+  - ['-6962890.5431', 1, arcsec]
+  - ['7.4722', 2, arcsec]
+  - ['0.007702', 3, arcsec]
+  - ['-0.00005939', 4, arcsec]
+planetary:
+  l_me:
+  - ['4.402608842', 0, rad]
+  - ['2608.7903141574', 1, rad]
+  l_ve:
+  - ['3.176146697', 0, rad]
+  - ['1021.3285546211', 1, rad]
+  l_e:
+  - ['1.753470314', 0, rad]
+  - ['628.3075849991', 1, rad]
+  l_ma:
+  - ['6.203480913', 0, rad]
+  - ['334.0612426700', 1, rad]
+  l_j:
+  - ['0.599546497', 0, rad]
+  - ['52.9690962641', 1, rad]
+  l_sa:
+  - ['0.874016757', 0, rad]
+  - ['21.3299104960', 1, rad]
+  l_u:
+  - ['5.481293872', 0, rad]
+  - ['7.4781598567', 1, rad]
+  l_ne:
+  - ['5.311886287', 0, rad]
+  - ['3.8133035638', 1, rad]
+  p_a:
+  - ['0.02438175', 1, rad]
+  - ['0.00000538691', 2, rad]
+statements:
+  time_argument:
+    page: 22
+    text: Due to their theoretical bases, the original development of the precession quantities as functions
+      of time can be considered as being expressed in TDB. However, in practice, TT is used in the above
+      expressions in place of TDB. The largest term in the diﬀerence TDB−TT being 1.7 ms × sin l′ (where
+      l′ is the mean anomaly of the Sun), the resulting error in the precession quantity ψA is periodic,
+      with an annual period and an amplitude of 2.7′′ × 10−9, which is signiﬁcantly below the required
+      microarcsecond accuracy. This applies to Eq. (5.38)-(5.40), as well as to the polynomial part of
+      Eq. (5.16) (i.e. the expression for the CIP’s GCRS X, Y coordinates).
+  iau2000a_accuracy:
+    page: 18
+    text: That model is expected to have an accuracy of about 10 µas for most of its terms.
+  iau2000b_accuracy:
+    page: 19
+    text: As recommended by IAU 2000 Resolution B1.6, an abridged model, designated IAU 2000B, is available
+      for those who need a model only at the 1 mas level. Such a model has been developed by McCarthy
+      and Luzum (2003). It includes fewer than 80 lunisolar terms plus a bias to account for the eﬀect
+      of the planetary terms in the time period under consideration. It provides the celestial pole motion
+      with an accuracy that does not result in a diﬀerence greater than 1 mas with respect to that of
+      the IAU 2000A model during the period 1995–2050.
+  era_definition:
+    page: 9
+    text: ERA(Tu) = 2π(0.7790572732640 + 1.00273781191135448Tu), (5.14) where Tu=(Julian UT1 date−2451545.0),
+      and UT1=UTC+(UT1−UTC),

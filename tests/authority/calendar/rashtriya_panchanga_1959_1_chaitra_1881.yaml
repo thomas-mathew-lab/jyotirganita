@@ -1,0 +1,230 @@
+id: authority/calendar/rashtriya_panchanga_1959_1_chaitra_1881
+methods: [calendar]
+class: editor_computed
+source: rashtriya_panchanga_1959
+file: rashtriya_panchanga_1959-rashtriya-panchang-1959.pdf
+edition_page: 1
+pdf_page: 21
+locus: the entry for 1 Chaitra 1881 Saka
+rounding: 'the almanac''s: clock hours and minutes'
+precision: the printed minute
+datum_keys: [time_standards.ist.definition.rashtriya_panchanga_1959, time_standards.ist.almanac_use.rashtriya_panchanga_1959]
+notes: 'A printed sunrise and printed endings in one entry (reading 8): the almanac gives endings as IST clock hours from the civil date''s midnight, continuing past 24 for an instant after the next midnight. Pins the IST clock encoding of rashtriya_panchanga_1959''s columns; the comparison of computed positions with the almanac is left for later work.'
+values:
+- name: input.date
+  role: input
+  value: 1 Chaitra, Sunday, 22 March
+  form: text
+  unit: date
+  script: latin
+  locus: 'rashtriya_panchanga_1959 printed 1, the entry headed for the first day of the month (the page''s first entry): its heading from its first figure to ''March'' (the month and day of the other calendar after it not keyed). Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 241
+    clip: [0, 0, 397.6, 315.05]
+    delivered_ppi: 241
+    max_edge: 2000
+    note: tile r1c1 of the page 1x2, native 241 ppi
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 600
+    clip: [50, 198, 350, 268]
+    delivered_ppi: 241
+    max_edge: 2000
+    note: tiles 2x1 of this clip, --dpi 600 --upsample
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r18
+    on: 2026-10-08
+    dpi: 241
+    clip: [0, 0, 397.59, 315.05]
+    delivered_ppi: 241
+    max_edge: 2000
+    note: ''
+- name: input.year_heading
+  role: input
+  value: 1881 Saka, 1959−60 A. D.
+  form: text
+  unit: date
+  script: latin
+  locus: 'rashtriya_panchanga_1959 printed 1, the entry headed for the first day of the month (the page''s first entry): the page''s heading line naming the years, from its first figure to ''D.''; the dash between the two years keyed as U+2212. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 241
+    clip: [0, 0, 397.6, 315.05]
+    delivered_ppi: 241
+    max_edge: 2000
+    note: tile r1c1 of the page 1x2, native 241 ppi
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 600
+    clip: [50, 198, 350, 268]
+    delivered_ppi: 241
+    max_edge: 2000
+    note: tiles 2x1 of this clip, --dpi 600 --upsample
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r18
+    on: 2026-10-08
+    dpi: 241
+    clip: [0, 0, 397.59, 315.05]
+    delivered_ppi: 241
+    max_edge: 2000
+    note: ''
+- name: output.sunrise
+  role: output
+  value: 6−03
+  form: text
+  unit: hours_minutes_ist
+  script: latin
+  locus: 'rashtriya_panchanga_1959 printed 1, the entry headed for the first day of the month (the page''s first entry): the time after ''Sunrise h.'', its figures only; a separator printed between hours and minutes keyed as U+2212 whatever its length. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 241
+    clip: [0, 0, 397.6, 315.05]
+    delivered_ppi: 241
+    max_edge: 2000
+    note: tile r1c1 of the page 1x2, native 241 ppi
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 600
+    clip: [50, 198, 350, 268]
+    delivered_ppi: 241
+    max_edge: 2000
+    note: tiles 2x1 of this clip, --dpi 600 --upsample
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r18
+    on: 2026-10-08
+    dpi: 241
+    clip: [50, 198, 350, 268]
+    delivered_ppi: 241
+    max_edge: 2000
+    note: ''
+- name: output.sunset
+  role: output
+  value: 18−11
+  form: text
+  unit: hours_minutes_ist
+  script: latin
+  locus: 'rashtriya_panchanga_1959 printed 1, the entry headed for the first day of the month (the page''s first entry): the time after ''Set h.'' (the first, not the bracketed one), its figures only; a separator printed between hours and minutes keyed as U+2212 whatever its length. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 241
+    clip: [0, 0, 397.6, 315.05]
+    delivered_ppi: 241
+    max_edge: 2000
+    note: tile r1c1 of the page 1x2, native 241 ppi
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 600
+    clip: [50, 198, 350, 268]
+    delivered_ppi: 241
+    max_edge: 2000
+    note: tiles 2x1 of this clip, --dpi 600 --upsample
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r18
+    on: 2026-10-08
+    dpi: 241
+    clip: [50, 198, 350, 268]
+    delivered_ppi: 241
+    max_edge: 2000
+    note: ''
+- name: output.tithi_end
+  role: output
+  value: 8−57
+  form: text
+  unit: hours_minutes_ist
+  script: latin
+  locus: 'rashtriya_panchanga_1959 printed 1, the entry headed for the first day of the month (the page''s first entry): the time after the tithi''s name, its figures only; a separator printed between hours and minutes keyed as U+2212 whatever its length. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 241
+    clip: [0, 0, 397.6, 315.05]
+    delivered_ppi: 241
+    max_edge: 2000
+    note: tile r1c1 of the page 1x2, native 241 ppi
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 600
+    clip: [50, 198, 350, 268]
+    delivered_ppi: 241
+    max_edge: 2000
+    note: tiles 2x1 of this clip, --dpi 600 --upsample
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r18
+    on: 2026-10-08
+    dpi: 241
+    clip: [50, 198, 350, 268]
+    delivered_ppi: 241
+    max_edge: 2000
+    note: ''
+- name: output.nakshatra_end_1
+  role: output
+  value: 6−24
+  form: text
+  unit: hours_minutes_ist
+  script: latin
+  locus: 'rashtriya_panchanga_1959 printed 1, the entry headed for the first day of the month (the page''s first entry): the time after the first nakshatra''s name, its figures only; a separator printed between hours and minutes keyed as U+2212 whatever its length. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 241
+    clip: [0, 0, 397.6, 315.05]
+    delivered_ppi: 241
+    max_edge: 2000
+    note: tile r1c1 of the page 1x2, native 241 ppi
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 600
+    clip: [50, 198, 350, 268]
+    delivered_ppi: 241
+    max_edge: 2000
+    note: tiles 2x1 of this clip, --dpi 600 --upsample
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r18
+    on: 2026-10-08
+    dpi: 241
+    clip: [50, 198, 350, 268]
+    delivered_ppi: 241
+    max_edge: 2000
+    note: ''
+- name: output.nakshatra_end_2
+  role: output
+  value: 29−13
+  form: text
+  unit: hours_minutes_ist
+  script: latin
+  locus: 'rashtriya_panchanga_1959 printed 1, the entry headed for the first day of the month (the page''s first entry): the time after the second nakshatra''s name (after ''then''), its figures only; a separator printed between hours and minutes keyed as U+2212 whatever its length. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 241
+    clip: [0, 0, 397.6, 315.05]
+    delivered_ppi: 241
+    max_edge: 2000
+    note: tile r1c1 of the page 1x2, native 241 ppi
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 600
+    clip: [50, 198, 350, 268]
+    delivered_ppi: 241
+    max_edge: 2000
+    note: tiles 2x1 of this clip, --dpi 600 --upsample
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r18
+    on: 2026-10-08
+    dpi: 241
+    clip: [50, 198, 350, 268]
+    delivered_ppi: 241
+    max_edge: 2000
+    note: ''

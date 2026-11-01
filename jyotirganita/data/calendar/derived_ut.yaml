@@ -1,0 +1,6 @@
+- key: calendar.derived_ut.chain_witness.basel_panchangam_1868
+  status: gap
+  reason: the end-to-end test of the derived UT chain against an almanac that prints both the nāḻika after sunrise and the clock sunrise is not made; every 1868 value is left for later work, and the fixture would be Malayalam
+  searched: basel_panchangam_1868 PDF 9 and 11 (nothing keyed)
+  effect: the chain's UT placement is tested against the Central Station fixture and by construction; its agreement with a printed almanac is untested
+  source: basel_panchangam_1868

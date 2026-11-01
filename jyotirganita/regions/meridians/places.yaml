@@ -1,0 +1,48 @@
+region: meridians
+places:
+- id: lanka
+  name: Laṅkā
+  route: text_units
+  texts: [aryabhatiya]
+  latitude:
+    value: 0
+    unit: degrees_north
+    statement: texts.aryabhatiya.epoch.kali_day_start.aryabhatiya_1976
+    reading: on the equator ('a hypothetical place on the equator where the meridian of Ujjain intersects it')
+  meridian_offset:
+    value: 0
+    unit: ghatis_east
+    statement: texts.aryabhatiya.meridian.lanka_ujjayini
+    reading: on the text's meridian (Ujjayinī lies 'exactly northwards' of Laṅkā)
+- id: drgganita_samarekha
+  name: the Dṛggaṇita's samarekhā on the equator
+  route: text_units
+  texts: [drgganita]
+  provisional: the latitude is this entry's reading, not a statement of drgganita_1963
+  latitude:
+    value: 0
+    unit: degrees_north
+    statement: texts.drgganita.procedures.computation_instant
+    reading: 'on the equator: the means are stated to sunrise (udayāvadhikā, I.ii.6) and the carry to another place is deferred to earlier works (I.ii.7); the text names no latitude for its means, and the equator, where the cara is nil, is this entry''s reading, not a statement'
+  meridian_offset:
+    value: 0
+    unit: ghatis_east
+    statement: texts.drgganita.part1.samarekha
+    reading: on the text's samarekhā, the meridian I.ii.8 places east of the village Aśvattha
+- id: suryasiddhanta_lanka
+  name: Laṅkā, the Sūrya-siddhānta's meridian on the equator
+  route: text_units
+  texts: [suryasiddhanta]
+  provisional: the latitude is this entry's reading, not a keyed statement of suryasiddhanta_burgess_1860
+  latitude:
+    value: 0
+    unit: degrees_north
+    statement: texts.suryasiddhanta.procedures.computation_instant.statement
+    reading: 'on the equator: the sum of days is at midnight on the meridian of Laṅkā (i.51), and this entry takes Laṅkā on the equator, where the cara is nil; no verse placing Laṅkā on the equator is keyed'
+  meridian_offset:
+    value: 0
+    unit: ghatis_east
+    statement: texts.suryasiddhanta.meridian.statement
+    reading: on the text's prime meridian, the line through Laṅkā and the seat of the gods (i.62)
+data: []
+notes: 'The texts'' own meridian points, route (a): each coordinate is the reading of a statement datum of the text; nothing is a modern coordinate. The observer of the conformance suite; Laṅkā lost its provisional flag, when the cara was keyed.'

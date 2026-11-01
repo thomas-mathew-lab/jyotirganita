@@ -1,0 +1,1551 @@
+id: authority/suryasiddhanta/whitney_ahargana_example
+methods: [suryasiddhanta]
+class: editor_computed
+source: suryasiddhanta_burgess_1860
+edition_page: 175
+pdf_page: 36
+locus: 'note under i.48-51: p. 174 (PDF 35) from "The process will be best illustrated" through the skeleton calendar ("Solar Year." and "Luni-solar Year."); p. 175 (PDF 36) from "The table shows that …" to "Total number of civil days from end of creation to beginning of …"'
+rounding: the two proportions are printed with the integer part followed by "+" (fraction dropped); all other lines integers
+precision: integers (months, lunar days, civil days)
+datum_keys: [texts.suryasiddhanta.procedures.ahargana.rule, texts.suryasiddhanta.procedures.computation_instant.statement]
+notes: 'Sum of days (ahargana) from the end of creation to the beginning of Jan. 1, 1860 by the rule of vv. 48-51. Inputs from outside the text: the skeleton calendar of I.A. 4960-4962 (Whitney constructed it: "we have constructed the following skeleton of a Hindu calendar for the year 4961 of the Iron Age") and the Hindu date it gives for Jan. 1, 1860 (eighth day of the tenth month of 4961). Calendar dates keyed as printed, "do." (ditto) kept as printed (it repeats the year above). The constants used (51,840,000 solar months, 1,593,336 intercalary months, 1,603,000,080 lunar days, 25,082,252 omitted lunar days in an Age) are printed only inside the proportions. Day count is at midnight on the Hindu prime meridian (p. 175).'
+values:
+- name: input.target_date
+  role: input
+  value: Jan. 1, 1860
+  form: text
+  unit: none
+  script: latin
+  edition_page: 174
+  pdf_page: 35
+  locus: 'p. 174 para. 2: "to find the sum of days to the beginning of …."; date as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [190, 190, 385, 368]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [190,190,385,540] 1x2 --overlap 6 and tile r1c1 of clip [25,190,205,530] 1x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: calendar not named on the line
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.year_completed
+  role: input
+  value: 4960
+  form: integer
+  unit: iron_age_year
+  script: latin
+  edition_page: 174
+  pdf_page: 35
+  locus: 'p. 174 para. 3: "the …th year of the Iron Age is completed in …"; the ordinal''s number'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [190, 190, 385, 368]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [190,190,385,540] 1x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.year_completed_month
+  role: input
+  value: April, 1859
+  form: text
+  unit: none
+  script: latin
+  edition_page: 174
+  pdf_page: 35
+  locus: 'p. 174 para. 3: "is completed in …"; as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 190, 205, 363]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [25,190,205,530] 1x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 211, 204, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.calendar_year
+  role: input
+  value: 4961
+  form: integer
+  unit: iron_age_year
+  script: latin
+  edition_page: 174
+  pdf_page: 35
+  locus: 'p. 174 para. 3: "skeleton of a Hindu calendar for the year … of the Iron Age"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [190, 190, 385, 368]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [190,190,385,540] 1x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.calendar.solar.prev_year_12_caitra.first_day
+  role: input
+  value: Mar. 13, 1859.
+  form: text
+  unit: none
+  script: latin
+  edition_page: 174
+  pdf_page: 35
+  locus: skeleton calendar, "Solar Year." column, row "(I. A. ….) …. Caitra", "… day."; as printed, "do." kept
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 190, 205, 363]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [25,190,205,530] 1x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 211, 204, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.calendar.solar.cur_year_01_vaicakha.first_day
+  role: input
+  value: Apr. 12, do.
+  form: text
+  unit: none
+  script: latin
+  edition_page: 174
+  pdf_page: 35
+  locus: skeleton calendar, "Solar Year." column, row "1. Vaicakha", "… day."; as printed, "do." kept
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 357, 205, 530]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [25,190,205,530] 1x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 211, 204, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.calendar.solar.cur_year_02_jyaishtha.first_day
+  role: input
+  value: May 13, do.
+  form: text
+  unit: none
+  script: latin
+  edition_page: 174
+  pdf_page: 35
+  locus: skeleton calendar, "Solar Year." column, row "2. Jyaishtha", "… day."; as printed, "do." kept
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 357, 205, 530]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [25,190,205,530] 1x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 211, 204, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.calendar.solar.cur_year_03_ashadha.first_day
+  role: input
+  value: June 14, do.
+  form: text
+  unit: none
+  script: latin
+  edition_page: 174
+  pdf_page: 35
+  locus: skeleton calendar, "Solar Year." column, row "3. Ashadha", "… day."; as printed, "do." kept
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 357, 205, 530]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [25,190,205,530] 1x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 211, 204, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.calendar.solar.cur_year_04_cravana.first_day
+  role: input
+  value: July 15, do.
+  form: text
+  unit: none
+  script: latin
+  edition_page: 174
+  pdf_page: 35
+  locus: skeleton calendar, "Solar Year." column, row "4. Cravana", "… day."; as printed, "do." kept
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 357, 205, 530]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [25,190,205,530] 1x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 211, 204, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.calendar.solar.cur_year_05_bhadrapada.first_day
+  role: input
+  value: Aug. 16, do.
+  form: text
+  unit: none
+  script: latin
+  edition_page: 174
+  pdf_page: 35
+  locus: skeleton calendar, "Solar Year." column, row "5. Bhadrapada", "… day."; as printed, "do." kept
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 357, 205, 530]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [25,190,205,530] 1x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 211, 204, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.calendar.solar.cur_year_06_acvina.first_day
+  role: input
+  value: Sept. 16, do.
+  form: text
+  unit: none
+  script: latin
+  edition_page: 174
+  pdf_page: 35
+  locus: skeleton calendar, "Solar Year." column, row "6. Acvina", "… day."; as printed, "do." kept
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 357, 205, 530]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [25,190,205,530] 1x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 406, 204, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.calendar.solar.cur_year_07_karttika.first_day
+  role: input
+  value: Oct. 16, do.
+  form: text
+  unit: none
+  script: latin
+  edition_page: 174
+  pdf_page: 35
+  locus: skeleton calendar, "Solar Year." column, row "7. Karttika", "… day."; as printed, "do." kept
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 357, 205, 530]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [25,190,205,530] 1x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 406, 204, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.calendar.solar.cur_year_08_margacirsha.first_day
+  role: input
+  value: Nov. 15, do
+  form: text
+  unit: none
+  script: latin
+  edition_page: 174
+  pdf_page: 35
+  locus: skeleton calendar, "Solar Year." column, row "8. Margacirsha", "… day."; as printed, "do." kept
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 357, 205, 530]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [25,190,205,530] 1x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: no period printed after "do"
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 406, 204, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.calendar.solar.cur_year_09_pausha.first_day
+  role: input
+  value: Dec. 15, do.
+  form: text
+  unit: none
+  script: latin
+  edition_page: 174
+  pdf_page: 35
+  locus: skeleton calendar, "Solar Year." column, row "9. Pausha", "… day."; as printed, "do." kept
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 357, 205, 530]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [25,190,205,530] 1x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 406, 204, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.calendar.solar.cur_year_10_magha.first_day
+  role: input
+  value: Jan. 13, 1860.
+  form: text
+  unit: none
+  script: latin
+  edition_page: 174
+  pdf_page: 35
+  locus: skeleton calendar, "Solar Year." column, row "…. Magha", "… day."; as printed, "do." kept
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 357, 205, 530]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [25,190,205,530] 1x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 406, 204, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.calendar.solar.cur_year_11_phalguna.first_day
+  role: input
+  value: Feb. 11, do.
+  form: text
+  unit: none
+  script: latin
+  edition_page: 174
+  pdf_page: 35
+  locus: skeleton calendar, "Solar Year." column, row "…. Phalguna", "… day."; as printed, "do." kept
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 357, 205, 530]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [25,190,205,530] 1x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 406, 204, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.calendar.solar.cur_year_12_caitra.first_day
+  role: input
+  value: Mar. 12, do.
+  form: text
+  unit: none
+  script: latin
+  edition_page: 174
+  pdf_page: 35
+  locus: skeleton calendar, "Solar Year." column, row "…. Caitra", "… day."; as printed, "do." kept
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 357, 205, 530]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [25,190,205,530] 1x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 406, 204, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.calendar.lunisolar.cur_year_01_caitra.first_day
+  role: input
+  value: Apr. 4, 1859.
+  form: text
+  unit: none
+  script: latin
+  edition_page: 174
+  pdf_page: 35
+  locus: skeleton calendar, "Luni-solar Year." column, row "(I. A. ….) 1. Caitra", "… day."; as printed, "do." kept
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [190, 190, 385, 368]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [190,190,385,540] 1x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.calendar.lunisolar.cur_year_02_vaicakha.first_day
+  role: input
+  value: May 3, do.
+  form: text
+  unit: none
+  script: latin
+  edition_page: 174
+  pdf_page: 35
+  locus: skeleton calendar, "Luni-solar Year." column, row "2. Vaicakha", "… day."; as printed, "do." kept
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [190, 362, 385, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [190,190,385,540] 1x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.calendar.lunisolar.cur_year_03_jyaishtha.first_day
+  role: input
+  value: June 2, do.
+  form: text
+  unit: none
+  script: latin
+  edition_page: 174
+  pdf_page: 35
+  locus: skeleton calendar, "Luni-solar Year." column, row "3. Jyaishtha", "… day."; as printed, "do." kept
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [190, 362, 385, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [190,190,385,540] 1x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.calendar.lunisolar.cur_year_04_ashadha.first_day
+  role: input
+  value: July 1, do.
+  form: text
+  unit: none
+  script: latin
+  edition_page: 174
+  pdf_page: 35
+  locus: skeleton calendar, "Luni-solar Year." column, row "4. Ashadha", "… day."; as printed, "do." kept
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [190, 362, 385, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [190,190,385,540] 1x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.calendar.lunisolar.cur_year_05_cravana.first_day
+  role: input
+  value: July 31, do.
+  form: text
+  unit: none
+  script: latin
+  edition_page: 174
+  pdf_page: 35
+  locus: skeleton calendar, "Luni-solar Year." column, row "5. Cravana", "… day."; as printed, "do." kept
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [190, 362, 385, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [190,190,385,540] 1x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.calendar.lunisolar.cur_year_06_bhadrapada.first_day
+  role: input
+  value: Aug. 29, do.
+  form: text
+  unit: none
+  script: latin
+  edition_page: 174
+  pdf_page: 35
+  locus: skeleton calendar, "Luni-solar Year." column, row "6. Bhadrapada", "… day."; as printed, "do." kept
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [190, 362, 385, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [190,190,385,540] 1x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 406, 385, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.calendar.lunisolar.cur_year_07_acvina.first_day
+  role: input
+  value: Sept. 28, do.
+  form: text
+  unit: none
+  script: latin
+  edition_page: 174
+  pdf_page: 35
+  locus: skeleton calendar, "Luni-solar Year." column, row "7. Acvina", "… day."; as printed, "do." kept
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [190, 362, 385, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [190,190,385,540] 1x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 406, 385, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.calendar.lunisolar.cur_year_08_karttika.first_day
+  role: input
+  value: Oct. 27, do.
+  form: text
+  unit: none
+  script: latin
+  edition_page: 174
+  pdf_page: 35
+  locus: skeleton calendar, "Luni-solar Year." column, row "8. Karttika", "… day."; as printed, "do." kept
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [190, 362, 385, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [190,190,385,540] 1x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 406, 385, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.calendar.lunisolar.cur_year_09_margacirsha.first_day
+  role: input
+  value: Nov. 26, do.
+  form: text
+  unit: none
+  script: latin
+  edition_page: 174
+  pdf_page: 35
+  locus: skeleton calendar, "Luni-solar Year." column, row "9. Margacirsha", "… day."; as printed, "do." kept
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [190, 362, 385, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [190,190,385,540] 1x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 406, 385, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.calendar.lunisolar.cur_year_10_pausha.first_day
+  role: input
+  value: Dec. 25, do.
+  form: text
+  unit: none
+  script: latin
+  edition_page: 174
+  pdf_page: 35
+  locus: skeleton calendar, "Luni-solar Year." column, row "…. Pausha", "… day."; as printed, "do." kept
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [190, 362, 385, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [190,190,385,540] 1x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 406, 385, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.calendar.lunisolar.cur_year_11_magha.first_day
+  role: input
+  value: Jan. 24, 1860.
+  form: text
+  unit: none
+  script: latin
+  edition_page: 174
+  pdf_page: 35
+  locus: skeleton calendar, "Luni-solar Year." column, row "…. Magha", "… day."; as printed, "do." kept
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [190, 362, 385, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [190,190,385,540] 1x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 406, 385, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.calendar.lunisolar.cur_year_12_phalguna.first_day
+  role: input
+  value: Feb. 22, do.
+  form: text
+  unit: none
+  script: latin
+  edition_page: 174
+  pdf_page: 35
+  locus: skeleton calendar, "Luni-solar Year." column, row "…. Phalguna", "… day."; as printed, "do." kept
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [190, 362, 385, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [190,190,385,540] 1x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 406, 385, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.calendar.lunisolar.next_year_01_caitra.first_day
+  role: input
+  value: Mar. 23, do.
+  form: text
+  unit: none
+  script: latin
+  edition_page: 174
+  pdf_page: 35
+  locus: skeleton calendar, "Luni-solar Year." column, the last row (the next year's "1. Caitra"), "… day."; as printed, "do." kept
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [190, 362, 385, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [190,190,385,540] 1x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 406, 385, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.hindu_date.day
+  role: input
+  value: 8
+  form: integer
+  unit: day_of_month
+  script: latin
+  edition_page: 175
+  pdf_page: 36
+  locus: 'p. 175 para. 2: "…, is the … day of the … month of the …st year"; the day ordinal'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 60, 375, 243]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,60,375,420] 2x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: printed in words ("eighth")
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.hindu_date.month
+  role: input
+  value: 10
+  form: integer
+  unit: month_of_year
+  script: latin
+  edition_page: 175
+  pdf_page: 36
+  locus: 'p. 175 para. 2: "the … month"; the ordinal'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 60, 375, 243]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,60,375,420] 2x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: printed in words ("tenth")
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.hindu_date.year
+  role: input
+  value: 4961
+  form: integer
+  unit: iron_age_year
+  script: latin
+  edition_page: 175
+  pdf_page: 36
+  locus: 'p. 175 para. 2: "of the …st year of the Iron Age"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [30, 60, 205.5, 243]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [30,60,375,420] 2x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.time_elapsed
+  role: input
+  value: 1955884960 y., 9 m., 7 d.
+  form: text
+  unit: none
+  script: latin
+  edition_page: 175
+  pdf_page: 36
+  locus: 'p. 175 para. 2: the elapsed time after "is", in years, months and days; grouping dropped in the years, as printed otherwise'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 60, 375, 243]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,60,375,420] 2x2 --overlap 6 (the leading "1," on tile r1c1 of clip [30,60,375,420] 2x2 --overlap 6); first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.complete_years
+  role: input
+  value: 1955884960
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 175
+  pdf_page: 36
+  locus: computation line "Number of complete years elapsed,"; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 60, 375, 243]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,60,375,420] 2x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.solar_months_in_year
+  role: input
+  value: 12
+  form: integer
+  unit: months
+  script: latin
+  edition_page: 175
+  pdf_page: 36
+  locus: computation line "multiply by number of solar months in a year,"
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 60, 375, 243]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,60,375,420] 2x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.number_of_months
+  role: output
+  value: 23470619520
+  form: integer
+  unit: solar_months
+  script: latin
+  edition_page: 175
+  pdf_page: 36
+  locus: computation line "Number of months,"; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 60, 375, 243]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,60,375,420] 2x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.months_elapsed_current_year
+  role: input
+  value: 9
+  form: integer
+  unit: solar_months
+  script: latin
+  edition_page: 175
+  pdf_page: 36
+  locus: computation line "add months elapsed of current year,"
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 60, 375, 243]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,60,375,420] 2x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.whole_months_elapsed
+  role: output
+  value: 23470619529
+  form: integer
+  unit: solar_months
+  script: latin
+  edition_page: 175
+  pdf_page: 36
+  locus: computation line "Whole number of months elapsed,"; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 60, 375, 243]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,60,375,420] 2x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.proportion1.solar_months_in_age
+  role: input
+  value: 51840000
+  form: integer
+  unit: solar_months
+  script: latin
+  edition_page: 175
+  pdf_page: 36
+  locus: proportion line 1, first term "… +"; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [100, 231, 330, 248]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [100,231,330,248]; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.proportion1.intercalary_months_in_age
+  role: input
+  value: 1593336
+  form: integer
+  unit: months
+  script: latin
+  edition_page: 175
+  pdf_page: 36
+  locus: proportion line 1, second term; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [100, 231, 330, 248]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [100,231,330,248]; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.proportion1.months
+  role: input
+  value: 23470619529
+  form: integer
+  unit: solar_months
+  script: latin
+  edition_page: 175
+  pdf_page: 36
+  locus: proportion line 1, third term; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [100, 231, 330, 248]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [100,231,330,248]; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.proportion1.intercalary_months
+  role: output
+  value: 721384703
+  form: integer
+  unit: months
+  script: latin
+  edition_page: 175
+  pdf_page: 36
+  locus: proportion line 1, fourth term, printed with a following "+"; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [100, 231, 330, 248]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [100,231,330,248]; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: printed "721,384,703 +" (the + marks a dropped fraction)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.whole_months_as_above
+  role: input
+  value: 23470619529
+  form: integer
+  unit: solar_months
+  script: latin
+  edition_page: 175
+  pdf_page: 36
+  locus: computation line "Whole number of months, as above,"; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 237, 375, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c2 of clip [30,60,375,420] 2x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.add_intercalary_months
+  role: input
+  value: 721384703
+  form: integer
+  unit: months
+  script: latin
+  edition_page: 175
+  pdf_page: 36
+  locus: computation line "add intercalary months,"; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 237, 375, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c2 of clip [30,60,375,420] 2x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.whole_lunar_months
+  role: output
+  value: 24192004232
+  form: integer
+  unit: lunar_months
+  script: latin
+  edition_page: 175
+  pdf_page: 36
+  locus: computation line "Whole number of lunar months,"; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 237, 375, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c2 of clip [30,60,375,420] 2x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.lunar_days_in_month
+  role: input
+  value: 30
+  form: integer
+  unit: lunar_days
+  script: latin
+  edition_page: 175
+  pdf_page: 36
+  locus: computation line "multiply by number of lunar days in a month,"
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 237, 375, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c2 of clip [30,60,375,420] 2x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.number_of_lunar_days
+  role: output
+  value: 725760126960
+  form: integer
+  unit: lunar_days
+  script: latin
+  edition_page: 175
+  pdf_page: 36
+  locus: computation line "Number of lunar days,"; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 237, 375, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c2 of clip [30,60,375,420] 2x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.lunar_days_elapsed_current_month
+  role: input
+  value: 7
+  form: integer
+  unit: lunar_days
+  script: latin
+  edition_page: 175
+  pdf_page: 36
+  locus: computation line "add lunar days elapsed of current month,"
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 237, 375, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c2 of clip [30,60,375,420] 2x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.whole_lunar_days_elapsed
+  role: output
+  value: 725760126967
+  form: integer
+  unit: lunar_days
+  script: latin
+  edition_page: 175
+  pdf_page: 36
+  locus: computation line "Whole number of lunar days elapsed,"; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 237, 375, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c2 of clip [30,60,375,420] 2x2 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.proportion2.lunar_days_in_age
+  role: input
+  value: 1603000080
+  form: integer
+  unit: lunar_days
+  script: latin
+  edition_page: 175
+  pdf_page: 36
+  locus: proportion line 2, first term "… +"; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [30, 237, 205.5, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [30,60,375,420] 2x2 --overlap 6; rest of the line on single tile clip [100,385,330,402]; the first digits of the line also on tile r2c1 of clip [30,60,375,420]; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.proportion2.omitted_lunar_days_in_age
+  role: input
+  value: 25082252
+  form: integer
+  unit: lunar_days
+  script: latin
+  edition_page: 175
+  pdf_page: 36
+  locus: proportion line 2, second term; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [100, 385, 330, 402]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [100,385,330,402]; the first digits of the line also on tile r2c1 of clip [30,60,375,420]; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.proportion2.lunar_days
+  role: input
+  value: 725760126967
+  form: integer
+  unit: lunar_days
+  script: latin
+  edition_page: 175
+  pdf_page: 36
+  locus: proportion line 2, third term; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [100, 385, 330, 402]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [100,385,330,402]; the first digits of the line also on tile r2c1 of clip [30,60,375,420]; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.proportion2.omitted_lunar_days
+  role: output
+  value: 11356018395
+  form: integer
+  unit: lunar_days
+  script: latin
+  edition_page: 175
+  pdf_page: 36
+  locus: proportion line 2, fourth term, printed with a following "+"; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [100, 385, 330, 402]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [100,385,330,402]; the first digits of the line also on tile r2c1 of clip [30,60,375,420]; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: printed "11,356,018,395 +"
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.whole_lunar_days_as_above
+  role: input
+  value: 725760126967
+  form: integer
+  unit: lunar_days
+  script: latin
+  edition_page: 175
+  pdf_page: 36
+  locus: computation line "Whole number of lunar days as above,"; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 400, 375, 470]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,400,375,470] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 406, 385, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.deduct_omitted_lunar_days
+  role: input
+  value: 11356018395
+  form: integer
+  unit: lunar_days
+  script: latin
+  edition_page: 175
+  pdf_page: 36
+  locus: computation line "deduct omitted lunar days,"; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 400, 375, 470]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,400,375,470] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 406, 385, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.ahargana_to_target_date
+  role: output
+  value: 714404108572
+  form: integer
+  unit: civil_days
+  script: latin
+  edition_page: 175
+  pdf_page: 36
+  locus: computation line "Total number of civil days from end of creation to beginning of …,"; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 400, 375, 470]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,400,375,470] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_ahargana_1860.yaml (sha256 733e51a4)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 406, 385, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

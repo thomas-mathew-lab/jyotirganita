@@ -1,0 +1,438 @@
+id: authority/modern/iae_2022_true_ayanamsa
+methods: [modern_de]
+class: text_computed
+source: indian_astronomical_ephemeris
+file: indian_astronomical_ephemeris-iae-2022.pdf
+edition_page: 421
+pdf_page: 428
+locus: 'AYANAMSA, 2022: the table TRUE AYANAMSA, four blocks of dates and values (Jan. 2022 to Apr. 2023 every three days), its title and heading'
+rounding: the seconds to one decimal (the table's print quantum, 0.1″)
+precision: null
+datum_keys: [modern.ayanamsa.iae_lahiri.mean.c0.degrees, modern.ayanamsa.iae_lahiri.mean.c0.arcminutes, modern.ayanamsa.iae_lahiri.mean.c0.arcseconds, modern.ayanamsa.iae_lahiri.mean.c1, modern.ayanamsa.iae_lahiri.mean.c2, modern.ayanamsa.iae_lahiri.mean.c3, modern.ayanamsa.iae_lahiri.mean.c4, modern.ayanamsa.iae_lahiri.mean.c5, modern.ayanamsa.iae_lahiri.time_argument, modern.ayanamsa.iae_lahiri.true_definition]
+notes: 'The IAE''s own tabulation of its stated definition (true = mean + nutation in longitude, indian_astronomical_ephemeris PDF 428 foot; the mean polynomial, PDF 387): the method''s own source, compared within half the print quantum. Filed under tests/authority/ so that the loader, the reading list and the ledger read it; its comparison test is tests/authority/test_modern_iae_table.py, one printed block per test. Three rows exceed half the print quantum by at most 0.002″ (2022-01-16 in output.block1, 2022-02-24 in output.block1, 2023-04-05 in output.block4): attributed, by inference and not by the source, to the polynomial''s constant term, which the computation takes as printed to 0.01″ while the IAE tabulates from its own; the test''s tolerance (0.05″ + 0.005″) carries that attribution.'
+values:
+- name: input.title
+  role: input
+  value: AYANAMSA, 2022
+  form: text
+  unit: statement
+  script: latin
+  locus: the page title above the table, whole. Latin text keyed as printed (spelling, case; italics not marked); spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; a formula in plain characters (superscripts as ^n, subscripts as _x, Greek letters as Unicode); the value ends before the closing full stop.
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [100, 140, 505, 740]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tiles 2x2 --overlap 14 of this clip (r1c1 [100,140,309.5,447], r1c2 [295.5,140,505,447], r2c1 [100,433,309.5,740], r2c2 [295.5,433,505,740]); born-digital page rendered at 400 dpi
+  status: double_read
+  notes: bold capitals
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [100, 140, 505, 740]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.heading
+  role: input
+  value: TRUE AYANAMSA FOR 5h 29^m
+  form: text
+  unit: statement
+  script: latin
+  locus: the table's heading line under the title, from 'TRUE AYANAMSA' to its end. Latin text keyed as printed (spelling, case; italics not marked); spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; a formula in plain characters (superscripts as ^n, subscripts as _x, Greek letters as Unicode); the value ends before the closing full stop.
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [100, 140, 505, 740]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tiles 2x2 --overlap 14 of this clip (r1c1 [100,140,309.5,447], r1c2 [295.5,140,505,447], r2c1 [100,433,309.5,740], r2c2 [295.5,433,505,740]); born-digital page rendered at 400 dpi
+  status: double_read
+  notes: the m printed as a superscript, the h on the line
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [100, 140, 505, 740]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.block1_year
+  role: input
+  value: '2022'
+  form: text
+  unit: statement
+  script: latin
+  locus: 'the column head ''Date'' of block 1 (of four, left to right): the year printed under ''Date''. Latin text keyed as printed (spelling, case; italics not marked); spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; a formula in plain characters (superscripts as ^n, subscripts as _x, Greek letters as Unicode); the value ends before the closing full stop.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [100, 140, 505, 740]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tiles 2x2 --overlap 14 of this clip (r1c1 [100,140,309.5,447], r1c2 [295.5,140,505,447], r2c1 [100,433,309.5,740], r2c2 [295.5,433,505,740]); born-digital page rendered at 400 dpi
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [100, 140, 505, 740]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.block1
+  role: output
+  value:
+  - [Jan., 1, 24, 9, '37.6']
+  - [null, 4, 24, 9, '38.6']
+  - [null, 7, 24, 9, '39.2']
+  - [null, 10, 24, 9, '39.4']
+  - [null, 13, 24, 9, '39.8']
+  - [null, 16, 24, 9, '40.6']
+  - [null, 19, 24, 9, '41.3']
+  - [null, 22, 24, 9, '41.6']
+  - [null, 25, 24, 9, '41.8']
+  - [null, 28, 24, 9, '42.3']
+  - [null, 31, 24, 9, '43.3']
+  - [Feb., 3, 24, 9, '43.8']
+  - [null, 6, 24, 9, '43.9']
+  - [null, 9, 24, 9, '44.2']
+  - [null, 12, 24, 9, '44.8']
+  - [null, 15, 24, 9, '45.4']
+  - [null, 18, 24, 9, '45.7']
+  - [null, 21, 24, 9, '45.7']
+  - [null, 24, 24, 9, '46.1']
+  - [null, 27, 24, 9, '46.8']
+  - [Mar., 2, 24, 9, '47.3']
+  - [null, 5, 24, 9, '47.3']
+  - [null, 8, 24, 9, '47.4']
+  - [null, 11, 24, 9, '47.9']
+  - [null, 14, 24, 9, '48.4']
+  - [null, 17, 24, 9, '48.7']
+  - [null, 20, 24, 9, '48.7']
+  - [null, 23, 24, 9, '48.9']
+  - [null, 26, 24, 9, '49.6']
+  - [null, 29, 24, 9, '50.1']
+  - [Apr., 1, 24, 9, '50.1']
+  - [null, 4, 24, 9, '50.2']
+  - [null, 7, 24, 9, '50.7']
+  - [null, 10, 24, 9, '51.2']
+  - [null, 13, 24, 9, '51.6']
+  - [null, 16, 24, 9, '51.6']
+  - [null, 19, 24, 9, '51.9']
+  - [null, 22, 24, 9, '52.6']
+  - [null, 25, 24, 9, '53.2']
+  - [null, 28, 24, 9, '53.4']
+  - [May, 1, 24, 9, '53.5']
+  form: table
+  columns: [month, day, degrees, arcminutes, arcseconds]
+  unit: degrees_arcminutes_arcseconds
+  script: latin
+  locus: 'block 1 of four (left to right), every row from its first to its last date, the columns Date (month, day) and Ayanamsa (° ′ ″). Tabulated values: one row per printed date in printed order down the block; the month as printed where it is printed and null where the cell is blank; the day, degrees and minutes as integers; the seconds as the printed decimal string (a leading zero kept); the column marks (° ′ ″) not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [100, 140, 505, 740]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tiles 2x2 --overlap 14 of this clip (r1c1 [100,140,309.5,447], r1c2 [295.5,140,505,447], r2c1 [100,433,309.5,740], r2c2 [295.5,433,505,740]); born-digital page rendered at 400 dpi
+  status: double_read
+  notes: the first row of blocks 2–4 repeats the last row of the block before it, as printed
+  second_read:
+  - by: claude-fable-5-1/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [100, 140, 302.5, 740]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.block2_year
+  role: input
+  value: '2022'
+  form: text
+  unit: statement
+  script: latin
+  locus: 'the column head ''Date'' of block 2 (of four, left to right): the year printed under ''Date''. Latin text keyed as printed (spelling, case; italics not marked); spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; a formula in plain characters (superscripts as ^n, subscripts as _x, Greek letters as Unicode); the value ends before the closing full stop.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [100, 140, 505, 740]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tiles 2x2 --overlap 14 of this clip (r1c1 [100,140,309.5,447], r1c2 [295.5,140,505,447], r2c1 [100,433,309.5,740], r2c2 [295.5,433,505,740]); born-digital page rendered at 400 dpi
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [100, 140, 505, 740]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.block2
+  role: output
+  value:
+  - [May, 1, 24, 9, '53.5']
+  - [null, 4, 24, 9, '54.0']
+  - [null, 7, 24, 9, '54.7']
+  - [null, 10, 24, 9, '55.2']
+  - [null, 13, 24, 9, '55.3']
+  - [null, 16, 24, 9, '55.7']
+  - [null, 19, 24, 9, '56.5']
+  - [null, 22, 24, 9, '57.3']
+  - [null, 25, 24, 9, '57.6']
+  - [null, 28, 24, 9, '57.8']
+  - [null, 31, 24, 9, '58.4']
+  - [June, 3, 24, 9, '59.2']
+  - [null, 6, 24, 9, '59.8']
+  - [null, 9, 24, 10, '00.1']
+  - [null, 12, 24, 10, '00.4']
+  - [null, 15, 24, 10, '01.3']
+  - [null, 18, 24, 10, '02.2']
+  - [null, 21, 24, 10, '02.6']
+  - [null, 24, 24, 10, '02.8']
+  - [null, 27, 24, 10, '03.4']
+  - [null, 30, 24, 10, '04.2']
+  - [July, 3, 24, 10, '04.8']
+  - [null, 6, 24, 10, '05.1']
+  - [null, 9, 24, 10, '05.4']
+  - [null, 12, 24, 10, '06.2']
+  - [null, 15, 24, 10, '07.2']
+  - [null, 18, 24, 10, '07.6']
+  - [null, 21, 24, 10, '07.8']
+  - [null, 24, 24, 10, '08.3']
+  - [null, 27, 24, 10, '09.0']
+  - [null, 30, 24, 10, '09.5']
+  - [Aug., 2, 24, 10, '09.8']
+  - [null, 5, 24, 10, '09.9']
+  - [null, 8, 24, 10, '10.5']
+  - [null, 11, 24, 10, '11.4']
+  - [null, 14, 24, 10, '11.8']
+  - [null, 17, 24, 10, '11.9']
+  - [null, 20, 24, 10, '12.2']
+  - [null, 23, 24, 10, '12.8']
+  - [null, 26, 24, 10, '13.3']
+  - [Aug., 29, 24, 10, '13.5']
+  form: table
+  columns: [month, day, degrees, arcminutes, arcseconds]
+  unit: degrees_arcminutes_arcseconds
+  script: latin
+  locus: 'block 2 of four (left to right), every row from its first to its last date, the columns Date (month, day) and Ayanamsa (° ′ ″). Tabulated values: one row per printed date in printed order down the block; the month as printed where it is printed and null where the cell is blank; the day, degrees and minutes as integers; the seconds as the printed decimal string (a leading zero kept); the column marks (° ′ ″) not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [100, 140, 505, 740]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tiles 2x2 --overlap 14 of this clip (r1c1 [100,140,309.5,447], r1c2 [295.5,140,505,447], r2c1 [100,433,309.5,740], r2c2 [295.5,433,505,740]); born-digital page rendered at 400 dpi
+  status: double_read
+  notes: the first row of blocks 2–4 repeats the last row of the block before it, as printed
+  second_read:
+  - by: claude-fable-5-1/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [100, 140, 302.5, 740]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.block3_year
+  role: input
+  value: '2022'
+  form: text
+  unit: statement
+  script: latin
+  locus: 'the column head ''Date'' of block 3 (of four, left to right): the year printed under ''Date''. Latin text keyed as printed (spelling, case; italics not marked); spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; a formula in plain characters (superscripts as ^n, subscripts as _x, Greek letters as Unicode); the value ends before the closing full stop.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [100, 140, 505, 740]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tiles 2x2 --overlap 14 of this clip (r1c1 [100,140,309.5,447], r1c2 [295.5,140,505,447], r2c1 [100,433,309.5,740], r2c2 [295.5,433,505,740]); born-digital page rendered at 400 dpi
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [100, 140, 505, 740]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.block3
+  role: output
+  value:
+  - [Aug., 29, 24, 10, '13.5']
+  - [Sept., 1, 24, 10, '13.5']
+  - [null, 4, 24, 10, '14.0']
+  - [null, 7, 24, 10, '14.7']
+  - [null, 10, 24, 10, '15.1']
+  - [null, 13, 24, 10, '15.0']
+  - [null, 16, 24, 10, '15.3']
+  - [null, 19, 24, 10, '15.8']
+  - [null, 22, 24, 10, '16.3']
+  - [null, 25, 24, 10, '16.4']
+  - [null, 28, 24, 10, '16.4']
+  - [Oct., 1, 24, 10, '16.8']
+  - [null, 4, 24, 10, '17.5']
+  - [null, 7, 24, 10, '17.9']
+  - [null, 10, 24, 10, '17.9']
+  - [null, 13, 24, 10, '18.1']
+  - [null, 16, 24, 10, '18.7']
+  - [null, 19, 24, 10, '19.2']
+  - [null, 22, 24, 10, '19.5']
+  - [null, 25, 24, 10, '19.5']
+  - [null, 28, 24, 10, '19.9']
+  - [null, 31, 24, 10, '20.8']
+  - [Nov., 3, 24, 10, '21.3']
+  - [null, 6, 24, 10, '21.4']
+  - [null, 9, 24, 10, '21.7']
+  - [null, 12, 24, 10, '22.4']
+  - [null, 15, 24, 10, '23.0']
+  - [null, 18, 24, 10, '23.4']
+  - [null, 21, 24, 10, '23.6']
+  - [null, 24, 24, 10, '24.1']
+  - [null, 27, 24, 10, '25.1']
+  - [null, 30, 24, 10, '25.8']
+  - [Dec., 3, 24, 10, '26.0']
+  - [null, 6, 24, 10, '26.4']
+  - [null, 9, 24, 10, '27.2']
+  - [null, 12, 24, 10, '28.0']
+  - [null, 15, 24, 10, '28.5']
+  - [null, 18, 24, 10, '28.7']
+  - [null, 21, 24, 10, '29.2']
+  - [null, 24, 24, 10, '30.2']
+  - [Dec., 27, 24, 10, '31.1']
+  form: table
+  columns: [month, day, degrees, arcminutes, arcseconds]
+  unit: degrees_arcminutes_arcseconds
+  script: latin
+  locus: 'block 3 of four (left to right), every row from its first to its last date, the columns Date (month, day) and Ayanamsa (° ′ ″). Tabulated values: one row per printed date in printed order down the block; the month as printed where it is printed and null where the cell is blank; the day, degrees and minutes as integers; the seconds as the printed decimal string (a leading zero kept); the column marks (° ′ ″) not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [100, 140, 505, 740]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tiles 2x2 --overlap 14 of this clip (r1c1 [100,140,309.5,447], r1c2 [295.5,140,505,447], r2c1 [100,433,309.5,740], r2c2 [295.5,433,505,740]); born-digital page rendered at 400 dpi
+  status: double_read
+  notes: the first row of blocks 2–4 repeats the last row of the block before it, as printed
+  second_read:
+  - by: claude-fable-5-1/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [295, 140, 400, 740]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.block4_year
+  role: input
+  value: 2022−23
+  form: text
+  unit: statement
+  script: latin
+  locus: 'the column head ''Date'' of block 4 (of four, left to right): the year printed under ''Date''. Latin text keyed as printed (spelling, case; italics not marked); spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; a formula in plain characters (superscripts as ^n, subscripts as _x, Greek letters as Unicode); the value ends before the closing full stop.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [100, 140, 505, 740]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tiles 2x2 --overlap 14 of this clip (r1c1 [100,140,309.5,447], r1c2 [295.5,140,505,447], r2c1 [100,433,309.5,740], r2c2 [295.5,433,505,740]); born-digital page rendered at 400 dpi
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [100, 140, 505, 740]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-fable-5-1/2026-10-09-r1
+      on: 2026-10-09
+      dpi: 400
+      clip: [100, 140, 505, 740]
+      delivered_ppi: 400
+      max_edge: 2000
+      note: ''
+    matches: second_read
+- name: output.block4
+  role: output
+  value:
+  - [Dec., 27, 24, 10, '31.1']
+  - [null, 30, 24, 10, '31.4']
+  - [Jan., 2, 24, 10, '31.8']
+  - [null, 5, 24, 10, '32.5']
+  - [null, 8, 24, 10, '33.3']
+  - [null, 11, 24, 10, '33.8']
+  - [null, 14, 24, 10, '34.1']
+  - [null, 17, 24, 10, '34.4']
+  - [null, 20, 24, 10, '35.3']
+  - [null, 23, 24, 10, '36.2']
+  - [null, 26, 24, 10, '36.4']
+  - [null, 29, 24, 10, '36.7']
+  - [Feb., 1, 24, 10, '37.3']
+  - [null, 4, 24, 10, '38.0']
+  - [null, 7, 24, 10, '38.4']
+  - [null, 10, 24, 10, '38.5']
+  - [null, 13, 24, 10, '38.7']
+  - [null, 16, 24, 10, '39.4']
+  - [null, 19, 24, 10, '40.2']
+  - [null, 22, 24, 10, '40.4']
+  - [null, 25, 24, 10, '40.5']
+  - [null, 28, 24, 10, '40.9']
+  - [Mar., 3, 24, 10, '41.5']
+  - [null, 6, 24, 10, '41.9']
+  - [null, 9, 24, 10, '41.9']
+  - [null, 12, 24, 10, '42.0']
+  - [null, 15, 24, 10, '42.5']
+  - [null, 18, 24, 10, '43.2']
+  - [null, 21, 24, 10, '43.4']
+  - [null, 24, 24, 10, '43.4']
+  - [null, 27, 24, 10, '43.8']
+  - [null, 30, 24, 10, '44.4']
+  - [Apr., 2, 24, 10, '44.8']
+  - [null, 5, 24, 10, '44.9']
+  - [null, 8, 24, 10, '44.9']
+  - [null, 11, 24, 10, '45.4']
+  - [null, 14, 24, 10, '46.2']
+  - [null, 17, 24, 10, '46.5']
+  - [null, 20, 24, 10, '46.5']
+  - [null, 23, 24, 10, '46.9']
+  - [Apr., 26, 24, 10, '47.6']
+  form: table
+  columns: [month, day, degrees, arcminutes, arcseconds]
+  unit: degrees_arcminutes_arcseconds
+  script: latin
+  locus: 'block 4 of four (left to right), every row from its first to its last date, the columns Date (month, day) and Ayanamsa (° ′ ″). Tabulated values: one row per printed date in printed order down the block; the month as printed where it is printed and null where the cell is blank; the day, degrees and minutes as integers; the seconds as the printed decimal string (a leading zero kept); the column marks (° ′ ″) not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [100, 140, 505, 740]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tiles 2x2 --overlap 14 of this clip (r1c1 [100,140,309.5,447], r1c2 [295.5,140,505,447], r2c1 [100,433,309.5,740], r2c2 [295.5,433,505,740]); born-digital page rendered at 400 dpi
+  status: double_read
+  notes: the first row of blocks 2–4 repeats the last row of the block before it, as printed
+  second_read:
+  - by: claude-fable-5-1/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [302.5, 140, 505, 740]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''

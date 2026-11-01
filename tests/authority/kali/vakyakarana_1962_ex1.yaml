@@ -1,0 +1,350 @@
+id: authority/kali/vakyakarana_1962_ex1
+methods: [eras]
+class: editor_computed
+source: vakyakarana_1962
+edition_page: 251
+pdf_page: 288
+locus: Example 1, the working
+rounding: the fraction of a day to the vināḍikā, as printed
+precision: 'the editors'' arithmetic in the text''s units: whole Kali days exact; the fraction of a day in nāḍikās and vināḍikās as printed'
+datum_keys: [eras.kali.epoch.date.pillai_1911_chronology, eras.saka.kali_offset.vakyakarana_1962, eras.kali.year_start.true.vakyakarana_1962]
+notes: 'The editors'' worked example of verses 2–3 (Kali days to the end of the true solar year). The Kali days here count the epoch''s day as the first day (eras.kali.year_start.true.vakyakarana_1962: ''the first (Kali) day being a Friday'').'
+values:
+- name: input.saka_year
+  role: input
+  value: 1869
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 250
+  pdf_page: 287
+  locus: 'Example 1, the question: the Śaka year'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 600
+    clip: [65, 355, 390, 400]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles 2x1 --overlap 8 of this clip
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [65, 355, 390, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.kali_year
+  role: output
+  value: 5048
+  form: integer
+  unit: years
+  script: latin
+  locus: 'Example 1: the Kali years gone (the Śaka year plus the constant): the result'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 600
+    clip: [70, 45, 400, 335]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles 2x2 --overlap 8 of this clip (r1c1 [70,45,239,194], r1c2 [231,45,400,194], r2c1 [70,186,239,335], r2c2 [231,186,400,335])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [70, 45, 400, 335]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.days_365
+  role: output
+  value: 1842520
+  form: integer
+  unit: days
+  script: latin
+  locus: 'Example 1: the Kali years times 365: the product (a number printed with comma grouping is keyed as the integer)'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 600
+    clip: [70, 45, 400, 335]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles 2x2 --overlap 8 of this clip (r1c1 [70,45,239,194], r1c2 [231,45,400,194], r2c1 [70,186,239,335], r2c2 [231,186,400,335])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [70, 45, 400, 335]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.quarter
+  role: output
+  value: 1262
+  form: integer
+  unit: days
+  script: latin
+  locus: 'Example 1: a fourth of the Kali years: the quotient'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 600
+    clip: [70, 45, 400, 335]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles 2x2 --overlap 8 of this clip (r1c1 [70,45,239,194], r1c2 [231,45,400,194], r2c1 [70,186,239,335], r2c2 [231,186,400,335])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [70, 45, 400, 335]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sum
+  role: output
+  value: 1843782
+  form: integer
+  unit: days
+  script: latin
+  locus: 'Example 1: the product plus the fourth: the sum (keyed as the integer)'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 600
+    clip: [70, 45, 400, 335]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles 2x2 --overlap 8 of this clip (r1c1 [70,45,239,194], r1c2 [231,45,400,194], r2c1 [70,186,239,335], r2c2 [231,186,400,335])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [70, 45, 400, 335]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.fraction
+  role: output
+  value: [41, 40, 19]
+  form: sexagesimal
+  unit: days, nadika, vinadika
+  script: latin
+  locus: 'Example 1: the years times 5, less the constant, divided by the divisor: the days, nāḍikās and vināḍikās, keyed as [days, nāḍikā, vināḍikā]'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 600
+    clip: [70, 45, 400, 335]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles 2x2 --overlap 8 of this clip (r1c1 [70,45,239,194], r1c2 [231,45,400,194], r2c1 [70,186,239,335], r2c2 [231,186,400,335])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [70, 45, 400, 335]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.true_year_start
+  role: output
+  value: [1843823, 40, 19]
+  form: sexagesimal
+  unit: days, nadika, vinadika
+  script: latin
+  locus: 'Example 1: the Kali days gone to the beginning of the true year, keyed as [days, nāḍikā, vināḍikā] with the days as an integer'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 600
+    clip: [70, 45, 400, 335]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles 2x2 --overlap 8 of this clip (r1c1 [70,45,239,194], r1c2 [231,45,400,194], r2c1 [70,186,239,335], r2c2 [231,186,400,335])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [70, 45, 400, 335]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.kali_days_end_of_day
+  role: output
+  value: 1843824
+  form: integer
+  unit: days
+  script: latin
+  locus: 'Example 1: the Kali days to the end of the day (keyed as the integer)'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 600
+    clip: [70, 45, 400, 335]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles 2x2 --overlap 8 of this clip (r1c1 [70,45,239,194], r1c2 [231,45,400,194], r2c1 [70,186,239,335], r2c2 [231,186,400,335])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [70, 45, 400, 335]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.remainder
+  role: output
+  value: 3
+  form: integer
+  unit: weekday_number
+  script: latin
+  locus: 'Example 1: those Kali days divided by 7: the remainder'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 600
+    clip: [70, 45, 400, 335]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles 2x2 --overlap 8 of this clip (r1c1 [70,45,239,194], r1c2 [231,45,400,194], r2c1 [70,186,239,335], r2c2 [231,186,400,335])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [70, 45, 400, 335]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.weekday_gone
+  role: output
+  value: Sunday
+  form: text
+  unit: weekday
+  script: latin
+  locus: 'Example 1: counting from Friday, the day that ''has gone'': the week-day Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 600
+    clip: [70, 45, 400, 335]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles 2x2 --overlap 8 of this clip (r1c1 [70,45,239,194], r1c2 [231,45,400,194], r2c1 [70,186,239,335], r2c2 [231,186,400,335])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [70, 45, 400, 335]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.new_year_day
+  role: output
+  value: Monday
+  form: text
+  unit: weekday
+  script: latin
+  locus: 'Example 1: ''New Year''s day is'': the week-day Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 600
+    clip: [70, 45, 400, 335]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles 2x2 --overlap 8 of this clip (r1c1 [70,45,239,194], r1c2 [231,45,400,194], r2c1 [70,186,239,335], r2c2 [231,186,400,335])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [70, 45, 400, 335]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.days_to_end_simha
+  role: output
+  value: 156
+  form: integer
+  unit: days
+  script: latin
+  locus: 'Example 1: the days gone from the beginning of the year to the end of Siṃha'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 600
+    clip: [70, 45, 400, 335]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles 2x2 --overlap 8 of this clip (r1c1 [70,45,239,194], r1c2 [231,45,400,194], r2c1 [70,186,239,335], r2c2 [231,186,400,335])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [70, 45, 400, 335]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.kanya_days
+  role: input
+  value: 24
+  form: integer
+  unit: days
+  script: latin
+  locus: 'Example 1: the days in Kanyā added to the days to the end of Siṃha'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 600
+    clip: [70, 45, 400, 335]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles 2x2 --overlap 8 of this clip (r1c1 [70,45,239,194], r1c2 [231,45,400,194], r2c1 [70,186,239,335], r2c2 [231,186,400,335])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [70, 45, 400, 335]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.kali_days_kanya
+  role: output
+  value: 1844004
+  form: integer
+  unit: days
+  script: latin
+  locus: 'Example 1: the Kali days to the end of the asked day of Kanyā (keyed as the integer)'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 600
+    clip: [70, 45, 400, 335]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles 2x2 --overlap 8 of this clip (r1c1 [70,45,239,194], r1c2 [231,45,400,194], r2c1 [70,186,239,335], r2c2 [231,186,400,335])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [70, 45, 400, 335]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

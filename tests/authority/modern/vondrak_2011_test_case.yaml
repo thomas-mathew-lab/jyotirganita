@@ -1,0 +1,198 @@
+id: authority/modern/vondrak_2011_test_case
+methods: [modern_de]
+class: text_computed
+source: vondrak_2011
+file: vondrak_2011-vondrak-2011-long-term-precession.pdf
+edition_page: A22, 18 of 19
+pdf_page: 18
+locus: 'Appendix A.5, Test case: the test date, its Julian date and epoch, the poles p_ecl and p_equ (PDF 18) and the matrices R_p and R_p×b (PDF 19)'
+rounding: twenty decimals, computed in quadruple precision; the paper states that double precision has only 15–16 decimal places and that this must be taken into account when comparing results
+precision: null
+datum_keys: [modern.precession.vondrak2011.ecliptic_polynomial, modern.precession.vondrak2011.ecliptic_periodic, modern.precession.vondrak2011.equator_polynomial, modern.precession.vondrak2011.equator_periodic, modern.precession.vondrak2011.eps0, modern.precession.vondrak2011.frame_bias, modern.precession.vondrak2011.time_argument, modern.precession.vondrak2011.corrigendum]
+notes: The authors' own evaluation of their subroutines (text_computed, compared to double precision). The two matrices are on PDF 19 and carry that page.
+values:
+- name: input.date
+  role: input
+  value: −1374 (i.e. 1375 BCE) May 3 (Gregorian calendar) at 13:52:19.2 TT
+  form: text
+  unit: statement
+  script: latin
+  locus: 'A.5 Test case, the first paragraph: from the date after ''following test date:'' to ''TT'', before the full stop. Latin text keyed as printed (spelling, case; italics not marked); spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; a formula in plain characters (superscripts as ^n, subscripts as _x, Greek letters as Unicode); the value ends before the closing full stop.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [35, 625, 562, 790]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip and the seam tile [200, 705, 420, 790]; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  notes: the minus before the year printed as an en dash, keyed U+2212
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r3
+    on: 2026-10-09
+    dpi: 400
+    clip: [35, 625, 562, 790]
+    delivered_ppi: 400
+    note: ''
+- name: input.julian_date
+  role: input
+  value: '1219339.078000'
+  form: fraction
+  unit: days
+  script: latin
+  locus: 'A.5 Test case, the first paragraph: the Julian date that ''The equivalent Julian date and Julian epoch are'' names first, before ''(TT)''. a decimal coefficient keyed as printed digit for digit, trailing zeros kept, the printed grouping of digits dropped, its sign as `negative`.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [35, 625, 562, 790]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip and the seam tile [200, 705, 420, 790]; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  notes: the time scale printed after it, (TT)
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r3
+    on: 2026-10-09
+    dpi: 400
+    clip: [35, 625, 562, 790]
+    delivered_ppi: 400
+    note: ''
+- name: input.julian_epoch
+  role: input
+  value: '1373.5959534565'
+  negative: true
+  form: fraction
+  unit: julian_years
+  script: latin
+  locus: 'A.5 Test case, the first paragraph: the Julian epoch, the second number after ''The equivalent Julian date and Julian epoch are'', before ''(TT) respectively''. a decimal coefficient keyed as printed digit for digit, trailing zeros kept, the printed grouping of digits dropped, its sign as `negative`.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [35, 625, 562, 790]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip and the seam tile [200, 705, 420, 790]; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r3
+    on: 2026-10-09
+    dpi: 400
+    clip: [35, 625, 562, 790]
+    delivered_ppi: 400
+    note: ''
+- name: output.p_ecl
+  role: output
+  value:
+  - ['0.00041724785764001342', −0.40495491104576162693, '0.91433656053126552350']
+  form: table
+  columns: [x, y, z]
+  unit: unit_vector
+  script: latin
+  locus: 'A.5 Test case, eq. (A.1): the three components of p_ecl, one row. each element a decimal string, digit for digit as printed, trailing zeros kept; its sign a minus as U+2212 and no plus sign, a + or − printed between two elements read as the sign of the element after it; the parentheses, the equation number and the bold symbol not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [35, 625, 562, 790]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip and the seam tile [200, 705, 420, 790]; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  notes: with respect to the J2000.0 mean equator and equinox, as the sentence before it states
+  second_read:
+  - by: claude-fable-5-1/2026-10-09-r3
+    on: 2026-10-09
+    dpi: 270
+    clip: [35, 625, 562, 790]
+    delivered_ppi: 270
+    note: ''
+- name: output.p_equ
+  role: output
+  value:
+  - [−0.29437643797369031532, −0.11719098023370257855, '0.94847708824082091796']
+  form: table
+  columns: [x, y, z]
+  unit: unit_vector
+  script: latin
+  locus: 'A.5 Test case, eq. (A.2): the three components of p_equ, one row. each element a decimal string, digit for digit as printed, trailing zeros kept; its sign a minus as U+2212 and no plus sign, a + or − printed between two elements read as the sign of the element after it; the parentheses, the equation number and the bold symbol not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [35, 625, 562, 790]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip and the seam tile [200, 705, 420, 790]; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  notes: with respect to the J2000.0 mean equator and equinox
+  second_read:
+  - by: claude-fable-5-1/2026-10-09-r3
+    on: 2026-10-09
+    dpi: 270
+    clip: [35, 625, 562, 790]
+    delivered_ppi: 270
+    note: ''
+- name: output.r_p
+  role: output
+  value:
+  - ['0.68473390570729557360', '0.66647794042757610444', '0.29486714516583357655']
+  - [−0.66669482609418419936, '0.73625636097440967969', −0.11595076448202158534]
+  - [−0.29437643797369031532, −0.11719098023370257855, '0.94847708824082091796']
+  form: table
+  columns: [c1, c2, c3]
+  unit: matrix
+  script: latin
+  locus: 'A.22 page 19, eq. (A.3): the matrix R_p, its three rows in printed order. each element a decimal string, digit for digit as printed, trailing zeros kept; its sign a minus as U+2212 and no plus sign, a + or − printed between two elements read as the sign of the element after it; the parentheses, the equation number and the bold symbol not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [35, 70, 562, 255]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip and the seam tile [200, 100, 420, 215]; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  notes: mean equator and equinox of J2000.0 to mean equator and equinox of date, as the sentence before it states
+  edition_page: A22, 19 of 19
+  pdf_page: 19
+  second_read:
+  - by: claude-fable-5-1/2026-10-09-r3
+    on: 2026-10-09
+    dpi: 270
+    clip: [35, 70, 562, 255]
+    delivered_ppi: 270
+    note: ''
+- name: output.r_pb
+  role: output
+  value:
+  - ['0.68473392912753224372', '0.66647788221176470103', '0.29486722236305384992']
+  - [−0.66669476463873305255, '0.73625641199831485100', −0.11595079385100924091]
+  - [−0.29437652267952261218, −0.11719099075396051880, '0.94847706065103424635']
+  form: table
+  columns: [c1, c2, c3]
+  unit: matrix
+  script: latin
+  locus: 'A.22 page 19, eq. (A.4): the matrix R_p×b, its three rows in printed order. each element a decimal string, digit for digit as printed, trailing zeros kept; its sign a minus as U+2212 and no plus sign, a + or − printed between two elements read as the sign of the element after it; the parentheses, the equation number and the bold symbol not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [35, 70, 562, 255]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip and the seam tile [200, 100, 420, 215]; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  notes: the sentence before it names 'ltp_PECL', read as ltp_PBMAT (the bias and precession matrix it describes; the appendix's A.4 subroutine); GCRS to a precession-only variant of the CIRS of date
+  edition_page: A22, 19 of 19
+  pdf_page: 19
+  second_read:
+  - by: claude-fable-5-1/2026-10-09-r3
+    on: 2026-10-09
+    dpi: 270
+    clip: [35, 70, 562, 255]
+    delivered_ppi: 270
+    note: ''

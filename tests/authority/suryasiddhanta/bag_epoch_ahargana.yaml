@@ -1,0 +1,1396 @@
+id: authority/suryasiddhanta/bag_epoch_ahargana
+methods: [suryasiddhanta, suryasiddhanta_paramesvara_recension]
+class: editor_computed
+source: bag_2001
+edition_page: 57
+pdf_page: 3
+locus: 'Bag, "Ahargaṇa and weekdays as per modern Sūryasiddhānta", IJHS 36: the mahāyuga elements (journal p. 58, from "Ms = no. of saura months" to the omitted days) and footnote 9 (p. 58); the epochs t0-t3 (p. 60, from "Let t… = epoch of Sūryasiddhānta" to "t… = ... …."); computations (i)-(iii) (pp. 60-61, from "(i) To derive t… from t…" to "leaves the remainder r… = ..."); (iv) Table of remainders for weekdays (p. 62) (pdf_page as keyed: 3-4, 6-8; edition_page as keyed: 57-58, 60-62)'
+rounding: intercalary months and omitted days taken as integers ("Only integer values for these ratios were used in actual practice", p. 60); the printed quotients look truncated but the rule is not stated beyond that sentence
+precision: integers (days, months)
+datum_keys: [texts.suryasiddhanta.procedures.ahargana.rule]
+notes: 'Ahargaṇa by the Sūryasiddhānta rule (I.46-50 as Bag cites it): years Y → saura months m_s = 12Y, intercalary m_I = m_s M_I/M_S, lunar days d_L = 30(m_s + m_I), omitted d_o = d_L D_O/D_L, ahargaṇa a = d_L − d_o, weekday by a mod 7, for (i) the text''s epoch to the Kali epoch, (ii) Kali to Śaka 427, (iii) Kali to Śaka 587. The D_O used in the computations differs from the D_O derived on p. 58; the D_L of p. 58 is printed with a digit missing in one line; the dividend of the last remainder line is printed with a digit missing — each keyed as printed. Constants restated in every line (the mahāyuga M_I, M_S, D_O, D_L, the factors 12 and 30 after (i)) are keyed once. Not keyed: the Kalpa figure on p. 57 (not used), the Sanskrit verse (I.46-50) and its translation (which restates the Kṛtayuga figure keyed in (i)), the concluding remarks. Fixture pages: the first page recorded as the fixture''s page, the span in the locus.'
+values:
+- name: input.mahayuga_years
+  role: input
+  value: 4320000
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 57
+  pdf_page: 3
+  locus: p. 57, paragraph "The elements of the modern Sūryasiddhānta (i. …-…) in a period of ... years"; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 298, 438, 596]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 298, 438, 596]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.elements.saura_months_factor
+  role: input
+  value: 12
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 58
+  pdf_page: 4
+  locus: p. 58, line M_S, the … factor; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 40, 400, 220]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.elements.saura_months
+  role: input
+  value: 51840000
+  form: integer
+  unit: months
+  script: latin
+  edition_page: 58
+  pdf_page: 4
+  locus: p. 58, line M_S, the result; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 40, 400, 220]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: restated in (i)-(iii)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.elements.moon_revolutions
+  role: input
+  value: 57753336
+  form: integer
+  unit: revolutions_per_mahayuga
+  script: latin
+  edition_page: 58
+  pdf_page: 4
+  locus: p. 58, M_L display, third line, first term; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 40, 400, 220]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.elements.sun_revolutions
+  role: input
+  value: 4320000
+  form: integer
+  unit: revolutions_per_mahayuga
+  script: latin
+  edition_page: 58
+  pdf_page: 4
+  locus: p. 58, M_L display, third line, subtracted term (printed with a … comma); Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 40, 400, 220]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.elements.lunar_months
+  role: input
+  value: 53433336
+  form: integer
+  unit: months
+  script: latin
+  edition_page: 58
+  pdf_page: 4
+  locus: p. 58, M_L display, fourth line; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 40, 400, 220]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.elements.intercalary_months
+  role: input
+  value: 1593336
+  form: integer
+  unit: months
+  script: latin
+  edition_page: 58
+  pdf_page: 4
+  locus: p. 58, line M_t (intercalary months), the result; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 40, 400, 220]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: restated in (i)-(iii)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.elements.days_per_month
+  role: input
+  value: 30
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 58
+  pdf_page: 4
+  locus: p. 58, line D_S, the factor; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 40, 400, 220]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.elements.saura_days
+  role: input
+  value: 1555200000
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 58
+  pdf_page: 4
+  locus: p. 58, line D_S, the result; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 40, 400, 220]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.elements.lunar_days
+  role: input
+  value: 160300080
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 58
+  pdf_page: 4
+  locus: 'p. 58, line D_L, the result: printed "…" (last group of two digits); keyed as the printed digits'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 40, 400, 220]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: the D_O line below prints this quantity with a ten-digit grouping; both keyed as printed
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.elements.lunar_days_in_omitted
+  role: input
+  value: 1603000080
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 58
+  pdf_page: 4
+  locus: p. 58, D_O display, second line, first term; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 40, 400, 220]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: restated in (i)-(iii)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.elements.civil_days
+  role: input
+  value: 1577917828
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 58
+  pdf_page: 4
+  locus: p. 58, D_O display, second line, subtracted term; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 40, 400, 220]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.elements.omitted_days
+  role: input
+  value: 25082252
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 58
+  pdf_page: 4
+  locus: p. 58, D_O display, second line, the result; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 40, 400, 220]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: differs from the D_O used in (i)-(iii)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.edition_note
+  role: input
+  value: Sūryasiddhānta, ed. with commentary of Parameśvara by Kripa Shankar Shukla, Lucknow University, 1957.
+  form: text
+  unit: none
+  script: latin
+  edition_page: 58
+  pdf_page: 4
+  locus: p. 58, footnote 9, from "Sūryasiddhānta, ed." to "1957."; Latin text (footnote numeral not keyed; italics dropped, diacritics as printed)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 298, 438, 596]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 298, 438, 596]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.t0
+  role: input
+  value: epoch of Sūryasiddhānta which started at the end of creation on Sunday at midnight on the meridian Lanka.
+  form: text
+  unit: none
+  script: latin
+  edition_page: 60
+  pdf_page: 6
+  locus: p. 60, "Let t0 = ...", from "epoch of" to "Lanka."; Latin text (italics dropped)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 280, 438, 320]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 280, 438, 320]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.t1.years_before_saka
+  role: input
+  value: 3179
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 60
+  pdf_page: 6
+  locus: p. 60, "t… = Kali era epoch which begins ... years before the Śaka era"; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 298, 438, 596]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: restated in (ii) and (iii)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 298, 438, 596]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.t1.weekday
+  role: input
+  value: Friday
+  form: text
+  unit: none
+  script: latin
+  edition_page: 60
+  pdf_page: 6
+  locus: p. 60, t1 line, the weekday after "1st Caitra,"; Latin text
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 298, 438, 596]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 298, 438, 596]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.t2.saka_year
+  role: input
+  value: 427
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 60
+  pdf_page: 6
+  locus: p. 60, "t… = Śaka era ... begins on …st Caitra"; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 298, 438, 596]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: restated in (ii)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 298, 438, 596]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.t2.weekday
+  role: input
+  value: Tuesday
+  form: text
+  unit: none
+  script: latin
+  edition_page: 60
+  pdf_page: 6
+  locus: p. 60, t2 line, the weekday; Latin text
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 298, 438, 596]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 298, 438, 596]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.t3.saka_year
+  role: input
+  value: 587
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 60
+  pdf_page: 6
+  locus: p. 60, "t… = Śaka era ... begins on …st Caitra"; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 298, 438, 596]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: restated in (iii)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 298, 438, 596]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.t3.weekday
+  role: input
+  value: Sunday
+  form: text
+  unit: none
+  script: latin
+  edition_page: 60
+  pdf_page: 6
+  locus: p. 60, t3 line, the weekday; Latin text
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 298, 438, 596]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 298, 438, 596]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.i.krtayuga_end
+  role: input
+  value: 1953720000
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 61
+  pdf_page: 7
+  locus: p. 61, (i) Y display, first term in parentheses; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: also printed in the translation of the verse on p. 58
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.i.tretayuga
+  role: input
+  value: 1296000
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 61
+  pdf_page: 7
+  locus: p. 61, (i) Y display, second term; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.i.dvaparayuga
+  role: input
+  value: 864000
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 61
+  pdf_page: 7
+  locus: p. 61, (i) Y display, third term; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.i.years
+  role: output
+  value: 1955880000
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 61
+  pdf_page: 7
+  locus: p. 61, (i) Y display, the sum; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: restated in the m_s line and on p. 62
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.i.saura_months
+  role: output
+  value: 23470560000
+  form: integer
+  unit: months
+  script: latin
+  edition_page: 61
+  pdf_page: 7
+  locus: (i) m_s line, the result; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.i.intercalary_months
+  role: output
+  value: 721382873
+  form: integer
+  unit: months
+  script: latin
+  edition_page: 61
+  pdf_page: 7
+  locus: (i) m_I line, the result; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.i.months_sum
+  role: output
+  value: 24191942873
+  form: integer
+  unit: months
+  script: latin
+  edition_page: 61
+  pdf_page: 7
+  locus: (i) d_L line, the … factor (printed "…" with a space after the … comma); Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.i.lunar_days
+  role: output
+  value: 725758286190
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 61
+  pdf_page: 7
+  locus: (i) d_L line, the result; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.omitted_days_used
+  role: input
+  value: 25082280
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 61
+  pdf_page: 7
+  locus: (i) d_o line, the numerator of D_O/D_L; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: restated in (ii) and (iii); differs from the p. 58 result
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.i.omitted_days
+  role: output
+  value: 11356002268
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 61
+  pdf_page: 7
+  locus: (i) d_o line, the result (at the start of the next line); Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.i.ahargana
+  role: output
+  value: 714402283922
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 61
+  pdf_page: 7
+  locus: (i) "ahargana a = d_L − do = ..."; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: restated in the remainder sentence
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.i.remainder
+  role: output
+  value: 5
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 61
+  pdf_page: 7
+  locus: (i) "leaves a remainder r… = ..."; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.ii.years
+  role: output
+  value: 3606
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 61
+  pdf_page: 7
+  locus: (ii) Y line, the sum "… + … = ..."; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.ii.saura_months
+  role: output
+  value: 43272
+  form: integer
+  unit: months
+  script: latin
+  edition_page: 61
+  pdf_page: 7
+  locus: (ii) m_s line, the result; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.ii.intercalary_months
+  role: output
+  value: 1330
+  form: integer
+  unit: months
+  script: latin
+  edition_page: 61
+  pdf_page: 7
+  locus: (ii) m_I line, the result; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.ii.months_sum
+  role: output
+  value: 44602
+  form: integer
+  unit: months
+  script: latin
+  edition_page: 61
+  pdf_page: 7
+  locus: (ii) d_L line, the … factor; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.ii.lunar_days
+  role: output
+  value: 1338060
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 61
+  pdf_page: 7
+  locus: (ii) d_L line, the result; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.ii.omitted_days
+  role: output
+  value: 20936
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 61
+  pdf_page: 7
+  locus: (ii) d_o line, the result (line split between the half-page tiles; read from the clip); Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 280, 400, 340]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: restated with grouping in the a line
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 280, 400, 340]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.ii.ahargana
+  role: output
+  value: 1317124
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 61
+  pdf_page: 7
+  locus: (ii) a line, the result; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 280, 400, 340]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: restated as the Kali ahargaṇa number and in the remainder sentence
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 280, 400, 340]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.ii.remainder
+  role: output
+  value: 4
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 61
+  pdf_page: 7
+  locus: (ii) "leaves the remainder r… = ..."; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 298, 438, 596]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 298, 438, 596]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.iii.years
+  role: output
+  value: 3766
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 61
+  pdf_page: 7
+  locus: (iii) Y display, "… + … = ..."; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 298, 438, 596]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 298, 438, 596]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.iii.saura_months
+  role: output
+  value: 45192
+  form: integer
+  unit: months
+  script: latin
+  edition_page: 61
+  pdf_page: 7
+  locus: (iii) m_s line, the result; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 420, 400, 520]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 420, 400, 520]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.iii.intercalary_months
+  role: output
+  value: 1389
+  form: integer
+  unit: months
+  script: latin
+  edition_page: 61
+  pdf_page: 7
+  locus: (iii) m_I line, the result (the line's print is faint; read from the clip); Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 420, 400, 520]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 420, 400, 520]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.iii.months_sum
+  role: output
+  value: 46581
+  form: integer
+  unit: months
+  script: latin
+  edition_page: 61
+  pdf_page: 7
+  locus: (iii) d_L line, the … factor; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 420, 400, 520]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 420, 400, 520]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.iii.lunar_days
+  role: output
+  value: 1397430
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 61
+  pdf_page: 7
+  locus: (iii) d_L line, the result; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 420, 400, 520]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 420, 400, 520]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.iii.omitted_days
+  role: output
+  value: 21865
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 61
+  pdf_page: 7
+  locus: (iii) d_o line, the result; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 420, 400, 520]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 420, 400, 520]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.iii.ahargana
+  role: output
+  value: 1375565
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 61
+  pdf_page: 7
+  locus: (iii) a line, the result; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 420, 400, 520]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: restated as the Kali ahargaṇa number
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 420, 400, 520]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.iii.remainder_dividend
+  role: output
+  value: 137565
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 61
+  pdf_page: 7
+  locus: '(iii) "The number ... ÷ …": printed "…" (one digit fewer than the ahargaṇa above); keyed as the printed digits'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 298, 438, 596]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 298, 438, 596]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.iii.remainder
+  role: output
+  value: 2
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 61
+  pdf_page: 7
+  locus: (iii) "leaves the remainder r… = ..."; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 298, 438, 596]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 298, 438, 596]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.remainder_table
+  role: output
+  value:
+  - [0, Sunday, Friday, Friday]
+  - [1, Monday, Saturday, Saturday]
+  - [2, Tuesday, Sunday, Sunday]
+  - [3, Wednesday, Monday, null]
+  - [4, Thursday, Tuesday, null]
+  - [5, Friday, null, null]
+  form: table
+  columns: [remainder, suryasiddhanta_epoch_r1, kali_to_427_saka_r2, kali_to_587_saka_r3]
+  unit: none
+  script: latin
+  edition_page: 62
+  pdf_page: 8
+  locus: 'p. 62, "(iv) Table of remainders for weekdays (verification)": the body below the header, one row per printed remainder; cells are the weekday names as printed in each column, blank cells null; the remainder numeral printed before each name is the first column'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_epoch_ahargana.yaml (sha256 bb78587b)
+  status: double_read
+  notes: header restates r1, r2, r3 and the epochs (not keyed again); 14 weekday cells + 6 remainder numerals
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r1
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''

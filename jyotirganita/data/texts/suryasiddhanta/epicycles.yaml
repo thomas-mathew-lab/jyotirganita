@@ -1,0 +1,681 @@
+- key: texts.suryasiddhanta.epicycles.sun.manda.even
+  value: 14
+  form: integer
+  unit: degrees
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 205
+  pdf_page: 66
+  locus: 'ii.34 translation, "The degrees of the sun''s epicycle of the apsis (mandaparidhi) are …, ... at the end of the even quadrants": the first figure (sun); quadrant words: "at the end of the even quadrants"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 135, 202, 225]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,135,202,225] / r1c2 [194,135,360,225] of clip [36,135,360,225] 2x1 --overlap 8; continued in [36,215,360,305]
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.epicycles.sun.manda.even]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 135, 202, 225]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.epicycles.moon.manda.even
+  value: 32
+  form: integer
+  unit: degrees
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 205
+  pdf_page: 66
+  locus: 'ii.34 translation, "of that of the moon, …, at the end of the even quadrants": the second figure (moon); quadrant words: "at the end of the even quadrants"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 135, 202, 225]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,135,202,225] / r1c2 [194,135,360,225] of clip [36,135,360,225] 2x1 --overlap 8; continued in [36,215,360,305]
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.epicycles.moon.manda.even]
+  emendation: null
+  notes: printed in words.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 135, 202, 225]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.epicycles.sun.manda.odd
+  status: gap
+  reason: ii.34 states the odd-end epicycle as the even-end one less a reduction in minutes, not as a figure of its own
+  searched: suryasiddhanta_burgess_1860 PDF 66 ii.34 translation
+  effect: 'derived: the even-end epicycle less epicycles.sun_moon.manda.odd_reduction (ii.34)'
+  source: suryasiddhanta_burgess_1860
+  notes: 'Reader''s note: no figure in degrees: the odd-quadrant epicycle is stated as twenty minutes less than the even (see epicycles.manda.odd_less_than_even).'
+- key: texts.suryasiddhanta.epicycles.moon.manda.odd
+  status: gap
+  reason: ii.34 states the odd-end epicycle as the even-end one less a reduction in minutes, not as a figure of its own
+  searched: suryasiddhanta_burgess_1860 PDF 66 ii.34 translation
+  effect: 'derived: the even-end epicycle less epicycles.sun_moon.manda.odd_reduction (ii.34)'
+  source: suryasiddhanta_burgess_1860
+  notes: 'Reader''s note: no figure in degrees: stated as twenty minutes less than the even, "for both" (sun and moon).'
+- key: texts.suryasiddhanta.epicycles.sun_moon.manda.odd_reduction
+  value: 20
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 205
+  pdf_page: 66
+  locus: 'ii.34 translation, "and at the end of the odd quadrants, they are … minutes less for both": the figure (one figure for sun and moon); Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 215, 202, 305]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,215,202,305] / r1c2 [194,215,360,305] of clip [36,215,360,305] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.epicycles.sun_moon.manda.odd_reduction]
+  emendation: null
+  notes: 'printed in words ("twenty minutes"); applies to both the sun and the moon ("for both"). Quadrant words: "at the end of the odd quadrants". Key formed by the reader (proposed_key).'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 215, 202, 305]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.epicycles.mars.manda.even
+  value: 75
+  form: integer
+  unit: degrees
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 205
+  pdf_page: 66
+  locus: 'ii.35 translation, "At the end of the even quadrants, they are …": figure … of … ("…"); quadrant words: "At the end of the even quadrants"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 215, 202, 305]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,215,202,305] / r1c2 [194,215,360,305] of clip [36,215,360,305] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.epicycles.mars.manda.even]
+  emendation: null
+  notes: printed in words. the verses do not name the planets; ii.36 begins "For Mars and the rest"; Whitney's note (PDF 67, printed 206, clip [36,62,360,88] 2x1) gives the order as the regents of the days of the week, "Mars, Mercury, Jupiter, Venus, and Saturn"; assigned in that order.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 215, 202, 305]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.epicycles.mercury.manda.even
+  value: 30
+  form: integer
+  unit: degrees
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 205
+  pdf_page: 66
+  locus: 'ii.35 translation, "At the end of the even quadrants, they are …": figure … of … ("…"); quadrant words: "At the end of the even quadrants"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 215, 202, 305]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,215,202,305] / r1c2 [194,215,360,305] of clip [36,215,360,305] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.epicycles.mercury.manda.even]
+  emendation: null
+  notes: printed in words. the verses do not name the planets; ii.36 begins "For Mars and the rest"; Whitney's note (PDF 67, printed 206, clip [36,62,360,88] 2x1) gives the order as the regents of the days of the week, "Mars, Mercury, Jupiter, Venus, and Saturn"; assigned in that order.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 215, 202, 305]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.epicycles.jupiter.manda.even
+  value: 33
+  form: integer
+  unit: degrees
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 205
+  pdf_page: 66
+  locus: 'ii.35 translation, "At the end of the even quadrants, they are …": figure … of … ("…"); quadrant words: "At the end of the even quadrants"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 215, 202, 305]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,215,202,305] / r1c2 [194,215,360,305] of clip [36,215,360,305] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.epicycles.jupiter.manda.even]
+  emendation: null
+  notes: printed in words. the verses do not name the planets; ii.36 begins "For Mars and the rest"; Whitney's note (PDF 67, printed 206, clip [36,62,360,88] 2x1) gives the order as the regents of the days of the week, "Mars, Mercury, Jupiter, Venus, and Saturn"; assigned in that order.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 215, 202, 305]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.epicycles.venus.manda.even
+  value: 12
+  form: integer
+  unit: degrees
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 205
+  pdf_page: 66
+  locus: 'ii.35 translation, "At the end of the even quadrants, they are …": figure … of … ("…"); quadrant words: "At the end of the even quadrants"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 215, 202, 305]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,215,202,305] / r1c2 [194,215,360,305] of clip [36,215,360,305] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.epicycles.venus.manda.even]
+  emendation: null
+  notes: printed in words. the verses do not name the planets; ii.36 begins "For Mars and the rest"; Whitney's note (PDF 67, printed 206, clip [36,62,360,88] 2x1) gives the order as the regents of the days of the week, "Mars, Mercury, Jupiter, Venus, and Saturn"; assigned in that order.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 215, 202, 305]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.epicycles.saturn.manda.even
+  value: 49
+  form: integer
+  unit: degrees
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 205
+  pdf_page: 66
+  locus: 'ii.35 translation, "At the end of the even quadrants, they are …": figure … of … ("…"); quadrant words: "At the end of the even quadrants"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 215, 202, 305]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,215,202,305] / r1c2 [194,215,360,305] of clip [36,215,360,305] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.epicycles.saturn.manda.even]
+  emendation: null
+  notes: printed in words. the verses do not name the planets; ii.36 begins "For Mars and the rest"; Whitney's note (PDF 67, printed 206, clip [36,62,360,88] 2x1) gives the order as the regents of the days of the week, "Mars, Mercury, Jupiter, Venus, and Saturn"; assigned in that order.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 215, 202, 305]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.epicycles.mars.manda.odd
+  value: 72
+  form: integer
+  unit: degrees
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 205
+  pdf_page: 66
+  locus: 'ii.35 translation, "at the odd (oja) they are …": figure … of … ("…"); quadrant words: "at the odd (oja)"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 215, 202, 305]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,215,202,305] / r1c2 [194,215,360,305] of clip [36,215,360,305] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.epicycles.mars.manda.odd]
+  emendation: null
+  notes: printed in words. the verses do not name the planets; ii.36 begins "For Mars and the rest"; Whitney's note (PDF 67, printed 206, clip [36,62,360,88] 2x1) gives the order as the regents of the days of the week, "Mars, Mercury, Jupiter, Venus, and Saturn"; assigned in that order.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 215, 202, 305]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.epicycles.mercury.manda.odd
+  value: 28
+  form: integer
+  unit: degrees
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 205
+  pdf_page: 66
+  locus: 'ii.35 translation, "at the odd (oja) they are …": figure … of … ("…"); quadrant words: "at the odd (oja)"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 215, 202, 305]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,215,202,305] / r1c2 [194,215,360,305] of clip [36,215,360,305] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.epicycles.mercury.manda.odd]
+  emendation: null
+  notes: printed in words. the verses do not name the planets; ii.36 begins "For Mars and the rest"; Whitney's note (PDF 67, printed 206, clip [36,62,360,88] 2x1) gives the order as the regents of the days of the week, "Mars, Mercury, Jupiter, Venus, and Saturn"; assigned in that order.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 215, 202, 305]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.epicycles.jupiter.manda.odd
+  value: 32
+  form: integer
+  unit: degrees
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 205
+  pdf_page: 66
+  locus: 'ii.35 translation, "at the odd (oja) they are …": figure … of … ("…"); quadrant words: "at the odd (oja)"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 215, 202, 305]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,215,202,305] / r1c2 [194,215,360,305] of clip [36,215,360,305] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.epicycles.jupiter.manda.odd]
+  emendation: null
+  notes: printed in words. the verses do not name the planets; ii.36 begins "For Mars and the rest"; Whitney's note (PDF 67, printed 206, clip [36,62,360,88] 2x1) gives the order as the regents of the days of the week, "Mars, Mercury, Jupiter, Venus, and Saturn"; assigned in that order.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 215, 202, 305]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.epicycles.venus.manda.odd
+  value: 11
+  form: integer
+  unit: degrees
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 205
+  pdf_page: 66
+  locus: 'ii.35 translation, "at the odd (oja) they are …": figure … of … ("…"); quadrant words: "at the odd (oja)"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 215, 202, 305]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,215,202,305] / r1c2 [194,215,360,305] of clip [36,215,360,305] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.epicycles.venus.manda.odd]
+  emendation: null
+  notes: printed in words. the verses do not name the planets; ii.36 begins "For Mars and the rest"; Whitney's note (PDF 67, printed 206, clip [36,62,360,88] 2x1) gives the order as the regents of the days of the week, "Mars, Mercury, Jupiter, Venus, and Saturn"; assigned in that order.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 215, 202, 305]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.epicycles.saturn.manda.odd
+  value: 48
+  form: integer
+  unit: degrees
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 205
+  pdf_page: 66
+  locus: 'ii.35 translation, "at the odd (oja) they are …": figure … of … ("…"); quadrant words: "at the odd (oja)"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 215, 202, 305]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,215,202,305] / r1c2 [194,215,360,305] of clip [36,215,360,305] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.epicycles.saturn.manda.odd]
+  emendation: null
+  notes: printed in words. the verses do not name the planets; ii.36 begins "For Mars and the rest"; Whitney's note (PDF 67, printed 206, clip [36,62,360,88] 2x1) gives the order as the regents of the days of the week, "Mars, Mercury, Jupiter, Venus, and Saturn"; assigned in that order.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 215, 202, 305]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.epicycles.mars.sighra.even
+  value: 235
+  form: integer
+  unit: degrees
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 205
+  pdf_page: 66
+  locus: 'ii.36 translation, "For Mars and the rest; farther, the degrees of the epicycle of the conjunction (cighra) are, at the end of the even quadrants, …": figure … of … ("…"); quadrant words: "at the end of the even quadrants"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 215, 202, 305]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,215,202,305] / r1c2 [194,215,360,305] of clip [36,215,360,305] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.epicycles.mars.sighra.even]
+  emendation: null
+  notes: printed in words. the verses do not name the planets; ii.36 begins "For Mars and the rest"; Whitney's note (PDF 67, printed 206, clip [36,62,360,88] 2x1) gives the order as the regents of the days of the week, "Mars, Mercury, Jupiter, Venus, and Saturn"; assigned in that order. Read across tile pairs [36,215,360,305] and [36,290,360,345].
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 215, 202, 305]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.epicycles.mercury.sighra.even
+  value: 133
+  form: integer
+  unit: degrees
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 205
+  pdf_page: 66
+  locus: 'ii.36 translation, "For Mars and the rest; farther, the degrees of the epicycle of the conjunction (cighra) are, at the end of the even quadrants, …": figure … of … ("…"); quadrant words: "at the end of the even quadrants"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 215, 202, 305]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,215,202,305] / r1c2 [194,215,360,305] of clip [36,215,360,305] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.epicycles.mercury.sighra.even]
+  emendation: null
+  notes: printed in words. the verses do not name the planets; ii.36 begins "For Mars and the rest"; Whitney's note (PDF 67, printed 206, clip [36,62,360,88] 2x1) gives the order as the regents of the days of the week, "Mars, Mercury, Jupiter, Venus, and Saturn"; assigned in that order. Read across tile pairs [36,215,360,305] and [36,290,360,345].
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 215, 202, 305]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.epicycles.jupiter.sighra.even
+  value: 70
+  form: integer
+  unit: degrees
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 205
+  pdf_page: 66
+  locus: 'ii.36 translation, "For Mars and the rest; farther, the degrees of the epicycle of the conjunction (cighra) are, at the end of the even quadrants, …": figure … of … ("…"); quadrant words: "at the end of the even quadrants"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 290, 202, 345]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,290,202,345] / r1c2 [194,290,360,345] of clip [36,290,360,345] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.epicycles.jupiter.sighra.even]
+  emendation: null
+  notes: printed in words. the verses do not name the planets; ii.36 begins "For Mars and the rest"; Whitney's note (PDF 67, printed 206, clip [36,62,360,88] 2x1) gives the order as the regents of the days of the week, "Mars, Mercury, Jupiter, Venus, and Saturn"; assigned in that order. Read across tile pairs [36,215,360,305] and [36,290,360,345].
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 290, 202, 345]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.epicycles.venus.sighra.even
+  value: 262
+  form: integer
+  unit: degrees
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 205
+  pdf_page: 66
+  locus: 'ii.36 translation, "For Mars and the rest; farther, the degrees of the epicycle of the conjunction (cighra) are, at the end of the even quadrants, …": figure … of … ("…"); quadrant words: "at the end of the even quadrants"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 290, 202, 345]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,290,202,345] / r1c2 [194,290,360,345] of clip [36,290,360,345] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.epicycles.venus.sighra.even]
+  emendation: null
+  notes: printed in words. the verses do not name the planets; ii.36 begins "For Mars and the rest"; Whitney's note (PDF 67, printed 206, clip [36,62,360,88] 2x1) gives the order as the regents of the days of the week, "Mars, Mercury, Jupiter, Venus, and Saturn"; assigned in that order. Read across tile pairs [36,215,360,305] and [36,290,360,345].
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 290, 202, 345]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.epicycles.saturn.sighra.even
+  value: 39
+  form: integer
+  unit: degrees
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 205
+  pdf_page: 66
+  locus: 'ii.36 translation, "For Mars and the rest; farther, the degrees of the epicycle of the conjunction (cighra) are, at the end of the even quadrants, …": figure … of … ("…"); quadrant words: "at the end of the even quadrants"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 290, 202, 345]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,290,202,345] / r1c2 [194,290,360,345] of clip [36,290,360,345] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.epicycles.saturn.sighra.even]
+  emendation: null
+  notes: printed in words. the verses do not name the planets; ii.36 begins "For Mars and the rest"; Whitney's note (PDF 67, printed 206, clip [36,62,360,88] 2x1) gives the order as the regents of the days of the week, "Mars, Mercury, Jupiter, Venus, and Saturn"; assigned in that order. Read across tile pairs [36,215,360,305] and [36,290,360,345].
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 290, 202, 345]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.epicycles.mars.sighra.odd
+  value: 232
+  form: integer
+  unit: degrees
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 205
+  pdf_page: 66
+  locus: 'ii.37 translation, "At the end of the odd quadrants, they are stated to be …, as made use of in the calculation for the conjunction (cighrakarman)": figure … of … ("…"); quadrant words: "At the end of the odd quadrants"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 290, 202, 345]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,290,202,345] / r1c2 [194,290,360,345] of clip [36,290,360,345] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.epicycles.mars.sighra.odd]
+  emendation: null
+  notes: printed in words. the verses do not name the planets; ii.36 begins "For Mars and the rest"; Whitney's note (PDF 67, printed 206, clip [36,62,360,88] 2x1) gives the order as the regents of the days of the week, "Mars, Mercury, Jupiter, Venus, and Saturn"; assigned in that order.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 290, 202, 345]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.epicycles.mercury.sighra.odd
+  value: 132
+  form: integer
+  unit: degrees
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 205
+  pdf_page: 66
+  locus: 'ii.37 translation, "At the end of the odd quadrants, they are stated to be …, as made use of in the calculation for the conjunction (cighrakarman)": figure … of … ("…"); quadrant words: "At the end of the odd quadrants"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 290, 202, 345]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,290,202,345] / r1c2 [194,290,360,345] of clip [36,290,360,345] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.epicycles.mercury.sighra.odd]
+  emendation: null
+  notes: printed in words. the verses do not name the planets; ii.36 begins "For Mars and the rest"; Whitney's note (PDF 67, printed 206, clip [36,62,360,88] 2x1) gives the order as the regents of the days of the week, "Mars, Mercury, Jupiter, Venus, and Saturn"; assigned in that order.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 290, 202, 345]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.epicycles.jupiter.sighra.odd
+  value: 72
+  form: integer
+  unit: degrees
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 205
+  pdf_page: 66
+  locus: 'ii.37 translation, "At the end of the odd quadrants, they are stated to be …, as made use of in the calculation for the conjunction (cighrakarman)": figure … of … ("…"); quadrant words: "At the end of the odd quadrants"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 290, 202, 345]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,290,202,345] / r1c2 [194,290,360,345] of clip [36,290,360,345] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.epicycles.jupiter.sighra.odd]
+  emendation: null
+  notes: printed in words. the verses do not name the planets; ii.36 begins "For Mars and the rest"; Whitney's note (PDF 67, printed 206, clip [36,62,360,88] 2x1) gives the order as the regents of the days of the week, "Mars, Mercury, Jupiter, Venus, and Saturn"; assigned in that order.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 290, 202, 345]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.epicycles.venus.sighra.odd
+  value: 260
+  form: integer
+  unit: degrees
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 205
+  pdf_page: 66
+  locus: 'ii.37 translation, "At the end of the odd quadrants, they are stated to be …, as made use of in the calculation for the conjunction (cighrakarman)": figure … of … ("…"); quadrant words: "At the end of the odd quadrants"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 290, 202, 345]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,290,202,345] / r1c2 [194,290,360,345] of clip [36,290,360,345] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.epicycles.venus.sighra.odd]
+  emendation: null
+  notes: printed in words. the verses do not name the planets; ii.36 begins "For Mars and the rest"; Whitney's note (PDF 67, printed 206, clip [36,62,360,88] 2x1) gives the order as the regents of the days of the week, "Mars, Mercury, Jupiter, Venus, and Saturn"; assigned in that order.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 290, 202, 345]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.epicycles.saturn.sighra.odd
+  value: 40
+  form: integer
+  unit: degrees
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 205
+  pdf_page: 66
+  locus: 'ii.37 translation, "At the end of the odd quadrants, they are stated to be …, as made use of in the calculation for the conjunction (cighrakarman)": figure … of … ("…"); quadrant words: "At the end of the odd quadrants"; Latin figure, printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 290, 202, 345]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [36,290,202,345] / r1c2 [194,290,360,345] of clip [36,290,360,345] 2x1 --overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.witness.suryasiddhanta_hall_1859.epicycles.saturn.sighra.odd]
+  emendation: null
+  notes: printed in words. the verses do not name the planets; ii.36 begins "For Mars and the rest"; Whitney's note (PDF 67, printed 206, clip [36,62,360,88] 2x1) gives the order as the regents of the days of the week, "Mars, Mercury, Jupiter, Venus, and Saturn"; assigned in that order.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [36, 290, 202, 345]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

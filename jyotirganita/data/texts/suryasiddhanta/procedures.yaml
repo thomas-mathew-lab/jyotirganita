@@ -1,0 +1,2493 @@
+- key: texts.suryasiddhanta.procedures.ahargana.rule
+  value: 'To this, add the number of years of the time since past. Reduce the sum to months, and add the months expired of the current year, beginning with the light half of Câitra. Set the result down in two places; multiply it by the number of intercalary months, and divide by that of solar months, and add to the last result the number of intercalary months thus found; reduce the sum to days, and add the days expired of the current month; Set the result down in two places; multiply it by the number of omitted lunar days, and divide by that of lunar days; subtract from the last result the number of omitted lunar days thus obtained: the remainder is, at midnight, on the meridian of Lankâ,'
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 173
+  pdf_page: 34
+  locus: i.48-50 translation, from "To this, add" (i.48 first half, p. 173) through "Reduce the sum to months" (i.48 second half, after the note) to "on the meridian of Lankâ," (end of i.50, p. 174); the parts joined by one space, the ellipsis dots at the verse split not keyed (the first dot after "past" keyed as the sentence period, as for i.12); Latin text convention (spans PDF 34-35, printed p. 173-174)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 145, 370, 205]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: PDF 34, i.48 first half ("past...." printed with four tight dots)
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 435, 370, 552]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: PDF 34, i.48 second half to i.50 "omitted lunar days"
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 50, 370, 115]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: 'PDF 35, "thus obtained: ... Lankâ,"'
+  status: double_read
+  verified_by: [authority/suryasiddhanta/whitney_ahargana_example, authority/suryasiddhanta/bag_epoch_ahargana, authority/suryasiddhanta/whitney_eclipse_lunar_ahargana, authority/suryasiddhanta/whitney_eclipse_solar_ahargana]
+  emendation: null
+  notes: The sentence runs on into i.51 ("The sum of days, in civil reckoning...."), whose words are not part of this extent; the extent ends with the comma printed after "Lankâ". "month ;" printed with a space before the semicolon (normalised). Pdf_page 34-35 recorded as its first page, the span in the locus. Edition_page 173-174 recorded as its first page, the span in the locus.
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 173 (PDF 34): i.48-50 translation, from "To this, add" (i.48 first half, p. 173) through "Reduce the sum to months" (i.48 second half, after the note) to "on the meridian of Lankâ," (end of i.50, p. 174)'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 20, 385, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  procedure: ahargana.lunar_reckoning
+- key: texts.suryasiddhanta.procedures.computation_instant.statement
+  value: the remainder is, at midnight, on the meridian of Lankâ,
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 174
+  pdf_page: 35
+  locus: i.50, the last clause, from "the remainder is" to "meridian of Lankâ," (end of the verse); Latin text convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 50, 370, 115]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: single full-width strip
+  status: double_read
+  verified_by: [authority/suryasiddhanta/whitney_ahargana_example]
+  emendation: null
+  notes: The clause continues into i.51 ("The sum of days, in civil reckoning"); keyed lower-case as printed, the final comma as printed.
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 174 (PDF 35): i.50, the last clause, from "the remainder is" to "meridian of Lankâ," (end of the verse)'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  procedure: computation_instant.lanka_midnight
+- key: texts.suryasiddhanta.procedures.weekday.rule
+  value: The sum of days, in civil reckoning. From this may be found the lords of the day, the month, and the year, counting from the sun. If the number be divided by seven, the remainder marks the lord of the day, beginning with the sun.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 174
+  pdf_page: 35
+  locus: i.51 translation, from "The sum of days, in civil reckoning" (first half, p. 174) to "beginning with the sun." (p. 175); the two halves joined with the split-dots convention of the i.12 and i.48 records (dots not keyed, one period kept because the second half opens a new sentence); Latin text convention, line-end hyphen joined (spans PDF 35-36, printed p. 174-175)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 50, 370, 115]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: PDF 35, first half "The sum of days, in civil reckoning...."
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 425, 370, 552]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: PDF 36, second half
+  status: double_read
+  verified_by: [authority/suryasiddhanta/whitney_weekday_lords]
+  emendation: null
+  notes: The first half of i.51 completes the sentence of i.48-50 (it is the subject complement of "the remainder is"); the period after "reckoning" stands for the printed split dots "...." and is not a printed period. The rule proper is the second half. Pdf_page 35-36 recorded as its first page, the span in the locus. Edition_page 174-175 recorded as its first page, the span in the locus.
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 174 (PDF 35): i.51 translation, from "The sum of days, in civil reckoning" (first half, p. 174) to "beginning with the sun." (p. 175)'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 20, 385, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  procedure: weekday.remainder_from_sunday
+- key: texts.suryasiddhanta.procedures.lords.month_year
+  value: Divide the same number by the number of days in a month and in a year, multiply the one quotient by two and the other by three, add one to each product, and divide by seven; the remainders indicate the lords of the month and of the year.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 175
+  pdf_page: 36
+  locus: i.52 translation (whole verse), from "Divide the same number" to "and of the year."; Latin text convention (spans PDF 36-37, printed p. 175-176)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 425, 370, 552]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: PDF 36, first two lines
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 50, 370, 110]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: PDF 37, rest
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: '"seven ;" printed with a space before the semicolon (normalised). Pdf_page 36-37 recorded as its first page, the span in the locus. Edition_page 175-176 recorded as its first page, the span in the locus.'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 175 (PDF 36): i.52 translation (whole verse), from "Divide the same number" to "and of the year."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 20, 385, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.mean_longitude.rule
+  value: Multiply the sum of days (dinarâçi) by the number of revolutions of any planet, and divide by the number of civil days; the result is the position of that planet, in virtue of its mean motion, in revolutions and parts of a revolution.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 178
+  pdf_page: 39
+  locus: i.53 translation (whole verse), from "Multiply the sum of days" to "parts of a revolution."; Latin text convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 140, 370, 215]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: single full-width strip
+  status: double_read
+  verified_by: [authority/suryasiddhanta/whitney_mean_sun, authority/suryasiddhanta/whitney_mean_places, authority/suryasiddhanta/rao_mean_sun_moon_apogee_node, authority/suryasiddhanta/rao_mean_planets, authority/suryasiddhanta/ranganatha_krta_end_apsides_nodes, authority/suryasiddhanta/paramesvara_kali_start_positions]
+  emendation: null
+  notes: The note below works the Sun's mean place for Jan. 1, 1860 and tabulates all planets (a computation; not keyed).
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 178 (PDF 39): i.53 translation (whole verse), from "Multiply the sum of days" to "parts of a revolution."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  procedure: mean.revolutions_from_creation
+- key: texts.suryasiddhanta.procedures.mean_longitude.apsides_nodes
+  value: Thus also are ascertained the places of the conjunction (çîghra) and apsis (mandocca) of each planet, which have been mentioned as moving eastward; and in like manner of the nodes, which have a retrograde motion, subtracting the result from a whole circle.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 179
+  pdf_page: 40
+  locus: i.54 translation (whole verse), from "Thus also are ascertained" to "a whole circle."; Latin text convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 130, 370, 200]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: single full-width strip
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: '"eastward ;" printed with a space before the semicolon (normalised).'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 179 (PDF 40): i.54 translation (whole verse), from "Thus also are ascertained" to "a whole circle."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [20, 130, 370, 200]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.jupiter_cycle.rule
+  value: Multiply by twelve the past revolutions of Jupiter, add the signs of the current revolution, and divide by sixty; the remainder marks the year of Jupiter's cycle, counting from Vijaya.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 179
+  pdf_page: 40
+  locus: i.55 translation (whole verse), from "Multiply by …" to "from Vijaya."; Latin text convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 262, 370, 320]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: single full-width strip
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: Whitney's note (PDF 40-41) works the cycle year for A. D. 1859 and lists the sixty year names (not keyed).
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 179 (PDF 40): i.55 translation (whole verse), from "Multiply by twelve" to "from Vijaya."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [20, 262, 370, 320]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.epoch.any_yuga
+  value: The processes which have thus been stated in full detail, are practically applied in an abridged form. The calculation of the mean place of the planets may be made from any epoch (yuga) that may be fixed upon.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 180
+  pdf_page: 41
+  locus: i.56 translation (whole verse), from "The processes which" to "fixed upon."; Latin text convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 440, 370, 552]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: single full-width strip
+  status: double_read
+  verified_by: [authority/suryasiddhanta/whitney_elapsed_to_kali, authority/suryasiddhanta/ranganatha_elapsed_to_krta_end, authority/suryasiddhanta/paramesvara_treta_ahargana]
+  emendation: null
+  notes: ''
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 180 (PDF 41): i.56 translation (whole verse), from "The processes which" to "fixed upon."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 430, 225, 570]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  procedure: ahargana.civil_days_since_creation
+- key: texts.suryasiddhanta.procedures.count_before_epoch
+  status: gap
+  reason: the count runs from the end of creation (i.48–51) and no page of i.45–58 names a civil day before the Kali epoch from which a record is to be computed; the Kali epoch is the floor of runs_from
+  searched: 'the passages of i.45–58 keyed and their notes (suryasiddhanta_burgess_1860 PDF 33–42: i.45–47, i.48–51, i.53, i.56–58 and Whitney''s notes on them); the inventory lists no other locus for the count''s start'
+  effect: runs_from is the Kali epoch; a day before it is refused, naming it
+  source: suryasiddhanta_burgess_1860
+- key: texts.suryasiddhanta.procedures.desantara.rule
+  value: This, multiplied by the sine of the co-latitude (lambajyâ) of any place, and divided by radius (trijîvâ), is the corrected (sphuṭa) circumference of the earth at that place. Multiply the daily motion of a planet by the distance in longitude (deçântara) of any place, and divide by its corrected circumference; The quotient, in minutes, subtract from the mean position of the planet as found, if the place be east of the prime meridian (rekhâ); add, if it be west; the result is the planet's mean position at the given place.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 182
+  pdf_page: 43
+  locus: i.60-61 translation, from "This, multiplied" (i.60 first half, p. 182) through "Multiply the daily motion" (i.60 second half, p. 184) to "at the given place." (i.61); the halves of i.60 joined by one space, the split dots not keyed, the period after "place" printed before the dots kept; Latin text convention, line-end hyphen joined (spans PDF 43-45, printed p. 182-184)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 405, 370, 470]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: PDF 43 (printed 182), i.60 first half
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 165, 370, 250]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: PDF 45 (printed 184), i.60 second half
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 240, 370, 305]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: PDF 45, i.61
+  status: double_read
+  verified_by: [authority/suryasiddhanta/whitney_washington_desantara]
+  emendation: null
+  notes: The first half of i.60 (corrected circumference) is printed on PDF 43, before Whitney's long note on i.59-60; the TASK named PDF 44-45. The rule proper starts at "Multiply the daily motion". "rekhâ) ;" and "west ;" printed with spaces before semicolons (normalised). "sphuṭa" with t dot-below. Pdf_page 43-45 recorded as its first page, the span in the locus. Edition_page 182-184 recorded as its first page, the span in the locus.
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 182 (PDF 43): i.60-61 translation, from "This, multiplied" (i.60 first half, p. 182) through "Multiply the daily motion" (i.60 second half, p. 184) to "at the given place." (i.61)'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 380, 225, 480]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  procedure: carry.desantara_corrected_circumference
+  acts_on: mean_before_equation
+  applies_to: [all_elements]
+  motion: mean
+- key: texts.suryasiddhanta.procedures.weekday.desantara
+  value: The succession of the week-day (vâra) takes place, to the east of the meridian, at a time after midnight equal to the difference of longitude in nâḍîs; to the west of the meridian, at a corresponding time before midnight.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 186
+  pdf_page: 47
+  locus: i.66 translation (whole verse), from "The succession of the week-day" to "before midnight."; Latin text convention, line-end hyphen joined
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 490, 370, 560]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: single full-width strip; the last lines are printed heavier and slightly blurred, every letter still legible
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: '"differ-ence" hyphenated at line end (printed with a raised point), joined. Whitney''s note on PDF 48 calls the verse an astrological precept and gives the commentator''s reading (not keyed).'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 186 (PDF 47): i.66 translation (whole verse), from "The succession of the week-day" to "before midnight."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 480, 225, 570]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.epoch_advance.rule
+  value: 'Multiply the mean daily motion of a planet by the number of nâḍîs of the time fixed upon, and divide by sixty: subtract the quotient from the place of the planet, if the time be before midnight; add, if it be after: the result is its place at the given time.'
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 187
+  pdf_page: 48
+  locus: i.67 translation (whole verse), from "Multiply the mean daily motion" to "at the given time."; Latin text convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 175, 370, 245]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: first line
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 240, 370, 300]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: rest
+  status: double_read
+  verified_by: [authority/suryasiddhanta/whitney_mean_places_washington_interval]
+  emendation: null
+  notes: '"sixty :" and "after :" printed with a space before the colon (normalised).'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 187 (PDF 48): i.67 translation (whole verse), from "Multiply the mean daily motion" to "at the given time."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 170, 225, 350]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  procedure: carry.epoch_advance_mean
+  acts_on: mean_before_equation
+  motion: mean
+  applies_to: [all_elements]
+- key: texts.suryasiddhanta.procedures.bhuja_koti.rule
+  value: Subtract the longitude of a planet from that of its apsis (mandocca); so also, subtract it from that of its conjunction (çîghra); the remainder is its anomaly (kendra); from that is found the quadrant (pada); from this, the base-sine (bhujajyâ), and likewise that of the perpendicular (koṭi). In an odd (vishama) quadrant, the base-sine is taken from the part past, the perpendicular from that to come; but in an even (yugma) quadrant, the base-sine (bâhujyâ) is taken from the part to come, and the perpendicular-sine from that past.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 202
+  pdf_page: 63
+  locus: ii.29-30 translation, from "Subtract the longitude" (ii.29) to "from that past." (ii.30); the verses joined by one space; Latin text convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 365, 370, 455]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ii.29 and the first two lines of ii.30
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 445, 370, 530]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: end of ii.30
+  status: double_read
+  verified_by: [authority/suryasiddhanta/whitney_sun_manda_equation]
+  emendation: null
+  notes: '"koṭi" with t dot-below. Semicolons printed with a space before them (normalised). Note the two terms bhujajyâ (ii.29) and bâhujyâ (ii.30) as printed.'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 202 (PDF 63): ii.29-30 translation, from "Subtract the longitude" (ii.29) to "from that past." (ii.30)'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 365, 370, 455]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+  procedure: epicycle.bhuja_koti
+- key: texts.suryasiddhanta.procedures.interpolation.rule
+  value: Divide the minutes contained in any arc by two hundred and twenty-five; the quotient is the number of the preceding tabular sine (jyâpiṇḍaka). Multiply the remainder by the difference of the preceding and following tabular sines, and divide by two hundred and twenty-five; The quotient thus obtained add to the tabular sine called the preceding; the result is the required sine. The same method is prescribed also with respect to the versed sines.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 204
+  pdf_page: 65
+  locus: ii.31-32 translation, from "Divide the minutes" (ii.31) to "the versed sines." (ii.32); the verses joined by one space; Latin text convention, line-end hyphen joined
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 175, 370, 265]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ii.31
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 255, 370, 345]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ii.32
+  status: double_read
+  verified_by: [authority/suryasiddhanta/whitney_sine_interpolation, authority/suryasiddhanta/ranganatha_sine_differences]
+  emendation: null
+  notes: '"jyâpiṇḍaka" with n and d dot-below. ii.32 printed with a capital "The" after the semicolon that ends ii.31 (kept as printed). Semicolons printed with a space before them (normalised).'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 204 (PDF 65): ii.31-32 translation, from "Divide the minutes" (ii.31) to "the versed sines." (ii.32)'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 175, 370, 265]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+  procedure: trig.sine_table_linear
+- key: texts.suryasiddhanta.procedures.inverse.rule
+  value: 'Subtract from any given sine the next less tabular sine; multiply the remainder by two hundred and twenty-five, and divide by the difference between the next less and next greater tabular sines; add the quotient to the product of the serial number of the next less sine into two hundred and twenty-five: the result is the required arc.'
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 204
+  pdf_page: 65
+  locus: ii.33 translation (whole verse), from "Subtract from any given sine" to "the required arc."; Latin text convention, line-end hyphen joined
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 255, 370, 345]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: single full-width strip
+  status: double_read
+  verified_by: [authority/suryasiddhanta/whitney_sun_manda_equation]
+  emendation: null
+  notes: '"num-ber" joined. Whitney''s note below (PDF 65) works the sine of 24 degrees by the rule (a computation; not keyed).'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 204 (PDF 65): ii.33 translation (whole verse), from "Subtract from any given sine" to "the required arc."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 255, 370, 345]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+  procedure: trig.arc_from_sine_table
+- key: texts.suryasiddhanta.procedures.epicycle_variation.rule
+  value: Multiply the base-sine (bhujajyâ) by the difference of the epicycles at the odd and even quadrants, and divide by radius (trijyâ); the result, applied to the even epicycle (vṛtta), and additive (dhana) or subtractive (ṛṇa), according as this is less or greater than the odd, gives the corrected (sphuṭa) epicycle.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 205
+  pdf_page: 66
+  locus: ii.38 translation (whole verse), from "Multiply the base-sine" to "corrected (sphuṭa) epicycle."; Latin text convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 320, 370, 420]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: single full-width strip
+  status: double_read
+  verified_by: [authority/suryasiddhanta/whitney_moon_manda_equation]
+  emendation: null
+  notes: '"vṛtta" r dot-below; "ṛṇa" r and n dot-below; "sphuṭa" t dot-below. "(trijyâ) ;" normalised.'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 205 (PDF 66): ii.38 translation (whole verse), from "Multiply the base-sine" to "corrected (sphuṭa) epicycle."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 320, 370, 420]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+  procedure: epicycle.base_sine_variation
+- key: texts.suryasiddhanta.procedures.manda.equation
+  value: 'By the corrected epicycle multiply the base-sine (bhujajyâ) and perpendicular-sine (koṭijyâ) respectively, and divide by the number of degrees in a circle: then, the arc corresponding to the result from the base-sine (bhujajyâphala) is the equation of the apsis (mânda phala), in minutes, etc.'
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 206
+  pdf_page: 67
+  locus: ii.39 translation (whole verse), from "By the corrected epicycle" to "in minutes, etc."; Latin text convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 455, 370, 515]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: first four lines
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 495, 370, 565]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: last line
+  status: double_read
+  verified_by: [authority/suryasiddhanta/whitney_sun_manda_equation, authority/suryasiddhanta/whitney_moon_manda_equation]
+  emendation: null
+  notes: '"koṭijyâ" t dot-below. "circle :" normalised. "mânda phala" printed as two words.'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 206 (PDF 67): ii.39 translation (whole verse), from "By the corrected epicycle" to "in minutes, etc."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 455, 370, 515]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+  procedure: epicycle.manda_arc
+- key: texts.suryasiddhanta.procedures.sighra.equation
+  value: 'The result from the perpendicular-sine (koṭiphala) of the distance from the conjunction is to be added to radius, when the distance (kendra) is in the half-orbit beginning with Capricorn; but when in that beginning with Cancer, the result from the perpendicular-sine is to be subtracted. To the square of this sum or difference add the square of the result from the base-sine (bâhuphala); the square root of their sum is the hypothenuse (karṇa) called variable (cala). Multiply the result from the base-sine by radius, and divide by the variable hypothenuse: The arc corresponding to the quotient is, in minutes, etc., the equation of the conjunction (çâighrya phala); it is employed in the first and in the fourth process of correction (karman) for Mars and the other planets.'
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 211
+  pdf_page: 72
+  locus: ii.40-42 translation, from "The result from the perpendicular-sine" (ii.40) to "the other planets." (ii.42); the verses joined by one space; Latin text convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 320, 370, 410]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ii.40 and first lines of ii.41
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 400, 370, 480]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: end of ii.41 and ii.42
+  status: double_read
+  verified_by: [authority/suryasiddhanta/whitney_mercury_sighra_equation]
+  emendation: null
+  notes: '"koṭiphala" t dot-below; "karṇa" n dot-below; "hypothenuse" spelled as printed. ii.42 opens with a capital "The" after the colon that ends ii.41 (kept). Semicolons and colon printed with spaces before them (normalised).'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 211 (PDF 72): ii.40-42 translation, from "The result from the perpendicular-sine" (ii.40) to "the other planets." (ii.42)'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 320, 370, 410]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+  procedure: epicycle.sighra_variable_hypotenuse
+- key: texts.suryasiddhanta.procedures.order.statement
+  value: 'The process of correction for the apsis (mânda karman) is the only one required for the sun and moon: for Mars and the other planets are prescribed that for the conjunction (çâighrya), that for the apsis (mânda), again that for the apsis, and that for the conjunction—four, in succession.'
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 214
+  pdf_page: 75
+  locus: 'ii.43 translation (whole verse), from "The process of correction" to "…, in succession."; one verse states both the sun-moon rule and the planets'' order, so keyed once under .statement (TASK: procedures.order.sun_moon / .planets not keyed separately); Latin text convention (em dash U+2014)'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 490, 370, 560]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: single full-width strip
+  status: double_read
+  verified_by: [authority/suryasiddhanta/whitney_sun_manda_equation]
+  emendation: null
+  notes: '"moon :" normalised. ii.44 (keyed next) states how the four processes apply the equations (half and whole) to the planets.'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 214 (PDF 75): ii.43 translation (whole verse), from "The process of correction" to "four, in succession."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 490, 370, 560]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+  procedure: order.manda_only
+  applies_to: [moon, sun]
+- key: texts.suryasiddhanta.procedures.order.planets
+  value: To the mean place of the planet apply half the equation of the conjunction (çîghraphala), likewise half the equation of the apsis; to the mean place of the planet apply the whole equation of the apsis (mandaphala), and also that of the conjunction.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 215
+  pdf_page: 76
+  locus: ii.44 translation (whole verse), from "To the mean place" to "that of the conjunction."; Latin text convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 40, 370, 133.33]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: tile r1c1 of clip [20,40,370,600] 1x6
+  status: double_read
+  verified_by: [authority/suryasiddhanta/whitney_true_places]
+  emendation: null
+  notes: Keyed under .planets because ii.44 concerns the planets only; ii.43 (both) is under .statement. "apsis ;" normalised.
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 215 (PDF 76): ii.44 translation (whole verse), from "To the mean place" to "that of the conjunction."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 40, 370, 133.33]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+  procedure: order.four_processes
+  applies_to: [jupiter, mars, mercury, saturn, venus]
+- key: texts.suryasiddhanta.procedures.signs
+  value: In the case of all the planets, and both in the process of correction for the conjunction and in that for the apsis, the equation is additive (dhana) when the distance (kendra) is in the half-orbit beginning with Aries; subtractive (ṛṇa), when in the half-orbit beginning with Libra.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 215
+  pdf_page: 76
+  locus: 'ii.45 translation (whole verse), from "In the case of all the planets" to "beginning with Libra."; Latin text convention, line-end hyphens: "equa-tion" joined; "…-orbit" (hyphen at line end, a compound) kept with its hyphen'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 40, 370, 133.33]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: tile r1c1, first line
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 133.33, 370, 226.67]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: tile r2c1
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: '"half-orbit" appears twice, each split at a line end after "half-"; kept hyphenated as the compound is hyphenated in the same sense in ii.40 ("half-orbit" mid-line, PDF 72). "Aries ;" normalised. "ṛṇa" with dots below r and n.'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 215 (PDF 76): ii.45 translation (whole verse), from "In the case of all the planets" to "beginning with Libra."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 40, 370, 133.33]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.bhujantara.rule
+  value: Multiply the daily motion (bhukti) of a planet by the sun's result from the base-sine (bâhuphala), and divide by the number of minutes in a circle (bhaçakra); the result, in minutes, apply to the planet's true place, in the same direction as the equation was applied to the sun.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 220
+  pdf_page: 81
+  locus: ii.46 translation (whole verse), from "Multiply the daily motion" to "applied to the sun."; Latin text convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 480, 370, 535]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: first lines
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 520, 370, 600]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: last lines; the bottom lines of this page are printed in a heavier, slightly blurred type, all letters legible
+  status: double_read
+  verified_by: [authority/suryasiddhanta/rao_bhujantara_sun_moon, authority/suryasiddhanta/rao_saturn_bhujantara]
+  emendation: null
+  notes: '"(bhacakra) ;" normalised. "bhacakra" printed with c (no cedilla visible at this resolution: keyed "bhacakra").'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 220 (PDF 81): ii.46 translation (whole verse), from "Multiply the daily motion" to "applied to the sun."'
+  acts_on: true_after_equation
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 480, 370, 535]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-11-r11
+      on: 2026-10-11
+      dpi: 600
+      clip: [20, 470, 370, 600]
+      delivered_ppi: 600
+      max_edge: 2000
+      note: ''
+    matches: second_read
+  procedure: carry.bhujantara_true_place
+  motion: 'true'
+  applies_to: [sun, moon, mars, mercury, jupiter, venus, saturn]
+- key: texts.suryasiddhanta.procedures.latitude.node_correction
+  value: To the nodes of Mars, Saturn, and Jupiter, the equation of the conjunction is to be applied, as to the planets themselves respectively; to those of Mercury and Venus, the equation of the apsis, as found by the third process, in the contrary direction.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 228
+  pdf_page: 89
+  locus: ii.56 translation (whole verse), from "To the nodes of Mars" to "in the contrary direction."; Latin text convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 145, 370, 240]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: single full-width strip
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: '"respectively ;" normalised.'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 228 (PDF 89): ii.56 translation (whole verse), from "To the nodes of Mars" to "in the contrary direction."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 145, 370, 240]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.latitude.rule
+  value: The sine of the arc found by subtracting the place of the node from that of the planet—or, in the case of Venus and Mercury, from that of the conjunction—being multiplied by the extreme latitude, and divided by the last hypothenuse—or, in the case of the moon, by radius—gives the latitude (vikshepa).
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 228
+  pdf_page: 89
+  locus: ii.57 translation (whole verse), from "The sine of the arc" to "the latitude (vikshepa)."; Latin text convention (em dashes U+2014)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 145, 370, 240]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: first three lines
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 230, 370, 320]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: last lines
+  status: double_read
+  verified_by: [authority/suryasiddhanta/whitney_latitude, authority/suryasiddhanta/whitney_node_distance]
+  emendation: null
+  notes: ''
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 228 (PDF 89): ii.57 translation (whole verse), from "The sine of the arc" to "the latitude (vikshepa)."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 145, 370, 240]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+  procedure: latitude.node_hypotenuse
+- key: texts.suryasiddhanta.procedures.cara.application
+  status: gap
+  reason: the text applies the cara to the half-day and half-night only (ii.61–63); no verse of i.60–67, ii.43–47 or ii.59–63 applies it to a longitude
+  searched: 'suryasiddhanta_burgess_1860 translations and Whitney''s notes of i.60-67 (PDF 43-49: i.60-61 desantara, i.62 meridian, i.63-65 longitude by lunar eclipse, i.66 weekday, i.67 hour of the day), ii.43-47 (PDF 75-83: order of the four processes, signs, bhujantara ii.46 and its note, ii.47-49 equation of motion) and ii.59-63 (PDF 92-95, with the note continuing on PDF 96). Rendered at 110 dpi for the survey and at 410 dpi for every passage keyed.'
+  effect: the cara carry entry has no stated action on a longitude; the engine moves the means' time to the sunrise by the cara at mean motion on every element (read from ii.58-63, i.67 and xiv.19), and every record of a day the cara acts on carries provisional:texts.suryasiddhanta.procedures.cara.application
+  source: suryasiddhanta_burgess_1860
+  notes: 'Reader''s note: Nearest statements: ii.46 (bhujantara, the sun''s equation applied to planets'' daily motion) and Whitney''s note on it (PDF 82: the ecliptic/equinoctial part of the equation of time "is not taken account of in this treatise"), keyed as procedures.bhujantara.rule and procedures.bhujantara.whitney_note_time. found nothing. Searched: suryasiddhanta_burgess_1860, verses and Whitney''s notes: i.60-67 with notes, PDF 43-48 (printed 182-187); ii.43-47 with notes, PDF 75-82 (printed 214-221): ii.43-45 stand on PDF 75-76 (not 80-82 as listed), Whitney''s note on ii.45 with its four result tables and the comparison with Ptolemy runs PDF 76-81, ii.46 and its note PDF 81-82, ii.47 PDF 82; ii.59-63 with notes, PDF 92 (from ii.59) to PDF 96 top (printed 231-235), the note on ii.61-63 running on to PDF 96. Figures 6 and 8 and the numeric tables were not read cell by cell (they hold no statement). Reader''s note: No verse in these ranges, and no note on them, applies the ascensional difference to a body''s longitude or mean place. The ascensional difference (cara) is stated only in ii.61-63: it is found from the declination and the equinoctial shadow through the earth-sine and the day-radius, taken as respirations, and added to or subtracted from the quarter of the diurnal circle to give the half-day and half-night (of a planet, or of an asterism by its declination); that is a correction of the length of day and night, not of the place. Whitney''s note on ii.61-63 works the Washington day and night lengths this way and glosses cara as meaning variable. The corrections the ranges do apply to places are: the correction for distance from the prime meridian applied to the mean places (i.60-61, with i.62-65 on finding that distance); the reduction of a mean place from midnight to a chosen hour by proportion of the daily motion (i.67); the equations of the apsis and of the conjunction applied to the mean place (ii.43-45); and in ii.46 a correction of the planet''s true place proportional to its daily motion and to the sun''s equation (from the base-sine), applied in the same direction as the sun''s. i.66 concerns where the week-day begins east and west of the meridian. this gap stays as read.'
+- key: texts.suryasiddhanta.procedures.cara.day_night
+  value: 'Multiply the sine of declination by the equinoctial shadow, and divide by twelve; the result is the earth-sine (kshitijyâ); this, multiplied by radius and divided by the day-radius, gives the sine of the ascensional difference (cara): the number of respirations due to the ascensional difference Is shown by the corresponding arc. Add these to, and subtract them from, the fourth part of the corresponding day and night, and the sum and remainder are, when declination is north, the half-day and half-night; When declination is south, the reverse; these, multiplied by two, are the day and the night. The day and the night of the asterisms (bha) may be found in like manner, by means of their declination, increased or diminished by their latitude.'
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 233
+  pdf_page: 94
+  locus: ii.61-63 translation, from "Multiply the sine of declination" (ii.61) to "increased or diminished by their latitude." (ii.63); the verses joined by one space; Latin text convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 270, 370, 300]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ii.61 first two lines
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 285, 370, 395]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ii.61-63
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 380, 370, 470]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: end of ii.63
+  status: double_read
+  verified_by: [authority/suryasiddhanta/whitney_washington_day_night, authority/suryasiddhanta/whitney_sun_day_length]
+  emendation: null
+  notes: 'ii.61 ends "difference" with no punctuation and ii.62 opens "Is shown" (capital I) -- kept as printed; ii.63 opens with a capital "When" after the semicolon of ii.62 -- kept. Semicolons/colon printed with a space before them (normalised). The text''s application of cara: to the day and night only. Key formed by the reader (proposed_key).'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 233 (PDF 94): ii.61-63 translation, from "Multiply the sine of declination" (ii.61) to "increased or diminished by their latitude." (ii.63)'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 270, 370, 300]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+  provisional: 'the ''corresponding day and night'' of ii.62 is the Sun''s own day by ii.59 (procedures.half_day.planet_day.ii59.suryasiddhanta_burgess_1860), which needs the rising times of the signs (iii.42-45, not keyed): the engine takes the quarter of the civil day of 60 nadikas, 21600 respirations, the text''s sidereal day (i.11)'
+  procedure: half_day.quarter_day_plus_cara
+- key: texts.suryasiddhanta.procedures.desantara.finding.i63.suryasiddhanta_burgess_1860
+  value: When, in a total eclipse of the moon, the emergence (unmîlana) takes place after the calculated time for its occurrence, then the place of the observer is to the east of the central meridian;
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 186
+  pdf_page: 47
+  locus: i.63, the whole verse, "When" to "meridian;"; Latin text convention, line-end hyphens joined
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 40, 201.5, 175]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p47_600dpi_r1c1_clip40-40.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 40, 355, 175]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p47_600dpi_r1c2_clip40-40.png
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: '"occur-" / "rence" line-end hyphen joined. unmîlana italic in print. No suryasiddhanta_burgess_1860_reprint erratum falls on suryasiddhanta_burgess_1860 PDF 47 (suryasiddhanta_burgess_1860_reprint p. 42).'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 186 (PDF 47): i.63, the whole verse, "When" to "meridian;"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 40, 355, 175]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.desantara.finding.i64.suryasiddhanta_burgess_1860
+  value: 'When it takes place before the calculated time, his place is to the west: the same thing may be ascertained likewise from the immersion (nimîlana). Multiply by the difference of the two times in nâḍîs the corrected circumference of the earth at the place of observation,'
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 186
+  pdf_page: 47
+  locus: i.64, the whole verse, "When" to "observation,"; Latin text convention, line-end hyphens joined
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 40, 201.5, 175]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p47_600dpi_r1c1_clip40-40.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 40, 355, 175]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p47_600dpi_r1c2_clip40-40.png
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: nimîlana italic in print; nâḍîs printed with circumflexes and a dot below the d. The verse ends with a comma and runs on into i.65.
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 186 (PDF 47): i.64, the whole verse, "When" to "observation,"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 40, 355, 175]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.desantara.finding.i64.n1.suryasiddhanta_burgess_1860
+  value: 2
+  form: integer
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 186
+  pdf_page: 47
+  locus: i.64, "the difference of the … times", line 3 of the verse
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 40, 355, 175]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p47_600dpi_r1c2_clip40-40.png
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'printed in words: "the two times". locus as first keyed: i.64, "the difference of the two times", line 3 of the verse'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 186 (PDF 47): i.64, "the difference of the two times", line 3 of the verse'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 40, 355, 175]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.desantara.finding.i65.suryasiddhanta_burgess_1860
+  value: 'And divide by sixty: the result, in yojanas, indicates the distance of the observer from the meridian, to the east or to the west, upon his own parallel; and by means of that is made the correction for difference of longitude.'
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 186
+  pdf_page: 47
+  locus: i.65, the whole verse, "And" to "longitude."; Latin text convention, line-end hyphens joined
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 165, 201.5, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p47_600dpi_r1c1_clip40-165.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 165, 355, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p47_600dpi_r1c2_clip40-165.png
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 186 (PDF 47): i.65, the whole verse, "And" to "longitude."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 165, 355, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.desantara.finding.i65.n1.suryasiddhanta_burgess_1860
+  value: 60
+  form: integer
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 186
+  pdf_page: 47
+  locus: i.65, "divide by …", line 1 of the verse
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 165, 201.5, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p47_600dpi_r1c1_clip40-165.png
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'printed in words: "divide by sixty" (a divisor). locus as first keyed: i.65, "divide by sixty", line 1 of the verse'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 186 (PDF 47): i.65, "divide by sixty", line 1 of the verse'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 165, 201.5, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.gati.rule.ii47.suryasiddhanta_burgess_1860
+  value: From the mean daily motion of the moon subtract the daily motion of its apsis (manda), and, having treated the difference in the manner prescribed by the next rule, apply the result, as an additive or subtractive equation, to the daily motion.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 221
+  pdf_page: 82
+  locus: ii.47, the whole verse, "From" to "motion."; printed p. 221 (PDF 82), after the note on ii.46; Latin text convention, line-end hyphens joined
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 240, 201.5, 430]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p82_600dpi_r1c1_clip40-240.png (line 1)
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 240, 355, 430]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p82_600dpi_r1c2_clip40-240.png (line 1)
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 420, 201.5, 595]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p82_600dpi_r1c1_clip40-420.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 420, 355, 595]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p82_600dpi_r1c2_clip40-420.png
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: '"differ-" / "ence" line-end hyphen joined. manda italic in print. No number stated. No suryasiddhanta_burgess_1860_reprint erratum checked for this page (outside suryasiddhanta_burgess_1860_reprint pp. 37-48).'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 221 (PDF 82): ii.47, the whole verse, "From" to "motion."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 240, 355, 595]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.gati.rule.ii48.suryasiddhanta_burgess_1860
+  value: 'The equation of a planet''s daily motion is to be calculated like the place of the planet in the process for the apsis: multiply the daily motion by the difference of tabular sines corresponding to the base-sine (dorjyâ) of anomaly, and then divide by two hundred and twenty-five;'
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 221
+  pdf_page: 82
+  locus: ii.48, the whole verse, "The equation" to "…;"; Latin text convention, line-end hyphens joined
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 420, 201.5, 595]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p82_600dpi_r1c1_clip40-420.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 420, 355, 595]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p82_600dpi_r1c2_clip40-420.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 1500
+    clip: [150, 481, 240, 497]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'suryasiddhanta_burgess_1860_p82_1500dpi_clip150-481.png (enlarged: dorjyâ)'
+  status: double_read
+  verified_by: [authority/suryasiddhanta/whitney_moon_true_daily_motion, authority/suryasiddhanta/whitney_mars_true_daily_motion, authority/suryasiddhanta/rao_true_daily_motion_sun_moon, authority/suryasiddhanta/rao_saturn_true_daily_motion]
+  emendation: null
+  notes: 'line-end hyphens joined: "multi-" / "ply", "corre-" / "sponding". The hyphen in "twenty-five" is mid-line (part of the word). dorjyâ italic, j undotted, â with circumflex. locus as first keyed: ii.48, the whole verse, "The equation" to "twenty-five;"; Latin text convention, line-end hyphens joined'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 221 (PDF 82): ii.48, the whole verse, "The equation" to "twenty-five;"; with ii.47 (the Moon), ii.49 (the epicycle and the sign) and ii.50-51 (the conjunction)'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 420, 355, 595]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  procedure: gati.equation_of_motion
+- key: texts.suryasiddhanta.procedures.gati.rule.ii48.n1.suryasiddhanta_burgess_1860
+  value: 225
+  form: integer
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 221
+  pdf_page: 82
+  locus: ii.48, last line of the verse, "divide by …"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 420, 201.5, 595]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p82_600dpi_r1c1_clip40-420.png
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'printed in words: "two hundred and twenty-five" (a divisor). locus as first keyed: ii.48, last line of the verse, "divide by two hundred and twenty-five"'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 221 (PDF 82): ii.48, last line of the verse, "divide by two hundred and twenty-five"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 420, 201.5, 595]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.gati.rule.ii49.suryasiddhanta_burgess_1860
+  value: Multiply the result by the corresponding epicycle of the apsis (mandaparidhi), and divide by the number of degrees in a circle (bhagaṇa); the result, in minutes, is additive when in the half-orbit beginning with Çancer, and subtractive when in that beginning with Capricorn.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 221
+  pdf_page: 82
+  locus: ii.49, the whole verse, "Multiply" to "Capricorn."; Latin text convention, line-end hyphens joined
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 420, 201.5, 595]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p82_600dpi_r1c1_clip40-420.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 420, 355, 595]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p82_600dpi_r1c2_clip40-420.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 1500
+    clip: [140, 530, 215, 547]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'suryasiddhanta_burgess_1860_p82_1500dpi_clip140-530.png (enlarged: the C of Cancer)'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Doubtful character: the C of "Cancer" carries a mark below like a cedilla on the enlarged clip; keyed as printed (Ç), probably a type defect or misprint, not corrected. "half-orbit" hyphen mid-line (part of the word). bhagaṇa printed with a dot below the n. No number stated (the "number of degrees in a circle" is named, not given).'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 221 (PDF 82): ii.49, the whole verse, "Multiply" to "Capricorn."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 420, 355, 595]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.gati.rule.ii50.suryasiddhanta_burgess_1860
+  value: Subtract the daily motion of a planet, thus corrected for the apsis (manda), from the daily motion of its conjunction (çîghra); then multiply the remainder by the difference between the last hypothenuse and radius,
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 223
+  pdf_page: 84
+  locus: ii.50, the whole verse, "Subtract" to "radius,"; it runs on into ii.51; Latin text convention, line-end hyphens joined
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 395, 201.5, 530]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p84_600dpi_r1c1_clip40-395.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 395, 355, 530]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p84_600dpi_r1c2_clip40-395.png
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: çîghra italic in print, with cedilla and circumflex. No number stated.
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 223 (PDF 84): ii.50, the whole verse, "Subtract" to "radius,"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 395, 355, 530]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.gati.rule.ii51.suryasiddhanta_burgess_1860
+  value: 'And divide by the variable hypothenuse (cala karṇa): the result is additive to the daily motion when the hypothenuse is greater than radius, and subtractive when this is less; if, when subtractive, the equation is greater than the daily motion, deduct the latter from it, and the remainder is the daily motion in a retrograde (vakra) direction.'
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 223
+  pdf_page: 84
+  locus: ii.51, the whole verse, "And divide" to "direction."; Latin text convention, line-end hyphens joined
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 395, 201.5, 530]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p84_600dpi_r1c1_clip40-395.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 395, 355, 530]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p84_600dpi_r1c2_clip40-395.png
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: '"cala karṇa" printed as two words, italic, dot below the n. vakra italic. No number stated.'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 223 (PDF 84): ii.51, the whole verse, "And divide" to "direction."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 395, 355, 530]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.declination.with_latitude.ii58.suryasiddhanta_burgess_1860
+  value: 'When latitude and declination (apakrama) are of like direction, the declination (krânti) is increased by the latitude; when of different direction, it is diminished by it, to find the true (spashṭa) declination: that of the sun remains as already determined.'
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 228
+  pdf_page: 89
+  locus: ii.58, the whole verse, "When" to "determined."; Latin text convention, line-end hyphens joined
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 250, 201.5, 310]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p89_600dpi_r1c1_clip40-250.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 250, 355, 310]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p89_600dpi_r1c2_clip40-250.png
+  status: double_read
+  verified_by: [authority/suryasiddhanta/whitney_declination]
+  emendation: null
+  notes: spashṭa printed with a dot below the t; apakrama, krânti, spashṭa italic. No number stated.
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 228 (PDF 89): ii.58, the whole verse, "When" to "determined."; the Sun''s declination ''remains as already determined'': ii.28 (texts.suryasiddhanta.declination.rule) with the sine of greatest declination texts.suryasiddhanta.obliquity'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 250, 355, 310]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  procedure: declination.rsine_obliquity
+- key: texts.suryasiddhanta.procedures.half_day.planet_day.ii59.suryasiddhanta_burgess_1860
+  value: 'Multiply the daily motion of a planet by the time of rising of the sign in which it is, and divide by eighteen hundred; the quotient add to, or subtract from, the number of respirations in a revolution: the result is the number of respirations in the day and night of that planet.'
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 231
+  pdf_page: 92
+  locus: ii.59, the whole verse, "Multiply" to "planet."; the whole verse is on printed p. 231 (PDF 92); Whitney's note follows and runs on to p. 232; Latin text convention, line-end hyphens joined
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 350, 201.5, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p92_600dpi_r1c1_clip40-350.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 350, 355, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p92_600dpi_r1c2_clip40-350.png
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'line-end hyphens joined: "hun-" / "dred", "respi-" / "rations". The list expected pp. 231-232; the verse itself is entirely on p. 231.'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 231 (PDF 92): ii.59, the whole verse, "Multiply" to "planet."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 350, 355, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.half_day.planet_day.ii59.n1.suryasiddhanta_burgess_1860
+  value: 1800
+  form: integer
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 231
+  pdf_page: 92
+  locus: ii.59, "divide by …", lines 2-3 of the verse
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 350, 355, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p92_600dpi_r1c2_clip40-350.png
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'printed in words: "eighteen hundred" (a divisor; split "hun-" / "dred" across the line end). locus as first keyed: ii.59, "divide by eighteen hundred", lines 2-3 of the verse'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 231 (PDF 92): ii.59, "divide by eighteen hundred", lines 2-3 of the verse'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 350, 355, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.half_day.day_radius.ii60.suryasiddhanta_burgess_1860
+  value: 'Calculate the sine and versed sine of declination: then radius, diminished by the versed-sine, is the day-radius: it is either south or north.'
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 232
+  pdf_page: 93
+  locus: ii.60, the whole verse, "Calculate" to "north."; the whole verse is on printed p. 232 (PDF 93); Latin text convention, line-end hyphens joined
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 240, 201.5, 285]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p93_600dpi_r1c1_clip40-240.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 240, 355, 285]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p93_600dpi_r1c2_clip40-240.png
+  status: double_read
+  verified_by: [authority/suryasiddhanta/whitney_sun_day_radius, authority/suryasiddhanta/whitney_washington_day_night]
+  emendation: null
+  notes: printed "versed sine" (two words) in line 1 and "versed-sine" (hyphen mid-line) in line 2; both keyed as printed. The list expected pp. 232-233; the verse is entirely on p. 232. No number stated.
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 232 (PDF 93): ii.60, the whole verse, "Calculate" to "north."; with ii.61-62a (procedures.cara.day_night) and iii.17b (texts.suryasiddhanta.gnomon.palabha_from_latitude.iii17b.suryasiddhanta_burgess_1860)'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 240, 355, 285]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  procedure: ascensional_difference.palabha_versine
+- key: texts.suryasiddhanta.procedures.endings.naksatra.ii64.suryasiddhanta_burgess_1860
+  value: 'The portion (bhoga) of an asterism (bha) is eight hundred minutes; of a lunar day (tithi), in like manner, seven hundred and twenty. If the longitude of a planet, in minutes, be divided by the portion of an asterism, the result is its position in asterisms: by means of the daily motion are found the days, etc.'
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 235
+  pdf_page: 96
+  locus: ii.64, the whole verse, "The portion" to "etc."; Latin text convention, line-end hyphens joined
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 68, 201.5, 138]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p96_600dpi_r1c1_clip40-68.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 68, 355, 138]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p96_600dpi_r1c2_clip40-68.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 125, 201.5, 190]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p96_600dpi_r1c1_clip40-125.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 125, 355, 190]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p96_600dpi_r1c2_clip40-125.png
+  status: double_read
+  verified_by: [authority/suryasiddhanta/whitney_moon_asterism, authority/suryasiddhanta/whitney_yoga, authority/suryasiddhanta/whitney_karana]
+  emendation: null
+  notes: '"aster-" / "isms" line-end hyphen joined.'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 235 (PDF 96): ii.64, the whole verse, "The portion" to "etc."; with ii.65-66 (the minutes to come times sixty divided by the motion, in nadis)'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 68, 355, 190]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  procedure: ending.proportional_parts
+- key: texts.suryasiddhanta.procedures.endings.naksatra.ii64.n1.suryasiddhanta_burgess_1860
+  value: 800
+  form: integer
+  unit: minutes
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 235
+  pdf_page: 96
+  locus: ii.64, "is … minutes", lines 1-2 of the verse
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 68, 355, 138]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p96_600dpi_r1c2_clip40-68.png
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'printed in words: "eight hundred minutes" (the portion of an asterism). locus as first keyed: ii.64, "is eight hundred minutes", lines 1-2 of the verse'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 235 (PDF 96): ii.64, "is eight hundred minutes", lines 1-2 of the verse'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 68, 355, 138]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.endings.naksatra.ii64.n2.suryasiddhanta_burgess_1860
+  value: 720
+  form: integer
+  unit: minutes
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 235
+  pdf_page: 96
+  locus: ii.64, "…", lines 2-3 of the verse
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 68, 355, 138]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p96_600dpi_r1c2_clip40-68.png
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'printed in words: "in like manner, seven hundred and twenty" (the portion of a lunar day; the unit minutes carried over from the preceding clause, not repeated). locus as first keyed: ii.64, "seven hundred and twenty", lines 2-3 of the verse'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 235 (PDF 96): ii.64, "seven hundred and twenty", lines 2-3 of the verse'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 68, 355, 138]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.endings.yoga.ii65.suryasiddhanta_burgess_1860
+  value: 'From the number of minutes in the sum of the longitudes of the sun and moon are found the yogas, by dividing that sum by the portion (bhoga) of an asterism. Multiply the minutes past and to come of the current yoga by sixty, and divide by the sum of the daily motions of the two planets: the result is the time in nâḍîs.'
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 235
+  pdf_page: 96
+  locus: ii.65, the whole verse, "From" to "nâḍîs."; printed p. 235 (PDF 96), not p. 236 as the list expected; Latin text convention, line-end hyphens joined
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 400, 201.5, 480]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p96_600dpi_r1c1_clip40-400.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 400, 355, 480]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p96_600dpi_r1c2_clip40-400.png
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: Found on printed p. 235 (PDF 96), at the foot of the page; the list gave 236 (97), where Whitney's note on it continues. yogas italic in line 2; "yoga" in line 4 roman. nâḍîs with dot below the d.
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 235 (PDF 96): ii.65, the whole verse, "From" to "nâḍîs."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 400, 355, 480]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.endings.yoga.ii65.n1.suryasiddhanta_burgess_1860
+  value: 60
+  form: integer
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 235
+  pdf_page: 96
+  locus: ii.65, "by …", line 4 of the verse
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 400, 355, 480]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p96_600dpi_r1c2_clip40-400.png
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'printed in words: "Multiply ... by sixty" (a multiplier). locus as first keyed: ii.65, "by sixty", line 4 of the verse'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 235 (PDF 96): ii.65, "by sixty", line 4 of the verse'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 400, 355, 480]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.endings.yoga.ii65.n2.suryasiddhanta_burgess_1860
+  value: 2
+  form: integer
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 235
+  pdf_page: 96
+  locus: ii.65, "the … planets", line 5 of the verse
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 400, 355, 480]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p96_600dpi_r1c2_clip40-400.png
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'printed in words: "the two planets". locus as first keyed: ii.65, "the two planets", line 5 of the verse'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 235 (PDF 96): ii.65, "the two planets", line 5 of the verse'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 400, 355, 480]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.endings.tithi.ii66.suryasiddhanta_burgess_1860
+  value: 'From the number of minutes in the longitude of the moon diminished by that of the sun are found the lunar days (tithi), by dividing the difference by the portion (bhoga) of a lunar day. Multiply the minutes past and to come of the current lunar day by sixty, and divide by the difference of the daily motions of the two planets: the result is the time in nâḍîs.'
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 236
+  pdf_page: 97
+  locus: ii.66, the whole verse, "From" to "nâḍîs."; the whole verse is on printed p. 236 (PDF 97); Latin text convention, line-end hyphens joined
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 440, 201.5, 510]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p97_600dpi_r1c1_clip40-440.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 440, 355, 510]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p97_600dpi_r1c2_clip40-440.png
+  status: double_read
+  verified_by: [authority/suryasiddhanta/whitney_tithi]
+  emendation: null
+  notes: The list expected pp. 236-237; the verse is entirely on p. 236 (Whitney's note runs on to p. 237).
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 236 (PDF 97): ii.66, the whole verse, "From" to "nâḍîs."; with ii.64 (''by means of the daily motion are found the days, etc.'') and i.67 (a place at a time of the day by proportion of the daily motion)'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 440, 355, 510]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  procedure: intraday.linear_gati
+- key: texts.suryasiddhanta.procedures.endings.tithi.ii66.n1.suryasiddhanta_burgess_1860
+  value: 60
+  form: integer
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 236
+  pdf_page: 97
+  locus: ii.66, "by …", line 5 of the verse
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 440, 201.5, 510]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p97_600dpi_r1c1_clip40-440.png
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'printed in words: "Multiply ... by sixty" (a multiplier). locus as first keyed: ii.66, "by sixty", line 5 of the verse'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 236 (PDF 97): ii.66, "by sixty", line 5 of the verse'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 440, 201.5, 510]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.endings.tithi.ii66.n2.suryasiddhanta_burgess_1860
+  value: 2
+  form: integer
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 236
+  pdf_page: 97
+  locus: ii.66, "the … planets", line 6 of the verse
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 440, 201.5, 510]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p97_600dpi_r1c1_clip40-440.png
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'printed in words: "the two planets". locus as first keyed: ii.66, "the two planets", line 6 of the verse'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 236 (PDF 97): ii.66, "the two planets", line 6 of the verse'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 440, 201.5, 510]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.endings.karana.ii67.suryasiddhanta_burgess_1860
+  value: The fixed (dhruva) karaṇas, namely çakuni, nâga, catushpada the third, and kinstughna, are counted from the latter half of the fourteenth day of the dark half-month.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 237
+  pdf_page: 98
+  locus: ii.67, the whole verse, "The fixed" to "…-month."; printed p. 237 (PDF 98); Latin text convention, line-end hyphens joined
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 295, 201.5, 335]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p98_600dpi_r1c1_clip40-295.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 295, 355, 335]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p98_600dpi_r1c2_clip40-295.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 315, 201.5, 410]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p98_600dpi_r1c1_clip40-315.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 315, 355, 410]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p98_600dpi_r1c2_clip40-315.png
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: '"catush-" / "pada" line-end hyphen joined (a single italic word, not a compound hyphen). karaṇas, çakuni, nâga, catushpada, kinstughna italic. "half-month" hyphen mid-line. locus as first keyed: ii.67, the whole verse, "The fixed" to "half-month."; printed p. 237 (PDF 98); Latin text convention, line-end hyphens joined'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 237 (PDF 98): ii.67, the whole verse, "The fixed" to "half-month."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 295, 355, 410]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.endings.karana.ii67.n1.suryasiddhanta_burgess_1860
+  value: 3
+  form: integer
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 237
+  pdf_page: 98
+  locus: ii.67, "catushpada the …", line 2 of the verse
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 315, 201.5, 410]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p98_600dpi_r1c1_clip40-315.png
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'ordinal; printed in words: "the third". locus as first keyed: ii.67, "catushpada the third", line 2 of the verse'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 237 (PDF 98): ii.67, "catushpada the third", line 2 of the verse'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 315, 201.5, 410]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.endings.karana.ii67.n2.suryasiddhanta_burgess_1860
+  value: 1/2
+  form: fraction
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 237
+  pdf_page: 98
+  locus: ii.67, "the latter … of the … day", line 2 of the verse
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 315, 355, 410]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p98_600dpi_r1c2_clip40-315.png
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'printed in words: "the latter half" (of the fourteenth day). The "half" of "half-month" at the end of the verse names the lunar fortnight and is not keyed as a number. locus as first keyed: ii.67, "the latter half of the fourteenth day", line 2 of the verse'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 237 (PDF 98): ii.67, "the latter half of the fourteenth day", line 2 of the verse'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 315, 355, 410]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.endings.karana.ii67.n3.suryasiddhanta_burgess_1860
+  value: 14
+  form: integer
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 237
+  pdf_page: 98
+  locus: ii.67, "of the … day", line 3 of the verse
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 315, 201.5, 410]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p98_600dpi_r1c1_clip40-315.png
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'ordinal; printed in words: "the fourteenth day". locus as first keyed: ii.67, "of the fourteenth day", line 3 of the verse'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 237 (PDF 98): ii.67, "of the fourteenth day", line 3 of the verse'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 315, 201.5, 410]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.endings.karana.ii68.suryasiddhanta_burgess_1860
+  value: 'After these, the karaṇas called movable (cara), namely bava, etc., seven of them: each of these karaṇas occurs eight times in a month.'
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 237
+  pdf_page: 98
+  locus: ii.68, the whole verse, "After" to "month."; Latin text convention, line-end hyphens joined
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 315, 201.5, 410]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p98_600dpi_r1c1_clip40-315.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 315, 355, 410]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p98_600dpi_r1c2_clip40-315.png
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: karaṇas roman in this verse (dot below the n); cara and bava italic.
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 237 (PDF 98): ii.68, the whole verse, "After" to "month."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 315, 355, 410]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.endings.karana.ii68.n1.suryasiddhanta_burgess_1860
+  value: 7
+  form: integer
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 237
+  pdf_page: 98
+  locus: ii.68, "… of them", line 2 of the verse
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 315, 201.5, 410]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p98_600dpi_r1c1_clip40-315.png
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'printed in words: "seven of them" (the number of movable karaṇas). locus as first keyed: ii.68, "seven of them", line 2 of the verse'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 237 (PDF 98): ii.68, "seven of them", line 2 of the verse'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 315, 201.5, 410]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.endings.karana.ii68.n2.suryasiddhanta_burgess_1860
+  value: 8
+  form: integer
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 237
+  pdf_page: 98
+  locus: ii.68, "occurs … times in a month", lines 2-3 of the verse
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 315, 355, 410]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p98_600dpi_r1c2_clip40-315.png
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'printed in words: "eight times". locus as first keyed: ii.68, "occurs eight times in a month", lines 2-3 of the verse'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 237 (PDF 98): ii.68, "occurs eight times in a month", lines 2-3 of the verse'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 315, 355, 410]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.endings.karana.ii69.suryasiddhanta_burgess_1860
+  value: Half the portion (bhoga) of a lunar day is established as that of the karaṇas Thus has been declared the corrected (sphuṭa) motion of the sun and the other planets.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 237
+  pdf_page: 98
+  locus: 'ii.69, the whole verse in two parts: the first half "… the portion" to "karaṇas" on printed p. 237 (PDF 98), ending with a row of four dots; Whitney''s note on the karaṇas (with the table of the eleven karaṇas) intervenes; the second half "Thus has been declared" to "planets." on printed p. 238 (PDF 99), introduced by "…" and four dots; Latin text convention, line-end hyphens joined'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 315, 201.5, 410]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p98_600dpi_r1c1_clip40-315.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 315, 355, 410]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p98_600dpi_r1c2_clip40-315.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 120, 201.5, 250]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p99_600dpi_r1c1_clip40-120.png (second half, p. 238)
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 120, 355, 250]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p99_600dpi_r1c2_clip40-120.png (second half, p. 238)
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'The halves say different things: the first half (ending at "karaṇas", p. 237) gives the portion of a karaṇa as half that of a lunar day; the second half (p. 238) is the closing statement of the chapter (Whitney: "The remaining half-verse is simply a winding-up of the chapter."). The four dots after "karaṇas" and before "Thus" mark the verse division and are not keyed (convention), so the two halves are joined by a single space with no punctuation between them, as printed without the dots. "mo-" / "tion" line-end hyphen joined. sphuṭa with dot below the t. locus as first keyed: ii.69, the whole verse in two parts: the first half "Half the portion" to "karaṇas" on printed p. 237 (PDF 98), ending with a row of four dots; Whitney''s note on the karaṇas (with the table of the eleven karaṇas) intervenes; the second half "Thus has been declared" to "planets." on printed p. 238 (PDF 99), introduced by "69." and four dots; Latin text convention, line-end hyphens joined'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 237 (PDF 98): ii.69, the whole verse in two parts: the first half "Half the portion" to "karaṇas" on printed p. 237 (PDF 98), ending with a row of four dots'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 315, 355, 410]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.endings.karana.ii69.n1.suryasiddhanta_burgess_1860
+  value: 1/2
+  form: fraction
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 237
+  pdf_page: 98
+  locus: ii.69, first half, "… the portion (bhoga) of a lunar day", line 1 of the verse
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 315, 201.5, 410]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p98_600dpi_r1c1_clip40-315.png
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'printed in words: "Half" (the first word of the verse). locus as first keyed: ii.69, first half, "Half the portion (bhoga) of a lunar day", line 1 of the verse'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 237 (PDF 98): ii.69, first half, "Half the portion (bhoga) of a lunar day", line 1 of the verse'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 315, 201.5, 410]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.declination.argument.iii9.suryasiddhanta_burgess_1860
+  value: In an Age (yuga), the circle of the asterisms (bha) falls back eastward thirty score of revolutions. Of the result obtained after multiplying the sum of days (dyugaṇa) by this number, and dividing by the number of natural days in an Age,
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 243
+  pdf_page: 104
+  locus: iii.9, the whole verse, "In an Age" to "in an Age,"; verse number not keyed; the verse ends with a comma and its sentence runs on into iii.10; Latin text convention, line-end hyphens joined
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 460, 201.5, 560]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p104_600dpi_r1c1_clip40-460.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 460, 355, 560]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p104_600dpi_r1c2_clip40-460.png
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Line-end hyphens joined: "ob-" / "tained", "num-" / "ber". dyugaṇa with dot below the n. suryasiddhanta_burgess_1860_reprint errata (pp. 37-48 range only) has no entry for this page.'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 243 (PDF 104): iii.9, the whole verse, "In an Age" to "in an Age,"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 460, 355, 560]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.declination.argument.iii9.n1.suryasiddhanta_burgess_1860
+  value: 600
+  form: integer
+  unit: revolutions
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 243
+  pdf_page: 104
+  locus: iii.9, line 2 of the verse, "falls back eastward … of revolutions"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 460, 201.5, 560]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p104_600dpi_r1c1_clip40-460.png
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'printed in words: "thirty score" (thirty times a score of twenty); value is the number the words state. locus as first keyed: iii.9, line 2 of the verse, "falls back eastward thirty score of revolutions"'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 243 (PDF 104): iii.9, line 2 of the verse, "falls back eastward thirty score of revolutions"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 460, 201.5, 560]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.declination.argument.iii10.suryasiddhanta_burgess_1860
+  value: Take the part which determines the sine, multiply it by three, and divide by ten; thus are found the degrees called those of the precession (ayana). From the longitude of a planet as corrected by these are to be calculated the declination, shadow, ascensional difference (caradala), etc.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 243
+  pdf_page: 104
+  locus: iii.10, the whole verse, "Take the part" to "etc."; verse number not keyed; Latin text convention, line-end hyphens joined
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 460, 201.5, 560]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p104_600dpi_r1c1_clip40-460.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 460, 355, 560]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p104_600dpi_r1c2_clip40-460.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 1500
+    clip: [185, 500, 245, 516]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p104_1500dpi_clip185-500.png (enlarged, upsampled; the word "determines")
+  status: double_read
+  verified_by: [authority/suryasiddhanta/whitney_precession_example]
+  emendation: null
+  notes: 'Doubtful mark: a stray speck stands above the second e of "determines" (line 1 of the verse); on the enlarged clip it is a detached dot, not part of a letter; keyed "determines". "calcu-" / "lated" line-end hyphen joined. Space before the semicolon after "ten" normalised.'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 243 (PDF 104): iii.10, the whole verse, "Take the part" to "etc."; with iii.9 (procedures.declination.argument.iii9.suryasiddhanta_burgess_1860) for the part of a revolution'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 460, 355, 560]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  procedure: declination_argument.ayana_corrected_true_longitude
+  provisional: the sign of the precession is not stated as read (iii.9-12a); the engine adds it while the part of a revolution lies in the half from 180 degrees, as suryasiddhanta_burgess_1860's worked example does (fixture whitney_precession_example with whitney_sun_day_length), and subtracts it in the other half; ruling (i) of 2026-10-22
+- key: texts.suryasiddhanta.procedures.declination.argument.iii10.n1.suryasiddhanta_burgess_1860
+  value: 3
+  form: integer
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 243
+  pdf_page: 104
+  locus: iii.10, lines 1-2 of the verse, "multiply it by …"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 460, 201.5, 560]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p104_600dpi_r1c1_clip40-460.png
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'printed in words: "by three". locus as first keyed: iii.10, lines 1-2 of the verse, "multiply it by three"'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 243 (PDF 104): iii.10, lines 1-2 of the verse, "multiply it by three"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 460, 201.5, 560]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.declination.argument.iii10.n2.suryasiddhanta_burgess_1860
+  value: 10
+  form: integer
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 243
+  pdf_page: 104
+  locus: iii.10, line 2 of the verse, "and divide by …"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 460, 201.5, 560]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p104_600dpi_r1c1_clip40-460.png
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'printed in words: "by ten". locus as first keyed: iii.10, line 2 of the verse, "and divide by ten"'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 243 (PDF 104): iii.10, line 2 of the verse, "and divide by ten"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 460, 201.5, 560]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.declination.argument.iii11.suryasiddhanta_burgess_1860
+  value: The circle, as thus corrected, accords with its observed place at the solstice (ayana) and at either equinox; it has moved eastward, when the longitude of the sun, as obtained by calculation, is less than that derived from the shadow,
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 244
+  pdf_page: 105
+  locus: iii.11, the whole verse, "The circle" to "from the shadow,"; verse number not keyed; the sentence runs on into iii.12; Latin text convention, line-end hyphens joined
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 50, 201.5, 130]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p105_600dpi_r1c1_clip40-50.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 50, 355, 130]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p105_600dpi_r1c2_clip40-50.png
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: '"calcu-" / "lation" line-end hyphen joined. Space before the semicolon after "equinox" normalised. No number stated.'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 244 (PDF 105): iii.11, the whole verse, "The circle" to "from the shadow,"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 50, 355, 130]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.declination.argument.iii12a.suryasiddhanta_burgess_1860
+  value: By the number of degrees of the difference; then, turning back, it has moved westward by the amount of difference, when the calculated longitude is greater
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 244
+  pdf_page: 105
+  locus: iii.12, first half, "By the number" to "is greater"; verse number not keyed; the half ends at the half-verse mark (a row of dots) after "greater", mid-sentence; Latin text convention, line-end hyphens joined
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 110, 201.5, 160]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p105_600dpi_r1c1_clip40-110.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 110, 355, 160]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p105_600dpi_r1c2_clip40-110.png
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'The print shows the half-verse mark, not a sentence end: four dots follow "greater" (the sentence is incomplete there); the dots are not keyed and no period is added. The first half is wholly on p. 244 (PDF 105); Whitney''s long note follows and the second half resumes on p. 249 (PDF 110). Space before the semicolon after "difference" normalised. No number stated.'
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 244 (PDF 105): iii.12, first half, "By the number" to "is greater"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 110, 355, 160]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.procedures.sunrise.statement.xiv18.suryasiddhanta_burgess_1860
+  value: From rising to rising of the sun, that is called civil (sâvana) reckoning. By that are determined the civil days (sâvana), and by these is the regulation of the time of sacrifice;
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 416
+  pdf_page: 277
+  locus: xiv.18, the whole verse, "From rising" to "of sacrifice;"; verse number not keyed; Latin text convention, line-end hyphens joined
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 345, 201.5, 407.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p277_600dpi_r1c1_clip40-345.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 345, 355, 407.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p277_600dpi_r1c2_clip40-345.png
+  status: double_read
+  verified_by: [authority/suryasiddhanta/whitney_washington_day_night]
+  emendation: null
+  notes: sâvana italic, circumflex on the first a (twice). Space before the closing semicolon normalised. No number stated.
+  basis: stated
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 416 (PDF 277): xiv.18, the whole verse, "From rising" to "of sacrifice;"; with ii.61-63 (procedures.cara.day_night): half the night is the quarter of the day and night less the ascensional difference while the declination is north'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 345, 355, 407.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  procedure: sunrise.surya_quarter_day_less_cara
+- key: texts.suryasiddhanta.procedures.sunrise.statement.xiv19.suryasiddhanta_burgess_1860
+  value: 'Likewise the removal of uncleanness from child-bearing etc., and the regents of days, months, and years: the mean motion of the planets, too, is computed by civil time.'
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 416
+  pdf_page: 277
+  locus: xiv.19, the whole verse, "Likewise" to "civil time."; verse number not keyed; Latin text convention, line-end hyphens joined
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 345, 201.5, 407.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p277_600dpi_r1c1_clip40-345.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 345, 355, 407.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p277_600dpi_r1c2_clip40-345.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 399.5, 201.5, 462]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p277_600dpi_r2c1_clip40-345.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 399.5, 355, 462]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p277_600dpi_r2c2_clip40-345.png
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: '"child-bearing" hyphenated mid-line, kept. "mo-" / "tion" line-end hyphen joined. A small speck stands above the a of "uncleanness" (not a letter). Space before the colon after "years" normalised. "days, months, and years" are named units, not numbers; no number stated.'
+  basis: fallback_no_stated_rule
+  basis_ref: 'composed of i.67 (procedures.epoch_advance.rule: the means carried at mean motion to a given time), ii.61-63 (procedures.cara.day_night: the cara moves the sunrise) and xiv.19 (suryasiddhanta_burgess_1860 printed p. 416, PDF 277: the mean motions computed by civil time); no verse applies the cara to a place (procedures.cara.application, searched twice)'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 345, 355, 462]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  procedure: carry.cara_sunrise_mean_elements
+  acts_on: mean_before_equation
+  motion: mean
+  applies_to: [all_elements]
+  no_printed_example:
+    second_witness: texts.suryasiddhanta.procedures.time_reckoning.whitney_note_xiv18
+    external: pending
+- key: texts.suryasiddhanta.procedures.ending_rounding
+  status: gap
+  reason: no verse of ii.64-69, and no note of Whitney's on them, states how an ending time (of a nakṣatra, yoga, tithi or karaṇa) is rounded or truncated
+  searched: suryasiddhanta_burgess_1860 ii.64-69, the verses and Whitney's notes on them, PDF 96-99 (printed 235-238), including the top of PDF 96 where the note on ii.61-63 ends; ii.65 stands on printed p. 235 (PDF 96) rather than p. 236 as listed.
+  effect: the Sūrya-siddhānta's ending times are reported unrounded in the text's units; any rounding is a convention of the report, recorded as such
+  source: suryasiddhanta_burgess_1860
+  notes: 'Reader''s note: The verses give the rules for the asterism (nakshatra), yoga, lunar day (tithi) and karana: the portion passed and the portion to come, found from the longitudes and turned into time by the daily motions. Neither the verses nor Whitney''s notes on them state how the resulting ending time is rounded or truncated; Whitney''s worked figures are printed to a last unit with no rule given for it.'
+- key: texts.suryasiddhanta.procedures.time_reckoning
+  status: gap
+  reason: no verse states whether the day's time is mean or apparent solar time, nor how the sunrise used is reckoned; the identification with mean solar time is the translators' (Whitney's note on xiv.18-19)
+  searched: 'suryasiddhanta_burgess_1860: i.10-14 with notes, PDF 9-13 (printed 148-152); i.59-67 with notes, PDF 43-48 (printed 182-187); ii.46 and its note, PDF 81-82 (printed 220-221); ii.59-63 with notes, PDF 92-96 (printed 231-235); iii.1-23, verse openings, PDF 100-114 (printed 239-253; iii.1-6 begin on PDF 100-101, before the listed PDF 102); xiv.1-27 with notes, PDF 270-278 (printed 409-417). Chapter xiv ends on PDF 278; PDF 279-281 are the Appendix and were not searched. Not read: the right half of the table on PDF 271 and the lower table tiles of PDF 275 (tabular figures only).'
+  effect: the sunrise is the one ii.58-63 and i.67 imply; local times are reported in the text's reckoning with Whitney's identification cited as an editor's statement, not as the text's
+  source: suryasiddhanta_burgess_1860
+  notes: 'Nearest statements: nearest statements (not an answer to mean vs apparent): xiv.18-19, PDF 277 (printed 416), civil day counted from rising to rising and mean motions computed by civil time; i.66-67, PDF 47-48 (printed 186-187), places reckoned from midnight on the prime meridian. Reader''s note: No verse says whether the day''s time is mean or apparent (true) solar time, and none says how the sunrise used is computed (no rule for true versus mean sunrise, refraction or the sun''s disc). What the verses do state: the units of time up to the sidereal day, and the civil month as so many sunrises (i.11-12); the civil (sâvana) day reckoned from one rising to the next, and the mean motions of the planets computed by civil time (xiv.18-19); the mean places found for midnight on the prime meridian, reduced to another hour by proportion (i.67), with the week-day beginning earlier or later east and west of that meridian (i.66). The identification with mean solar time is the translators'' own: Whitney''s note on xiv.18-19 equates the civil reckoning, in its general sense, with mean solar time, and the translators'' contents heading of chapter xiv glosses xiv.18-19 likewise; Whitney''s note on i.12-13 says the civil day runs sunrise to sunrise and varies in length, and that in Southern India a month or year is counted from the sunrise nearest its actual beginning; his notes on ii.59 and ii.61-63 express the computed day lengths in mean solar time; his note on ii.46 says the correction there allows for part of what is called the equation of time. In chapter xiv the solar (saura) measure is defined by the sun''s actual motion (xiv.3 and note), but that is a measure of the solar month and year, not of the time of day.'

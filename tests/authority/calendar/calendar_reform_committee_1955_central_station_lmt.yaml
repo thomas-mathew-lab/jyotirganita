@@ -1,0 +1,157 @@
+id: authority/calendar/calendar_reform_committee_1955_central_station_lmt
+methods: [calendar]
+class: editor_computed
+source: calendar_reform_committee_1955
+file: calendar_reform_committee_1955-calendar-reform-committee-1955.pdf
+edition_page: 14
+pdf_page: 26
+locus: 'calendar_reform_committee_1955 printed p. 14, left column, item 33 "All-India Central Station": the first paragraph (the offset of Indian time from Universal Time) and the second paragraph''s last sentence (the place, by its longitude east of Greenwich)'
+rounding: 'as printed: the offset to half an hour, the longitude to half a degree'
+precision: 'print quantum: half an hour of time (the offset); half a degree of longitude, two minutes of time (the place)'
+datum_keys: [time_standards.ist.definition.calendar_reform_committee_1955]
+notes: 'The Committee''s own statement of the offset of Indian time from Universal Time and of the place recognised as the Central Station (class editor_computed: a modern body''s statement, not a text''s arithmetic). Second witness of the offset in calendar_reform_committee_1955 itself: time_standards.ist.definition.calendar_reform_committee_1955 (printed [40], PDF 52). The longitude''s fraction on p. 14 is filled in by the printing; recommendation (8) on printed p. 7 (PDF 19, right column) prints the same place''s longitude with a legible fraction, and the read of p. 14 was checked against that tile (clip [485, 668, 525, 687], 900 dpi upsampled, native 300 ppi). Caveat (condition 4): at the Central Station the local mean time is the standard time by definition, so the local-to-standard difference there is zero; this fixture pins the sign, the degrees-to-time scale and the day boundary of the longitude step of the derived UT chain, and no nonzero local-to-standard difference at a Kerala place is printed in calendar_reform_committee_1955 or rashtriya_panchanga_1959.'
+values:
+- name: output.offset_statement
+  role: output
+  value: The Chairman pointed out that it was necessary for international purposes that Indian time should be 5½ hrs. ahead of the Universal Time (Greenwich Time)
+  form: text
+  unit: statement
+  script: latin
+  locus: 'Item 33, the first paragraph, its first sentence: from ''The Chairman'' to ''Greenwich Time)''. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; spacing at punctuation normalised; word spacing otherwise as printed; a printed vulgar fraction keyed as its Unicode character; the prime as U+2032; the value ends before the sentence''s closing full stop, which is not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-16-r1
+    on: 2026-10-16
+    dpi: 300
+    clip: [40, 150, 325, 305]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: one tile at native 300 ppi; the fraction checked in clip [48, 218, 120, 238] at 900 dpi --upsample
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-16-r2
+    on: 2026-10-16
+    dpi: 300
+    clip: [40, 150, 325, 305]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.offset_hours_whole
+  role: output
+  value: 5
+  form: integer
+  unit: hours_ahead_of_ut
+  script: latin
+  locus: 'Item 33, the first paragraph: the whole hours of the offset (before the fraction)'
+  read:
+  - by: claude-opus-5-5/2026-10-16-r1
+    on: 2026-10-16
+    dpi: 900
+    clip: [48, 218, 120, 238]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: --dpi 900 --upsample of native 300 ppi
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-16-r2
+    on: 2026-10-16
+    dpi: 900
+    clip: [48, 218, 120, 238]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.offset_hours_fraction
+  role: output
+  value: 1/2
+  form: fraction
+  unit: hours_ahead_of_ut
+  script: latin
+  locus: 'Item 33, the first paragraph: the vulgar fraction printed after the whole hours of the offset'
+  read:
+  - by: claude-opus-5-5/2026-10-16-r1
+    on: 2026-10-16
+    dpi: 900
+    clip: [48, 218, 120, 238]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: --dpi 900 --upsample of native 300 ppi
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-16-r2
+    on: 2026-10-16
+    dpi: 900
+    clip: [48, 218, 120, 238]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.place_statement
+  role: input
+  value: It was decided that a place (82½°E. of Greenwich) and having the latitude of Ujjain (viz. 23° 11′N) be recognised as the Central Station for India
+  form: text
+  unit: statement
+  script: latin
+  locus: 'Item 33, the second paragraph, its last sentence: from ''It was decided'' to ''for India''. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; spacing at punctuation normalised; word spacing otherwise as printed; a printed vulgar fraction keyed as its Unicode character; the prime as U+2032; the value ends before the sentence''s closing full stop, which is not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-16-r1
+    on: 2026-10-16
+    dpi: 300
+    clip: [40, 295, 325, 370]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: one tile at native 300 ppi; the fraction checked in clip [190, 328, 262, 350] at 900 dpi --upsample
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-16-r2
+    on: 2026-10-16
+    dpi: 300
+    clip: [40, 295, 325, 370]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.longitude_east_whole
+  role: input
+  value: 82
+  form: integer
+  unit: degrees_east
+  script: latin
+  locus: 'Item 33, the second paragraph, the parenthesis naming the place: the whole degrees east of Greenwich (before the fraction)'
+  read:
+  - by: claude-opus-5-5/2026-10-16-r1
+    on: 2026-10-16
+    dpi: 900
+    clip: [190, 328, 262, 350]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: --dpi 900 --upsample of native 300 ppi
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-16-r2
+    on: 2026-10-16
+    dpi: 900
+    clip: [190, 328, 262, 350]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.longitude_east_fraction
+  role: input
+  value: 1/2
+  form: fraction
+  unit: degrees_east
+  script: latin
+  locus: 'Item 33, the second paragraph, the parenthesis naming the place: the vulgar fraction printed after the whole degrees'
+  read:
+  - by: claude-opus-5-5/2026-10-16-r1
+    on: 2026-10-16
+    dpi: 900
+    clip: [190, 328, 262, 350]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: --dpi 900 --upsample of native 300 ppi; the denominator is filled in; checked against p. 7 (PDF 19) recommendation (8), clip [485, 668, 525, 687]
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-16-r2
+    on: 2026-10-16
+    dpi: 900
+    clip: [190, 328, 262, 350]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''

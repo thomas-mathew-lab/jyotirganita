@@ -1,0 +1,362 @@
+id: authority/aryabhatiya/mahabhaskariya_1960_ch8_13_sun
+methods: [aryabhatiya]
+class: editor_computed
+source: mahabhaskariya_1960
+file: mahabhaskariya_1960-mahabhaskariya-shukla-1960.pdf
+edition_page: 35
+pdf_page: 120
+locus: VIII.13 (p. 219, PDF 304; Bhāskara I's problem) solved by Shukla under I.47, 'Example. "The signs, etc., up to the thirds of the Sun's (mean) longitude have all been carried away by the strong wind; the residue of thirds is known to me to be …. …"', pp. 35–36 (PDF 120–121); the answer in VIII.13 footnote 1
+rounding: none (integers)
+precision: integers, as printed
+datum_keys: [texts.aryabhatiya.sun.revolutions, texts.aryabhatiya.civil_days.laghubhaskariya_1963, texts.aryabhatiya.procedures.residue.from_longitude.mahabhaskariya_1960]
+notes: 'Footnote 2 on p. 35: ''MBh, viii. 13.'' The question is Bhāskara I''s (VIII.13); the solution and every figure are Shukla''s (editor_computed). The printed longitude ''3 signs, 32 degrees, 52 minutes, 23 seconds, and 11 thirds'' (p. 36) and ''3 signs 32° 52′23″11‴'' (p. 219) carry an emendation to 7 signs 2° 52′ 23″ 11‴ from the page''s own total of thirds.'
+values:
+- name: input.residue_thirds
+  role: input
+  value: 101
+  form: integer
+  unit: thirds
+  script: latin
+  edition_page: 35
+  pdf_page: 120
+  locus: the 'Example. "The signs, etc., up to the thirds of the Sun's (mean) longitude …"' under I.47 (Shukla's solution of VIII.13), 'the residue of thirds is known to me to be …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 120)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.abraded_sun_revolutions
+  role: input
+  value: 576
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 35
+  pdf_page: 120
+  locus: the 'Example. "The signs, etc., up to the thirds of the Sun's (mean) longitude …"' under I.47 (Shukla's solution of VIII.13), 'The abraded dividend for the Sun = … revolutions'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 120)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.abraded_dividend_thirds
+  role: output
+  value: 44789760000
+  form: integer
+  unit: thirds
+  script: latin
+  edition_page: 35
+  pdf_page: 120
+  locus: the 'Example. "The signs, etc., up to the thirds of the Sun's (mean) longitude …"' under I.47 (Shukla's solution of VIII.13), '= … thirds'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 120)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.abraded_civil_days
+  role: input
+  value: 210389
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 35
+  pdf_page: 120
+  locus: the 'Example. "The signs, etc., up to the thirds of the Sun's (mean) longitude …"' under I.47 (Shukla's solution of VIII.13), the divisor '…' of equation (3).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 120)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.dividend_quotient
+  role: output
+  value: 212890
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 36
+  pdf_page: 121
+  locus: 'the ''Example. "The signs, etc., up to the thirds of the Sun''s (mean) longitude …"'' under I.47 (Shukla''s solution of VIII.13), p. 36 footnote 1, ''… and … are obtained as the quotient and the remainder'': the first figure.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 121)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.dividend_remainder
+  role: output
+  value: 45790
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 36
+  pdf_page: 121
+  locus: 'the ''Example. "The signs, etc., up to the thirds of the Sun''s (mean) longitude …"'' under I.47 (Shukla''s solution of VIII.13), p. 36 footnote 1: the second figure; equation (4) on p. 35 prints the same.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 121)
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 120)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.ahargana
+  role: output
+  value: 106141
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 36
+  pdf_page: 121
+  locus: the 'Example. "The signs, etc., up to the thirds of the Sun's (mean) longitude …"' under I.47 (Shukla's solution of VIII.13), p. 36, 'Hence the solution of the equation (3) is x = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 121)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.reduced_quotient
+  role: output
+  value: 23101
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 36
+  pdf_page: 121
+  locus: the 'Example. "The signs, etc., up to the thirds of the Sun's (mean) longitude …"' under I.47 (Shukla's solution of VIII.13), p. 36, 'Y = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 121)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.thirds
+  role: output
+  value: 22596380591
+  form: integer
+  unit: thirds
+  script: latin
+  edition_page: 36
+  pdf_page: 121
+  locus: the 'Example. "The signs, etc., up to the thirds of the Sun's (mean) longitude …"' under I.47 (Shukla's solution of VIII.13), p. 36, 'y = … x + Y = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 121)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.sun_longitude
+  role: output
+  value: [3, 32, 52, 23, 11]
+  form: rdms
+  unit: rasi_deg_min_sec_thirds
+  script: latin
+  edition_page: 36
+  pdf_page: 121
+  locus: the 'Example. "The signs, etc., up to the thirds of the Sun's (mean) longitude …"' under I.47 (Shukla's solution of VIII.13), p. 36, 'the mean longitude of the Sun is … thirds, i.e., … signs, … degrees, … minutes, … seconds, and … thirds' (signs, degrees, minutes, seconds, thirds).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 121)
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 121)
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [190, 200, 360, 225]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tight clip [190,200,360,225], no tiling (mahabhaskariya_1960 PDF 121): the signs and degrees of the result'
+  status: double_read
+  emendation:
+    printed: [3, 32, 52, 23, 11]
+    adopted: [7, 2, 52, 23, 11]
+    evidence: 'internal arithmetic (inference from the page''s own figures, no second witness): the editor''s printed total of 22596380591 thirds (p. 36, output.thirds) reduces, after 290 whole revolutions of 77760000 thirds, to 45980591 thirds = 7 signs 2° 52′ 23″ 11‴; the printed 52′ 23″ 11‴ agree; a degree part of 32 is not a degree within a sign. The ch. VIII answer (p. 219 footnote 1) repeats the printed figure; it is the same editor''s and not an independent witness.'
+    evidence_indic: false
+    by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    owner_signoff: null
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: answer.ahargana
+  role: output
+  value: 106141
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 219
+  pdf_page: 304
+  locus: 'VIII.13, footnote 1 (''Answer: …''), ''Ahargaṇa = …''.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 304)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: answer.sun_longitude
+  role: output
+  value: [3, 32, 52, 23, 11]
+  form: rdms
+  unit: rasi_deg_min_sec_thirds
+  script: latin
+  edition_page: 219
+  pdf_page: 304
+  locus: 'VIII.13, footnote 1 (''Answer: …''), ''Sun''s mean longitude = … signs …° …′…″…‴''.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 304)
+  status: double_read
+  emendation:
+    printed: [3, 32, 52, 23, 11]
+    adopted: [7, 2, 52, 23, 11]
+    evidence: 'internal arithmetic (inference from the page''s own figures, no second witness): the editor''s printed total of 22596380591 thirds (p. 36, output.thirds) reduces, after 290 whole revolutions of 77760000 thirds, to 45980591 thirds = 7 signs 2° 52′ 23″ 11‴; the printed 52′ 23″ 11‴ agree; a degree part of 32 is not a degree within a sign. The ch. VIII answer (p. 219 footnote 1) repeats the printed figure; it is the same editor''s and not an independent witness.'
+    evidence_indic: false
+    by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    owner_signoff: null
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''

@@ -1,0 +1,278 @@
+id: authority/calendar/bag_2003_julian_days_ex1
+methods: [calendar]
+class: text_computed
+source: bag_2003_julian_days
+edition_page: 31
+pdf_page: 15
+locus: Example 1
+rounding: 'none: whole days'
+precision: null
+datum_keys: [eras.kali.epoch.date.pillai_1911_chronology]
+notes: The author's own arithmetic with the paper's Tables 1–3. A Gregorian date (Table 1 legend 'G').
+values:
+- name: input.date
+  role: input
+  value: 10 July 2001
+  form: text
+  unit: date
+  script: latin
+  locus: 'Example 1: the date Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tiles 1x2 --overlap 8 of this clip (r1c1 [25,90,410,329], r2c1 [25,321,410,560])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.table1_year
+  role: input
+  value: 2000
+  form: integer
+  unit: year
+  script: latin
+  locus: 'Example 1, the Table 1 line: the year'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tiles 1x2 --overlap 8 of this clip (r1c1 [25,90,410,329], r2c1 [25,321,410,560])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.table1_jd
+  role: input
+  value: 2451545
+  form: integer
+  unit: days
+  script: latin
+  locus: 'Example 1, the Table 1 line: JD'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tiles 1x2 --overlap 8 of this clip (r1c1 [25,90,410,329], r2c1 [25,321,410,560])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.table1_ka
+  role: input
+  value: 1863079
+  form: integer
+  unit: days
+  script: latin
+  locus: 'Example 1, the Table 1 line: KA'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tiles 1x2 --overlap 8 of this clip (r1c1 [25,90,410,329], r2c1 [25,321,410,560])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.table2_days
+  role: input
+  value: 365
+  form: integer
+  unit: days
+  script: latin
+  locus: 'Example 1, the Table 2 line: the JD column'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tiles 1x2 --overlap 8 of this clip (r1c1 [25,90,410,329], r2c1 [25,321,410,560])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.table3_days
+  role: input
+  value: 191
+  form: integer
+  unit: days
+  script: latin
+  locus: 'Example 1, the Table 3 line: the JD column'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tiles 1x2 --overlap 8 of this clip (r1c1 [25,90,410,329], r2c1 [25,321,410,560])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.jd
+  role: output
+  value: 2452101
+  form: integer
+  unit: days
+  script: latin
+  locus: 'Example 1, the line ''Add'': JD'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tiles 1x2 --overlap 8 of this clip (r1c1 [25,90,410,329], r2c1 [25,321,410,560])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.ka
+  role: output
+  value: 1863635
+  form: integer
+  unit: days
+  script: latin
+  locus: 'Example 1, the line ''Add'': KA'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tiles 1x2 --overlap 8 of this clip (r1c1 [25,90,410,329], r2c1 [25,321,410,560])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.jd_remainder
+  role: output
+  value: 1
+  form: integer
+  unit: weekday_number
+  script: latin
+  locus: 'Example 1: the remainder of JD divided by 7 (counted from Monday)'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tiles 1x2 --overlap 8 of this clip (r1c1 [25,90,410,329], r2c1 [25,321,410,560])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.ka_remainder
+  role: output
+  value: 4
+  form: integer
+  unit: weekday_number
+  script: latin
+  locus: 'Example 1: the remainder of KA divided by 7 (counted from Friday)'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tiles 1x2 --overlap 8 of this clip (r1c1 [25,90,410,329], r2c1 [25,321,410,560])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: calendar.statement
+  role: input
+  value: G = Gregorian System, applicable beyond prescribed in J.
+  form: text
+  unit: statement
+  script: latin
+  edition_page: 32
+  pdf_page: 16
+  locus: Table 1, the legend line beginning 'G =' Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 50, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tiles 1x2 --overlap 8 of this clip (r1c1 [25,50,410,309], r2c1 [25,301,410,560])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 50, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''

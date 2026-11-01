@@ -1,0 +1,824 @@
+id: authority/suryasiddhanta/whitney_mercury_sighra_equation
+methods: [suryasiddhanta]
+class: editor_computed
+source: suryasiddhanta_burgess_1860
+edition_page: 213
+pdf_page: 74
+locus: 'note on ii.40-42, suryasiddhanta_burgess_1860 printed pp. 213-214 (PDF 74-75): from "In illustration of the process, we will calculate the equation of the conjunction of …" (p. 213) to the table "Results of the … Process for finding the True Places of the Planets" and "This is, however, only a … step" (p. 214)'
+rounding: whole minutes for sines, proportions, hypotenuse and equation; longitudes and commutation to seconds; the squares and their sum printed as integers (of whole-minute quantities)
+precision: seconds of arc for longitudes and commutation; minutes for the rest
+datum_keys: [texts.suryasiddhanta.procedures.sighra.equation]
+notes: 'Mercury''s sighra equation for midnight preceding 1860 Jan 1, Washington: conjunction longitude from Ujjayini plus desantara, mean commutation (the mean longitude is the sun''s), bhuja and koti arcs, sines, epicycle diminished at M (one degree less at D than at O, stated in words), bhujaphala and kotiphala by proportion, kotiphala subtracted from radius 3438 (commutation between three and nine signs, stated in words, not keyed), squares, sum, square root (variable hypotenuse), sine of the equation by proportion, arc by the rule of ii.33; then the table of the first process for all five planets (form: table, one row per planet). Arc-from-sine and sine values are stated, not worked. Chapter references not keyed.'
+values:
+- name: input.time
+  role: input
+  value: midnight preceding January 1st, 1860, at Washington
+  form: text
+  unit: none
+  script: latin
+  edition_page: 213
+  pdf_page: 74
+  locus: 'para. "In illustration of the process", lines 2-3: from "midnight" to "Washington"; Latin text'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 368, 204, 412]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 and r1c2 of clip [55,368,345,412] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_mercury_sighra_equation.yaml (sha256 a7d971b7)
+  status: double_read
+  notes: the page names no calendar
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 368, 204, 412]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.conjunction_longitude_ujjayini
+  role: input
+  value: [4, 15, 13, 8]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 213
+  pdf_page: 74
+  locus: table, line 'Longitude of …'s conjunction (cighrocca), midnight, at Ujjayini,'; rdms [signs, deg, min, sec] as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [255, 485, 345, 515]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_mercury_sighra_equation.yaml (sha256 a7d971b7)
+  status: double_read
+  notes: printed with s ° ′ ″ marks
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [255, 485, 345, 515]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.desantara_correction
+  role: input
+  value: [1, 44, 14]
+  form: sexagesimal
+  unit: degrees_minutes_seconds
+  script: latin
+  edition_page: 213
+  pdf_page: 74
+  locus: table, line 'add for difference of meridian,'; [deg, min, sec] in the degree, minute and second columns
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [255, 505, 345, 565]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_mercury_sighra_equation.yaml (sha256 a7d971b7)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [255, 505, 345, 565]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.conjunction_longitude
+  role: output
+  value: [4, 16, 57, 22]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 213
+  pdf_page: 74
+  locus: table, line 'Longitude of conjunction at required time,'; rdms [signs, deg, min, sec] as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [255, 505, 345, 565]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_mercury_sighra_equation.yaml (sha256 a7d971b7)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [255, 505, 345, 565]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.mean_longitude
+  role: input
+  value: [8, 18, 13, 13]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 213
+  pdf_page: 74
+  locus: table, line 'Mean longitude of …,'; rdms [signs, deg, min, sec] as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [255, 505, 345, 565]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_mercury_sighra_equation.yaml (sha256 a7d971b7)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [255, 505, 345, 565]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mean_commutation
+  role: output
+  value: [7, 28, 44, 9]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 213
+  pdf_page: 74
+  locus: table, line 'Mean commutation (cighrakendra,),'; rdms [signs, deg, min, sec] as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [255, 505, 345, 565]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_mercury_sighra_equation.yaml (sha256 a7d971b7)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [255, 505, 345, 565]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.bhuja_arc
+  role: output
+  value: [58, 44]
+  form: sexagesimal
+  unit: degrees_minutes
+  script: latin
+  edition_page: 214
+  pdf_page: 75
+  locus: 'para. "The position of …", line 3: "or O M'', is …° …''"; [deg, min]'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 60, 204, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: spans tiles r1c1 and r1c2 of clip [55,60,345,370] 2x2 --overlap 8 (the 8 in both); first-read fixture file k9/fixtures/whitney_mercury_sighra_equation.yaml (sha256 a7d971b7)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 60, 204, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.koti_arc
+  role: output
+  value: [31, 16]
+  form: sexagesimal
+  unit: degrees_minutes
+  script: latin
+  edition_page: 214
+  pdf_page: 75
+  locus: 'same para., line 4: "is taken, is …° …''"; [deg, min]'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 60, 345, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [55,60,345,370] 2x2 --overlap 8; first-read fixture file k9/fixtures/whitney_mercury_sighra_equation.yaml (sha256 a7d971b7)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 60, 345, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.base_sine
+  role: output
+  value: 2938
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 214
+  pdf_page: 75
+  locus: 'same para., line 5: "are …'' and …'' respectively" (…)'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 60, 345, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [55,60,345,370] 2x2 --overlap 8; first-read fixture file k9/fixtures/whitney_mercury_sighra_equation.yaml (sha256 a7d971b7)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 60, 345, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.perpendicular_sine
+  role: output
+  value: 1784
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 214
+  pdf_page: 75
+  locus: same line (…)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 60, 345, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [55,60,345,370] 2x2 --overlap 8; first-read fixture file k9/fixtures/whitney_mercury_sighra_equation.yaml (sha256 a7d971b7)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 60, 345, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.epicycle_difference
+  role: input
+  value: 1
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 214
+  pdf_page: 75
+  locus: para. "The epicycle of … is … degree less at D than at O"
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 60, 204, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [55,60,345,370] 2x2 --overlap 8 and r1c2; first-read fixture file k9/fixtures/whitney_mercury_sighra_equation.yaml (sha256 a7d971b7)
+  status: double_read
+  notes: printed in words ("one degree")
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 60, 204, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.diminution_proportion
+  role: output
+  value: '3438 : 60 :: 2938 : 51'
+  form: text
+  unit: none
+  script: latin
+  edition_page: 214
+  pdf_page: 75
+  locus: 'same para., centred line "…"; Latin text, spacing normalised; a proportion keyed in the form a: b:: c: d, the symbols: and:: each set off by one space'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 60, 204, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: spans tiles r1c1 and r1c2 of clip [55,60,345,370] 2x2 --overlap 8; old-style figures; first-read fixture file k9/fixtures/whitney_mercury_sighra_equation.yaml (sha256 a7d971b7)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 60, 204, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.diminution
+  role: output
+  value: 51
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 214
+  pdf_page: 75
+  locus: 'next line: "gives …'' as the diminution at M''"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 60, 204, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [55,60,345,370] 2x2 --overlap 8; first-read fixture file k9/fixtures/whitney_mercury_sighra_equation.yaml (sha256 a7d971b7)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 60, 204, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.epicycle_at_m
+  role: output
+  value: [132, 9]
+  form: sexagesimal
+  unit: degrees_minutes
+  script: latin
+  edition_page: 214
+  pdf_page: 75
+  locus: 'next line: "then, is …° …''"; [deg, min]'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 60, 204, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [55,60,345,370] 2x2 --overlap 8; first-read fixture file k9/fixtures/whitney_mercury_sighra_equation.yaml (sha256 a7d971b7)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 60, 204, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.bhujaphala_proportion
+  role: output
+  value: '360° : 132° 9'' :: 2938 : 1078'
+  form: text
+  unit: none
+  script: latin
+  edition_page: 214
+  pdf_page: 75
+  locus: 'centred line, the first proportion (before "and"); Latin text, spacing normalised, the prime as U+0027; a proportion keyed in the form a: b:: c: d, the symbols: and:: each set off by one space'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 60, 204, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [55,60,345,370] 2x2 --overlap 8; old-style figures; first-read fixture file k9/fixtures/whitney_mercury_sighra_equation.yaml (sha256 a7d971b7)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 60, 204, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.kotiphala_proportion
+  role: output
+  value: '360° : 132° 9'' :: 1784 : 655'
+  form: text
+  unit: none
+  script: latin
+  edition_page: 214
+  pdf_page: 75
+  locus: 'same centred line, the proportion after "and"; Latin text; a proportion keyed in the form a: b:: c: d, the symbols: and:: each set off by one space'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 60, 345, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [55,60,345,370] 2x2 --overlap 8; old-style figures; first-read fixture file k9/fixtures/whitney_mercury_sighra_equation.yaml (sha256 a7d971b7)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 60, 345, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.bhujaphala
+  role: output
+  value: 1078
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 214
+  pdf_page: 75
+  locus: 'next line: "the value of m'' n'' as …''"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 60, 204, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [55,60,345,370] 2x2 --overlap 8; first-read fixture file k9/fixtures/whitney_mercury_sighra_equation.yaml (sha256 a7d971b7)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 60, 204, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.kotiphala
+  role: output
+  value: 655
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 214
+  pdf_page: 75
+  locus: 'same line: "that of n'' M'' as …''"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 60, 345, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [55,60,345,370] 2x2 --overlap 8; first-read fixture file k9/fixtures/whitney_mercury_sighra_equation.yaml (sha256 a7d971b7)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 60, 345, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.radius
+  role: input
+  value: 3438
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 214
+  pdf_page: 75
+  locus: line "tracted from E M', or radius, …'"
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 211, 204, 370]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [55,60,345,370] 2x2 --overlap 8; first-read fixture file k9/fixtures/whitney_mercury_sighra_equation.yaml (sha256 a7d971b7)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 211, 204, 370]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.perpendicular
+  role: output
+  value: 2783
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 214
+  pdf_page: 75
+  locus: 'same line: "the remainder, …'', is the perpendicular E n''"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 211, 345, 370]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c2 of clip [55,60,345,370] 2x2 --overlap 8; first-read fixture file k9/fixtures/whitney_mercury_sighra_equation.yaml (sha256 a7d971b7)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 211, 345, 370]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.square_perpendicular
+  role: output
+  value: 7745089
+  form: integer
+  unit: square_minutes
+  script: latin
+  edition_page: 214
+  pdf_page: 75
+  locus: table, line 'To the square of E n','; digit grouping (commas) dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 211, 345, 370]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c2 of clip [55,60,345,370] 2x2 --overlap 8; first-read fixture file k9/fixtures/whitney_mercury_sighra_equation.yaml (sha256 a7d971b7)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 211, 345, 370]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.square_bhujaphala
+  role: output
+  value: 1162084
+  form: integer
+  unit: square_minutes
+  script: latin
+  edition_page: 214
+  pdf_page: 75
+  locus: table, line 'add the square of n' m','; commas dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 211, 345, 370]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c2 of clip [55,60,345,370] 2x2 --overlap 8; first-read fixture file k9/fixtures/whitney_mercury_sighra_equation.yaml (sha256 a7d971b7)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 211, 345, 370]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sum_of_squares
+  role: output
+  value: 8907173
+  form: integer
+  unit: square_minutes
+  script: latin
+  edition_page: 214
+  pdf_page: 75
+  locus: table, line 'of their sum,'; commas dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 211, 345, 370]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c2 of clip [55,60,345,370] 2x2 --overlap 8; first-read fixture file k9/fixtures/whitney_mercury_sighra_equation.yaml (sha256 a7d971b7)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 211, 345, 370]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.variable_hypotenuse
+  role: output
+  value: 2984
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 214
+  pdf_page: 75
+  locus: table, line 'the square root,'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 211, 345, 370]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c2 of clip [55,60,345,370] 2x2 --overlap 8; first-read fixture file k9/fixtures/whitney_mercury_sighra_equation.yaml (sha256 a7d971b7)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 211, 345, 370]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.equation_proportion
+  role: output
+  value: '2984 : 1078 :: 3438 : 1242'
+  form: text
+  unit: none
+  script: latin
+  edition_page: 214
+  pdf_page: 75
+  locus: 'centred line after "gives the proportion Em'': m''n'':: Eo'': o''g'', or": "…"; Latin text; a proportion keyed in the form a: b:: c: d, the symbols: and:: each set off by one space'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 211, 204, 370]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: spans tiles r2c1 and r2c2 of clip [55,60,345,370] 2x2 --overlap 8; old-style figures; first-read fixture file k9/fixtures/whitney_mercury_sighra_equation.yaml (sha256 a7d971b7)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 211, 204, 370]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.equation_sine
+  role: output
+  value: 1242
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 214
+  pdf_page: 75
+  locus: 'next para.: "the sine of the equation, is accordingly …''"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 211, 345, 370]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c2 of clip [55,60,345,370] 2x2 --overlap 8; first-read fixture file k9/fixtures/whitney_mercury_sighra_equation.yaml (sha256 a7d971b7)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 211, 345, 370]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.equation
+  role: output
+  value: [21, 12]
+  form: sexagesimal
+  unit: degrees_minutes
+  script: latin
+  edition_page: 214
+  pdf_page: 75
+  locus: 'same para., line 3: "to be …° …''"; [deg, min]'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 211, 204, 370]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [55,60,345,370] 2x2 --overlap 8; first-read fixture file k9/fixtures/whitney_mercury_sighra_equation.yaml (sha256 a7d971b7)
+  status: double_read
+  notes: stated subtractive ("The figure shows the equation to be subtractive"); keyed unsigned as printed here
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 211, 204, 370]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.first_process_table
+  role: output
+  value:
+  - - Mercury
+    - [8, 18, 13, 13]
+    - [4, 16, 57, 22]
+    - [7, 28, 44, 9]
+    - 2938
+    - [132, 9]
+    - 1078
+    - 655
+    - 2984
+    - −
+    - [21, 12]
+  - - Venus
+    - [8, 18, 13, 13]
+    - [10, 21, 49, 47]
+    - [2, 3, 36, 34]
+    - 3080
+    - [260, 13]
+    - 2226
+    - 1104
+    - 5058
+    - +
+    - [26, 7]
+  - - Mars
+    - [5, 24, 30, 57]
+    - [8, 18, 13, 13]
+    - [2, 23, 42, 16]
+    - 3416
+    - [232, 1]
+    - 2202
+    - 225
+    - 4274
+    - +
+    - [31, 1]
+  - - Jupiter
+    - [2, 26, 2, 14]
+    - [8, 18, 13, 13]
+    - [5, 22, 10, 59]
+    - 468
+    - [70, 16]
+    - 91
+    - 665
+    - 2774
+    - +
+    - [1, 53]
+  - - Saturn
+    - [3, 20, 12, 3]
+    - [8, 18, 13, 13]
+    - [4, 28, 1, 10]
+    - 1820
+    - [39, 32]
+    - 200
+    - 320
+    - 3124
+    - +
+    - [3, 40]
+  form: table
+  columns: [planet, 'mean_longitude [s, deg, min, sec]', 'longitude_of_conjunction [s, deg, min, sec]', 'mean_commutation [s, deg, min, sec]', 'base_sine [min]', 'corrected_epicycle [deg, min]', 'result_from_base_sine [min]', 'result_from_perpendicular_sine [min]', 'variable_hypotenuse [min]', equation_of_conjunction_sign, 'equation_of_conjunction [sign, deg, min]']
+  unit: mixed
+  script: latin
+  edition_page: 214
+  pdf_page: 75
+  locus: table 'Results of the First Process for finding the True Places of the Planets', five rows; form table, one row per planet, cells as lists of parts in the units of the printed column heads (s ° ′ ″); the equation's printed sign kept as the … part ('+' or '−')
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 370, 345, 470]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [50,370,153.33,470], r1c2 [143.33,370,251.67,470], r1c3 [241.67,370,345,470] of clip [50,370,345,470] 3x1 --overlap 10; first-read fixture file k9/fixtures/whitney_mercury_sighra_equation.yaml (sha256 a7d971b7)
+  status: double_read
+  notes: column head printed 'Va i- abl) Hyp.' (damaged 'Variable Hyp.'); 50 cells (incl. planet names).
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r1
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 370, 345, 470]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 're-expressed after the freeze: the four single-column cells (base_sine, result_from_base_sine, result_from_perpendicular_sine, variable_hypotenuse) as bare integers instead of one-element lists; digits unchanged (frozen file reads_wp6-read2-fable-a.yaml, sha256 92857f4c)'

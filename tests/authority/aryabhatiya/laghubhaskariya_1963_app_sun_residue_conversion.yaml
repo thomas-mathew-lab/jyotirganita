@@ -1,0 +1,190 @@
+id: authority/aryabhatiya/laghubhaskariya_1963_app_sun_residue_conversion
+methods: [aryabhatiya]
+class: editor_computed
+source: laghubhaskariya_1963
+file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+edition_page: 110
+pdf_page: 183
+locus: the appendix 'Theory of the pulveriser', §2.6, the example of the Sun's residue given as … signs, … degrees and … minutes and its conversion to the residue of the revolution, p. 110 (PDF 183); footnote 2, the Sun's formula
+rounding: none (integers)
+precision: integers, as printed
+datum_keys: [texts.aryabhatiya.sun.revolutions, texts.aryabhatiya.civil_days.laghubhaskariya_1963]
+notes: Shukla's example (editor_computed). The pulveriser '(576 x−86688)/210389 = y' is set up and not solved on the page. 8900 × 210389 / 21600 = 86688.06 (the reader's arithmetic), so the printed quotient is the integer part. In the equation the numerator's fourth digit has a faint left stroke; it reads 8 enlarged (R183_eq), as the text line above prints it. 576 and 210389 are the Sun's revolution number and the civil days divided by their common factor (footnote 2; the reader's observation).
+values:
+- name: input.residue
+  role: input
+  value: [4, 28, 20]
+  form: rdms
+  unit: rdms
+  script: latin
+  edition_page: 110
+  pdf_page: 183
+  locus: the appendix 'Theory of the pulveriser', §2.6, 'When the residue of the revolution is given in terms of signs, degrees, etc.' (stanza 14), the example 'Suppose, for example, that the residue of the revolution of the Sun is given to be … signs, … degrees, and … minutes.' and its working, p. 110 (PDF 183), '… signs, … degrees, and … minutes'; keyed as [signs, degrees, minutes].
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tile r1c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 183)
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 183)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: ''
+- name: output.minutes
+  role: output
+  value: 8900
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 110
+  pdf_page: 183
+  locus: the appendix 'Theory of the pulveriser', §2.6, 'When the residue of the revolution is given in terms of signs, degrees, etc.' (stanza 14), the example 'Suppose, for example, that the residue of the revolution of the Sun is given to be … signs, … degrees, and … minutes.' and its working, p. 110 (PDF 183), 'Since … signs, … degrees, and … minutes=…′'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 183)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: ''
+- name: input.divisor
+  role: input
+  value: 210389
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 110
+  pdf_page: 183
+  locus: the appendix 'Theory of the pulveriser', §2.6, 'When the residue of the revolution is given in terms of signs, degrees, etc.' (stanza 14), the example 'Suppose, for example, that the residue of the revolution of the Sun is given to be … signs, … degrees, and … minutes.' and its working, p. 110 (PDF 183), 'we multiply … by … (the divisor in this case)'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 183)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: ''
+- name: input.minutes_in_revolution
+  role: input
+  value: 21600
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 110
+  pdf_page: 183
+  locus: the appendix 'Theory of the pulveriser', §2.6, 'When the residue of the revolution is given in terms of signs, degrees, etc.' (stanza 14), the example 'Suppose, for example, that the residue of the revolution of the Sun is given to be … signs, … degrees, and … minutes.' and its working, p. 110 (PDF 183), 'and divide by … (the number of minutes in a revolution)'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 183)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: ''
+- name: output.residue_of_revolution
+  role: output
+  value: 86688
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 110
+  pdf_page: 183
+  locus: the appendix 'Theory of the pulveriser', §2.6, 'When the residue of the revolution is given in terms of signs, degrees, etc.' (stanza 14), the example 'Suppose, for example, that the residue of the revolution of the Sun is given to be … signs, … degrees, and … minutes.' and its working, p. 110 (PDF 183), 'In this way we get … as the quotient. This is the residue of the revolution.'; the same figure in the pulveriser '… x−… / … =y'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 183)
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 348
+    clip: [195, 282, 245, 298]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: laghubhaskariya_1963 PDF 183, the pulveriser's numerator, rendered at 1044 dpi with --upsample for viewing (native 348 ppi); also seen at 348 dpi in clip [160,280,260,312]
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: ''
+- name: input.formula.numerator
+  role: input
+  value: 576
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 110
+  pdf_page: 183
+  locus: 'the appendix ''Theory of the pulveriser'', §2.6, ''When the residue of the revolution is given in terms of signs, degrees, etc.'' (stanza 14), the example ''Suppose, for example, that the residue of the revolution of the Sun is given to be … signs, … degrees, and … minutes.'' and its working, p. 110 (PDF 183), footnote 2, ''The formula for the Sun''s revolutions corresponding to A days is 576A/….'': the numerator; the same in the pulveriser.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 183)
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 183)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: ''

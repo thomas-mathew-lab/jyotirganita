@@ -1,0 +1,638 @@
+id: authority/suryasiddhanta/whitney_apsides_nodes_kali_epoch
+methods: [suryasiddhanta]
+class: editor_computed
+source: suryasiddhanta_burgess_1860
+edition_page: 171
+pdf_page: 32
+locus: 'second table of p. 171 (PDF 32), under i.41-44: "Positions of the Apsides and Nodes of the Planets, according to Different Authorities, at the Commencement of the Iron Age, …"; column "Surya-Siddhanta." only'
+rounding: whole seconds of arc
+precision: seconds of arc
+datum_keys: []
+notes: 'Table heads as printed: "Planet." | "Surya-Siddhanta." | "Siddhanta-Ciromani." | "Arya-Siddhanta." | "Paracara-Siddhanta.", each with sub-heads "(rev.)" s deg '' ''''; rows under "Apsides:" (Sun, Mercury, Venus, Mars, Jupiter, Saturn) and "Nodes:" (Mercury, Venus, Mars, Jupiter, Saturn). Only the Surya-Siddhanta column keyed; the other three columns are leads. Per p. 172 (PDF 33, seen at 150 dpi for the meaning only, no value keyed from it): to each position is prefixed the number of completed revolutions, or, for the nodes (retrograde), the number of whole revolutions of which each falls short by the amount expressed by its position; the node revolutions are printed with a trailing minus "(221-)" and keyed with negative: true. One value per body for the revolutions and one rdms value [s, deg, '', ''''] per body.'
+values:
+- name: input.epoch_label
+  role: input
+  value: 3102 B. C.
+  form: text
+  unit: none
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: table title "... at the Commencement of the Iron Age, …"; as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [150, 392, 370, 412]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [150,392,370,412]; first-read fixture file k7/fixtures/whitney_apsides_nodes_kali_epoch.yaml (sha256 0664f7f3)
+  status: double_read
+  notes: era as printed
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sun_apsis.revolutions
+  role: output
+  value: 175
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'table row "Apsides: Sun", column "Surya-Siddhanta.", "(rev.)"; integer in parentheses'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [25,370,185,555]; first-read fixture file k7/fixtures/whitney_apsides_nodes_kali_epoch.yaml (sha256 0664f7f3)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sun_apsis.position
+  role: output
+  value: [2, 17, 7, 48]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'table row "Apsides: Sun", column "Surya-Siddhanta.", [s, deg, '', ''''] as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [25,370,185,555]; first-read fixture file k7/fixtures/whitney_apsides_nodes_kali_epoch.yaml (sha256 0664f7f3)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mercury_apsis.revolutions
+  role: output
+  value: 166
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'table row "Apsides: Mercury", column "Surya-Siddhanta.", "(rev.)"; integer in parentheses'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [25,370,185,555]; first-read fixture file k7/fixtures/whitney_apsides_nodes_kali_epoch.yaml (sha256 0664f7f3)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mercury_apsis.position
+  role: output
+  value: [7, 10, 19, 12]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'table row "Apsides: Mercury", column "Surya-Siddhanta.", [s, deg, '', ''''] as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [25,370,185,555]; first-read fixture file k7/fixtures/whitney_apsides_nodes_kali_epoch.yaml (sha256 0664f7f3)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.venus_apsis.revolutions
+  role: output
+  value: 242
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'table row "Apsides: Venus", column "Surya-Siddhanta.", "(rev.)"; integer in parentheses'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [25,370,185,555]; first-read fixture file k7/fixtures/whitney_apsides_nodes_kali_epoch.yaml (sha256 0664f7f3)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.venus_apsis.position
+  role: output
+  value: [2, 19, 39, 0]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'table row "Apsides: Venus", column "Surya-Siddhanta.", [s, deg, '', ''''] as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [25,370,185,555]; first-read fixture file k7/fixtures/whitney_apsides_nodes_kali_epoch.yaml (sha256 0664f7f3)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mars_apsis.revolutions
+  role: output
+  value: 92
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'table row "Apsides: Mars", column "Surya-Siddhanta.", "(rev.)"; integer in parentheses'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [25,370,185,555]; first-read fixture file k7/fixtures/whitney_apsides_nodes_kali_epoch.yaml (sha256 0664f7f3)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mars_apsis.position
+  role: output
+  value: [4, 9, 57, 36]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'table row "Apsides: Mars", column "Surya-Siddhanta.", [s, deg, '', ''''] as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [25,370,185,555]; first-read fixture file k7/fixtures/whitney_apsides_nodes_kali_epoch.yaml (sha256 0664f7f3)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.jupiter_apsis.revolutions
+  role: output
+  value: 407
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'table row "Apsides: Jupiter", column "Surya-Siddhanta.", "(rev.)"; integer in parentheses'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [25,370,185,555]; first-read fixture file k7/fixtures/whitney_apsides_nodes_kali_epoch.yaml (sha256 0664f7f3)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.jupiter_apsis.position
+  role: output
+  value: [5, 21, 0, 0]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'table row "Apsides: Jupiter", column "Surya-Siddhanta.", [s, deg, '', ''''] as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [25,370,185,555]; first-read fixture file k7/fixtures/whitney_apsides_nodes_kali_epoch.yaml (sha256 0664f7f3)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.saturn_apsis.revolutions
+  role: output
+  value: 17
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'table row "Apsides: Saturn", column "Surya-Siddhanta.", "(rev.)"; integer in parentheses'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [25,370,185,555]; first-read fixture file k7/fixtures/whitney_apsides_nodes_kali_epoch.yaml (sha256 0664f7f3)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.saturn_apsis.position
+  role: output
+  value: [7, 26, 36, 36]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'table row "Apsides: Saturn", column "Surya-Siddhanta.", [s, deg, '', ''''] as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [25,370,185,555]; first-read fixture file k7/fixtures/whitney_apsides_nodes_kali_epoch.yaml (sha256 0664f7f3)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mercury_node.revolutions
+  role: output
+  value: 221
+  form: integer
+  negative: true
+  unit: revolutions
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'table row "Nodes: Mercury", column "Surya-Siddhanta.", "(rev.)"; integer in parentheses'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [25,370,185,555]; first-read fixture file k7/fixtures/whitney_apsides_nodes_kali_epoch.yaml (sha256 0664f7f3)
+  status: double_read
+  notes: printed "(221-)"
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mercury_node.position
+  role: output
+  value: [0, 20, 52, 48]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'table row "Nodes: Mercury", column "Surya-Siddhanta.", [s, deg, '', ''''] as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [25,370,185,555]; first-read fixture file k7/fixtures/whitney_apsides_nodes_kali_epoch.yaml (sha256 0664f7f3)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.venus_node.revolutions
+  role: output
+  value: 409
+  form: integer
+  negative: true
+  unit: revolutions
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'table row "Nodes: Venus", column "Surya-Siddhanta.", "(rev.)"; integer in parentheses'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [25,370,185,555]; first-read fixture file k7/fixtures/whitney_apsides_nodes_kali_epoch.yaml (sha256 0664f7f3)
+  status: double_read
+  notes: printed "(409-)"
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.venus_node.position
+  role: output
+  value: [2, 0, 1, 48]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'table row "Nodes: Venus", column "Surya-Siddhanta.", [s, deg, '', ''''] as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [25,370,185,555]; first-read fixture file k7/fixtures/whitney_apsides_nodes_kali_epoch.yaml (sha256 0664f7f3)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mars_node.revolutions
+  role: output
+  value: 97
+  form: integer
+  negative: true
+  unit: revolutions
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'table row "Nodes: Mars", column "Surya-Siddhanta.", "(rev.)"; integer in parentheses'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [25,370,185,555]; first-read fixture file k7/fixtures/whitney_apsides_nodes_kali_epoch.yaml (sha256 0664f7f3)
+  status: double_read
+  notes: printed "(97-)"
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mars_node.position
+  role: output
+  value: [1, 10, 8, 24]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'table row "Nodes: Mars", column "Surya-Siddhanta.", [s, deg, '', ''''] as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [25,370,185,555]; first-read fixture file k7/fixtures/whitney_apsides_nodes_kali_epoch.yaml (sha256 0664f7f3)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.jupiter_node.revolutions
+  role: output
+  value: 79
+  form: integer
+  negative: true
+  unit: revolutions
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'table row "Nodes: Jupiter", column "Surya-Siddhanta.", "(rev.)"; integer in parentheses'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [25,370,185,555]; first-read fixture file k7/fixtures/whitney_apsides_nodes_kali_epoch.yaml (sha256 0664f7f3)
+  status: double_read
+  notes: printed "(79-)"
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.jupiter_node.position
+  role: output
+  value: [2, 19, 44, 24]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'table row "Nodes: Jupiter", column "Surya-Siddhanta.", [s, deg, '', ''''] as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [25,370,185,555]; first-read fixture file k7/fixtures/whitney_apsides_nodes_kali_epoch.yaml (sha256 0664f7f3)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.saturn_node.revolutions
+  role: output
+  value: 300
+  form: integer
+  negative: true
+  unit: revolutions
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'table row "Nodes: Saturn", column "Surya-Siddhanta.", "(rev.)"; integer in parentheses'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [25,370,185,555]; first-read fixture file k7/fixtures/whitney_apsides_nodes_kali_epoch.yaml (sha256 0664f7f3)
+  status: double_read
+  notes: printed "(300-)"; the 1 of the seconds "12" is faintly printed
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.saturn_node.position
+  role: output
+  value: [3, 10, 37, 12]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'table row "Nodes: Saturn", column "Surya-Siddhanta.", [s, deg, '', ''''] as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [25,370,185,555]; first-read fixture file k7/fixtures/whitney_apsides_nodes_kali_epoch.yaml (sha256 0664f7f3)
+  status: double_read
+  notes: printed "(300-)"; the 1 of the seconds "12" is faintly printed
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 370, 185, 555]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

@@ -1,0 +1,30 @@
+- key: modern.nutation.iau1980.scan_caption
+  value: Table 4.1. Series for nutation in longitude ΔΨ and obliquity Δε, referred to the mean equator and equinox of date, with T measured in Julian centuries from epoch J2000.0
+  form: text
+  unit: statement
+  script: latin
+  source: iau1980_nutation
+  file: iau1980_nutation-iau-1980-nutation-iers-tn3-ch4.pdf
+  edition_page: 15
+  pdf_page: 2
+  locus: 'Chapter 4 (Nutation), the caption of Table 4.1, whole: from ''Table 4.1.'' to ''from epoch J2000.0''. Latin text keyed as printed (spelling, case; italics not marked); spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; a formula in plain characters (superscripts as ^n, subscripts as _x, Greek letters as Unicode); the value ends before the closing full stop.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 300
+    clip: [60, 70, 540, 112]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: one tile of this clip at the scan's native 300 ppi
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'The four-page scan (chapter 4 of the earlier IERS edition the file name gives as TN3) states no sign convention: no sentence on the signs of the arguments or coefficients and no summation formula. The sign remark and the sine/cosine summation are stated only in the TeX''s Table 5.1 caption (the extract nutation_iau1980.yaml, statements.table_caption). The capital Psi is printed in the caption (the TeX prints a lower-case psi).'
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 300
+    clip: [60, 70, 540, 112]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''

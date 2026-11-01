@@ -1,0 +1,82 @@
+id: authority/suryasiddhanta/whitney_latitude
+methods: [suryasiddhanta]
+class: editor_computed
+source: suryasiddhanta_burgess_1860
+edition_page: 230
+pdf_page: 91
+locus: 'note on ii.57-58, suryasiddhanta_burgess_1860 printed p. 230 (PDF 91): table "Results of the Process for finding the Latitude and Declination of the Planets", the latitude part: columns Longitude of Node, do. corrected, Distance from Node, Sine, Latitude, rows … to …. The latitude part ends with the Latitude column; the Declination and Corrected Declination columns, the Sun row (the declination process with the equinox as node, per the paragraph above the table) and the precession figure in that paragraph are the declination part and are not keyed.'
+rounding: node longitudes printed to seconds; corrected node, distance, sine and latitude to minutes
+precision: 'minutes of arc (node longitude: seconds)'
+datum_keys: [texts.suryasiddhanta.procedures.latitude.rule]
+notes: 'The page prints no worked computation of a single latitude: the paragraphs state the proportion (R : sin nod. dist. :: extreme lat. : actual lat., combined with var. hyp. : R) in symbols only, and the table gives the results for each planet at the epoch of the preceding notes (1860 Jan 1). No extreme latitudes or hypotenuses are printed on this page. Keyed as one form: table value, one row per body; latitude cells [deg, min, ''N''|''S''] with the printed direction letter; a dotted (empty) cell null. The worked node-distance examples for Jupiter and Mercury on the preceding page (p. 229, PDF 90) are keyed as a proposed separate fixture (whitney_node_distance).'
+values:
+- name: output.latitude_table
+  role: output
+  value:
+  - - Moon
+    - [9, 24, 24, 43]
+    - null
+    - [1, 23, 14]
+    - 2754
+    - [3, 36]
+    - N
+  - - Mercury
+    - [0, 20, 40, 41]
+    - [0, 22, 43]
+    - [3, 24, 14]
+    - 3134
+    - [2, 4]
+    - N
+  - - Venus
+    - [1, 29, 39, 22]
+    - [1, 29, 16]
+    - [8, 22, 34]
+    - 3409
+    - [1, 21]
+    - S
+  - - Mars
+    - [1, 10, 3, 5]
+    - [2, 13, 47]
+    - [4, 4, 58]
+    - 2816
+    - [1, 4]
+    - N
+  - - Jupiter
+    - [2, 19, 40, 5]
+    - [2, 22, 45]
+    - [0, 11, 26]
+    - 682
+    - [0, 15]
+    - N
+  - - Saturn
+    - [3, 10, 20, 45]
+    - [3, 14, 38]
+    - [0, 16, 24]
+    - 970
+    - [0, 37]
+    - N
+  form: table
+  columns: [planet, 'longitude_of_node [s, deg, min, sec]', 'node_corrected [s, deg, min]', 'distance_from_node [s, deg, min]', 'sine [min]', 'latitude [deg, min, direction]', latitude_direction]
+  unit: mixed
+  script: latin
+  edition_page: 230
+  pdf_page: 91
+  locus: table 'Results of the Process for finding the Latitude and Declination of the Planets', six rows, the bodies the text gives a latitude (ii.56-57 with i.68-70), first row the Moon's, last row Saturn's; the Sun's row (no latitude in the text) is outside the extent; columns Planet to Latitude, the declination columns outside it (whitney_latitude_declination, 2d); form table
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [52, 425, 268, 515]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 [52,425,129,515], r1c2 [119,425,201,515], r1c3 [191,425,268,515] of clip [52,425,268,515] 3x1 --overlap 10; Saturn row and Mars/Jupiter rechecked on tiles r1c1 [52,495,165,525], r1c2 [155,495,268,525] of clip [52,495,268,525] 2x1 --overlap 10; first-read fixture file k9/fixtures/whitney_latitude.yaml (sha256 62f0a59b)
+  status: double_read
+  notes: Moon's 'do. corrected' printed as a dotted line (null); 36 cells (incl. body names, nulls counted).
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 430, 335, 530]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 're-expressed: the Sun row dropped (the first read''s locus keys the latitude part without the Sun row, whose extent the values-free list hid; the frozen read keyed all seven printed rows) and the direction letter kept in its own column only (the frozen read also carried it inside the latitude cell); every digit as frozen'

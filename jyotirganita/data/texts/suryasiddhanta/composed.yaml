@@ -1,0 +1,1658 @@
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.i27_note_sphere
+  value: Making due allowance for the precession, we find that it coincided in position with the vernal equinox not far from the middle of the sixth century, or about A. D. 570. As such coincidence was the occasion of the point being fixed upon as the beginning of the sphere, the time of its occurrence marks approximately the era of the fixation of the sphere, and of the commencement of the history of modern Hindu astronomy.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 158
+  pdf_page: 19
+  locus: Whitney's note on i.27, paragraph 3, sentences 4-5, from "Making due allowance" to "modern Hindu astronomy."; Latin text convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 228, 370, 330]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: single full-width strip
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: A date for the system (the fixation of the sphere's initial point), not for the text's composition as such; "it" = zeta Piscium. The paragraph continues with reasons why the date is approximate (not keyed).
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 228, 370, 330]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.i27_note_sphere.year
+  value: 570
+  form: integer
+  unit: years
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 158
+  pdf_page: 19
+  locus: Whitney's note on i.27, paragraph 3, sentence 4, the year "A. D. …"; Latin figure convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 228, 370, 330]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: single full-width strip
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'era as printed: "A. D." ("about A. D. 570"); "middle of the sixth century"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 228, 370, 330]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.i23_note_revealed
+  value: The end of the Golden Age of the current Great Age is the time at which the Sûrya-Siddhânta claims to have been revealed, and the epoch from which its calculations profess to commence.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 156
+  pdf_page: 17
+  locus: Whitney's note on i.23, paragraph 2, first sentence, from "The end of the Golden Age" to "profess to commence."; Latin text convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 105, 370, 165]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: single full-width strip
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: States the text's claimed date of revelation (no year printed in this sentence); found on a page read for i.25-26, not among the TASK's section-4 pages. Key formed by the reader (proposed_key).
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 105, 370, 165]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.i34_note_epoch
+  value: The instant at which the Age is made to commence is midnight on the meridian of Ujjayinî (see below, under v. 62), at the end of the 588,465th and beginning of the 588,466th day (civil reckoning) of the Julian Period, or between the 17th and 18th of February 1612 J.P., or 3102 B. C. (see below, under vv. 45−53, for the computation of the number of days since elapsed).
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 161
+  pdf_page: 22
+  locus: Whitney's note on i.29-34 (after the table of mean motions), paragraph 1, the sentence from "The instant at which the Age" to "since elapsed)."; Latin text convention (a dash between numbers as U+2212)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 440, 370, 500]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: single full-width strip; the sentence's first line checked also on clip [20, 375, 370, 460]
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: The epoch of the system's count (start of the Iron Age), not a date of composition. The preceding sentence names the commencement of the current Iron Age (kali yuga) as the determining point of the system (not keyed).
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 440, 370, 500]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.i34_note_epoch.year
+  value: 3102
+  form: integer
+  unit: years
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 161
+  pdf_page: 22
+  locus: same sentence, the year "… B. C."; Latin figure convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 440, 370, 500]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: 'first read re-expressed: `negative: false`: "B. C." is an era, not a sign'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'era as printed: "B. C." (an era, not a sign: `negative: false` under the review ruling 4). The same sentence also gives "February 1612 J.P." (Julian Period year) and the Julian-Period day numbers 588,465 / 588,466.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 440, 370, 500]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.i34_note_epoch.year_jp
+  value: 1612
+  form: integer
+  unit: years
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 161
+  pdf_page: 22
+  locus: same sentence, the year "… J.P."; Latin figure convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 440, 370, 500]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'era as printed: "J.P." (Julian Period); "between the 17th and 18th of February 1612 J.P." Key formed by the reader (proposed_key).'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 440, 370, 500]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.bija_bentley
+  value: These corrections were first applied, according to Mr. Bentley (As. Res., viii. 220), about the beginning of the sixteenth century; they are presented by several treatises of that as well as of later date, not having been yet superseded by others intended to secure yet greater correctness.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 163
+  pdf_page: 24
+  locus: Whitney's note on i.34, last paragraph of printed p. 163 running onto p. 164, the sentence from "These corrections were … applied" to "greater correctness."; Latin text convention (spans PDF 24-25, printed p. 163-164)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 515, 370, 550]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: PDF 24, the sentence's first two lines
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 70, 370, 100]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: PDF 25, the sentence's last two lines
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Date of the bîja correction (a correction of the system), after Bentley; no year figure. "Mr. Bentley" printed with a speck between "Mr." and "Bentley" (not keyed). Two read entries: one per page. Pdf_page 24-25 recorded as its first page, the span in the locus. Edition_page 163-164 recorded as its first page, the span in the locus.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 515, 370, 550]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.bija_no_error
+  value: If, on the other hand, we assume the place of the sun to have been the standard by which the positions of the other planets were tested, the dates of no error are seen to point quite distinctly to the first half of the sixteenth century as the time of the correction, their mean being A. D. 1541.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 164
+  pdf_page: 25
+  locus: Whitney's note on i.34 (after the bîja table), paragraph 1, the sentence from "If, on the other hand" to "A. D. …."; Latin text convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 370, 370, 445]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: single full-width strip
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: The "date of no error" statement for the bîja correction. Earlier sentences of the paragraph refer to the results "made for Jan. 1, 1860" given under v. 67 (not keyed).
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 370, 370, 445]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.bija_no_error.year
+  value: 1541
+  form: integer
+  unit: years
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 164
+  pdf_page: 25
+  locus: same sentence, the year "A. D. …"; Latin figure convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 370, 370, 445]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'era as printed: "A. D."; the mean of the dates of no error'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 370, 370, 445]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.bija_alteration
+  value: It is, in short, clearly evident that the alteration of the elements of the Sûrya-Siddhânta which was effected early in the sixteenth century, was an adaptation of the errors of position of the other planets to that of the sun, assumed to be correct and regarded as the standard.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 164
+  pdf_page: 25
+  locus: Whitney's note on i.34, paragraph 1, last sentence, from "It is, in short" to "as the standard."; Latin text convention, line-end hyphen joined
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 440, 370, 550]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: single full-width strip
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: '"cor-rect" hyphenated at line end, joined.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 440, 370, 550]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.bentley_date
+  value: From an average of the results thus obtained, Bentley draws the conclusion that the Sûrya-Siddhânta dates from the latter part of the eleventh century; or, more exactly, A. D. 1091.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 165
+  pdf_page: 26
+  locus: Whitney's note on i.34, the paragraph after Bentley's table of errors, first sentence, from "From an average" to "A. D. …."; Latin text convention, line-end hyphens joined
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 380, 370, 440]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: single full-width strip
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Bentley''s date for the text, reported by Whitney (who disputes it on PDF 26-28). Bentley''s table above (dates of no error per planet, "When correct A. D.") is not keyed (TASK: date sentences only).'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 380, 370, 440]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.bentley_date.year
+  value: 1091
+  form: integer
+  unit: years
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 165
+  pdf_page: 26
+  locus: same sentence, the year "A. D. …"; Latin figure convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 380, 370, 440]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'era as printed: "A. D."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 380, 370, 440]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.alteration_hypothesis
+  value: 'Now, as things are wont to be managed in the Hindu literature, it would be no matter for surprise if such corrections were incorporated into the text itself: had not the Sûrya-Siddhânta been, at the beginning of the sixteenth century, so widely distributed, and its data so universally known, and had not the Hindu science outlived already that growing and productive period of its history when a school of astronomy might put forth a corrected text of an ancient authority, and expect to see it make its way to general acceptance, crowding out, and finally causing to disappear, the older version—such a process of alteration might, in our view, have passed upon it, and such a text might have been handed down to our time as Bentley would have pronounced, upon internal evidence, to have been composed early in the sixteenth century; while, nevertheless, the original error of the sun would remain, untouched and increasing, to indicate what was the true state of the case.'
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 166
+  pdf_page: 27
+  locus: Whitney's note on i.34, printed p. 166 last paragraph, the sentence from "Now, as things are wont" (p. 166) to "the true state of the case." (p. 167); Latin text convention (em dash U+2014; line-end hyphens joined) (spans PDF 27-28, printed p. 166-167)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 440, 370, 552]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: PDF 27, from "Now, as things" to "handed down to our"
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 50, 370, 110]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: PDF 28, from "time as Bentley" to "to in-"; "dicate ... case." on clip [20, 95, 370, 188.33]
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'A counterfactual: what date ("early in the sixteenth century") internal evidence would have given had the text been altered; included because it speaks to the text''s date. A comma-like speck after "Now" on PDF 27 is printed as a comma. Pdf_page 27-28 recorded as its first page, the span in the locus. Edition_page 166-167 recorded as its first page, the span in the locus.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 440, 370, 552]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.tenth_eleventh
+  value: We find that it presents us a set of planetary elements, which, when tested by the errors of position, in the manner already explained, do not appear to have been constructed so as to give the true sidereal positions at any assignable epoch, but which, on the other hand, exhibit evidences of an attempt to bring the places of the other planets into an accordance with that of the sun, made sometime in the tenth or eleventh century—the precise time is very doubtful, the discrepancies of the times of no error being far too great to give a certain result.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 167
+  pdf_page: 28
+  locus: Whitney's note on i.34, printed p. 167 paragraph 2, sentence 2, from "We find that it presents" to "a certain result."; Latin text convention (em dash U+2014)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 95, 370, 188.33]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: tile r1c1 of clip [20,95,370,375] 1x3
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 188.33, 370, 281.67]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: tile r2c1, last line
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: The paragraph opens "But what is the actual position of things with regard to our Siddhânta?" (not keyed).
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 95, 370, 188.33]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.earlier_existence
+  value: Now it is as certain as anything in the history of Sanskrit literature can be, that there was a Sûrya-Siddhânta in existence long before that date; there is also evidence in the references and citations of other astronomical works (see Colebrooke, Essays, ii. 484; Hind. Alg., p. l) that there have been more versions than one of a treatise bearing the title; and we have seen above, in verse 9, a not very obscure intimation that the present work does not present precisely the same elements which had been accepted formerly as those of the Sûrya-Siddhânta.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 167
+  pdf_page: 28
+  locus: same paragraph, sentence 3, from "Now it is as certain" to "of the Sûrya-Siddhânta."; Latin text convention, line-end hyphens joined
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 188.33, 370, 281.67]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: tile r2c1 of clip [20,95,370,375] 1x3
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: '"Hind. Alg., p. l)": the page reference is printed as a letter l (roman fifty?), unlike the figure 1 of this font; keyed as seen. Printed "484 ;" and "title ;" with spaces before the semicolons (normalised).'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 188.33, 370, 281.67]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.true_date_question
+  value: What can lie nearer, then, than to suppose that in the tenth or eleventh century a correction of bîja was calculated for application to the elements of the Siddhânta, and was then incorporated into the text, by the easy alteration of four or five of its verses; and accordingly, that while the comparative errors of the other planets betray the date of the correction, the absolute error of the sun indicates approximately the true date of the treatise?
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 167
+  pdf_page: 28
+  locus: same paragraph, last sentence, from "What can lie nearer" to "of the treatise?"; Latin text convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 188.33, 370, 281.67]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: tile r2c1 (first line)
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 281.67, 370, 375]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: tile r3c1 (rest)
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: The question mark is printed in a form like a small '?' with a dot; keyed as "?".
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 188.33, 370, 281.67]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.sun_no_error
+  value: In our table, the time of no error of the sun is given as A. D. 250.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 167
+  pdf_page: 28
+  locus: Whitney's note on i.34, printed p. 167 paragraph 3, first sentence, "In our table ... A. D. …."; Latin text convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 281.67, 370, 375]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: tile r3c1 of clip [20,95,370,375] 1x3
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: '"our table" = the table of errors under v. 67. The following sentences qualify this date (dependent on the determination of the sun''s place; 1 degree of error = 425 years in the date of no error) -- not keyed, they state no date for the text.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 281.67, 370, 375]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.sun_no_error.year
+  value: 250
+  form: integer
+  unit: years
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 167
+  pdf_page: 28
+  locus: same sentence, the year "A. D. …"; Latin figure convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 281.67, 370, 375]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'era as printed: "A. D."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 281.67, 370, 375]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.system_origin
+  value: If the error in the sun's motion were a fundamental feature of the whole Hindu system, appearing alike in all the different text-books of the science, that date would point to the origin rather of the whole system than of any treatise which might exhibit it.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 167
+  pdf_page: 28
+  locus: Whitney's note on i.34, printed p. 167 paragraph 4, sentence 2, from "If the error in the sun's motion" to "might exhibit it."; Latin text convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 457.5, 370, 550]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: tile r2c1 of clip [20,365,370,550] 1x2
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: '"that date" = the sun''s date of no error (A. D. 250). The paragraph''s first sentence ("There is also an alternative supposition ...") not keyed.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 457.5, 370, 550]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.most_ancient
+  value: The first five of these might be regarded as unimportant variations of the same error, but it would seem that the last is an independent determination, and one of later date than the others; while, if all are independent, that of the Sûrya-Siddhânta has the appearance of being the most ancient.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 168
+  pdf_page: 29
+  locus: Whitney's note on i.34, printed p. 168, the paragraph after the table of sidereal years, first sentence, from "The … of these" to "the most ancient."; Latin text convention, line-end hyphen joined
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 135, 370, 175]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: first three lines
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 150, 370, 215]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: rest of the sentence
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: A relative age for the text (among the Siddhântas whose sidereal years are tabulated); PDF 29 lies just past the TASK's PDF 22-28 range, keyed as a proposed key. PDF 30 opens with a sentence promising a return to "the origin and age of the system" in the additional notes (no date; not keyed). Key formed by the reader (proposed_key).
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 135, 370, 175]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.i48_note_revealed
+  value: 'As the Sûrya-Siddhânta professes to have been revealed by the Sun about the end of the Golden Age, it is of course precluded from taking any notice of the divisions of time posterior to that period: there is nowhere in the treatise an allusion to any of the eras which are actually made use of by the inhabitants of India in reckoning time, with the exception of the cycle of sixty years, which, by its nature, is bound to no date or period (see below, v. 55).'
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 173
+  pdf_page: 34
+  locus: Whitney's note on i.48 (first half), first sentence, from "As the Sûrya-Siddhânta professes" to "(see below, v. …)."; Latin text convention, line-end hyphen joined
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 145, 370, 205]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: first line
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 190, 370, 280]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: rest
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'The text''s claimed date (revelation about the end of the Golden Age); not on a TASK section-4 page. A speck after "professes" is not punctuation. The next sentence restates the epoch "Feb. 18, 1612 J. P., or 3102 B. C." and the following counts 4960 years of the Iron Age to April 11, 1859 (not keyed: the epoch is keyed from PDF 22). Key formed by the reader (proposed_key).'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 20, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.i58_note_later_origin
+  value: It is curious to observe how the Sûrya-Siddhânta, lest it should seem to admit a later origin than that which it claims in the second verse of this chapter, is compelled to ignore the real astronomical epoch, the beginning of the Iron Age; and also how it avoids any open recognition of the lesser cycle of 1,080,000 years, by which its calculations are so evidently intended to be made.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 181
+  pdf_page: 42
+  locus: Whitney's note on i.56-58, paragraph 1 (one sentence), from "It is curious to observe" to "intended to be made."; Latin text convention, line-end hyphen joined
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 50, 370, 125]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: tile r1c1
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 125, 370, 200]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: tile r2c1
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: About the text's claimed origin (no year); not on a TASK section-4 page. The figure 1,080,000 is kept in the text as printed (digit grouping inside a text record is not dropped). Key formed by the reader (proposed_key).
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 40, 225, 205]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.ii28_note_established
+  value: 'The true inclination in the year 300 of our era, which we may assume to have been not far from the time when the Hindu astronomy was established, was a little less than 23° 40′, so that the error of the Hindu determination was then more than 20′: at present, it is 32′ 34″.'
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 201
+  pdf_page: 62
+  locus: Whitney's note on ii.28, paragraph 1, sentence 2, from "The true inclination in the year …" to "it is …′ …″."; Latin text convention; degree, minute and second marks as U+00B0, U+2032, U+2033
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 385, 370, 440]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: first line
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 435, 370, 500]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: rest
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: A date for the system ("the time when the Hindu astronomy was established", assumed near the year 300 of our era); on a page outside the TASK's section-4 list, found while reading ii.28. Key formed by the reader (proposed_key).
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 385, 370, 440]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.ii28_note_established.year
+  value: 300
+  form: integer
+  unit: years
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 201
+  pdf_page: 62
+  locus: same sentence, "the year … of our era"; Latin figure convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 385, 370, 440]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'era as printed: "of our era" Key formed by the reader (proposed_key).'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 385, 370, 440]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.i3_note_revealed
+  value: According to this, the Sûrya-Siddhânta was revealed more than 2,164,960 years ago, that amount of time having elapsed, according to Hindu reckoning, since the end of the Golden Age; see below, under verse 48, for the computation of the period.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 146
+  pdf_page: 7
+  locus: Whitney's note on i.3 (top of printed p. 146), first sentence, from "According to this" to "computation of the period."; Latin text convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 30, 370, 105]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: tile r1c1 of clip [20,30,370,330] 1x4
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 95, 370, 115]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: last line
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: The text's claimed date of revelation, in years before the editor's time. "Age ;" normalised. The figure kept as printed inside the text.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 30, 370, 105]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.i3_note_revealed.years_ago
+  value: 2164960
+  form: integer
+  unit: years
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 146
+  pdf_page: 7
+  locus: same sentence, the figure "…" (years ago); Latin figure convention, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 30, 370, 105]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Printed "more than 2,164,960 years ago": an interval before the time of writing, not a year of an era; keyed under .years_ago rather than .year. Key formed by the reader (proposed_key).'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 30, 370, 105]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.i3_note_difficult
+  value: As regards the actual date of the treatise, it is, like all dates in Hindu history and the history of Hindu literature, exceedingly difficult to ascertain. It is the more difficult, because, unlike most, or all, of the astronomical treatises, the Sûrya-Siddhânta attaches itself to the name of no individual as its author, but professes to be a direct revelation from the Sun (sûrya).
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 146
+  pdf_page: 7
+  locus: same paragraph, sentences 2-3, from "As regards the actual date" to "from the Sun (sûrya)."; Latin text convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 105, 370, 180]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: tile r2c1; first words on clip [20,95,370,115]
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 105, 370, 180]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.i3_note_varahamihira
+  value: A treatise of this name, however, is confessedly among the earliest text-books of the Indian science. It was one of the five earlier works upon which was founded the Pañca-siddhântika, Compendium of Five Astronomies, of Varâha-mihira, one of the earliest astronomers whose works have been, in part, preserved to us, and who is supposed to have lived about the beginning of the sixth century of our era.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 146
+  pdf_page: 7
+  locus: same paragraph, sentences 4-5, from "A treatise of this name" to "… century of our era."; Latin text convention, line-end hyphens joined ("text-books" keeps its hyphen; "As-tronomies" joined)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 105, 370, 180]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: tile r2c1
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 180, 370, 255]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: tile r3c1
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: A terminus for "a treatise of this name" (an earlier Sûrya-Siddhânta), via Varâha-mihira's date. "text-books" is split "text-/books" at a line end; kept hyphenated as the compound "text-book" is printed mid-line on PDF 4 and 7. "Pañca" with ñ.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 105, 370, 180]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.i3_note_brahmagupta
+  value: A Sûrya-Siddhânta is also referred to by Brahmagupta, who is assigned to the close of the same century and the commencement of the one following.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 146
+  pdf_page: 7
+  locus: same paragraph, sentence 6, from "A Sûrya-Siddhânta is also referred to" to "the … following."; Latin text convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 180, 370, 255]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: tile r3c1
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 180, 370, 255]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.i3_note_lata
+  value: He also speaks of the Sûrya-Siddhânta itself, and ascribes its authorship to Lâta (Mémoire sur l'Inde, pp. 331, 332), whom Weber (Vorlesungen über Indische Literaturgeschichte, p. 229) conjecturally identifies with a Lâḍha who is cited by Brahmagupta.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 146
+  pdf_page: 7
+  locus: same paragraph, the sentence from "He also speaks of the Sûrya-Siddhânta itself" to "cited by Brahmagupta."; Latin text convention, line-end hyphens joined
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 320, 370, 395]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: single full-width strip
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: '"He" = al-Bîrûnî, who "wrote in A.D. 1031" (previous sentence, not keyed: that year dates al-Bîrûnî''s account, not the text). Authorship, no date. "Lâḍha" with d dot-below. "l''Inde" printed with a curly apostrophe, keyed U+0027.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 320, 370, 395]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.i3_note_bentley
+  value: 'Bentley has endeavored to show by internal evidence that the Sûrya-Siddhânta belongs to the end of the eleventh century: see below, under verses 29−34, where his method and results are explained, and their value estimated.'
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 146
+  pdf_page: 7
+  locus: same paragraph, last sentence, from "Bentley has endeavored" to "their value estimated."; Latin text convention; the dash in "…-…" as U+2212
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 320, 370, 395]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: single full-width strip
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: '"century :" normalised.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 320, 370, 395]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.add6_iron_age_origin
+  value: Now if, as has been shown in our notes to be altogether probable, that epoch is in fact of astronomical origin, being arrived at by retrospective calculation of the planetary motions, we can hardly avoid the conclusion that the system which presents it in its true character is the more ancient and original.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 424
+  pdf_page: 285
+  locus: Additional note 6 (to p. 161), paragraph 2, sentence 3, from "Now if, as has been shown" (p. 424) to "more ancient and original." (p. 425); Latin text convention, line-end hyphen joined (spans PDF 285-286, printed p. 424-425)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 520, 370, 600]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: PDF 285, first line
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 30, 370, 107.5]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: PDF 286 tile r1c1 of clip [20,30,370,185] 1x2
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 107.5, 370, 185]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: PDF 286 tile r2c1 ("and original.")
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: A relative age (the SS system older than the Siddhânta-Çiromaṇi's); "that epoch" = the commencement of the Iron Age. A stray mark after "importance" on PDF 285 is not punctuation. Pdf_page 285-286 recorded as its first page, the span in the locus. Edition_page 424-425 recorded as its first page, the span in the locus.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 520, 370, 600]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.add6_more_ancient
+  value: We are clearly of opinion, therefore, that, apart from all consideration of the relative age of the separate treatises, the system represented by the Sûrya-Siddhânta is the more ancient.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 425
+  pdf_page: 286
+  locus: Additional note 6, paragraph 2, last sentence, from "We are clearly of opinion" to "is the more ancient."; Latin text convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 175, 370, 215]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: single full-width strip
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: The table below ("Mean Places of the Planets, 6 o'c A.M. at Ujjayinî, Feb. 18th, B. C. 3102", per other treatises) is not keyed.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 175, 370, 215]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.add8_bentley_date
+  value: Any one can see for himself, upon referring to our table given on page 188, with how much plausibility Bentley is able to deduce, from the dates of its fourth column, the year A. D. 1091 as that of the composition of the Sûrya-Siddhânta.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 426
+  pdf_page: 287
+  locus: Additional note 8 (to p. 166), the sentence from "Any … can see for himself" to "of the Sûrya-Siddhânta."; Latin text convention; "Sûrya-Siddhânta" split at the line-end hyphen keeps its hyphen
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 90, 370, 180]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: single full-width strip
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Bentley''s date (A. D. 1091), reported ironically (Whitney rejects it; the next sentence calls Bentley''s determination of epochs "utterly worthless"). The note begins on PDF 286 with Bentley''s alteration of Mercury''s revolution number (not keyed: a revolution number, outside this TASK). "A. D." printed with a thin space.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 90, 370, 180]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.add8_bentley_date.year
+  value: 1091
+  form: integer
+  unit: years
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 426
+  pdf_page: 287
+  locus: same sentence, "the year A. D. …"; Latin figure convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 90, 370, 180]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'era as printed: "A. D."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 90, 370, 180]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.add11_sphere_date
+  value: The actual distance of that point, or of the vernal equinox of A. D. 560, from the vernal equinox of Ptolemy's time, is about 5½°.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 426
+  pdf_page: 287
+  locus: Additional note 11 (to p. 171), sentence 3, from "The actual distance of that point" to "is about 5½°."; Latin text convention; the fraction ½ as U+00BD, the degree sign U+00B0
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 470, 370, 540]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: single full-width strip
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Identifies the initial point of the Hindu sphere with the vernal equinox of A. D. 560 -- a system date. Differs from the "about A. D. 570" of the note on i.27 (PDF 19); both keyed as printed, not reconciled. The "6" of 560 checked: a closed 6 (not 5 or 8). Key formed by the reader (proposed_key).'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 470, 370, 540]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.add11_sphere_date.year
+  value: 560
+  form: integer
+  unit: years
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 426
+  pdf_page: 287
+  locus: same sentence, "A. D. …"; Latin figure convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 470, 370, 540]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'era as printed: "A. D." Key formed by the reader (proposed_key).'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 470, 370, 540]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.add30_bentley_set_aside
+  value: In the first place, Bentley's determination of the age of the treatise we conceive to be altogether set aside by the considerations which we have adduced against it (note to i. 29−34); there is no reasonable ground for questioning that the Sûrya-Siddhânta is, as the Hindus have long believed it to be, one of the most ancient and original of the works which present their modern astronomical science.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 470
+  pdf_page: 334
+  locus: Additional note 30 (to p. 417), paragraph 2, first sentence, from "In the … place" to "modern astronomical science."; Latin text convention; the dash in "…-…" as U+2212
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 100, 370, 175]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: first lines
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 160, 370, 210]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: rest
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: '"29−34) ;" normalised.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 100, 370, 175]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.add30_bija_date
+  value: With regard to this we are far from being confident; but we do not regard it as impossible, or even as very improbable, that those elements, as presented by our text, have been the same from the beginning, never having undergone correction until the application of the bîja, about A. D. 1500 (p, 163 etc.).
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 470
+  pdf_page: 334
+  locus: Additional note 30, paragraph 2, the sentence from "With regard to this we are far" to "(p. 163 etc.)."; Latin text convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 390, 370, 470]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: single full-width strip
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: '"this" = whether the mean-motion elements date from about the time Bentley''s calculations point out (previous sentence). "(p, 163" printed with what looks like a comma after p (a broken period); keyed "p." as the abbreviation. "confident ;" normalised.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 390, 370, 470]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-11-r11
+      on: 2026-10-11
+      dpi: 600
+      clip: [20, 390, 370, 470]
+      delivered_ppi: 600
+      max_edge: 2000
+      note: ''
+    matches: second_read
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.add30_bija_date.year
+  value: 1500
+  form: integer
+  unit: years
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 470
+  pdf_page: 334
+  locus: same sentence, "about A. D. …"; Latin figure convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 390, 370, 470]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'era as printed: "A. D."; the date of the bîja correction'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 390, 370, 470]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.add30_greek_offshoot
+  value: We regard the Hindu science as an offshoot from the Greek, planted not far from the commencement of the Christian era, and attaining its fully developed form in the course of the fifth and sixth centuries.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 471
+  pdf_page: 335
+  locus: Additional note 30, paragraph 3, sentence 2, from "We regard the Hindu science" to "… centuries."; Latin text convention, line-end hyphens joined
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 395, 370, 455]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: first words
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 440, 370, 490]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: rest
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: A date for the system (the Hindu science), not the treatise.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 395, 370, 455]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.add30_final_reduction
+  value: Whatever may have been the date of the first communication of the elements out of which the Hindu system was elaborated, there is good reason to suppose that its final reduction to its present form did not take place until some time during the fifth and sixth centuries. That period is distinctly pointed out by the choice of the equinox of A. D. 570 as the initial and principal point of the fixed sphere (note to i. 27), by the definition of position of the junction-stars of the asterisms (p. 355), and by the Hindu traditions which refer to that time the names of greatest prominence and authority in the early history of the science.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 475
+  pdf_page: 339
+  locus: Additional note 30, paragraph beginning "Whatever may have been the date", sentences 1-2, from "Whatever may have been" to "early history of the science."; Latin text convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 95, 370, 195]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: first lines
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 180, 370, 250]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: rest
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: A date for the system's final form. Restates A. D. 570 (as on PDF 19), against A. D. 560 on PDF 287 (add. note 11); both as printed.
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 95, 370, 195]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.add30_final_reduction.year
+  value: 570
+  form: integer
+  unit: ce_years_current
+  script: latin
+  source: suryasiddhanta_burgess_1860
+  edition_page: 475
+  pdf_page: 339
+  locus: same passage, "the equinox of A. D. …" (split across a line end after "A. D."); Latin figure convention
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 180, 370, 250]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+  status: double_read
+  verified_by: [texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.i27_note_sphere.year]
+  emendation: null
+  notes: 'era as printed: "A. D." The method''s composed (methods/registry.yaml): the latest date the edition assigns to the text in its present form. The statements keyed beside it, each with its page: the same year for the fixation of the sphere (i27_note_sphere, p. 158); A. D. 560 for the same equinox (add11_sphere_date); Bentley''s A. D. 1091, which the editor rejects (bentley_date, add8_bentley_date, add30_bentley_set_aside); the bīja correction about A. D. 1500 and its date of no error A. D. 1541 (add30_bija_date, bija_no_error), dates of a correction applied to the text''s elements, not of the text; the system''s dates A. D. 250 and 300 (sun_no_error, ii28_note_established); Raṅganātha''s commentary year (suryasiddhanta_hall_1859.commentary_year) dates the commentary. Shukla''s dates (suryasiddhanta_paramesvara_1957 Intro pp. 29, 68–69) are on imageless pages. A. D. names the current year of the Christian era, so the convention is the era''s own.'
+  basis: inferred
+  basis_ref: 'suryasiddhanta_burgess_1860 printed p. 475 (PDF 339), additional note 30: the final reduction of the system to its present form, "not until some time during the fifth and sixth centuries", pointed out by the equinox of this year'
+  convention: stated
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 410
+    clip: [20, 180, 370, 250]
+    delivered_ppi: 410
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_bapudeva_1861.postscript_dialogue
+  value: It is stated in the Súrya-siddhánta that a dialogue took place between a man partaking of the nature of the Sun and a Demon called Maya 2,164,960 years before the present time. But nobody knows who has put this dialogue into verse or the date of this versification. People believe that it is the production of some Muni (saint), and many are of opinion that it is the oldest of eighteen ancient astronomical works.
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_bapudeva_1861
+  edition_page: 96
+  pdf_page: 98
+  locus: Bāpū Deva's "Postscript by the Translator", paragraph 1, sentences 1-3, from "It is stated in the" to "… ancient astronomical works."; Latin text convention; small capitals keyed as an initial capital followed by lower case (SÚRYA-SIDDHÁNTA -> Súrya-siddhánta, MAYA -> Maya, MUNI -> Muni)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 600
+    clip: [20, 118, 200, 205]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: native resolution; full page also seen at 440 dpi clip [0,0,206,313]
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: This scan's worn type prints c almost like e throughout ("plaee", "ealled", "versifieation", "aneient"); keyed as the letter c where the word requires it -- a reading of a damaged glyph, flagged in REPORT. A handwritten tick in the left margin is not keyed. Small-caps convention is this context's choice (the TASK conventions do not name small capitals).
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [20, 118, 200, 205]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_bapudeva_1861.postscript_dialogue.years_ago
+  value: 2164960
+  form: integer
+  unit: years
+  script: latin
+  source: suryasiddhanta_bapudeva_1861
+  edition_page: 96
+  pdf_page: 98
+  locus: same paragraph, sentence 1, the figure "…" (years before the present time); Latin figure convention, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 600
+    clip: [20, 118, 200, 205]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the 4 printed with an open top (worn type), distinct from 1 and 9
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: An interval before the time of writing (1860), not a year of an era. Key formed by the reader (proposed_key).
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [20, 118, 200, 205]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_bapudeva_1861.postscript_order
+  value: 'Although it is generally supposed that the Súrya-siddhánta is the oldest, yet some consider the Brahma-siddhánta to be so: and it is stated in the S''ambhu-horáprakas''a (an astrological work), that the Soma-siddhánta is the first, the Brahma-siddhanta the second, and the Súrya-siddhánta the third in the order of time. But this opinion is not generally received.'
+  form: text
+  unit: none
+  script: latin
+  source: suryasiddhanta_bapudeva_1861
+  edition_page: 97
+  pdf_page: 99
+  locus: Postscript, paragraph 2, sentences 1-2, from "Although it is generally supposed" to "not generally received."; Latin text convention; small capitals as in the record above; the printed apostrophe-form transliteration of ś (S'ambhu, -prakas'a) kept as U+0027
+  read:
+  - by: claude-opus-5-5/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 600
+    clip: [20, 45, 200, 150]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: native resolution
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: The first SÚRYA-SIDDHA'NTA has its accent printed after the A (like an apostrophe) -- keyed á; the second BRAH-MA-SIDDHANTA shows no accent on its A -- keyed "siddhanta" as printed. "so :" normalised; "astro-logical" and "BRAH-MA" joined across line ends. A relative order of age, no year. The postscript is signed "Bápu Deva, Sanskrit College, Benares, 1860." (date of the postscript, not of the text; not keyed).
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [20, 45, 200, 150]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_hall_1859.commentary_year
+  value: 1525
+  form: numeral_word
+  value_form: integer
+  word:
+    text: तत्त्वतिथि
+    script: devanagari
+    system: bhutasankhya
+    decode: 1525
+  unit: years
+  script: devanagari
+  source: suryasiddhanta_hall_1859
+  edition_page: 388
+  pdf_page: 400
+  locus: 'colophon verse 6 (four lines, PDF 400 at y 218-304 pt), line 1, 2nd word; numeral-word convention: stem, an -i stem restored, the member उन्मित not keyed'
+  variants: []
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1400
+    clip: [82, 218, 178.5, 241]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tile r1c1 of clip [82,218,272,304] 2x4 --overlap 3 at 1400 dpi; upsampled render (--upsample), adds size not detail; native 300
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 2400
+    clip: [125, 216, 165, 240]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: the akshara thyu; upsampled render (--upsample), adds size not detail; native 300
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'the Saka year (''sake ... mite''). bhutasankhya: tattva 25 (units and tens), tithi 15 (hundreds and thousands) -> 1525. A small broken mark above थ्यु (tile [125,216,165,240] at 2400 dpi) is read as a type speck, not a candrabindu. No errata entry for printed p. 388; no apparatus footnote on the page.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1400
+    clip: [82, 218, 178.5, 241]
+    delivered_ppi: 300
+    note: value = the word's decode (the frozen file carries the word only)
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_hall_1859.commentary
+  value: शके तत्त्वतिथ्युन्मिते चैत्रमासे सिते शम्भुतिथ्यां बुधेऽर्कोदयान्मे दलाढ्यद्विनाराचनाडीषु जातौ मुनीशार्कसिद्धान्तगूढप्रकाशौ
+  form: text
+  unit: statement
+  script: devanagari
+  source: suryasiddhanta_hall_1859
+  edition_page: 388
+  pdf_page: 400
+  locus: colophon verse 6, from 'sake' (line 1) to 'gudhaprakasau' (line 4), before the double danda and the verse number 6; Devanagari statement convention (NFC as printed, dandas not keyed, avagraha kept as printed)
+  variants: []
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1400
+    clip: [82, 218, 178.5, 241]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tile r1c1 of clip [82,218,272,304] 2x4 --overlap 3 at 1400 dpi; upsampled render (--upsample), adds size not detail; native 300
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1400
+    clip: [175.5, 218, 272, 241]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tile r1c2 of clip [82,218,272,304] 2x4 --overlap 3 at 1400 dpi; upsampled render (--upsample), adds size not detail; native 300
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1400
+    clip: [82, 238, 178.5, 262.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tile r2c1 of clip [82,218,272,304] 2x4 --overlap 3 at 1400 dpi; upsampled render (--upsample), adds size not detail; native 300
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1400
+    clip: [175.5, 238, 272, 262.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tile r2c2 of clip [82,218,272,304] 2x4 --overlap 3 at 1400 dpi; upsampled render (--upsample), adds size not detail; native 300
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1400
+    clip: [82, 259.5, 178.5, 284]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tile r3c1 of clip [82,218,272,304] 2x4 --overlap 3 at 1400 dpi; upsampled render (--upsample), adds size not detail; native 300
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1400
+    clip: [175.5, 259.5, 272, 284]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tile r3c2 of clip [82,218,272,304] 2x4 --overlap 3 at 1400 dpi; upsampled render (--upsample), adds size not detail; native 300
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1400
+    clip: [82, 281, 178.5, 304]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tile r4c1 of clip [82,218,272,304] 2x4 --overlap 3 at 1400 dpi; upsampled render (--upsample), adds size not detail; native 300
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1400
+    clip: [175.5, 281, 272, 304]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tile r4c2 of clip [82,218,272,304] 2x4 --overlap 3 at 1400 dpi; upsampled render (--upsample), adds size not detail; native 300
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 2400
+    clip: [82, 260, 135, 284]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: '''dalaḍhya''; upsampled render (--upsample), adds size not detail; native 300'
+  status: read
+  verified_by: []
+  emendation: null
+  notes: four printed lines, one per quarter; the half-verse daṇḍa after 'arkodayan me' (line 2) not keyed. Specks above ढ्य and नाडी (line 3) and above थ्यु (line 1) are not keyed as anusvara/candrabindu. Line 2 'बुधेऽर्कोदयान्मे' is printed as one unit and keyed so. The verse also states the month (caitra), the bright fortnight (sita), a tithi in words (sambhu) and a time in nadis in words (dalaḍhya-dvi-naraca), keyed as proposed keys.
+  read_issue: disputed
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_hall_1859.commentary_tithi
+  value: 11
+  form: numeral_word
+  value_form: integer
+  word:
+    text: शम्भु
+    script: devanagari
+    system: bhutasankhya
+    decode: 11
+  unit: tithi_number
+  script: devanagari
+  source: suryasiddhanta_hall_1859
+  edition_page: 388
+  pdf_page: 400
+  locus: 'colophon verse 6, line 2, 2nd word: its numeral member; the member तिथि not keyed'
+  variants: []
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1400
+    clip: [82, 238, 178.5, 262.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tile r2c1 of clip [82,218,272,304] 2x4 --overlap 3 at 1400 dpi; upsampled render (--upsample), adds size not detail; native 300
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'sambhu (Siva, a Rudra word) read as 11: the tithi of the bright half of Caitra. A number word of the same verse, not listed in the task. Key formed by the reader (proposed_key).'
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1400
+    clip: [82, 238, 178.5, 262.5]
+    delivered_ppi: 300
+    note: value = the word's decode (the frozen file carries the word only)
+- key: texts.suryasiddhanta.composed.statement.suryasiddhanta_hall_1859.commentary_time_nadis
+  value: 52
+  form: numeral_word
+  value_form: integer
+  word:
+    text: द्विनाराच
+    script: devanagari
+    system: bhutasankhya
+    decode: 52
+  unit: nadis
+  script: devanagari
+  source: suryasiddhanta_hall_1859
+  edition_page: 388
+  pdf_page: 400
+  locus: 'colophon verse 6, line 3, 1st word: its numeral members; the members not keyed are named in notes'
+  variants: []
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1400
+    clip: [82, 259.5, 178.5, 284]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tile r3c1 of clip [82,218,272,304] 2x4 --overlap 3 at 1400 dpi; upsampled render (--upsample), adds size not detail; native 300
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 2400
+    clip: [82, 260, 135, 284]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: '''dalaḍhyadvi''; upsampled render (--upsample), adds size not detail; native 300'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'DOUBT (decode): naraca (an iron arrow) read as an arrow word = 5; dvi 2 units, naraca 5 tens -> 52; the whole phrase is 52 and a half nadis (dala = half, not in the integer) after sunrise (''arkodayan'', line 2). A number word of the same verse, not listed in the task. Key formed by the reader (proposed_key).'
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1400
+    clip: [82, 259.5, 178.5, 284]
+    delivered_ppi: 1400
+    note: value = the word's decode (the frozen file carries the word only). the member meaning a half added is not a digit member; the reader's note keeps the whole compound.
+- key: texts.suryasiddhanta.composed.recension.suryasiddhanta_paramesvara_1957
+  status: gap
+  reason: suryasiddhanta_paramesvara_1957 dates the text and the commentary only in Shukla's Introduction (§6·1, p. 29, PDF 20; §7·3, PDF 40), on vector pages from which no value is keyed; no dated statement of the recension is keyed
+  searched: suryasiddhanta_paramesvara_1957 Introduction PDF 20, 40 (vector, not read); the commentary's ayanāṃśa verse, text p. 44 (PDF 63 L, raster), which dates the commentary rather than the recension and is not keyed
+  effect: suryasiddhanta_paramesvara_recension names the vulgate's composed datum (composed.statement.suryasiddhanta_burgess_1860.add30_final_reduction.year), so its before_composition flag follows the vulgate's date and a day between that date and the commentary's time carries no flag
+  source: suryasiddhanta_paramesvara_1957
+  notes: Recorded (the library author's answer Reuse); nothing was read for it.

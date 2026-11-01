@@ -1,0 +1,61 @@
+id: authority/calendar/rashtriya_panchanga_1959_central_station_lmt
+methods: [calendar]
+class: editor_computed
+source: rashtriya_panchanga_1959
+file: rashtriya_panchanga_1959-rashtriya-panchang-1959.pdf
+edition_page: xv
+pdf_page: 17
+locus: rashtriya_panchanga_1959, the Explanation, printed p. xv, the last paragraph ("All calculations contained in this Panchang ..."), its sentence running on to printed p. xvi (PDF 18), first line, ending at "Standard Time"
+rounding: 'as printed: the longitude to minutes of arc; the offset (time_standards.ist.definition.rashtriya_panchanga_1959) to minutes of time'
+precision: 'print quantum: one minute of time (the offset); one minute of arc, four seconds of time (the place)'
+datum_keys: [time_standards.ist.definition.rashtriya_panchanga_1959]
+notes: 'The almanac''s statement of its Central Station and of the clock its timings are in. The offset of that clock from Universal Time is the next sentence on printed p. xvi, already keyed and double_read as time_standards.ist.definition.rashtriya_panchanga_1959; it is cited by key, not keyed again (condition 2). Caveat (condition 4): at the Central Station the local mean time is the standard time by definition, so the local-to-standard difference there is zero; this fixture pins the sign, the degrees-to-time scale and the day boundary of the longitude step of the derived UT chain, and no nonzero local-to-standard difference at a Kerala place is printed in calendar_reform_committee_1955 or rashtriya_panchanga_1959.'
+values:
+- name: input.place_statement
+  role: input
+  value: All calculations contained in this Panchang have been made for an adopted Central Station in India situated on 82° 30′ Longitude East of Greenwich and 23° 11′ Latitude North (latitude of Ujjain), and accordingly the timings of different phenomena have been given in this Panchang in local mean time of this Central Station, which is known as theIndian Standard Time
+  form: text
+  unit: statement
+  script: latin
+  locus: 'Printed p. xv, the last paragraph, its sentence: from ''All calculations'' to ''which is known as'' (the page''s last line), continued on printed p. xvi (PDF 18), the first line, to ''Standard Time'' (before the full stop and ''This time''). The space after ''the'' at the head of p. xvi is not printed and is keyed as printed (''theIndian''); a damaged letter in ''Greenwich'' keyed as the letter it is. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; spacing at punctuation normalised; word spacing otherwise as printed; a printed vulgar fraction keyed as its Unicode character; the prime as U+2032; the value ends before the sentence''s closing full stop, which is not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-16-r1
+    on: 2026-10-16
+    dpi: 241
+    clip: [40, 440, 380, 590]
+    delivered_ppi: 241
+    max_edge: 2000
+    note: 'tiles at native 241 ppi: p. xv clips [40, 440, 380, 540] and [40, 500, 380, 590]; p. xvi (PDF 18) clip [20, 20, 375, 170]; the figures checked in p. xv clip [60, 490, 200, 507] at 723 dpi --upsample'
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-16-r2
+    on: 2026-10-16
+    dpi: 241
+    clip: [40, 440, 380, 590]
+    delivered_ppi: 241
+    max_edge: 2000
+    note: ''
+- name: input.longitude_east
+  role: input
+  value: [82, 30]
+  form: sexagesimal
+  unit: degrees_east
+  script: latin
+  locus: 'Printed p. xv, the last paragraph, the third line: the degrees and minutes of longitude east of Greenwich'
+  read:
+  - by: claude-opus-5-5/2026-10-16-r1
+    on: 2026-10-16
+    dpi: 723
+    clip: [60, 490, 200, 507]
+    delivered_ppi: 241
+    max_edge: 2000
+    note: --dpi 723 --upsample of native 241 ppi
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-16-r2
+    on: 2026-10-16
+    dpi: 723
+    clip: [60, 490, 200, 507]
+    delivered_ppi: 241
+    max_edge: 2000
+    note: ''

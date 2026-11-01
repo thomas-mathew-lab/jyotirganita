@@ -1,0 +1,202 @@
+id: authority/aryabhatiya/mahabhaskariya_1960_ch8_15_mars
+methods: [aryabhatiya]
+class: editor_computed
+source: mahabhaskariya_1960
+file: mahabhaskariya_1960-mahabhaskariya-shukla-1960.pdf
+edition_page: 220
+pdf_page: 305
+locus: VIII.15 and Shukla's solution ('The following is the solution of this example'), p. 220 (PDF 305); the question begins on p. 219 (PDF 304)
+rounding: none (integers)
+precision: integers, as printed
+datum_keys: [texts.aryabhatiya.mars.revolutions, texts.aryabhatiya.civil_days.laghubhaskariya_1963, texts.aryabhatiya.procedures.residue.from_longitude.mahabhaskariya_1960]
+notes: 'The question is Bhāskara I''s (mahabhaskariya_1960 ch. VIII); the solution and its figures are Shukla''s (editor_computed). A pulveriser: the test checks the printed pair against the keyed revolution number and civil days, not the solving.'
+values:
+- name: input.residue_degrees
+  role: input
+  value: 73
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 220
+  pdf_page: 305
+  locus: VIII.15 (Mars), 'the residue of the degrees is …' (p. 219 to p. 220).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 304)
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 305)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.abraded_mars_revolution_degrees
+  role: input
+  value: 13780944
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 220
+  pdf_page: 305
+  locus: VIII.15 (Mars), 'Revolution-number of Mars reduced to degrees / civil days in a yuga = … / …', the numerator.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 305)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.abraded_civil_days
+  role: input
+  value: 26298625
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 220
+  pdf_page: 305
+  locus: VIII.15 (Mars), the same fraction, the denominator.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 305)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.ahargana
+  role: output
+  value: 17420617
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 220
+  pdf_page: 305
+  locus: VIII.15 (Mars), 'x = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 305)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.degrees
+  role: output
+  value: 9128711
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 220
+  pdf_page: 305
+  locus: VIII.15 (Mars), 'y = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 305)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.revolutions
+  role: output
+  value: 25357
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 220
+  pdf_page: 305
+  locus: 'VIII.15 (Mars), ''i.e., … revs., … signs, … degrees'': the revolutions.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 305)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.mars_longitude
+  role: output
+  value: [6, 11]
+  form: rdms
+  unit: rasi_deg
+  script: latin
+  edition_page: 220
+  pdf_page: 305
+  locus: 'VIII.15 (Mars), the same: ''… signs, … degrees''.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 305)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''

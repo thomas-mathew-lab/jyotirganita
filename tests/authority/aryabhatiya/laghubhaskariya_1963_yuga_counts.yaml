@@ -1,0 +1,169 @@
+id: authority/aryabhatiya/laghubhaskariya_1963_yuga_counts
+methods: [aryabhatiya]
+class: editor_computed
+source: laghubhaskariya_1963
+file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+edition_page: 2
+pdf_page: 75
+locus: Shukla's note on I.4–8, the table 'Months and Days in a Yuga'
+rounding: 'none: whole counts'
+precision: 'exact: whole counts in a yuga'
+datum_keys: [texts.aryabhatiya.sun.revolutions, texts.aryabhatiya.moon.revolutions, texts.aryabhatiya.earth.rotations, texts.aryabhatiya.time_units.adhimasa_rule, texts.aryabhatiya.time_units.avama_rule]
+notes: 'Not in the inventory''s list of examples: found while keying laghubhaskariya_1963 I.4–8. The editor''s counts from the revolution numbers.'
+values:
+- name: output.lunar_months
+  role: output
+  value: 53433336
+  form: integer
+  unit: months
+  script: latin
+  edition_page: 2
+  pdf_page: 75
+  locus: Table 'Months and Days in a Yuga', the row 'Lunar months'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 344
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 344
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 75)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 344
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 344
+    max_edge: 2000
+    note: ''
+- name: output.solar_months
+  role: output
+  value: 51840000
+  form: integer
+  unit: months
+  script: latin
+  edition_page: 2
+  pdf_page: 75
+  locus: the same table, the row 'Solar months'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 344
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 344
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 75)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 344
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 344
+    max_edge: 2000
+    note: ''
+- name: output.intercalary_months
+  role: output
+  value: 1593336
+  form: integer
+  unit: months
+  script: latin
+  edition_page: 2
+  pdf_page: 75
+  locus: the same table, the row 'Intercalary months'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 344
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 344
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 75)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 344
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 344
+    max_edge: 2000
+    note: ''
+- name: output.lunar_days
+  role: output
+  value: 1603000080
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 2
+  pdf_page: 75
+  locus: the same table, the row 'Lunar days'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 344
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 344
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 75)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 344
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 344
+    max_edge: 2000
+    note: ''
+- name: output.civil_days
+  role: output
+  value: 1577917500
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 2
+  pdf_page: 75
+  locus: the same table, the row 'Civil days'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 344
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 344
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 75)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 344
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 344
+    max_edge: 2000
+    note: ''
+- name: output.omitted_lunar_days
+  role: output
+  value: 25082580
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 2
+  pdf_page: 75
+  locus: the same table, the row 'Omitted lunar days'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 344
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 344
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 75)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 344
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 344
+    max_edge: 2000
+    note: ''

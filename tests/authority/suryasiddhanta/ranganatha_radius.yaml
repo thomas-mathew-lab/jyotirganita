@@ -1,0 +1,366 @@
+id: authority/suryasiddhanta/ranganatha_radius
+methods: [suryasiddhanta]
+class: text_computed
+source: suryasiddhanta_hall_1859
+edition_page: 67
+pdf_page: 79
+locus: 'PDF 79 l. 8 (from its 3rd word) to l. 13 (to the last sine''s digit group, after ''etadardham antima jya''): the commentary on ii.15-16, the radius from the circumference'
+rounding: the quotient 27000000/3927 is printed as the integer 6876; no rounding rule is stated on the page
+precision: integers (minutes of arc)
+datum_keys: []
+notes: 'A rule of three: if a circumference of 3927 has a diameter of 1250, what diameter has the circle of 21600 minutes? 21600 x 1250 = 27000000, / 3927 = diameter 6876; half of it is the last sine 3438. The numbers 3927 and 1250 are first stated in words (l. 10) and again in the computation (l. 12-13). Errata (suryasiddhanta_hall_1859 PDF 402-403): no entry for printed p. 67.'
+values:
+- name: input.quadrant_signs_word
+  role: input
+  value: 3
+  form: numeral_word
+  value_form: integer
+  word:
+    text: त्रि
+    script: devanagari
+    system: bhutasankhya
+    decode: 3
+  unit: none
+  script: devanagari
+  edition_page: 67
+  pdf_page: 79
+  locus: 'PDF 79 l. 8, 3rd word (a compound with राशि and मित): numeral member; the members राशि, मित not keyed; numeral-word convention (stem, numeral members only)'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 450
+    clip: [38, 240, 348, 264.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tile r1c1 of clip [38,240,348,415] 1x8 --overlap 3 at 450 dpi; upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_radius.yaml (sha256 c81a43b1)
+  status: double_read
+  notes: the quarter-circle measuring three signs
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 450
+    clip: [38, 240, 348, 264.5]
+    delivered_ppi: 300
+    note: value = the word's decode (the frozen file carries the word only)
+- name: input.sine_count_word
+  role: input
+  value: 24
+  form: numeral_word
+  value_form: integer
+  word:
+    text: चतुर्विंशत्
+    script: devanagari
+    system: bhutasankhya
+    decode: 24
+  unit: none
+  script: devanagari
+  edition_page: 67
+  pdf_page: 79
+  locus: 'PDF 79 l. 8, 4th word (a compound with ज्या): numeral member in its pausal form (its final consonant assimilated by sandhi before ज्या); the member ज्या not keyed; numeral-word convention (stem, numeral members only)'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 450
+    clip: [38, 240, 348, 264.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tile r1c1 of clip [38,240,348,415] 1x8 --overlap 3 at 450 dpi; upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_radius.yaml (sha256 c81a43b1)
+  status: double_read
+  notes: twenty-four sines are assumed in the quadrant
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 450
+    clip: [38, 240, 348, 264.5]
+    delivered_ppi: 300
+    note: value = the word's decode (the frozen file carries the word only)
+- name: input.last_sine_signs_word
+  role: input
+  value: 3
+  form: numeral_word
+  value_form: integer
+  word:
+    text: त्रि
+    script: devanagari
+    system: bhutasankhya
+    decode: 3
+  unit: none
+  script: devanagari
+  edition_page: 67
+  pdf_page: 79
+  locus: 'PDF 79 l. 10, 1st word (a compound with राशि, ज्या and अन्तिमा): numeral member; राशि, ज्या, अन्तिमा not keyed; numeral-word convention (stem, numeral members only)'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 450
+    clip: [38, 283, 348, 307.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tile r3c1 of clip [38,240,348,415] 1x8 --overlap 3 at 450 dpi; upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_radius.yaml (sha256 c81a43b1)
+  status: double_read
+  notes: the last sine is the sine of three signs (the radius)
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 450
+    clip: [38, 283, 348, 307.5]
+    delivered_ppi: 300
+    note: value = the word's decode (the frozen file carries the word only)
+- name: input.circumference_word
+  role: input
+  value: 3927
+  form: numeral_word
+  value_form: integer
+  word:
+    text: भनन्दाग्नि
+    script: devanagari
+    system: bhutasankhya
+    decode: 3927
+  unit: none
+  script: devanagari
+  edition_page: 67
+  pdf_page: 79
+  locus: 'PDF 79 l. 10, 3rd word (a compound with मित and परिधि): its numeral members; the members मित, परिधि not keyed; numeral-word convention (stem, numeral members only)'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 450
+    clip: [38, 283, 348, 307.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tile r3c1 of clip [38,240,348,415] 1x8 --overlap 3 at 450 dpi; upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_radius.yaml (sha256 c81a43b1)
+  status: double_read
+  notes: 'bhutasankhya: bha 27 (units and tens), nanda 9, agni 3 -> 3927; the circumference in the proportion'
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 450
+    clip: [38, 283, 348, 307.5]
+    delivered_ppi: 300
+    note: value = the word's decode (the frozen file carries the word only)
+- name: input.diameter_word
+  role: input
+  value: 1250
+  form: numeral_word
+  value_form: integer
+  word:
+    text: खबाणसूर्य
+    script: devanagari
+    system: bhutasankhya
+    decode: 1250
+  unit: none
+  script: devanagari
+  edition_page: 67
+  pdf_page: 79
+  locus: 'PDF 79 l. 10, 4th word (a compound with मित): its numeral members; the member मित not keyed; numeral-word convention (stem, numeral members only)'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 450
+    clip: [38, 283, 348, 307.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tile r3c1 of clip [38,240,348,415] 1x8 --overlap 3 at 450 dpi; upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_radius.yaml (sha256 c81a43b1)
+  status: double_read
+  notes: 'bhutasankhya: kha 0, bana 5, surya 12 (tens and hundreds) -> 1250; the diameter for that circumference (''vyasas tada cakrakalaparidhau ka'', l. 11)'
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 450
+    clip: [38, 283, 348, 307.5]
+    delivered_ppi: 300
+    note: value = the word's decode (the frozen file carries the word only)
+- name: input.circle_minutes
+  role: input
+  value: 21600
+  form: integer
+  unit: minutes_of_arc
+  script: devanagari
+  edition_page: 67
+  pdf_page: 79
+  locus: PDF 79 l. 12, digit group after 'cakrakalah'; Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1200
+    clip: [80, 320, 140, 342]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_radius.yaml (sha256 c81a43b1)
+  status: double_read
+  notes: the two final zeros are printed small and raised
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1500
+    clip: [80, 320, 140, 342]
+    delivered_ppi: 300
+    note: ''
+- name: input.multiplier_word
+  role: input
+  value: 1250
+  form: numeral_word
+  value_form: integer
+  word:
+    text: खबाणसूर्य
+    script: devanagari
+    system: bhutasankhya
+    decode: 1250
+  unit: none
+  script: devanagari
+  edition_page: 67
+  pdf_page: 79
+  locus: 'PDF 79 l. 12, the compound with गुण after the digit group of the circle''s minutes: its numeral members; the member गुण not keyed; numeral-word convention (stem, numeral members only)'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 450
+    clip: [38, 326, 348, 350.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tile r5c1 of clip [38,240,348,415] 1x8 --overlap 3 at 450 dpi; upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_radius.yaml (sha256 c81a43b1)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 450
+    clip: [38, 326, 348, 350.5]
+    delivered_ppi: 300
+    note: value = the word's decode (the frozen file carries the word only)
+- name: output.product
+  role: output
+  value: 27000000
+  form: integer
+  unit: none
+  script: devanagari
+  edition_page: 67
+  pdf_page: 79
+  locus: PDF 79 l. 12, digit group after the compound with गुण; Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1200
+    clip: [210, 320, 290, 342]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_radius.yaml (sha256 c81a43b1)
+  status: double_read
+  notes: '2, 7 and six zeros, printed small and raised; the fourth zero is printed as a filled dot. Counted on the 1200-dpi tile: eight digits.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1500
+    clip: [210, 320, 290, 342]
+    delivered_ppi: 300
+    note: ''
+- name: input.divisor_word
+  role: input
+  value: 3927
+  form: numeral_word
+  value_form: integer
+  word:
+    text: भनन्दाग्नि
+    script: devanagari
+    system: bhutasankhya
+    decode: 3927
+  unit: none
+  script: devanagari
+  edition_page: 67
+  pdf_page: 79
+  locus: PDF 79 l. 12-13, last word of l. 12, joined by the line-end hyphen to the digits that open l. 13; numeral-word convention (stem, numeral members only)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 450
+    clip: [38, 326, 348, 350.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tile r5c1 of clip [38,240,348,415] 1x8 --overlap 3 at 450 dpi; upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_radius.yaml (sha256 c81a43b1)
+  status: double_read
+  notes: the word is printed with its digits (input.divisor) after it
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 450
+    clip: [38, 326, 348, 350.5]
+    delivered_ppi: 300
+    note: value = the word's decode (the frozen file carries the word only)
+- name: input.divisor
+  role: input
+  value: 3927
+  form: integer
+  unit: none
+  script: devanagari
+  edition_page: 67
+  pdf_page: 79
+  locus: PDF 79 l. 13, 1st digit group of l. 13, before 'bhakta'; Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1200
+    clip: [38, 343, 80, 365]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_radius.yaml (sha256 c81a43b1)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1500
+    clip: [38, 343, 80, 365]
+    delivered_ppi: 300
+    note: ''
+- name: output.diameter
+  role: output
+  value: 6876
+  form: integer
+  unit: minutes_of_arc
+  script: devanagari
+  edition_page: 67
+  pdf_page: 79
+  locus: PDF 79 l. 13, digit group after 'vyasah'; Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1500
+    clip: [130, 343, 175, 365]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_radius.yaml (sha256 c81a43b1)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1500
+    clip: [130, 343, 175, 365]
+    delivered_ppi: 300
+    note: ''
+- name: output.last_sine
+  role: output
+  value: 3438
+  form: integer
+  unit: minutes_of_arc
+  script: devanagari
+  edition_page: 67
+  pdf_page: 79
+  locus: PDF 79 l. 13, digit group after 'etadardham antima jya'; Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1200
+    clip: [260, 343, 310, 365]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_radius.yaml (sha256 c81a43b1)
+  status: double_read
+  notes: also read on clip [268,345,298,363] at 2400 dpi (upsampled); the first and third figures are the same glyph (3), the second the 8-shaped 4
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1500
+    clip: [260, 343, 310, 365]
+    delivered_ppi: 300
+    note: ''

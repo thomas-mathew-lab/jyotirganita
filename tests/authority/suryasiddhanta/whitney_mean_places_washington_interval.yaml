@@ -1,0 +1,340 @@
+id: authority/suryasiddhanta/whitney_mean_places_washington_interval
+methods: [suryasiddhanta]
+class: editor_computed
+source: suryasiddhanta_burgess_1860
+edition_page: 188
+pdf_page: 49
+locus: 'note under i.67: p. 187 (PDF 48) from "In order to furnish a practical test" to "office of the American Nautical Almanac, at Cambridge."; p. 188 (PDF 49) table "Mean Longitudes of the Planets, Jan. …st, … midnight, at Washington.", column "According to Surya-Siddhanta: text."'
+rounding: whole seconds of arc
+precision: seconds of arc
+datum_keys: [texts.suryasiddhanta.procedures.epoch_advance.rule]
+notes: 'Mean longitudes for the time after Ujjayini midnight of Jan. 1, 1860 equal to Washington''s distance in time (the interval keyed in two printed forms). The motions for the interval are not printed (only the resulting longitudes). The Surya-Siddhanta column is reckoned from the vernal equinox of that date, not from the text''s initial point: p. 187 says "The longitudes are given as reckoned from the vernal equinox of that date, which we make to be distant 18deg 5'' 8".25 from the point established by the Surya-Siddhanta as the beginning of the Hindu sidereal sphere" (that point described as 10'' east of zeta Piscium, not keyed). Table heads as printed: "Planet." | "According to Surya-Siddhanta: text." | "with bija." | "According to moderns." (deg, '', '''' each); only the text column keyed; the bija and moderns columns and the following table "Errors of the Mean Longitudes of the Planets, as calculated according to the Surya-Siddhanta." on p. 188 are leads, not keyed.'
+values:
+- name: input.interval_nadis_vinadis_pranas
+  role: input
+  value:
+  - [25, 28, '1.8']
+  form: table
+  columns: [nadis, vinadis, respirations]
+  unit: nadis_vinadis_respirations
+  script: latin
+  edition_page: 187
+  pdf_page: 48
+  locus: 'p. 187: "viz. …n …v …p.…"; [n, v, p] as printed, the p decimal as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 345, 375, 440]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,345,375,440] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_mean_places_washington_interval.yaml (sha256 af6135fd)
+  status: double_read
+  notes: unit letters printed as superscripts n, v, p; the decimal point follows the p superscript.
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r1
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 345, 375, 440]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.interval_days
+  role: input
+  value: '0.42453'
+  form: fraction
+  unit: days
+  script: latin
+  edition_page: 187
+  pdf_page: 48
+  locus: 'p. 187: "or …d.…"; decimal as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 345, 375, 440]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,345,375,440] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_mean_places_washington_interval.yaml (sha256 af6135fd)
+  status: double_read
+  notes: printed "0d.42453" with superscript d before the point
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [190, 388, 330, 405]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.equinox_from_initial_point
+  role: input
+  value:
+  - [18, 5, '8.25']
+  form: table
+  columns: [degrees, minutes, seconds]
+  unit: degrees_minutes_seconds
+  script: latin
+  edition_page: 187
+  pdf_page: 48
+  locus: 'p. 187: "distant …deg …'' …".25 from the point established by the Surya-Siddhanta"; [deg, '', ''''] as printed, the seconds decimal as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [30, 345, 205.5, 440]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [30,345,375,440] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_mean_places_washington_interval.yaml (sha256 af6135fd)
+  status: double_read
+  notes: printed 8".25 (the point after the seconds mark).
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r1
+    on: 2026-10-11
+    dpi: 600
+    clip: [30, 345, 205.5, 440]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sun.mean_longitude_washington
+  role: output
+  value: [96, 18, 21]
+  form: sexagesimal
+  unit: degrees_minutes_seconds
+  script: latin
+  edition_page: 188
+  pdf_page: 49
+  locus: 'table row "Sun", column "According to Surya-Siddhanta: text."; [deg, '', ''''] as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [40, 40, 240, 200]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [40,40,240,200]; first-read fixture file k7/fixtures/whitney_mean_places_washington_interval.yaml (sha256 af6135fd)
+  status: double_read
+  notes: reckoned from the vernal equinox of date (p. 187)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [85, 108, 215, 200]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mercury.mean_longitude_washington
+  role: output
+  value: [155, 2, 30]
+  form: sexagesimal
+  unit: degrees_minutes_seconds
+  script: latin
+  edition_page: 188
+  pdf_page: 49
+  locus: 'table row "Mercury", column "According to Surya-Siddhanta: text."; [deg, '', ''''] as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [40, 40, 240, 200]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [40,40,240,200]; first-read fixture file k7/fixtures/whitney_mean_places_washington_interval.yaml (sha256 af6135fd)
+  status: double_read
+  notes: reckoned from the vernal equinox of date (p. 187)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [85, 108, 215, 200]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.venus.mean_longitude_washington
+  role: output
+  value: [339, 54, 55]
+  form: sexagesimal
+  unit: degrees_minutes_seconds
+  script: latin
+  edition_page: 188
+  pdf_page: 49
+  locus: 'table row "Venus", column "According to Surya-Siddhanta: text."; [deg, '', ''''] as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [40, 40, 240, 200]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [40,40,240,200]; first-read fixture file k7/fixtures/whitney_mean_places_washington_interval.yaml (sha256 af6135fd)
+  status: double_read
+  notes: reckoned from the vernal equinox of date (p. 187)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [85, 108, 215, 200]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mars.mean_longitude_washington
+  role: output
+  value: [192, 36, 5]
+  form: sexagesimal
+  unit: degrees_minutes_seconds
+  script: latin
+  edition_page: 188
+  pdf_page: 49
+  locus: 'table row "Mars", column "According to Surya-Siddhanta: text."; [deg, '', ''''] as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [40, 40, 240, 200]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [40,40,240,200]; first-read fixture file k7/fixtures/whitney_mean_places_washington_interval.yaml (sha256 af6135fd)
+  status: double_read
+  notes: reckoned from the vernal equinox of date (p. 187)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [85, 108, 215, 200]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.jupiter.mean_longitude_washington
+  role: output
+  value: [104, 7, 22]
+  form: sexagesimal
+  unit: degrees_minutes_seconds
+  script: latin
+  edition_page: 188
+  pdf_page: 49
+  locus: 'table row "Jupiter", column "According to Surya-Siddhanta: text."; [deg, '', ''''] as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [40, 40, 240, 200]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [40,40,240,200]; first-read fixture file k7/fixtures/whitney_mean_places_washington_interval.yaml (sha256 af6135fd)
+  status: double_read
+  notes: reckoned from the vernal equinox of date (p. 187)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [85, 108, 215, 200]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.saturn.mean_longitude_washington
+  role: output
+  value: [128, 17, 11]
+  form: sexagesimal
+  unit: degrees_minutes_seconds
+  script: latin
+  edition_page: 188
+  pdf_page: 49
+  locus: 'table row "Saturn", column "According to Surya-Siddhanta: text."; [deg, '', ''''] as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [40, 40, 240, 200]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [40,40,240,200]; first-read fixture file k7/fixtures/whitney_mean_places_washington_interval.yaml (sha256 af6135fd)
+  status: double_read
+  notes: reckoned from the vernal equinox of date (p. 187)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [85, 108, 215, 200]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.moon.mean_longitude_washington
+  role: output
+  value: [9, 4, 9]
+  form: sexagesimal
+  unit: degrees_minutes_seconds
+  script: latin
+  edition_page: 188
+  pdf_page: 49
+  locus: 'table row "Moon", column "According to Surya-Siddhanta: text."; [deg, '', ''''] as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [40, 40, 240, 200]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [40,40,240,200]; first-read fixture file k7/fixtures/whitney_mean_places_washington_interval.yaml (sha256 af6135fd)
+  status: double_read
+  notes: reckoned from the vernal equinox of date (p. 187)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [85, 108, 215, 200]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.moon_apsis.mean_longitude_washington
+  role: output
+  value: [327, 50, 24]
+  form: sexagesimal
+  unit: degrees_minutes_seconds
+  script: latin
+  edition_page: 188
+  pdf_page: 49
+  locus: 'table row "" apsis", column "According to Surya-Siddhanta: text."; [deg, '', ''''] as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [40, 40, 240, 200]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [40,40,240,200]; first-read fixture file k7/fixtures/whitney_mean_places_washington_interval.yaml (sha256 af6135fd)
+  status: double_read
+  notes: reckoned from the vernal equinox of date (p. 187)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [85, 108, 215, 200]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.moon_node.mean_longitude_washington
+  role: output
+  value: [312, 29, 51]
+  form: sexagesimal
+  unit: degrees_minutes_seconds
+  script: latin
+  edition_page: 188
+  pdf_page: 49
+  locus: 'table row "" node", column "According to Surya-Siddhanta: text."; [deg, '', ''''] as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [40, 40, 240, 200]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [40,40,240,200]; first-read fixture file k7/fixtures/whitney_mean_places_washington_interval.yaml (sha256 af6135fd)
+  status: double_read
+  notes: reckoned from the vernal equinox of date (p. 187)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [85, 108, 215, 200]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

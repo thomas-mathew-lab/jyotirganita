@@ -1,0 +1,336 @@
+id: authority/suryasiddhanta/whitney_sun_manda_equation
+methods: [suryasiddhanta]
+class: editor_computed
+source: suryasiddhanta_burgess_1860
+edition_page: 210
+pdf_page: 71
+locus: 'note on ii.39, suryasiddhanta_burgess_1860 printed p. 210 (PDF 71): from "We present below, in a briefer form, the results of a similar calculation made for the sun, at the same time." to the line "Sun''s true longitude"'
+rounding: the paragraph following ("In making these calculations, we have neglected the seconds, rejecting the fraction of a minute, or counting it as a minute, according as it was less or greater than a half", same page) applies; the sines, epicycle and equation are printed in whole minutes
+precision: seconds of arc for the longitudes and anomaly; whole minutes for base-sine, bhujaphala, equation and the true longitude
+datum_keys: [texts.suryasiddhanta.procedures.bhuja_koti.rule, texts.suryasiddhanta.procedures.inverse.rule, texts.suryasiddhanta.procedures.manda.equation, texts.suryasiddhanta.procedures.order.statement]
+notes: 'Not listed in the TASK (which names the moon''s calculation): the sun''s companion calculation of the same note, same date (1860 Jan 1, midnight, Washington), keyed as a proposed separate fixture. Chapter references beside the lines (''i. 53'', ''i. 60, 61'', ''i. 41'', ''ii. 29'', ''ii. 30'', ''ii. 38'', ''ii. 39'', ''ii. 45'') not keyed. Proposed by the reader: True.'
+values:
+- name: input.sun_mean_longitude_ujjayini
+  role: input
+  value: [8, 17, 48, 7]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 210
+  pdf_page: 71
+  locus: line 'Sun's mean longitude, midnight, at Ujjayini (i. 53),'; rdms [signs, deg, min, sec] as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [250, 190, 342, 350]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_sun_manda_equation.yaml (sha256 1fa286e7)
+  status: double_read
+  notes: printed with s ° ′ ″ marks
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [250, 190, 342, 350]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.desantara_correction
+  role: input
+  value: [25, 6]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 210
+  pdf_page: 71
+  locus: line 'add for difference of meridian (i. 60, 61),'; [min, sec] in the minute and second columns
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [250, 190, 342, 350]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_sun_manda_equation.yaml (sha256 1fa286e7)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [250, 190, 342, 350]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sun_mean_longitude
+  role: output
+  value: [8, 18, 13, 13]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 210
+  pdf_page: 71
+  locus: line 'Sun's mean longitude at required time,'; rdms [signs, deg, min, sec] as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [250, 190, 342, 350]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_sun_manda_equation.yaml (sha256 1fa286e7)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [250, 190, 342, 350]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.sun_apsis_longitude
+  role: input
+  value: [2, 17, 17, 24]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 210
+  pdf_page: 71
+  locus: line 'Longitude of sun's apsis (i. 41),'; rdms [signs, deg, min, sec] as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [250, 190, 342, 350]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_sun_manda_equation.yaml (sha256 1fa286e7)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [250, 190, 342, 350]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sun_mean_anomaly
+  role: output
+  value: [5, 29, 4, 11]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 210
+  pdf_page: 71
+  locus: line 'Sun's mean anomaly (ii. 29),'; rdms [signs, deg, min, sec] as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [250, 190, 342, 350]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_sun_manda_equation.yaml (sha256 1fa286e7)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [250, 190, 342, 350]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.two_quadrants
+  role: input
+  value: 6
+  form: integer
+  unit: signs
+  script: latin
+  edition_page: 210
+  pdf_page: 71
+  locus: line 'subtract from … quadrants (ii. 30),'; [signs]
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [250, 190, 342, 350]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_sun_manda_equation.yaml (sha256 1fa286e7)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [250, 190, 342, 350]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.bhuja_arc
+  role: output
+  value: [55, 49]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 210
+  pdf_page: 71
+  locus: line 'Arc determining base-sine,'; [min, sec]
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [250, 190, 342, 350]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_sun_manda_equation.yaml (sha256 1fa286e7)
+  status: double_read
+  notes: printed 55' 49" with marks
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [250, 190, 342, 350]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.base_sine
+  role: output
+  value: 56
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 210
+  pdf_page: 71
+  locus: line 'Base-sine (bhujajya),'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [250, 190, 342, 350]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_sun_manda_equation.yaml (sha256 1fa286e7)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [250, 190, 342, 350]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.epicycle
+  role: input
+  value: [14]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 210
+  pdf_page: 71
+  locus: line 'Dimensions of epicycle (ii. 38),'; [deg]
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [250, 190, 342, 350]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_sun_manda_equation.yaml (sha256 1fa286e7)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [250, 190, 342, 350]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.bhujaphala
+  role: output
+  value: 2
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 210
+  pdf_page: 71
+  locus: line 'Result from base-sine (bhujajyaphala), or sine of equation (ii. 39),'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [250, 190, 342, 350]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_sun_manda_equation.yaml (sha256 1fa286e7)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [250, 190, 342, 350]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.equation
+  role: output
+  value: 2
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 210
+  pdf_page: 71
+  locus: line 'Equation (manda phala, ii. 45),'; a plus sign printed before the figure
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [250, 190, 342, 350]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_sun_manda_equation.yaml (sha256 1fa286e7)
+  status: double_read
+  notes: 'printed ''+2′''; the + sign is printed (additive); negative: false'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [250, 190, 342, 350]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sun_true_longitude
+  role: output
+  value: [8, 18, 15]
+  form: rdms
+  unit: signs_degrees_minutes
+  script: latin
+  edition_page: 210
+  pdf_page: 71
+  locus: line 'Sun's true longitude,'; rdms [signs, deg, min]
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [250, 340, 342, 375]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_sun_manda_equation.yaml (sha256 1fa286e7)
+  status: double_read
+  notes: printed with s ° ′ marks
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [250, 340, 342, 375]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

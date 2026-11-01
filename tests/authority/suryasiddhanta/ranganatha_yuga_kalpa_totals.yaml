@@ -1,0 +1,1364 @@
+id: authority/suryasiddhanta/ranganatha_yuga_kalpa_totals
+methods: [suryasiddhanta]
+class: text_computed
+source: suryasiddhanta_hall_1859
+edition_page: 15
+pdf_page: 27
+locus: 'from the 2nd word of PDF 27 l. 1 (the end of the commentary on the verse numbered 16) to the sentence on the first twilight ending ''kalajnair uktah'' (PDF 29 l. 14), commentary on i.17-19 (Gudharthaprakasaka) (pdf_page as keyed: 27-29; edition_page as keyed: 15-17)'
+rounding: none; integer divine years and integer years throughout
+precision: integers (divine years for the ages and twilights; years for the Manu)
+datum_keys: []
+notes: 'Ranganatha divides the yuga into the ages and their twilights in divine years (4800 etc., their sixths, the half-sixth as each twilight), reconciles them with another authority (Manu''s text, values named other.manu.*, and the kalpa of a thousand yugas, other.kalpa_yugas_word), which are NOT this text''s data, then forms the Manu in years (71 mahayugas), adds a Krta as its twilight, and states the kalpa as fourteen such plus the first twilight in words only. Numbers stated in words are keyed as numeral_word (or text for the list of multipliers). Not keyed: the verse lines of i.17-19 themselves; restatements in words that only repeat the verse (PDF 28 l. 2 ''sastha'', PDF 29 l. 7 ''ekasaptatiyugarupa'', l. 8 ''caturdasasankhyakah'', l. 9 ''caturdasamanubhih'', l. 14 ''caturdasatve''). The kalpa total and the total of the twilights are not printed in digits on PDF 27-29. Errata (PDF 401): p. 15 l. 15 savisesaya -> savisesa (text, touches no value). Fixture pages: the first page recorded as the fixture''s page, the span in the locus.'
+values:
+- name: input.solar_years_lemma
+  role: input
+  value: 432
+  form: numeral_word
+  value_form: integer
+  word:
+    text: द्वित्रिसागर
+    script: devanagari
+    system: bhutasankhya
+    decode: 432
+  unit: none
+  script: devanagari
+  edition_page: 15
+  pdf_page: 27
+  locus: 'PDF 27 l. 1, 3rd word (the verse''s word quoted as lemma in the commentary on the verse numbered 16); numeral-word convention: stem, case ending dropped'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [35, 75, 192.5, 135]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: 'bhutasankhya: dvi 2 (units), tri 3, sagara 4; read units upward. Commentary on the verse ending ||16||, preceding i.17; the mahayuga figure the yuga lengths divide.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 70, 350, 138]
+    delivered_ppi: 300
+    note: ''
+- name: input.mahayuga_digits_gloss
+  role: input
+  value: 432
+  form: numeral_word
+  value_form: integer
+  word:
+    text: द्वात्रिंशदधिक चतुःशत
+    script: devanagari
+    system: bhutasankhya
+    decode: 432
+  unit: none
+  script: devanagari
+  edition_page: 15
+  pdf_page: 27
+  locus: PDF 27 l. 2, 1st and 2nd words; two words carrying one number, keyed in printed order; the member मित and the case endings not keyed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [35, 75, 192.5, 135]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: 'ordinary number words: thirty-two added to four hundred. Gloss of the lemma; the commentary cites ankanam vamato gatih (l. 1).'
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 70, 350, 138]
+    delivered_ppi: 300
+    note: ''
+- name: input.multiplier_lemma
+  role: input
+  value: 10000
+  form: numeral_word
+  value_form: integer
+  word:
+    text: अयुत
+    script: devanagari
+    system: bhutasankhya
+    decode: 10000
+  unit: none
+  script: devanagari
+  edition_page: 15
+  pdf_page: 27
+  locus: PDF 27 l. 2, 3rd word; stem
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [192.5, 75, 350, 135]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: the multiplier of the verse (ayuta-guna), restated in the commentary
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 70, 350, 138]
+    delivered_ppi: 300
+    note: ''
+- name: input.multiplier_gloss
+  role: input
+  value: 10000
+  form: numeral_word
+  value_form: integer
+  word:
+    text: दशसहस्र
+    script: devanagari
+    system: bhutasankhya
+    decode: 10000
+  unit: none
+  script: devanagari
+  edition_page: 15
+  pdf_page: 27
+  locus: PDF 27 l. 2, 4th-5th words; stem
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [192.5, 75, 350, 135]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: 'gloss of ayuta: ten thousand'
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 70, 350, 138]
+    delivered_ppi: 300
+    note: ''
+- name: output.mahayuga_years_words
+  role: output
+  value: 4320000
+  form: numeral_word
+  value_form: integer
+  word:
+    text: खचतुष्कद्वात्रिंशच्चतुर्
+    script: devanagari
+    system: bhutasankhya
+    decode: 4320000
+  unit: years
+  script: devanagari
+  edition_page: 15
+  pdf_page: 27
+  locus: PDF 27 l. 3, 1st word; stem, the instrumental ending dropped; internal sandhi as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [35, 75, 192.5, 135]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: 'kha-catuska (four zeros) + dvatrimsat (32) + catur (4), read from the units upward as groups: 4 | 32 | 0000. Stated in words, not digits; the mahayuga in (human) years implied by the gloss; the word ending dropped is -bhih.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 70, 350, 138]
+    delivered_ppi: 300
+    note: ''
+- name: input.yuga_divine_years_word
+  role: input
+  value: 12000
+  form: numeral_word
+  value_form: integer
+  word:
+    text: द्वादशसहस्र
+    script: devanagari
+    system: bhutasankhya
+    decode: 12000
+  unit: divine_years
+  script: devanagari
+  edition_page: 15
+  pdf_page: 27
+  locus: 'PDF 27 l. 18, 1st word (a compound with प्रागुक्त, दिव्यवर्ष and मित): numeral members only; the members प्रागुक्त, दिव्यवर्ष and मित not keyed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [35, 490, 194.5, 527]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: the yuga of twelve thousand divine years, the quantity divided into the ages
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 486, 350, 530]
+    delivered_ppi: 300
+    note: ''
+- name: input.yuga_part_word
+  role: input
+  value: 10
+  form: numeral_word
+  value_form: integer
+  word:
+    text: दश
+    script: devanagari
+    system: bhutasankhya
+    decode: 10
+  unit: none
+  script: devanagari
+  edition_page: 15
+  pdf_page: 27
+  locus: PDF 27 l. 18 last word to l. 19 1st word (a compound with अंश, split at the line end), line-end hyphen joined; numeral member only, the member अंश not keyed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [35, 490, 350, 527]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: glosses dasamo bhagah (l. 18) as dasamsa
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 486, 350, 530]
+    delivered_ppi: 300
+    note: ''
+- name: input.multipliers_word
+  role: input
+  value: चतुस्त्रिद्व्येक
+  form: text
+  unit: none
+  script: devanagari
+  edition_page: 15
+  pdf_page: 27
+  locus: PDF 27 l. 19, 5th word (the compound before गुणितः), the compound without its ending
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [190.5, 490, 350, 527]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: a list of multipliers applied in order (kramena) to the tenth part for krta, treta, dvapara, kali, not a single number, so keyed as text; preceded by caturdha kramena (l. 19, not a number)
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 486, 350, 530]
+    delivered_ppi: 300
+    note: ''
+- name: other.manu.krta
+  role: input
+  value: 4000
+  form: integer
+  unit: divine_years
+  script: devanagari
+  edition_page: 15
+  pdf_page: 27
+  locus: PDF 27 l. 21 (last line), …st digit group after 'divyavarsapramanena' ('nanu manugranthe krtadimanam ...'); Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [192.5, 555, 350, 580]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: another authority's (Manu's text) length of the Krta in divine years, quoted in an objection; not this text's datum
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 548, 350, 585]
+    delivered_ppi: 300
+    note: ''
+- name: other.manu.treta
+  role: input
+  value: 3000
+  form: integer
+  unit: divine_years
+  script: devanagari
+  edition_page: 15
+  pdf_page: 27
+  locus: PDF 27 l. 21, 2nd digit group
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [192.5, 555, 350, 580]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: Manu's text, Treta, divine years; not this text's datum
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 548, 350, 585]
+    delivered_ppi: 300
+    note: ''
+- name: other.manu.dvapara
+  role: input
+  value: 2000
+  form: integer
+  unit: divine_years
+  script: devanagari
+  edition_page: 16
+  pdf_page: 28
+  locus: PDF 28 l. 1, 1st digit group
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [35, 75, 194.5, 115.57]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: Manu's text, Dvapara, divine years; not this text's datum
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 70, 350, 230]
+    delivered_ppi: 300
+    note: ''
+- name: other.manu.kali
+  role: input
+  value: 1000
+  form: integer
+  unit: divine_years
+  script: devanagari
+  edition_page: 16
+  pdf_page: 28
+  locus: PDF 28 l. 1, 2nd digit group
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [35, 75, 194.5, 115.57]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: Manu's text, Kali, divine years; not this text's datum
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 70, 350, 230]
+    delivered_ppi: 300
+    note: ''
+- name: input.objection.krta
+  role: input
+  value: 4800
+  form: integer
+  unit: divine_years
+  script: devanagari
+  edition_page: 16
+  pdf_page: 28
+  locus: PDF 28 l. 1, 3rd digit group ('atra tu tanmanam tadvarsapramanena ...')
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [190.5, 75, 350, 115.57]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: this text's Krta (with its twilights) as the objector restates it, divine years
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 70, 350, 230]
+    delivered_ppi: 300
+    note: ''
+- name: input.objection.treta
+  role: input
+  value: 3600
+  form: integer
+  unit: divine_years
+  script: devanagari
+  edition_page: 16
+  pdf_page: 28
+  locus: PDF 28 l. 1, 4th digit group
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [190.5, 75, 350, 115.57]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: as restated in the objection
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 70, 350, 230]
+    delivered_ppi: 300
+    note: ''
+- name: input.objection.dvapara
+  role: input
+  value: 2400
+  form: integer
+  unit: divine_years
+  script: devanagari
+  edition_page: 16
+  pdf_page: 28
+  locus: PDF 28 l. 2, 1st digit group
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [35, 75, 194.5, 115.57]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: as restated in the objection; a small mark above the first zero (ink)
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 70, 350, 230]
+    delivered_ppi: 300
+    note: ''
+- name: input.objection.kali
+  role: input
+  value: 1200
+  form: integer
+  unit: divine_years
+  script: devanagari
+  edition_page: 16
+  pdf_page: 28
+  locus: PDF 28 l. 2, 2nd digit group
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [35, 75, 194.5, 115.57]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: as restated in the objection
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 70, 350, 230]
+    delivered_ppi: 300
+    note: ''
+- name: input.madukta.krta
+  role: input
+  value: 4800
+  form: integer
+  unit: divine_years
+  script: devanagari
+  edition_page: 16
+  pdf_page: 28
+  locus: PDF 28 l. 4, 1st digit group ('tatha ca maduktamanani ...')
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [190.5, 150.14, 350, 192.71]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: digits read on tile r3c2 of clip [35,75,350,345] 2x7 --overlap 4; upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: the lengths 'I (the text) stated', divine years
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 70, 350, 230]
+    delivered_ppi: 300
+    note: ''
+- name: input.madukta.treta
+  role: input
+  value: 3600
+  form: integer
+  unit: divine_years
+  script: devanagari
+  edition_page: 16
+  pdf_page: 28
+  locus: PDF 28 l. 4, 2nd digit group
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [190.5, 150.14, 350, 192.71]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 70, 350, 230]
+    delivered_ppi: 300
+    note: ''
+- name: input.madukta.dvapara
+  role: input
+  value: 2400
+  form: integer
+  unit: divine_years
+  script: devanagari
+  edition_page: 16
+  pdf_page: 28
+  locus: PDF 28 l. 4, 3rd digit group
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [190.5, 150.14, 350, 192.71]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 70, 350, 230]
+    delivered_ppi: 300
+    note: ''
+- name: input.madukta.kali
+  role: input
+  value: 1200
+  form: integer
+  unit: divine_years
+  script: devanagari
+  edition_page: 16
+  pdf_page: 28
+  locus: PDF 28 l. 4, 4th digit group
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [190.5, 150.14, 350, 192.71]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 70, 350, 230]
+    delivered_ppi: 300
+    note: ''
+- name: input.sandhi_part_word
+  role: input
+  value: 6
+  form: numeral_word
+  value_form: integer
+  word:
+    text: षट्
+    script: devanagari
+    system: bhutasankhya
+    decode: 6
+  unit: none
+  script: devanagari
+  edition_page: 16
+  pdf_page: 28
+  locus: PDF 28 l. 5, 2nd word (a compound with अंश), numeral member only in its pausal form; the member अंश not keyed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [35, 150.14, 194.5, 192.71]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: the divisor six; the verse word sastha is quoted as lemma on l. 2 (not keyed)
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 70, 350, 230]
+    delivered_ppi: 300
+    note: ''
+- name: output.sandhi_part.krta
+  role: output
+  value: 800
+  form: integer
+  unit: divine_years
+  script: devanagari
+  edition_page: 16
+  pdf_page: 28
+  locus: PDF 28 l. 5, 1st digit group (after 'esam' and the compound with अंश)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [35, 150.14, 194.5, 192.71]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 70, 350, 230]
+    delivered_ppi: 300
+    note: ''
+- name: output.sandhi_part.treta
+  role: output
+  value: 600
+  form: integer
+  unit: divine_years
+  script: devanagari
+  edition_page: 16
+  pdf_page: 28
+  locus: PDF 28 l. 5, 2nd digit group
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [35, 150.14, 194.5, 192.71]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 70, 350, 230]
+    delivered_ppi: 300
+    note: ''
+- name: output.sandhi_part.dvapara
+  role: output
+  value: 400
+  form: integer
+  unit: divine_years
+  script: devanagari
+  edition_page: 16
+  pdf_page: 28
+  locus: PDF 28 l. 5, 3rd digit group
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [35, 150.14, 194.5, 192.71]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 70, 350, 230]
+    delivered_ppi: 300
+    note: ''
+- name: output.sandhi_part.kali
+  role: output
+  value: 200
+  form: integer
+  unit: divine_years
+  script: devanagari
+  edition_page: 16
+  pdf_page: 28
+  locus: PDF 28 l. 5, 4th digit group
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [190.5, 150.14, 350, 192.71]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: the sixths are the sum of each age's two twilights; their half is each twilight (l. 6, 'esam ardham sandhikalah')
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 70, 350, 230]
+    delivered_ppi: 300
+    note: ''
+- name: output.sandhi_each.krta
+  role: output
+  value: 400
+  form: integer
+  unit: divine_years
+  script: devanagari
+  edition_page: 16
+  pdf_page: 28
+  locus: PDF 28 l. 7, 1st digit group ('pratyekam adyantayoh sandhikalah ...')
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [35, 188.71, 194.5, 231.29]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 70, 350, 230]
+    delivered_ppi: 300
+    note: ''
+- name: output.sandhi_each.treta
+  role: output
+  value: 300
+  form: integer
+  unit: divine_years
+  script: devanagari
+  edition_page: 16
+  pdf_page: 28
+  locus: PDF 28 l. 7, 2nd digit group
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [35, 188.71, 194.5, 231.29]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 70, 350, 230]
+    delivered_ppi: 300
+    note: ''
+- name: output.sandhi_each.dvapara
+  role: output
+  value: 200
+  form: integer
+  unit: divine_years
+  script: devanagari
+  edition_page: 16
+  pdf_page: 28
+  locus: PDF 28 l. 7, 3rd digit group
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [35, 188.71, 194.5, 231.29]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 70, 350, 230]
+    delivered_ppi: 300
+    note: ''
+- name: output.sandhi_each.kali
+  role: output
+  value: 100
+  form: integer
+  unit: divine_years
+  script: devanagari
+  edition_page: 16
+  pdf_page: 28
+  locus: PDF 28 l. 7, 4th digit group
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [190.5, 188.71, 350, 231.29]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 70, 350, 230]
+    delivered_ppi: 300
+    note: ''
+- name: output.krta.adi_sandhi
+  role: output
+  value: 400
+  form: integer
+  unit: divine_years
+  script: devanagari
+  edition_page: 16
+  pdf_page: 28
+  locus: PDF 28 l. 9 ('yatha krtadisandhih ...')
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [190.5, 265.86, 350, 308.43]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: digits on tile r6c2 of clip [35,75,350,345] 2x7; upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 230, 350, 390]
+    delivered_ppi: 300
+    note: ''
+- name: output.krta.mana
+  role: output
+  value: 4000
+  form: integer
+  unit: divine_years
+  script: devanagari
+  edition_page: 16
+  pdf_page: 28
+  locus: PDF 28 l. 9 ('krtamanam ...')
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [190.5, 265.86, 350, 308.43]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: 'equals the other text''s Krta: the reconciliation says the other text states the length without its twilights'
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 230, 350, 390]
+    delivered_ppi: 300
+    note: ''
+- name: output.krta.anta_sandhi
+  role: output
+  value: 400
+  form: integer
+  unit: divine_years
+  script: devanagari
+  edition_page: 16
+  pdf_page: 28
+  locus: PDF 28 l. 10, 1st digit group ('krtantasandhih ...')
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [35, 265.86, 194.5, 308.43]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 230, 350, 390]
+    delivered_ppi: 300
+    note: ''
+- name: output.treta.adi_sandhi
+  role: output
+  value: 300
+  form: integer
+  unit: divine_years
+  script: devanagari
+  edition_page: 16
+  pdf_page: 28
+  locus: PDF 28 l. 10 ('tretadisandhih ...')
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [190.5, 265.86, 350, 308.43]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 230, 350, 390]
+    delivered_ppi: 300
+    note: ''
+- name: output.treta.mana
+  role: output
+  value: 3000
+  form: integer
+  unit: divine_years
+  script: devanagari
+  edition_page: 16
+  pdf_page: 28
+  locus: PDF 28 l. 10 ('tretamanam ...')
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [190.5, 265.86, 350, 308.43]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: a small tick printed at the upper right of the last zero (ink or a stray mark); keyed as four digits
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 230, 350, 390]
+    delivered_ppi: 300
+    note: ''
+- name: output.treta.anta_sandhi
+  role: output
+  value: 300
+  form: integer
+  unit: divine_years
+  script: devanagari
+  edition_page: 16
+  pdf_page: 28
+  locus: PDF 28 l. 11, 1st digit group ('tretantasandhih ...')
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [35, 304.43, 194.5, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 230, 350, 390]
+    delivered_ppi: 300
+    note: ''
+- name: output.dvapara.adi_sandhi
+  role: output
+  value: 200
+  form: integer
+  unit: divine_years
+  script: devanagari
+  edition_page: 16
+  pdf_page: 28
+  locus: PDF 28 l. 11 ('dvaparadisandhih ...')
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [190.5, 304.43, 350, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 230, 350, 390]
+    delivered_ppi: 300
+    note: ''
+- name: output.dvapara.mana
+  role: output
+  value: 2000
+  form: integer
+  unit: divine_years
+  script: devanagari
+  edition_page: 16
+  pdf_page: 28
+  locus: PDF 28 l. 11 ('dvaparamanam ...')
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [190.5, 304.43, 350, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 230, 350, 390]
+    delivered_ppi: 300
+    note: ''
+- name: output.dvapara.anta_sandhi
+  role: output
+  value: 200
+  form: integer
+  unit: divine_years
+  script: devanagari
+  edition_page: 16
+  pdf_page: 28
+  locus: PDF 28 l. 12, 1st digit group ('dvaparantasandhih ...')
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [35, 304.43, 194.5, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 230, 350, 390]
+    delivered_ppi: 300
+    note: ''
+- name: output.kali.adi_sandhi
+  role: output
+  value: 100
+  form: integer
+  unit: divine_years
+  script: devanagari
+  edition_page: 16
+  pdf_page: 28
+  locus: PDF 28 l. 12 ('kalyadisandhih ...')
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [190.5, 304.43, 350, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 230, 350, 390]
+    delivered_ppi: 300
+    note: ''
+- name: output.kali.mana
+  role: output
+  value: 1000
+  form: integer
+  unit: divine_years
+  script: devanagari
+  edition_page: 16
+  pdf_page: 28
+  locus: PDF 28 l. 12 ('kalimanam ...')
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [190.5, 304.43, 350, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 230, 350, 390]
+    delivered_ppi: 300
+    note: ''
+- name: output.kali.anta_sandhi
+  role: output
+  value: 100
+  form: integer
+  unit: divine_years
+  script: devanagari
+  edition_page: 16
+  pdf_page: 28
+  locus: PDF 28 l. 13, 1st digit group ('kalyantasandhih ...')
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [35, 340, 194.5, 382]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 230, 350, 390]
+    delivered_ppi: 300
+    note: ''
+- name: input.manvantara_yugas_gloss
+  role: input
+  value: 71
+  form: numeral_word
+  value_form: integer
+  word:
+    text: एकसप्तति
+    script: devanagari
+    system: bhutasankhya
+    decode: 71
+  unit: none
+  script: devanagari
+  edition_page: 16
+  pdf_page: 28
+  locus: 'PDF 28 l. 18, 4th word, before ''mahayugam'': the commentary''s gloss of the verse''s number of Ages; stem'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [35, 488, 350, 512]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: ordinary number word, seventy-one (mahayugas in a Manu)
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 420, 350, 520]
+    delivered_ppi: 300
+    note: ''
+- name: other.kalpa_yugas_word
+  role: input
+  value: 1000
+  form: numeral_word
+  value_form: integer
+  word:
+    text: सहस्र
+    script: devanagari
+    system: bhutasankhya
+    decode: 1000
+  unit: none
+  script: devanagari
+  edition_page: 17
+  pdf_page: 29
+  locus: PDF 29 l. 10, 2nd word of the clause beginning 'granthantare kalpamanam' (a compound with युग), numeral member only; the member युग not keyed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [35, 299.67, 194.5, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: 'another authority''s kalpa: a thousand yugas; not this text''s datum'
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 252, 350, 402]
+    delivered_ppi: 300
+    note: ''
+- name: input.manu_multiplier_word
+  role: input
+  value: 71
+  form: numeral_word
+  value_form: integer
+  word:
+    text: एकसप्तति
+    script: devanagari
+    system: bhutasankhya
+    decode: 71
+  unit: none
+  script: devanagari
+  edition_page: 17
+  pdf_page: 29
+  locus: 'PDF 29 l. 10, the compound with गुण between ''yugamanam'' and ''manumanam'': numeral member only; the member गुण not keyed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [190.5, 256.33, 350, 303.67]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: the yuga multiplied by seventy-one gives the Manu
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 252, 350, 402]
+    delivered_ppi: 300
+    note: ''
+- name: output.manu_years
+  role: output
+  value: 306720000
+  form: integer
+  unit: years
+  script: devanagari
+  edition_page: 17
+  pdf_page: 29
+  locus: PDF 29 l. 11, 1st digit group (the Manu without twilight)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 900
+    clip: [38, 314, 119, 334]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: nine digits
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 252, 350, 402]
+    delivered_ppi: 300
+    note: ''
+- name: input.krta_years
+  role: input
+  value: 1728000
+  form: integer
+  unit: years
+  script: devanagari
+  edition_page: 17
+  pdf_page: 29
+  locus: 'PDF 29 l. 11, 2nd digit group (''krtabda ...'': the Krta years added as the twilight)'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 900
+    clip: [119, 314, 200, 334]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 252, 350, 402]
+    delivered_ppi: 300
+    note: ''
+- name: output.manu_with_sandhi_years
+  role: output
+  value: 308448000
+  form: integer
+  unit: years
+  script: devanagari
+  edition_page: 17
+  pdf_page: 29
+  locus: PDF 29 l. 11, 3rd digit group ('yuktam sasandhimanumanam ...')
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 900
+    clip: [230, 314, 350, 334]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: nine digits
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 252, 350, 402]
+    delivered_ppi: 300
+    note: ''
+- name: input.kalpa_multiplier_word
+  role: input
+  value: 14
+  form: numeral_word
+  value_form: integer
+  word:
+    text: चतुर्दश
+    script: devanagari
+    system: bhutasankhya
+    decode: 14
+  unit: none
+  script: devanagari
+  edition_page: 17
+  pdf_page: 29
+  locus: 'PDF 29 l. 12, 2nd word of the clause beginning ''idam'' (a compound with गुण, before ''kalpapramanam''): numeral member only; the member गुण not keyed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [35, 330, 194.5, 367]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: the Manu-with-twilight multiplied by fourteen gives the kalpa (less the first twilight); the commentary does not print the kalpa total in digits on PDF 27-29
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 252, 350, 402]
+    delivered_ppi: 300
+    note: ''
+- name: input.kalpa_sandhis_word
+  role: input
+  value: 15
+  form: numeral_word
+  value_form: integer
+  word:
+    text: पञ्चदश
+    script: devanagari
+    system: bhutasankhya
+    decode: 15
+  unit: none
+  script: devanagari
+  edition_page: 17
+  pdf_page: 29
+  locus: 'PDF 29 l. 14, 3rd word (the ordinal before ''sandhih''): numeral member only; the suffix -क not keyed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 600
+    clip: [35, 363, 350, 400]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_yuga_kalpa_totals.yaml (sha256 0a1bcaf6)
+  status: double_read
+  notes: the first twilight is the fifteenth (fourteen Manus have fifteen twilights)
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 450
+    clip: [35, 252, 350, 402]
+    delivered_ppi: 300
+    note: ''

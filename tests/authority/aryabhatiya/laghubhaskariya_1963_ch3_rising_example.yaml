@@ -1,0 +1,950 @@
+id: authority/aryabhatiya/laghubhaskariya_1963_ch3_rising_example
+methods: [aryabhatiya]
+class: editor_computed
+source: laghubhaskariya_1963
+file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+edition_page: 51
+pdf_page: 124
+locus: Shukla's example on III.17–19, p. 51 (PDF 124) from 'We shall illustrate this rule by an example. Suppose that … ghaṭīs after sunrise at Lucknow …' through p. 52 (PDF 125) to '… we get …ˢ …° …′ as the tropical longitude of the rising point of the ecliptic.'
+rounding: '''approx.'' printed after both quotients; no rule stated'
+precision: whole asus and whole minutes of arc, as printed ('approx.')
+datum_keys: [texts.aryabhatiya.procedures.cara.rule, texts.aryabhatiya.time_units.vinadikas_per_nadi, texts.aryabhatiya.time_units.pranas_per_vinadika]
+notes: 'The example uses the Lucknow table of p. 46 (fixture laghubhaskariya_1963_ch3_lucknow_rising_times); the cross-reference ''(See the table of times of risings of signs at Lucknow on page …)'' is not keyed. Ordinals (''…ᵗʰ sign'') are keyed as integers; ''sixth'' printed as a word is not keyed. Reader''s observation, not resolved: several printed figures do not follow from the page''s own other figures (see the read notes on output.residue_rising, output.after_sign5, output.sign6_part_minutes); also the untraversed portion as printed does not equal a sign less the Sun''s degrees as printed. All keyed as printed.'
+not_run: the lagna example of laghubhaskariya_1963 III.17–19 (the rising point from a time after sunrise), which the engine does not compute; keyed as a lead, to be compared when the engine serves it
+values:
+- name: input.time_ghatis
+  role: input
+  value: 14
+  form: integer
+  unit: ghatis
+  script: latin
+  edition_page: 51
+  pdf_page: 124
+  locus: Shukla's example on III.17–19, 'Suppose that … ghaṭīs after sunrise at Lucknow', the figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 338, 400, 425]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: tight tile clip [40,338,400,425] 1x1 at native 345 (laghubhaskariya_1963 PDF 124); also tile r2c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 338, 400, 425]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: ''
+- name: input.lucknow_latitude
+  role: input
+  value: [26, 55]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 51
+  pdf_page: 124
+  locus: Shukla's example on III.17–19, '(lat. …°…′ E, long. …°…′E.)', the latitude; the letter after it is printed 'E' (sic).
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 338, 400, 425]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: tight tile clip [40,338,400,425] 1x1 at native 345 (laghubhaskariya_1963 PDF 124); the hemisphere letter after the latitude is printed 'E', as after the longitude
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 338, 400, 425]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: ''
+- name: input.lucknow_longitude
+  role: input
+  value: [80, 45]
+  form: sexagesimal
+  unit: degrees_east
+  script: latin
+  edition_page: 51
+  pdf_page: 124
+  locus: Shukla's example on III.17–19, '(lat. …°…′ E, long. …°…′E.)', the longitude.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 338, 400, 425]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: tight tile clip [40,338,400,425] 1x1 at native 345 (laghubhaskariya_1963 PDF 124); also tile r2c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 338, 400, 425]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: ''
+- name: input.sun_longitude
+  role: input
+  value: [3, 4, 20]
+  form: rdms
+  unit: rasi_deg_min
+  script: latin
+  edition_page: 51
+  pdf_page: 124
+  locus: Shukla's example on III.17–19, 'the tropical longitude of the Sun is …ˢ …° …′', signs (superscript s), degrees, minutes.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 338, 400, 425]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: tight tile clip [40,338,400,425] 1x1 at native 345 (laghubhaskariya_1963 PDF 124); also tile r2c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 338, 400, 425]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: ''
+- name: output.sun_sign_ordinal
+  role: output
+  value: 4
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 51
+  pdf_page: 124
+  locus: Shukla's example on III.17–19, 'The Sun lies in the …ᵗʰ sign', the ordinal.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 338, 400, 425]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: tight tile clip [40,338,400,425] 1x1 at native 345 (laghubhaskariya_1963 PDF 124); also tile r2c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 338, 400, 425]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: ''
+- name: output.untraversed
+  role: output
+  value: [25, 10]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 51
+  pdf_page: 124
+  locus: Shukla's example on III.17–19, 'the untraversed portion of that sign being …° …′ (=…′)', degrees and minutes.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 338, 400, 425]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: tight tile clip [40,338,400,425] 1x1 at native 345 (laghubhaskariya_1963 PDF 124); also tile r2c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 338, 400, 425]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: ''
+- name: output.untraversed_minutes
+  role: output
+  value: 1510
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 51
+  pdf_page: 124
+  locus: Shukla's example on III.17–19, 'the untraversed portion of that sign being …° …′ (=…′)', the figure in parentheses.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 338, 400, 425]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: tight tile clip [40,338,400,425] 1x1 at native 345 (laghubhaskariya_1963 PDF 124); also tile r2c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 338, 400, 425]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: ''
+- name: input.rising_sign4
+  role: input
+  value: 2054
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 51
+  pdf_page: 124
+  locus: Shukla's example on III.17–19, 'The time of rising of this sign at Lucknow is … asus.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 338, 400, 425]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: tight tile clip [40,338,400,425] 1x1 at native 345 (laghubhaskariya_1963 PDF 124); also tile r2c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 338, 400, 425]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: ''
+- name: input.text_multiplicand
+  role: input
+  value: 1510
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 51
+  pdf_page: 124
+  locus: Shukla's example on III.17–19, 'Therefore, we multiply …′ by … and divide the product by …', the first figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 420, 400, 515]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: tight tile clip [40,420,400,515] 1x1 at native 345 (laghubhaskariya_1963 PDF 124); also tile r2c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 420, 400, 515]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: ''
+- name: input.text_multiplier
+  role: input
+  value: 2054
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 51
+  pdf_page: 124
+  locus: Shukla's example on III.17–19, 'we multiply …′ by … and divide the product by …', the second figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 420, 400, 515]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: tight tile clip [40,420,400,515] 1x1 at native 345 (laghubhaskariya_1963 PDF 124); also tile r2c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 420, 400, 515]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: ''
+- name: input.text_divisor
+  role: input
+  value: 1800
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 51
+  pdf_page: 124
+  locus: Shukla's example on III.17–19, 'we multiply …′ by … and divide the product by …; thus we get', the third figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 420, 400, 515]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: tight tile clip [40,420,400,515] 1x1 at native 345 (laghubhaskariya_1963 PDF 124); also tile r2c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 420, 400, 515]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: ''
+- name: input.formula1.factor1
+  role: input
+  value: 1510
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 51
+  pdf_page: 124
+  locus: Shukla's example on III.17–19, the displayed formula '…×… / … = … asus approx.', the first factor of the numerator.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 420, 400, 515]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: tight tile clip [40,420,400,515] 1x1 at native 345 (laghubhaskariya_1963 PDF 124); also tile r2c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 420, 400, 515]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: ''
+- name: input.formula1.factor2
+  role: input
+  value: 2054
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 51
+  pdf_page: 124
+  locus: Shukla's example on III.17–19, the displayed formula '…×… / … = … asus approx.', the second factor of the numerator.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 420, 400, 515]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: tight tile clip [40,420,400,515] 1x1 at native 345 (laghubhaskariya_1963 PDF 124); also tile r2c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 420, 400, 515]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: ''
+- name: input.formula1.divisor
+  role: input
+  value: 1800
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 51
+  pdf_page: 124
+  locus: Shukla's example on III.17–19, the displayed formula '…×… / … = … asus approx.', the denominator.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 420, 400, 515]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: tight tile clip [40,420,400,515] 1x1 at native 345 (laghubhaskariya_1963 PDF 124); also tile r2c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 420, 400, 515]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: ''
+- name: output.residue_rising
+  role: output
+  value: 172
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 51
+  pdf_page: 124
+  locus: Shukla's example on III.17–19, the displayed formula '…×… / … = … asus approx.', the result ('This is the time of rising of the untraversed portion of the Sun's sign.').
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 345
+    clip: [130, 435, 280, 460]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: 'tighter tile clip [130,435,280,460] 1x1 at native 345 (laghubhaskariya_1963 PDF 124): three digits printed, followed by a wide space before ''asus''; by the page''s own figures (the 5040 and 3317 that follow) the quotient would have one more digit; keyed as printed'
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 345
+    clip: [130, 435, 280, 460]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: ''
+- name: input.time_ghatis_restated
+  role: input
+  value: 14
+  form: integer
+  unit: ghatis
+  script: latin
+  edition_page: 51
+  pdf_page: 124
+  locus: Shukla's example on III.17–19, 'Subtracting this from … ghaṭīs, i.e., … asus', the first figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 420, 400, 515]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: tight tile clip [40,420,400,515] 1x1 at native 345 (laghubhaskariya_1963 PDF 124); also tile r2c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 420, 400, 515]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: ''
+- name: output.time_asus
+  role: output
+  value: 5040
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 51
+  pdf_page: 124
+  locus: Shukla's example on III.17–19, 'Subtracting this from … ghaṭīs, i.e., … asus', the second figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 420, 400, 515]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: tight tile clip [40,420,400,515] 1x1 at native 345 (laghubhaskariya_1963 PDF 124); also tile r2c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 420, 400, 515]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: ''
+- name: output.after_residue
+  role: output
+  value: 3317
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 51
+  pdf_page: 124
+  locus: Shukla's example on III.17–19, '…, we get … asus.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 420, 400, 515]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: tight tile clip [40,420,400,515] 1x1 at native 345 (laghubhaskariya_1963 PDF 124); also tile r2c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 420, 400, 515]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: ''
+- name: output.sign5_ordinal
+  role: output
+  value: 5
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 51
+  pdf_page: 124
+  locus: Shukla's example on III.17–19, 'Subtracting from this the asus of rising of the …ᵗʰ sign', the ordinal.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 420, 400, 515]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: tight tile clip [40,420,400,515] 1x1 at native 345 (laghubhaskariya_1963 PDF 124); also tile r2c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 420, 400, 515]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: ''
+- name: input.rising_sign5
+  role: input
+  value: 2085
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 51
+  pdf_page: 124
+  locus: Shukla's example on III.17–19, 'the …ᵗʰ sign, i.e., … asus', the figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 420, 400, 515]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: tight tile clip [40,420,400,515] 1x1 at native 345 (laghubhaskariya_1963 PDF 124); also tile r2c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 420, 400, 515]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: ''
+- name: output.after_sign5
+  role: output
+  value: 232
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 51
+  pdf_page: 124
+  locus: Shukla's example on III.17–19, '…, we get … asus.' (end of p. 51 line 2 of the paragraph).
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 420, 400, 515]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: tight tile clip [40,420,400,515] 1x1 at native 345 (laghubhaskariya_1963 PDF 124); three digits, clearly printed; by the page's own figures (3317 less 2085) the remainder would have four digits
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 420, 400, 515]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: ''
+- name: output.sign6_ordinal
+  role: output
+  value: 6
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 51
+  pdf_page: 124
+  locus: Shukla's example on III.17–19, 'The asus of rising of the …ᵗʰ sign cannot be subtracted from it', the ordinal.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 420, 400, 515]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: tight tile clip [40,420,400,515] 1x1 at native 345 (laghubhaskariya_1963 PDF 124); also tile r2c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 345
+    clip: [40, 420, 400, 515]
+    delivered_ppi: 345
+    max_edge: 2000
+    note: ''
+- name: input.text2_multiplier
+  role: input
+  value: 1800
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 52
+  pdf_page: 125
+  locus: Shukla's example on III.17–19, p. 52 'multiply this by … and divide the product by the asus of rising of the …ᵗʰ sign, i.e., by …', the first figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 352
+    clip: [30, 75, 400, 130]
+    delivered_ppi: 352
+    max_edge: 2000
+    note: tight tile clip [30,75,400,130] 1x1 at native 352 (laghubhaskariya_1963 PDF 125); also tile r1c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 352
+    clip: [30, 75, 400, 130]
+    delivered_ppi: 352
+    max_edge: 2000
+    note: ''
+- name: output.sign6_ordinal_restated
+  role: output
+  value: 6
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 52
+  pdf_page: 125
+  locus: Shukla's example on III.17–19, p. 52 'the asus of rising of the …ᵗʰ sign', the ordinal.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 352
+    clip: [30, 75, 400, 130]
+    delivered_ppi: 352
+    max_edge: 2000
+    note: tight tile clip [30,75,400,130] 1x1 at native 352 (laghubhaskariya_1963 PDF 125); also tile r1c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 352
+    clip: [30, 75, 400, 130]
+    delivered_ppi: 352
+    max_edge: 2000
+    note: ''
+- name: input.rising_sign6
+  role: input
+  value: 2024
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 52
+  pdf_page: 125
+  locus: Shukla's example on III.17–19, p. 52 'i.e., by …. Thus we get', the figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 352
+    clip: [30, 75, 400, 130]
+    delivered_ppi: 352
+    max_edge: 2000
+    note: tight tile clip [30,75,400,130] 1x1 at native 352 (laghubhaskariya_1963 PDF 125); also tile r1c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 352
+    clip: [30, 75, 400, 130]
+    delivered_ppi: 352
+    max_edge: 2000
+    note: ''
+- name: input.formula2.factor1
+  role: input
+  value: 232
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 52
+  pdf_page: 125
+  locus: Shukla's example on III.17–19, the displayed formula '…×… / … =…′ or …°…′ approx.', the first factor of the numerator.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 352
+    clip: [30, 75, 400, 130]
+    delivered_ppi: 352
+    max_edge: 2000
+    note: tight tile clip [30,75,400,130] 1x1 at native 352 (laghubhaskariya_1963 PDF 125); also tile r1c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 352
+    clip: [30, 75, 400, 130]
+    delivered_ppi: 352
+    max_edge: 2000
+    note: ''
+- name: input.formula2.factor2
+  role: input
+  value: 1800
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 52
+  pdf_page: 125
+  locus: Shukla's example on III.17–19, the displayed formula, the second factor of the numerator.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 352
+    clip: [30, 75, 400, 130]
+    delivered_ppi: 352
+    max_edge: 2000
+    note: tight tile clip [30,75,400,130] 1x1 at native 352 (laghubhaskariya_1963 PDF 125); also tile r1c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 352
+    clip: [30, 75, 400, 130]
+    delivered_ppi: 352
+    max_edge: 2000
+    note: ''
+- name: input.formula2.divisor
+  role: input
+  value: 2024
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 52
+  pdf_page: 125
+  locus: Shukla's example on III.17–19, the displayed formula, the denominator.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 352
+    clip: [30, 75, 400, 130]
+    delivered_ppi: 352
+    max_edge: 2000
+    note: tight tile clip [30,75,400,130] 1x1 at native 352 (laghubhaskariya_1963 PDF 125); also tile r1c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 352
+    clip: [30, 75, 400, 130]
+    delivered_ppi: 352
+    max_edge: 2000
+    note: ''
+- name: output.sign6_part_minutes
+  role: output
+  value: 202
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 52
+  pdf_page: 125
+  locus: Shukla's example on III.17–19, the displayed formula '… =…′ or …°…′ approx.', the result in minutes.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 352
+    clip: [30, 75, 400, 130]
+    delivered_ppi: 352
+    max_edge: 2000
+    note: tight tile clip [30,75,400,130] 1x1 at native 352 (laghubhaskariya_1963 PDF 125); clearly printed; by the formula's own printed factors the quotient is not this figure (differs by a few minutes)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 352
+    clip: [30, 75, 400, 130]
+    delivered_ppi: 352
+    max_edge: 2000
+    note: ''
+- name: output.sign6_part
+  role: output
+  value: [3, 22]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 52
+  pdf_page: 125
+  locus: Shukla's example on III.17–19, the displayed formula '… =…′ or …°…′ approx.', degrees and minutes.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 352
+    clip: [30, 75, 400, 130]
+    delivered_ppi: 352
+    max_edge: 2000
+    note: tight tile clip [30,75,400,130] 1x1 at native 352 (laghubhaskariya_1963 PDF 125); also tile r1c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 352
+    clip: [30, 75, 400, 130]
+    delivered_ppi: 352
+    max_edge: 2000
+    note: ''
+- name: input.time_ghatis_summary
+  role: input
+  value: 14
+  form: integer
+  unit: ghatis
+  script: latin
+  edition_page: 52
+  pdf_page: 125
+  locus: Shukla's example on III.17–19, 'Thus we see that in … ghaṭīs …°…′ of the …ᵗʰ sign', the first figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 352
+    clip: [30, 125, 400, 185]
+    delivered_ppi: 352
+    max_edge: 2000
+    note: tight tile clip [30,125,400,185] 1x1 at native 352 (laghubhaskariya_1963 PDF 125); also tile r1c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 352
+    clip: [30, 125, 400, 185]
+    delivered_ppi: 352
+    max_edge: 2000
+    note: ''
+- name: output.untraversed_summary
+  role: output
+  value: [25, 10]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 52
+  pdf_page: 125
+  locus: Shukla's example on III.17–19, 'in … ghaṭīs …°…′ of the …ᵗʰ sign', degrees and minutes.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 352
+    clip: [30, 125, 400, 185]
+    delivered_ppi: 352
+    max_edge: 2000
+    note: tight tile clip [30,125,400,185] 1x1 at native 352 (laghubhaskariya_1963 PDF 125); also tile r1c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 352
+    clip: [30, 125, 400, 185]
+    delivered_ppi: 352
+    max_edge: 2000
+    note: ''
+- name: output.sun_sign_ordinal_summary
+  role: output
+  value: 4
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 52
+  pdf_page: 125
+  locus: Shukla's example on III.17–19, '…°…′ of the …ᵗʰ sign', the ordinal.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 352
+    clip: [30, 125, 400, 185]
+    delivered_ppi: 352
+    max_edge: 2000
+    note: tight tile clip [30,125,400,185] 1x1 at native 352 (laghubhaskariya_1963 PDF 125); also tile r1c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 352
+    clip: [30, 125, 400, 185]
+    delivered_ppi: 352
+    max_edge: 2000
+    note: ''
+- name: output.sign5_ordinal_summary
+  role: output
+  value: 5
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 52
+  pdf_page: 125
+  locus: Shukla's example on III.17–19, 'the whole of the …ᵗʰ sign', the ordinal.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 352
+    clip: [30, 125, 400, 185]
+    delivered_ppi: 352
+    max_edge: 2000
+    note: tight tile clip [30,125,400,185] 1x1 at native 352 (laghubhaskariya_1963 PDF 125); also tile r1c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 352
+    clip: [30, 125, 400, 185]
+    delivered_ppi: 352
+    max_edge: 2000
+    note: ''
+- name: output.sign6_part_summary
+  role: output
+  value: [3, 22]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 52
+  pdf_page: 125
+  locus: Shukla's example on III.17–19, 'and …°…′ of the sixth sign have risen above the horizon of Lucknow.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 352
+    clip: [30, 125, 400, 185]
+    delivered_ppi: 352
+    max_edge: 2000
+    note: tight tile clip [30,125,400,185] 1x1 at native 352 (laghubhaskariya_1963 PDF 125); also tile r1c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 352
+    clip: [30, 125, 400, 185]
+    delivered_ppi: 352
+    max_edge: 2000
+    note: ''
+- name: output.lagna
+  role: output
+  value: [5, 3, 22]
+  form: rdms
+  unit: rasi_deg_min
+  script: latin
+  edition_page: 52
+  pdf_page: 125
+  locus: Shukla's example on III.17–19, 'Adding these to the Sun's longitude, we get …ˢ …° …′ as the tropical longitude of the rising point of the ecliptic.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 352
+    clip: [30, 125, 400, 185]
+    delivered_ppi: 352
+    max_edge: 2000
+    note: tight tile clip [30,125,400,185] 1x1 at native 352 (laghubhaskariya_1963 PDF 125); also tile r1c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 352
+    clip: [30, 125, 400, 185]
+    delivered_ppi: 352
+    max_edge: 2000
+    note: ''

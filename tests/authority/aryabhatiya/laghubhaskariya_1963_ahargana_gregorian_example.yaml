@@ -1,0 +1,377 @@
+id: authority/aryabhatiya/laghubhaskariya_1963_ahargana_gregorian_example
+methods: [aryabhatiya]
+class: editor_computed
+source: laghubhaskariya_1963
+file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+edition_page: 3
+pdf_page: 76
+locus: Shukla's note on I.4–8, 'Example. Calculate the ahargaṇa for January …, … A.D.', the calculation and the verification
+rounding: the quotients of steps (3) and (6) taken whole, the remainder discarded, as printed
+precision: 'exact: whole counts'
+datum_keys: [texts.aryabhatiya.procedures.ahargana.rule, texts.aryabhatiya.procedures.ahargana.saka_to_kali_years, texts.aryabhatiya.procedures.ahargana.intercalary_months_per_yuga, texts.aryabhatiya.procedures.ahargana.solar_months_per_yuga, texts.aryabhatiya.procedures.ahargana.omitted_days_per_yuga, texts.aryabhatiya.procedures.ahargana.lunar_days_per_yuga, texts.aryabhatiya.procedures.weekday.rule]
+notes: The calendar inputs (Śaka year, months and tithis elapsed) are the editor's, 'From the Hindu Calendar'. The weekday check counts the remainder with Friday.
+values:
+- name: input.date
+  role: input
+  value: January 1, 1963 A.D.
+  form: text
+  unit: statement
+  script: latin
+  edition_page: 3
+  pdf_page: 76
+  locus: Shukla's 'Example' on I.4–8, the date in the question, from the month to 'A.D.' ('Calculate the ahargaṇa for' not keyed). Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tile r1c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 76)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: ''
+- name: input.saka_year_elapsed
+  role: input
+  value: 1884
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 3
+  pdf_page: 76
+  locus: Shukla's 'Example' on I.4–8, 'in the Śaka year … (elapsed)'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tile r1c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 76)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: ''
+- name: input.weekday
+  role: input
+  value: Tuesday
+  form: text
+  unit: statement
+  script: latin
+  edition_page: 3
+  pdf_page: 76
+  locus: Shukla's 'Example' on I.4–8, 'falls on …, the 6th lunar day (tithi)'. Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tile r1c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 76)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: ''
+- name: input.months_elapsed
+  role: input
+  value: 9
+  form: integer
+  unit: months
+  script: latin
+  edition_page: 3
+  pdf_page: 76
+  locus: 'Shukla''s ''Example'' on I.4–8, step (2): ''adding … (i.e., the number of lunar months elapsed since the beginning of Caitra)''.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 76)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: ''
+- name: input.tithis_elapsed
+  role: input
+  value: 5
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 3
+  pdf_page: 76
+  locus: 'Shukla''s ''Example'' on I.4–8, step (5): ''adding … (i.e., the number of lunar days elapsed since the beginning of the current month)''.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 76)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: ''
+- name: output.step1_kali_years
+  role: output
+  value: 5063
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 3
+  pdf_page: 76
+  locus: 'Shukla''s ''Example'' on I.4–8, step (1): ''Adding … to …, we get ….'''
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 76)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: ''
+- name: output.step2_solar_months
+  role: output
+  value: 60765
+  form: integer
+  unit: months
+  script: latin
+  edition_page: 3
+  pdf_page: 76
+  locus: 'Shukla''s ''Example'' on I.4–8, step (2): ''we get ….'''
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 76)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: ''
+- name: output.step3_intercalary_months
+  role: output
+  value: 1867
+  form: integer
+  unit: months
+  script: latin
+  edition_page: 3
+  pdf_page: 76
+  locus: 'Shukla''s ''Example'' on I.4–8, step (3): ''we get … as the quotient.'''
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 76)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: ''
+- name: output.step4_lunar_months
+  role: output
+  value: 62632
+  form: integer
+  unit: months
+  script: latin
+  edition_page: 3
+  pdf_page: 76
+  locus: 'Shukla''s ''Example'' on I.4–8, step (4): ''we get ….'''
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 76)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: ''
+- name: output.step5_tithis
+  role: output
+  value: 1878965
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 3
+  pdf_page: 76
+  locus: 'Shukla''s ''Example'' on I.4–8, step (5): ''we get ….'''
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 76)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: ''
+- name: output.step6_omitted_days
+  role: output
+  value: 29400
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 3
+  pdf_page: 76
+  locus: 'Shukla''s ''Example'' on I.4–8, step (6): ''we get … as the quotient.'''
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 76)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: ''
+- name: output.ahargana
+  role: output
+  value: 1849565
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 3
+  pdf_page: 76
+  locus: 'Shukla''s ''Example'' on I.4–8, step (7): ''we get ….'''
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 76)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''
+- name: output.weekday_remainder
+  role: output
+  value: 4
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 3
+  pdf_page: 76
+  locus: 'Shukla''s ''Example'' on I.4–8, Verification: ''we get … as the remainder''.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 76)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''
+- name: output.weekday
+  role: output
+  value: Tuesday
+  form: text
+  unit: statement
+  script: latin
+  edition_page: 3
+  pdf_page: 76
+  locus: 'Shukla''s ''Example'' on I.4–8, Verification: ''… falls on the 5th day counted with Friday, i.e., on …''. Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 76)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''

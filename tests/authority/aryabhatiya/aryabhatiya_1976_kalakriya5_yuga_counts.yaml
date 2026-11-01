@@ -1,0 +1,117 @@
+id: authority/aryabhatiya/aryabhatiya_1976_kalakriya5_yuga_counts
+methods: [aryabhatiya]
+class: editor_computed
+source: aryabhatiya_1976
+file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+edition_page: 91
+pdf_page: 165
+locus: Kālakriyā 5, the editors' tabulation below the translation
+rounding: 'none: whole counts'
+precision: 'exact: whole counts in a yuga'
+datum_keys: [texts.aryabhatiya.sun.revolutions, texts.aryabhatiya.moon.revolutions, texts.aryabhatiya.earth.rotations, texts.aryabhatiya.civil_days.rule]
+notes: 'Not in the inventory''s list of examples: found while keying Kālakriyā 5. The inputs are the Gītikā 3–4 revolution data; the outputs are the editors'' counts in a yuga by the rules of Kālakriyā 5.'
+values:
+- name: output.solar_years
+  role: output
+  value: 4320000
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 91
+  pdf_page: 165
+  locus: The editors' tabulation after 'Thus we have :', the line 'Solar years in a yuga'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of the same clip: the editors'' tabulation and note'
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.lunar_months
+  role: output
+  value: 53433336
+  form: integer
+  unit: months
+  script: latin
+  edition_page: 91
+  pdf_page: 165
+  locus: The editors' tabulation after 'Thus we have :', the line 'Lunar months in a yuga'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of the same clip: the editors'' tabulation and note'
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.civil_days
+  role: output
+  value: 1577917500
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 91
+  pdf_page: 165
+  locus: The editors' tabulation after 'Thus we have :', the line 'Civil days in a yuga'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of the same clip: the editors'' tabulation and note'
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sidereal_days
+  role: output
+  value: 1582237500
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 91
+  pdf_page: 165
+  locus: The editors' tabulation after 'Thus we have :', the line 'Sidereal days in a yuga'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of the same clip: the editors'' tabulation and note'
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

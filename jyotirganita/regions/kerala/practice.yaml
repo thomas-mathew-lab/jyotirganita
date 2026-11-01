@@ -1,0 +1,1945 @@
+- key: regions.kerala.practice.gopala_varyar_1954.method_statement.publisher
+  value: പൌരസ്ത്യസമ്പ്രദായത്തെ മിക്കവാറും മുറുകെപ്പിടിച്ചും, പാശ്ചാത്യഗണിതപദ്ധതികളോടു് ഏറ്റവും അടുപ്പമുള്ളതുമായ മാർഗ്ഗത്തിൽക്കൂടി "നിത്യപഞ്ചാംഗഗണിതം" എന്ന ഗണിതഗ്രന്ഥം നിർമ്മിച്ചിരിക്കുന്നു.
+  form: text
+  unit: statement
+  script: malayalam
+  source: gopala_varyar_1954
+  file: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+  edition_page: prastāvana
+  pdf_page: 4
+  locus: 'the publisher''s prastāvana, counting the body text lines from the first under the heading: from the clause after the third word of line 18 to the full stop after the first word of line 21 (the start of the sentence not keyed; lines 18–21 are on the lower half of the page). Malayalam keyed in Unicode (NFC) as printed: chillus as the atomic letters U+0D7A–U+0D7F; the candrakkala wherever printed, word-final included (an old-style u sign with candrakkala keyed as U+0D41 U+0D4D); a conjunct as consonant–virama–consonant whether set as a ligature or as two letters side by side (the old ററ keyed റ്റ); the dot reph keyed as the chillu ർ; the vowel sign au as U+0D4C whatever its printed shape; old-style vowel signs by their Unicode reading; a word broken at a line end (no hyphen printed) joined; spacing at punctuation normalised; quotation marks as straight quotes.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 132, 204, 264]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of the page, 1x2 (gopala_varyar_1954 PDF 4)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [104, 152, 182, 176]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [30,152,182,196] 2x2 --overlap 4 rendered --dpi 1200 --upsample, tile r1c2 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [30, 172, 108, 196]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r2c1
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [104, 172, 182, 196]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r2c2
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: gopala_varyar_1954, prastāvana (PDF 4)
+  notes: 'The method the manual''s publisher states the book follows: decides which method gopala_varyar_1954 is a second witness for; individual sign-off. The page prints no page number.'
+  decides: [procedure]
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 1200
+    clip: [30, 152, 182, 196]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 're-expressed from the frozen file reads_wp8-read2-fable-b.yaml (sha256 1e08a65f): the first akṣara''s au sign was typed as U+0D57 (the printed shape, the au length mark after the consonant with no prefix) where the list''s convention, stated before the read, keys the vowel sign au as U+0D4C whatever its printed shape; the glyph reading is unchanged'
+  owner_signoff:
+    on: 2026-10-08
+    by: owner
+    ref: development-record
+    scope: individual
+    signed_hash: sha256:8f684d1fa20b8c86ec48889d44b0332061be6c5db1d54d56f0d487ecba74bc9e
+    note: a reading that decides a procedure, signed off from the viewing sheet
+- key: regions.kerala.practice.gopala_varyar_1954.method_statement.author_manda
+  value: അതിനു മറ്റുപലരും പല മാർഗ്ഗങ്ങൾ സ്വീകരിച്ചുകാണുന്നതു് അത്ര പന്തിയായിട്ടില്ലെന്നുള്ളതിലേക്കു് ഗണിതനിർണ്ണയംതന്നെ മതിയായ സാക്ഷ്യംവഹിക്കുമെന്നു വിശ്വസിക്കുന്നു.
+  form: text
+  unit: statement
+  script: malayalam
+  source: gopala_varyar_1954
+  file: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+  edition_page: ii
+  pdf_page: 9
+  locus: 'the author''s āmukham, section III, the second sentence (from the start of the section''s second line to the first full stop of its third line). Malayalam keyed in Unicode (NFC) as printed: chillus as the atomic letters U+0D7A–U+0D7F; the candrakkala wherever printed, word-final included (an old-style u sign with candrakkala keyed as U+0D41 U+0D4D); a conjunct as consonant–virama–consonant whether set as a ligature or as two letters side by side (the old ററ keyed റ്റ); the dot reph keyed as the chillu ർ; the vowel sign au as U+0D4C whatever its printed shape; old-style vowel signs by their Unicode reading; a word broken at a line end (no hyphen printed) joined; spacing at punctuation normalised; quotation marks as straight quotes.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 132, 204, 264]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of the page, 1x2 (gopala_varyar_1954 PDF 9)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [20, 228, 104, 248]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [20,228,184,248] 2x1 --overlap 4 rendered --dpi 1200 --upsample, tile r1c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [100, 228, 184, 248]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r1c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [20, 230.5, 75, 237]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip --dpi 2400 --upsample (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [73, 230.5, 128, 237]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [126, 230.5, 182, 237]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [20, 233.5, 75, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [73, 233.5, 128, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: gopala_varyar_1954, āmukham p. ii, section III (PDF 9)
+  notes: 'The author''s statement of the authority for the manda part (āmukham III); with the publisher''s statement, decides which method gopala_varyar_1954 is a second witness for; individual sign-off. The print is worn here: the old-style u signs on ക്കു, ന്നു and ണു are small; each was read on the 2400-dpi strips.'
+  decides: [procedure]
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 2400
+    clip: [20, 230.5, 182, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  owner_signoff:
+    on: 2026-10-08
+    by: owner
+    ref: development-record
+    scope: individual
+    signed_hash: sha256:b2c31ab61f836287c7a02a810522200ff4f9c911e1694758a50b5b76b00633a5
+    note: a reading that decides a procedure, signed off from the viewing sheet
+- key: regions.kerala.practice.gopala_varyar_1954.symbols.units
+  value: S ° ′ ″ ഇതുകൾക്കു ക്രമേണ, രാശി, ഭാഗ, കല, വികല എന്നർത്ഥമാകുന്നു.
+  form: text
+  unit: statement
+  script: malayalam
+  source: gopala_varyar_1954
+  file: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+  edition_page: unnumbered (before p. 1)
+  pdf_page: 17
+  locus: 'the block of symbols at the head of the page, its first line, whole (four signs, then the sentence to its full stop); the four signs keyed as S, ° and the prime and double prime U+2032, U+2033 (printed as slanted strokes), separated by single spaces. Malayalam keyed in Unicode (NFC) as printed: chillus as the atomic letters U+0D7A–U+0D7F; the candrakkala wherever printed, word-final included (an old-style u sign with candrakkala keyed as U+0D41 U+0D4D); a conjunct as consonant–virama–consonant whether set as a ligature or as two letters side by side (the old ററ keyed റ്റ); the dot reph keyed as the chillu ർ; the vowel sign au as U+0D4C whatever its printed shape; old-style vowel signs by their Unicode reading; a word broken at a line end (no hyphen printed) joined; spacing at punctuation normalised; quotation marks as straight quotes.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 0, 204, 132]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of the page, 1x2 (gopala_varyar_1954 PDF 17)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [26, 45, 105, 70]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [26,45,180,70] 2x1 --overlap 4 rendered --dpi 1200 --upsample, tile r1c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [101, 45, 180, 70]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r1c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [26, 45, 46, 53]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip --dpi 2400 --upsample (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [40, 45, 75, 53]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [75, 45, 110, 53]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [106, 45, 141, 53]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [141, 45, 176, 53]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: gopala_varyar_1954, list of symbols (PDF 17)
+  notes: 'The manual''s units of arc (kerala_practice.md §B). Doubtful cell: in the last word one mark is printed above, between the two consonants of the conjunct after the doubled n; read as the dot reph (keyed as the chillu), not as a virama.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 2400
+    clip: [26, 45, 176, 53]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: regions.kerala.practice.gopala_varyar_1954.symbols.signs
+  value: + കൂട്ടുക (ധനം) − കുറയ്ക്കുക (ഋണം) × ഗുണിക്കുക (ഗുണനചിഹ്നം)
+  form: text
+  unit: statement
+  script: malayalam
+  source: gopala_varyar_1954
+  file: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+  edition_page: unnumbered (before p. 1)
+  pdf_page: 17
+  locus: 'the block of symbols at the head of the page, its second line, whole (three signs, each with its words); the middle sign, printed as a long dash, keyed as the minus sign U+2212; single spaces between the groups. Malayalam keyed in Unicode (NFC) as printed: chillus as the atomic letters U+0D7A–U+0D7F; the candrakkala wherever printed, word-final included (an old-style u sign with candrakkala keyed as U+0D41 U+0D4D); a conjunct as consonant–virama–consonant whether set as a ligature or as two letters side by side (the old ററ keyed റ്റ); the dot reph keyed as the chillu ർ; the vowel sign au as U+0D4C whatever its printed shape; old-style vowel signs by their Unicode reading; a word broken at a line end (no hyphen printed) joined; spacing at punctuation normalised; quotation marks as straight quotes.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 0, 204, 132]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of the page, 1x2 (gopala_varyar_1954 PDF 17)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [26, 45, 105, 70]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [26,45,180,70] 2x1 --overlap 4 rendered --dpi 1200 --upsample, tile r1c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [101, 45, 180, 70]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r1c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [26, 53, 61, 62]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [26,53,166,62] 4x1 --dpi 2400 --upsample, tile r1c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [61, 53, 96, 62]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r1c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [96, 53, 131, 62]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r1c3
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [131, 53, 166, 62]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r1c4
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: gopala_varyar_1954, list of symbols (PDF 17)
+  notes: The manual's signs for addition, subtraction and multiplication (kerala_practice.md §B). A dot printed on either side of the first sign read as blemishes.
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 2400
+    clip: [26, 53, 166, 62]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: regions.kerala.practice.gopala_varyar_1954.symbols.decimal_point
+  value: . ഇതു് ദശാംശചിഹ്നമാകുന്നു.
+  form: text
+  unit: statement
+  script: malayalam
+  source: gopala_varyar_1954
+  file: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+  edition_page: unnumbered (before p. 1)
+  pdf_page: 17
+  locus: 'the block of symbols at the head of the page, its third line, whole (the sign, then the sentence to its full stop). Malayalam keyed in Unicode (NFC) as printed: chillus as the atomic letters U+0D7A–U+0D7F; the candrakkala wherever printed, word-final included (an old-style u sign with candrakkala keyed as U+0D41 U+0D4D); a conjunct as consonant–virama–consonant whether set as a ligature or as two letters side by side (the old ററ keyed റ്റ); the dot reph keyed as the chillu ർ; the vowel sign au as U+0D4C whatever its printed shape; old-style vowel signs by their Unicode reading; a word broken at a line end (no hyphen printed) joined; spacing at punctuation normalised; quotation marks as straight quotes.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 0, 204, 132]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of the page, 1x2 (gopala_varyar_1954 PDF 17)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [26, 45, 105, 70]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [26,45,180,70] 2x1 --overlap 4 rendered --dpi 1200 --upsample, tile r1c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [26, 62, 61, 70]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [26,62,96,70] 2x1 --dpi 2400 --upsample, tile r1c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [61, 62, 96, 70]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r1c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [44, 62, 79, 70]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip --dpi 2400 --upsample
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: gopala_varyar_1954, list of symbols (PDF 17)
+  notes: 'The manual''s decimal point (kerala_practice.md §B). Doubtful cell: the gap inside the second word, before its last three akṣara groups, is narrower than a word space (about a fifth of the space after the first word at 2400 dpi) and is keyed as no space.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 2400
+    clip: [26, 62, 96, 70]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: regions.kerala.practice.gopala_varyar_1954.ending.heading
+  value: നക്ഷത്രാന്ത്യഗണിതം
+  form: text
+  unit: statement
+  script: malayalam
+  source: gopala_varyar_1954
+  file: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+  edition_page: 24
+  pdf_page: 41
+  locus: 'the centred heading in the upper half of the page (below the first paragraph), whole; printed letter-spaced and keyed as one word without the letter spacing. Malayalam keyed in Unicode (NFC) as printed: chillus as the atomic letters U+0D7A–U+0D7F; the candrakkala wherever printed, word-final included (an old-style u sign with candrakkala keyed as U+0D41 U+0D4D); a conjunct as consonant–virama–consonant whether set as a ligature or as two letters side by side (the old ററ keyed റ്റ); the dot reph keyed as the chillu ർ; the vowel sign au as U+0D4C whatever its printed shape; old-style vowel signs by their Unicode reading; a word broken at a line end (no hyphen printed) joined; spacing at punctuation normalised; quotation marks as straight quotes.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 0, 204, 132]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of the page, 1x2 (gopala_varyar_1954 PDF 41)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 72, 105, 90]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [22,72,186,208] 2x8 --overlap 2 rendered --dpi 1200 --upsample, tile r1c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [103, 72, 186, 90]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r1c2
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: gopala_varyar_1954, ch. 1, p. 24 (PDF 41)
+  notes: Heading of the manual's ending-time rule (kerala_practice.md §B).
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 72, 186, 90]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: regions.kerala.practice.gopala_varyar_1954.ending.rough_rule
+  value: അഭീഷ്ടദിവസത്തെ ചന്ദ്രസ്ഫുടംകൊണ്ടു് തദ്ദിവസത്തെ നക്ഷത്രത്തെ അറിഞ്ഞു് നക്ഷത്രാന്ത്യസ്ഫുടവും ചന്ദ്രസ്ഫുടവും തമ്മിലന്തരിച്ചു് ആദ്യമായി നക്ഷത്രത്തിൽ ചെല്ലുവാനുള്ള വികലകളെ അഭീഷ്ടദിവസത്തെ ചന്ദ്രസ്ഫുടഗതികൊണ്ടു്, (ഗതി അസ്തമയത്തിനുള്ളതുമതി) 'അതായതു് അഭീഷ്ടദിവസത്തെ ചന്ദ്രസ്ഫുടത്തെ അടുത്ത ദിവസത്തെ ചന്ദ്രസ്ഫുടത്തിൽനിന്നു കുറച്ചുകിട്ടുന്ന ഗതി എന്നു സാരം. ഗതി കലയും ശേഷം ദശാംശസ്ഥാനങ്ങളും ഉപയോഗിച്ചിരിക്കണം.' ഹരിച്ചാൽ പ്രായിക (സ്ഥൂല) നക്ഷത്രാന്ത്യം കിട്ടും.
+  form: text
+  unit: statement
+  script: malayalam
+  source: gopala_varyar_1954
+  file: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+  edition_page: 24
+  pdf_page: 41
+  locus: 'the paragraph under the centred heading in the upper half of the page, counting its lines from the first (indented): from the start of line 1 to the first full stop of line 7 that stands outside the single quotation marks (the quoted passage, with its own two full stops, included). Malayalam keyed in Unicode (NFC) as printed: chillus as the atomic letters U+0D7A–U+0D7F; the candrakkala wherever printed, word-final included (an old-style u sign with candrakkala keyed as U+0D41 U+0D4D); a conjunct as consonant–virama–consonant whether set as a ligature or as two letters side by side (the old ററ keyed റ്റ); the dot reph keyed as the chillu ർ; the vowel sign au as U+0D4C whatever its printed shape; old-style vowel signs by their Unicode reading; a word broken at a line end (no hyphen printed) joined; spacing at punctuation normalised; quotation marks as straight quotes.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 0, 204, 132]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of the page, 1x2 (gopala_varyar_1954 PDF 41)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 79, 106, 91.75]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [22,79,186,208] 2x12 --overlap 4 rendered --dpi 1200 --upsample, tile r1c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 79, 186, 91.75]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r1c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 87.75, 106, 102.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r2c1
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 87.75, 186, 102.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r2c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 98.5, 106, 113.25]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r3c1
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 98.5, 186, 113.25]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r3c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 109.25, 106, 124]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r4c1
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 109.25, 186, 124]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r4c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [40, 78, 75, 87]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip --dpi 2400 --upsample (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [40, 101, 75, 110]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: gopala_varyar_1954, ch. 1, p. 24 (PDF 41)
+  notes: 'The manual''s rough (prāyika) ending rule and the daily motion it divides by (kerala_practice.md §B): decides a procedure of the Kerala profile; individual sign-off. Doubtful cell: in the second word of line 1 the fourth akṣara carries a long descending stroke not seen on the same letter elsewhere on the page; read as a broken sort of the plain letter, not as a doubled conjunct.'
+  decides: [procedure]
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 79, 186, 113.25]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  owner_signoff:
+    on: 2026-10-08
+    by: owner
+    ref: development-record
+    scope: individual
+    signed_hash: sha256:c702b02fd64909fcc4b46f2bdde1af0fa94bc3182b11fe288a8296aacdae8579
+    note: a reading that decides a procedure, signed off from the viewing sheet
+- key: regions.kerala.practice.gopala_varyar_1954.ending.nazhika_rule
+  value: ആദ്യം ഗതികൊണ്ടു ഹരിച്ചുകിട്ടുന്നതു് നാഴികയും ശിഷ്ടത്തെ അറുപതിൽ ഗുണിച്ചു് ഗതികൊണ്ടുതന്നെ ഹരിച്ചാൽ വിനാഴികയും സിദ്ധിക്കും.
+  form: text
+  unit: statement
+  script: malayalam
+  source: gopala_varyar_1954
+  file: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+  edition_page: 24
+  pdf_page: 41
+  locus: 'the same paragraph (lines counted as for the rough rule): from the word after the first full stop of line 7 outside the quotation marks to the first full stop of line 8. Malayalam keyed in Unicode (NFC) as printed: chillus as the atomic letters U+0D7A–U+0D7F; the candrakkala wherever printed, word-final included (an old-style u sign with candrakkala keyed as U+0D41 U+0D4D); a conjunct as consonant–virama–consonant whether set as a ligature or as two letters side by side (the old ററ keyed റ്റ); the dot reph keyed as the chillu ർ; the vowel sign au as U+0D4C whatever its printed shape; old-style vowel signs by their Unicode reading; a word broken at a line end (no hyphen printed) joined; spacing at punctuation normalised; quotation marks as straight quotes.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 0, 204, 132]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of the page, 1x2 (gopala_varyar_1954 PDF 41)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 109.25, 106, 124]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [22,79,186,208] 2x12 --overlap 4 rendered --dpi 1200 --upsample, tile r4c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 109.25, 186, 124]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r4c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 120, 106, 134.75]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r5c1
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 120, 186, 134.75]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r5c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [55, 113, 90, 121]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip --dpi 2400 --upsample (native 600 ppi)
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: gopala_varyar_1954, ch. 1, p. 24 (PDF 41)
+  notes: Turning the quotient into nāzhika and vināzhika (kerala_practice.md §B). The third word is printed without the candrakkala that the same word carries elsewhere in the paragraph; keyed as printed (checked on the 2400-dpi strip).
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 98.5, 186, 124]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: regions.kerala.practice.gopala_varyar_1954.ending.refined_rule
+  value: പിന്നീടു് ഈ കിട്ടിയ നാഴികവിനാഴികകളിൽ വിനാഴികാ സ്ഥാനത്തു് അർദ്ധാധികം ഉണ്ടെങ്കിൽ നാഴികയിൽ കൂട്ടികിട്ടുന്നതും ആ നാഴികകളെ അറുപതിൽനിന്നു കുറച്ചതും തമ്മിൽ ഗുണിച്ചുകിട്ടുന്നതിനെ പൂർവ്വാപരദിവസങ്ങളിലെ ചന്ദ്രഗത്യന്തരചതുർത്ഥാംശംകൊണ്ടു്, (1/4) (അഭീഷ്ടദിവസത്തെ ചദ്ധസ്ഫുടന്നിൽനിന്നു തലനാളത്തെ സ്ഫുടം കുറച്ചാൽ അതു് പൂർവ്വദിവസത്തെ ഗതിയും അഭീഷ്ടദിവസത്തിന്റെ പിറ്റേദിവസത്തെ സ്ഫുടത്തെ അതിനടുത്ത ദിവസത്തെ സ്ഫുടത്തിൽനിന്നു കുറച്ചാൽ അപരദിവസത്തെ ചന്ദ്രഗതിയും കിട്ടും. ഈ ഗതികൾ തമ്മിലാണു് അന്തരിക്കേണ്ടതു്) ഗുണിച്ചു് അഭീഷ്ടദിവസചന്ദ്രഗതികൊണ്ടുതന്നെ ഹരിച്ചാൽ സൂക്ഷ്മമായ നക്ഷത്രാന്ത്യസമയം (കഴിയുന്ന) ലഭിക്കുന്നതാണു്.
+  form: text
+  unit: statement
+  script: malayalam
+  source: gopala_varyar_1954
+  file: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+  edition_page: 24
+  pdf_page: 41
+  locus: 'the same paragraph (lines counted as for the rough rule; it continues on the lower half of the page): from the word after the first full stop of line 8 to the first full stop of line 16 that stands outside the parentheses (the parenthesis of lines 11–15, with its own full stop, included); the stacked fraction keyed with a solidus. Malayalam keyed in Unicode (NFC) as printed: chillus as the atomic letters U+0D7A–U+0D7F; the candrakkala wherever printed, word-final included (an old-style u sign with candrakkala keyed as U+0D41 U+0D4D); a conjunct as consonant–virama–consonant whether set as a ligature or as two letters side by side (the old ററ keyed റ്റ); the dot reph keyed as the chillu ർ; the vowel sign au as U+0D4C whatever its printed shape; old-style vowel signs by their Unicode reading; a word broken at a line end (no hyphen printed) joined; spacing at punctuation normalised; quotation marks as straight quotes.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 0, 204, 132]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of the page, 1x2 (gopala_varyar_1954 PDF 41)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 132, 204, 264]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of the page
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 109.25, 106, 124]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [22,79,186,208] 2x12 --overlap 4 rendered --dpi 1200 --upsample, tile r4c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 109.25, 186, 124]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r4c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 120, 106, 134.75]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r5c1
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 120, 186, 134.75]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r5c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 130.75, 106, 145.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r6c1
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 130.75, 186, 145.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r6c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 141.5, 106, 156.25]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r7c1
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 141.5, 186, 156.25]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r7c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 152.25, 106, 167]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r8c1
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 152.25, 186, 167]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r8c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [106, 123, 141, 131]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip --dpi 2400 --upsample (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [28, 138, 63, 147]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [55, 138, 90, 145]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [150, 132, 185, 142]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip
+  status: read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: gopala_varyar_1954, ch. 1, p. 24 (PDF 41)
+  notes: 'The manual''s refined (sūkṣma) ending rule and the motions it uses (kerala_practice.md §B): decides a procedure of the Kerala profile; individual sign-off. Misprints kept as printed: line 12''s second word (the first after the end of the word broken at line 11''s end) has as its second akṣara the conjunct sort of line 9''s fourth word, where the same word everywhere else on the page has another conjunct, and further on the doubled-n sort where the same word elsewhere has the doubled-t sort (compared on the 2400-dpi strips [28,138,63,147], [55,138,90,145] and [40,101,75,110]). Doubtful cell: line 9''s fourth word, a single mark above after the conjunct read as the dot reph (keyed as the chillu).'
+  decides: [procedure]
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 109.25, 186, 167]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-08-r8
+      on: 2026-10-08
+      dpi: 2400
+      clip: [22, 115, 182, 166]
+      delivered_ppi: 600
+      max_edge: 2000
+      note: ''
+    matches: neither
+  read_issue: disputed
+- key: regions.kerala.practice.gopala_varyar_1954.ending.tithi_yoga_rule
+  value: ഇതുപോലെ ചന്ദ്രസ്ഫുടത്തിൽനിന്നു സൂർയ്യസ്ഫുടംകുറച്ചു് തിഥിസ്ഫുടവും ഗതിയിൽനിന്നു സൂർയ്യഗതികുറച്ചു് തിഥിഗതിയും ചന്ദ്രസ്ഫുടത്തിൽ സൂർയ്യസ്ഫുടംകൂട്ടി യോഗസ്ഫുടവും ഗതിയിൽ സൂർയ്യഗതികൂട്ടി യോഗഗതിയും ഉണ്ടാക്കി മുമ്പറഞ്ഞതുപോലെ ക്രിയചെയ്താൽ തിഥിയോഗങ്ങളുടെ അന്ത്യകാലവും കിട്ടുന്നതാണു്.
+  form: text
+  unit: statement
+  script: malayalam
+  source: gopala_varyar_1954
+  file: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+  edition_page: 24
+  pdf_page: 41
+  locus: 'the same paragraph (lines counted as for the rough rule): from the last word of line 16 (joined with the first word of line 17) to the first full stop of line 20. Malayalam keyed in Unicode (NFC) as printed: chillus as the atomic letters U+0D7A–U+0D7F; the candrakkala wherever printed, word-final included (an old-style u sign with candrakkala keyed as U+0D41 U+0D4D); a conjunct as consonant–virama–consonant whether set as a ligature or as two letters side by side (the old ററ keyed റ്റ); the dot reph keyed as the chillu ർ; the vowel sign au as U+0D4C whatever its printed shape; old-style vowel signs by their Unicode reading; a word broken at a line end (no hyphen printed) joined; spacing at punctuation normalised; quotation marks as straight quotes.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 132, 204, 264]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of the page, 1x2 (gopala_varyar_1954 PDF 41)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 152.25, 106, 167]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [22,79,186,208] 2x12 --overlap 4 rendered --dpi 1200 --upsample, tile r8c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 152.25, 186, 167]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r8c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 163, 106, 177.75]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r9c1
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 163, 186, 177.75]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r9c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 173.75, 106, 188.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r10c1
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 173.75, 186, 188.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r10c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [151, 163, 186, 171]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip --dpi 2400 --upsample (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [62, 163, 97, 171]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [155, 166, 190, 175]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: gopala_varyar_1954, ch. 1, p. 24 (PDF 41)
+  notes: The same rule applied to tithi and yoga (kerala_practice.md §B). The dot reph over the doubled ya keyed as the chillu, by the convention. A small mark above the last word of line 17 and a dot after the first word of line 20 read as blemishes.
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 152.25, 186, 188.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-08-r8
+      on: 2026-10-08
+      dpi: 2400
+      clip: [22, 157, 182, 188]
+      delivered_ppi: 600
+      max_edge: 2000
+      note: ''
+    matches: read
+  further_look:
+  - issue: disputed
+    read:
+      by: claude-fable-5-1/2026-10-08-r5
+      on: 2026-10-08
+      dpi: 4800
+      clip: [176, 169.5, 186, 175.5]
+      delivered_ppi: 600
+      max_edge: 2000
+      note: ''
+    matches: read
+- key: regions.kerala.practice.gopala_varyar_1954.ending.corrections_order
+  value: നക്ഷത്രാന്ത്യം ഗണിക്കുന്നതിനുമുമ്പോ അതിനുശേഷമോ അഹർമ്മാനവും ദേശാന്തരവും സംസ്കരിച്ചിരിക്കണം.
+  form: text
+  unit: statement
+  script: malayalam
+  source: gopala_varyar_1954
+  file: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+  edition_page: 24
+  pdf_page: 41
+  locus: 'the same paragraph (lines counted as for the rough rule): from the word after the first full stop of line 20 to the full stop ending line 21, the paragraph''s last sentence. Malayalam keyed in Unicode (NFC) as printed: chillus as the atomic letters U+0D7A–U+0D7F; the candrakkala wherever printed, word-final included (an old-style u sign with candrakkala keyed as U+0D41 U+0D4D); a conjunct as consonant–virama–consonant whether set as a ligature or as two letters side by side (the old ററ keyed റ്റ); the dot reph keyed as the chillu ർ; the vowel sign au as U+0D4C whatever its printed shape; old-style vowel signs by their Unicode reading; a word broken at a line end (no hyphen printed) joined; spacing at punctuation normalised; quotation marks as straight quotes.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 132, 204, 264]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of the page, 1x2 (gopala_varyar_1954 PDF 41)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 173.75, 106, 188.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [22,79,186,208] 2x12 --overlap 4 rendered --dpi 1200 --upsample, tile r10c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 173.75, 186, 188.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r10c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 184.5, 106, 199.25]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r11c1
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 184.5, 186, 199.25]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r11c2
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: gopala_varyar_1954, ch. 1, p. 24 (PDF 41)
+  notes: 'When the aharmāna and the deśāntara are applied relative to the ending computation (kerala_practice.md §B): decides a procedure of the Kerala profile; individual sign-off. The dot reph in the third word keyed as the chillu.'
+  decides: [procedure]
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 184.5, 186, 208]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-08-r8
+      on: 2026-10-08
+      dpi: 2400
+      clip: [22, 177, 182, 194]
+      delivered_ppi: 600
+      max_edge: 2000
+      note: ''
+    matches: second_read
+  owner_signoff:
+    on: 2026-10-08
+    by: owner
+    ref: development-record
+    scope: individual
+    signed_hash: sha256:86e3d2c4630d9797bd15e449f24d1367ff5ab067310b2ab6b066ba0b8bf9315e
+    note: a reading that decides a procedure, signed off from the viewing sheet
+- key: regions.kerala.practice.gopala_varyar_1954.ending.over_sixty_note
+  value: കുറിപ്പു് = പ്രായിക നക്ഷത്ര, തിഥി, യോഗാന്ത്യങ്ങൾ അറുപതുനാഴികയിൽ കൂടുതൽവരുമ്പോൾ അവിടെ അറുപതുനാഴിക കളഞ്ഞ ശേഷമാണു് ഉപകരണമായി സ്വീകരിക്കേണ്ടതു്.
+  form: text
+  unit: statement
+  script: malayalam
+  source: gopala_varyar_1954
+  file: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+  edition_page: 24
+  pdf_page: 41
+  locus: 'the indented note under the paragraph (three lines), whole, from its first word to the full stop ending its third line; bold type not marked. Malayalam keyed in Unicode (NFC) as printed: chillus as the atomic letters U+0D7A–U+0D7F; the candrakkala wherever printed, word-final included (an old-style u sign with candrakkala keyed as U+0D41 U+0D4D); a conjunct as consonant–virama–consonant whether set as a ligature or as two letters side by side (the old ററ keyed റ്റ); the dot reph keyed as the chillu ർ; the vowel sign au as U+0D4C whatever its printed shape; old-style vowel signs by their Unicode reading; a word broken at a line end (no hyphen printed) joined; spacing at punctuation normalised; quotation marks as straight quotes.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 132, 204, 264]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of the page, 1x2 (gopala_varyar_1954 PDF 41)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 184.5, 106, 199.25]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [22,79,186,208] 2x12 --overlap 4 rendered --dpi 1200 --upsample, tile r11c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 184.5, 186, 199.25]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r11c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 195.25, 106, 208]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r12c1
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 195.25, 186, 208]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r12c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [155, 193, 190, 202]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip --dpi 2400 --upsample (native 600 ppi)
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: gopala_varyar_1954, ch. 1, p. 24 (PDF 41)
+  notes: 'What is taken as the argument when a rough ending runs past sixty nāzhika (kerala_practice.md §B). Doubtful cell: the last akṣara of line 1 (a word broken at the line end) has a small hook at its foot, read as the old u sign. A dot before the first word read as a blemish.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 1200
+    clip: [26, 205, 180, 224.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: regions.kerala.practice.gopala_varyar_1954.ending.formula_rough
+  value: 'പ്രായികനക്ഷത്രാന്ത്യം = ന: ഏഷ്യവികല / ചന്ദ്രാസ്തമയഗതി'
+  form: text
+  unit: statement
+  script: malayalam
+  source: gopala_varyar_1954
+  file: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+  edition_page: 24
+  pdf_page: 41
+  locus: 'the first displayed formula under the note, whole, keyed on one line: the left side, the equals sign, the numerator, a solidus for the fraction bar, the denominator, with one space around each operator; the abbreviation mark (two dots) keyed as the colon. Malayalam keyed in Unicode (NFC) as printed: chillus as the atomic letters U+0D7A–U+0D7F; the candrakkala wherever printed, word-final included (an old-style u sign with candrakkala keyed as U+0D41 U+0D4D); a conjunct as consonant–virama–consonant whether set as a ligature or as two letters side by side (the old ററ keyed റ്റ); the dot reph keyed as the chillu ർ; the vowel sign au as U+0D4C whatever its printed shape; old-style vowel signs by their Unicode reading; a word broken at a line end (no hyphen printed) joined; spacing at punctuation normalised; quotation marks as straight quotes.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 132, 204, 264]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of the page, 1x2 (gopala_varyar_1954 PDF 41)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [26, 205, 105, 224.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [26,205,180,240] 2x2 --overlap 4 rendered --dpi 1200 --upsample, tile r1c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [101, 205, 180, 224.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r1c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [108, 206, 143, 216]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip --dpi 2400 --upsample (native 600 ppi)
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: gopala_varyar_1954, ch. 1, p. 24 (PDF 41)
+  notes: The rough ending as a formula (kerala_practice.md §B).
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 1200
+    clip: [26, 220.5, 180, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: regions.kerala.practice.gopala_varyar_1954.ending.formula_refined
+  value: 'സൂക്ഷ്മനക്ഷത്രാന്ത്യം = (60 − പ്രാ: ന: ന്ത്യം × പ്രാ: ന: ന്ത്യം × പൂർവ്വാപരഗത്യന്തരചതുർത്ഥാംശം (1/4)) / ചന്ദ്രാസ്തമയഗതി'
+  form: text
+  unit: statement
+  script: malayalam
+  source: gopala_varyar_1954
+  file: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+  edition_page: 24
+  pdf_page: 41
+  locus: 'the second displayed formula, whole, keyed on one line: the left side, the equals sign, the numerator in parentheses, a solidus for the fraction bar, the denominator, with one space around each operator; the long dash of the numerator keyed as the minus sign U+2212, the abbreviation mark (two dots) as the colon, the stacked fraction with a solidus. Malayalam keyed in Unicode (NFC) as printed: chillus as the atomic letters U+0D7A–U+0D7F; the candrakkala wherever printed, word-final included (an old-style u sign with candrakkala keyed as U+0D41 U+0D4D); a conjunct as consonant–virama–consonant whether set as a ligature or as two letters side by side (the old ററ keyed റ്റ); the dot reph keyed as the chillu ർ; the vowel sign au as U+0D4C whatever its printed shape; old-style vowel signs by their Unicode reading; a word broken at a line end (no hyphen printed) joined; spacing at punctuation normalised; quotation marks as straight quotes.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 132, 204, 264]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of the page, 1x2 (gopala_varyar_1954 PDF 41)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [26, 220.5, 105, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [26,205,180,240] 2x2 --overlap 4 rendered --dpi 1200 --upsample, tile r2c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [101, 220.5, 180, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r2c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [58, 221, 89.5, 229]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [58,221,178,229] 4x1 --overlap 3 --dpi 2400 --upsample, tile r1c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [86.5, 221, 119.5, 229]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r1c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [116, 223, 149.5, 233]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [116,223,180,233] 2x1 --overlap 3 --dpi 2400 --upsample, tile r1c1
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [146.5, 223, 180, 233]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r1c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 4800
+    clip: [130, 225, 159, 232]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip --dpi 4800 --upsample
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: gopala_varyar_1954, ch. 1, p. 24 (PDF 41)
+  notes: The refined ending as a formula (kerala_practice.md §B). In the small type of the numerator the vowel sign aa and the anusvara are both small circles; each was read from its position in the word (the same type's second compound word shows both).
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 1200
+    clip: [26, 220.5, 180, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: regions.kerala.practice.gopala_varyar_1954.place.dhruvas_heading
+  value: ചെങ്ങന്നൂരേക്കു്
+  form: text
+  unit: statement
+  script: malayalam
+  source: gopala_varyar_1954
+  file: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+  edition_page: 26
+  pdf_page: 43
+  locus: 'the first centred heading in the upper half of the page (above the second heading and the table of dhruvas): the word inside its parentheses, without the parentheses. Malayalam keyed in Unicode (NFC) as printed: chillus as the atomic letters U+0D7A–U+0D7F; the candrakkala wherever printed, word-final included (an old-style u sign with candrakkala keyed as U+0D41 U+0D4D); a conjunct as consonant–virama–consonant whether set as a ligature or as two letters side by side (the old ററ keyed റ്റ); the dot reph keyed as the chillu ർ; the vowel sign au as U+0D4C whatever its printed shape; old-style vowel signs by their Unicode reading; a word broken at a line end (no hyphen printed) joined; spacing at punctuation normalised; quotation marks as straight quotes.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 0, 204, 132]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of the page, 1x2 (gopala_varyar_1954 PDF 43)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 70, 106, 82.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [22,70,186,134] 2x6 --overlap 4 rendered --dpi 1200 --upsample, tile r1c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 70, 186, 82.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r1c2
+  status: read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: gopala_varyar_1954, ch. 1, p. 26 (PDF 43)
+  notes: The place for which the manual states its dhruvas are computed (kerala_practice.md §B). Also keyed, with the whole heading, in the control data of this page (control.malayalam.gopala_varyar_1954_p26.headings).
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 70, 186, 82.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-fable-5-1/2026-10-08-r5
+      on: 2026-10-08
+      dpi: 2400
+      clip: [113, 70, 162, 80]
+      delivered_ppi: 600
+      max_edge: 2000
+      note: ''
+    matches: neither
+  read_issue: disputed
+- key: regions.kerala.practice.gopala_varyar_1954.dhruvas.scope
+  value: ഈ ധ്രുവങ്ങൾ ചിങ്ങംമുതൽ കർക്കടകംവരെയുള്ള ഓരോ മാസത്തിനും ഉള്ളതാകുന്നു. ഇതു് 1128 ലേക്കുള്ളതാണു്. ഇതിന്റെ മുകളിലത്തെ സ്ഥാനം ഞായർമുതൽ കഴിഞ്ഞ ആഴ്ചകളും പിന്നത്തതു യഥാക്രമം നാഴിക, വിനാഴിക, ഗുർവ്വക്ഷരം ഈ സ്ഥാനങ്ങളുമാകുന്നു.
+  form: text
+  unit: statement
+  script: malayalam
+  source: gopala_varyar_1954
+  file: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+  edition_page: 26
+  pdf_page: 43
+  locus: 'the paragraph under the table of dhruvas (nine lines, the first indented), counting its lines from the first: its first three sentences, from the start of line 1 to the first full stop of line 4. Malayalam keyed in Unicode (NFC) as printed: chillus as the atomic letters U+0D7A–U+0D7F; the candrakkala wherever printed, word-final included (an old-style u sign with candrakkala keyed as U+0D41 U+0D4D); a conjunct as consonant–virama–consonant whether set as a ligature or as two letters side by side (the old ററ keyed റ്റ); the dot reph keyed as the chillu ർ; the vowel sign au as U+0D4C whatever its printed shape; old-style vowel signs by their Unicode reading; a word broken at a line end (no hyphen printed) joined; spacing at punctuation normalised; quotation marks as straight quotes.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 0, 204, 132]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of the page, 1x2 (gopala_varyar_1954 PDF 43)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 110.67, 106, 125.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [22,70,186,134] 2x6 --overlap 4 rendered --dpi 1200 --upsample, tile r5c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 110.67, 186, 125.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r5c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 121.33, 106, 134]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r6c1
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 121.33, 186, 134]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r6c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [30, 120, 65, 132]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip --dpi 2400 --upsample (native 600 ppi)
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: gopala_varyar_1954, ch. 1, p. 26 (PDF 43)
+  notes: 'What the dhruvas are for and what each of their four figures counts (kerala_practice.md §B). Doubtful cell: the second word of line 3 ends in the doubled-t letter with the old u sign below it (no e sign before it); keyed as printed. A dot after the fourth word of line 2 read as a blemish. The first read''s notes above describe the first reading.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 110.67, 186, 142.2]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: no letter changed
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-08-r8
+      on: 2026-10-08
+      dpi: 2400
+      clip: [22, 110, 182, 135]
+      delivered_ppi: 600
+      max_edge: 2000
+      note: ''
+    matches: second_read
+- key: regions.kerala.practice.gopala_varyar_1954.dhruvas.increment
+  value: ഇതിൽ ഓരോന്നിന്റേയും കൂടെ 1-15-22-54 കൂട്ടിയാൽ 1129-ലെ ഓരോ മാസത്തേയും സൂക്ഷ്മസംക്രമവും, അതിന്റെകൂടെ 1-15-22-54 കൂട്ടിയാൽ 1130-ലേക്കുള്ള ഓരോ മാസത്തേയും സ്ഫുടസംക്രമവും ചെങ്ങന്നൂരേക്കുള്ളതു സൂക്ഷ്മമായി ലഭിക്കും.
+  form: text
+  unit: statement
+  script: malayalam
+  source: gopala_varyar_1954
+  file: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+  edition_page: 26
+  pdf_page: 43
+  locus: 'the paragraph under the table of dhruvas (nine lines, the first indented), counting its lines from the first: from the word after the first full stop of line 4 to the first full stop of line 6; numbers keyed as printed with their hyphens. Malayalam keyed in Unicode (NFC) as printed: chillus as the atomic letters U+0D7A–U+0D7F; the candrakkala wherever printed, word-final included (an old-style u sign with candrakkala keyed as U+0D41 U+0D4D); a conjunct as consonant–virama–consonant whether set as a ligature or as two letters side by side (the old ററ keyed റ്റ); the dot reph keyed as the chillu ർ; the vowel sign au as U+0D4C whatever its printed shape; old-style vowel signs by their Unicode reading; a word broken at a line end (no hyphen printed) joined; spacing at punctuation normalised; quotation marks as straight quotes.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 0, 204, 132]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of the page, 1x2 (gopala_varyar_1954 PDF 43)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 132, 204, 264]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of the page, 1x2 (gopala_varyar_1954 PDF 43)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 121.33, 106, 134]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [22,70,186,134] 2x6 --overlap 4 rendered --dpi 1200 --upsample, tile r6c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 121.33, 186, 134]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r6c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 128, 106, 142.2]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [22,128,186,250] 2x10 --overlap 4 rendered --dpi 1200 --upsample, tile r1c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 128, 186, 142.2]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r1c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 138.2, 106, 154.4]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r2c1
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 138.2, 186, 154.4]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r2c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [50, 124, 85, 132]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip --dpi 2400 --upsample (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [70, 128, 105, 136]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip --dpi 2400 --upsample (native 600 ppi)
+  status: read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: gopala_varyar_1954, ch. 1, p. 26 (PDF 43)
+  notes: The yearly increment of the dhruvas (kerala_practice.md §B, §C). The vowel sign before the old two-letter form of the nṟ cluster read as the long e in the second word of line 4 and as the short e in the second word of line 5 (compared on the 2400-dpi strips).
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 121.33, 186, 154.4]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-08-r8
+      on: 2026-10-08
+      dpi: 2400
+      clip: [22, 126, 182, 145]
+      delivered_ppi: 600
+      max_edge: 2000
+      note: ''
+    matches: read
+  further_look:
+  - issue: disputed
+    read:
+      by: claude-fable-5-1/2026-10-08-r5
+      on: 2026-10-08
+      dpi: 4800
+      clip: [60, 126, 90, 133.5]
+      delivered_ppi: 600
+      max_edge: 2000
+      note: still matches neither reading (the vowel-length difference remains)
+    matches: neither
+  read_issue: disputed
+- key: regions.kerala.practice.gopala_varyar_1954.dhruvas.corrections
+  value: ഇതിൽ രവിഭുജാഫലം, ചരം, പ്രാണകലാന്തരം, ദേശാന്തരപ്രാണൻ ഇവയും സംസ്കരിച്ചുണ്ടാക്കിയതാണു്.
+  form: text
+  unit: statement
+  script: malayalam
+  source: gopala_varyar_1954
+  file: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+  edition_page: 26
+  pdf_page: 43
+  locus: 'the paragraph under the table of dhruvas (nine lines, the first indented), counting its lines from the first: from the start of line 7 to the first full stop of line 8. Malayalam keyed in Unicode (NFC) as printed: chillus as the atomic letters U+0D7A–U+0D7F; the candrakkala wherever printed, word-final included (an old-style u sign with candrakkala keyed as U+0D41 U+0D4D); a conjunct as consonant–virama–consonant whether set as a ligature or as two letters side by side (the old ററ keyed റ്റ); the dot reph keyed as the chillu ർ; the vowel sign au as U+0D4C whatever its printed shape; old-style vowel signs by their Unicode reading; a word broken at a line end (no hyphen printed) joined; spacing at punctuation normalised; quotation marks as straight quotes.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 132, 204, 264]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of the page, 1x2 (gopala_varyar_1954 PDF 43)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 138.2, 106, 154.4]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [22,128,186,250] 2x10 --overlap 4 rendered --dpi 1200 --upsample, tile r2c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 138.2, 186, 154.4]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r2c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 150.4, 106, 166.6]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r3c1
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 150.4, 186, 166.6]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r3c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [22, 143, 57, 151]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip --dpi 2400 --upsample (native 600 ppi)
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: gopala_varyar_1954, ch. 1, p. 26 (PDF 43)
+  notes: 'The corrections the stated saṅkrama includes (kerala_practice.md §B). Doubtful cells: the first word is printed with a gap after its first letter (keyed as one word); the candrakkala of the last word is printed as a short slanted stroke after the old u sign, keyed as the candrakkala.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 138.2, 186, 166.6]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: regions.kerala.practice.gopala_varyar_1954.place.dhruvas_only
+  value: ഇതു ചെങ്ങന്നൂരേക്കു മാത്രമുള്ളതാകുന്നു.
+  form: text
+  unit: statement
+  script: malayalam
+  source: gopala_varyar_1954
+  file: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+  edition_page: 26
+  pdf_page: 43
+  locus: 'the paragraph under the table of dhruvas (nine lines, the first indented), counting its lines from the first: the sentence after the first full stop of line 8, to its second full stop. Malayalam keyed in Unicode (NFC) as printed: chillus as the atomic letters U+0D7A–U+0D7F; the candrakkala wherever printed, word-final included (an old-style u sign with candrakkala keyed as U+0D41 U+0D4D); a conjunct as consonant–virama–consonant whether set as a ligature or as two letters side by side (the old ററ keyed റ്റ); the dot reph keyed as the chillu ർ; the vowel sign au as U+0D4C whatever its printed shape; old-style vowel signs by their Unicode reading; a word broken at a line end (no hyphen printed) joined; spacing at punctuation normalised; quotation marks as straight quotes.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 132, 204, 264]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of the page, 1x2 (gopala_varyar_1954 PDF 43)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 138.2, 106, 154.4]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [22,128,186,250] 2x10 --overlap 4 rendered --dpi 1200 --upsample, tile r2c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 138.2, 186, 154.4]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r2c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 150.4, 106, 166.6]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r3c1
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 150.4, 186, 166.6]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r3c2
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: gopala_varyar_1954, ch. 1, p. 26 (PDF 43)
+  notes: The statement that the dhruvas hold for the manual's place alone (kerala_practice.md §B).
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 150.4, 186, 166.6]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: regions.kerala.practice.gopala_varyar_1954.dhruvas.validity
+  value: ഇതിൽ, 100 വർഷത്തേയ്ക്കു് വിനാഴികാസ്ഥാനത്തു വ്യത്യാസം വരുന്നതുമല്ലെന്നു പരീക്ഷിച്ചാലറിയാവുന്നതാണു്.
+  form: text
+  unit: statement
+  script: malayalam
+  source: gopala_varyar_1954
+  file: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+  edition_page: 26
+  pdf_page: 43
+  locus: 'the paragraph under the table of dhruvas (nine lines, the first indented), counting its lines from the first: from the word after the second full stop of line 8 to the full stop ending line 9, the paragraph''s last sentence. Malayalam keyed in Unicode (NFC) as printed: chillus as the atomic letters U+0D7A–U+0D7F; the candrakkala wherever printed, word-final included (an old-style u sign with candrakkala keyed as U+0D41 U+0D4D); a conjunct as consonant–virama–consonant whether set as a ligature or as two letters side by side (the old ററ keyed റ്റ); the dot reph keyed as the chillu ർ; the vowel sign au as U+0D4C whatever its printed shape; old-style vowel signs by their Unicode reading; a word broken at a line end (no hyphen printed) joined; spacing at punctuation normalised; quotation marks as straight quotes.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 132, 204, 264]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of the page, 1x2 (gopala_varyar_1954 PDF 43)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 138.2, 106, 154.4]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [22,128,186,250] 2x10 --overlap 4 rendered --dpi 1200 --upsample, tile r2c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 138.2, 186, 154.4]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r2c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 150.4, 106, 166.6]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r3c1
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 150.4, 186, 166.6]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r3c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [120, 151, 160, 159]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip --dpi 2400 --upsample (native 600 ppi)
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: gopala_varyar_1954, ch. 1, p. 26 (PDF 43)
+  notes: 'The manual''s statement of the dhruvas'' validity over a span of years (kerala_practice.md §B). Doubtful cell: in the last word, the akṣara after the long-aa sign that follows its sixth akṣara is broken; read as the letter va with the old u sign.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 150.4, 186, 166.6]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: regions.kerala.practice.gopala_varyar_1954.rasipramana.ayanamsa
+  value: അയനം 23°, ക്കു്.
+  form: text
+  unit: statement
+  script: malayalam
+  source: gopala_varyar_1954
+  file: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+  edition_page: 26
+  pdf_page: 43
+  locus: 'the line of small type under the heading of the rising-time table (lower half of the page), whole; the superscript after the number keyed as the degree sign, the comma as printed and followed by one space (spacing at punctuation normalised). Malayalam keyed in Unicode (NFC) as printed: chillus as the atomic letters U+0D7A–U+0D7F; the candrakkala wherever printed, word-final included (an old-style u sign with candrakkala keyed as U+0D41 U+0D4D); a conjunct as consonant–virama–consonant whether set as a ligature or as two letters side by side (the old ററ keyed റ്റ); the dot reph keyed as the chillu ർ; the vowel sign au as U+0D4C whatever its printed shape; old-style vowel signs by their Unicode reading; a word broken at a line end (no hyphen printed) joined; spacing at punctuation normalised; quotation marks as straight quotes.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 132, 204, 264]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of the page, 1x2 (gopala_varyar_1954 PDF 43)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 162.6, 106, 178.8]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [22,128,186,250] 2x10 --overlap 4 rendered --dpi 1200 --upsample, tile r4c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 162.6, 186, 178.8]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r4c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [77.67, 165, 120.33, 174.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [38,165,160,182] 3x2 --overlap 2 --dpi 2400 --upsample, tile r1c2 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 4800
+    clip: [86, 165, 114, 171]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip --dpi 4800 --upsample (native 600 ppi)
+  status: read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: gopala_varyar_1954, ch. 1, p. 26 (PDF 43)
+  notes: 'The ayanāṃśa for which the rising-time table is computed (kerala_practice.md §B). Doubtful cell: the superscript after the number is printed as an open c-shaped ring, read as a broken degree sign.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 2400
+    clip: [77.67, 165, 120.33, 174.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-08-r8
+      on: 2026-10-08
+      dpi: 4800
+      clip: [84, 164.5, 114, 171.5]
+      delivered_ppi: 600
+      max_edge: 2000
+      note: ''
+    matches: read
+  further_look:
+  - issue: disputed
+    read:
+      by: claude-fable-5-1/2026-10-08-r5
+      on: 2026-10-08
+      dpi: 7200
+      clip: [106, 166, 114, 171]
+      delivered_ppi: 600
+      max_edge: 2000
+      note: ''
+    matches: neither
+  read_issue: disputed
+- key: regions.kerala.practice.gopala_varyar_1954.rasipramana.nazhika_rule
+  value: സൂർയ്യസ്ഫുടൈഷ്യകലകളെ രാശിഹാരകംകൊണ്ടു ഹരിച്ചാൽ ഉദയാൽപരംനാഴികയും ശേഷത്തെ 60-ൽ ഗുണിച്ചു് മേൽപ്രകാരം ഹരിച്ചാൽ വിനാഴികയും കിട്ടും.
+  form: text
+  unit: statement
+  script: malayalam
+  source: gopala_varyar_1954
+  file: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+  edition_page: 26
+  pdf_page: 43
+  locus: 'the two-line paragraph in small type under the rising-time table, whole, to its full stop. Malayalam keyed in Unicode (NFC) as printed: chillus as the atomic letters U+0D7A–U+0D7F; the candrakkala wherever printed, word-final included (an old-style u sign with candrakkala keyed as U+0D41 U+0D4D); a conjunct as consonant–virama–consonant whether set as a ligature or as two letters side by side (the old ററ keyed റ്റ); the dot reph keyed as the chillu ർ; the vowel sign au as U+0D4C whatever its printed shape; old-style vowel signs by their Unicode reading; a word broken at a line end (no hyphen printed) joined; spacing at punctuation normalised; quotation marks as straight quotes.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 132, 204, 264]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of the page, 1x2 (gopala_varyar_1954 PDF 43)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 199.2, 106, 215.4]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [22,128,186,250] 2x10 --overlap 4 rendered --dpi 1200 --upsample, tile r7c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 199.2, 186, 215.4]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r7c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 211.4, 106, 227.6]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r8c1
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 211.4, 186, 227.6]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r8c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [36, 207, 74, 218]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [36,207,182,218] 4x1 --overlap 3 --dpi 2400 --upsample, tile r1c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [71, 207, 110.5, 218]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r1c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [107.5, 207, 147, 218]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r1c3
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [144, 207, 182, 218]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r1c4
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 4800
+    clip: [40, 207.5, 68, 213.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip --dpi 4800 --upsample (native 600 ppi)
+  status: read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: gopala_varyar_1954, ch. 1, p. 26 (PDF 43)
+  notes: 'The sense of the nāzhika: an arc turned into nāzhika and vināzhika with the rising-time divisors, and the instant they count from (kerala_practice.md §B): decides a procedure of the Kerala profile; individual sign-off. Doubtful cells: in the first word, a short hooked mark printed before its fourth akṣara group is read as the vowel sign ai (the Sanskrit vowel sandhi of the compound); the third word of line 1 has no visible gap before its last part and is keyed as one word; in the same word a detached mark above the zha is read as the i sign.'
+  decides: [procedure]
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 2400
+    clip: [36, 207, 182, 218]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-08-r8
+      on: 2026-10-08
+      dpi: 3600
+      clip: [22, 207, 182, 218.6]
+      delivered_ppi: 600
+      max_edge: 2000
+      note: ''
+    matches: read
+  further_look:
+  - issue: disputed
+    read:
+      by: claude-fable-5-1/2026-10-08-r5
+      on: 2026-10-08
+      dpi: 4800
+      clip: [40, 207.5, 68, 213.5]
+      delivered_ppi: 600
+      max_edge: 2000
+      note: ''
+    matches: neither
+  read_issue: disputed
+- key: regions.kerala.practice.gopala_varyar_1954.sunset.rule
+  value: ഉദയസൂർയ്യസ്ഫുടത്തിൽ 6 രാശിയും 30 കലയും കൂട്ടിവരുന്ന രാശിഹാരകവും, ഏഷ്യാംശവും ഉപയോഗിച്ചു് അസ്തമയാൽ പരവും വരുത്താം.
+  form: text
+  unit: statement
+  script: malayalam
+  source: gopala_varyar_1954
+  file: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+  edition_page: 26
+  pdf_page: 43
+  locus: 'the two-line paragraph after the small-type paragraph under the rising-time table, whole, to its full stop. Malayalam keyed in Unicode (NFC) as printed: chillus as the atomic letters U+0D7A–U+0D7F; the candrakkala wherever printed, word-final included (an old-style u sign with candrakkala keyed as U+0D41 U+0D4D); a conjunct as consonant–virama–consonant whether set as a ligature or as two letters side by side (the old ററ keyed റ്റ); the dot reph keyed as the chillu ർ; the vowel sign au as U+0D4C whatever its printed shape; old-style vowel signs by their Unicode reading; a word broken at a line end (no hyphen printed) joined; spacing at punctuation normalised; quotation marks as straight quotes.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 132, 204, 264]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of the page, 1x2 (gopala_varyar_1954 PDF 43)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 211.4, 106, 227.6]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [22,128,186,250] 2x10 --overlap 4 rendered --dpi 1200 --upsample, tile r8c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 211.4, 186, 227.6]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r8c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 223.6, 106, 239.8]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r9c1
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 223.6, 186, 239.8]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r9c2
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: gopala_varyar_1954, ch. 1, p. 26 (PDF 43)
+  notes: The sunset from the sunrise Sun (kerala_practice.md §B). A dot before the eighth word read as a blemish.
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 211.4, 186, 227.6]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: regions.kerala.practice.gopala_varyar_1954.epoch.statement
+  value: മുമ്പു കൊടുത്തിട്ടുള്ള ഗ്രഹമധ്യമദിനഗതികൾ അനുസരിച്ചു് 1128-ാമാണ്ടു് ചിങ്ങമാസം 1-ാംനു- ശനിയാഴ്ച പൂർവ്വരേഖാംശം 77°-ക്കു് മധ്യമസൂർയ്യോദയത്തിനുള്ള (രാവിലെ I. S. T. 6 മണി 22-മിന്നിട്ടു്) ഗ്രഹമധ്യമധ്രുവങ്ങളും മന്ദോച്ചങ്ങളും ശുദ്ധഅയനാംശവും താഴെ ചേർക്കുന്നു.
+  form: text
+  unit: statement
+  script: malayalam
+  source: gopala_varyar_1954
+  file: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+  edition_page: 26
+  pdf_page: 43
+  locus: 'the last paragraph of the page (four lines), whole, to its full stop; numbers, hyphens and the Latin abbreviation (with its spaces) keyed as printed. Malayalam keyed in Unicode (NFC) as printed: chillus as the atomic letters U+0D7A–U+0D7F; the candrakkala wherever printed, word-final included (an old-style u sign with candrakkala keyed as U+0D41 U+0D4D); a conjunct as consonant–virama–consonant whether set as a ligature or as two letters side by side (the old ററ keyed റ്റ); the dot reph keyed as the chillu ർ; the vowel sign au as U+0D4C whatever its printed shape; old-style vowel signs by their Unicode reading; a word broken at a line end (no hyphen printed) joined; spacing at punctuation normalised; quotation marks as straight quotes.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 132, 204, 264]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of the page, 1x2 (gopala_varyar_1954 PDF 43)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 223.6, 106, 239.8]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [22,128,186,250] 2x10 --overlap 4 rendered --dpi 1200 --upsample, tile r9c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 223.6, 186, 239.8]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r9c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 235.8, 106, 250]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r10c1
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1200
+    clip: [102, 235.8, 186, 250]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the same, tile r10c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [22, 232, 57, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip --dpi 2400 --upsample (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [50, 231, 85, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip --dpi 2400 --upsample (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [80, 238, 115, 247]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip --dpi 2400 --upsample (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [140, 236, 175, 244]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: strip --dpi 2400 --upsample (native 600 ppi)
+  status: read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: gopala_varyar_1954, ch. 1, p. 26 (PDF 43)
+  notes: 'The epoch of the manual''s dhruvas: the mean sunrise on a stated day at a stated eastern longitude, with its stated Indian Standard Time (kerala_practice.md §B). Doubtful cells: in line 3, the third akṣara of the first word after the closing parenthesis is a damaged sort (a hooked shape), read as ma; the last word inside the parenthesis is read with the doubled-n letter, as printed; the hyphen-like mark after the ordinal in line 2 is kept as printed.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 1200
+    clip: [22, 223.6, 186, 250]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-08-r8
+      on: 2026-10-08
+      dpi: 2400
+      clip: [22, 228, 182, 251]
+      delivered_ppi: 600
+      max_edge: 2000
+      note: ''
+    matches: neither
+  read_issue: disputed

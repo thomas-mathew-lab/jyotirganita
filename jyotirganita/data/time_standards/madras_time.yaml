@@ -1,0 +1,21 @@
+standard: madras_time
+title: Madras time (Madras local mean time)
+definition:
+  kind: utc_offset
+  offset: +05:21:10
+  table: tzdata_asia_kolkata
+  line: 3
+in_force:
+  table: tzdata_asia_kolkata
+  periods:
+  - from: 1870-01-01
+    to: 1906-01-01
+    offset: +05:21:10
+    line: 3
+notes: 'No held page defines Madras time (sewell_dikshit_1896, calendar_reform_committee_1955 and rashtriya_panchanga_1959 searched): its offset and dates of force are the IANA time-zone database''s (a fetched table, iana_tzdata), never a witness for verified. The predecessor carried a wrong offset.'
+data:
+- key: time_standards.madras_time.definition
+  status: gap
+  reason: no held page states Madras time's offset from Greenwich
+  searched: sewell_dikshit_1896 (Art. 36 and the tables' introductions), calendar_reform_committee_1955 (PDF 34–52), rashtriya_panchanga_1959 (the Explanation, PDF 17–18)
+  effect: the offset rests on the fetched table alone (iana_tzdata)

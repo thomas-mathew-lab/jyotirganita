@@ -1,0 +1,1358 @@
+id: authority/suryasiddhanta/bag_kali_jd
+methods: [suryasiddhanta, suryasiddhanta_paramesvara_recension]
+class: editor_computed
+source: bag_2001
+edition_page: 62
+pdf_page: 8
+locus: 'bag_2001 (Bag 2001): from "The astronomical Kali epoch is placed by all Siddhānta-writers at" (p. 62) to "and JD number = ..." (p. 63), with footnote 12 (p. 63). bag_2003_weekdays (Bag, "A note on the ahargana and the weekdays"): items (2)-(4) (p. 40), Discussion (1)-(2) (p. 41), the continuation on p. 42 to "on Friday, −… AD Feb. … UMT … AM.", and Notes and References note 2 (p. 42) (pdf_page as keyed: bag_2001 PDF 8-9; bag_2003_weekdays PDF 2-4; edition_page as keyed: bag_2001 pp. 62-63; bag_2003_weekdays pp. 40-42)'
+rounding: JD numbers as integers; one decimal JD (bag_2003_weekdays p. 41) to two decimals; weekdays by remainder mod 7 counted from Monday (JD) or Friday/Sunday/Tuesday (KA)
+precision: days
+datum_keys: []
+notes: 'The Julian day of the Kali epoch in the ardharātrika (midnight) and audayika (sunrise) systems, the Kali ahargaṇa (KA) and JD of the two Śaka epochs (427 and 587), and their weekday checks; bag_2003_weekdays answers a private communication that put each JD one less, and its note 2 is an erratum to bag_2001 p. 63 (the KA of the 427 Śaka epoch). The bag_2001 p. 63 figure is keyed as printed. The values in bag_2003_weekdays called "wrong" by the author and those he adopts are both keyed as printed. A JD figure in bag_2003_weekdays (4) prints a digit different from the same JD a line above, and one in (3) repeats the adopted JD where the argument needs the communication''s figure — each keyed as printed. Edition pages: bag_2001 journal = PDF + 54; bag_2003_weekdays journal = PDF + 38. The bag_2003_weekdays reference list cites the earlier paper as IJHS 37.1-2 (2001) 55-63 while the held file is catalogued as volume 36. Fixture pages: the first page recorded as the fixture''s page, the span in the locus. Whose elements: Bag follows Shukla''s edition (suryasiddhanta_paramesvara_1957; bag_2001 p. 58, footnote), so his arithmetic uses suryasiddhanta_paramesvara_1957''s elements, which differ from suryasiddhanta_burgess_1860''s and suryasiddhanta_hall_1859''s on two Moon revolution numbers; a figure here that depends on the elements (the Kali ahargaṇa of a Śaka epoch) checks suryasiddhanta_paramesvara_1957''s recension, not suryasiddhanta_burgess_1860''s or suryasiddhanta_hall_1859''s (the review''s N4).'
+values:
+- name: input.a.kali_saka_year
+  role: input
+  value: -3179
+  form: integer
+  negative: true
+  unit: years
+  script: latin
+  source: bag_2001
+  edition_page: 62
+  pdf_page: 8
+  locus: p. 62, last paragraph, "placed by all Siddhānta-writers at ... Śaka year (elapsed)", printed with a minus sign before the figure; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 298, 438, 596]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: 'value keyed with its sign as an integer and negative: true (the sign is printed apart)'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 298, 438, 596]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.a.kali_year_bc
+  role: input
+  value: 3102
+  form: integer
+  unit: years
+  script: latin
+  source: bag_2001
+  edition_page: 62
+  pdf_page: 8
+  locus: p. 62 last line to p. 63 first line, "the year is ... BC"; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 298, 438, 596]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: 'calendar: "According to Julian calendar" (the page says so)'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 298, 438, 596]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.a.kali_year_ad
+  role: input
+  value: -3101
+  form: integer
+  negative: true
+  unit: years
+  script: latin
+  source: bag_2001
+  edition_page: 63
+  pdf_page: 9
+  locus: p. 63 first line, "or ... AD", printed with a minus sign; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.a.kali_jd_midnight
+  role: output
+  value: 588465
+  form: integer
+  unit: julian_day_number
+  script: latin
+  source: bag_2001
+  edition_page: 63
+  pdf_page: 9
+  locus: p. 63, "The Julian day (JD) number of the beginning of Kaliyuga is fixed at ..."; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.a.kali_date_midnight
+  role: output
+  value: 3102 BC Feb. 17 (ended), Thursday, Ujjain mean midninght
+  form: text
+  unit: none
+  script: latin
+  source: bag_2001
+  edition_page: 63
+  pdf_page: 9
+  locus: p. 63, "falls on ...", from "… BC" to "midninght" (spelling as printed); Latin text
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: ardharātrika system
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.a.kali_date_sunrise
+  role: output
+  value: 3102 BC Feb. 18 Friday, Ujjain mean time 6AM
+  form: text
+  unit: none
+  script: latin
+  source: bag_2001
+  edition_page: 63
+  pdf_page: 9
+  locus: p. 63, "Hence the date of this Kali epoch is ...", from "… BC" to "6AM"; Latin text
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: audayika system
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.a.kali_jd_sunrise
+  role: output
+  value: 588466
+  form: integer
+  unit: julian_day_number
+  script: latin
+  source: bag_2001
+  edition_page: 63
+  pdf_page: 9
+  locus: p. 63, "and the JD number for this date is ..."; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 438, 298]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.a.vm_epoch_date
+  role: output
+  value: March 22, 505 AD
+  form: text
+  unit: none
+  script: latin
+  source: bag_2001
+  edition_page: 63
+  pdf_page: 9
+  locus: p. 63, "The date 1st Caitra, … Śaka, Tuesday obviously corresponds to ..."; Latin text
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 150, 400, 245]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: '"(Christian date)" follows'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 150, 400, 245]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.a.vm_epoch_ka
+  role: output
+  value: 11317124
+  form: integer
+  unit: days
+  script: latin
+  source: bag_2001
+  edition_page: 63
+  pdf_page: 9
+  locus: p. 63, "its KA number = ... (shown in verification ii)"; printed with eight digits; keyed as printed (an erratum in bag_2003_weekdays note 2 concerns this figure)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 150, 400, 245]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: differs from the KA computed in verification (ii); keyed as printed
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 150, 400, 245]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.a.vm_epoch_jd
+  role: output
+  value: 1905590
+  form: integer
+  unit: julian_day_number
+  script: latin
+  source: bag_2001
+  edition_page: 63
+  pdf_page: 9
+  locus: p. 63, "and JD number = ..." (… Śaka); Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 150, 400, 245]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 150, 400, 245]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.a.bg_epoch_date
+  role: output
+  value: March 23, 665 AD
+  form: text
+  unit: none
+  script: latin
+  source: bag_2001
+  edition_page: 63
+  pdf_page: 9
+  locus: p. 63, "The date 1st Caitra … Śaka, Sunday likewise corresponds to ..."; Latin text
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 150, 400, 245]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 150, 400, 245]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.a.bg_epoch_ka
+  role: output
+  value: 1375565
+  form: integer
+  unit: days
+  script: latin
+  source: bag_2001
+  edition_page: 63
+  pdf_page: 9
+  locus: p. 63, "its KA number = ... (shown in verification iii)"; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 150, 400, 245]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 150, 400, 245]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.a.bg_epoch_jd
+  role: output
+  value: 1964031
+  form: integer
+  unit: julian_day_number
+  script: latin
+  source: bag_2001
+  edition_page: 63
+  pdf_page: 9
+  locus: p. 63, "and JD number = ..." (… Śaka), last figure of the paragraph; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 150, 400, 245]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [30, 150, 400, 245]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.a.jd_epoch_date
+  role: input
+  value: January 1, 4713 BC, Monday
+  form: text
+  unit: none
+  script: latin
+  source: bag_2001
+  edition_page: 63
+  pdf_page: 9
+  locus: p. 63 footnote 12, "started from the mean noon (GMT) on ..."; Latin text
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 298, 438, 596]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 298, 438, 596]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.a.jd_epoch_value
+  role: input
+  value: 0
+  form: integer
+  unit: julian_day_number
+  script: latin
+  source: bag_2001
+  edition_page: 63
+  pdf_page: 9
+  locus: p. 63 footnote 12, "JD=..." (printed "JD=…" with the equals sign close to the digit); Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 298, 438, 596]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 298, 438, 596]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.b.kali_date_midnight
+  role: input
+  value: Thursday -3101 AD (3102 BC), Feb. 17 (ended) Ujjayini Mean Midnight (UMT)
+  form: text
+  unit: none
+  script: latin
+  source: bag_2003_weekdays
+  edition_page: 40
+  pdf_page: 2
+  locus: p. 40 item (2), "falls on ...", from "Thursday" to "(UMT)"; Latin text (the minus before the year printed as a short hyphen, kept as printed)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 427, 294.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 427, 294.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.b.kali_date_sunrise
+  role: input
+  value: 18 February,. − 3101 AD, Caitra, Friday UMT 6 AM
+  form: text
+  unit: none
+  script: latin
+  source: bag_2003_weekdays
+  edition_page: 40
+  pdf_page: 2
+  locus: p. 40 item (2), "obviously starts on ...", from "… February" to "6 AM"; Latin text (the stray ",." as printed; the dash before the year keyed as U+2212)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 427, 294.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 427, 294.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.b.kali_jd_sunrise
+  role: input
+  value: 588466
+  form: integer
+  unit: julian_day_number
+  script: latin
+  source: bag_2003_weekdays
+  edition_page: 40
+  pdf_page: 2
+  locus: p. 40 item (2), "was given as ... in my paper"; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 427, 294.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: restated at the end of (2) and in the Discussion
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 427, 294.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.b.kali_ka
+  role: input
+  value: 0
+  form: integer
+  unit: days
+  script: latin
+  source: bag_2003_weekdays
+  edition_page: 40
+  pdf_page: 2
+  locus: p. 40 item (2), "The KA (Kali ahargaṇa) = ..."; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 427, 294.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 427, 294.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.b.kali_jd_communication
+  role: input
+  value: 588465
+  form: integer
+  unit: julian_day_number
+  script: latin
+  source: bag_2003_weekdays
+  edition_page: 40
+  pdf_page: 2
+  locus: p. 40 item (2), "it should be ..." (the private communication's figure); Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 427, 294.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 427, 294.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.b.vm_epoch_date
+  role: input
+  value: Tuesday, Caitra 1, 427 Śaka (22 March 505 AD)
+  form: text
+  unit: none
+  script: latin
+  source: bag_2003_weekdays
+  edition_page: 40
+  pdf_page: 2
+  locus: p. 40 item (3), "was started on ...", from "Tuesday" to "AD)"; Latin text
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.b.vm_epoch_ka
+  role: input
+  value: 1317124
+  form: integer
+  unit: days
+  script: latin
+  source: bag_2003_weekdays
+  edition_page: 40
+  pdf_page: 2
+  locus: p. 40 item (3), "The KA number = ..." (footnote mark 2 after "number" not keyed); Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.b.vm_epoch_jd
+  role: input
+  value: 1905590
+  form: integer
+  unit: julian_day_number
+  script: latin
+  source: bag_2003_weekdays
+  edition_page: 40
+  pdf_page: 2
+  locus: p. 40 item (3), "the JD = ... are mentioned in my paper"; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: restated several times in (3)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.b.vm_epoch_jd_communication
+  role: input
+  value: 1905589
+  form: integer
+  unit: julian_day_number
+  script: latin
+  source: bag_2003_weekdays
+  edition_page: 40
+  pdf_page: 2
+  locus: p. 40 item (3), "mentioned … less i.e., ... in the private communication"; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.b.days_per_week
+  role: input
+  value: 7
+  form: integer
+  unit: days
+  script: latin
+  source: bag_2003_weekdays
+  edition_page: 40
+  pdf_page: 2
+  locus: p. 40 item (3), "the number of days in a week i.e., ..."; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.b.vm_epoch_jd_remainder
+  role: output
+  value: 1
+  form: integer
+  unit: none
+  script: latin
+  source: bag_2003_weekdays
+  edition_page: 40
+  pdf_page: 2
+  locus: p. 40 item (3), "when it leaves the remainder ..." (first statement); Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.b.vm_epoch_communication_jd_as_printed
+  role: output
+  value: 1905590
+  form: integer
+  unit: julian_day_number
+  script: latin
+  source: bag_2003_weekdays
+  edition_page: 40
+  pdf_page: 2
+  locus: 'p. 40 item (3), "The JD number = ..., as indicated in the communication, is wrong": the figure printed there (the same digits as the adopted JD, where the argument concerns the communication''s figure); keyed as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.b.vm_epoch_communication_remainder
+  role: output
+  value: 0
+  form: integer
+  unit: none
+  script: latin
+  source: bag_2003_weekdays
+  edition_page: 40
+  pdf_page: 2
+  locus: p. 40 item (3), "leaves a remainder ..., which means the day of the week is Monday"; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.b.bg_epoch_date
+  role: input
+  value: Sunday, Caitra 1, 587 Śaka (March 23, 665 AD)
+  form: text
+  unit: none
+  script: latin
+  source: bag_2003_weekdays
+  edition_page: 40
+  pdf_page: 2
+  locus: p. 40 item (4), "was started on ...", from "Sunday" to "AD)"; Latin text (the item's "Brahmagpta" spelling is outside the extent)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.b.bg_epoch_ka
+  role: input
+  value: 1375565
+  form: integer
+  unit: days
+  script: latin
+  source: bag_2003_weekdays
+  edition_page: 40
+  pdf_page: 2
+  locus: p. 40 item (4), "The KA number = ..."; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.b.bg_epoch_jd
+  role: input
+  value: 1964031
+  form: integer
+  unit: julian_day_number
+  script: latin
+  source: bag_2003_weekdays
+  edition_page: 40
+  pdf_page: 2
+  locus: p. 40 item (4), "and JD number = ..., are given in my paper"; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.b.bg_epoch_jd_communication
+  role: input
+  value: 1964030
+  form: integer
+  unit: julian_day_number
+  script: latin
+  source: bag_2003_weekdays
+  edition_page: 40
+  pdf_page: 2
+  locus: p. 40 item (4), "as usual … less i.e., ..."; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.b.bg_epoch_jd_divided
+  role: output
+  value: 1954031
+  form: integer
+  unit: julian_day_number
+  script: latin
+  source: bag_2003_weekdays
+  edition_page: 40
+  pdf_page: 2
+  locus: 'p. 40 item (4), "when the JD number ... is divided by …": printed with a different second digit from the JD a line above; keyed as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.b.bg_epoch_remainder
+  role: output
+  value: 6
+  form: integer
+  unit: none
+  script: latin
+  source: bag_2003_weekdays
+  edition_page: 40
+  pdf_page: 2
+  locus: p. 40 item (4), "it leaves the remainder ..."; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.b.discussion.kali_jd
+  role: output
+  value: 588466
+  form: integer
+  unit: julian_day_number
+  script: latin
+  source: bag_2003_weekdays
+  edition_page: 41
+  pdf_page: 3
+  locus: p. 41 Discussion (1), "JD (for Kali epoch) = ... + KA (for Kali epoch) = ... (here KA = … ...)", the figure after the … "="; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 427, 294.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 427, 294.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.b.discussion.vm_epoch_jd
+  role: output
+  value: 1905590
+  form: integer
+  unit: julian_day_number
+  script: latin
+  source: bag_2003_weekdays
+  edition_page: 41
+  pdf_page: 3
+  locus: p. 41 Discussion (1), Varāhamihira line, the sum after the last "="; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 427, 294.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: the addends restate the Kali JD and the 427 KA
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 427, 294.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.b.discussion.bg_epoch_jd
+  role: output
+  value: 1964031
+  form: integer
+  unit: julian_day_number
+  script: latin
+  source: bag_2003_weekdays
+  edition_page: 41
+  pdf_page: 3
+  locus: p. 41 Discussion (1), Brahmagupta line, the sum after the last "="; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 427, 294.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: the addends restate the Kali JD and the 587 KA
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 427, 294.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.b.jd_component_a
+  role: input
+  value: 588783
+  form: integer
+  unit: days
+  script: latin
+  source: bag_2003_weekdays
+  edition_page: 41
+  pdf_page: 3
+  locus: p. 41 Discussion (2), component (A) "JD number for -… AD, i.e., ... days"; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: restated in the expression
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.b.days_component_b
+  role: input
+  value: '365.25'
+  form: fraction
+  unit: days
+  script: latin
+  source: bag_2003_weekdays
+  edition_page: 41
+  pdf_page: 3
+  locus: p. 41 Discussion (2), component (B) "JD number for −… AD, i.e., ... days"; decimal string as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: restated in the expression
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.b.days_component_c
+  role: input
+  value: 48
+  form: integer
+  unit: days
+  script: latin
+  source: bag_2003_weekdays
+  edition_page: 41
+  pdf_page: 3
+  locus: p. 41 Discussion (2), component (C) "JD number for … Feb., i.e., ... days"; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: restated in the expression
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.b.jd_kali_day_decimal
+  role: output
+  value: '588465.75'
+  form: fraction
+  unit: julian_day
+  script: latin
+  source: bag_2003_weekdays
+  edition_page: 41
+  pdf_page: 3
+  locus: p. 41 Discussion (2), "(A−B+C) i.e., (...) = ..."; decimal string as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.b.jd_kali_day_start
+  role: output
+  value: 588465
+  form: integer
+  unit: julian_day_number
+  script: latin
+  source: bag_2003_weekdays
+  edition_page: 41
+  pdf_page: 3
+  locus: p. 41 Discussion (2), "the JD number for the beginning of … Feb., which began on …-… Feb. midnight, is ..."; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: restated in the remainder sentence
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.b.jd_kali_day_remainder
+  role: output
+  value: 3
+  form: integer
+  unit: none
+  script: latin
+  source: bag_2003_weekdays
+  edition_page: 41
+  pdf_page: 3
+  locus: p. 41 Discussion (2), "it leaves a remainder ..., indicating ... Thursday"; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.b.jd_friday_start
+  role: output
+  value: 588466
+  form: integer
+  unit: julian_day_number
+  script: latin
+  source: bag_2003_weekdays
+  edition_page: 41
+  pdf_page: 3
+  locus: p. 41 Discussion (2), last sentence, "midnight is obviously ..."; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.b.ujjayini_longitude
+  role: input
+  value: [75, 43]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  source: bag_2003_weekdays
+  edition_page: 42
+  pdf_page: 4
+  locus: p. 42, "Ujjayini's longitude being ... E" [deg, min]; sexagesimal parts as printed, marks to unit (the minute mark printed as a straight apostrophe)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 427, 294.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: 'proposed beyond the TASK''s pages: the continuation of the Concluding Remarks of the JD argument'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 427, 294.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.b.ujjayini_time_difference
+  role: input
+  value: [5, 3]
+  form: sexagesimal
+  unit: hours
+  script: latin
+  source: bag_2003_weekdays
+  edition_page: 42
+  pdf_page: 4
+  locus: p. 42, "the time difference is about ..." [h, m]; parts as printed, marks h and m to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 427, 294.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: proposed beyond the TASK's pages
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 427, 294.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.b.greenwich_time
+  role: output
+  value: [12, 57]
+  form: sexagesimal
+  unit: hours
+  script: latin
+  source: bag_2003_weekdays
+  edition_page: 42
+  pdf_page: 4
+  locus: p. 42, "roughly …-… Feb., −… AD midnight (...) in JD system in Greenwich", the time in parentheses [h, m]; parts as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 427, 294.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: proposed beyond the TASK's pages
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 427, 294.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.erratum_note
+  role: input
+  value: KA number-1317124 for Varāhamihira epoch is printed correctly in p. 61 and wrongly in p. 63 in my earlier published paper.
+  form: text
+  unit: none
+  script: latin
+  source: bag_2003_weekdays
+  edition_page: 42
+  pdf_page: 4
+  locus: 'p. 42, Notes and References, note 2, from "KA number" to "published paper."; Latin text (the note numeral not keyed; the printed hyphen between "number" and the figure kept as a hyphen-minus U+002D, as printed: it is neither between two numbers nor between two words)'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/bag_kali_jd.yaml (sha256 e84a6754)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 294.5, 427, 589]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''

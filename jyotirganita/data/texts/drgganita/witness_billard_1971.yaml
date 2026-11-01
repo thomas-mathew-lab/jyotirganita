@@ -1,0 +1,187 @@
+- key: texts.drgganita.witness.billard_1971.p155
+  value:
+  - [Soleil, 20′22″, +116r/42370t, −1′/45486t, −1‴/3000T]
+  - [Lune, 3°15′2″, +143r/3907t, +1′/8310t, +1″/5791T]
+  - [Apogée, 85°44′26″, +74r/239171t, −1″/47036t, null]
+  form: table
+  columns: [element, constant, t_rate, t_drift, T_drift]
+  unit: as printed (the constant in degrees, minutes and seconds; t terms in révolutions or arc per day, t in jours; T terms in arc per year, T in années)
+  script: latin
+  source: billard_1971
+  edition_page: 155
+  pdf_page: 162
+  locus: '§6,7,1, the table k.DṛgGaṇ, rows Soleil, Lune, Apogée. A French value: each cell as printed with its signs and unit marks, the printed spaces inside a cell dropped, a minus (short or long dash) keyed as − (U+2212), a cell the table leaves blank null; the element as Billard names the row.'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [40, 523.67, 470, 616.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [200, 520, 320, 640]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [40, 585, 470, 640]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Billard''s tabulation of the Dṛggaṇita''s elements (billard_1971, class 3: a modern compilation, a witness of the rates and constants, not of the text''s words). '
+  second_read:
+  - by: claude-fable-5-1/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 600
+    clip: [40, 523.67, 470, 616.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: not re-read
+- key: texts.drgganita.witness.billard_1971.p156
+  value:
+  - [Nœud, 177°24′, −29r/197041t, −1′/92920t, −1″/4320000T]
+  - [Mercure, −3°44′, +33r/2903t, −1′/67452t, +1″/4320000T]
+  - [Vénus, −4°, +73r/16403t, +1′/37348t, +34″/3×4320000T]
+  - [Mars, 3′, +1r/687t, +1′/8719t, +3″/4320000T]
+  - [Jupiter, −2°59′, +53r/229613t, +1″/141478t, null]
+  - [Saturne, 4°8′, +13r/139955t, −1′/1395953t, null]
+  form: table
+  columns: [element, constant, t_rate, t_drift, T_drift]
+  unit: as printed (the constant in degrees, minutes and seconds; t terms in révolutions or arc per day, t in jours; T terms in arc per year, T in années)
+  script: latin
+  source: billard_1971
+  edition_page: 156
+  pdf_page: 163
+  locus: '§6,7,1, the table k.DṛgGaṇ, rows Nœud, Mercure, Vénus, Mars, Jupiter, Saturne. A French value: each cell as printed with its signs and unit marks, the printed spaces inside a cell dropped, a minus (short or long dash) keyed as − (U+2212), a cell the table leaves blank null; the element as Billard names the row.'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [40, 45, 470, 143]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [195, 75, 330, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [40, 137, 470, 238]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [40, 137, 470, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [40, 232, 470, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Billard''s tabulation of the Dṛggaṇita''s elements (billard_1971, class 3: a modern compilation, a witness of the rates and constants, not of the text''s words). Mercure constant: the minus printed as a long dash before the figure; Vénus constant: the minus printed as a long dash before the figure; Vénus T_drift: denominator printed as a product; Jupiter constant: the minus printed as a long dash before the figure'
+  second_read:
+  - by: claude-fable-5-1/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 600
+    clip: [40, 45, 470, 143]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: not re-read
+- key: texts.drgganita.witness.billard_1971.heading
+  value: L'époque étant le KYaud, le temps t en jours et T en années, on a pour ce k.Dr̥gGaṇ l'ensemble d'éléments suivants.
+  form: text
+  unit: statement
+  script: latin
+  source: billard_1971
+  edition_page: 155
+  pdf_page: 162
+  locus: '§6,7,1, the sentence above the table; extent from L''époque to suivants. (the sentence above the table). Text keyed as printed (spelling, diacritics, letters), with spacing at punctuation and parentheses normalised (none before,;: ? ! or), one after; none after, a dash between numbers or as a sign keyed as − (U+2212) and between words as — (U+2014), italics not marked, footnote marks not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [40, 440, 470, 529.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the reader's notes are the datum's; re-expressed 2026-10-10 (l); not re-read
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'French: apostrophes printed as ’ keyed as ''; t, T, DṛgGaṇ printed in italic.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 600
+    clip: [40, 440, 470, 529.67]
+    delivered_ppi: 600
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-10-r4
+      on: 2026-10-10
+      dpi: 3600
+      clip: [140, 474, 180, 490]
+      delivered_ppi: 600
+      note: ''
+    matches: second_read
+- key: texts.drgganita.witness.billard_1971.column_heading
+  value: ℒ
+  form: text
+  unit: statement
+  script: latin
+  source: billard_1971
+  edition_page: 155
+  pdf_page: 162
+  locus: 'table header, second column (the column right of the first); extent the second column''s heading. Text keyed as printed (spelling, diacritics, letters), with spacing at punctuation and parentheses normalised (none before,;: ? ! or), one after; none after, a dash between numbers or as a sign keyed as − (U+2212) and between words as — (U+2014), italics not marked, footnote marks not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [252, 440, 470, 529.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the reader's notes are the datum's
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: a script L (longitude) as printed.
+  second_read:
+  - by: claude-opus-5-5/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 600
+    clip: [252, 440, 470, 529.67]
+    delivered_ppi: 600
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-10-r4
+      on: 2026-10-10
+      dpi: 4800
+      clip: [284, 498, 306, 518]
+      delivered_ppi: 600
+      note: ''
+    matches: second_read

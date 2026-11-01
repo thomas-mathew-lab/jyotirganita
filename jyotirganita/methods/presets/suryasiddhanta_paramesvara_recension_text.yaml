@@ -1,0 +1,19 @@
+preset: suryasiddhanta_paramesvara_recension_text
+header:
+  represents: 'The Sūrya-siddhānta as the text stands in Shukla''s edition with Parameśvara''s commentary (suryasiddhanta_paramesvara_1957), the method suryasiddhanta_paramesvara_recension: the computation of suryasiddhanta_text with the Moon''s apogee and node revolutions of suryasiddhanta_paramesvara_1957''s text, the reading of the commentator families Shukla''s Introduction names (suryasiddhanta_paramesvara_1957 Intro pp. 16, 51), counted from the end of creation (i.48–51) at the text''s meridian on the equator (meridians/suryasiddhanta_lanka, Laṅkā''s mean sunrise), without a region (text_only).'
+  hypothesis: 'No almanac is claimed to have printed this computation, and Parameśvara''s Kerala corrections (laghu-yuga, hārāvayava, dṛgbheda) are not in it. The deśāntara, bhujāntara, cara and the text''s sunrise are served, and a place of a region''s table reaches the text''s meridian through the editor''s identification, whose flags its records carry. The effective composition date is the vulgate''s (the recension''s own date is a gap, texts.suryasiddhanta.composed.recension.suryasiddhanta_paramesvara_1957). The Kali year is the method''s mean year (sun mean), not an almanac''s.'
+  range: docs/verification.md prints the computed date range (from the method's runs_from, no upper end) and the effective composition date; neither is typed here.
+method: suryasiddhanta_paramesvara_recension
+variants: {}
+conventions: text_only
+time_standard: text_local:suryasiddhanta
+intraday: intraday.linear_gati
+sunrise: text
+output:
+  elements: [tithi, nakshatra, yoga, karana]
+  scripts: []
+engine_data:
+  text: suryasiddhanta
+  layers: []
+observer:
+  required: true

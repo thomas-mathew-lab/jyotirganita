@@ -1,0 +1,345 @@
+- key: texts.drgganita.upari_samskara.statement
+  value: कार्यो ग्रहेषु ग्रहणमण्डनोक्तेष्वतः परम् संस्कारस्तं च वक्ष्यामि, तत्र नोक्तं यतो मया शतद्वयाब्दे ग्रहणमण्डनोदितभास्करे एकैका लिप्तिका शोध्या तत्सिद्धयै; शीतगौ पुनः योज्यैका वत्सरे सैकचत्वारिंशन्मिते कला पञ्चत्रिंशद्युतशते वर्षे तुङ्गेंशकस्तथा योज्य एको; राहुमध्ये शोध्यैकाब्दत्रये कला एतत्संस्कारसंयुक्तास्तत्रार्काद्याः स्फुटाः स्मृताः
+  form: text
+  unit: statement
+  script: devanagari
+  source: drgganita_1963
+  edition_page: 26
+  pdf_page: 42
+  locus: 'II.47–50, under the editor''s heading over them; extent from कार्यो to स्मृताः (II.47–50). Text: Devanagari NFC as printed, from its first to its last akṣara, the daṇḍa, double daṇḍa and verse number not keyed, a line-end hyphen joined, footnote marks not keyed, words separated by single spaces as printed.'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [170, 232, 520, 435]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the reader's notes are the datum's; re-expressed 2026-10-10 (k); not re-read
+  status: read
+  verified_by: []
+  emendation: null
+  notes: 'footnote mark b) before कार्यो not keyed; semicolons printed with a space before them, kept; लिप्तिका with the प्त ligature; तुङ्गेंशक has the e-sign and an anusvāra on ङ्गे (shape checked upsampled ×2.5 at [300, 345, 360, 375]). The editor''s heading: ग्रहणमण्डनोपरिसंस्कारः.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 600
+    clip: [170, 232, 520, 435]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: no change; not re-read
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-10-r4
+      on: 2026-10-10
+      dpi: 4800
+      clip: [222, 298, 236, 316]
+      delivered_ppi: 600
+      note: no change; not re-read
+    matches: neither
+  read_issue: disputed
+- key: texts.drgganita.upari_samskara.sun.period
+  value: 200
+  form: integer
+  unit: years
+  script: devanagari
+  source: drgganita_1963
+  edition_page: 26
+  pdf_page: 42
+  locus: 'II.48, line 1, word 1. The number the verse names in ordinary Sanskrit number words (no kaṭapayādi or bhūtasaṅkhyā, no editor''s figure): its value as an integer, the reader''s own reading. The sign: negative: true where the verse states the value is subtracted (ṛṇa, śodhya, hīna), false where added (dhana, yojya, deya).'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [170, 232, 348, 338]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the reader's notes are the datum's
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Locus: printed शतद्वयाब्दे. an ordinary Sanskrit number word (two hundred), not kaṭapayādi or bhūtasaṅkhyā; no editor''s figure printed. Sense: one liptā subtracted (एकैका लिप्तिका शोध्या) per 200 years from the Grahaṇamaṇḍana''s Sun. The sign is the verse''s (śodhya subtracted, yojya added); the unit of the step is the verse''s word for it, as the note says. Data only: no method applies this correction. The word as printed: शतद्वय.'
+  negative: true
+  second_read:
+  - by: claude-fable-5-1/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 600
+    clip: [170, 232, 348, 338]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.upari_samskara.moon.period
+  value: 41
+  form: integer
+  unit: years
+  script: devanagari
+  source: drgganita_1963
+  edition_page: 26
+  pdf_page: 42
+  locus: 'II.49, line 1, word 3. The number the verse names in ordinary Sanskrit number words (no kaṭapayādi or bhūtasaṅkhyā, no editor''s figure): its value as an integer, the reader''s own reading. The sign: negative: true where the verse states the value is subtracted (ṛṇa, śodhya, hīna), false where added (dhana, yojya, deya).'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [170, 332, 348, 435]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the reader's notes are the datum's
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Locus: printed सैकचत्वारिंशन्मिते. ordinary number word (forty plus one); no editor''s figure. Sense: one kalā added (योज्यैका … कला) to the Moon (शीतगौ) per 41 years. The sign is the verse''s (śodhya subtracted, yojya added); the unit of the step is the verse''s word for it, as the note says. Data only: no method applies this correction. The word as printed: सैकचत्वारिंशत्.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 600
+    clip: [170, 332, 348, 435]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.upari_samskara.moon_apogee.period
+  value: 135
+  form: integer
+  unit: years
+  script: devanagari
+  source: drgganita_1963
+  edition_page: 26
+  pdf_page: 42
+  locus: 'II.49, line 2, word 1. The number the verse names in ordinary Sanskrit number words (no kaṭapayādi or bhūtasaṅkhyā, no editor''s figure): its value as an integer, the reader''s own reading. The sign: negative: true where the verse states the value is subtracted (ṛṇa, śodhya, hīna), false where added (dhana, yojya, deya).'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [170, 332, 348, 435]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the reader's notes are the datum's
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Locus: printed पञ्चत्रिंशद्युतशते. ordinary number word (a hundred joined with thirty-five); no editor''s figure. Sense: to the tuṅga likewise one (एको) added (योज्य) per 135 years; the unit word is read as अंशक in the printed तुङ्गेंशकस्तथा (an anusvāra on ङ्गे), i.e. one degree, against one kalā for the Moon and node: recorded, not adjudicated. The sign is the verse''s (śodhya subtracted, yojya added); the unit of the step is the verse''s word for it, as the note says. Data only: no method applies this correction. The word as printed: पञ्चत्रिंशद्युतशत.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 600
+    clip: [170, 332, 348, 435]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.upari_samskara.node.period
+  value: 3
+  form: integer
+  unit: years
+  script: devanagari
+  source: drgganita_1963
+  edition_page: 26
+  pdf_page: 42
+  locus: 'II.50, line 1, word 3. The number the verse names in ordinary Sanskrit number words (no kaṭapayādi or bhūtasaṅkhyā, no editor''s figure): its value as an integer, the reader''s own reading. The sign: negative: true where the verse states the value is subtracted (ṛṇa, śodhya, hīna), false where added (dhana, yojya, deya).'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [170, 332, 348, 435]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the reader's notes are the datum's
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Locus: the number word ends the compound printed शोध्यैकाब्दत्रये. ordinary number word (three); no editor''s figure. Sense: one kalā subtracted from Rāhu (राहुमध्ये शोध्यैका … कला) per three years. The sign is the verse''s (śodhya subtracted, yojya added); the unit of the step is the verse''s word for it, as the note says. Data only: no method applies this correction. The word as printed: त्रय.'
+  negative: true
+  second_read:
+  - by: claude-fable-5-1/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 600
+    clip: [170, 332, 348, 435]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.upari_samskara.epoch
+  value: 1648157
+  form: numeral_word
+  value_form: integer
+  word:
+    text: स्वरतिथिभुजङ्गसागरषड्विधु
+    script: devanagari
+    system: bhutasankhya
+    decode: 1648157
+  unit: kali_days
+  script: devanagari
+  source: grahanamandana_1965
+  edition_page: 3
+  pdf_page: 26
+  locus: 'Grahaṇamaṇḍana śl. 5, line 1, word 1. The word: Devanagari NFC, the stem from its first to its last akṣara without its case ending and without the sandhi joining it to the next word, a compound''s hyphen dropped, a line-end hyphen joined, footnote marks not keyed; decoded in bhūtasaṅkhyā (each member names a digit or a number by its object; the first member the lowest place). The value: the editor''s figure printed for the word, Indian digit grouping dropped; a digit the print does not show is noted and the value is the word''s decode. The apparatus: every footnote variant of the word, as variants.'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 256
+    clip: [100, 395, 445, 475]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: the reader's notes are the datum's
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Locus: the compound printed स्वरतिथिभुजङ्गसागरषड्विधुभिर्विरहितात्; the editor''s figure above it. objects right to left: स्वर 7, तिथि 15, भुजङ्ग 8, सागर 4, षड् 6, विधु 1 → 1648157; editor printed 16,48,157 (Indian grouping dropped). At navigation resolution the first akṣara looked like ख; at native 256 ppi it is स्व. Footnote 5 a) on this verse (A. भुज for भुजङ्ग) not keyed here. grahanamandana_1965''s khaṇḍa, from which grahanamandana_1965''s appendix footnote counts the correction (texts.drgganita.upari_samskara.grahanamandana_1965.footnote_1). Data only.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 256
+    clip: [100, 395, 445, 475]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.upari_samskara.epoch.english
+  value: From (the Khaṇḍa obtained by) reducing the current Kali day by 16,48,157 the Sun's Mean position is got by multiplying it by 58 and dividing (the product) by 21,185.
+  form: text
+  unit: statement
+  script: latin
+  source: grahanamandana_1965
+  edition_page: 2
+  pdf_page: 25
+  locus: 'translation §5; extent from From to 21,185. (§5 of the translation). Text keyed as printed (spelling, diacritics, letters), with spacing at punctuation and parentheses normalised (none before,;: ? ! or), one after; none after, a dash between numbers or as a sign keyed as − (U+2212) and between words as — (U+2014), italics not marked, footnote marks not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 256
+    clip: [40, 455, 440, 640]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: the reader's notes are the datum's
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Latin convention: the printed space inside ''( the product )'' normalised; footnote mark 2 after 16,48,157 not keyed; Indian digit grouping kept in a text value as printed.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 256
+    clip: [40, 455, 440, 640]
+    delivered_ppi: 256
+    note: not re-read
+- key: texts.drgganita.upari_samskara.epoch.date
+  value: This khaṇḍa corresponds to Kali 4512, Kaṭaka 17 or A. D. July 15, 1410.
+  form: text
+  unit: statement
+  script: latin
+  source: grahanamandana_1965
+  edition_page: 2
+  pdf_page: 25
+  locus: 'footnote 2; extent from This to 1410. (footnote 2 of p. 2). Text keyed as printed (spelling, diacritics, letters), with spacing at punctuation and parentheses normalised (none before,;: ? ! or), one after; none after, a dash between numbers or as a sign keyed as − (U+2212) and between words as — (U+2014), italics not marked, footnote marks not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 256
+    clip: [40, 500, 440, 640]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: the reader's notes are the datum's
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: an editor's date (class 2); khaṇḍa printed in italic.
+  second_read:
+  - by: claude-opus-5-5/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 256
+    clip: [40, 500, 440, 640]
+    delivered_ppi: 256
+    note: ''
+- key: texts.drgganita.upari_samskara.grahanamandana_1965.statement
+  value: कार्यो ग्रहेषु ग्रहणमण्डनोक्तेष्वतः परम् संस्कारस्तं च वक्ष्यामि, तत्र नोक्तं यतो मया शताद्वयाब्दे ग्रहणमण्डनोदितभास्करे एकैका लिप्तिका शोध्या तत्सिद्धयै; शीतगौ पुनः योज्यैका वत्सरे सैकचत्वारिंशन्मिते कला पञ्चत्रिंशद्युतशते वर्षे तुङ्गेंऽशकस्तथा योज्य एको; राहुमध्ये शोध्यैकाब्दत्रये कला एतत्संस्कारसंयुक्तास्तत्रार्काद्याः स्फुटाः स्मृताः
+  form: text
+  unit: statement
+  script: devanagari
+  source: grahanamandana_1965
+  edition_page: 37
+  pdf_page: 60
+  locus: 'Appendix, under its heading; extent from कार्यो to स्मृताः (the appendix''s four verses). Text: Devanagari NFC as printed, from its first to its last akṣara, the daṇḍa, double daṇḍa and verse number not keyed, a line-end hyphen joined, footnote marks not keyed, words separated by single spaces as printed.'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 256
+    clip: [120, 140, 420, 450]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: the reader's notes are the datum's
+  status: read
+  verified_by: []
+  emendation: null
+  notes: 'a second printing of drgganita_1963 II.47–50 by the same editor. Differences seen against my drgganita_1963 read: शताद्वयाब्दे (drgganita_1963 शतद्वयाब्दे; ā after त, shape checked upsampled ×2.5 at [120, 210, 200, 232]); तुङ्गेंऽशक with an avagraha (drgganita_1963 तुङ्गेंशक); no space before the semicolons. Doubtful at 256 ppi: the त्र of तत्रार्काद्याः is poorly printed and the halant of एतत् is faint (checked upsampled at [120, 350, 300, 370]). The closing attribution (परमेश्वरकृतं दृग्गणितम्, द्वितीयो भागः, ४७–५० तमाः श्लोकाः) not keyed. The appendix''s heading: अनुबन्धः, ग्रहणमण्डनोपरिसंस्कारः.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 256
+    clip: [120, 140, 420, 450]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: no change; not re-read
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-10-r4
+      on: 2026-10-10
+      dpi: 2400
+      clip: [120, 214, 172, 236]
+      delivered_ppi: 256
+      note: no change; not re-read
+    matches: neither
+  read_issue: disputed
+- key: texts.drgganita.upari_samskara.grahanamandana_1965.translation
+  value: 48−50a. One second should be subtracted for every 200 years, from (the Mean position of) the Sun derived according to the Grahaṇamaṇḍana, to get its (correct Mean position). In the case of the Moon, however, one second should be added (to its Mean position) for every 41 years. In the case of the Node, one second should be added to (12r−Node) for every 135 years. From the Mean of the Higher Apsis should be subtracted one minute for every three years.
+  form: text
+  unit: statement
+  script: latin
+  source: grahanamandana_1965
+  edition_page: 36
+  pdf_page: 59
+  locus: 'Appendix translation, 48–50a; extent from 48−50a. to years. (the translation of 48–50a). Text keyed as printed (spelling, diacritics, letters), with spacing at punctuation and parentheses normalised (none before,;: ? ! or), one after; none after, a dash between numbers or as a sign keyed as − (U+2212) and between words as — (U+2014), italics not marked, footnote marks not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 256
+    clip: [40, 90, 420, 450]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: the reader's notes are the datum's; re-expressed 2026-10-10 (l); not re-read
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Latin convention: the dash in 48–50a (between numbers) keyed as U+2212; the dash in 12r—Node (between a number and a word) as the em dash. The translation assigns the 135-year correction to the Node and the 3-year one to the Higher Apsis, and gives ''second'' for the Sun and Moon: against the Sanskrit''s तुङ्गे (135 years) and राहुमध्ये (3 years) and its लिप्तिका/कला. Recorded, not adjudicated.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 256
+    clip: [40, 90, 420, 450]
+    delivered_ppi: 256
+    note: no change; not re-read
+- key: texts.drgganita.upari_samskara.grahanamandana_1965.footnote_1
+  value: This correction is to be applied, naturally, from the date of the khaṇḍa of this work, given in śl. 5, viz. Kali days 16,48,157, corresponding to Kali year 4512, Kaṭaka 17, or A. D. July 15, 1410.
+  form: text
+  unit: statement
+  script: latin
+  source: grahanamandana_1965
+  edition_page: 36
+  pdf_page: 59
+  locus: 'Appendix footnote 1; extent from This to 1410. (footnote 1 of p. 36). Text keyed as printed (spelling, diacritics, letters), with spacing at punctuation and parentheses normalised (none before,;: ? ! or), one after; none after, a dash between numbers or as a sign keyed as − (U+2212) and between words as — (U+2014), italics not marked, footnote marks not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 256
+    clip: [15, 575, 420, 625]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: the reader's notes are the datum's
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: italics (khaṇḍa, śl., viz.) not marked; the mark after D in 'A. D.' is small at 256 ppi (a period or a comma); keyed as a period.
+  second_read:
+  - by: claude-opus-5-5/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 256
+    clip: [15, 575, 420, 625]
+    delivered_ppi: 256
+    note: ''

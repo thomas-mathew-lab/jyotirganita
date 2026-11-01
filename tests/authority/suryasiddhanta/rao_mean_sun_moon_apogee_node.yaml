@@ -1,0 +1,941 @@
+id: authority/suryasiddhanta/rao_mean_sun_moon_apogee_node
+methods: [suryasiddhanta]
+class: editor_computed
+source: balachandra_rao_2000
+edition_page: 78
+pdf_page: 92
+locus: '§7.3 (i)-(iv): from "For the computation of the mean positions of the planets, we chose" (printed p. 78) to "Mean longitude of Ketu = ..." (printed p. 80); inputs from Table 7.3, Sūryasiddhānta column (printed p. 78) (pdf_page as keyed: 92-94; edition_page as keyed: 78-80)'
+rounding: results printed to whole seconds of arc; decimal intermediates printed to 5-6 significant figures (products as mantissa × power of ten, quotients in revolutions to 4-5 decimals); the page states the conversion (decimal part × 360, × 60, × 60) but not whether the seconds are rounded or truncated
+precision: seconds of arc
+datum_keys: [texts.suryasiddhanta.procedures.mean_longitude.rule]
+notes: 'Mean longitudes of the Sun, Moon, Moon''s mandocca and Rāhu at mean midnight at Ujjayanī on the stated date from the Kali ahargaṇa, as A × revolutions / civil days of a mahāyuga plus the epoch position (Rāhu''s motion subtracted, 360° added). The epoch and the bodies'' positions at it are the author''s stated assumption; the ahargaṇa is stated, not derived on these pages. Restatements of a result in the running text and repeated restatements of the civil days and ahargaṇa within a section are not keyed separately. Table 7.3''s Siddhāntaśiromaṇi column is not used by this computation and not keyed. Fixture pages: the first page recorded as the fixture''s page, the span in the locus.'
+values:
+- name: input.sun.epoch_position
+  role: input
+  value: [0, 0, 0]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 78
+  pdf_page: 92
+  locus: Table 7.3, row Ravi, column Sūryasiddhānta; sexagesimal [deg, min, sec] as printed, marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.moon.epoch_position
+  role: input
+  value: [0, 0, 0]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 78
+  pdf_page: 92
+  locus: Table 7.3, row Candra, column Sūryasiddhānta; sexagesimal [deg, min, sec] as printed, marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.moon_apogee.epoch_position
+  role: input
+  value: [90, 0, 0]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 78
+  pdf_page: 92
+  locus: Table 7.3, row Candra's mandocca, column Sūryasiddhānta; sexagesimal [deg, min, sec] as printed, marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: restated in §7.3 (iii) p. 79 ("the mandocca was ...") and in the sum on p. 80
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.moon_node.epoch_position
+  role: input
+  value: [180, 0, 0]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 78
+  pdf_page: 92
+  locus: Table 7.3, row Candra's pāta (Rāhu), column Sūryasiddhānta; sexagesimal [deg, min, sec] as printed, marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: restated p. 80 ("Rāhu was assumed to be at ...")
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.epoch_date
+  role: input
+  value: the midnight of 17/18 February 3102 BC
+  form: text
+  unit: none
+  script: latin
+  edition_page: 78
+  pdf_page: 92
+  locus: paragraph below Table 7.3, lines 2-3, from "the midnight of" to "BC"; Latin text
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: calendar not stated on the page; "BC" printed in small capitals
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-11-r11
+      on: 2026-10-11
+      dpi: 300
+      clip: [0, 345, 468, 690]
+      delivered_ppi: 300
+      max_edge: 2000
+      note: ''
+    matches: second_read
+- name: input.mahayuga_years
+  role: input
+  value: 4320000
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 78
+  pdf_page: 92
+  locus: paragraph after the mean-longitude formula, last line ("a Mahāyuga of ... years"); Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.sun.revolutions
+  role: input
+  value: 4320000
+  form: integer
+  unit: revolutions_per_mahayuga
+  script: latin
+  edition_page: 78
+  pdf_page: 92
+  locus: (i), first sentence ("the number of revolutions of the Sun are ..."); Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: restated in the display p. 79
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.civil_days
+  role: input
+  value: 1577917828
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 78
+  pdf_page: 92
+  locus: (i), first sentence ("the number of civil days are ..."); Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: restated in every section (i)-(iv) on pp. 79-80; not keyed again
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.date
+  role: input
+  value: March 22, 1991
+  form: text
+  unit: none
+  script: latin
+  edition_page: 79
+  pdf_page: 93
+  locus: p. 79 first line, the date after "Now, on"; Latin text
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: calendar not stated; restated in (ii)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.kali_ahargana
+  role: input
+  value: 1859872
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 79
+  pdf_page: 93
+  locus: p. 79 first line ("the elapsed Kali ahargaṇa = ..."); Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: restated in (i)-(iv)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.sun.product.mantissa
+  role: output
+  value: '8.03464'
+  form: fraction
+  unit: none
+  script: latin
+  edition_page: 79
+  pdf_page: 93
+  locus: (i) display, second line, the mantissa before "× …"; decimal string as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.sun.product.exponent
+  role: output
+  value: 12
+  form: integer
+  unit: power_of_ten
+  script: latin
+  edition_page: 79
+  pdf_page: 93
+  locus: (i) display, second line, the superscript exponent of …
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.sun.revolutions
+  role: output
+  value: 5091
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 79
+  pdf_page: 93
+  locus: (i) display, third line, the number before "rev."; completed revolutions; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: restated in the following sentence
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.sun.mean_longitude
+  role: output
+  value: [334, 46, 49]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 79
+  pdf_page: 93
+  locus: (i) display, third line, after "rev."; sexagesimal [deg, min, sec] as printed, marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: restated in the following sentence
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.moon.revolutions
+  role: input
+  value: 57753336
+  form: integer
+  unit: revolutions_per_mahayuga
+  script: latin
+  edition_page: 79
+  pdf_page: 93
+  locus: (ii) first sentence ("the number of revolutions of the Moon are ..."); Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.moon.product.mantissa
+  role: output
+  value: '1.07413'
+  form: fraction
+  unit: none
+  script: latin
+  edition_page: 79
+  pdf_page: 93
+  locus: (ii) display, second line, the mantissa before "×"; decimal string as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [120, 310, 400, 360]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [120, 310, 400, 360]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.moon.product.power
+  role: output
+  value: 1014
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 79
+  pdf_page: 93
+  locus: '(ii) display, second line, the factor after "×": printed on the line with no superscript (the other displays print … with a superscript exponent); keyed as the printed digit string'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [120, 310, 400, 360]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: reading this factor as a power of ten is inference, not keyed
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [120, 310, 400, 360]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.moon.revolutions
+  role: output
+  value: 68073
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 79
+  pdf_page: 93
+  locus: (ii) display, third line (split across the two half-page tiles; read from the clip), the number before "rev."; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [120, 310, 400, 360]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [120, 310, 400, 360]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.moon.mean_longitude
+  role: output
+  value: [48, 25, 9]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 79
+  pdf_page: 93
+  locus: (ii) display, third line, after "rev."; sexagesimal [deg, min, sec] as printed, marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [120, 310, 400, 360]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: restated in the following sentence
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [120, 310, 400, 360]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.moon_apogee.revolutions
+  role: input
+  value: 488203
+  form: integer
+  unit: revolutions_per_mahayuga
+  script: latin
+  edition_page: 79
+  pdf_page: 93
+  locus: (iii) first sentence ("the number of revolutions of the Moon's mandocca is ..."); Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: six digits printed with the grouping 2,2,2 (unlike the 2,2,3 Indian grouping elsewhere); keyed as the digits printed; restated identically in the display
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.moon_apogee.product.mantissa
+  role: output
+  value: '9.07995'
+  form: fraction
+  unit: none
+  script: latin
+  edition_page: 79
+  pdf_page: 93
+  locus: (iii) display, second line, mantissa; decimal string as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.moon_apogee.product.exponent
+  role: output
+  value: 11
+  form: integer
+  unit: power_of_ten
+  script: latin
+  edition_page: 79
+  pdf_page: 93
+  locus: (iii) display, second line, superscript exponent of …
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.moon_apogee.motion_rev
+  role: output
+  value: '575.43878'
+  form: fraction
+  unit: revolutions
+  script: latin
+  edition_page: 79
+  pdf_page: 93
+  locus: (iii) display, third line, the decimal before "rev."
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.moon_apogee.revolutions
+  role: output
+  value: 575
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 79
+  pdf_page: 93
+  locus: (iii) display, fourth line, the integer before "rev."
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.moon_apogee.motion
+  role: output
+  value: [157, 57, 22]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 79
+  pdf_page: 93
+  locus: (iii) display, fourth line, after "rev."; sexagesimal [deg, min, sec] as printed, marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: restated p. 80 first paragraph and in the sum
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.moon_apogee.mean_longitude
+  role: output
+  value: [247, 57, 22]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 80
+  pdf_page: 94
+  locus: p. 80, … display, the result after the … "="; sexagesimal [deg, min, sec] as printed, marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.moon_node.revolutions
+  role: input
+  value: 232238
+  form: integer
+  unit: revolutions_per_mahayuga
+  script: latin
+  edition_page: 80
+  pdf_page: 94
+  locus: (iv) first sentence ("in a Mahāyuga is ..."); Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: restated in the display
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.moon_node.product.mantissa
+  role: output
+  value: '4.31932'
+  form: fraction
+  unit: none
+  script: latin
+  edition_page: 80
+  pdf_page: 94
+  locus: (iv) display, second line, mantissa
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.moon_node.product.exponent
+  role: output
+  value: 11
+  form: integer
+  unit: power_of_ten
+  script: latin
+  edition_page: 80
+  pdf_page: 94
+  locus: (iv) display, second line, superscript exponent of …
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.moon_node.motion_rev
+  role: output
+  value: '273.7603'
+  form: fraction
+  unit: revolutions
+  script: latin
+  edition_page: 80
+  pdf_page: 94
+  locus: (iv) display, third line, the decimal before "rev."
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.moon_node.revolutions
+  role: output
+  value: 273
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 80
+  pdf_page: 94
+  locus: (iv) display, fourth line, the integer before "rev."
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.moon_node.motion
+  role: output
+  value: [264, 58, 8]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 80
+  pdf_page: 94
+  locus: (iv) display, fourth line, after "rev."; sexagesimal [deg, min, sec] as printed, marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: restated in the following sentence and in the subtraction
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.moon_node.mean_longitude
+  role: output
+  value: [275, 1, 52]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 80
+  pdf_page: 94
+  locus: '"Mean longitude of Rāhu = …° − (...)", the result on the second line; sexagesimal [deg, min, sec] as printed, marks to unit'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: minutes printed with a leading zero; the text adds 360° "to avoid the negative value"
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.ketu.mean_longitude
+  role: output
+  value: [95, 1, 52]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 80
+  pdf_page: 94
+  locus: '"Mean longitude of Ketu = ..."; sexagesimal [deg, min, sec] as printed, marks to unit'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_mean_sun_moon_apogee_node.yaml (sha256 2b38e084)
+  status: double_read
+  notes: minutes printed with a leading zero
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''

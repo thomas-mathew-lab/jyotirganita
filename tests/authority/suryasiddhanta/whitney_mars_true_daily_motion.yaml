@@ -1,0 +1,1255 @@
+id: authority/suryasiddhanta/whitney_mars_true_daily_motion
+methods: [suryasiddhanta]
+class: editor_computed
+source: suryasiddhanta_burgess_1860
+edition_page: 225
+pdf_page: 86
+locus: 'Whitney''s note to ii. 50-51, printed p. 225: (1) the paragraphs from ''In illustration of the rule'' to the line ''Mars''s true daily motion at the given time'' and its figure; (2) the table ''Results of the Processes for finding the True Daily Motion of the Planets'' at the foot of the same page, every cell. The paragraph between them (''In this calculation we have followed the rule stated in the text ...'') is outside the extent and not keyed.'
+rounding: not stated
+precision: seconds of arc
+datum_keys: [texts.suryasiddhanta.procedures.gati.rule.ii48.suryasiddhanta_burgess_1860]
+notes: 'Mars''s true daily motion at the same time as the previous examples: the equation of motion for the apsis applied to the mean daily motion gives the equated daily motion; the sun''s daily motion less that gives the equated synodical motion; the proportion hypothenuse: its excess above radius:: equated synodical motion: equation of the conjunction, additive since the hypothenuse exceeds radius; added to the equated motion it gives the true motion. The table gives the same quantities for the five planets. Table headings as printed: ''Planet.'', ''Diff. of sines.'' (unit mark ''), ''Equation of Apsis.'' ('' ''''), ''Equated Motion.'' ('' ''''), ''Equated Synod.Motion.'' ('' ''''), ''Equation of Conjunction.'' ('' ''''), ''True Motion.'' ('' ''''). The Planet column is the row label (Mercury, Venus, Mars, Jupiter, Saturn, each printed with a comma) and is not keyed as a value. Signs printed before the minutes are keyed as negative: true (minus) or false (plus). Verse citation (i. 34) and the ordinal ''third process'' not keyed. Errata (suryasiddhanta_burgess_1860_reprint PDF 364) checked: no entry on this page. Restated figures keyed once within the paragraph part; the table is keyed in full although its Mars row repeats the paragraph''s figures. First read lat-b, fixture file sha256 bc1bf93a.'
+values:
+- name: input.mars.equation_of_apsis
+  role: input
+  value: [3, 41]
+  form: sexagesimal
+  unit: minutes_seconds
+  negative: true
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: sentence 'the equation of Mars's daily motion for the effect of the apsis ... is found to be', line … of the … paragraph; restated in the subtraction line 'deduct the equation for the apsis,'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 120, 209, 222]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r2c1_clip40-30.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 30, 370, 128]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p86_600dpi_r1c2_clip40-30.png
+  status: double_read
+  notes: 'printed with a minus sign before the minutes in the sentence; the restatement in the subtraction carries no sign. locus as first keyed: sentence ''the equation of Mars''s daily motion for the effect of the apsis ... is found to be'', line 3 of the second paragraph; restated in the subtraction line ''deduct the equation for the apsis,'''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 120, 209, 222]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.mars.difference_of_tabular_sines
+  role: input
+  value: 131
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: same sentence, after 'the difference of tabular sines being'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 120, 209, 222]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r2c1_clip40-30.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 120, 370, 222]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p86_600dpi_r2c2_clip40-30.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 120, 370, 222]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.mars.mean_daily_motion
+  role: input
+  value: [31, 26]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: line 'from the mean daily motion of Mars (i. …),' right column
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 120, 370, 222]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r2c2_clip40-30.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 120, 209, 222]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p86_600dpi_r2c1_clip40-30.png
+  status: double_read
+  notes: '31 and 26 in old-style figures. locus as first keyed: line ''from the mean daily motion of Mars (i. 34),'' right column'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 120, 370, 222]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mars.equated_daily_motion
+  role: output
+  value: [27, 45]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: line 'Mars's equated daily motion,' below the rule; restated in 'deduct his equated daily motion,' and 'to Mars's equated daily motion,'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 120, 370, 222]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r2c2_clip40-30.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 120, 209, 222]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p86_600dpi_r2c1_clip40-30.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 280, 370, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p86_600dpi_r1c2_clip40-280.png
+  status: double_read
+  notes: printed without accent marks at first; restated twice (the last time with accent marks), keyed once.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 120, 370, 222]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.sun.daily_motion
+  role: input
+  value: [59, 8]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: line 'from the daily motion of Mars's conjunction (the sun),' right column
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 120, 370, 222]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r2c2_clip40-30.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 120, 209, 222]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p86_600dpi_r2c1_clip40-30.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 120, 370, 222]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mars.equated_synodical_motion
+  role: output
+  value: [31, 23]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: line 'Mars's equated daily synodical motion,' below the rule; restated as the third term of the proportion
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 214, 370, 312]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r3c2_clip40-30.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 214, 209, 312]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p86_600dpi_r3c1_clip40-30.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 214, 370, 312]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.mars.variable_hypothenuse
+  role: input
+  value: 3984
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: sentence 'The variable hypothenuse used in the last process for finding the true place was'; restated as the first term of the proportion
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 214, 209, 312]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r3c1_clip40-30.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 214, 370, 312]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p86_600dpi_r3c2_clip40-30.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 214, 209, 312]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.mars.hypothenuse_excess_over_radius
+  role: input
+  value: 546
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: same sentence, after 'its excess above radius is'; restated as the second term of the proportion
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 214, 370, 312]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r3c2_clip40-30.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 214, 209, 312]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p86_600dpi_r3c1_clip40-30.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 214, 370, 312]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mars.equation_of_conjunction
+  role: output
+  value: [4, 18]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: proportion after 'The proportion', fourth term; restated after 'the equation of motion due to the conjunction at the given time is' and in the line 'add the equation for the conjunction,'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 214, 370, 312]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r3c2_clip40-30.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 214, 209, 312]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p86_600dpi_r3c1_clip40-30.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 280, 370, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p86_600dpi_r1c2_clip40-280.png
+  status: double_read
+  notes: additive ('the equation is additive'); restated twice, keyed once.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 214, 370, 312]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mars.true_daily_motion
+  role: output
+  value: [32, 3]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: line 'Mars's true daily motion at the given time,' below the rule
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 318, 370, 345]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r1c2_clip40-318.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 318, 209, 345]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p86_600dpi_r1c1_clip40-318.png
+  status: double_read
+  notes: printed without accent marks.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 318, 370, 345]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.mercury.diff_of_sines
+  role: output
+  value: 205
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: table 'Results of the Processes for finding the True Daily Motion of the Planets', row 'Mercury,', column 'Diff. of sines.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [50, 462, 198, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r1c1_clip50-462.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [50, 462, 198, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.mercury.equation_of_apsis
+  role: output
+  value: [4, 21]
+  form: sexagesimal
+  unit: minutes_seconds
+  negative: true
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: table 'Results of the Processes for finding the True Daily Motion of the Planets', row 'Mercury,', column 'Equation of Apsis.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [50, 462, 198, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r1c1_clip50-462.png
+  status: double_read
+  notes: printed with a minus sign before the minutes.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [50, 462, 198, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.mercury.equated_motion
+  role: output
+  value: [54, 47]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: table 'Results of the Processes for finding the True Daily Motion of the Planets', row 'Mercury,', column 'Equated Motion.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [165, 462, 235, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_clip165-462.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [50, 462, 198, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p86_600dpi_r1c1_clip50-462.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p86_600dpi_r1c2_clip50-462.png
+  status: double_read
+  notes: unsigned.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [165, 462, 235, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.mercury.equated_synod_motion
+  role: output
+  value: [190, 45]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: table 'Results of the Processes for finding the True Daily Motion of the Planets', row 'Mercury,', column 'Equated Synod.Motion.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r1c2_clip50-462.png
+  status: double_read
+  notes: unsigned.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.mercury.equation_of_conjunction
+  role: output
+  value: [25, 45]
+  form: sexagesimal
+  unit: minutes_seconds
+  negative: true
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: table 'Results of the Processes for finding the True Daily Motion of the Planets', row 'Mercury,', column 'Equation of Conjunction.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r1c2_clip50-462.png
+  status: double_read
+  notes: printed with a minus sign before the minutes.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.mercury.true_motion
+  role: output
+  value: [29, 2]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: table 'Results of the Processes for finding the True Daily Motion of the Planets', row 'Mercury,', column 'True Motion.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r1c2_clip50-462.png
+  status: double_read
+  notes: printed with a plus sign before the minutes.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.venus.diff_of_sines
+  role: output
+  value: 219
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: table 'Results of the Processes for finding the True Daily Motion of the Planets', row 'Venus,', column 'Diff. of sines.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [50, 462, 198, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r1c1_clip50-462.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [50, 462, 198, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.venus.equation_of_apsis
+  role: output
+  value: [1, 53]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: table 'Results of the Processes for finding the True Daily Motion of the Planets', row 'Venus,', column 'Equation of Apsis.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [50, 462, 198, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r1c1_clip50-462.png
+  status: double_read
+  notes: printed with a plus sign before the minutes.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [50, 462, 198, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.venus.equated_motion
+  role: output
+  value: [61, 1]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: table 'Results of the Processes for finding the True Daily Motion of the Planets', row 'Venus,', column 'Equated Motion.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [165, 462, 235, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_clip165-462.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [50, 462, 198, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p86_600dpi_r1c1_clip50-462.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p86_600dpi_r1c2_clip50-462.png
+  status: double_read
+  notes: unsigned.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [165, 462, 235, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.venus.equated_synod_motion
+  role: output
+  value: [35, 7]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: table 'Results of the Processes for finding the True Daily Motion of the Planets', row 'Venus,', column 'Equated Synod.Motion.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r1c2_clip50-462.png
+  status: double_read
+  notes: unsigned.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.venus.equation_of_conjunction
+  role: output
+  value: [11, 17]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: table 'Results of the Processes for finding the True Daily Motion of the Planets', row 'Venus,', column 'Equation of Conjunction.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r1c2_clip50-462.png
+  status: double_read
+  notes: printed with a plus sign before the minutes.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.venus.true_motion
+  role: output
+  value: [72, 18]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: table 'Results of the Processes for finding the True Daily Motion of the Planets', row 'Venus,', column 'True Motion.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r1c2_clip50-462.png
+  status: double_read
+  notes: printed with a plus sign before the minutes.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.mars.diff_of_sines
+  role: output
+  value: 131
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: table 'Results of the Processes for finding the True Daily Motion of the Planets', row 'Mars,', column 'Diff. of sines.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [50, 462, 198, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r1c1_clip50-462.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [50, 462, 198, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.mars.equation_of_apsis
+  role: output
+  value: [3, 41]
+  form: sexagesimal
+  unit: minutes_seconds
+  negative: true
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: table 'Results of the Processes for finding the True Daily Motion of the Planets', row 'Mars,', column 'Equation of Apsis.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [50, 462, 198, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r1c1_clip50-462.png
+  status: double_read
+  notes: printed with a minus sign before the minutes.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [50, 462, 198, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.mars.equated_motion
+  role: output
+  value: [27, 45]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: table 'Results of the Processes for finding the True Daily Motion of the Planets', row 'Mars,', column 'Equated Motion.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [165, 462, 235, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_clip165-462.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [50, 462, 198, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p86_600dpi_r1c1_clip50-462.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p86_600dpi_r1c2_clip50-462.png
+  status: double_read
+  notes: unsigned.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [165, 462, 235, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.mars.equated_synod_motion
+  role: output
+  value: [31, 23]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: table 'Results of the Processes for finding the True Daily Motion of the Planets', row 'Mars,', column 'Equated Synod.Motion.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r1c2_clip50-462.png
+  status: double_read
+  notes: unsigned.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.mars.equation_of_conjunction
+  role: output
+  value: [4, 18]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: table 'Results of the Processes for finding the True Daily Motion of the Planets', row 'Mars,', column 'Equation of Conjunction.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r1c2_clip50-462.png
+  status: double_read
+  notes: printed with a plus sign before the minutes.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.mars.true_motion
+  role: output
+  value: [32, 3]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: table 'Results of the Processes for finding the True Daily Motion of the Planets', row 'Mars,', column 'True Motion.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r1c2_clip50-462.png
+  status: double_read
+  notes: printed with a plus sign before the minutes.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.jupiter.diff_of_sines
+  role: output
+  value: 37
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: table 'Results of the Processes for finding the True Daily Motion of the Planets', row 'Jupiter,', column 'Diff. of sines.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [50, 462, 198, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r1c1_clip50-462.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [50, 462, 198, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.jupiter.equation_of_apsis
+  role: output
+  value: [0, 4]
+  form: sexagesimal
+  unit: minutes_seconds
+  negative: true
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: table 'Results of the Processes for finding the True Daily Motion of the Planets', row 'Jupiter,', column 'Equation of Apsis.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [50, 462, 198, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r1c1_clip50-462.png
+  status: double_read
+  notes: printed with a minus sign before the minutes; zero minutes printed as 0.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [50, 462, 198, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.jupiter.equated_motion
+  role: output
+  value: [4, 55]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: table 'Results of the Processes for finding the True Daily Motion of the Planets', row 'Jupiter,', column 'Equated Motion.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [165, 462, 235, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_clip165-462.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [50, 462, 198, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p86_600dpi_r1c1_clip50-462.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p86_600dpi_r1c2_clip50-462.png
+  status: double_read
+  notes: unsigned.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [165, 462, 235, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.jupiter.equated_synod_motion
+  role: output
+  value: [54, 13]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: table 'Results of the Processes for finding the True Daily Motion of the Planets', row 'Jupiter,', column 'Equated Synod.Motion.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r1c2_clip50-462.png
+  status: double_read
+  notes: unsigned.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.jupiter.equation_of_conjunction
+  role: output
+  value: [12, 41]
+  form: sexagesimal
+  unit: minutes_seconds
+  negative: true
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: table 'Results of the Processes for finding the True Daily Motion of the Planets', row 'Jupiter,', column 'Equation of Conjunction.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r1c2_clip50-462.png
+  status: double_read
+  notes: printed with a minus sign before the minutes.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.jupiter.true_motion
+  role: output
+  value: [7, 46]
+  form: sexagesimal
+  unit: minutes_seconds
+  negative: true
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: table 'Results of the Processes for finding the True Daily Motion of the Planets', row 'Jupiter,', column 'True Motion.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r1c2_clip50-462.png
+  status: double_read
+  notes: printed with a minus sign before the minutes.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.saturn.diff_of_sines
+  role: output
+  value: 119
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: table 'Results of the Processes for finding the True Daily Motion of the Planets', row 'Saturn,', column 'Diff. of sines.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [50, 462, 198, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r1c1_clip50-462.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [50, 462, 198, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.saturn.equation_of_apsis
+  role: output
+  value: [0, 8]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: table 'Results of the Processes for finding the True Daily Motion of the Planets', row 'Saturn,', column 'Equation of Apsis.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [50, 462, 198, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r1c1_clip50-462.png
+  status: double_read
+  notes: printed with a plus sign before the minutes; zero minutes printed as 0.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [50, 462, 198, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.saturn.equated_motion
+  role: output
+  value: [2, 8]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: table 'Results of the Processes for finding the True Daily Motion of the Planets', row 'Saturn,', column 'Equated Motion.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [165, 462, 235, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_clip165-462.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [50, 462, 198, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p86_600dpi_r1c1_clip50-462.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p86_600dpi_r1c2_clip50-462.png
+  status: double_read
+  notes: unsigned.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [165, 462, 235, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.saturn.equated_synod_motion
+  role: output
+  value: [57, 0]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: table 'Results of the Processes for finding the True Daily Motion of the Planets', row 'Saturn,', column 'Equated Synod.Motion.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r1c2_clip50-462.png
+  status: double_read
+  notes: unsigned.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.saturn.equation_of_conjunction
+  role: output
+  value: [5, 11]
+  form: sexagesimal
+  unit: minutes_seconds
+  negative: true
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: table 'Results of the Processes for finding the True Daily Motion of the Planets', row 'Saturn,', column 'Equation of Conjunction.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r1c2_clip50-462.png
+  status: double_read
+  notes: printed with a minus sign before the minutes.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.saturn.true_motion
+  role: output
+  value: [3, 3]
+  form: sexagesimal
+  unit: minutes_seconds
+  negative: true
+  script: latin
+  edition_page: 225
+  pdf_page: 86
+  locus: table 'Results of the Processes for finding the True Daily Motion of the Planets', row 'Saturn,', column 'True Motion.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bc1bf93a); suryasiddhanta_burgess_1860_p86_600dpi_r1c2_clip50-462.png
+  status: double_read
+  notes: printed with a minus sign before the minutes.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [190, 462, 338, 556]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

@@ -1,0 +1,876 @@
+id: authority/suryasiddhanta/whitney_yuga_days
+methods: [suryasiddhanta]
+class: editor_computed
+source: suryasiddhanta_burgess_1860
+edition_page: 169
+pdf_page: 30
+locus: 'note under i.34-40: p. 169 (PDF 30) from "The data here given are combinations of, and deductions from, those contained in the preceding passage (vv. …-…)." through the tabular computation "In … years. | In … years." ("Sidereal days," ... "Intercalary months,") continued on p. 170 (PDF 31) top ("Lunar months," ... "Omitted lunar days,")'
+rounding: integers
+precision: integers
+datum_keys: []
+notes: 'Whitney''s tabular restatement of the Age''s day and month counts (vv. 34-40): civil days = sidereal days - solar revolutions; solar months = years x 12; synodic months = moon''s sidereal revolutions - solar revolutions; intercalary months = synodic - solar months; lunar days = lunar months x 30; omitted lunar days = lunar days - civil days. Two columns, keyed one value per cell, named output|input.<row>.<column> with column age_4320000 ("In 4,320,000 years.") or part_1080000 ("In 1,080,000 years."). The computation begins on PDF 30 (it does not start earlier); the verse figures of vv. 37-39 in words on PDF 30 are the translation, not keyed here.'
+values:
+- name: input.sidereal_days.age_4320000
+  role: input
+  value: 1582237828
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 169
+  pdf_page: 30
+  locus: line "Sidereal days,", column "In … years."; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 400, 375, 505.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,400,375,605] 2x2 --overlap 6 (row labels on tile r1c1); first-read fixture file k7/fixtures/whitney_yuga_days.yaml (sha256 01f01e54)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 400, 375, 505.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.sidereal_days.part_1080000
+  role: input
+  value: 395559457
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 169
+  pdf_page: 30
+  locus: line "Sidereal days,", column "In … years."; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 400, 375, 505.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,400,375,605] 2x2 --overlap 6 (row labels on tile r1c1); first-read fixture file k7/fixtures/whitney_yuga_days.yaml (sha256 01f01e54)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 400, 375, 505.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.deduct_solar_revolutions.age_4320000
+  role: input
+  value: 4320000
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 169
+  pdf_page: 30
+  locus: line "deduct solar revolutions,", column "In … years."; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 400, 375, 505.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,400,375,605] 2x2 --overlap 6 (row labels on tile r1c1); first-read fixture file k7/fixtures/whitney_yuga_days.yaml (sha256 01f01e54)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 400, 375, 505.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.deduct_solar_revolutions.part_1080000
+  role: input
+  value: 1080000
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 169
+  pdf_page: 30
+  locus: line "deduct solar revolutions,", column "In … years."; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 400, 375, 505.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,400,375,605] 2x2 --overlap 6 (row labels on tile r1c1); first-read fixture file k7/fixtures/whitney_yuga_days.yaml (sha256 01f01e54)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 400, 375, 505.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.civil_days.age_4320000
+  role: output
+  value: 1577917828
+  form: integer
+  unit: civil_days
+  script: latin
+  edition_page: 169
+  pdf_page: 30
+  locus: line "Natural, or civil days,", column "In … years."; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 400, 375, 505.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,400,375,605] 2x2 --overlap 6 (row labels on tile r1c1); first-read fixture file k7/fixtures/whitney_yuga_days.yaml (sha256 01f01e54)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 400, 375, 505.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.civil_days.part_1080000
+  role: output
+  value: 394479457
+  form: integer
+  unit: civil_days
+  script: latin
+  edition_page: 169
+  pdf_page: 30
+  locus: line "Natural, or civil days,", column "In … years."; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 400, 375, 505.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,400,375,605] 2x2 --overlap 6 (row labels on tile r1c1); first-read fixture file k7/fixtures/whitney_yuga_days.yaml (sha256 01f01e54)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 400, 375, 505.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.sidereal_solar_years.age_4320000
+  role: input
+  value: 4320000
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 169
+  pdf_page: 30
+  locus: line "Sidereal solar years,", column "In … years."; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 400, 375, 505.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,400,375,605] 2x2 --overlap 6 (row labels on tile r1c1); first-read fixture file k7/fixtures/whitney_yuga_days.yaml (sha256 01f01e54)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 400, 375, 505.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.sidereal_solar_years.part_1080000
+  role: input
+  value: 1080000
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 169
+  pdf_page: 30
+  locus: line "Sidereal solar years,", column "In … years."; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 400, 375, 505.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,400,375,605] 2x2 --overlap 6 (row labels on tile r1c1); first-read fixture file k7/fixtures/whitney_yuga_days.yaml (sha256 01f01e54)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 400, 375, 505.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.solar_months_per_year.age_4320000
+  role: input
+  value: 12
+  form: integer
+  unit: months
+  script: latin
+  edition_page: 169
+  pdf_page: 30
+  locus: line "multiply by no. of solar months in a year,", column "In … years."; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 400, 375, 505.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,400,375,605] 2x2 --overlap 6 (row labels on tile r1c1); first-read fixture file k7/fixtures/whitney_yuga_days.yaml (sha256 01f01e54)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 400, 375, 505.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.solar_months_per_year.part_1080000
+  role: input
+  value: 12
+  form: integer
+  unit: months
+  script: latin
+  edition_page: 169
+  pdf_page: 30
+  locus: line "multiply by no. of solar months in a year,", column "In … years."; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 400, 375, 505.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,400,375,605] 2x2 --overlap 6 (row labels on tile r1c1); first-read fixture file k7/fixtures/whitney_yuga_days.yaml (sha256 01f01e54)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 400, 375, 505.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.solar_months.age_4320000
+  role: output
+  value: 51840000
+  form: integer
+  unit: solar_months
+  script: latin
+  edition_page: 169
+  pdf_page: 30
+  locus: line "Solar months,", column "In … years."; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 400, 375, 505.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,400,375,605] 2x2 --overlap 6 (row labels on tile r1c1); first-read fixture file k7/fixtures/whitney_yuga_days.yaml (sha256 01f01e54)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 400, 375, 505.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.solar_months.part_1080000
+  role: output
+  value: 12960000
+  form: integer
+  unit: solar_months
+  script: latin
+  edition_page: 169
+  pdf_page: 30
+  locus: line "Solar months,", column "In … years."; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 400, 375, 505.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,400,375,605] 2x2 --overlap 6 (row labels on tile r1c1); first-read fixture file k7/fixtures/whitney_yuga_days.yaml (sha256 01f01e54)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 400, 375, 505.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.moon_sidereal_revolutions.age_4320000
+  role: input
+  value: 57753336
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 169
+  pdf_page: 30
+  locus: line "Moon's sidereal revolutions,", column "In … years."; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 400, 375, 505.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,400,375,605] 2x2 --overlap 6 (row labels on tile r1c1); first-read fixture file k7/fixtures/whitney_yuga_days.yaml (sha256 01f01e54)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 400, 375, 505.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.moon_sidereal_revolutions.part_1080000
+  role: input
+  value: 14438334
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 169
+  pdf_page: 30
+  locus: line "Moon's sidereal revolutions,", column "In … years."; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 400, 375, 505.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,400,375,605] 2x2 --overlap 6 (row labels on tile r1c1); first-read fixture file k7/fixtures/whitney_yuga_days.yaml (sha256 01f01e54)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 400, 375, 505.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.deduct_solar_revolutions_2.age_4320000
+  role: input
+  value: 4320000
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 169
+  pdf_page: 30
+  locus: line "deduct solar revolutions, (…)", column "In … years."; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 499.5, 375, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c2 of clip [30,400,375,605] 2x2 --overlap 6 (row labels on tile r2c1); first-read fixture file k7/fixtures/whitney_yuga_days.yaml (sha256 01f01e54)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 499.5, 375, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.deduct_solar_revolutions_2.part_1080000
+  role: input
+  value: 1080000
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 169
+  pdf_page: 30
+  locus: line "deduct solar revolutions, (…)", column "In … years."; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 499.5, 375, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c2 of clip [30,400,375,605] 2x2 --overlap 6 (row labels on tile r2c1); first-read fixture file k7/fixtures/whitney_yuga_days.yaml (sha256 01f01e54)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 499.5, 375, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.synodic_months.age_4320000
+  role: output
+  value: 53433336
+  form: integer
+  unit: lunar_months
+  script: latin
+  edition_page: 169
+  pdf_page: 30
+  locus: line "Synodical revolutions, lunar months,", column "In … years."; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 499.5, 375, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c2 of clip [30,400,375,605] 2x2 --overlap 6 (row labels on tile r2c1); first-read fixture file k7/fixtures/whitney_yuga_days.yaml (sha256 01f01e54)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 499.5, 375, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.synodic_months.part_1080000
+  role: output
+  value: 13358334
+  form: integer
+  unit: lunar_months
+  script: latin
+  edition_page: 169
+  pdf_page: 30
+  locus: line "Synodical revolutions, lunar months,", column "In … years."; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 499.5, 375, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c2 of clip [30,400,375,605] 2x2 --overlap 6 (row labels on tile r2c1); first-read fixture file k7/fixtures/whitney_yuga_days.yaml (sha256 01f01e54)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 499.5, 375, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.deduct_solar_months.age_4320000
+  role: input
+  value: 51840000
+  form: integer
+  unit: solar_months
+  script: latin
+  edition_page: 169
+  pdf_page: 30
+  locus: line "deduct solar months,", column "In … years."; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 499.5, 375, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c2 of clip [30,400,375,605] 2x2 --overlap 6 (row labels on tile r2c1); first-read fixture file k7/fixtures/whitney_yuga_days.yaml (sha256 01f01e54)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 499.5, 375, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.deduct_solar_months.part_1080000
+  role: input
+  value: 12960000
+  form: integer
+  unit: solar_months
+  script: latin
+  edition_page: 169
+  pdf_page: 30
+  locus: line "deduct solar months,", column "In … years."; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 499.5, 375, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c2 of clip [30,400,375,605] 2x2 --overlap 6 (row labels on tile r2c1); first-read fixture file k7/fixtures/whitney_yuga_days.yaml (sha256 01f01e54)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 499.5, 375, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.intercalary_months.age_4320000
+  role: output
+  value: 1593336
+  form: integer
+  unit: months
+  script: latin
+  edition_page: 169
+  pdf_page: 30
+  locus: line "Intercalary months,", column "In … years."; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 499.5, 375, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c2 of clip [30,400,375,605] 2x2 --overlap 6 (row labels on tile r2c1); first-read fixture file k7/fixtures/whitney_yuga_days.yaml (sha256 01f01e54)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 499.5, 375, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.intercalary_months.part_1080000
+  role: output
+  value: 398334
+  form: integer
+  unit: months
+  script: latin
+  edition_page: 169
+  pdf_page: 30
+  locus: line "Intercalary months,", column "In … years."; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 499.5, 375, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c2 of clip [30,400,375,605] 2x2 --overlap 6 (row labels on tile r2c1); first-read fixture file k7/fixtures/whitney_yuga_days.yaml (sha256 01f01e54)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 499.5, 375, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.lunar_months.age_4320000
+  role: input
+  value: 53433336
+  form: integer
+  unit: lunar_months
+  script: latin
+  edition_page: 170
+  pdf_page: 31
+  locus: line "Lunar months, (p. …)", column "In … years."; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 25, 375, 140]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,25,375,140] 2x1 --overlap 6 (row labels on tile r1c1); first-read fixture file k7/fixtures/whitney_yuga_days.yaml (sha256 01f01e54)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 25, 375, 140]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.lunar_months.part_1080000
+  role: input
+  value: 13358334
+  form: integer
+  unit: lunar_months
+  script: latin
+  edition_page: 170
+  pdf_page: 31
+  locus: line "Lunar months, (p. …)", column "In … years."; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 25, 375, 140]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,25,375,140] 2x1 --overlap 6 (row labels on tile r1c1); first-read fixture file k7/fixtures/whitney_yuga_days.yaml (sha256 01f01e54)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 25, 375, 140]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.lunar_days_per_month.age_4320000
+  role: input
+  value: 30
+  form: integer
+  unit: lunar_days
+  script: latin
+  edition_page: 170
+  pdf_page: 31
+  locus: line "multiply by no. of lunar days in a month,", column "In … years."; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 25, 375, 140]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,25,375,140] 2x1 --overlap 6 (row labels on tile r1c1); first-read fixture file k7/fixtures/whitney_yuga_days.yaml (sha256 01f01e54)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 25, 375, 140]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.lunar_days_per_month.part_1080000
+  role: input
+  value: 30
+  form: integer
+  unit: lunar_days
+  script: latin
+  edition_page: 170
+  pdf_page: 31
+  locus: line "multiply by no. of lunar days in a month,", column "In … years."; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 25, 375, 140]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,25,375,140] 2x1 --overlap 6 (row labels on tile r1c1); first-read fixture file k7/fixtures/whitney_yuga_days.yaml (sha256 01f01e54)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 25, 375, 140]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.lunar_days.age_4320000
+  role: output
+  value: 1603000080
+  form: integer
+  unit: lunar_days
+  script: latin
+  edition_page: 170
+  pdf_page: 31
+  locus: line "Lunar days,", column "In … years."; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 25, 375, 140]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,25,375,140] 2x1 --overlap 6 (row labels on tile r1c1); first-read fixture file k7/fixtures/whitney_yuga_days.yaml (sha256 01f01e54)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 25, 375, 140]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.lunar_days.part_1080000
+  role: output
+  value: 400750020
+  form: integer
+  unit: lunar_days
+  script: latin
+  edition_page: 170
+  pdf_page: 31
+  locus: line "Lunar days,", column "In … years."; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 25, 375, 140]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,25,375,140] 2x1 --overlap 6 (row labels on tile r1c1); first-read fixture file k7/fixtures/whitney_yuga_days.yaml (sha256 01f01e54)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 25, 375, 140]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.deduct_civil_days.age_4320000
+  role: input
+  value: 1577917828
+  form: integer
+  unit: civil_days
+  script: latin
+  edition_page: 170
+  pdf_page: 31
+  locus: line "deduct civil days,", column "In … years."; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 25, 375, 140]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,25,375,140] 2x1 --overlap 6 (row labels on tile r1c1); first-read fixture file k7/fixtures/whitney_yuga_days.yaml (sha256 01f01e54)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 25, 375, 140]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.deduct_civil_days.part_1080000
+  role: input
+  value: 394479457
+  form: integer
+  unit: civil_days
+  script: latin
+  edition_page: 170
+  pdf_page: 31
+  locus: line "deduct civil days,", column "In … years."; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 25, 375, 140]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,25,375,140] 2x1 --overlap 6 (row labels on tile r1c1); first-read fixture file k7/fixtures/whitney_yuga_days.yaml (sha256 01f01e54)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 25, 375, 140]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.omitted_lunar_days.age_4320000
+  role: output
+  value: 25082252
+  form: integer
+  unit: lunar_days
+  script: latin
+  edition_page: 170
+  pdf_page: 31
+  locus: line "Omitted lunar days,", column "In … years."; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 25, 375, 140]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,25,375,140] 2x1 --overlap 6 (row labels on tile r1c1); first-read fixture file k7/fixtures/whitney_yuga_days.yaml (sha256 01f01e54)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 25, 375, 140]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.omitted_lunar_days.part_1080000
+  role: output
+  value: 6270563
+  form: integer
+  unit: lunar_days
+  script: latin
+  edition_page: 170
+  pdf_page: 31
+  locus: line "Omitted lunar days,", column "In … years."; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 25, 375, 140]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,25,375,140] 2x1 --overlap 6 (row labels on tile r1c1); first-read fixture file k7/fixtures/whitney_yuga_days.yaml (sha256 01f01e54)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 25, 375, 140]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

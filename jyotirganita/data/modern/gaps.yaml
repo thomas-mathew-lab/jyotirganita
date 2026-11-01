@@ -1,0 +1,37 @@
+- key: modern.kernel.de440.tidal_acceleration
+  status: gap
+  reason: the lunar tidal acceleration of DE440 is stated in Park et al. 2021 (AJ 161, 105), which is not held and is not on the closed fetch list
+  searched: library catalogue (siddhanta/catalog); indian_astronomical_ephemeris explanation; stephenson_2016; the kernel file's SPK comment area; the JPL host's text for the kernel
+  effect: no tidal correction is composed with a ΔT model under DE440; the presets name the ΔT model's own tidal value only
+- key: modern.kernel.de441.tidal_acceleration
+  status: gap
+  reason: the lunar tidal acceleration of DE441 is stated in Park et al. 2021 (AJ 161, 105), which is not held and is not on the closed fetch list
+  searched: as modern.kernel.de440.tidal_acceleration
+  effect: as modern.kernel.de440.tidal_acceleration, for the antiquity preset
+- key: modern.hipparcos.spica.radial_velocity
+  status: gap
+  reason: the Hipparcos catalogue (I/239) carries no radial velocity
+  searched: the fetched row HIP 65474 and the catalogue ReadMe; no second catalogue is on the closed fetch list
+  effect: Spica's space motion is propagated with zero radial velocity
+  source: hipparcos
+- key: modern.ayanamsa.iae_lahiri.range
+  status: gap
+  reason: the IAE 2022 states no interval of validity for its ayanāṃśa polynomial
+  searched: indian_astronomical_ephemeris 2022 PDF 385–388 (the Indian Calendar note and the AYANAMSA paragraph), PDF 428 (the table and its foot), PDF 447–449 (the explanation of precession)
+  effect: 'range: unstated (a recorded absence); no range check on iae_lahiri'
+  source: indian_astronomical_ephemeris
+- key: modern.deltat.sm1984
+  status: gap
+  reason: Stephenson and Morrison 1984 is not held
+  searched: sources.yaml stephenson_morrison_1984; the library catalogue
+  effect: the 1984 ΔT model is not built
+- key: modern.nutation.iau2000b.series
+  status: gap
+  reason: the only published table of IAU 2000B is McCarthy and Luzum 2003 (CeMDA 85, 37), paywalled; the IERS gives it as code only
+  searched: the IERS Conventions site (TN36 chapter 5 and its additional files), USNO Circular 179, the library
+  effect: IAU 2000B is not built; the presets use IAU 2000A
+- key: modern.eclipse.shadow_enlargement
+  status: gap
+  reason: the enlargement of the Earth's shadow that lunar eclipse computations apply for the atmosphere is not keyed; the eclipse code ships provisional and its data and comparison (sewell_dikshit_1896's Schram tables, a fetched canon) are left for later work
+  searched: not searched (indian_astronomical_ephemeris 2022's eclipse explanation not keyed)
+  effect: modern/eclipses.py computes the umbra and penumbra without enlargement; every eclipse result carries provisional:eclipse

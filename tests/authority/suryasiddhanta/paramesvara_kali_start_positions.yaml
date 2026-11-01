@@ -1,0 +1,239 @@
+id: authority/suryasiddhanta/paramesvara_kali_start_positions
+methods: [suryasiddhanta, suryasiddhanta_paramesvara_recension]
+class: text_computed
+source: suryasiddhanta_paramesvara_1957
+edition_page: 6
+pdf_page: 44
+locus: 'Parameśvara''s commentary: (1) p. 6 (PDF 44 left half), after verse i.24, from "अस्मिन्पक्षे कलियुगादौ" to the end of the sentence ending "प्रक्षेप्यम्"; (2) p. 18 (PDF 50 left half), the last sentences before the footnotes, from "कलियुगादावपि" to the end of the sentence beginning "चन्द्रपातः".'
+rounding: positions stated as sign boundaries (whole signs); no degrees or minutes printed
+precision: signs
+datum_keys: [texts.suryasiddhanta.procedures.mean_longitude.rule]
+notes: 'The commentary states the mean positions at the start of the Kali yuga "in this system" (अस्मिन्पक्षे, p. 6): all planets at the end of Mīna, the Moon''s apogee at the end of Mithuna (printed यमान्ते with the editor''s parenthesis (युग्मान्ते)), Rāhu at the end of Kanyā; hence (p. 6) the planets'' motion may be computed from Kali time alone, adding three signs to the apogee and six to Rāhu. p. 18 restates the same three positions (मीनमेषसन्धौ, मिथुनान्ते, कन्यान्ते). Reader''s decision (TASK): they rest on the text''s elements alone — p. 6 attributes them to the text''s own system and applies no correction; on p. 18 they follow the hārāvayava (bhagaṇāvayava) correction passage of pp. 17-18 but are stated as the positions "also at the start of Kali" without applying it; the dṛk-correction verses at the top of p. 22 (ending दृक्साम्यसिद्धये कुर्यात् कल्यादौ ध्रुवका इति) are corrections to be applied to these Kali-start dhruvas, not included in them. No computation, ahargaṇa or intermediate figure is printed: the values are the stated results.'
+values:
+- name: output.p6.planets
+  role: output
+  value: मीनान्तं
+  form: text
+  unit: none
+  script: devanagari
+  edition_page: 6
+  pdf_page: 44
+  locus: 'p. 6, the sentence beginning "अस्मिन्पक्षे कलियुगादौ सर्वे ग्रहाः": the word after ग्रहाः, before गताः, as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r7
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 226, 211.5, 252]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [50,226,365,252] 2x1 --overlap 8; first-read fixture file k6/fixtures/paramesvara_kali_start_positions.yaml (sha256 3bb3dc73)
+  status: double_read
+  notes: all (mean) planets at the end of Mīna (= 0 signs from Meṣa) at the start of Kali.
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [20, 200, 227.5, 355]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.p6.moon_apogee
+  role: output
+  value: यमान्ते (युग्मान्ते)
+  form: text
+  unit: none
+  script: devanagari
+  edition_page: 6
+  pdf_page: 44
+  locus: 'p. 6, the clause beginning "तुङ्गस्तु": the words after तुङ्गस्तु up to the comma, as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r7
+    on: 2026-10-11
+    dpi: 600
+    clip: [203.5, 226, 365, 252]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [50,226,365,252] 2x1 --overlap 8; first-read fixture file k6/fixtures/paramesvara_kali_start_positions.yaml (sha256 3bb3dc73)
+  status: double_read
+  notes: the apogee (तुङ्ग) at the end of Mithuna; the parenthesis (युग्मान्ते) is printed in the commentary, presumably the editor's correction of यमान्ते.
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [187.5, 200, 395, 355]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.p6.moon_node
+  role: output
+  value: कन्यान्ते
+  form: text
+  unit: none
+  script: devanagari
+  edition_page: 6
+  pdf_page: 44
+  locus: 'p. 6, the clause beginning "राहुः": the word after राहुः, as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r7
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 226, 211.5, 252]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [50,226,365,252] 2x1 --overlap 8 (line 2 start); first-read fixture file k6/fixtures/paramesvara_kali_start_positions.yaml (sha256 3bb3dc73)
+  status: double_read
+  notes: Rāhu at the end of Kanyā.
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [20, 200, 227.5, 355]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.p6.moon_apogee_additive
+  role: output
+  value: 3
+  form: integer
+  unit: signs
+  script: devanagari
+  edition_page: 6
+  pdf_page: 44
+  locus: 'p. 6, the clause beginning "किन्तु चन्द्रोच्चे": the compound with राशि that follows; printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r7
+    on: 2026-10-11
+    dpi: 600
+    clip: [203.5, 226, 365, 252]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [50,226,365,252] 2x1 --overlap 8; first-read fixture file k6/fixtures/paramesvara_kali_start_positions.yaml (sha256 3bb3dc73)
+  status: double_read
+  notes: 'printed in words: राशित्रयं (three signs to be added to the Moon''s apogee computed from Kali time).'
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [187.5, 200, 395, 355]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.p6.moon_node_additive
+  role: output
+  value: 6
+  form: integer
+  unit: signs
+  script: devanagari
+  edition_page: 6
+  pdf_page: 44
+  locus: 'p. 6, the clause beginning "राहौ" and ending "च प्रक्षेप्यम्": the compound with राशि (split by a line-end hyphen, joined); printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r7
+    on: 2026-10-11
+    dpi: 600
+    clip: [203.5, 226, 365, 252]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [50,226,365,252] 2x1 --overlap 8 (राशि-); first-read fixture file k6/fixtures/paramesvara_kali_start_positions.yaml (sha256 3bb3dc73)
+  - by: claude-opus-5-5/2026-10-11-r7
+    on: 2026-10-11
+    dpi: 600
+    clip: [25, 252, 120, 272]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: line 3 start, 792x167 (षट्कं); first-read fixture file k6/fixtures/paramesvara_kali_start_positions.yaml (sha256 3bb3dc73)
+  status: double_read
+  notes: 'printed in words: राशिषट्कं (six signs to be added to Rāhu). The sentence ends with "!" printed for the daṇḍa.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [203.5, 226, 365, 252]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.p18.planets
+  role: output
+  value: मीनमेषसन्धौ
+  form: text
+  unit: none
+  script: devanagari
+  edition_page: 18
+  pdf_page: 50
+  locus: 'p. 18, the sentence beginning "कलियुगादावपि सूर्यादिमन्दान्ताः ग्रहाः": the word after ग्रहाः, before स्थिताः, as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r7
+    on: 2026-10-11
+    dpi: 600
+    clip: [35, 490, 204, 545]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [35,490,365,545] 2x1 --overlap 8; first-read fixture file k6/fixtures/paramesvara_kali_start_positions.yaml (sha256 3bb3dc73)
+  - by: claude-opus-5-5/2026-10-11-r7
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 490, 365, 545]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2; first-read fixture file k6/fixtures/paramesvara_kali_start_positions.yaml (sha256 3bb3dc73)
+  status: double_read
+  notes: Sun … Saturn (सूर्यादिमन्दान्ताः) at the Mīna-Meṣa junction at the start of Kali.
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 600
+    clip: [35, 485, 202.5, 550]
+    delivered_ppi: 600
+    note: ''
+- name: output.p18.moon_apogee
+  role: output
+  value: मिथुनान्ते
+  form: text
+  unit: none
+  script: devanagari
+  edition_page: 18
+  pdf_page: 50
+  locus: 'p. 18, the clause beginning "चन्द्रतुङ्गः": the word after चन्द्रतुङ्गः, before the comma, as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r7
+    on: 2026-10-11
+    dpi: 600
+    clip: [35, 490, 204, 545]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [35,490,365,545] 2x1 --overlap 8; first-read fixture file k6/fixtures/paramesvara_kali_start_positions.yaml (sha256 3bb3dc73)
+  status: double_read
+  notes: Moon's apogee at the end of Mithuna.
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 600
+    clip: [35, 485, 202.5, 550]
+    delivered_ppi: 600
+    note: ''
+- name: output.p18.moon_node
+  role: output
+  value: कन्यान्ते
+  form: text
+  unit: none
+  script: devanagari
+  edition_page: 18
+  pdf_page: 50
+  locus: 'p. 18, the clause beginning "चन्द्रपातः": the word after चन्द्रपातः, as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r7
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 490, 365, 545]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [35,490,365,545] 2x1 --overlap 8; first-read fixture file k6/fixtures/paramesvara_kali_start_positions.yaml (sha256 3bb3dc73)
+  status: double_read
+  notes: Moon's node at the end of Kanyā.
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 600
+    clip: [202.5, 485, 370, 550]
+    delivered_ppi: 600
+    note: ''

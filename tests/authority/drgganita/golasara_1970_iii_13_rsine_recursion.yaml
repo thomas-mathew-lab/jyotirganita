@@ -1,0 +1,533 @@
+id: authority/drgganita/golasara_1970_iii_13_rsine_recursion
+methods: [drgganita]
+class: editor_computed
+source: golasara_1970
+file: golasara_1970-golasara-nilakantha.pdf
+edition_page: 18
+pdf_page: 44
+locus: 'Golasāra III.13b–14a, Sarma''s footnote 3 on p. 18 (PDF 44): the worked example of the recursion for the R Sines below the last, from ''For example, if there are'' to ''And so on.'''
+rounding: each difference to whole minutes as printed; the 23rd R Sine printed to one decimal and carried on as a whole number
+precision: whole minutes; the 23rd R Sine and the last difference and its double to one decimal
+datum_keys: [texts.drgganita.trig.rsine_rule.golasara_1970, texts.drgganita.trig.rsine_rule.seed_note.golasara_1970]
+notes: 'editor_computed: Sarma''s decimal illustration of Nīlakaṇṭha''s rule (the verse gives no example); compared to the editor''s printed precision. Printed: the multiplication sign as the letter x; the subtraction dash long. Two digits are printed broken (in the minuend after ''Subtracting … from'' and in the multiplier after the 22nd''s figure); each read as the digit its shape keeps.'
+values:
+- name: input.sines_in_quadrant
+  role: input
+  value: 24
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 18
+  pdf_page: 44
+  locus: 'footnote 3 of p. 18, the example from ''For example'' to ''And so on.'': ''if there are … R Sines in the quadrant'', the figure'
+  read:
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 393.41, 526.5, 794.81]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: tile r2c1 of 1x2 --overlap 8 (golasara_1970 PDF 44)
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 600
+    clip: [60, 520, 280, 630]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: enlarged --dpi 600 --upsample, left half of the example
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 600
+    clip: [280, 520, 500, 630]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: enlarged --dpi 600 --upsample, right half of the example
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-16-r7
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 393.41, 526.5, 794.81]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: ''
+- name: input.radius
+  role: input
+  value: 3438
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 18
+  pdf_page: 44
+  locus: 'footnote 3 of p. 18, the example from ''For example'' to ''And so on.'': ''the radius is … and is the …th R Sine'', the first figure'
+  read:
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 393.41, 526.5, 794.81]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: tile r2c1 of 1x2 --overlap 8 (golasara_1970 PDF 44)
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 600
+    clip: [60, 520, 280, 630]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: enlarged --dpi 600 --upsample, left half of the example
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 600
+    clip: [280, 520, 500, 630]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: enlarged --dpi 600 --upsample, right half of the example
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-16-r7
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 393.41, 526.5, 794.81]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: ''
+- name: input.first_sine
+  role: input
+  value: 225
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 18
+  pdf_page: 44
+  locus: 'footnote 3 of p. 18, the example from ''For example'' to ''And so on.'': ''The 23rd is √(…² − …²) = …'', the second number under the radical (without its exponent)'
+  read:
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 393.41, 526.5, 794.81]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: tile r2c1 of 1x2 --overlap 8 (golasara_1970 PDF 44)
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 600
+    clip: [60, 520, 280, 630]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: enlarged --dpi 600 --upsample, left half of the example
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 600
+    clip: [280, 520, 500, 630]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: enlarged --dpi 600 --upsample, right half of the example
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-16-r7
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 393.41, 526.5, 794.81]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: ''
+- name: output.sine_23
+  role: output
+  value: '3430.6'
+  form: fraction
+  unit: minutes
+  script: latin
+  edition_page: 18
+  pdf_page: 44
+  locus: 'footnote 3 of p. 18, the example from ''For example'' to ''And so on.'': ''The 23rd is √(…² − …²) = …'', the result (a printed decimal, keyed as printed)'
+  read:
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 393.41, 526.5, 794.81]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: tile r2c1 of 1x2 --overlap 8 (golasara_1970 PDF 44)
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 600
+    clip: [60, 520, 280, 630]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: enlarged --dpi 600 --upsample, left half of the example
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 600
+    clip: [280, 520, 500, 630]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: enlarged --dpi 600 --upsample, right half of the example
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-16-r7
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 393.41, 526.5, 794.81]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: ''
+- name: output.last_difference
+  role: output
+  value: '7.4'
+  form: fraction
+  unit: minutes
+  script: latin
+  edition_page: 18
+  pdf_page: 44
+  locus: 'footnote 3 of p. 18, the example from ''For example'' to ''And so on.'': ''and the last difference is …'' (a printed decimal, keyed as printed)'
+  read:
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 393.41, 526.5, 794.81]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: tile r2c1 of 1x2 --overlap 8 (golasara_1970 PDF 44)
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 600
+    clip: [60, 520, 280, 630]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: enlarged --dpi 600 --upsample, left half of the example
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 600
+    clip: [280, 520, 500, 630]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: enlarged --dpi 600 --upsample, right half of the example
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-16-r7
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 393.41, 526.5, 794.81]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: ''
+- name: output.twice_last_difference
+  role: output
+  value: '14.8'
+  form: fraction
+  unit: minutes
+  script: latin
+  edition_page: 18
+  pdf_page: 44
+  locus: 'footnote 3 of p. 18, the example from ''For example'' to ''And so on.'': ''Twice this is ….'' (a printed decimal, keyed as printed)'
+  read:
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 393.41, 526.5, 794.81]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: tile r2c1 of 1x2 --overlap 8 (golasara_1970 PDF 44)
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 600
+    clip: [60, 520, 280, 630]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: enlarged --dpi 600 --upsample, left half of the example
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 600
+    clip: [280, 520, 500, 630]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: enlarged --dpi 600 --upsample, right half of the example
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-16-r7
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 393.41, 526.5, 794.81]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: ''
+- name: output.sine_23_as_used
+  role: output
+  value: 3431
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 18
+  pdf_page: 44
+  locus: 'footnote 3 of p. 18, the example from ''For example'' to ''And so on.'': ''The difference between the 23rd and the 22nd is … x …÷…+…=…'', the first factor'
+  read:
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 393.41, 526.5, 794.81]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: tile r2c1 of 1x2 --overlap 8 (golasara_1970 PDF 44)
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 600
+    clip: [60, 520, 280, 630]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: enlarged --dpi 600 --upsample, left half of the example
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 600
+    clip: [280, 520, 500, 630]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: enlarged --dpi 600 --upsample, right half of the example
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-16-r7
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 393.41, 526.5, 794.81]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: ''
+- name: output.difference_23_22
+  role: output
+  value: 22
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 18
+  pdf_page: 44
+  locus: 'footnote 3 of p. 18, the example from ''For example'' to ''And so on.'': ''The difference between the 23rd and the 22nd is … x …÷…+…=…'', the result'
+  read:
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 393.41, 526.5, 794.81]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: tile r2c1 of 1x2 --overlap 8 (golasara_1970 PDF 44)
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 600
+    clip: [60, 520, 280, 630]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: enlarged --dpi 600 --upsample, left half of the example
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 600
+    clip: [280, 520, 500, 630]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: enlarged --dpi 600 --upsample, right half of the example
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-16-r7
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 393.41, 526.5, 794.81]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: ''
+- name: output.sine_22
+  role: output
+  value: 3409
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 18
+  pdf_page: 44
+  locus: 'footnote 3 of p. 18, the example from ''For example'' to ''And so on.'': ''Subtracting … from …, the 22nd is ….'', the result'
+  read:
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 393.41, 526.5, 794.81]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: tile r2c1 of 1x2 --overlap 8 (golasara_1970 PDF 44)
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 600
+    clip: [60, 520, 280, 630]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: enlarged --dpi 600 --upsample, left half of the example
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 600
+    clip: [280, 520, 500, 630]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: enlarged --dpi 600 --upsample, right half of the example
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-16-r7
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 393.41, 526.5, 794.81]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: ''
+- name: output.difference_22_21
+  role: output
+  value: 37
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 18
+  pdf_page: 44
+  locus: 'footnote 3 of p. 18, the example from ''For example'' to ''And so on.'': ''The difference between the 22nd and 21st is … x …÷…+…=…'', the result'
+  read:
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 393.41, 526.5, 794.81]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: tile r2c1 of 1x2 --overlap 8 (golasara_1970 PDF 44)
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 600
+    clip: [60, 520, 280, 630]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: enlarged --dpi 600 --upsample, left half of the example
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 600
+    clip: [280, 520, 500, 630]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: enlarged --dpi 600 --upsample, right half of the example
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-16-r7
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 393.41, 526.5, 794.81]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: ''
+- name: output.sine_21
+  role: output
+  value: 3372
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 18
+  pdf_page: 44
+  locus: 'footnote 3 of p. 18, the example from ''For example'' to ''And so on.'': ''The 21st is …−…=…'', the result'
+  read:
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 393.41, 526.5, 794.81]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: tile r2c1 of 1x2 --overlap 8 (golasara_1970 PDF 44)
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 600
+    clip: [60, 520, 280, 630]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: enlarged --dpi 600 --upsample, left half of the example
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 600
+    clip: [280, 520, 500, 630]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: enlarged --dpi 600 --upsample, right half of the example
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-16-r7
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 393.41, 526.5, 794.81]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: ''
+- name: output.difference_21_20
+  role: output
+  value: 51
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 18
+  pdf_page: 44
+  locus: 'footnote 3 of p. 18, the example from ''For example'' to ''And so on.'': ''The difference between 21st and 20th is … x …÷…+…=…'', the result'
+  read:
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 393.41, 526.5, 794.81]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: tile r2c1 of 1x2 --overlap 8 (golasara_1970 PDF 44)
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 600
+    clip: [60, 520, 280, 630]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: enlarged --dpi 600 --upsample, left half of the example
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 600
+    clip: [280, 520, 500, 630]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: enlarged --dpi 600 --upsample, right half of the example
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-16-r7
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 393.41, 526.5, 794.81]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: ''
+- name: output.sine_20
+  role: output
+  value: 3321
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 18
+  pdf_page: 44
+  locus: 'footnote 3 of p. 18, the example from ''For example'' to ''And so on.'': ''The 20th is …−…=…'', the result'
+  read:
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 393.41, 526.5, 794.81]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: tile r2c1 of 1x2 --overlap 8 (golasara_1970 PDF 44)
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 600
+    clip: [60, 520, 280, 630]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: enlarged --dpi 600 --upsample, left half of the example
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 600
+    clip: [280, 520, 500, 630]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: enlarged --dpi 600 --upsample, right half of the example
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-16-r7
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 393.41, 526.5, 794.81]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: ''

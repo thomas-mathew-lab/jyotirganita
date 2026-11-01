@@ -1,0 +1,227 @@
+era: saka
+epoch:
+  date: eras.saka.epoch.calendar_reform_committee_1955
+  calendar: julian
+  calendar_ref: eras.saka.epoch.calendar_reform_committee_1955
+  day_start: unstated
+counting:
+  mode: elapsed
+  datum: eras.saka.counting.vakyakarana_1962
+year_start:
+  mesha:
+    rule: sankranti.mesha
+    sun: true
+    epoch: era
+    datum: eras.saka.year_start.calendar_reform_committee_1955
+range:
+  from: epoch
+  to: open
+  datum: eras.saka.year_start.calendar_reform_committee_1955
+months:
+  naming: rasi
+  datum: eras.saka.year_start.calendar_reform_committee_1955
+notes: Śaka. Epoch 15 March A.D. 78 (calendar_reform_committee_1955 Table 1, with pillai_1911_chronology Table X's solar year of Kali 3179 elapsed); calendar Julian on the printed Julian day only. Years counted elapsed (vakyakarana_1962); Kali elapsed = Śaka elapsed + 3179 (vakyakarana_1962).
+data:
+- key: eras.saka.epoch.calendar_reform_committee_1955
+  value:
+  - [Śaka era, '15 March, 78 A.D.', 1749621]
+  form: table
+  columns: [era, date, julian_day]
+  unit: days
+  script: latin
+  source: calendar_reform_committee_1955
+  edition_page: 162
+  pdf_page: 174
+  locus: Table 1 'Julian day numbers', the Śaka era row. A number printed with comma grouping is keyed as the integer
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 330, 320, 550]
+    delivered_ppi: 300
+    max_edge: 2000
+  status: double_read
+  verified_by: [eras.saka.epoch.pillai_1911_chronology]
+  emendation: null
+  notes: 'The era''s epoch date and, through its printed Julian day, the record''s only statement of the date''s calendar: calendar_reform_committee_1955 states none for Table 1 (eras.saka.epoch.calendar.calendar_reform_committee_1955).'
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 330, 320, 550]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- key: eras.saka.epoch.calendar.calendar_reform_committee_1955
+  status: gap
+  reason: calendar_reform_committee_1955 states no calendar (Julian or Gregorian) for the dates of Table 1 'Julian day numbers' (p. 162) as read
+  searched: calendar_reform_committee_1955 PDF p. 174 (printed p. 162), the text above Table 1 and the table; the table's heading
+  effect: the Śaka epoch's calendar rests on its printed Julian day; no calendar_reform_committee_1955 Table 1 date is a calendar fixture
+- key: eras.saka.epoch.pillai_1911_chronology
+  value:
+  - [3179, 135, null, 15M, ·1661, 16·8325, 0·743, 78, 5]
+  form: table
+  columns: [kaliyuga, vikrama, saka, month_day, fraction, first_new_moon, anomaly, ad, weekday_1_jan]
+  unit: statement
+  script: latin
+  source: pillai_1911_chronology
+  edition_page: 26
+  pdf_page: 166
+  locus: 'Table X: the last row whose Saka Era cell is blank (the row before the first Saka year): Kaliyuga, Vikrama Era, Saka Era, Commencement of Solar Year (month and day A.D.; fraction of day), First New-Moon in Solar Year, Anomaly of first New-Moon, A.D., Week-day of 1st January. A blank cell is null; a decimal point keyed as printed (''·'')'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 360
+    clip: [30, 780, 330, 825]
+    delivered_ppi: 360
+    max_edge: 2000
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'The solar year beginning Kali 3179 elapsed, 15 March A.D. 78: the Śaka epoch of calendar_reform_committee_1955 Table 1. pillai_1911_chronology''s A.D. dates down to 2 Sep. 1752 are Old Style (pillai_1911_chronology §236; fixture authority/calendar/pillai_1911_chronology_s236). Week-day numbering 0 = Saturday (pillai_1911_chronology §233).'
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 360
+    clip: [30, 780, 660, 825]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: ''
+- key: eras.saka.counting.vakyakarana_1962
+  value: For the Śaka year gone 1869
+  form: text
+  unit: statement
+  script: latin
+  source: vakyakarana_1962
+  edition_page: 250
+  pdf_page: 287
+  locus: 'Example 1, the question: its opening words, from ''For'' to the year number inclusive Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 600
+    clip: [65, 355, 390, 400]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles 2x1 --overlap 8 of this clip
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: Śaka years counted elapsed ('gone').
+  convention: stated
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [65, 355, 390, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-03-r2
+      on: 2026-10-03
+      dpi: 600
+      clip: [65, 355, 390, 400]
+      delivered_ppi: 600
+      max_edge: 2000
+      note: ''
+    matches: read
+- key: eras.saka.kali_offset.vakyakarana_1962
+  value: 3179
+  form: integer
+  unit: years
+  script: latin
+  source: vakyakarana_1962
+  edition_page: xiii
+  pdf_page: 20
+  locus: 'Introduction, I.2: the number added to the elapsed śaka years to give the Kali years elapsed'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 600
+    clip: [60, 50, 435, 450]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles 2x2 --overlap 8 of this clip (r1c1 [60,50,251.5,254], r1c2 [243.5,50,435,254], r2c1 [60,246,251.5,450], r2c2 [243.5,246,435,450])
+  status: double_read
+  verified_by: [eras.saka.kali_offset.vakyakarana_1962_verse]
+  emendation: null
+  notes: Kali years elapsed = Śaka years elapsed + 3179.
+  convention: stated
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [60, 50, 435, 450]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: eras.saka.kali_offset.vakyakarana_1962_verse
+  value: '[The S''aka year plus 3179 gives the Kali year.]'
+  form: text
+  unit: statement
+  script: latin
+  source: vakyakarana_1962
+  edition_page: 250
+  pdf_page: 287
+  locus: 'verses 2–3, the translation: the bracketed sentence Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 600
+    clip: [65, 240, 390, 372]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles 2x1 --overlap 8 of this clip (r1c1 [65,240,231.5,372], r1c2 [223.5,240,390,372])
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: Same edition as eras.saka.kali_offset.vakyakarana_1962 (the translation of the verse it cites); not an independent source.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [65, 240, 390, 372]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: eras.saka.year_start.calendar_reform_committee_1955
+  value:
+  - [Saka, 78, 1876, April, Meṣādi (Vernal equinox), Caitra S 1, P (N. India) A (S. India), All India, Astronomer's era]
+  form: table
+  columns: [era, zero_year, current_1954, commencement_1954, solar, luni_solar, lunar_months, provenance, remarks]
+  unit: statement
+  script: latin
+  source: calendar_reform_committee_1955
+  edition_page: 258
+  pdf_page: 270
+  locus: 'Table 27 ''Indian Eras'', the Saka row: era, zero year of era (A.D.), year current in 1954 A.D., date of commencement in 1954 A.D., year-beginning solar, year-beginning luni-solar, lunar months, provenance, remarks'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [245, 413.5, 280, 800]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: 'landscape table: the tile was rotated 90 degrees clockwise for reading (the same pixels); the first six columns'
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [140, 35, 275, 421.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: 'landscape table: the tile was rotated 90 degrees clockwise for reading (the same pixels); lunar months, provenance, remarks'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: '1876: the last glyph is damaged in the scan and read as 6 (1954 − 78 = 1876 is the table''s own redundancy, not a reading).'
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [240, 35, 285, 800]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''

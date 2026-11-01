@@ -1,0 +1,174 @@
+id: authority/suryasiddhanta/whitney_mean_sun
+methods: [suryasiddhanta]
+class: editor_computed
+source: suryasiddhanta_burgess_1860
+edition_page: 178
+pdf_page: 39
+locus: 'note under i.53, p. 178 (PDF 39): from "Thus, for the sun:" through the proportion line to "on the meridian of Ujjayini, is …deg …'' …"."'
+rounding: result printed to whole seconds of arc
+precision: seconds of arc
+datum_keys: [texts.suryasiddhanta.procedures.mean_longitude.rule]
+notes: 'Mean Sun by the full proportion: civil days in an Age : revolutions in an Age :: sum of days : revolutions and parts. The proportion prints the result as complete revolutions plus signs, degrees, minutes, seconds; the following sentence restates the longitude in degrees. Sum of days is the one found on p. 175 (whitney_ahargana_1860).'
+values:
+- name: input.civil_days_in_age
+  role: input
+  value: 1577917828
+  form: integer
+  unit: civil_days
+  script: latin
+  edition_page: 178
+  pdf_page: 39
+  locus: proportion line "…rev …s …deg …' …"", first term; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [40, 296, 210.5, 322]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [40,296,375,322] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_mean_sun_1860.yaml (sha256 3bdb394c)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.sun_revolutions_in_age
+  role: input
+  value: 4320000
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 178
+  pdf_page: 39
+  locus: proportion line, second term; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [40, 296, 210.5, 322]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [40,296,375,322] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_mean_sun_1860.yaml (sha256 3bdb394c)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.sum_of_days
+  role: input
+  value: 714404108572
+  form: integer
+  unit: civil_days
+  script: latin
+  edition_page: 178
+  pdf_page: 39
+  locus: proportion line, third term; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [40, 296, 210.5, 322]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [40,296,375,322] 2x1 --overlap 6; last digits "72" on tile r1c2 of clip [40,296,375,322] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_mean_sun_1860.yaml (sha256 3bdb394c)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sun_revolutions
+  role: output
+  value: 1955884960
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 178
+  pdf_page: 39
+  locus: proportion line, fourth term, whole revolutions before the superscript "rev"; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [204.5, 296, 375, 322]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [40,296,375,322] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_mean_sun_1860.yaml (sha256 3bdb394c)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sun_mean_longitude_rdms
+  role: output
+  value: [8, 17, 48, 7]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 178
+  pdf_page: 39
+  locus: 'proportion line, fourth term after "rev": "…s …deg …'' …""; [s, deg, '', ''''] as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [204.5, 296, 375, 322]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [40,296,375,322] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_mean_sun_1860.yaml (sha256 3bdb394c)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sun_mean_longitude_degrees
+  role: output
+  value: [257, 48, 7]
+  form: sexagesimal
+  unit: degrees_minutes_seconds
+  script: latin
+  edition_page: 178
+  pdf_page: 39
+  locus: sentence "The mean longitude of the sun, therefore, Jan. …st, … at midnight on the meridian of Ujjayini, is …deg …' …"."; [deg, ', ''] as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [40, 318, 210.5, 400]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [40,318,375,400] 2x1 --overlap 6 and tile r1c2 of clip [40,318,375,400] 2x1 --overlap 6 (the 7" on r1c2); first-read fixture file k7/fixtures/whitney_mean_sun_1860.yaml (sha256 3bdb394c)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

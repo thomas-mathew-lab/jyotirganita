@@ -1,0 +1,484 @@
+- key: search.reading_rules.tithi.civil_sunrise_religious_begin.pillai_1911_chronology
+  value: As a tithi generally covers a portion of two days, it sometimes happens that though for civil purposes the tithi of a day is that which is current at sunrise, yet for religious purposes a tithi may have to be celebrated on the previous day when it begins
+  form: text
+  unit: statement
+  script: latin
+  source: pillai_1911_chronology
+  file: pillai_1911_chronology-pillai-indian-chronology-1911.pdf
+  edition_page: 46
+  pdf_page: 68
+  locus: 'pillai_1911_chronology printed 46, Ch. XVI §113, after the bold heading: the first sentence, from ''As a'' to ''it begins''. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-15-r1
+    on: 2026-10-15
+    dpi: 360
+    clip: [60, 108, 660, 192]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: tiles 2x1 --overlap 20 of this clip, native 360 ppi
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  basis: stated
+  basis_ref: pillai_1911_chronology §113
+  second_read:
+  - by: claude-opus-5-5/2026-10-15-r2
+    on: 2026-10-15
+    dpi: 360
+    clip: [60, 108, 660, 192]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: ''
+- key: search.reading_rules.nakshatra.cited_with_tithi.pillai_1911_chronology
+  value: A tithi is often cited along with a Nakshatra ending on the same day
+  form: text
+  unit: statement
+  script: latin
+  source: pillai_1911_chronology
+  file: pillai_1911_chronology-pillai-indian-chronology-1911.pdf
+  edition_page: 74
+  pdf_page: 96
+  locus: 'pillai_1911_chronology printed 74, Ch. XXII §182, under the heading on nakṣatras concurrent with tithis: the first sentence, from ''A tithi'' to ''same day''. A mark after the next word ''In'' is a blemish, outside the value. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-15-r1
+    on: 2026-10-15
+    dpi: 360
+    clip: [40, 486, 640, 530]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: tiles 2x1 --overlap 20 of this clip, native 360 ppi
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  basis: stated
+  basis_ref: pillai_1911_chronology §182
+  second_read:
+  - by: claude-opus-5-5/2026-10-15-r2
+    on: 2026-10-15
+    dpi: 360
+    clip: [40, 486, 640, 530]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: ''
+- key: search.reading_rules.planet_rasi.jupiter_fourth_mode.pillai_1911_chronology
+  value: There is a fourth mode of citation of Jovian years which we often find in Malayâlam inscriptions, and that is to cite, instead of one year out of every sixty, one year out of every twelve. In twelve Jovian years the planet Jupiter passes through the twelve signs of the zodiac and each sign corresponds to one of the twelve years of Jupiter's revolution
+  form: text
+  unit: statement
+  script: latin
+  source: pillai_1911_chronology
+  file: pillai_1911_chronology-pillai-indian-chronology-1911.pdf
+  edition_page: 40
+  pdf_page: 62
+  locus: 'pillai_1911_chronology printed 40, Ch. XIII §102, after the italic heading: the first two sentences, from ''There is'' to ''Jupiter''s revolution'' (the full stop between the two sentences kept). Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-15-r1
+    on: 2026-10-15
+    dpi: 360
+    clip: [60, 222, 660, 322]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: tiles 2x1 --overlap 20 of this clip, native 360 ppi
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  basis: stated
+  basis_ref: pillai_1911_chronology §102
+  second_read:
+  - by: claude-opus-5-5/2026-10-15-r2
+    on: 2026-10-15
+    dpi: 360
+    clip: [60, 222, 660, 322]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: ''
+- key: search.reading_rules.planet_rasi.jupiter_mean_sign.pillai_1911_chronology
+  value: Readers in Southern India will be mainly interested in the 1st and 4th modes of citation, of which the latter is otherwise called the "mean-sign system" and which is met with in Travancore inscriptions
+  form: text
+  unit: statement
+  script: latin
+  source: pillai_1911_chronology
+  file: pillai_1911_chronology-pillai-indian-chronology-1911.pdf
+  edition_page: 40
+  pdf_page: 62
+  locus: 'pillai_1911_chronology printed 40, Ch. XIII §105: the first sentence from ''Readers in'' to ''Travancore inscriptions'' (the examples after it not keyed; the footnote mark after the closing quotation mark not keyed). Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-15-r1
+    on: 2026-10-15
+    dpi: 360
+    clip: [60, 522, 660, 592]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: tiles 2x1 --overlap 20 of this clip, native 360 ppi
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  basis: stated
+  basis_ref: pillai_1911_chronology §105
+  second_read:
+  - by: claude-opus-5-5/2026-10-15-r2
+    on: 2026-10-15
+    dpi: 360
+    clip: [60, 522, 660, 592]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: ''
+- key: search.reading_rules.tithi.any_moment.sewell_dikshit_1896
+  value: The general rule may be given briefly that for all practical and civil purposes, as well as for some ordinary religious purposes, the tithi is connected with that week-day or solar day at whose sunrise it is current, while for other religious purposes, and sometimes, though rarely, even for practical purposes also, the tithi which is current at any particular moment of a solar day or week-day is connected with that day
+  form: text
+  unit: statement
+  script: latin
+  source: sewell_dikshit_1896
+  file: sewell_dikshit_1896-sewell-dikshit-indian-calendar-1896.pdf
+  edition_page: 17
+  pdf_page: 33
+  locus: 'sewell_dikshit_1896 printed 17, Art. 31, the paragraph before Art. 32: the sentence from ''The general rule may be given briefly'' to ''with that day''. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-15-r1
+    on: 2026-10-15
+    dpi: 401
+    clip: [20, 370, 370, 425]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: one tile of this clip, native 401 ppi
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  basis: stated
+  basis_ref: sewell_dikshit_1896 Art. 31
+  second_read:
+  - by: claude-opus-5-5/2026-10-15-r2
+    on: 2026-10-15
+    dpi: 401
+    clip: [20, 370, 370, 425]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+- key: search.reading_rules.occurrence.ceremony.sewell_dikshit_1896
+  value: At the time of the performance of religious ceremonies the current tithi, vâra, and all other particulars have to be pronounced; and consequently the tithi, nakshatra, etc., so declared may differ from the tithi, etc., current at sunrise
+  form: text
+  unit: statement
+  script: latin
+  source: sewell_dikshit_1896
+  file: sewell_dikshit_1896-sewell-dikshit-indian-calendar-1896.pdf
+  edition_page: 17
+  pdf_page: 33
+  locus: 'sewell_dikshit_1896 printed 17, Art. 31, the paragraph after the śrāddha discussion: the first sentence, from ''At the time'' to ''at sunrise''. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-15-r1
+    on: 2026-10-15
+    dpi: 401
+    clip: [20, 252, 370, 290]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: one tile of this clip, native 401 ppi
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  basis: stated
+  basis_ref: sewell_dikshit_1896 Art. 31
+  second_read:
+  - by: claude-opus-5-5/2026-10-15-r2
+    on: 2026-10-15
+    dpi: 401
+    clip: [20, 252, 370, 290]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+- key: search.reading_rules.tithi.connected_after_sunrise.sewell_dikshit_1896
+  value: This kṛi. 30 therefore can be connected with a Sunday, and if the nakshatra comes right—Hasta—then this would be the given date
+  form: text
+  unit: statement
+  script: latin
+  source: sewell_dikshit_1896
+  file: sewell_dikshit_1896-sewell-dikshit-indian-calendar-1896.pdf
+  edition_page: 99
+  pdf_page: 115
+  locus: 'sewell_dikshit_1896 printed 99, Example XXV, the paragraph after the second computation: the sentence from ''This kṛi.'' to ''given date''. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-15-r1
+    on: 2026-10-15
+    dpi: 401
+    clip: [20, 138, 370, 190]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: one tile of this clip, native 401 ppi
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  basis: stated
+  basis_ref: sewell_dikshit_1896 Art. 160, Example XXV
+  second_read:
+  - by: claude-opus-5-5/2026-10-15-r2
+    on: 2026-10-15
+    dpi: 401
+    clip: [20, 138, 370, 190]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+- key: search.reading_rules.nakshatra.at_sunrise_check.sewell_dikshit_1896
+  value: We calculate the nakshatra at sunrise on Sunday
+  form: text
+  unit: statement
+  script: latin
+  source: sewell_dikshit_1896
+  file: sewell_dikshit_1896-sewell-dikshit-indian-calendar-1896.pdf
+  edition_page: 99
+  pdf_page: 115
+  locus: 'sewell_dikshit_1896 printed 99, Example XXV, the same paragraph: its last sentence, from ''We calculate'' to ''on Sunday''. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-15-r1
+    on: 2026-10-15
+    dpi: 401
+    clip: [20, 138, 370, 190]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: one tile of this clip, native 401 ppi
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  basis: stated
+  basis_ref: sewell_dikshit_1896 Art. 160, Example XXV
+  second_read:
+  - by: claude-opus-5-5/2026-10-15-r2
+    on: 2026-10-15
+    dpi: 401
+    clip: [20, 138, 370, 190]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+- key: search.reading_rules.tithi.two_systems.sewell_dikshit_1896
+  value: But a tithi can be connected with the same week-day for two consecutive years if there is a confusion of systems in the naming of the civil day, naming, that is, not only by the tithi current at sunrise, but also by the tithi current during any time of that day
+  form: text
+  unit: statement
+  script: latin
+  source: sewell_dikshit_1896
+  file: sewell_dikshit_1896-sewell-dikshit-indian-calendar-1896.pdf
+  edition_page: 155
+  pdf_page: 321
+  locus: 'sewell_dikshit_1896 printed 155, Additions and corrections, rule D (d): its first sentence, from ''But a tithi'' to ''that day'' (the ''(d)'' before it not keyed). Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-15-r1
+    on: 2026-10-15
+    dpi: 401
+    clip: [8, 163, 358, 203]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: one tile of this clip, native 401 ppi
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  basis: stated
+  basis_ref: sewell_dikshit_1896 Additions and corrections, D (d)
+  second_read:
+  - by: claude-opus-5-5/2026-10-15-r2
+    on: 2026-10-15
+    dpi: 401
+    clip: [8, 163, 358, 203]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+- key: search.reading_rules.planet.almanac_sunrise.sewell_dikshit_1896
+  value: To the right, read vertically, are given the places of the sun and the principal planets at sunrise of the last day of each fortnight in signs degrees, minutes, and seconds, with their daily motions in minutes and seconds
+  form: text
+  unit: statement
+  script: latin
+  source: sewell_dikshit_1896
+  file: sewell_dikshit_1896-sewell-dikshit-indian-calendar-1896.pdf
+  edition_page: 16
+  pdf_page: 32
+  locus: 'sewell_dikshit_1896 printed 16, Art. 30, the paragraph on "other particulars": the sentence from ''To the right'' to ''minutes and seconds''. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-15-r1
+    on: 2026-10-15
+    dpi: 401
+    clip: [15, 160, 365, 215]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: one tile of this clip, native 401 ppi
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  basis: stated
+  basis_ref: sewell_dikshit_1896 Art. 30
+  second_read:
+  - by: claude-opus-5-5/2026-10-15-r2
+    on: 2026-10-15
+    dpi: 401
+    clip: [15, 160, 365, 215]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+- key: search.reading_rules.ayana.dakshinayana.sewell_dikshit_1896
+  value: 'The Karka saṅkrânti, three solar months later, is also called the dakshinâyana ("southward-going") saṅkrânti: it is the point of the summer solstice, and marks the moment when the sun turns southward'
+  form: text
+  unit: statement
+  script: latin
+  source: sewell_dikshit_1896
+  file: sewell_dikshit_1896-sewell-dikshit-indian-calendar-1896.pdf
+  edition_page: 9
+  pdf_page: 25
+  locus: 'sewell_dikshit_1896 printed 9, Art. 23: the sentence from ''The Karka'' to ''turns southward''. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-15-r1
+    on: 2026-10-15
+    dpi: 401
+    clip: [15, 322, 365, 364]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: one tile of this clip, native 401 ppi; the word 'dakshinâyana' also from [120, 336, 210, 350] at 1100 dpi --upsample (401 ppi delivered), no dot under its n
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  basis: stated
+  basis_ref: sewell_dikshit_1896 Art. 23
+  second_read:
+  - by: claude-opus-5-5/2026-10-15-r2
+    on: 2026-10-15
+    dpi: 401
+    clip: [15, 322, 365, 364]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+- key: search.reading_rules.ayana.uttarayana.sewell_dikshit_1896
+  value: The Makara saṅkrânti, three solar months later still, is also called the uttarâyana saṅkrânti ("northward-going")
+  form: text
+  unit: statement
+  script: latin
+  source: sewell_dikshit_1896
+  file: sewell_dikshit_1896-sewell-dikshit-indian-calendar-1896.pdf
+  edition_page: 9
+  pdf_page: 25
+  locus: 'sewell_dikshit_1896 printed 9, Art. 23: the sentence from ''The Makara'' to ''("northward-going")'', ending at the closing parenthesis. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-15-r1
+    on: 2026-10-15
+    dpi: 401
+    clip: [15, 352, 365, 428]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: one tile of this clip, native 401 ppi
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  basis: stated
+  basis_ref: sewell_dikshit_1896 Art. 23
+  second_read:
+  - by: claude-opus-5-5/2026-10-15-r2
+    on: 2026-10-15
+    dpi: 401
+    clip: [15, 352, 365, 428]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+- key: search.reading_rules.ayana.nirayana.sewell_dikshit_1896
+  value: When we speak of "saṅkrântis" in this volume we refer always to the nirayana saṅkrântis, i.e., the moments of the sun's entering the zodiacal signs
+  form: text
+  unit: statement
+  script: latin
+  source: sewell_dikshit_1896
+  file: sewell_dikshit_1896-sewell-dikshit-indian-calendar-1896.pdf
+  edition_page: 9
+  pdf_page: 25
+  locus: 'sewell_dikshit_1896 printed 9, Art. 23: the sentence beginning ''When we speak'', from ''When we speak'' to ''zodiacal signs'' (the mark after ''signs'', printed as a dot where a comma is expected, and the rest of the sentence not keyed). Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-15-r1
+    on: 2026-10-15
+    dpi: 401
+    clip: [15, 352, 365, 428]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: one tile of this clip, native 401 ppi; the mark after 'signs' also from [190, 390, 365, 412] at 802 dpi --upsample (401 ppi delivered)
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: The value stops before the mark after 'signs', which the page prints as a dot where the sentence goes on; the rest of the sentence (sidereal longitude, precession) is not keyed.
+  basis: stated
+  basis_ref: sewell_dikshit_1896 Art. 23
+  second_read:
+  - by: claude-opus-5-5/2026-10-15-r2
+    on: 2026-10-15
+    dpi: 401
+    clip: [15, 352, 365, 428]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+- key: search.reading_rules.eclipse.calculated.sewell_dikshit_1896
+  value: The eclipses mentioned in inscriptions are not always actually observed eclipses, but calculated ones
+  form: text
+  unit: statement
+  script: latin
+  source: sewell_dikshit_1896
+  file: sewell_dikshit_1896-sewell-dikshit-indian-calendar-1896.pdf
+  edition_page: 23
+  pdf_page: 39
+  locus: 'sewell_dikshit_1896 printed 23, Art. 40a, Jacobi''s quotation (Epig. Ind. II, p. 422): its first sentence, from ''The eclipses'' to ''calculated ones'' (the opening quotation mark not keyed). Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-15-r1
+    on: 2026-10-15
+    dpi: 401
+    clip: [20, 282, 370, 318]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: one tile of this clip, native 401 ppi
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  basis: stated
+  basis_ref: sewell_dikshit_1896 Art. 40a
+  second_read:
+  - by: claude-opus-5-5/2026-10-15-r2
+    on: 2026-10-15
+    dpi: 401
+    clip: [20, 282, 370, 318]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+- key: search.reading_rules.planet.reading_instant.gap
+  status: gap
+  reason: no page found states the instant of the civil day at which a planet's recorded sign or nakṣatra (or the Sun's) is read; sewell_dikshit_1896 Art. 30 states only that the almanac prints the planets' places at sunrise of a fortnight's last day
+  searched: pillai_1911_chronology Ch. XIII §102–106 (PDF 62–63); sewell_dikshit_1896 Art. 30–31 (printed 16–17, PDF 32–33), Additions and corrections D (d), D (g) and Art. 160 (c) (printed 155–156, PDF 321–322); calendar_reform_committee_1955 PDF 52, 117, 129–136
+  effect: the planet_rasi, planet_nakshatra and sun_rasi entries of both reading profiles match at_sunrise provisionally and their candidates carry provisional:<entry key>
+  source: sewell_dikshit_1896
+- key: search.reading_rules.moon_rasi.reading_instant.gap
+  status: gap
+  reason: no page found states the instant of the civil day at which a recorded Moon's sign is read
+  searched: pillai_1911_chronology Ch. XIII §102–106 (PDF 62–63); sewell_dikshit_1896 Art. 30–31 (printed 16–17, PDF 32–33), Additions and corrections D (d), D (g) and Art. 160 (c) (printed 155–156, PDF 321–322); calendar_reform_committee_1955 PDF 52, 117, 129–136; pillai_1911_chronology §36–37 (PDF 38), §182–186 (PDF 96–98)
+  effect: the moon_rasi entries of both reading profiles are provisional and their candidates carry provisional:<entry key>
+  source: sewell_dikshit_1896
+- key: search.reading_rules.planet.position.gap
+  status: gap
+  reason: no page found states whether a recorded sign of a planet other than Jupiter is its true or its mean place; pillai_1911_chronology §102 and §105 name the mean-sign system for Jupiter's years only
+  searched: pillai_1911_chronology Ch. XIII §102–106 (PDF 62–63); sewell_dikshit_1896 Art. 30–31 (printed 16–17, PDF 32–33), Additions and corrections D (d), D (g) and Art. 160 (c) (printed 155–156, PDF 321–322); calendar_reform_committee_1955 PDF 52, 117, 129–136; pillai_1911_chronology Part IV §288 (PDF 127–128, the planets' true longitudes by computation)
+  effect: the position default of the planet_rasi and planet_nakshatra entries is the true place for every body but Jupiter (kerala_default), provisionally
+  source: pillai_1911_chronology
+- key: search.reading_rules.yoga.reading.gap
+  status: gap
+  reason: no page found states a rule for reading a recorded yoga against the civil day
+  searched: sewell_dikshit_1896 Art. 31 (printed 17, PDF 33), Art. 38–40 (printed 21–23, PDF 37–39); pillai_1911_chronology Ch. V–VIII (PDF 30–46), §182–186 (PDF 96–98)
+  effect: the yoga entries of both reading profiles are read as the tithi is, provisionally
+  source: sewell_dikshit_1896
+- key: search.reading_rules.karana.reading.gap
+  status: gap
+  reason: no page found states a rule for reading a recorded karaṇa against the civil day
+  searched: sewell_dikshit_1896 Art. 31 (printed 17, PDF 33), Art. 38–40 (printed 21–23, PDF 37–39); pillai_1911_chronology Ch. V–VIII (PDF 30–46), §182–186 (PDF 96–98)
+  effect: the karana entries of both reading profiles are read as the tithi is, provisionally
+  source: sewell_dikshit_1896
+- key: search.reading_rules.ayana.reading_instant.gap
+  status: gap
+  reason: sewell_dikshit_1896 Art. 23 defines the two ayanas by the Karka and Makara saṅkrāntis; no page found states the instant of the civil day at which a recorded ayana is read
+  searched: sewell_dikshit_1896 Art. 23 (printed 9, PDF 25), Art. 30–31 (printed 16–17, PDF 32–33); pillai_1911_chronology Ch. XIII–XVI (PDF 62–68); calendar_reform_committee_1955 PDF 52, 117
+  effect: the ayana entries of both reading profiles match at_sunrise provisionally and their candidates carry provisional:<entry key>
+  source: sewell_dikshit_1896

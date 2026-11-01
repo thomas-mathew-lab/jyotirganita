@@ -1,0 +1,244 @@
+id: authority/suryasiddhanta/whitney_washington_desantara
+methods: [suryasiddhanta]
+class: editor_computed
+source: suryasiddhanta_burgess_1860
+edition_page: 186
+pdf_page: 47
+locus: Whitney's note on i.63-65, second paragraph, from "The interval between the computed and observed time being ascertained" to "finding the mean places of the planets at Washington." (printed p. 186)
+rounding: not stated
+precision: seconds of time; tenths of a prāṇa (respiration) and ten-thousandths of a nāḍī; hundredths of a yojana
+datum_keys: [texts.suryasiddhanta.procedures.desantara.rule]
+notes: 'Computes the deśāntara of Washington from the Hindu meridian: Ujjayinî and Washington from Greenwich in time, their sum, its value in nāḍī, vināḍī and prāṇa and in decimal nāḍīs, then the proportion 60 : 25.4718 :: 3936.75 : 1671.28 (the circumference at Washington from p. 184). The number of nāḍīs in a day is printed in words in parentheses ("(sixty)") and as a figure in the proportion. No suryasiddhanta_burgess_1860_reprint erratum falls on suryasiddhanta_burgess_1860 PDF 47 (suryasiddhanta_burgess_1860_reprint p. 42). First read lat-a, fixture file sha256 909e0df3.'
+values:
+- name: input.nadis_per_day
+  role: input
+  value: 60
+  form: integer
+  unit: nadis
+  script: latin
+  edition_page: 186
+  pdf_page: 47
+  locus: line 3 of the paragraph, "as the whole number of nâḍîs in a day (…)"; restated in figures as the first term of the proportion, line 9
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 165, 355, 330]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 909e0df3); suryasiddhanta_burgess_1860_p47_600dpi_r1c2_clip40-165.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 320, 355, 480]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p47_600dpi_r1c2_clip40-320.png (the figure 60 in the proportion)
+  status: double_read
+  notes: 'printed first in words "(sixty)", then in figures "60" in the proportion (not keyed again). locus as first keyed: line 3 of the paragraph, "as the whole number of nâḍîs in a day (sixty)"; restated in figures as the first term of the proportion, line 9'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 165, 355, 480]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.ujjayini.longitude_from_greenwich_time
+  role: input
+  value: [5, 3, 8]
+  form: sexagesimal
+  unit: hours_minutes_seconds
+  script: latin
+  edition_page: 186
+  pdf_page: 47
+  locus: line 7, "the distance of Ujjayinî from Greenwich, in time, being …"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 320, 355, 480]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 909e0df3); suryasiddhanta_burgess_1860_p47_600dpi_r1c2_clip40-320.png
+  status: double_read
+  notes: 'unit letters printed as superscripts h m s. locus as first keyed: line 7, "the distance of Ujjayinî from Greenwich, in time, being 5h 3m 8s"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 320, 355, 480]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.washington.longitude_from_greenwich_time
+  role: input
+  value: [5, 8, 11]
+  form: sexagesimal
+  unit: hours_minutes_seconds
+  script: latin
+  edition_page: 186
+  pdf_page: 47
+  locus: line 8, "that of Washington from Greenwich … (Am. Naut. Almanac)"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 320, 201.5, 480]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 909e0df3); suryasiddhanta_burgess_1860_p47_600dpi_r1c1_clip40-320.png
+  status: double_read
+  notes: 'west of Greenwich in sense; no sign printed. locus as first keyed: line 8, "that of Washington from Greenwich 5h 8m 11s (Am. Naut. Almanac)"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 320, 201.5, 480]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.ujjayini_from_washington.time
+  role: output
+  value: [10, 11, 19]
+  form: sexagesimal
+  unit: hours_minutes_seconds
+  script: latin
+  edition_page: 186
+  pdf_page: 47
+  locus: line 9, "that of Ujjayinî from Washington is …"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 320, 201.5, 480]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 909e0df3); suryasiddhanta_burgess_1860_p47_600dpi_r1c1_clip40-320.png
+  status: double_read
+  notes: 'locus as first keyed: line 9, "that of Ujjayinî from Washington is 10h 11m 19s"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 320, 201.5, 480]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.ujjayini_from_washington.nadis_vinadis_pranas
+  role: output
+  value:
+  - [25, 28, '1.8']
+  form: table
+  unit: nadis_vinadis_pranas
+  script: latin
+  edition_page: 186
+  pdf_page: 47
+  locus: line 9, "or, in Hindu time, ….…"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 320, 355, 480]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 909e0df3); suryasiddhanta_burgess_1860_p47_600dpi_r1c2_clip40-320.png
+  status: double_read
+  notes: 'decimal last part; unit letters printed as superscripts n, v, p (the p read as prāṇa from the n-v-p sequence; the passage does not expand it). The last part is not sexagesimal of the vināḍī (6 prāṇas to a vināḍī) -- unit named by its letters. locus as first keyed: line 9, "or, in Hindu time, 25n 28v 1p.8"'
+  columns: [nadis, vinadis, pranas]
+  second_read:
+  - by: claude-fable-5-1/2026-10-22-r3
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 320, 355, 480]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.ujjayini_from_washington.nadis_decimal
+  role: output
+  value: '25.4718'
+  form: fraction
+  unit: nadis
+  script: latin
+  edition_page: 186
+  pdf_page: 47
+  locus: line 10, "or ….…"; restated as the second term of the proportion on the same line (not keyed again)
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 320, 201.5, 480]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 909e0df3); suryasiddhanta_burgess_1860_p47_600dpi_r1c1_clip40-320.png
+  status: double_read
+  notes: 'printed with superscript n before the decimal point. locus as first keyed: line 10, "or 25n.4718"; restated as the second term of the proportion on the same line (not keyed again)'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 320, 201.5, 480]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.washington.circumference
+  role: input
+  value: '3936.75'
+  form: fraction
+  unit: yojanas
+  script: latin
+  edition_page: 186
+  pdf_page: 47
+  locus: line 10, third term of "the proportion …"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 320, 355, 480]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 909e0df3); suryasiddhanta_burgess_1860_p47_600dpi_r1c2_clip40-320.png
+  status: double_read
+  notes: 'locus as first keyed: line 10, third term of "the proportion 60: 25.4718:: 3936.75: 1671.28"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 320, 355, 480]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.washington.desantara_yojanas
+  role: output
+  value: '1671.28'
+  form: fraction
+  unit: yojanas
+  script: latin
+  edition_page: 186
+  pdf_page: 47
+  locus: line 10, fourth term of the proportion; restated line 11, "we obtain … yojanas as the distance in longitude (deçântara) of Washington from the Hindu meridian"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 320, 355, 480]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 909e0df3); suryasiddhanta_burgess_1860_p47_600dpi_r1c2_clip40-320.png
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 320, 201.5, 480]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p47_600dpi_r1c1_clip40-320.png (the restatement)
+  status: double_read
+  notes: 'the restatement on line 11 reads the same and is not keyed again. locus as first keyed: line 10, fourth term of the proportion; restated line 11, "we obtain 1671.28 yojanas as the distance in longitude (deçântara) of Washington from the Hindu meridian"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 320, 355, 480]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

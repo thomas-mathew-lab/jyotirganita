@@ -1,0 +1,131 @@
+region: kerala
+places:
+- id: kozhikode
+  name: Kozhikode
+  route: modern_converted
+  texts: [aryabhatiya, drgganita, suryasiddhanta]
+  latitude:
+    unit: degrees_north
+    statement: regions.kerala.places.kozhikode.latitude.gopala_varyar_1954
+    reading: 'gopala_varyar_1954 p. 145 (PDF 162), the place''s row: latitude north'
+  longitude:
+    unit: degrees_east
+    statement: regions.kerala.places.kozhikode.longitude.gopala_varyar_1954
+    reading: 'gopala_varyar_1954 p. 145 (PDF 162), the place''s row: longitude east of Greenwich'
+  meridian_longitude:
+    unit: degrees_east
+    statement: texts.aryabhatiya.meridian.ujjain_longitude.laghubhaskariya_1963
+    reading: 'Shukla''s footnote 2 on laghubhaskariya_1963 p. 2: the meridian of Ujjain, through Laṅkā, east of Greenwich'
+  conversion:
+    aryabhatiya:
+      latitude: texts.aryabhatiya.procedures.day_radius_earthsine.laghubhaskariya_1963
+      meridian_offset: texts.aryabhatiya.procedures.desantara.yojana_rule
+    drgganita:
+      latitude: texts.drgganita.procedures.ascensional_difference.verses.v074a.goladipika_1916
+      meridian_offset: texts.drgganita.procedures.carry.desantara.verses.v196a.goladipika_1916
+      meridian_identification: texts.drgganita.samarekha.identification.grahanamandana_1965
+      meridian_gap: texts.drgganita.samarekha.modern_longitude
+    suryasiddhanta:
+      latitude: texts.suryasiddhanta.gnomon.palabha_from_latitude.iii17b.suryasiddhanta_burgess_1860
+      meridian_offset: texts.suryasiddhanta.procedures.desantara.rule
+      meridian_identification: texts.suryasiddhanta.meridian.identification.suryasiddhanta_burgess_1860
+      meridian_gap: texts.suryasiddhanta.meridian.modern_longitude
+  notes: 'The text''s meridian in modern longitude: two editors print different values for Ujjain, texts.aryabhatiya.meridian.ujjain_longitude.laghubhaskariya_1963 and .ujjayini_longitude.aryabhatiya_1976 (aryabhatiya_1976 vol. 1 p. 123); laghubhaskariya_1963''s is taken by the library author''s decision, the conflict kept on record: aryabhatiya_1976''s value would move every offset here by about 4.4 vināḍikās.'
+- id: thiruvananthapuram
+  name: Thiruvananthapuram
+  route: modern_converted
+  texts: [aryabhatiya, drgganita, suryasiddhanta]
+  latitude:
+    unit: degrees_north
+    statement: regions.kerala.places.thiruvananthapuram.latitude.gopala_varyar_1954
+    reading: 'gopala_varyar_1954 p. 145 (PDF 162), the place''s row: latitude north'
+  longitude:
+    unit: degrees_east
+    statement: regions.kerala.places.thiruvananthapuram.longitude.gopala_varyar_1954
+    reading: 'gopala_varyar_1954 p. 145 (PDF 162), the place''s row: longitude east of Greenwich'
+  meridian_longitude:
+    unit: degrees_east
+    statement: texts.aryabhatiya.meridian.ujjain_longitude.laghubhaskariya_1963
+    reading: 'Shukla''s footnote 2 on laghubhaskariya_1963 p. 2: the meridian of Ujjain, through Laṅkā, east of Greenwich'
+  conversion:
+    aryabhatiya:
+      latitude: texts.aryabhatiya.procedures.day_radius_earthsine.laghubhaskariya_1963
+      meridian_offset: texts.aryabhatiya.procedures.desantara.yojana_rule
+    drgganita:
+      latitude: texts.drgganita.procedures.ascensional_difference.verses.v074a.goladipika_1916
+      meridian_offset: texts.drgganita.procedures.carry.desantara.verses.v196a.goladipika_1916
+      meridian_identification: texts.drgganita.samarekha.identification.grahanamandana_1965
+      meridian_gap: texts.drgganita.samarekha.modern_longitude
+    suryasiddhanta:
+      latitude: texts.suryasiddhanta.gnomon.palabha_from_latitude.iii17b.suryasiddhanta_burgess_1860
+      meridian_offset: texts.suryasiddhanta.procedures.desantara.rule
+      meridian_identification: texts.suryasiddhanta.meridian.identification.suryasiddhanta_burgess_1860
+      meridian_gap: texts.suryasiddhanta.meridian.modern_longitude
+  notes: 'The text''s meridian in modern longitude: two editors print different values for Ujjain, texts.aryabhatiya.meridian.ujjain_longitude.laghubhaskariya_1963 and .ujjayini_longitude.aryabhatiya_1976 (aryabhatiya_1976 vol. 1 p. 123); laghubhaskariya_1963''s is taken by the library author''s decision, the conflict kept on record: aryabhatiya_1976''s value would move every offset here by about 4.4 vināḍikās. The Trivandrum Observatory''s coordinates printed in the Travancore Almanacs (regions.kerala.places.thiruvananthapuram.observatory.*, travancore_almanac_1876, travancore_almanac_1900, travancore_almanac_1907) are a second witness of the place, not used: gopala_varyar_1954''s row is taken for all three places alike.'
+- id: thrissur
+  name: Thrissur
+  route: modern_converted
+  texts: [aryabhatiya, drgganita, suryasiddhanta]
+  latitude:
+    unit: degrees_north
+    statement: regions.kerala.places.thrissur.latitude.gopala_varyar_1954
+    reading: 'gopala_varyar_1954 p. 145 (PDF 162), the place''s row: latitude north'
+  longitude:
+    unit: degrees_east
+    statement: regions.kerala.places.thrissur.longitude.gopala_varyar_1954
+    reading: 'gopala_varyar_1954 p. 145 (PDF 162), the place''s row: longitude east of Greenwich'
+  meridian_longitude:
+    unit: degrees_east
+    statement: texts.aryabhatiya.meridian.ujjain_longitude.laghubhaskariya_1963
+    reading: 'Shukla''s footnote 2 on laghubhaskariya_1963 p. 2: the meridian of Ujjain, through Laṅkā, east of Greenwich'
+  conversion:
+    aryabhatiya:
+      latitude: texts.aryabhatiya.procedures.day_radius_earthsine.laghubhaskariya_1963
+      meridian_offset: texts.aryabhatiya.procedures.desantara.yojana_rule
+    drgganita:
+      latitude: texts.drgganita.procedures.ascensional_difference.verses.v074a.goladipika_1916
+      meridian_offset: texts.drgganita.procedures.carry.desantara.verses.v196a.goladipika_1916
+      meridian_identification: texts.drgganita.samarekha.identification.grahanamandana_1965
+      meridian_gap: texts.drgganita.samarekha.modern_longitude
+    suryasiddhanta:
+      latitude: texts.suryasiddhanta.gnomon.palabha_from_latitude.iii17b.suryasiddhanta_burgess_1860
+      meridian_offset: texts.suryasiddhanta.procedures.desantara.rule
+      meridian_identification: texts.suryasiddhanta.meridian.identification.suryasiddhanta_burgess_1860
+      meridian_gap: texts.suryasiddhanta.meridian.modern_longitude
+  notes: 'The text''s meridian in modern longitude: two editors print different values for Ujjain, texts.aryabhatiya.meridian.ujjain_longitude.laghubhaskariya_1963 and .ujjayini_longitude.aryabhatiya_1976 (aryabhatiya_1976 vol. 1 p. 123); laghubhaskariya_1963''s is taken by the library author''s decision, the conflict kept on record: aryabhatiya_1976''s value would move every offset here by about 4.4 vināḍikās.'
+- id: user
+  name: user-supplied coordinates
+  route: user_coordinates
+  texts: [aryabhatiya, drgganita, suryasiddhanta]
+  meridian_longitude:
+    unit: degrees_east
+    statement: texts.aryabhatiya.meridian.ujjain_longitude.laghubhaskariya_1963
+    reading: 'Shukla''s footnote 2 on laghubhaskariya_1963 p. 2: the meridian of Ujjain, through Laṅkā, east of Greenwich'
+  conversion:
+    aryabhatiya:
+      latitude: texts.aryabhatiya.procedures.day_radius_earthsine.laghubhaskariya_1963
+      meridian_offset: texts.aryabhatiya.procedures.desantara.yojana_rule
+    drgganita:
+      latitude: texts.drgganita.procedures.ascensional_difference.verses.v074a.goladipika_1916
+      meridian_offset: texts.drgganita.procedures.carry.desantara.verses.v196a.goladipika_1916
+      meridian_identification: texts.drgganita.samarekha.identification.grahanamandana_1965
+      meridian_gap: texts.drgganita.samarekha.modern_longitude
+    suryasiddhanta:
+      latitude: texts.suryasiddhanta.gnomon.palabha_from_latitude.iii17b.suryasiddhanta_burgess_1860
+      meridian_offset: texts.suryasiddhanta.procedures.desantara.rule
+      meridian_identification: texts.suryasiddhanta.meridian.identification.suryasiddhanta_burgess_1860
+      meridian_gap: texts.suryasiddhanta.meridian.modern_longitude
+  provisional: the coordinates are the user's, not a cited datum; route (b) converts them by the same rules and meridian as the tabled places
+  notes: 'The template for an observer kerala/@<lat>,<lon> (regions/places.py): the meridian and the conversion rules are the tabled places''; the Kerala profile''s conventions apply whatever the coordinates.'
+- id: thalassery
+  name: Thalassery
+  route: gap
+  texts: [aryabhatiya]
+  gap: regions.kerala.places.thalassery.coordinates
+- id: kochi
+  name: Kochi
+  route: gap
+  texts: [aryabhatiya]
+  gap: regions.kerala.places.kochi.coordinates
+data: []
+notes: 'The Kerala place table. No held source prints a palabhā or a yojana offset for any of the five places (the route (a) gaps regions.kerala.places.<id>.palabha in coordinates.yaml), so a place reaches the Āryabhaṭan methods (aryabhatiya and parahita, one text) by route (b) from gopala_varyar_1954''s printed modern coordinates, or not at all (Thalassery and Kochi: no printed coordinate). The coordinates and the place-name statements are data of coordinates.yaml; the names in Malayalam are left for later work leads.'

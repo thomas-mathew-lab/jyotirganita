@@ -1,0 +1,488 @@
+id: authority/aryabhatiya/mahabhaskariya_1960_ch8_24_sun_mars_residues
+methods: [aryabhatiya]
+class: editor_computed
+source: mahabhaskariya_1960
+file: mahabhaskariya_1960-mahabhaskariya-shukla-1960.pdf
+edition_page: 45
+pdf_page: 130
+locus: VIII.24-24* (pp. 224–225, PDF 309–310), solved by Shukla as I.52 'Example 3. "Some number of days is (severally) divided by the (abraded) civil days for the Sun and for Mars. The (resulting) quotients are unknown to me; the residues, too, are not seen by me. … The remainder for the Sun is …, and that for Mars is …. From these remainders severally calculate, O mathematician, the ahargaṇas for the Sun and Mars and also the ahargaṇa conforming to the two residues and state them in proper order."', pp. 45–46 (PDF 130–131)
+rounding: none (integers)
+precision: integers, as printed
+datum_keys: [texts.aryabhatiya.sun.revolutions, texts.aryabhatiya.mars.revolutions, texts.aryabhatiya.civil_days.laghubhaskariya_1963]
+notes: 'Footnote 1 on p. 45: ''Bhāskara I''s example, occurring in his comm. on Ā, ii. 32-33. Also see MBh, viii. 24-24*.'' The question is Bhāskara I''s; the solution and its figures are Shukla''s (editor_computed). The two remainders are the remainders of the residue times the abraded revolution number divided by the abraded civil days. The forward test is those two remainders at ahargaṇa 132133125 (Shukla''s A), from the keyed revolution numbers and civil days. Shukla''s ''and that for Mars 931'' (p. 46) names λ where the parallel with the Sun''s a = 8833 would name b = 640000 (the reader''s observation); kept as printed under output.mars_lambda and not used by the test.'
+values:
+- name: input.sun_remainder
+  role: input
+  value: 38472
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 45
+  pdf_page: 130
+  locus: I.52, 'Example 3. "Some number of days is (severally) divided by the (abraded) civil days for the Sun and for Mars. …"' and Shukla's solution, 'The remainder for the Sun is …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 130)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.mars_remainder
+  role: input
+  value: 77180625
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 45
+  pdf_page: 130
+  locus: I.52, 'Example 3. "Some number of days is (severally) divided by the (abraded) civil days for the Sun and for Mars. …"' and Shukla's solution, 'and that for Mars is …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 130)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: question.sun_remainder
+  role: input
+  value: 38472
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 224
+  pdf_page: 309
+  locus: VIII.24-24*, 'The remainder for the Sun is …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 309)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: question.mars_remainder
+  role: input
+  value: 77180625
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 224
+  pdf_page: 309
+  locus: VIII.24-24*, 'that for Mars, …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 309)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.abraded_sun_revolutions
+  role: output
+  value: 576
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 45
+  pdf_page: 130
+  locus: 'I.52, ''Example 3. "Some number of days is (severally) divided by the (abraded) civil days for the Sun and for Mars. …"'' and Shukla''s solution, ''The abraded revolution-number and the abraded civil days for the Sun are … and … respectively'': the first.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 130)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.abraded_sun_civil_days
+  role: output
+  value: 210389
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 45
+  pdf_page: 130
+  locus: 'I.52, ''Example 3. "Some number of days is (severally) divided by the (abraded) civil days for the Sun and for Mars. …"'' and Shukla''s solution, the same sentence: the second.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 130)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.abraded_mars_revolutions
+  role: output
+  value: 191402
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 45
+  pdf_page: 130
+  locus: 'I.52, ''Example 3. "Some number of days is (severally) divided by the (abraded) civil days for the Sun and for Mars. …"'' and Shukla''s solution, ''the same for Mars are … and … respectively'': the first.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 130)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.abraded_mars_civil_days
+  role: output
+  value: 131493125
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 45
+  pdf_page: 130
+  locus: 'I.52, ''Example 3. "Some number of days is (severally) divided by the (abraded) civil days for the Sun and for Mars. …"'' and Shukla''s solution, the same: the second.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 130)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.sun_residue
+  role: output
+  value: 8833
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 46
+  pdf_page: 131
+  locus: I.52, 'Example 3. "Some number of days is (severally) divided by the (abraded) civil days for the Sun and for Mars. …"' and Shukla's solution, p. 46, 'Solving (…), we get a = …'; 'Hence the ahargaṇa for the Sun is …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 131)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.sun_beta
+  role: output
+  value: 24
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 46
+  pdf_page: 131
+  locus: I.52, 'Example 3. "Some number of days is (severally) divided by the (abraded) civil days for the Sun and for Mars. …"' and Shukla's solution, p. 46, the same sentence, 'β = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 131)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.mars_residue
+  role: output
+  value: 640000
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 46
+  pdf_page: 131
+  locus: I.52, 'Example 3. "Some number of days is (severally) divided by the (abraded) civil days for the Sun and for Mars. …"' and Shukla's solution, p. 46, 'and solving (…), we get b = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 131)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.mars_lambda
+  role: output
+  value: 931
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 46
+  pdf_page: 131
+  locus: I.52, 'Example 3. "Some number of days is (severally) divided by the (abraded) civil days for the Sun and for Mars. …"' and Shukla's solution, p. 46, the same sentence, 'λ = …'; 'and that for Mars …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 131)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.pulveriser_subtractive
+  role: output
+  value: 631167
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 46
+  pdf_page: 131
+  locus: I.52, 'Example 3. "Some number of days is (severally) divided by the (abraded) civil days for the Sun and for Mars. …"' and Shukla's solution, p. 46, the pulveriser '(… x — …) / … = y'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 131)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.reduced_divisor
+  role: output
+  value: 625
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 46
+  pdf_page: 131
+  locus: 'I.52, ''Example 3. "Some number of days is (severally) divided by the (abraded) civil days for the Sun and for Mars. …"'' and Shukla''s solution, p. 46, ''(…)'', ''i.e, (x — …) / … = y'': the divisor.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 131)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.reduced_subtractive
+  role: output
+  value: 3
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 46
+  pdf_page: 131
+  locus: 'I.52, ''Example 3. "Some number of days is (severally) divided by the (abraded) civil days for the Sun and for Mars. …"'' and Shukla''s solution, p. 46, (…): the subtractive.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 131)
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 131)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.x
+  role: output
+  value: 628
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 46
+  pdf_page: 131
+  locus: I.52, 'Example 3. "Some number of days is (severally) divided by the (abraded) civil days for the Sun and for Mars. …"' and Shukla's solution, p. 46, 'The minimum solution of (…) is evidently x = …,'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 131)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.y
+  role: output
+  value: 1
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 46
+  pdf_page: 131
+  locus: I.52, 'Example 3. "Some number of days is (severally) divided by the (abraded) civil days for the Sun and for Mars. …"' and Shukla's solution, p. 46, 'y = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 131)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.ahargana
+  role: output
+  value: 132133125
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 46
+  pdf_page: 131
+  locus: I.52, 'Example 3. "Some number of days is (severally) divided by the (abraded) civil days for the Sun and for Mars. …"' and Shukla's solution, p. 46, 'Hence A = …'; 'is therefore equal to …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 131)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''

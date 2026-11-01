@@ -1,0 +1,559 @@
+id: authority/aryabhatiya/laghubhaskariya_1963_app_ex3_saturn
+methods: [aryabhatiya]
+class: editor_computed
+source: laghubhaskariya_1963
+file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+edition_page: 107
+pdf_page: 180
+locus: the appendix 'Theory of the pulveriser', §2.4, 'Ex. 3. The residue of the revolution (bhagaṇa-śeṣa) of Saturn is … ; find the days (ahargaṇa) and the revolutions performed by Saturn, given that the formula for the Sun's revolutions for A days is 36641A/….' and its solution, pp. 107–108 (PDF 180–181); the same example by the alternative method of §2.5, p. 109 (PDF 182)
+rounding: none (integers)
+precision: integers, as printed
+datum_keys: [texts.aryabhatiya.saturn.revolutions, texts.aryabhatiya.civil_days.laghubhaskariya_1963]
+notes: Shukla's example (editor_computed); the same problem as mahabhaskariya_1960's mahabhaskariya_1960_ch1_saturn_residue (residue 24, the same answer). The question prints 'the Sun's revolutions' where the figures are Saturn's abraded revolution number and civil days (146564 and 1577917500 divided by 4; the reader's observation; kept as printed in the locus, not a keyed value). The reduced chain's intermediate columns (p. 108) are not keyed; the chain's quotients, the reduced dividend and divisor, the mati, the final pair and the §2.5 pair are. The forward test is Saturn's mean longitude at ahargaṇa 346688814 from the keyed revolution number and civil days.
+values:
+- name: input.residue
+  role: input
+  value: 24
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 107
+  pdf_page: 180
+  locus: the appendix 'Theory of the pulveriser', 'Ex. 3. The residue of the revolution (bhagaṇa-śeṣa) of Saturn is … ; …' and its solution, 'of Saturn is …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 346
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 180)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 346
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: ''
+- name: input.abraded_revolutions
+  role: input
+  value: 36641
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 107
+  pdf_page: 180
+  locus: 'the appendix ''Theory of the pulveriser'', ''Ex. 3. The residue of the revolution (bhagaṇa-śeṣa) of Saturn is … ; …'' and its solution, ''36641A/…'': the numerator; the pulveriser ''(36641x—…) / … =y''.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 346
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 180)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 346
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: ''
+- name: input.abraded_civil_days
+  role: input
+  value: 394479375
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 107
+  pdf_page: 180
+  locus: 'the appendix ''Theory of the pulveriser'', ''Ex. 3. The residue of the revolution (bhagaṇa-śeṣa) of Saturn is … ; …'' and its solution, the same: the denominator.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 346
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 180)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 346
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: ''
+- name: output.chain.1
+  role: output
+  value: 10766
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 108
+  pdf_page: 181
+  locus: the appendix 'Theory of the pulveriser', 'Ex. 3. The residue of the revolution (bhagaṇa-śeṣa) of Saturn is … ; …' and its solution, p. 108, the first chain of quotients, first entry.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: tile r1c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 181)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: ''
+- name: output.chain.2
+  role: output
+  value: 15
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 108
+  pdf_page: 181
+  locus: the appendix 'Theory of the pulveriser', 'Ex. 3. The residue of the revolution (bhagaṇa-śeṣa) of Saturn is … ; …' and its solution, p. 108, the chain, second entry.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: tile r1c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 181)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: ''
+- name: output.chain.3
+  role: output
+  value: 2
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 108
+  pdf_page: 181
+  locus: the appendix 'Theory of the pulveriser', 'Ex. 3. The residue of the revolution (bhagaṇa-śeṣa) of Saturn is … ; …' and its solution, p. 108, the chain, third entry.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: tile r1c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 181)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: ''
+- name: output.chain.4
+  role: output
+  value: 7
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 108
+  pdf_page: 181
+  locus: the appendix 'Theory of the pulveriser', 'Ex. 3. The residue of the revolution (bhagaṇa-śeṣa) of Saturn is … ; …' and its solution, p. 108, the chain, fourth entry.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: tile r1c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 181)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: ''
+- name: output.chain.5
+  role: output
+  value: 22
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 108
+  pdf_page: 181
+  locus: the appendix 'Theory of the pulveriser', 'Ex. 3. The residue of the revolution (bhagaṇa-śeṣa) of Saturn is … ; …' and its solution, p. 108, the chain, fifth entry.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: tile r1c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 181)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: ''
+- name: output.chain.6
+  role: output
+  value: 2
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 108
+  pdf_page: 181
+  locus: the appendix 'Theory of the pulveriser', 'Ex. 3. The residue of the revolution (bhagaṇa-śeṣa) of Saturn is … ; …' and its solution, p. 108, the chain, sixth entry.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: tile r1c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 181)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: ''
+- name: output.reduced_dividend
+  role: output
+  value: 1
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 108
+  pdf_page: 181
+  locus: 'the appendix ''Theory of the pulveriser'', ''Ex. 3. The residue of the revolution (bhagaṇa-śeṣa) of Saturn is … ; …'' and its solution, p. 108, ''The reduced dividend and reduced divisor are … and … respectively'': the first.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: tile r1c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 181)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: ''
+- name: output.reduced_divisor
+  role: output
+  value: 3
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 108
+  pdf_page: 181
+  locus: 'the appendix ''Theory of the pulveriser'', ''Ex. 3. The residue of the revolution (bhagaṇa-śeṣa) of Saturn is … ; …'' and its solution, p. 108, the same sentence: the second.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: tile r1c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 181)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: ''
+- name: output.mati
+  role: output
+  value: 27
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 108
+  pdf_page: 181
+  locus: the appendix 'Theory of the pulveriser', 'Ex. 3. The residue of the revolution (bhagaṇa-śeṣa) of Saturn is … ; …' and its solution, p. 108, 'and thus obtain … for the mati'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: tile r1c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 181)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: ''
+- name: output.chain.last
+  role: output
+  value: 1
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 108
+  pdf_page: 181
+  locus: the appendix 'Theory of the pulveriser', 'Ex. 3. The residue of the revolution (bhagaṇa-śeṣa) of Saturn is … ; …' and its solution, p. 108, '… which divided by the reduced divisor … yields … as the quotient'; the second chain's last entry.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 181)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: ''
+- name: output.multiplier
+  role: output
+  value: 3108044439
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 108
+  pdf_page: 181
+  locus: the appendix 'Theory of the pulveriser', 'Ex. 3. The residue of the revolution (bhagaṇa-śeṣa) of Saturn is … ; …' and its solution, p. 108, the reduced chain's last column, '… (multiplier)'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 181)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: ''
+- name: output.quotient
+  role: output
+  value: 288689
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 108
+  pdf_page: 181
+  locus: the appendix 'Theory of the pulveriser', 'Ex. 3. The residue of the revolution (bhagaṇa-śeṣa) of Saturn is … ; …' and its solution, p. 108, the same column, '… (quotient)'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 181)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: ''
+- name: output.ahargana
+  role: output
+  value: 346688814
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 108
+  pdf_page: 181
+  locus: the appendix 'Theory of the pulveriser', 'Ex. 3. The residue of the revolution (bhagaṇa-śeṣa) of Saturn is … ; …' and its solution, p. 108, 'Therefore x=…'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 181)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: ''
+- name: output.revolutions
+  role: output
+  value: 32202
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 108
+  pdf_page: 181
+  locus: the appendix 'Theory of the pulveriser', 'Ex. 3. The residue of the revolution (bhagaṇa-śeṣa) of Saturn is … ; …' and its solution, p. 108, 'y=…'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 181)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 349
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 349
+    max_edge: 2000
+    note: ''
+- name: alternative.multiplier
+  role: output
+  value: 113065211
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 109
+  pdf_page: 182
+  locus: the appendix 'Theory of the pulveriser', 'Ex. 3. The residue of the revolution (bhagaṇa-śeṣa) of Saturn is … ; …' and its solution, p. 109, §2.5, 'x=… (multiplier)' for '(… x —…) / … =y'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 350
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 350
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 182)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 350
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 350
+    max_edge: 2000
+    note: ''
+- name: alternative.quotient
+  role: output
+  value: 10502
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 109
+  pdf_page: 182
+  locus: the appendix 'Theory of the pulveriser', 'Ex. 3. The residue of the revolution (bhagaṇa-śeṣa) of Saturn is … ; …' and its solution, p. 109, §2.5, 'y=… (quotient)'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 350
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 350
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 182)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 350
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 350
+    max_edge: 2000
+    note: ''
+- name: alternative.ahargana
+  role: output
+  value: 346688814
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 109
+  pdf_page: 182
+  locus: the appendix 'Theory of the pulveriser', 'Ex. 3. The residue of the revolution (bhagaṇa-śeṣa) of Saturn is … ; …' and its solution, p. 109, §2.5, 'we get … as remainder. These are the required days.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 350
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 350
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 182)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 350
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 350
+    max_edge: 2000
+    note: ''
+- name: alternative.revolutions
+  role: output
+  value: 32202
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 109
+  pdf_page: 182
+  locus: the appendix 'Theory of the pulveriser', 'Ex. 3. The residue of the revolution (bhagaṇa-śeṣa) of Saturn is … ; …' and its solution, p. 109, §2.5, 'we get … as remainder. These are the required revolutions of Saturn.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 350
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 350
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 182)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 350
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 350
+    max_edge: 2000
+    note: ''

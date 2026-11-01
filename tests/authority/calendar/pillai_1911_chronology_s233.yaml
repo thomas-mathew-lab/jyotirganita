@@ -1,0 +1,242 @@
+id: authority/calendar/pillai_1911_chronology_s233
+methods: [calendar]
+class: text_computed
+source: pillai_1911_chronology
+edition_page: 86
+pdf_page: 108
+locus: §233, the worked example
+rounding: 'none: whole days and a remainder modulo 7'
+precision: null
+datum_keys: []
+notes: The author's own arithmetic in the book's rule (§233); a New Style date (calendar.statement, §236).
+values:
+- name: input.date
+  role: input
+  value: 15 July 1910
+  form: text
+  unit: date
+  script: latin
+  locus: '§233: the date whose week-day is computed Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 360
+    clip: [55, 40, 640, 300]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: tiles 2x1 --overlap 8 of this clip (r1c1 [55,40,351.5,300], r1c2 [343.5,40,640,300])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 360
+    clip: [55, 40, 640, 300]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: ''
+- name: input.coefficient_century
+  role: input
+  value: 2
+  form: integer
+  unit: coefficient
+  script: latin
+  locus: '§233: the co-efficient of the century'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 360
+    clip: [55, 40, 640, 300]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: tiles 2x1 --overlap 8 of this clip (r1c1 [55,40,351.5,300], r1c2 [343.5,40,640,300])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 360
+    clip: [55, 40, 640, 300]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: ''
+- name: input.coefficient_year
+  role: input
+  value: 5
+  form: integer
+  unit: coefficient
+  script: latin
+  locus: '§233: the co-efficient of the year'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 360
+    clip: [55, 40, 640, 300]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: tiles 2x1 --overlap 8 of this clip (r1c1 [55,40,351.5,300], r1c2 [343.5,40,640,300])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 360
+    clip: [55, 40, 640, 300]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: ''
+- name: input.coefficient_month
+  role: input
+  value: 5
+  form: integer
+  unit: coefficient
+  script: latin
+  locus: '§233: the co-efficient of the month'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 360
+    clip: [55, 40, 640, 300]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: tiles 2x1 --overlap 8 of this clip (r1c1 [55,40,351.5,300], r1c2 [343.5,40,640,300])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 360
+    clip: [55, 40, 640, 300]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: ''
+- name: input.day
+  role: input
+  value: 15
+  form: integer
+  unit: days
+  script: latin
+  locus: '§233: the day of the month'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 360
+    clip: [55, 40, 640, 300]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: tiles 2x1 --overlap 8 of this clip (r1c1 [55,40,351.5,300], r1c2 [343.5,40,640,300])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 360
+    clip: [55, 40, 640, 300]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: ''
+- name: output.total
+  role: output
+  value: 27
+  form: integer
+  unit: coefficient
+  script: latin
+  locus: '§233: the total'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 360
+    clip: [55, 40, 640, 300]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: tiles 2x1 --overlap 8 of this clip (r1c1 [55,40,351.5,300], r1c2 [343.5,40,640,300])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 360
+    clip: [55, 40, 640, 300]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: ''
+- name: output.remainder
+  role: output
+  value: 6
+  form: integer
+  unit: weekday_number
+  script: latin
+  locus: '§233: the remainder of the total divided by 7'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 360
+    clip: [55, 40, 640, 300]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: tiles 2x1 --overlap 8 of this clip (r1c1 [55,40,351.5,300], r1c2 [343.5,40,640,300])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 360
+    clip: [55, 40, 640, 300]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: ''
+- name: output.weekday
+  role: output
+  value: Friday
+  form: text
+  unit: weekday
+  script: latin
+  locus: '§233: the closing sentence (''... was, therefore, a ...''): the week-day only Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 360
+    clip: [55, 40, 640, 300]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: tiles 2x1 --overlap 8 of this clip (r1c1 [55,40,351.5,300], r1c2 [343.5,40,640,300])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 360
+    clip: [55, 40, 640, 300]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: ''
+- name: calendar.statement
+  role: input
+  value: For Old Style dates, i.e., dates down to, and inclusive of, 2 Sep. A.D. 1752, the reader should use the co-efficients of centuries appearing under "Old Style" in Table IV.
+  form: text
+  unit: statement
+  script: latin
+  edition_page: 87
+  pdf_page: 109
+  locus: '§236: the sentence beginning ''For Old Style dates'' Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 360
+    clip: [15, 45, 625, 235]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: tiles 2x1 --overlap 8 of this clip ([15,45,324,235], [316,45,625,235])
+  status: double_read
+  notes: 'The book''s statement of its dates'' calendar: Old Style (Julian) down to 2 Sep. 1752, New Style (Gregorian) after.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 360
+    clip: [15, 45, 625, 235]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-03-r2
+      on: 2026-10-03
+      dpi: 360
+      clip: [15, 45, 625, 235]
+      delivered_ppi: 360
+      max_edge: 2000
+      note: ''
+    matches: second_read

@@ -1,0 +1,59 @@
+- key: modern.witness.iae_2021.refraction.iae_india.horizontal
+  value: '31'
+  form: fraction
+  unit: arcminutes
+  script: latin
+  source: indian_astronomical_ephemeris
+  file: indian_astronomical_ephemeris-iae-2021.pdf
+  edition_page: 372
+  pdf_page: 378
+  locus: 'Indian Calendar, Explanatory Note, the Sunrise and Sunset paragraph: the amount of horizontal refraction its second sentence states, with its unit (a second witness of modern.refraction.iae_india.horizontal from another year''s volume). Keyed as printed.'
+  read:
+  - by: claude-opus-5-5/2026-10-31-r1
+    on: 2026-10-31
+    dpi: 400
+    clip: [65, 695, 535, 755]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'born-digital page (native: vector) rendered at 400 dpi, tiles 2x1 of this clip'
+  status: double_read
+  verified_by: [modern.refraction.iae_india.horizontal]
+  emendation: null
+  notes: printed with a prime after the number. The same paragraph states the semidiameter and the centre's depression; EXPLANATION Part III (printed p. 454, PDF p. 460) states the same refraction for the Indian stations (both readers keyed it as a statement; not entered).
+  second_read:
+  - by: claude-opus-5-5/2026-10-31-r2
+    on: 2026-10-31
+    dpi: 400
+    clip: [60, 695, 540, 752]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'born-digital page (native: vector), tiles 2x1 of this clip'
+- key: modern.witness.rashtriya_panchanga_1959.sunrise_refraction
+  value: '31'
+  form: fraction
+  unit: arcminutes
+  script: latin
+  source: rashtriya_panchanga_1959
+  edition_page: xvi
+  pdf_page: 18
+  locus: 'explanatory notes, the paragraph beginning ''The Sunrise and Sunset times relate'': the amount of horizontal refraction its second sentence states, with its unit (a second witness of modern.refraction.iae_india.horizontal from another source). Keyed as printed.'
+  read:
+  - by: claude-opus-5-5/2026-10-31-r1
+    on: 2026-10-31
+    dpi: 482
+    clip: [48, 90, 345, 250]
+    delivered_ppi: 241
+    max_edge: 2000
+    note: scan native 241 ppi; tiles 1x2 of this clip rendered at 482 dpi (an upsample; delivered 241)
+  status: double_read
+  verified_by: [modern.refraction.iae_india.horizontal]
+  emendation: null
+  notes: 'printed with a prime after the number. The sentence defines sunrise by the upper limb, as the IAE does, for the Central Station. Extra lead of both readers, not a witness: calendar_reform_committee_1955 (1955), printed p. [40] (PDF p. 52), item (5), defines the calendar''s sunrise by the centre of the Sun with a different refraction figure; calendar_reform_committee_1955 PDF pp. 27 and 128 state a centre-of-Sun rule with no figure; PDF p. 237 (second reader) states a figure in a historical argument.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-31-r2
+    on: 2026-10-31
+    dpi: 241
+    clip: [45, 92, 345, 250]
+    delivered_ppi: 241
+    max_edge: 2000
+    note: one tile at the scan's native 241 ppi

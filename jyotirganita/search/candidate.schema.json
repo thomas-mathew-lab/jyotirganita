@@ -1,0 +1,88 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "jyotirganita/search/candidate.schema.json",
+ "title": "One candidate of an inverse search, as written by search/results.py",
+ "description": "The keys of each object are written in the order its `properties` lists them; the keys of an object whose properties this schema does not list (a record field, an evidence block) are written sorted. Exact values are {exact: \"num/den\"} under numeric exact, floats in shortest round-trip form under numeric float.",
+ "type": "object",
+ "required": ["class", "method_id", "numeric", "dates", "fields", "constraints", "flags", "provenance"],
+ "additionalProperties": false,
+ "properties": {
+  "class": {"enum": ["match", "near_miss"]},
+  "method_id": {"type": "string"},
+  "numeric": {"enum": ["exact", "float"]},
+  "dates": {
+   "type": "object",
+   "required": ["jdn", "julian", "gregorian"],
+   "additionalProperties": false,
+   "properties": {
+    "jdn": {"type": "integer"},
+    "julian": {"$ref": "#/$defs/ymd"},
+    "gregorian": {"$ref": "#/$defs/ymd"}
+   }
+  },
+  "fields": {
+   "description": "The day-record fields the constraints touched, with the civil-day boundaries and the era dates",
+   "type": "object"
+  },
+  "constraints": {"type": "array", "items": {"$ref": "#/$defs/constraint"}},
+  "misses": {
+   "description": "Present on a near_miss only: the require constraints that failed",
+   "type": "array",
+   "minItems": 1,
+   "items": {"$ref": "#/$defs/miss"}
+  },
+  "flags": {"type": "array", "items": {"type": "string"}},
+  "provenance": {"type": "object"}
+ },
+ "allOf": [
+  {"if": {"properties": {"class": {"const": "near_miss"}}}, "then": {"required": ["misses"]}},
+  {"if": {"properties": {"class": {"const": "match"}}}, "then": {"not": {"required": ["misses"]}}}
+ ],
+ "$defs": {
+  "ymd": {
+   "type": "object",
+   "required": ["y", "m", "d"],
+   "additionalProperties": false,
+   "properties": {"y": {"type": "integer"}, "m": {"type": "integer"}, "d": {"type": "integer"}}
+  },
+  "exact": {
+   "type": "object",
+   "required": ["exact"],
+   "additionalProperties": false,
+   "properties": {"exact": {"type": "string", "pattern": "^-?[0-9]+/[1-9][0-9]*$"}}
+  },
+  "margin": {
+   "type": "object",
+   "required": ["unit", "value"],
+   "properties": {
+    "unit": {"enum": ["nadika", "degree", "day", "month", "year"]},
+    "value": {"anyOf": [{"type": "integer"}, {"type": "number"}, {"$ref": "#/$defs/exact"}, {"type": "null"}]}
+   }
+  },
+  "constraint": {
+   "type": "object",
+   "required": ["index", "element", "mode", "given", "matched", "evidence", "margin"],
+   "additionalProperties": false,
+   "properties": {
+    "index": {"type": "integer", "minimum": 0},
+    "element": {"type": "string"},
+    "mode": {"enum": ["require", "report"]},
+    "match": {"type": "string"},
+    "given": {"type": "object"},
+    "matched": {"type": "boolean"},
+    "evidence": {"type": "object"},
+    "margin": {"anyOf": [{"$ref": "#/$defs/margin"}, {"type": "null"}]}
+   }
+  },
+  "miss": {
+   "type": "object",
+   "required": ["index", "element", "margin"],
+   "additionalProperties": false,
+   "properties": {
+    "index": {"type": "integer", "minimum": 0},
+    "element": {"type": "string"},
+    "margin": {"$ref": "#/$defs/margin"}
+   }
+  }
+ }
+}

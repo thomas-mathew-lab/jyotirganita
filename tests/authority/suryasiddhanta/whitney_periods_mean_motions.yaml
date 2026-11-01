@@ -1,0 +1,1147 @@
+id: authority/suryasiddhanta/whitney_periods_mean_motions
+methods: [suryasiddhanta]
+class: editor_computed
+source: suryasiddhanta_burgess_1860
+edition_page: 161
+pdf_page: 22
+locus: table "Mean Motions of the Planets." at the head of printed p. 161 (PDF 22), under i.34; columns explained on p. 160 (PDF 21) from "It is farther to be observed" to "the mean daily motions."
+rounding: periods printed to hundredths of a respiration (p as a decimal); daily motions to tenths of the fourth sexagesimal order; p. 160 says the respirations become third-order sexagesimals by moving the point one place right
+precision: 'period: 0.01 respiration (p); daily motion: 0.1 fourth ('''''''')'
+datum_keys: []
+notes: 'Table heads as printed: "Planet." | "Number of revolutions in 4,320,000 years." | "Number of revolutions in 1,080,000 years." | "Length of a revolution in mean solar time." (sub-heads d n v p) | "Mean daily motion." (sub-heads ° '' '''' '''''' ''''''''). Per p. 160 the period is the civil days in an Age (from v. 34) divided by the revolutions, in days, nadis, vinadis and respirations. The table has a single column per quantity (no bija or modern column on this page). The civil-day count it divides by is not printed in the table. Moon rows printed under the head "Moon:" as sider. rev., synod. rev., rev. of apsis, node. Sexagesimal values keyed as printed in their columns; a column left blank in print (no degrees for a body moving under 1 degree a day) keyed null. Decimals keyed as strings.'
+values:
+- name: input.sun.revolutions_4320000_years
+  role: input
+  value: 4320000
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: row "Sun", column "Number of revolutions in … years."; integer, grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 84, 202, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [14,84,384,194] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 84, 202, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sun.revolutions_1080000_years
+  role: output
+  value: 1080000
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: row "Sun", column "Number of revolutions in … years."; grouping dropped, a mixed fraction as "<whole> <num>/<den>"
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 84, 202, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [14,84,384,194] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 84, 202, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sun.length_of_revolution
+  role: output
+  value:
+  - [365, 15, 31, '3.14']
+  form: table
+  columns: [days, nadis, vinadis, respirations]
+  unit: days_nadis_vinadis_respirations
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: row "Sun", column "Length of a revolution in mean solar time." [d, n, v, p]; p decimal as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 84, 384, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [14,84,384,194] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r1
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 84, 384, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sun.mean_daily_motion
+  role: output
+  value:
+  - [null, 59, 8, 10, '10.4']
+  form: table
+  columns: [degrees, minutes, seconds, thirds, fourths]
+  unit: degrees_minutes_seconds_thirds_fourths
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: row "Sun", column "Mean daily motion." [deg, ', '', ''', ''''] as printed in their columns; blank degree column null; last part decimal as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 84, 384, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [14,84,384,194] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: degree column blank in print.
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r1
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 84, 384, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.mercury.revolutions_4320000_years
+  role: input
+  value: 17937060
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: row "Mercury", column "Number of revolutions in … years."; integer, grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 84, 202, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [14,84,384,194] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 84, 202, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mercury.revolutions_1080000_years
+  role: output
+  value: 4484265
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: row "Mercury", column "Number of revolutions in … years."; grouping dropped, a mixed fraction as "<whole> <num>/<den>"
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 84, 202, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [14,84,384,194] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 84, 202, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mercury.length_of_revolution
+  role: output
+  value:
+  - [87, 58, 10, '5.57']
+  form: table
+  columns: [days, nadis, vinadis, respirations]
+  unit: days_nadis_vinadis_respirations
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: row "Mercury", column "Length of a revolution in mean solar time." [d, n, v, p]; p decimal as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 84, 384, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [14,84,384,194] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r1
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 84, 384, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mercury.mean_daily_motion
+  role: output
+  value:
+  - [4, 5, 32, 20, '41.9']
+  form: table
+  columns: [degrees, minutes, seconds, thirds, fourths]
+  unit: degrees_minutes_seconds_thirds_fourths
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: row "Mercury", column "Mean daily motion." [deg, ', '', ''', ''''] as printed in their columns; blank degree column null; last part decimal as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 84, 384, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [14,84,384,194] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r1
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 84, 384, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.venus.revolutions_4320000_years
+  role: input
+  value: 7022376
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: row "Venus", column "Number of revolutions in … years."; integer, grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 84, 202, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [14,84,384,194] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 84, 202, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.venus.revolutions_1080000_years
+  role: output
+  value: 1755594
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: row "Venus", column "Number of revolutions in … years."; grouping dropped, a mixed fraction as "<whole> <num>/<den>"
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 84, 202, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [14,84,384,194] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 84, 202, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.venus.length_of_revolution
+  role: output
+  value:
+  - [224, 41, 54, '5.06']
+  form: table
+  columns: [days, nadis, vinadis, respirations]
+  unit: days_nadis_vinadis_respirations
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: row "Venus", column "Length of a revolution in mean solar time." [d, n, v, p]; p decimal as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 84, 384, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [14,84,384,194] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r1
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 84, 384, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.venus.mean_daily_motion
+  role: output
+  value:
+  - [1, 36, 7, 43, '37.3']
+  form: table
+  columns: [degrees, minutes, seconds, thirds, fourths]
+  unit: degrees_minutes_seconds_thirds_fourths
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: row "Venus", column "Mean daily motion." [deg, ', '', ''', ''''] as printed in their columns; blank degree column null; last part decimal as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 84, 384, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [14,84,384,194] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r1
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 84, 384, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.mars.revolutions_4320000_years
+  role: input
+  value: 2296832
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: row "Mars", column "Number of revolutions in … years."; integer, grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 84, 202, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [14,84,384,194] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 84, 202, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mars.revolutions_1080000_years
+  role: output
+  value: 574208
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: row "Mars", column "Number of revolutions in … years."; grouping dropped, a mixed fraction as "<whole> <num>/<den>"
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 84, 202, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [14,84,384,194] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 84, 202, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mars.length_of_revolution
+  role: output
+  value:
+  - [686, 59, 50, '5.87']
+  form: table
+  columns: [days, nadis, vinadis, respirations]
+  unit: days_nadis_vinadis_respirations
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: row "Mars", column "Length of a revolution in mean solar time." [d, n, v, p]; p decimal as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 84, 384, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [14,84,384,194] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r1
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 84, 384, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mars.mean_daily_motion
+  role: output
+  value:
+  - [null, 31, 26, 28, '11.1']
+  form: table
+  columns: [degrees, minutes, seconds, thirds, fourths]
+  unit: degrees_minutes_seconds_thirds_fourths
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: row "Mars", column "Mean daily motion." [deg, ', '', ''', ''''] as printed in their columns; blank degree column null; last part decimal as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 84, 384, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [14,84,384,194] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: degree column blank in print.
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r1
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 84, 384, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.jupiter.revolutions_4320000_years
+  role: input
+  value: 364220
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: row "Jupiter", column "Number of revolutions in … years."; integer, grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 84, 202, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [14,84,384,194] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 84, 202, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.jupiter.revolutions_1080000_years
+  role: output
+  value: 91055
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: row "Jupiter", column "Number of revolutions in … years."; grouping dropped, a mixed fraction as "<whole> <num>/<den>"
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 84, 202, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [14,84,384,194] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 84, 202, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.jupiter.length_of_revolution
+  role: output
+  value:
+  - [4332, 19, 14, '2.09']
+  form: table
+  columns: [days, nadis, vinadis, respirations]
+  unit: days_nadis_vinadis_respirations
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: row "Jupiter", column "Length of a revolution in mean solar time." [d, n, v, p]; p decimal as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 84, 384, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [14,84,384,194] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r1
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 84, 384, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.jupiter.mean_daily_motion
+  role: output
+  value:
+  - [null, 4, 59, 8, '48.6']
+  form: table
+  columns: [degrees, minutes, seconds, thirds, fourths]
+  unit: degrees_minutes_seconds_thirds_fourths
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: row "Jupiter", column "Mean daily motion." [deg, ', '', ''', ''''] as printed in their columns; blank degree column null; last part decimal as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 84, 384, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [14,84,384,194] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: degree column blank in print.
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r1
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 84, 384, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.saturn.revolutions_4320000_years
+  role: input
+  value: 146568
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: row "Saturn", column "Number of revolutions in … years."; integer, grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 84, 202, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [14,84,384,194] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 84, 202, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.saturn.revolutions_1080000_years
+  role: output
+  value: 36642
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: row "Saturn", column "Number of revolutions in … years."; grouping dropped, a mixed fraction as "<whole> <num>/<den>"
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 84, 202, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [14,84,384,194] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 84, 202, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.saturn.length_of_revolution
+  role: output
+  value:
+  - [10765, 46, 23, '0.41']
+  form: table
+  columns: [days, nadis, vinadis, respirations]
+  unit: days_nadis_vinadis_respirations
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: row "Saturn", column "Length of a revolution in mean solar time." [d, n, v, p]; p decimal as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 84, 384, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [14,84,384,194] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r1
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 84, 384, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.saturn.mean_daily_motion
+  role: output
+  value:
+  - [null, 2, 0, 22, '53.4']
+  form: table
+  columns: [degrees, minutes, seconds, thirds, fourths]
+  unit: degrees_minutes_seconds_thirds_fourths
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: row "Saturn", column "Mean daily motion." [deg, ', '', ''', ''''] as printed in their columns; blank degree column null; last part decimal as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 84, 384, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [14,84,384,194] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: degree column blank in print.
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r1
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 84, 384, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.moon_sidereal.revolutions_4320000_years
+  role: input
+  value: 57753336
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: 'row "Moon: sider. rev.", column "Number of revolutions in … years."; integer, grouping dropped'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 84, 202, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [14,84,384,194] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 84, 202, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.moon_sidereal.revolutions_1080000_years
+  role: output
+  value: 14438334
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: 'row "Moon: sider. rev.", column "Number of revolutions in … years."; grouping dropped, a mixed fraction as "<whole> <num>/<den>"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 84, 202, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [14,84,384,194] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 84, 202, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.moon_sidereal.length_of_revolution
+  role: output
+  value:
+  - [27, 19, 18, '0.16']
+  form: table
+  columns: [days, nadis, vinadis, respirations]
+  unit: days_nadis_vinadis_respirations
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: 'row "Moon: sider. rev.", column "Length of a revolution in mean solar time." [d, n, v, p]; p decimal as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 84, 384, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [14,84,384,194] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r1
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 84, 384, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.moon_sidereal.mean_daily_motion
+  role: output
+  value:
+  - [13, 10, 34, 52, '3.8']
+  form: table
+  columns: [degrees, minutes, seconds, thirds, fourths]
+  unit: degrees_minutes_seconds_thirds_fourths
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: 'row "Moon: sider. rev.", column "Mean daily motion." [deg, '', '''', '''''', ''''''''] as printed in their columns; blank degree column null; last part decimal as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 84, 384, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [14,84,384,194] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r1
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 84, 384, 194]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.moon_synodic.revolutions_4320000_years
+  role: input
+  value: 53433336
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: 'row "Moon: synod. rev.", column "Number of revolutions in … years."; integer, grouping dropped'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 170, 202, 225]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [14,170,384,225] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 170, 202, 225]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.moon_synodic.revolutions_1080000_years
+  role: output
+  value: 13358334
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: 'row "Moon: synod. rev.", column "Number of revolutions in … years."; grouping dropped, a mixed fraction as "<whole> <num>/<den>"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 170, 202, 225]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [14,170,384,225] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 170, 202, 225]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.moon_synodic.length_of_revolution
+  role: output
+  value:
+  - [29, 31, 50, '0.70']
+  form: table
+  columns: [days, nadis, vinadis, respirations]
+  unit: days_nadis_vinadis_respirations
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: 'row "Moon: synod. rev.", column "Length of a revolution in mean solar time." [d, n, v, p]; p decimal as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 170, 384, 225]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [14,170,384,225] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r1
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 170, 384, 225]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.moon_synodic.mean_daily_motion
+  role: output
+  value:
+  - [12, 11, 26, 41, '53.4']
+  form: table
+  columns: [degrees, minutes, seconds, thirds, fourths]
+  unit: degrees_minutes_seconds_thirds_fourths
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: 'row "Moon: synod. rev.", column "Mean daily motion." [deg, '', '''', '''''', ''''''''] as printed in their columns; blank degree column null; last part decimal as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 170, 384, 225]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [14,170,384,225] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r1
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 170, 384, 225]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.moon_apsis.revolutions_4320000_years
+  role: input
+  value: 488203
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: 'row "Moon: rev. of apsis", column "Number of revolutions in … years."; integer, grouping dropped'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 170, 202, 225]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [14,170,384,225] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 170, 202, 225]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.moon_apsis.revolutions_1080000_years
+  role: output
+  value:
+  - [122050, 8/4]
+  form: table
+  columns: [whole, fraction]
+  unit: revolutions
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: 'row "Moon: rev. of apsis", column "Number of revolutions in … years."; grouping dropped, a mixed fraction as "<whole> <num>/<den>"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 170, 202, 225]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [14,170,384,225] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: printed with a vulgar fraction. a residual against the column's quarter.
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r1
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 170, 202, 225]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-11-r11
+      on: 2026-10-11
+      dpi: 600
+      clip: [14, 170, 202, 225]
+      delivered_ppi: 600
+      max_edge: 2000
+      note: ''
+    matches: second_read
+- name: output.moon_apsis.length_of_revolution
+  role: output
+  value:
+  - [3232, 5, 37, '1.36']
+  form: table
+  columns: [days, nadis, vinadis, respirations]
+  unit: days_nadis_vinadis_respirations
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: 'row "Moon: rev. of apsis", column "Length of a revolution in mean solar time." [d, n, v, p]; p decimal as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 170, 384, 225]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [14,170,384,225] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r1
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 170, 384, 225]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.moon_apsis.mean_daily_motion
+  role: output
+  value:
+  - [null, 6, 40, 58, '42.5']
+  form: table
+  columns: [degrees, minutes, seconds, thirds, fourths]
+  unit: degrees_minutes_seconds_thirds_fourths
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: 'row "Moon: rev. of apsis", column "Mean daily motion." [deg, '', '''', '''''', ''''''''] as printed in their columns; blank degree column null; last part decimal as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 170, 384, 225]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [14,170,384,225] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: degree column blank in print.
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r1
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 170, 384, 225]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.moon_node.revolutions_4320000_years
+  role: input
+  value: 232238
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: 'row "Moon: " " node", column "Number of revolutions in … years."; integer, grouping dropped'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 170, 202, 225]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [14,170,384,225] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 170, 202, 225]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.moon_node.revolutions_1080000_years
+  role: output
+  value:
+  - [58059, 1/2]
+  form: table
+  columns: [whole, fraction]
+  unit: revolutions
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: 'row "Moon: " " node", column "Number of revolutions in … years."; grouping dropped, a mixed fraction as "<whole> <num>/<den>"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 170, 202, 225]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [14,170,384,225] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: printed with a vulgar fraction.
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r1
+    on: 2026-10-11
+    dpi: 600
+    clip: [14, 170, 202, 225]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.moon_node.length_of_revolution
+  role: output
+  value:
+  - [6794, 23, 59, '2.35']
+  form: table
+  columns: [days, nadis, vinadis, respirations]
+  unit: days_nadis_vinadis_respirations
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: 'row "Moon: " " node", column "Length of a revolution in mean solar time." [d, n, v, p]; p decimal as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 170, 384, 225]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [14,170,384,225] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r1
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 170, 384, 225]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.moon_node.mean_daily_motion
+  role: output
+  value:
+  - [null, 3, 10, 44, '43.2']
+  form: table
+  columns: [degrees, minutes, seconds, thirds, fourths]
+  unit: degrees_minutes_seconds_thirds_fourths
+  script: latin
+  edition_page: 161
+  pdf_page: 22
+  locus: 'row "Moon: " " node", column "Mean daily motion." [deg, '', '''', '''''', ''''''''] as printed in their columns; blank degree column null; last part decimal as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 170, 384, 225]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [14,170,384,225] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_periods_mean_motions.yaml (sha256 ec4e20bc)
+  status: double_read
+  notes: degree column blank in print.
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r1
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 170, 384, 225]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

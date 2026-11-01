@@ -1,0 +1,254 @@
+id: authority/aryabhatiya/mahabhaskariya_1960_ch1_sun_observed
+methods: [aryabhatiya]
+class: editor_computed
+source: mahabhaskariya_1960
+file: mahabhaskariya_1960-mahabhaskariya-shukla-1960.pdf
+edition_page: 34
+pdf_page: 119
+locus: the 'Example. "The mean (position) of the Sun has been observed by me at sunrise to be in the sign Leo in the middle of the navamāṃśa Sagittarius. …"' under I.46(ii) and Shukla's solution, p. 34 (PDF 119)
+rounding: none (integers)
+precision: integers, as printed
+datum_keys: [texts.aryabhatiya.sun.revolutions, texts.aryabhatiya.civil_days.laghubhaskariya_1963, texts.aryabhatiya.procedures.residue.from_longitude.mahabhaskariya_1960]
+notes: 'Footnote 1: ''Bhāskara I''s example occurring in his comm. on Ā, ii. 32-33.'' The question is Bhāskara I''s; the solution and its figures are Shukla''s (editor_computed). Shukla reads the middle of the navamāṃśa Sagittarius in Leo as 4 signs 28° 20′. The residue 86688 is the quotient of 8900 × 210389 / 21600 (the fraction dropped).'
+values:
+- name: input.sun_longitude
+  role: input
+  value: [4, 28, 20]
+  form: rdms
+  unit: rasi_deg_min
+  script: latin
+  edition_page: 34
+  pdf_page: 119
+  locus: the 'Example. "The mean (position) of the Sun has been observed by me at sunrise"' under I.46(ii), 'The mean longitude of the Sun = … signs …° …′'. A degree sign printed as a superscript … is keyed as °.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 119)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.sun_minutes
+  role: output
+  value: 8900
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 34
+  pdf_page: 119
+  locus: the 'Example. "The mean (position) of the Sun has been observed by me at sunrise"' under I.46(ii), '= …′'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 119)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.abraded_sun_revolutions
+  role: input
+  value: 576
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 34
+  pdf_page: 119
+  locus: the 'Example. "The mean (position) of the Sun has been observed by me at sunrise"' under I.46(ii), 'The abraded revolution-number of the Sun = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 119)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.abraded_civil_days
+  role: input
+  value: 210389
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 34
+  pdf_page: 119
+  locus: the 'Example. "The mean (position) of the Sun has been observed by me at sunrise"' under I.46(ii), 'the abraded number of civil days in a yuga = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 119)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.residue
+  role: output
+  value: 86688
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 34
+  pdf_page: 119
+  locus: the 'Example. "The mean (position) of the Sun has been observed by me at sunrise"' under I.46(ii), 'the residue of revolutions = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 119)
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 119)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.unit_residue.ahargana
+  role: output
+  value: 94602
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 34
+  pdf_page: 119
+  locus: the 'Example. "The mean (position) of the Sun has been observed by me at sunrise"' under I.46(ii), 'Solving this equation with unit residue, we get x = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 119)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.unit_residue.revolutions
+  role: output
+  value: 259
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 34
+  pdf_page: 119
+  locus: the 'Example. "The mean (position) of the Sun has been observed by me at sunrise"' under I.46(ii), 'y = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 119)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.ahargana
+  role: output
+  value: 105345
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 34
+  pdf_page: 119
+  locus: the 'Example. "The mean (position) of the Sun has been observed by me at sunrise"' under I.46(ii), 'Deducing the solution for the given residue, we get x = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 119)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.revolutions
+  role: output
+  value: 288
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 34
+  pdf_page: 119
+  locus: the 'Example. "The mean (position) of the Sun has been observed by me at sunrise"' under I.46(ii), 'y = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 119)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''

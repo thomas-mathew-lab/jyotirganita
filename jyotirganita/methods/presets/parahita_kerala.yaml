@@ -1,0 +1,19 @@
+preset: parahita_kerala
+header:
+  represents: Parahita (the Āryabhaṭīya with Haridatta's śakābda-saṃskāra, grahacaranibandhana_1954) under the Kerala profile's conventions (regions/kerala/conventions.yaml), at the text's sunrise and the observer's place.
+  hypothesis: That a Kerala almanac computed by these procedures and printed its months by the aparāhna rule (provisional on sewell_dikshit_1896's statement alone); which almanacs did so, and when, is what the comparisons of the later packages test. The Kollam year starts at Siṃha by default, Kanyā selectable.
+  range: docs/verification.md prints the computed date range (from the method's runs_from, no upper end) and the effective composition date; neither is typed here.
+method: parahita
+variants: {}
+conventions: kerala
+time_standard: text_local:aryabhatiya
+intraday: intraday.linear_gati
+sunrise: text
+output:
+  elements: [tithi, nakshatra, yoga, karana]
+  scripts: [latin]
+engine_data:
+  text: aryabhatiya
+  layers: [sakabda_samskara]
+observer:
+  required: true

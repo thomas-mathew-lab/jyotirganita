@@ -1,0 +1,316 @@
+id: authority/suryasiddhanta/whitney_tithi
+methods: [suryasiddhanta]
+class: editor_computed
+source: suryasiddhanta_burgess_1860
+edition_page: 237
+pdf_page: 98
+locus: 'Whitney''s note to ii. 66, printed p. 237: the paragraph from ''Thus, to find the date in lunar time of the midnight preceding the first of January, [year]'' to the end of its last sentence (''... to run.'').'
+rounding: not stated
+precision: minutes of arc; pranas (respirations)
+datum_keys: [texts.suryasiddhanta.procedures.endings.tithi.ii66.suryasiddhanta_burgess_1860]
+notes: 'The lunar day (tithi) at the given midnight: the sun''s longitude deducted from the moon''s; the remainder in minutes divided by the portion of a lunar day gives the current lunar day and the parts traversed and to be traversed; these multiplied by sixty and divided by the difference of the daily motions give the time passed since the lunar day began and still to run. The day of the date (first) and the lunar day''s number (eighth) are printed in words; the year in figures. Unit marks as printed: superscript s (signs), n v p (nadis, vinadis, pranas). Errata (suryasiddhanta_burgess_1860_reprint PDF 364) checked: no entry on this page. First read lat-b, fixture file sha256 8533cb83.'
+values:
+- name: input.date.year
+  role: input
+  value: 1860
+  form: integer
+  unit: year
+  script: latin
+  edition_page: 237
+  pdf_page: 98
+  locus: sentence 'Thus, to find the date in lunar time of the midnight preceding the … of January,'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 130, 209, 184]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8533cb83); suryasiddhanta_burgess_1860_p98_600dpi_r1c1_clip40-130.png
+  status: double_read
+  notes: 'the given time: the midnight preceding the first of January of this year; the day ''first'' is printed in words and not keyed separately. locus as first keyed: sentence ''Thus, to find the date in lunar time of the midnight preceding the first of January,'''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 130, 209, 184]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.elongation
+  role: output
+  value: [2, 29, 24]
+  form: rdms
+  unit: signs_degrees_minutes
+  script: latin
+  edition_page: 237
+  pdf_page: 98
+  locus: same sentence, after 'the remainder is'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 130, 209, 184]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8533cb83); suryasiddhanta_burgess_1860_p98_600dpi_r1c1_clip40-130.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 130, 370, 184]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p98_600dpi_r1c2_clip40-130.png
+  status: double_read
+  notes: the moon less the sun; no seconds printed.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 130, 209, 184]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.elongation_minutes
+  role: output
+  value: 5364
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 237
+  pdf_page: 98
+  locus: same sentence, after 'or'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 130, 370, 184]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8533cb83); suryasiddhanta_burgess_1860_p98_600dpi_r1c2_clip40-130.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 130, 370, 184]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.tithi_portion
+  role: input
+  value: 720
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 237
+  pdf_page: 98
+  locus: same sentence, after 'dividing by'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 130, 370, 184]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8533cb83); suryasiddhanta_burgess_1860_p98_600dpi_r1c2_clip40-130.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 130, 370, 184]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.tithi.number
+  role: output
+  value: 8
+  form: integer
+  unit: tithi
+  script: latin
+  edition_page: 237
+  pdf_page: 98
+  locus: same sentence, after 'it appears that the current lunar day is the'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 130, 370, 184]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8533cb83); suryasiddhanta_burgess_1860_p98_600dpi_r1c2_clip40-130.png
+  status: double_read
+  notes: printed in words as an ordinal (eighth)
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 130, 370, 184]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.tithi.part_traversed
+  role: output
+  value: 324
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 237
+  pdf_page: 98
+  locus: same sentence, after 'and that', before 'of its portion are traversed'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 130, 370, 184]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8533cb83); suryasiddhanta_burgess_1860_p98_600dpi_r1c2_clip40-130.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 130, 370, 184]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.tithi.part_to_traverse
+  role: output
+  value: 396
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 237
+  pdf_page: 98
+  locus: same sentence, after 'leaving', before 'to be traversed'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 130, 209, 184]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8533cb83); suryasiddhanta_burgess_1860_p98_600dpi_r1c1_clip40-130.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 130, 209, 184]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.multiplier_sixty
+  role: input
+  value: 60
+  form: integer
+  unit: nadis
+  script: latin
+  edition_page: 237
+  pdf_page: 98
+  locus: sentence 'Multiplying these numbers respectively by'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 176, 209, 230]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8533cb83); suryasiddhanta_burgess_1860_p98_600dpi_r2c1_clip40-130.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 176, 209, 230]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.difference_of_daily_motions
+  role: input
+  value: [675, 38]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 237
+  pdf_page: 98
+  locus: same sentence, after 'and dividing by', before 'the difference of the daily motions at the time'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 176, 370, 230]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8533cb83); suryasiddhanta_burgess_1860_p98_600dpi_r2c2_clip40-130.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 176, 370, 230]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.tithi.time_passed
+  role: output
+  value: [28, 46, 2]
+  form: sexagesimal
+  unit: nadis_vinadis_pranas
+  script: latin
+  edition_page: 237
+  pdf_page: 98
+  locus: same sentence, after 'we find that', before 'have passed since the beginning of the lunar day'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 176, 370, 230]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8533cb83); suryasiddhanta_burgess_1860_p98_600dpi_r2c2_clip40-130.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 176, 370, 230]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.tithi.time_to_run
+  role: output
+  value: [35, 10, 8]
+  form: sexagesimal
+  unit: nadis_vinadis_pranas
+  script: latin
+  edition_page: 237
+  pdf_page: 98
+  locus: same sentence, after 'and that it still has', before 'to run'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 176, 370, 230]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8533cb83); suryasiddhanta_burgess_1860_p98_600dpi_r2c2_clip40-130.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 176, 370, 230]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

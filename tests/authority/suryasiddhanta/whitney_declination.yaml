@@ -1,0 +1,427 @@
+id: authority/suryasiddhanta/whitney_declination
+methods: [suryasiddhanta]
+class: editor_computed
+source: suryasiddhanta_burgess_1860
+edition_page: 230
+pdf_page: 91
+locus: 'Whitney''s note to ii. 58, printed p. 230: the table ''Results of the Process for finding the Latitude and Declination of the Planets'' (title in two lines), only its columns ''Declination.'' and ''Corrected Declination.'', every row (Sun, Moon, Mercury, Venus, Mars, Jupiter, Saturn).'
+rounding: not stated
+precision: minutes of arc
+datum_keys: [texts.suryasiddhanta.procedures.declination.with_latitude.ii58.suryasiddhanta_burgess_1860]
+notes: 'Table columns as printed: ''Planet.'', ''Longitude of Node.'' (s ° '' ''''), ''do. corrected.'' (s ° ''), ''Distance from Node.'' (s ° ''), ''Sine.'' (''), ''Latitude.'' (° ''), ''Decl:nation.'' (° ''; the i of the heading is damaged in the print), ''Corrected Declination.'' (° ''). Only the last two columns are keyed. Each declination cell is printed as degrees, minutes and a direction letter N. or S.; S. is keyed as negative: true, N. as negative: false, the letter recorded in notes. The precession figure is stated in the paragraph above the table, line 4 of the paragraph beginning ''We present in the annexed table'', after ''the precession at the given time being, as found under verses 9-12 of the next chapter,''; it is not keyed here (another fixture''s result). Errata (suryasiddhanta_burgess_1860_reprint PDF 364) checked: no entry on this page. First read lat-b, fixture file sha256 80b50ad9.'
+values:
+- name: output.table.sun.declination
+  role: output
+  value: [23, 41]
+  form: sexagesimal
+  unit: degrees_minutes
+  negative: true
+  script: latin
+  edition_page: 230
+  pdf_page: 91
+  locus: table 'Results of the Process for finding the Latitude and Declination of the Planets', row 'Sun,', column 'Decl:nation.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 1200
+    clip: [255, 432, 338, 528]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 80b50ad9); suryasiddhanta_burgess_1860_p91_1200dpi_clip255-432.png
+  status: double_read
+  notes: direction letter printed S.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 1200
+    clip: [255, 432, 338, 528]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.sun.corrected_declination
+  role: output
+  value:
+  - [null]
+  form: table
+  unit: degrees_minutes
+  script: latin
+  edition_page: 230
+  pdf_page: 91
+  locus: table 'Results of the Process for finding the Latitude and Declination of the Planets', row 'Sun,', column 'Corrected Declination.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 1200
+    clip: [255, 432, 338, 528]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 80b50ad9); suryasiddhanta_burgess_1860_p91_1200dpi_clip255-432.png
+  status: double_read
+  notes: 'blank: the cell is printed as a row of dots (leader), no figure. Blank in print.'
+  columns: [degrees_minutes]
+  second_read:
+  - by: claude-fable-5-1/2026-10-22-r3
+    on: 2026-10-22
+    dpi: 1200
+    clip: [255, 432, 338, 528]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.moon.declination
+  role: output
+  value: [4, 56]
+  form: sexagesimal
+  unit: degrees_minutes
+  script: latin
+  edition_page: 230
+  pdf_page: 91
+  locus: table 'Results of the Process for finding the Latitude and Declination of the Planets', row 'Moon,', column 'Decl:nation.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 1200
+    clip: [255, 432, 338, 528]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 80b50ad9); suryasiddhanta_burgess_1860_p91_1200dpi_clip255-432.png
+  status: double_read
+  notes: direction letter printed N.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 1200
+    clip: [255, 432, 338, 528]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.moon.corrected_declination
+  role: output
+  value: [8, 32]
+  form: sexagesimal
+  unit: degrees_minutes
+  script: latin
+  edition_page: 230
+  pdf_page: 91
+  locus: table 'Results of the Process for finding the Latitude and Declination of the Planets', row 'Moon,', column 'Corrected Declination.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 1200
+    clip: [255, 432, 338, 528]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 80b50ad9); suryasiddhanta_burgess_1860_p91_1200dpi_clip255-432.png
+  status: double_read
+  notes: direction letter printed N.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 1200
+    clip: [255, 432, 338, 528]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.mercury.declination
+  role: output
+  value: [23, 10]
+  form: sexagesimal
+  unit: degrees_minutes
+  negative: true
+  script: latin
+  edition_page: 230
+  pdf_page: 91
+  locus: table 'Results of the Process for finding the Latitude and Declination of the Planets', row 'Mercury,', column 'Decl:nation.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 1200
+    clip: [255, 432, 338, 528]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 80b50ad9); suryasiddhanta_burgess_1860_p91_1200dpi_clip255-432.png
+  status: double_read
+  notes: direction letter printed S.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 1200
+    clip: [255, 432, 338, 528]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.mercury.corrected_declination
+  role: output
+  value: [21, 6]
+  form: sexagesimal
+  unit: degrees_minutes
+  negative: true
+  script: latin
+  edition_page: 230
+  pdf_page: 91
+  locus: table 'Results of the Process for finding the Latitude and Declination of the Planets', row 'Mercury,', column 'Corrected Declination.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 1200
+    clip: [255, 432, 338, 528]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 80b50ad9); suryasiddhanta_burgess_1860_p91_1200dpi_clip255-432.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 2400
+    clip: [300, 474, 338, 506]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p91_2400dpi_clip300-474.png
+  status: double_read
+  notes: direction letter printed S., its type damaged (the upper and lower curves broken; the shape and the period are S. as read on the enlarged clip); keyed as south.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 1200
+    clip: [255, 432, 338, 528]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.venus.declination
+  role: output
+  value: [20, 27]
+  form: sexagesimal
+  unit: degrees_minutes
+  negative: true
+  script: latin
+  edition_page: 230
+  pdf_page: 91
+  locus: table 'Results of the Process for finding the Latitude and Declination of the Planets', row 'Venus,', column 'Decl:nation.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 1200
+    clip: [255, 432, 338, 528]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 80b50ad9); suryasiddhanta_burgess_1860_p91_1200dpi_clip255-432.png
+  status: double_read
+  notes: direction letter printed S.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 1200
+    clip: [255, 432, 338, 528]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.venus.corrected_declination
+  role: output
+  value: [21, 48]
+  form: sexagesimal
+  unit: degrees_minutes
+  negative: true
+  script: latin
+  edition_page: 230
+  pdf_page: 91
+  locus: table 'Results of the Process for finding the Latitude and Declination of the Planets', row 'Venus,', column 'Corrected Declination.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 1200
+    clip: [255, 432, 338, 528]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 80b50ad9); suryasiddhanta_burgess_1860_p91_1200dpi_clip255-432.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 2400
+    clip: [300, 474, 338, 506]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p91_2400dpi_clip300-474.png
+  status: double_read
+  notes: direction letter printed S., its type damaged (the upper and lower curves broken; the shape and the period are S. as read on the enlarged clip); keyed as south.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 1200
+    clip: [255, 432, 338, 528]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.mars.declination
+  role: output
+  value: [14, 52]
+  form: sexagesimal
+  unit: degrees_minutes
+  negative: true
+  script: latin
+  edition_page: 230
+  pdf_page: 91
+  locus: table 'Results of the Process for finding the Latitude and Declination of the Planets', row 'Mars,', column 'Decl:nation.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 1200
+    clip: [255, 432, 338, 528]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 80b50ad9); suryasiddhanta_burgess_1860_p91_1200dpi_clip255-432.png
+  status: double_read
+  notes: direction letter printed S.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 1200
+    clip: [255, 432, 338, 528]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.mars.corrected_declination
+  role: output
+  value: [13, 48]
+  form: sexagesimal
+  unit: degrees_minutes
+  negative: true
+  script: latin
+  edition_page: 230
+  pdf_page: 91
+  locus: table 'Results of the Process for finding the Latitude and Declination of the Planets', row 'Mars,', column 'Corrected Declination.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 1200
+    clip: [255, 432, 338, 528]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 80b50ad9); suryasiddhanta_burgess_1860_p91_1200dpi_clip255-432.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 2400
+    clip: [300, 474, 338, 506]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p91_2400dpi_clip300-474.png
+  status: double_read
+  notes: direction letter printed S., its type damaged (the upper and lower curves broken; the shape and the period are S. as read on the enlarged clip); keyed as south.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 1200
+    clip: [255, 432, 338, 528]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.jupiter.declination
+  role: output
+  value: [21, 42]
+  form: sexagesimal
+  unit: degrees_minutes
+  script: latin
+  edition_page: 230
+  pdf_page: 91
+  locus: table 'Results of the Process for finding the Latitude and Declination of the Planets', row 'Jupiter,', column 'Decl:nation.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 1200
+    clip: [255, 432, 338, 528]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 80b50ad9); suryasiddhanta_burgess_1860_p91_1200dpi_clip255-432.png
+  status: double_read
+  notes: direction letter printed N.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 1200
+    clip: [255, 432, 338, 528]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.jupiter.corrected_declination
+  role: output
+  value: [21, 57]
+  form: sexagesimal
+  unit: degrees_minutes
+  script: latin
+  edition_page: 230
+  pdf_page: 91
+  locus: table 'Results of the Process for finding the Latitude and Declination of the Planets', row 'Jupiter,', column 'Corrected Declination.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 1200
+    clip: [255, 432, 338, 528]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 80b50ad9); suryasiddhanta_burgess_1860_p91_1200dpi_clip255-432.png
+  status: double_read
+  notes: direction letter printed N.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 1200
+    clip: [255, 432, 338, 528]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.saturn.declination
+  role: output
+  value: [14, 40]
+  form: sexagesimal
+  unit: degrees_minutes
+  script: latin
+  edition_page: 230
+  pdf_page: 91
+  locus: table 'Results of the Process for finding the Latitude and Declination of the Planets', row 'Saturn,', column 'Decl:nation.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 1200
+    clip: [255, 432, 338, 528]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 80b50ad9); suryasiddhanta_burgess_1860_p91_1200dpi_clip255-432.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 2400
+    clip: [262, 506, 300, 524]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p91_2400dpi_clip262-506.png
+  status: double_read
+  notes: direction letter printed N, its type damaged (left stem faint) and no period visible; keyed as north.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 1200
+    clip: [255, 432, 338, 528]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.table.saturn.corrected_declination
+  role: output
+  value: [15, 17]
+  form: sexagesimal
+  unit: degrees_minutes
+  script: latin
+  edition_page: 230
+  pdf_page: 91
+  locus: table 'Results of the Process for finding the Latitude and Declination of the Planets', row 'Saturn,', column 'Corrected Declination.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 1200
+    clip: [255, 432, 338, 528]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 80b50ad9); suryasiddhanta_burgess_1860_p91_1200dpi_clip255-432.png
+  status: double_read
+  notes: direction letter printed N.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 1200
+    clip: [255, 432, 338, 528]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

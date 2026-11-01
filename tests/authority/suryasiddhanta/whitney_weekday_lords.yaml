@@ -1,0 +1,1281 @@
+id: authority/suryasiddhanta/whitney_weekday_lords
+methods: [suryasiddhanta]
+class: editor_computed
+source: suryasiddhanta_burgess_1860
+edition_page: 177
+pdf_page: 38
+locus: 'note under i.51-52, p. 177 (PDF 38): the table "Name of day. | Presiding Planet. | Succession, as Lord of day, month, year, hour." and the text from "As the … day of the subsistence" to "… as the lord of the year at the given time."'
+rounding: integer division; remainders printed after "-"; a quotient with a dropped remainder printed with "+"
+precision: integers
+datum_keys: [texts.suryasiddhanta.procedures.weekday.rule]
+notes: 'Weekday: (sum of days + 1 for Jan. 1 itself) divided by 7, remainder 1 = Sunday (first day of creation taken as a Sunday). Lord of the month: sum of days / 30, quotient x 2, + 1, / 7, remainder 7 = Saturn. Lord of the year: by the like process with x 3; only the final remainder (five) and the lord (Jupiter) are printed, no steps. The succession table (day, month, year, hour orders) is keyed as inputs; the day names (Ravivara ... Canivara, Sunday ... Saturday) are row labels, named in the loci. suryasiddhanta_burgess_1860_reprint errata (suryasiddhanta_burgess_1860_reprint p. 364) "p. 32, l. 20 - for 84-88 read 31" falls on p. 176 (PDF 37) line 20 ("see below, xii. 84-88"), a chapter-verse cross-reference, not a figure of this computation; nothing keyed from PDF 37 (it has no figure of the computation).'
+values:
+- name: input.succession.sun.day
+  role: input
+  value: 1
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: table row "Ravivara, …, Sun", column "Succession, as Lord of" day
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [207, 30, 380, 135]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [40,30,380,135] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.succession.sun.month
+  role: input
+  value: 1
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: table row "Ravivara, …, Sun", column "Succession, as Lord of" month
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [207, 30, 380, 135]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [40,30,380,135] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.succession.sun.year
+  role: input
+  value: 1
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: table row "Ravivara, …, Sun", column "Succession, as Lord of" year
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [207, 30, 380, 135]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [40,30,380,135] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.succession.sun.hour
+  role: input
+  value: 1
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: table row "Ravivara, …, Sun", column "Succession, as Lord of" hour
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [207, 30, 380, 135]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [40,30,380,135] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.succession.moon.day
+  role: input
+  value: 2
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: table row "Somavara, Monday, Moon", column "Succession, as Lord of" day
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [207, 30, 380, 135]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [40,30,380,135] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.succession.moon.month
+  role: input
+  value: 5
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: table row "Somavara, Monday, Moon", column "Succession, as Lord of" month
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [207, 30, 380, 135]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [40,30,380,135] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.succession.moon.year
+  role: input
+  value: 6
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: table row "Somavara, Monday, Moon", column "Succession, as Lord of" year
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [207, 30, 380, 135]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [40,30,380,135] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.succession.moon.hour
+  role: input
+  value: 4
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: table row "Somavara, Monday, Moon", column "Succession, as Lord of" hour
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [207, 30, 380, 135]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [40,30,380,135] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.succession.mars.day
+  role: input
+  value: 3
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: table row "Mangalavara, Tuesday, Mars", column "Succession, as Lord of" day
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [207, 30, 380, 135]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [40,30,380,135] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.succession.mars.month
+  role: input
+  value: 2
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: table row "Mangalavara, Tuesday, Mars", column "Succession, as Lord of" month
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [207, 30, 380, 135]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [40,30,380,135] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.succession.mars.year
+  role: input
+  value: 4
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: table row "Mangalavara, Tuesday, Mars", column "Succession, as Lord of" year
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [207, 30, 380, 135]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [40,30,380,135] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.succession.mars.hour
+  role: input
+  value: 7
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: table row "Mangalavara, Tuesday, Mars", column "Succession, as Lord of" hour
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [207, 30, 380, 135]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [40,30,380,135] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.succession.mercury.day
+  role: input
+  value: 4
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: table row "Budhavara, Wednesday, Mercury", column "Succession, as Lord of" day
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [207, 30, 380, 135]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [40,30,380,135] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.succession.mercury.month
+  role: input
+  value: 6
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: table row "Budhavara, Wednesday, Mercury", column "Succession, as Lord of" month
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [207, 30, 380, 135]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [40,30,380,135] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.succession.mercury.year
+  role: input
+  value: 2
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: table row "Budhavara, Wednesday, Mercury", column "Succession, as Lord of" year
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [207, 30, 380, 135]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [40,30,380,135] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.succession.mercury.hour
+  role: input
+  value: 3
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: table row "Budhavara, Wednesday, Mercury", column "Succession, as Lord of" hour
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [207, 30, 380, 135]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [40,30,380,135] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.succession.jupiter.day
+  role: input
+  value: 5
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: table row "Guruvara, Thursday, …", column "Succession, as Lord of" day
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [207, 30, 380, 135]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [40,30,380,135] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.succession.jupiter.month
+  role: input
+  value: 3
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: table row "Guruvara, Thursday, …", column "Succession, as Lord of" month
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [207, 30, 380, 135]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [40,30,380,135] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.succession.jupiter.year
+  role: input
+  value: 7
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: table row "Guruvara, Thursday, …", column "Succession, as Lord of" year
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [207, 30, 380, 135]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [40,30,380,135] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.succession.jupiter.hour
+  role: input
+  value: 6
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: table row "Guruvara, Thursday, …", column "Succession, as Lord of" hour
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [207, 30, 380, 135]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [40,30,380,135] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.succession.venus.day
+  role: input
+  value: 6
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: table row "Cukravara, Friday, Venus", column "Succession, as Lord of" day
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 130, 375, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,130,375,240] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.succession.venus.month
+  role: input
+  value: 7
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: table row "Cukravara, Friday, Venus", column "Succession, as Lord of" month
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 130, 375, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,130,375,240] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.succession.venus.year
+  role: input
+  value: 5
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: table row "Cukravara, Friday, Venus", column "Succession, as Lord of" year
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 130, 375, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,130,375,240] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.succession.venus.hour
+  role: input
+  value: 2
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: table row "Cukravara, Friday, Venus", column "Succession, as Lord of" hour
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 130, 375, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,130,375,240] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.succession.saturn.day
+  role: input
+  value: 7
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: table row "Canivara, Saturday, …", column "Succession, as Lord of" day
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 130, 375, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,130,375,240] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.succession.saturn.month
+  role: input
+  value: 4
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: table row "Canivara, Saturday, …", column "Succession, as Lord of" month
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 130, 375, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,130,375,240] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.succession.saturn.year
+  role: input
+  value: 3
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: table row "Canivara, Saturday, …", column "Succession, as Lord of" year
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 130, 375, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,130,375,240] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.succession.saturn.hour
+  role: input
+  value: 5
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: table row "Canivara, Saturday, …", column "Succession, as Lord of" hour
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 130, 375, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,130,375,240] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.weekday.dividend
+  role: input
+  value: 714404108573
+  form: integer
+  unit: civil_days
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: 'division "…) …": the dividend (sum of days + …); grouping dropped'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [140, 215, 280, 245]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [140,215,280,245]; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [140, 215, 280, 245]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.weekday.divisor
+  role: input
+  value: 7
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: 'division "…) …": the divisor'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [140, 215, 280, 245]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [140,215,280,245]; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [140, 215, 280, 245]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.weekday.quotient
+  role: output
+  value: 102057729796
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: 'division result line "… - …": the quotient; grouping dropped'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [140, 215, 280, 245]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [140,215,280,245]; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [140, 215, 280, 245]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.weekday.remainder
+  role: output
+  value: 1
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: 'division result line "… - …": the remainder after "-"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [140, 215, 280, 245]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [140,215,280,245]; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [140, 215, 280, 245]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.weekday.name
+  role: output
+  value: Sunday
+  form: text
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: '"The … of January, 1860, accordingly, falls on a … by Hindu reckoning"; the day name'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 240, 375, 353]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,240,375,460] 2x2 --overlap 6; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.month_lord.divisor
+  role: input
+  value: 30
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: 'division "…) …": the divisor'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [160, 345, 260, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [160,345,260,420]; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [160, 345, 260, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.month_lord.dividend
+  role: input
+  value: 714404108572
+  form: integer
+  unit: civil_days
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: 'division "…) …": the dividend; grouping dropped'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [160, 345, 260, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [160,345,260,420]; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [160, 345, 260, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.month_lord.months_elapsed
+  role: output
+  value: 23813470285
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: line "…+" (quotient; the + marks a dropped remainder); grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [160, 345, 260, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [160,345,260,420]; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: printed with a following "+"
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [160, 345, 260, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.month_lord.multiplier
+  role: input
+  value: 2
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: line "…" under the quotient (multiplier)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [160, 345, 260, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [160,345,260,420]; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [160, 345, 260, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.month_lord.product
+  role: output
+  value: 47626940570
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: line "…"; grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [160, 345, 260, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [160,345,260,420]; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [160, 345, 260, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.month_lord.add
+  role: input
+  value: 1
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: line "…" under the product (add … for the current month)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [160, 345, 260, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [160,345,260,420]; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [160, 345, 260, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.month_lord.dividend2
+  role: input
+  value: 47626940571
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: 'division "…)…": the dividend; grouping dropped'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [160, 345, 260, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [160,345,260,420]; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [160, 345, 260, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.month_lord.divisor2
+  role: input
+  value: 7
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: 'division "…)…": the divisor'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [160, 345, 260, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [160,345,260,420]; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [160, 345, 260, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.month_lord.quotient
+  role: output
+  value: 6803848652
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: 'line "… - …": the quotient; grouping dropped'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [160, 345, 260, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [160,345,260,420]; checked on clip [185,410,245,422] at 1800 dpi --upsample (delivered 600); first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: the 5 of "652" has a broken upper stroke (damaged type); read as 5 from the bowl and descender
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [160, 345, 260, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.month_lord.remainder
+  role: output
+  value: 7
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: 'line "… - …": the remainder after "-"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [160, 345, 260, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [160,345,260,420]; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [160, 345, 260, 420]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.month_lord.name
+  role: output
+  value: Saturn
+  form: text
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: '"The regent of the month in question is therefore …."; the planet name'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 425, 375, 470]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,425,375,470] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 406, 385, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.year_lord.multiplier
+  role: input
+  value: 3
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: '"the multiplication is by … instead of by …"; the multiplier'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 425, 375, 470]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,425,375,470] 2x1 --overlap 6 and tile r1c1 of the same clip; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: printed in words ("three")
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 406, 385, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.year_lord.remainder
+  role: output
+  value: 5
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: '"the final remainder is …"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 425, 375, 470]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,425,375,470] 2x1 --overlap 6; line continues on clip [30,465,375,480]; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: printed in words ("five")
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 406, 385, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.year_lord.name
+  role: output
+  value: Jupiter
+  form: text
+  unit: none
+  script: latin
+  edition_page: 177
+  pdf_page: 38
+  locus: '"which designates … as the lord of the year at the given time."; the planet name'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [30, 465, 205.5, 480]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [30,465,375,480] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_weekday_lords_1860.yaml (sha256 4454af22)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 406, 385, 605]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

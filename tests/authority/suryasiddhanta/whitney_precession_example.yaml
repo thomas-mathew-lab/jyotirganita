@@ -1,0 +1,802 @@
+id: authority/suryasiddhanta/whitney_precession_example
+methods: [suryasiddhanta]
+class: editor_computed
+source: suryasiddhanta_burgess_1860
+edition_page: 245
+pdf_page: 106
+locus: 'Whitney''s note to iii. 9-12, printed p. 245: from ''Thus, let us find, in illustration of the process, the amount of precession on the first of January, [year].'' to the sentence giving the result (''... we find the actual distance of the initial point of the sphere from the equinox on the first of January, [year], to be ...''), the end of the paragraph.'
+rounding: not stated
+precision: hundredths of a second of arc
+datum_keys: [texts.suryasiddhanta.procedures.declination.argument.iii10.suryasiddhanta_burgess_1860]
+notes: 'Precession on 1 January 1860: the days of the current Age (Kali years before it being divisible by 7200) in the proportion days in an Age: revolutions in an Age:: days elapsed: part of a revolution; the bhuja (supplement) of that arc; multiplied by three and divided by ten (the libration of 27 deg). The passage between the proportion and the instance (''For a motion of ... etc.'') explains the libration with illustrative arcs in figures. The multiplier and divisor are first printed in words (three, ten) and then in figures in the proportion that follows; keyed from the figures. The year 1860, printed twice, is keyed once. Verse citations (under i. 53), (v. 10), (under ii. 29, 30) not keyed. Unit marks as printed: superscript d (days), rev (revolutions). Errata (suryasiddhanta_burgess_1860_reprint PDF 364) checked: no entry on this page or on its suryasiddhanta_burgess_1860_reprint counterpart. First read lat-b, fixture file sha256 8840448b.'
+values:
+- name: input.date.year
+  role: input
+  value: 1860
+  form: integer
+  unit: year
+  script: latin
+  edition_page: 245
+  pdf_page: 106
+  locus: sentence 'Thus, let us find, in illustration of the process, the amount of precession on the … of January,'; restated in the last sentence
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 268, 370, 355]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8840448b); suryasiddhanta_burgess_1860_p106_600dpi_r1c2_clip40-268.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 513, 209, 600]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p106_600dpi_r4c1_clip40-268.png
+  status: double_read
+  notes: 'the day ''first'' is printed in words and not keyed. locus as first keyed: sentence ''Thus, let us find, in illustration of the process, the amount of precession on the first of January,''; restated in the last sentence'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 268, 370, 355]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.kali_years_divisor
+  role: input
+  value: 7200
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 245
+  pdf_page: 106
+  locus: sentence 'Since the number of years elapsed before the beginning of the present Iron Age (kali yuga) is divisible by'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 268, 209, 355]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8840448b); suryasiddhanta_burgess_1860_p106_600dpi_r1c1_clip40-268.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 268, 209, 355]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.days_since_age_began
+  role: input
+  value: 1811945
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 245
+  pdf_page: 106
+  locus: sentence end, after 'which is (see above, under i. …)'; restated as the third term of the proportion
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 268, 209, 355]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8840448b); suryasiddhanta_burgess_1860_p106_600dpi_r1c1_clip40-268.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 268, 370, 355]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p106_600dpi_r1c2_clip40-268.png
+  status: double_read
+  notes: 'printed with commas as thousands separators; in the proportion with the unit mark d. locus as first keyed: sentence end, after ''which is (see above, under i. 53)''; restated as the third term of the proportion'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 268, 209, 355]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.days_in_age
+  role: input
+  value: 1577917828
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 245
+  pdf_page: 106
+  locus: proportion after 'Hence the proportion', first term
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 268, 209, 355]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8840448b); suryasiddhanta_burgess_1860_p106_600dpi_r1c1_clip40-268.png
+  status: double_read
+  notes: printed with commas as thousands separators and the unit mark d; old-style figures.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 268, 209, 355]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.revolutions_in_age
+  role: input
+  value: 600
+  form: integer
+  unit: revolutions
+  script: latin
+  edition_page: 245
+  pdf_page: 106
+  locus: proportion, second term
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 268, 209, 355]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8840448b); suryasiddhanta_burgess_1860_p106_600dpi_r1c1_clip40-268.png
+  status: double_read
+  notes: unit mark 'rev' superscript.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 268, 209, 355]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.portion_of_revolution
+  role: output
+  value:
+  - [0, 248, 2, '8.9']
+  form: table
+  unit: revolutions_degrees_minutes_seconds
+  script: latin
+  edition_page: 245
+  pdf_page: 106
+  locus: proportion, fourth term; restated in 'the bhuja of'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 268, 370, 355]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8840448b); suryasiddhanta_burgess_1860_p106_600dpi_r1c2_clip40-268.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 430, 209, 521]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p106_600dpi_r3c1_clip40-268.png
+  status: double_read
+  notes: decimal last part; printed as 0 rev then degrees, minutes, seconds; restated once (without the revolutions), keyed once.
+  columns: [revolutions, degrees, minutes, seconds]
+  second_read:
+  - by: claude-fable-5-1/2026-10-22-r3
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 268, 370, 355]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.illustration.motion_1
+  role: input
+  value: 91
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 245
+  pdf_page: 106
+  locus: sentence 'For a motion of', first figure
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 347, 209, 438]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8840448b); suryasiddhanta_burgess_1860_p106_600dpi_r2c1_clip40-268.png
+  status: double_read
+  notes: illustrative figure of the explanation of libration, not a step of the computation.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 347, 209, 438]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.illustration.motion_2
+  role: input
+  value: 92
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 245
+  pdf_page: 106
+  locus: same, second figure
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 347, 209, 438]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8840448b); suryasiddhanta_burgess_1860_p106_600dpi_r2c1_clip40-268.png
+  status: double_read
+  notes: illustrative figure of the explanation of libration, not a step of the computation.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 347, 209, 438]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.illustration.motion_3
+  role: input
+  value: 93
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 245
+  pdf_page: 106
+  locus: same, third figure, before 'etc., gives, by it, a precession of'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 347, 370, 438]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8840448b); suryasiddhanta_burgess_1860_p106_600dpi_r2c2_clip40-268.png
+  status: double_read
+  notes: illustrative figure of the explanation of libration, not a step of the computation.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 347, 370, 438]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.illustration.precession_1
+  role: input
+  value: 89
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 245
+  pdf_page: 106
+  locus: same sentence, after 'a precession of', first figure
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 347, 209, 438]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8840448b); suryasiddhanta_burgess_1860_p106_600dpi_r2c1_clip40-268.png
+  status: double_read
+  notes: illustrative figure of the explanation of libration, not a step of the computation.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 347, 209, 438]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.illustration.precession_2
+  role: input
+  value: 88
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 245
+  pdf_page: 106
+  locus: same, second figure
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 347, 209, 438]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8840448b); suryasiddhanta_burgess_1860_p106_600dpi_r2c1_clip40-268.png
+  status: double_read
+  notes: illustrative figure of the explanation of libration, not a step of the computation.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 347, 209, 438]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.illustration.precession_3
+  role: input
+  value: 87
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 245
+  pdf_page: 106
+  locus: same, third figure, before 'etc.'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 347, 209, 438]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8840448b); suryasiddhanta_burgess_1860_p106_600dpi_r2c1_clip40-268.png
+  status: double_read
+  notes: illustrative figure of the explanation of libration, not a step of the computation.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 347, 209, 438]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.illustration.motion_return
+  role: input
+  value: 180
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 245
+  pdf_page: 106
+  locus: same sentence, after 'and, after moving', before 'has reverted to its starting-place'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 347, 370, 438]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8840448b); suryasiddhanta_burgess_1860_p106_600dpi_r2c2_clip40-268.png
+  status: double_read
+  notes: illustrative figure of the explanation of libration, not a step of the computation.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 347, 370, 438]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.illustration.farther_motion_from
+  role: input
+  value: 180
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 245
+  pdf_page: 106
+  locus: sentence 'So its farther motion, from'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 347, 209, 438]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8840448b); suryasiddhanta_burgess_1860_p106_600dpi_r2c1_clip40-268.png
+  status: double_read
+  notes: illustrative figure of the explanation of libration, not a step of the computation.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 347, 209, 438]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.illustration.farther_motion_to
+  role: input
+  value: 270
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 245
+  pdf_page: 106
+  locus: same, after 'to', before 'gives a precession increasing'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 347, 370, 438]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8840448b); suryasiddhanta_burgess_1860_p106_600dpi_r2c2_clip40-268.png
+  status: double_read
+  notes: illustrative figure of the explanation of libration, not a step of the computation.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 347, 370, 438]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.illustration.precession_increasing_from
+  role: input
+  value: 0
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 245
+  pdf_page: 106
+  locus: same sentence, after 'increasing from'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 347, 209, 438]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8840448b); suryasiddhanta_burgess_1860_p106_600dpi_r2c1_clip40-268.png
+  status: double_read
+  notes: illustrative figure of the explanation of libration, not a step of the computation.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 347, 209, 438]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.illustration.precession_increasing_to
+  role: input
+  value: 90
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 245
+  pdf_page: 106
+  locus: same, after 'to', before 'in the opposite direction'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 347, 209, 438]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8840448b); suryasiddhanta_burgess_1860_p106_600dpi_r2c1_clip40-268.png
+  status: double_read
+  notes: illustrative figure of the explanation of libration, not a step of the computation.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 347, 209, 438]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.illustration.reduced_to
+  role: input
+  value: 0
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 245
+  pdf_page: 106
+  locus: same sentence, after 'and this, again, is reduced to'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 430, 209, 521]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8840448b); suryasiddhanta_burgess_1860_p106_600dpi_r3c1_clip40-268.png
+  status: double_read
+  notes: illustrative figure of the explanation of libration, not a step of the computation.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 430, 209, 521]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.illustration.motion_from
+  role: input
+  value: 270
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 245
+  pdf_page: 106
+  locus: same, after 'by the motion from'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 430, 209, 521]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8840448b); suryasiddhanta_burgess_1860_p106_600dpi_r3c1_clip40-268.png
+  status: double_read
+  notes: illustrative figure of the explanation of libration, not a step of the computation.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 430, 209, 521]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.illustration.motion_to
+  role: input
+  value: 360
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 245
+  pdf_page: 106
+  locus: same, after 'to', end of the sentence
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 430, 370, 521]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8840448b); suryasiddhanta_burgess_1860_p106_600dpi_r3c2_clip40-268.png
+  status: double_read
+  notes: illustrative figure of the explanation of libration, not a step of the computation.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 430, 370, 521]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.illustration.max_distance
+  role: input
+  value: 90
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 245
+  pdf_page: 106
+  locus: sentence 'It is as if the … quadrants were folded over ...', after 'be more than', before 'distant from the fixed equinox'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 430, 209, 521]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8840448b); suryasiddhanta_burgess_1860_p106_600dpi_r3c1_clip40-268.png
+  status: double_read
+  notes: 'illustrative figure of the explanation of libration, not a step of the computation. locus as first keyed: sentence ''It is as if the second and third quadrants were folded over ...'', after ''be more than'', before ''distant from the fixed equinox'''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 430, 209, 521]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.bhuja
+  role: output
+  value:
+  - [68, 2, '8.9']
+  form: table
+  unit: degrees_minutes_seconds
+  script: latin
+  edition_page: 245
+  pdf_page: 106
+  locus: sentence 'Thus, in the instance taken, the bhuja of ... is its supplement, or'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 430, 370, 521]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8840448b); suryasiddhanta_burgess_1860_p106_600dpi_r3c2_clip40-268.png
+  status: double_read
+  notes: decimal last part.
+  columns: [degrees, minutes, seconds]
+  second_read:
+  - by: claude-fable-5-1/2026-10-22-r3
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 430, 370, 521]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.semicircle
+  role: input
+  value: 180
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 245
+  pdf_page: 106
+  locus: same sentence, after '; the …', before 'having only brought the movable point back'; restated in 'the excess over'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 430, 209, 521]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8840448b); suryasiddhanta_burgess_1860_p106_600dpi_r3c1_clip40-268.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 430, 370, 521]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p106_600dpi_r3c2_clip40-268.png
+  status: double_read
+  notes: 'restated once, keyed once. locus as first keyed: same sentence, after ''; the first'', before ''having only brought the movable point back''; restated in ''the excess over'''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 430, 209, 521]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.libration_arc
+  role: input
+  value: 27
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 245
+  pdf_page: 106
+  locus: sentence 'this is equivalent to reducing it to the measure of an arc of'; restated as the third term of the proportion that follows
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 513, 370, 600]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8840448b); suryasiddhanta_burgess_1860_p106_600dpi_r4c2_clip40-268.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 513, 370, 600]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.quadrant
+  role: input
+  value: 90
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 245
+  pdf_page: 106
+  locus: same sentence, after 'instead of', before 'as the quadrant of libration'; restated as the fourth term of the proportion
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 513, 209, 600]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8840448b); suryasiddhanta_burgess_1860_p106_600dpi_r4c1_clip40-268.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 513, 209, 600]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.multiplier
+  role: input
+  value: 3
+  form: integer
+  unit: number
+  script: latin
+  edition_page: 245
+  pdf_page: 106
+  locus: proportion after 'since', first term
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 513, 370, 600]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8840448b); suryasiddhanta_burgess_1860_p106_600dpi_r4c2_clip40-268.png
+  status: double_read
+  notes: printed earlier in words ('multiply by three')
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 513, 370, 600]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.divisor
+  role: input
+  value: 10
+  form: integer
+  unit: number
+  script: latin
+  edition_page: 245
+  pdf_page: 106
+  locus: same proportion, second term
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 513, 370, 600]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8840448b); suryasiddhanta_burgess_1860_p106_600dpi_r4c2_clip40-268.png
+  status: double_read
+  notes: printed earlier in words ('divide by ten')
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 513, 370, 600]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.precession
+  role: output
+  value:
+  - [20, 24, '38.67']
+  form: table
+  unit: degrees_minutes_seconds
+  script: latin
+  edition_page: 245
+  pdf_page: 106
+  locus: last sentence, after 'on the … of January, [year], to be'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 513, 370, 600]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 8840448b); suryasiddhanta_burgess_1860_p106_600dpi_r4c2_clip40-268.png
+  status: double_read
+  notes: 'decimal last part. locus as first keyed: last sentence, after ''on the first of January, [year], to be'''
+  columns: [degrees, minutes, seconds]
+  second_read:
+  - by: claude-fable-5-1/2026-10-22-r3
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 513, 370, 600]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

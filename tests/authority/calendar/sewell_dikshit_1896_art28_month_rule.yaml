@@ -1,0 +1,205 @@
+id: authority/calendar/sewell_dikshit_1896_art28_month_rule
+methods: [calendar]
+class: editor_computed
+source: sewell_dikshit_1896
+file: sewell_dikshit_1896-sewell-dikshit-indian-calendar-1896.pdf
+edition_page: 12
+pdf_page: 28
+locus: Art. 28, rule (b), the worked example
+rounding: 'none: whole hours and minutes as printed'
+precision: the printed minute
+datum_keys: [regions.kerala.conventions.month_rule.statement.sewell_dikshit_1896, regions.kerala.conventions.month_rule.parts.sewell_dikshit_1896, regions.kerala.conventions.month_rule.within.sewell_dikshit_1896]
+notes: 'Sewell and Dikshit''s own illustration of the Malabar rule (an editor''s example, §3.6): a saṅkrānti seven hours after sunrise on a day of 12 h 30 m falls within the first three fifths, so the month begins the same day; eight hours after would not. The pinning example of the aparāhna month rule.'
+values:
+- name: input.sankranti_weekday
+  role: input
+  value: Friday
+  form: text
+  unit: weekday
+  script: latin
+  locus: 'sewell_dikshit_1896 printed 12, Art. 28, the worked example of rule (b) (the sentence beginning ''Suppose, for example'' and the two sentences after it): the week-day the saṅkrânti occurred on. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 401
+    clip: [15, 316, 375, 404]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: tiles 2x1 --overlap 6 of this clip, native 401 ppi
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r16
+    on: 2026-10-08
+    dpi: 401
+    clip: [190, 316, 375, 412]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+- name: input.sankranti_hours_after_sunrise
+  role: input
+  value: 7
+  form: integer
+  unit: hours
+  script: latin
+  locus: 'sewell_dikshit_1896 printed 12, Art. 28, the worked example of rule (b) (the sentence beginning ''Suppose, for example'' and the two sentences after it): the hours after sunrise at which it occurred, printed as a word. A number printed as an English word keyed as the integer it names.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 401
+    clip: [15, 316, 375, 404]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: tiles 2x1 --overlap 6 of this clip, native 401 ppi
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r16
+    on: 2026-10-08
+    dpi: 401
+    clip: [190, 316, 375, 412]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+- name: input.day_length
+  role: input
+  value: 12 hours and 30 minutes
+  form: text
+  unit: duration
+  script: latin
+  locus: 'sewell_dikshit_1896 printed 12, Art. 28, the worked example of rule (b) (the sentence beginning ''Suppose, for example'' and the two sentences after it): the length of that day, from its first figure to ''minutes''. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 401
+    clip: [15, 316, 375, 404]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: tiles 2x1 --overlap 6 of this clip, native 401 ppi
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r16
+    on: 2026-10-08
+    dpi: 401
+    clip: [15, 316, 200, 412]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+- name: output.fifth_part
+  role: output
+  value: 2 hours 30 minutes
+  form: text
+  unit: duration
+  script: latin
+  locus: 'sewell_dikshit_1896 printed 12, Art. 28, the worked example of rule (b) (the sentence beginning ''Suppose, for example'' and the two sentences after it): its fifth part, from its first figure to ''minutes''. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 401
+    clip: [15, 316, 375, 404]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: tiles 2x1 --overlap 6 of this clip, native 401 ppi
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r16
+    on: 2026-10-08
+    dpi: 401
+    clip: [190, 316, 375, 412]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+- name: output.three_parts
+  role: output
+  value: 7 hours 30 minutes
+  form: text
+  unit: duration
+  script: latin
+  locus: 'sewell_dikshit_1896 printed 12, Art. 28, the worked example of rule (b) (the sentence beginning ''Suppose, for example'' and the two sentences after it): three of these parts, from the first figure to ''minutes''. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 401
+    clip: [15, 316, 375, 404]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: tiles 2x1 --overlap 6 of this clip, native 401 ppi
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r16
+    on: 2026-10-08
+    dpi: 401
+    clip: [190, 316, 375, 412]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+- name: output.month_begins
+  role: output
+  value: Friday
+  form: text
+  unit: weekday
+  script: latin
+  locus: 'sewell_dikshit_1896 printed 12, Art. 28, the worked example of rule (b) (the sentence beginning ''Suppose, for example'' and the two sentences after it): the week-day the month began on, after ''the same day,''. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 401
+    clip: [15, 316, 375, 404]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: tiles 2x1 --overlap 6 of this clip, native 401 ppi
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r16
+    on: 2026-10-08
+    dpi: 401
+    clip: [190, 316, 375, 412]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+- name: input.alternative_after_sunrise
+  role: input
+  value: 8 hours after sunrise
+  form: text
+  unit: duration
+  script: latin
+  locus: 'sewell_dikshit_1896 printed 12, Art. 28, the worked example of rule (b) (the sentence beginning ''Suppose, for example'' and the two sentences after it): the alternative instant of the saṅkrânti, from its figure to ''sunrise''. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 401
+    clip: [15, 316, 375, 404]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: tiles 2x1 --overlap 6 of this clip, native 401 ppi
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r16
+    on: 2026-10-08
+    dpi: 401
+    clip: [15, 316, 200, 412]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+- name: output.alternative_month_begins
+  role: output
+  value: Saturday
+  form: text
+  unit: weekday
+  script: latin
+  locus: 'sewell_dikshit_1896 printed 12, Art. 28, the worked example of rule (b) (the sentence beginning ''Suppose, for example'' and the two sentences after it): the week-day the month would have begun on. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 401
+    clip: [15, 316, 375, 404]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: tiles 2x1 --overlap 6 of this clip, native 401 ppi
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r16
+    on: 2026-10-08
+    dpi: 401
+    clip: [190, 316, 375, 412]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''

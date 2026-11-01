@@ -1,0 +1,312 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "jyotirganita/io/record.schema.json",
+ "title": "One civil day's record, as written by io/record.py",
+ "description": "Keys are written in the order each object's `properties` lists them; an object keyed by data (the `eras` block, a name's `forms`, the provenance block) is written with its keys sorted. `numeric` decides the representation of every exact-or-float field (`$defs/q`): {exact: \"num/den\"} under numeric exact, a double in shortest round-trip form under numeric float. `derived_ut` and `derived_tt` are declared derived (`x-derived`) and are the only float-bearing fields of a numeric exact record. The display-rounded value is the modern `sunrise.local`/`sunset.local` (hh:mm:ss on the named civil standard, quantum one second, half to even). Sentinels are per leaf, one spelling each: `not_modelled` (a quantity the method does not model: a body's whole planets entry, its latitude, daily motion and retrograde, a sunrise or sunset), `not_in_preset` (a leaf the convention set does not define: under `text_only` the weekday name, every occurrence name, `masa.name`, `masa.day` and `sankranti.assigned_day1`; a name in a script the name table lacks) and `not_in_range` (an era for a day outside the era record's range). `planets` holds every body of the fixed list, never absent.",
+ "type": "object",
+ "required": ["method_id", "method_status", "config_hash", "parameters_sha256", "numeric", "conventions", "dates", "weekday", "eras", "sunrise", "sunset", "day_length_nadika", "masa", "sankranti", "planets", "flags", "provenance"],
+ "additionalProperties": false,
+ "properties": {
+  "method_id": {"type": "string"},
+  "method_status": {"enum": ["provisional", "validated", "corroborated"]},
+  "config_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+  "parameters_sha256": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+  "numeric": {"enum": ["exact", "float"]},
+  "conventions": {"type": "string"},
+  "dates": {
+   "type": "object",
+   "required": ["jdn", "julian", "gregorian"],
+   "additionalProperties": false,
+   "properties": {
+    "jdn": {"type": "integer"},
+    "julian": {"$ref": "#/$defs/ymd"},
+    "gregorian": {"$ref": "#/$defs/ymd"}
+   }
+  },
+  "weekday": {
+   "type": "object",
+   "required": ["index", "name"],
+   "additionalProperties": false,
+   "properties": {
+    "index": {"type": "integer", "minimum": 1, "maximum": 7},
+    "name": {"$ref": "#/$defs/name"}
+   }
+  },
+  "eras": {
+   "description": "Keyed by the convention set's era ids; no era is named here",
+   "type": "object",
+   "minProperties": 1,
+   "additionalProperties": false,
+   "patternProperties": {"^[a-z][a-z0-9_]*$": {"$ref": "#/$defs/era"}}
+  },
+  "sunrise": {"$ref": "#/$defs/clock_leaf"},
+  "sunset": {"$ref": "#/$defs/clock_leaf"},
+  "day_length_nadika": {"$ref": "#/$defs/q"},
+  "derived_ut": {
+   "description": "UT1 of the day's start (the text's sunrise) by the chain; present only when the caller asked (--derived-ut), never hashed",
+   "x-derived": true,
+   "type": "object",
+   "required": ["value", "scale", "place", "convention", "time_reckoning", "eot_source", "equation_of_time"],
+   "additionalProperties": false,
+   "properties": {
+    "value": {"type": "number"},
+    "scale": {"const": "ut1"},
+    "place": {
+     "type": "object",
+     "required": ["id", "longitude"],
+     "additionalProperties": false,
+     "properties": {"id": {"type": "string"}, "longitude": {"type": "string"}}
+    },
+    "convention": {"type": "string"},
+    "time_reckoning": {
+     "type": "object",
+     "required": ["value", "basis"],
+     "additionalProperties": false,
+     "properties": {"value": {"enum": ["mean", "apparent"]}, "basis": {"const": "caller"}}
+    },
+    "eot_source": {"anyOf": [{"type": "null"}, {"const": "text_bhujantara"}, {"type": "string", "pattern": "^modern:[a-z][a-z0-9_]*$"}]},
+    "equation_of_time": {
+     "anyOf": [
+      {"type": "null"},
+      {
+       "type": "object",
+       "required": ["applied_days", "note"],
+       "additionalProperties": false,
+       "properties": {"applied_days": {"const": 0.0}, "note": {"type": "string"}}
+      },
+      {
+       "type": "object",
+       "required": ["apparent_minus_mean_days", "argument_delta_t_seconds"],
+       "additionalProperties": false,
+       "properties": {"apparent_minus_mean_days": {"type": "number"}, "argument_delta_t_seconds": {"type": "number"}}
+      }
+     ]
+    }
+   }
+  },
+  "derived_tt": {
+   "description": "TT from derived_ut by the caller's ΔT model (--derived-tt); present only when asked, never hashed",
+   "x-derived": true,
+   "type": "object",
+   "required": ["value", "scale", "delta_t_model", "delta_t_seconds"],
+   "additionalProperties": false,
+   "properties": {
+    "value": {"type": "number"},
+    "scale": {"const": "tt"},
+    "delta_t_model": {"type": "string"},
+    "delta_t_seconds": {"type": "number"}
+   }
+  },
+  "tithi": {"$ref": "#/$defs/tithi_rows"},
+  "nakshatra": {"$ref": "#/$defs/rows"},
+  "yoga": {"$ref": "#/$defs/rows"},
+  "karana": {"$ref": "#/$defs/rows"},
+  "masa": {
+   "type": "object",
+   "required": ["rasi_index", "name", "day"],
+   "additionalProperties": false,
+   "properties": {
+    "rasi_index": {"type": "integer", "minimum": 1, "maximum": 12},
+    "name": {"$ref": "#/$defs/name"},
+    "day": {"anyOf": [{"type": "integer", "minimum": 1}, {"const": "not_in_preset"}]}
+   }
+  },
+  "sankranti": {
+   "anyOf": [
+    {"type": "null"},
+    {
+     "type": "object",
+     "required": ["rasi_index", "instant", "assigned_day1"],
+     "additionalProperties": false,
+     "properties": {
+      "rasi_index": {"type": "integer", "minimum": 1, "maximum": 12},
+      "instant": {"$ref": "#/$defs/q"},
+      "assigned_day1": {"anyOf": [{"type": "integer"}, {"type": "null"}, {"const": "not_in_preset"}]}
+     }
+    }
+   ]
+  },
+  "planets": {
+   "type": "object",
+   "required": ["sun", "moon", "mercury", "venus", "mars", "jupiter", "saturn", "rahu", "ketu"],
+   "additionalProperties": false,
+   "properties": {
+    "sun": {"$ref": "#/$defs/body"},
+    "moon": {"$ref": "#/$defs/body"},
+    "mercury": {"$ref": "#/$defs/body"},
+    "venus": {"$ref": "#/$defs/body"},
+    "mars": {"$ref": "#/$defs/body"},
+    "jupiter": {"$ref": "#/$defs/body"},
+    "saturn": {"$ref": "#/$defs/body"},
+    "rahu": {"$ref": "#/$defs/body"},
+    "ketu": {"$ref": "#/$defs/body"}
+   }
+  },
+  "flags": {
+   "description": "Sorted; the vocabulary An override flags every record diagnostic:<id>: diagnostic:diagnostic.full_evaluation under --set intraday=full_evaluation, diagnostic:sunrise.modern_geometric and hybrid_sunrise:modern_geometric (the sunrise from the other engine, quantised to siddhantic.hybrid_sunrise_quantum, both recorded in provenance.sunrise) under --set procedure.sunrise=modern_geometric:<modern preset>, which is served under siddhantic presets only, on the modern preset's days; where an era counts its years from the true Sun those years are counted on the text's own sunrise before those days and every record is flagged diagnostic:era_years.text_sunrise. A record carrying derived_ut is flagged provisional:derived_ut.time_reckoning. A record at a place reached from a modern latitude and longitude (a tabled route (b) place, or user coordinates) is flagged modern_coordinates under every method, and one at coordinates the user supplied (observer <region>/@<lat>,<lon>) user_place.",
+   "type": "array",
+   "items": {"type": "string", "pattern": "^((kshaya|vriddhi):(tithi|nakshatra|yoga|karana)\\.[0-9]+|provisional_method|provisional:[a-z0-9_.:]+|seam:[a-z_]+|no_moonrise|hybrid_sunrise:modern_geometric|modern_coordinates|user_place|diagnostic:[a-z0-9_.]+|before_composition:[a-z0-9_.]+|before_epoch:[a-z0-9_.]+)$"}
+  },
+  "provenance": {
+   "description": "`derived` where a derived field stands; `environment` informational, excluded from comparisons",
+   "type": "object",
+   "required": ["config_hash", "preset", "observer", "overrides", "method_id", "method_status", "parameters_sha256", "data_files", "version", "environment"],
+   "properties": {
+    "derived": {"type": "object", "x-derived": true},
+    "environment": {"type": "object", "additionalProperties": {"type": "string"}}
+   }
+  }
+ },
+ "$defs": {
+  "ymd": {
+   "type": "object",
+   "required": ["y", "m", "d"],
+   "additionalProperties": false,
+   "properties": {"y": {"type": "integer"}, "m": {"type": "integer"}, "d": {"type": "integer"}}
+  },
+  "exact": {
+   "description": "An exact value: the reduced fraction and, beside it, the text's own form as the text's rounding rule produces it, with the key of the datum stating the rule. The form is written only where the method's text registers a rounding procedure for that quantity, and only by that procedure: the occurrence rows' start, end and ends_nadika_after_sunrise under rounding.ending_truncate_at_asu (nadika: [ghaṭī, vighaṭī, asu], mahabhaskariya_1960 IV.31–32), i.e. under the Āryabhaṭīya and the methods built on it. Every other exact leaf carries exact only: the sunrise, sunset and day length (no text registers a rounding rule for them); the planets' longitudes and motions (the registered mean_precision rule is for mean positions, and the record carries true ones); the saṅkrānti instant; and every leaf under the Dṛggaṇita and the Sūrya-siddhānta, whose ending_rounding slot is a deferral.",
+   "type": "object",
+   "required": ["exact"],
+   "additionalProperties": false,
+   "dependentRequired": {"nadika": ["rounding"], "rdms": ["rounding"]},
+   "properties": {
+    "exact": {"type": "string", "pattern": "^-?[0-9]+/[1-9][0-9]*$"},
+    "nadika": {"type": "array", "minItems": 2, "items": {"type": "integer", "minimum": 0}},
+    "rdms": {"type": "array", "minItems": 2, "items": {"type": "integer"}},
+    "rounding": {"type": "string", "pattern": "^[a-z0-9_.]+$"}
+   },
+   "dependentSchemas": {"rounding": {"anyOf": [{"required": ["nadika"]}, {"required": ["rdms"]}]}},
+   "not": {"required": ["nadika", "rdms"]}
+  },
+  "q": {
+   "description": "An exact-or-float value: {exact} under numeric exact; under numeric float a number, which for a modern occurrence or saṅkrānti instant is the double of the value quantised to the engine parameter modern.calendar_quantum, half to even",
+   "anyOf": [{"$ref": "#/$defs/exact"}, {"type": "number"}]
+  },
+  "name": {
+   "description": "A name: its id alone (no scripts selected), its id with its forms by script, or not_in_preset",
+   "anyOf": [
+    {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"},
+    {
+     "type": "object",
+     "required": ["id", "forms"],
+     "additionalProperties": false,
+     "properties": {
+      "id": {"type": "string"},
+      "forms": {
+       "type": "object",
+       "minProperties": 1,
+       "additionalProperties": {"anyOf": [{"type": "array", "minItems": 1, "items": {"type": "string"}}, {"const": "not_in_preset"}]}
+      }
+     }
+    }
+   ]
+  },
+  "era": {
+   "anyOf": [
+    {"const": "not_in_range"},
+    {
+     "type": "object",
+     "required": ["year", "year_start", "sun"],
+     "additionalProperties": false,
+     "properties": {
+      "year": {"type": "integer"},
+      "year_start": {"type": "string"},
+      "sun": {"enum": ["true", "mean"]},
+      "ahargana": {"type": "integer", "minimum": 0},
+      "jdn_difference": {"type": "integer"},
+      "masa": {"$ref": "#/$defs/name"},
+      "masa_index": {"type": "integer", "minimum": 1, "maximum": 12},
+      "day": {"type": "integer", "minimum": 1}
+     },
+     "not": {"required": ["ahargana", "jdn_difference"]}
+    }
+   ]
+  },
+  "clock_leaf": {
+   "description": "Siddhantic: nāḍikās after local mean midnight on text_local:<text_id>, exact. Modern: hh:mm:ss on the named civil standard, with the instant's tt and ut1 Julian dates. not_modelled where the method models none",
+   "anyOf": [
+    {"const": "not_modelled"},
+    {
+     "type": "object",
+     "additionalProperties": false,
+     "properties": {
+      "nadika_after_local_midnight": {"$ref": "#/$defs/q"},
+      "local": {"type": "string", "pattern": "^[0-9]{2}:[0-5][0-9]:[0-5][0-9]$"},
+      "standard": {"type": "string"},
+      "tt": {"type": "number"},
+      "ut1": {"type": "number"}
+     },
+     "oneOf": [
+      {
+       "required": ["nadika_after_local_midnight", "standard"],
+       "properties": {"standard": {"pattern": "^text_local:[a-z][a-z0-9_]*$"}},
+       "not": {"anyOf": [{"required": ["local"]}, {"required": ["tt"]}, {"required": ["ut1"]}]}
+      },
+      {
+       "required": ["local", "standard", "tt", "ut1"],
+       "not": {"required": ["nadika_after_local_midnight"]}
+      }
+     ]
+    }
+   ]
+  },
+  "row": {
+   "type": "object",
+   "required": ["index", "name", "assigned", "start", "end", "ends_nadika_after_sunrise"],
+   "additionalProperties": false,
+   "properties": {
+    "index": {"type": "integer", "minimum": 1},
+    "name": {"$ref": "#/$defs/name"},
+    "assigned": {"type": "boolean"},
+    "start": {"anyOf": [{"$ref": "#/$defs/q"}, {"type": "null"}]},
+    "end": {"anyOf": [{"$ref": "#/$defs/q"}, {"type": "null"}]},
+    "ends_nadika_after_sunrise": {"$ref": "#/$defs/q"}
+   }
+  },
+  "rows": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/row"}},
+  "tithi_rows": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "type": "object",
+    "required": ["index", "name", "assigned", "start", "end", "ends_nadika_after_sunrise"],
+    "additionalProperties": false,
+    "properties": {
+     "index": {"type": "integer", "minimum": 1, "maximum": 30},
+     "name": {
+      "anyOf": [
+       {"const": "not_in_preset"},
+       {
+        "type": "object",
+        "required": ["paksa", "name"],
+        "additionalProperties": false,
+        "properties": {"paksa": {"enum": ["shukla", "krishna"]}, "name": {"$ref": "#/$defs/name"}}
+       }
+      ]
+     },
+     "assigned": {"type": "boolean"},
+     "start": {"anyOf": [{"$ref": "#/$defs/q"}, {"type": "null"}]},
+     "end": {"anyOf": [{"$ref": "#/$defs/q"}, {"type": "null"}]},
+     "ends_nadika_after_sunrise": {"$ref": "#/$defs/q"}
+    }
+   }
+  },
+  "body": {
+   "anyOf": [
+    {"const": "not_modelled"},
+    {
+     "type": "object",
+     "required": ["sidereal_longitude", "latitude", "daily_motion", "retrograde"],
+     "additionalProperties": false,
+     "properties": {
+      "sidereal_longitude": {"$ref": "#/$defs/q"},
+      "latitude": {"anyOf": [{"$ref": "#/$defs/q"}, {"const": "not_modelled"}]},
+      "daily_motion": {"anyOf": [{"$ref": "#/$defs/q"}, {"const": "not_modelled"}]},
+      "retrograde": {"anyOf": [{"type": "boolean"}, {"const": "not_modelled"}]}
+     }
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,262 @@
+id: authority/calendar/bag_2003_julian_days_ex2
+methods: [calendar]
+class: text_computed
+source: bag_2003_julian_days
+edition_page: 31
+pdf_page: 15
+locus: Example 2
+rounding: 'none: whole days'
+precision: null
+datum_keys: [eras.kali.epoch.date.pillai_1911_chronology]
+notes: The author's own arithmetic with the paper's Tables 1–3; a Julian date (Table 1 legend 'J'). The printed JD total 2022616 is not the sum of its own column (2013258 + 9131 + 237 = 2022626); recorded with the emendation.
+values:
+- name: input.ka
+  role: input
+  value: 1434160
+  form: integer
+  unit: days
+  script: latin
+  locus: 'Example 2: the KA number given'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tiles 1x2 --overlap 8 of this clip (r1c1 [25,90,410,329], r2c1 [25,321,410,560])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.table1_ka
+  role: input
+  value: 1424792
+  form: integer
+  unit: days
+  script: latin
+  locus: 'Example 2, the Table 1 line: KA'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tiles 1x2 --overlap 8 of this clip (r1c1 [25,90,410,329], r2c1 [25,321,410,560])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.table1_jd
+  role: input
+  value: 2013258
+  form: integer
+  unit: days
+  script: latin
+  locus: 'Example 2, the Table 1 line: JD'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tiles 1x2 --overlap 8 of this clip (r1c1 [25,90,410,329], r2c1 [25,321,410,560])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.table1_year
+  role: input
+  value: 800
+  form: integer
+  unit: year
+  script: latin
+  locus: 'Example 2, the Table 1 line: the year, marked (J)'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tiles 1x2 --overlap 8 of this clip (r1c1 [25,90,410,329], r2c1 [25,321,410,560])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.table2_days
+  role: input
+  value: 9131
+  form: integer
+  unit: days
+  script: latin
+  locus: 'Example 2, the Table 2 line: the JD column'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tiles 1x2 --overlap 8 of this clip (r1c1 [25,90,410,329], r2c1 [25,321,410,560])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.table2_years
+  role: input
+  value: 25
+  form: integer
+  unit: years
+  script: latin
+  locus: 'Example 2, the Table 2 line: the years'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tiles 1x2 --overlap 8 of this clip (r1c1 [25,90,410,329], r2c1 [25,321,410,560])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.table3_days
+  role: input
+  value: 237
+  form: integer
+  unit: days
+  script: latin
+  locus: 'Example 2, the Table 3 line: the JD column'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tiles 1x2 --overlap 8 of this clip (r1c1 [25,90,410,329], r2c1 [25,321,410,560])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.jd
+  role: output
+  value: 2022616
+  form: integer
+  unit: days
+  script: latin
+  locus: 'Example 2, the closing sentence: the Julian day'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tiles 1x2 --overlap 8 of this clip (r1c1 [25,90,410,329], r2c1 [25,321,410,560])
+  status: double_read
+  emendation:
+    printed: 2022616
+    adopted: 2022626
+    evidence: 'the example''s own JD column: 2013258 + 9131 + 237 = 2022626, the KA column summing correctly (1424792 + 9131 + 237 = 1434160) and JD − KA being 588466 in every row of Table 1; arithmetic of the printed column, not inference'
+    evidence_indic: false
+    by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    owner_signoff: null
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 580]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.date
+  role: output
+  value: 25 Aug. 825 AD
+  form: text
+  unit: date
+  script: latin
+  locus: 'Example 2, the closing sentence: the Christian date Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tiles 1x2 --overlap 8 of this clip (r1c1 [25,90,410,329], r2c1 [25,321,410,560])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 410, 580]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: calendar.statement
+  role: input
+  value: J = Julian Calendrical System applicable upto Oct. 4, 1582 AD; 10 days were adjusted in 1582 without disturbing the weekday.
+  form: text
+  unit: statement
+  script: latin
+  edition_page: 32
+  pdf_page: 16
+  locus: Table 1, the legend line beginning 'J =' Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 50, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tiles 1x2 --overlap 8 of this clip (r1c1 [25,50,410,309], r2c1 [25,301,410,560])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 50, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''

@@ -1,0 +1,2214 @@
+- key: derived.search.step_bound.aryabhatiya.mercury
+  value: 6989/3600
+  sunrise_step_max:
+    value: 14114890417920502684080649043215705309002302751949872770513790066931685839747480617073379061541524474297753391611767559607239014772432336492551920259/7270752486625462501877863637377512935173602946500801841829901334666155532340254091418546956422007355044194760140450473632812500000000000000000000000
+    day: 1872745
+  motion_max:
+    value: 14114890417920502684080649043215705309002302751949872770513790066931685839747480617073379061541524474297753391611767559607239014772432336492551920259/7270752486625462501877863637377512935173602946500801841829901334666155532340254091418546956422007355044194760140450473632812500000000000000000000000
+    day: 1872745
+  unit: degree/day
+  method: aryabhatiya
+  body: mercury
+  observer: meridians/lanka
+  procedures:
+    ahargana: ahargana.lunar_reckoning
+    arc: trig.arc_table_linear
+    ascensional_difference: ascensional_difference.earthsine
+    bhuja_koti: epicycle.bhuja_koti
+    carry.bhujantara: carry.bhujantara
+    carry.cara: carry.cara
+    carry.desantara: carry.desantara_ghati
+    computation_instant: computation_instant.meridian_mean_sunrise
+    declination: declination.rsine_obliquity
+    declination.argument: declination_argument.svaniraksa_true_longitude
+    ending_rounding: rounding.ending_truncate_at_asu
+    epoch_additive: mean.moon_apogee_node_additive
+    gati: gati.sunrise_difference
+    half_day: half_day.quarter_day_plus_cara
+    intraday: intraday.linear_gati
+    manda: epicycle.manda_bhujaphala
+    mean_longitude: mean.yuga_rate_successive_division
+    mean_precision: rounding.truncate_at_vikala
+    order.inferior: order.inferior_three_step
+    order.superior: order.superior_four_step
+    proportional_parts: ending.proportional_parts
+    pulsation: epicycle.pulsating
+    rsine: trig.rsine_table_linear
+    rversine: trig.rversine_table_linear
+    sighra: epicycle.sighra_karna
+    sunrise: sunrise.mean_meridian_plus_carry
+    time_base: ahargana.civil_days_since_kali_epoch
+    weekday: weekday.remainder_from_friday
+  intraday: intraday.linear_gati
+  range:
+    from_jdn: 1794108
+    to_jdn: 2524958
+    cut: search.floor to search.horizon, cut to the method's runs_from
+  tool: step_scan/1
+  engine_version: 1.0.0.dev9
+  data_files:
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/eras/kali.yaml: 6169bfbba81270533efe71a9d482b34c4da5fc6aa3bda24a438c45a39e6921b5
+    jyotirganita/data/texts/aryabhatiya/elements.yaml: 86760632e6619cbca4bddbb5f009d29e9bfdcf716a55aa5c31d2fca1b80d4baa
+    jyotirganita/data/texts/aryabhatiya/epicycles.yaml: ce2032b4a0e9c1dbfacfd3f5b1ac5491006549096c7ecccfa383172c62b7d436
+    jyotirganita/data/texts/aryabhatiya/procedures.yaml: ead38130fee50001d8af9ac290a6869f575593b89c4cda79369ba6706c9637f6
+    jyotirganita/data/texts/aryabhatiya/trig.yaml: 4143d39b91235bef36c2c04268d926b287404960b7fba8b3fd1b77e5e7dcc5a2
+  parameters_sha256: sha256:e351b613fd8f1efa89efe742bf92a2dd69d6d1763b518b9b8fc0a549feea57a0
+  scanned_on: 2026-10-24
+- key: derived.search.step_bound.aryabhatiya.venus
+  value: 2303/1800
+  sunrise_step_max:
+    value: 318308067611661584407247236822840906646048223904388423363107422204133239504747182777238892638384395308240883383713932355063710631293998783857432901957/248793628477241479321426599671710069372829268972586215152320112318647921448127865987015053307201977481034764827449263641600000000000000000000000000000
+    day: 2011422
+  motion_max:
+    value: 318308067611661584407247236822840906646048223904388423363107422204133239504747182777238892638384395308240883383713932355063710631293998783857432901957/248793628477241479321426599671710069372829268972586215152320112318647921448127865987015053307201977481034764827449263641600000000000000000000000000000
+    day: 2011422
+  unit: degree/day
+  method: aryabhatiya
+  body: venus
+  observer: meridians/lanka
+  procedures:
+    ahargana: ahargana.lunar_reckoning
+    arc: trig.arc_table_linear
+    ascensional_difference: ascensional_difference.earthsine
+    bhuja_koti: epicycle.bhuja_koti
+    carry.bhujantara: carry.bhujantara
+    carry.cara: carry.cara
+    carry.desantara: carry.desantara_ghati
+    computation_instant: computation_instant.meridian_mean_sunrise
+    declination: declination.rsine_obliquity
+    declination.argument: declination_argument.svaniraksa_true_longitude
+    ending_rounding: rounding.ending_truncate_at_asu
+    epoch_additive: mean.moon_apogee_node_additive
+    gati: gati.sunrise_difference
+    half_day: half_day.quarter_day_plus_cara
+    intraday: intraday.linear_gati
+    manda: epicycle.manda_bhujaphala
+    mean_longitude: mean.yuga_rate_successive_division
+    mean_precision: rounding.truncate_at_vikala
+    order.inferior: order.inferior_three_step
+    order.superior: order.superior_four_step
+    proportional_parts: ending.proportional_parts
+    pulsation: epicycle.pulsating
+    rsine: trig.rsine_table_linear
+    rversine: trig.rversine_table_linear
+    sighra: epicycle.sighra_karna
+    sunrise: sunrise.mean_meridian_plus_carry
+    time_base: ahargana.civil_days_since_kali_epoch
+    weekday: weekday.remainder_from_friday
+  intraday: intraday.linear_gati
+  range:
+    from_jdn: 1794108
+    to_jdn: 2524958
+    cut: search.floor to search.horizon, cut to the method's runs_from
+  tool: step_scan/1
+  engine_version: 1.0.0.dev9
+  data_files:
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/eras/kali.yaml: 6169bfbba81270533efe71a9d482b34c4da5fc6aa3bda24a438c45a39e6921b5
+    jyotirganita/data/texts/aryabhatiya/elements.yaml: 86760632e6619cbca4bddbb5f009d29e9bfdcf716a55aa5c31d2fca1b80d4baa
+    jyotirganita/data/texts/aryabhatiya/epicycles.yaml: ce2032b4a0e9c1dbfacfd3f5b1ac5491006549096c7ecccfa383172c62b7d436
+    jyotirganita/data/texts/aryabhatiya/procedures.yaml: ead38130fee50001d8af9ac290a6869f575593b89c4cda79369ba6706c9637f6
+    jyotirganita/data/texts/aryabhatiya/trig.yaml: 4143d39b91235bef36c2c04268d926b287404960b7fba8b3fd1b77e5e7dcc5a2
+  parameters_sha256: sha256:e351b613fd8f1efa89efe742bf92a2dd69d6d1763b518b9b8fc0a549feea57a0
+  scanned_on: 2026-10-24
+- key: derived.search.step_bound.aryabhatiya.mars
+  value: 1417/1800
+  sunrise_step_max:
+    value: 5494900661119278295681829483625923664090601544665388074464477179564733204065567499175323867003428571225016745500348168841333343525287791387102779524001372650147046985429650096787042808574375294560242297956491213040454760843195159939740927594592851897968159762332818180327975267240388547093550941873926831086467136828657592675066818005433887299487168289/6981310510651848758227314999449780852500508105884957405993567763903357378032622865840415355875057564801323581110869443051888773873068904351155816801227553144954882775157119941274247562534265807580561787142132311601017136126756668090820312500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    day: 2340153
+  motion_max:
+    value: 5494900661119278295681829483625923664090601544665388074464477179564733204065567499175323867003428571225016745500348168841333343525287791387102779524001372650147046985429650096787042808574375294560242297956491213040454760843195159939740927594592851897968159762332818180327975267240388547093550941873926831086467136828657592675066818005433887299487168289/6981310510651848758227314999449780852500508105884957405993567763903357378032622865840415355875057564801323581110869443051888773873068904351155816801227553144954882775157119941274247562534265807580561787142132311601017136126756668090820312500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    day: 2340153
+  unit: degree/day
+  method: aryabhatiya
+  body: mars
+  observer: meridians/lanka
+  procedures:
+    ahargana: ahargana.lunar_reckoning
+    arc: trig.arc_table_linear
+    ascensional_difference: ascensional_difference.earthsine
+    bhuja_koti: epicycle.bhuja_koti
+    carry.bhujantara: carry.bhujantara
+    carry.cara: carry.cara
+    carry.desantara: carry.desantara_ghati
+    computation_instant: computation_instant.meridian_mean_sunrise
+    declination: declination.rsine_obliquity
+    declination.argument: declination_argument.svaniraksa_true_longitude
+    ending_rounding: rounding.ending_truncate_at_asu
+    epoch_additive: mean.moon_apogee_node_additive
+    gati: gati.sunrise_difference
+    half_day: half_day.quarter_day_plus_cara
+    intraday: intraday.linear_gati
+    manda: epicycle.manda_bhujaphala
+    mean_longitude: mean.yuga_rate_successive_division
+    mean_precision: rounding.truncate_at_vikala
+    order.inferior: order.inferior_three_step
+    order.superior: order.superior_four_step
+    proportional_parts: ending.proportional_parts
+    pulsation: epicycle.pulsating
+    rsine: trig.rsine_table_linear
+    rversine: trig.rversine_table_linear
+    sighra: epicycle.sighra_karna
+    sunrise: sunrise.mean_meridian_plus_carry
+    time_base: ahargana.civil_days_since_kali_epoch
+    weekday: weekday.remainder_from_friday
+  intraday: intraday.linear_gati
+  range:
+    from_jdn: 1794108
+    to_jdn: 2524958
+    cut: search.floor to search.horizon, cut to the method's runs_from
+  tool: step_scan/1
+  engine_version: 1.0.0.dev9
+  data_files:
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/eras/kali.yaml: 6169bfbba81270533efe71a9d482b34c4da5fc6aa3bda24a438c45a39e6921b5
+    jyotirganita/data/texts/aryabhatiya/elements.yaml: 86760632e6619cbca4bddbb5f009d29e9bfdcf716a55aa5c31d2fca1b80d4baa
+    jyotirganita/data/texts/aryabhatiya/epicycles.yaml: ce2032b4a0e9c1dbfacfd3f5b1ac5491006549096c7ecccfa383172c62b7d436
+    jyotirganita/data/texts/aryabhatiya/procedures.yaml: ead38130fee50001d8af9ac290a6869f575593b89c4cda79369ba6706c9637f6
+    jyotirganita/data/texts/aryabhatiya/trig.yaml: 4143d39b91235bef36c2c04268d926b287404960b7fba8b3fd1b77e5e7dcc5a2
+  parameters_sha256: sha256:e351b613fd8f1efa89efe742bf92a2dd69d6d1763b518b9b8fc0a549feea57a0
+  scanned_on: 2026-10-24
+- key: derived.search.step_bound.aryabhatiya.jupiter
+  value: 443/1800
+  sunrise_step_max:
+    value: 1750154943559015513160700970434864485327945667114700833001046035788531560503287675542596681646395736091138850637096006641480758646243161850396309799884148952896973156724546946061917626397007399668646864723004029781247910251113699152621155236444739839381439300455754030332037969476408381559321905612703188187205519987487936424605230149973746467111/7116981443697642268492256457675618236680323179959050407368916179195396105704064447383523269809345754112409408326337440621630294066497249056994790824046919066493408226641473143225365688499649326042520165259381774169595635498854140101168469154102602658440446248278021812438964843750000000000000000000000000000000000000000000000000000000000000000000
+    day: 1940304
+  motion_max:
+    value: 1750154943559015513160700970434864485327945667114700833001046035788531560503287675542596681646395736091138850637096006641480758646243161850396309799884148952896973156724546946061917626397007399668646864723004029781247910251113699152621155236444739839381439300455754030332037969476408381559321905612703188187205519987487936424605230149973746467111/7116981443697642268492256457675618236680323179959050407368916179195396105704064447383523269809345754112409408326337440621630294066497249056994790824046919066493408226641473143225365688499649326042520165259381774169595635498854140101168469154102602658440446248278021812438964843750000000000000000000000000000000000000000000000000000000000000000000
+    day: 1940304
+  unit: degree/day
+  method: aryabhatiya
+  body: jupiter
+  observer: meridians/lanka
+  procedures:
+    ahargana: ahargana.lunar_reckoning
+    arc: trig.arc_table_linear
+    ascensional_difference: ascensional_difference.earthsine
+    bhuja_koti: epicycle.bhuja_koti
+    carry.bhujantara: carry.bhujantara
+    carry.cara: carry.cara
+    carry.desantara: carry.desantara_ghati
+    computation_instant: computation_instant.meridian_mean_sunrise
+    declination: declination.rsine_obliquity
+    declination.argument: declination_argument.svaniraksa_true_longitude
+    ending_rounding: rounding.ending_truncate_at_asu
+    epoch_additive: mean.moon_apogee_node_additive
+    gati: gati.sunrise_difference
+    half_day: half_day.quarter_day_plus_cara
+    intraday: intraday.linear_gati
+    manda: epicycle.manda_bhujaphala
+    mean_longitude: mean.yuga_rate_successive_division
+    mean_precision: rounding.truncate_at_vikala
+    order.inferior: order.inferior_three_step
+    order.superior: order.superior_four_step
+    proportional_parts: ending.proportional_parts
+    pulsation: epicycle.pulsating
+    rsine: trig.rsine_table_linear
+    rversine: trig.rversine_table_linear
+    sighra: epicycle.sighra_karna
+    sunrise: sunrise.mean_meridian_plus_carry
+    time_base: ahargana.civil_days_since_kali_epoch
+    weekday: weekday.remainder_from_friday
+  intraday: intraday.linear_gati
+  range:
+    from_jdn: 1794108
+    to_jdn: 2524958
+    cut: search.floor to search.horizon, cut to the method's runs_from
+  tool: step_scan/1
+  engine_version: 1.0.0.dev9
+  data_files:
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/eras/kali.yaml: 6169bfbba81270533efe71a9d482b34c4da5fc6aa3bda24a438c45a39e6921b5
+    jyotirganita/data/texts/aryabhatiya/elements.yaml: 86760632e6619cbca4bddbb5f009d29e9bfdcf716a55aa5c31d2fca1b80d4baa
+    jyotirganita/data/texts/aryabhatiya/epicycles.yaml: ce2032b4a0e9c1dbfacfd3f5b1ac5491006549096c7ecccfa383172c62b7d436
+    jyotirganita/data/texts/aryabhatiya/procedures.yaml: ead38130fee50001d8af9ac290a6869f575593b89c4cda79369ba6706c9637f6
+    jyotirganita/data/texts/aryabhatiya/trig.yaml: 4143d39b91235bef36c2c04268d926b287404960b7fba8b3fd1b77e5e7dcc5a2
+  parameters_sha256: sha256:e351b613fd8f1efa89efe742bf92a2dd69d6d1763b518b9b8fc0a549feea57a0
+  scanned_on: 2026-10-24
+- key: derived.search.step_bound.aryabhatiya.saturn
+  value: 169/1200
+  sunrise_step_max:
+    value: 6918725026348092988040317974962174950957127958895836477987329826518044360104924341284201747442368003828639007217816771020909381323435214036912626175355999263251647218086594846092344428600991651661524602404526511391813361260424341445527728209702956653602031478964665920596928000953918649644903588802113561975405915626735043459977714436778045702672779020210622916501368103/49208349643541907474967701000556781631998965847512125938251251957267997671159304872563101085534478467115930532935902757901665559168978297373553381201550278703425227755254605454426230969897453242888503626126614414121274165836439351551234722137451171875000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    day: 1936724
+  motion_max:
+    value: 6918725026348092988040317974962174950957127958895836477987329826518044360104924341284201747442368003828639007217816771020909381323435214036912626175355999263251647218086594846092344428600991651661524602404526511391813361260424341445527728209702956653602031478964665920596928000953918649644903588802113561975405915626735043459977714436778045702672779020210622916501368103/49208349643541907474967701000556781631998965847512125938251251957267997671159304872563101085534478467115930532935902757901665559168978297373553381201550278703425227755254605454426230969897453242888503626126614414121274165836439351551234722137451171875000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    day: 1936724
+  unit: degree/day
+  method: aryabhatiya
+  body: saturn
+  observer: meridians/lanka
+  procedures:
+    ahargana: ahargana.lunar_reckoning
+    arc: trig.arc_table_linear
+    ascensional_difference: ascensional_difference.earthsine
+    bhuja_koti: epicycle.bhuja_koti
+    carry.bhujantara: carry.bhujantara
+    carry.cara: carry.cara
+    carry.desantara: carry.desantara_ghati
+    computation_instant: computation_instant.meridian_mean_sunrise
+    declination: declination.rsine_obliquity
+    declination.argument: declination_argument.svaniraksa_true_longitude
+    ending_rounding: rounding.ending_truncate_at_asu
+    epoch_additive: mean.moon_apogee_node_additive
+    gati: gati.sunrise_difference
+    half_day: half_day.quarter_day_plus_cara
+    intraday: intraday.linear_gati
+    manda: epicycle.manda_bhujaphala
+    mean_longitude: mean.yuga_rate_successive_division
+    mean_precision: rounding.truncate_at_vikala
+    order.inferior: order.inferior_three_step
+    order.superior: order.superior_four_step
+    proportional_parts: ending.proportional_parts
+    pulsation: epicycle.pulsating
+    rsine: trig.rsine_table_linear
+    rversine: trig.rversine_table_linear
+    sighra: epicycle.sighra_karna
+    sunrise: sunrise.mean_meridian_plus_carry
+    time_base: ahargana.civil_days_since_kali_epoch
+    weekday: weekday.remainder_from_friday
+  intraday: intraday.linear_gati
+  range:
+    from_jdn: 1794108
+    to_jdn: 2524958
+    cut: search.floor to search.horizon, cut to the method's runs_from
+  tool: step_scan/1
+  engine_version: 1.0.0.dev9
+  data_files:
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/eras/kali.yaml: 6169bfbba81270533efe71a9d482b34c4da5fc6aa3bda24a438c45a39e6921b5
+    jyotirganita/data/texts/aryabhatiya/elements.yaml: 86760632e6619cbca4bddbb5f009d29e9bfdcf716a55aa5c31d2fca1b80d4baa
+    jyotirganita/data/texts/aryabhatiya/epicycles.yaml: ce2032b4a0e9c1dbfacfd3f5b1ac5491006549096c7ecccfa383172c62b7d436
+    jyotirganita/data/texts/aryabhatiya/procedures.yaml: ead38130fee50001d8af9ac290a6869f575593b89c4cda79369ba6706c9637f6
+    jyotirganita/data/texts/aryabhatiya/trig.yaml: 4143d39b91235bef36c2c04268d926b287404960b7fba8b3fd1b77e5e7dcc5a2
+  parameters_sha256: sha256:e351b613fd8f1efa89efe742bf92a2dd69d6d1763b518b9b8fc0a549feea57a0
+  scanned_on: 2026-10-24
+- key: derived.search.step_bound.aryabhatiya.node
+  value: 191/3600
+  sunrise_step_max:
+    value: 191/3600
+    day: 1794108
+  motion_max: not_served
+  unit: degree/day
+  method: aryabhatiya
+  body: node
+  observer: meridians/lanka
+  procedures:
+    ahargana: ahargana.lunar_reckoning
+    arc: trig.arc_table_linear
+    ascensional_difference: ascensional_difference.earthsine
+    bhuja_koti: epicycle.bhuja_koti
+    carry.bhujantara: carry.bhujantara
+    carry.cara: carry.cara
+    carry.desantara: carry.desantara_ghati
+    computation_instant: computation_instant.meridian_mean_sunrise
+    declination: declination.rsine_obliquity
+    declination.argument: declination_argument.svaniraksa_true_longitude
+    ending_rounding: rounding.ending_truncate_at_asu
+    epoch_additive: mean.moon_apogee_node_additive
+    gati: gati.sunrise_difference
+    half_day: half_day.quarter_day_plus_cara
+    intraday: intraday.linear_gati
+    manda: epicycle.manda_bhujaphala
+    mean_longitude: mean.yuga_rate_successive_division
+    mean_precision: rounding.truncate_at_vikala
+    order.inferior: order.inferior_three_step
+    order.superior: order.superior_four_step
+    proportional_parts: ending.proportional_parts
+    pulsation: epicycle.pulsating
+    rsine: trig.rsine_table_linear
+    rversine: trig.rversine_table_linear
+    sighra: epicycle.sighra_karna
+    sunrise: sunrise.mean_meridian_plus_carry
+    time_base: ahargana.civil_days_since_kali_epoch
+    weekday: weekday.remainder_from_friday
+  intraday: intraday.linear_gati
+  range:
+    from_jdn: 1794108
+    to_jdn: 2524958
+    cut: search.floor to search.horizon, cut to the method's runs_from
+  tool: step_scan/1
+  engine_version: 1.0.0.dev9
+  data_files:
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/eras/kali.yaml: 6169bfbba81270533efe71a9d482b34c4da5fc6aa3bda24a438c45a39e6921b5
+    jyotirganita/data/texts/aryabhatiya/elements.yaml: 86760632e6619cbca4bddbb5f009d29e9bfdcf716a55aa5c31d2fca1b80d4baa
+    jyotirganita/data/texts/aryabhatiya/epicycles.yaml: ce2032b4a0e9c1dbfacfd3f5b1ac5491006549096c7ecccfa383172c62b7d436
+    jyotirganita/data/texts/aryabhatiya/procedures.yaml: ead38130fee50001d8af9ac290a6869f575593b89c4cda79369ba6706c9637f6
+    jyotirganita/data/texts/aryabhatiya/trig.yaml: 4143d39b91235bef36c2c04268d926b287404960b7fba8b3fd1b77e5e7dcc5a2
+  parameters_sha256: sha256:e351b613fd8f1efa89efe742bf92a2dd69d6d1763b518b9b8fc0a549feea57a0
+  scanned_on: 2026-10-24
+- key: derived.search.step_bound.parahita.mercury
+  value: 233/120
+  sunrise_step_max:
+    value: 4033575248527778855306618576529531903342518105167750436185432019230490623641595362571267094181370833759982556235480736057356764420549199971080523590553693360394391/2077544105882596290027017107077313678777632019097786990208716680600863204130356766477863124264726475141027528618052605677729756881389156250000000000000000000000000
+    day: 1855944
+  motion_max:
+    value: 4033575248527778855306618576529531903342518105167750436185432019230490623641595362571267094181370833759982556235480736057356764420549199971080523590553693360394391/2077544105882596290027017107077313678777632019097786990208716680600863204130356766477863124264726475141027528618052605677729756881389156250000000000000000000000000
+    day: 1855944
+  unit: degree/day
+  method: parahita
+  body: mercury
+  observer: meridians/lanka
+  procedures:
+    ahargana: ahargana.lunar_reckoning
+    arc: trig.arc_table_linear
+    ascensional_difference: ascensional_difference.earthsine
+    bhuja_koti: epicycle.bhuja_koti
+    carry.bhujantara: carry.bhujantara
+    carry.cara: carry.cara
+    carry.desantara: carry.desantara_ghati
+    computation_instant: computation_instant.meridian_mean_sunrise
+    declination: declination.rsine_obliquity
+    declination.argument: declination_argument.svaniraksa_true_longitude
+    ending_rounding: rounding.ending_truncate_at_asu
+    epoch_additive: mean.moon_apogee_node_additive
+    gati: gati.sunrise_difference
+    half_day: half_day.quarter_day_plus_cara
+    intraday: intraday.linear_gati
+    layer.count_reckoning: layer.count_by_mean_mesha
+    layer.negative_count: layer.negative_count_floor
+    layer.step: layer.step_per_completed_year
+    manda: epicycle.manda_bhujaphala
+    mean_longitude: mean.yuga_rate_successive_division
+    mean_precision: rounding.truncate_at_vikala
+    order.inferior: order.inferior_three_step
+    order.superior: order.superior_four_step
+    proportional_parts: ending.proportional_parts
+    pulsation: epicycle.pulsating
+    rsine: trig.rsine_table_linear
+    rversine: trig.rversine_table_linear
+    sighra: epicycle.sighra_karna
+    sunrise: sunrise.mean_meridian_plus_carry
+    time_base: ahargana.civil_days_since_kali_epoch
+    weekday: weekday.remainder_from_friday
+  intraday: intraday.linear_gati
+  range:
+    from_jdn: 1794108
+    to_jdn: 2524958
+    cut: search.floor to search.horizon, cut to the method's runs_from
+  tool: step_scan/1
+  engine_version: 1.0.0.dev9
+  data_files:
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/eras/kali.yaml: 6169bfbba81270533efe71a9d482b34c4da5fc6aa3bda24a438c45a39e6921b5
+    jyotirganita/data/texts/aryabhatiya/corrections.yaml: 0dd4470e1c9794f93b78c7d1309603404cb7384e3a55519da7687434767b13c4
+    jyotirganita/data/texts/aryabhatiya/elements.yaml: 86760632e6619cbca4bddbb5f009d29e9bfdcf716a55aa5c31d2fca1b80d4baa
+    jyotirganita/data/texts/aryabhatiya/epicycles.yaml: ce2032b4a0e9c1dbfacfd3f5b1ac5491006549096c7ecccfa383172c62b7d436
+    jyotirganita/data/texts/aryabhatiya/procedures.yaml: ead38130fee50001d8af9ac290a6869f575593b89c4cda79369ba6706c9637f6
+    jyotirganita/data/texts/aryabhatiya/trig.yaml: 4143d39b91235bef36c2c04268d926b287404960b7fba8b3fd1b77e5e7dcc5a2
+  parameters_sha256: sha256:10deb44991ddccae74c6f0517a57beb09e25c95f26bcd46c097c767a4c1f611b
+  scanned_on: 2026-10-24
+- key: derived.search.step_bound.parahita.venus
+  value: 2303/1800
+  sunrise_step_max:
+    value: 324960105277694517931564421711767240927265380262578026099497204860724093386813071627546166194425083296790961310744658719016267786843336908806487552853986886159/254000296312401321114598809451294820558729717725842968341420945254562941918545210138607507034140603319611472579479558639370371072000000000000000000000000000000
+    day: 2277696
+  motion_max:
+    value: 324960105277694517931564421711767240927265380262578026099497204860724093386813071627546166194425083296790961310744658719016267786843336908806487552853986886159/254000296312401321114598809451294820558729717725842968341420945254562941918545210138607507034140603319611472579479558639370371072000000000000000000000000000000
+    day: 2277696
+  unit: degree/day
+  method: parahita
+  body: venus
+  observer: meridians/lanka
+  procedures:
+    ahargana: ahargana.lunar_reckoning
+    arc: trig.arc_table_linear
+    ascensional_difference: ascensional_difference.earthsine
+    bhuja_koti: epicycle.bhuja_koti
+    carry.bhujantara: carry.bhujantara
+    carry.cara: carry.cara
+    carry.desantara: carry.desantara_ghati
+    computation_instant: computation_instant.meridian_mean_sunrise
+    declination: declination.rsine_obliquity
+    declination.argument: declination_argument.svaniraksa_true_longitude
+    ending_rounding: rounding.ending_truncate_at_asu
+    epoch_additive: mean.moon_apogee_node_additive
+    gati: gati.sunrise_difference
+    half_day: half_day.quarter_day_plus_cara
+    intraday: intraday.linear_gati
+    layer.count_reckoning: layer.count_by_mean_mesha
+    layer.negative_count: layer.negative_count_floor
+    layer.step: layer.step_per_completed_year
+    manda: epicycle.manda_bhujaphala
+    mean_longitude: mean.yuga_rate_successive_division
+    mean_precision: rounding.truncate_at_vikala
+    order.inferior: order.inferior_three_step
+    order.superior: order.superior_four_step
+    proportional_parts: ending.proportional_parts
+    pulsation: epicycle.pulsating
+    rsine: trig.rsine_table_linear
+    rversine: trig.rversine_table_linear
+    sighra: epicycle.sighra_karna
+    sunrise: sunrise.mean_meridian_plus_carry
+    time_base: ahargana.civil_days_since_kali_epoch
+    weekday: weekday.remainder_from_friday
+  intraday: intraday.linear_gati
+  range:
+    from_jdn: 1794108
+    to_jdn: 2524958
+    cut: search.floor to search.horizon, cut to the method's runs_from
+  tool: step_scan/1
+  engine_version: 1.0.0.dev9
+  data_files:
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/eras/kali.yaml: 6169bfbba81270533efe71a9d482b34c4da5fc6aa3bda24a438c45a39e6921b5
+    jyotirganita/data/texts/aryabhatiya/corrections.yaml: 0dd4470e1c9794f93b78c7d1309603404cb7384e3a55519da7687434767b13c4
+    jyotirganita/data/texts/aryabhatiya/elements.yaml: 86760632e6619cbca4bddbb5f009d29e9bfdcf716a55aa5c31d2fca1b80d4baa
+    jyotirganita/data/texts/aryabhatiya/epicycles.yaml: ce2032b4a0e9c1dbfacfd3f5b1ac5491006549096c7ecccfa383172c62b7d436
+    jyotirganita/data/texts/aryabhatiya/procedures.yaml: ead38130fee50001d8af9ac290a6869f575593b89c4cda79369ba6706c9637f6
+    jyotirganita/data/texts/aryabhatiya/trig.yaml: 4143d39b91235bef36c2c04268d926b287404960b7fba8b3fd1b77e5e7dcc5a2
+  parameters_sha256: sha256:10deb44991ddccae74c6f0517a57beb09e25c95f26bcd46c097c767a4c1f611b
+  scanned_on: 2026-10-24
+- key: derived.search.step_bound.parahita.mars
+  value: 1417/1800
+  sunrise_step_max:
+    value: 88186545822755113557339507785066372745441346635684219563830752664261945313485297416316674828121101799090942873088592042416970585796525128025571981192968014934160488294097135778467522762917321855133510788131270888202625620938256236709394550978702855624340779625959076071864384317716651827423004386299981318468740143765369412631140782133306131703452701753732383780336080249177468877/112033924218842333518061034545182697432315399979981441716049954833617392704164699826923776100281385485794076343467627910619049601182360376816150559144833065511466547155896109661587514526578998488965253570572382301184680651575144468457717760000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    day: 1930700
+  motion_max:
+    value: 88186545822755113557339507785066372745441346635684219563830752664261945313485297416316674828121101799090942873088592042416970585796525128025571981192968014934160488294097135778467522762917321855133510788131270888202625620938256236709394550978702855624340779625959076071864384317716651827423004386299981318468740143765369412631140782133306131703452701753732383780336080249177468877/112033924218842333518061034545182697432315399979981441716049954833617392704164699826923776100281385485794076343467627910619049601182360376816150559144833065511466547155896109661587514526578998488965253570572382301184680651575144468457717760000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    day: 1930700
+  unit: degree/day
+  method: parahita
+  body: mars
+  observer: meridians/lanka
+  procedures:
+    ahargana: ahargana.lunar_reckoning
+    arc: trig.arc_table_linear
+    ascensional_difference: ascensional_difference.earthsine
+    bhuja_koti: epicycle.bhuja_koti
+    carry.bhujantara: carry.bhujantara
+    carry.cara: carry.cara
+    carry.desantara: carry.desantara_ghati
+    computation_instant: computation_instant.meridian_mean_sunrise
+    declination: declination.rsine_obliquity
+    declination.argument: declination_argument.svaniraksa_true_longitude
+    ending_rounding: rounding.ending_truncate_at_asu
+    epoch_additive: mean.moon_apogee_node_additive
+    gati: gati.sunrise_difference
+    half_day: half_day.quarter_day_plus_cara
+    intraday: intraday.linear_gati
+    layer.count_reckoning: layer.count_by_mean_mesha
+    layer.negative_count: layer.negative_count_floor
+    layer.step: layer.step_per_completed_year
+    manda: epicycle.manda_bhujaphala
+    mean_longitude: mean.yuga_rate_successive_division
+    mean_precision: rounding.truncate_at_vikala
+    order.inferior: order.inferior_three_step
+    order.superior: order.superior_four_step
+    proportional_parts: ending.proportional_parts
+    pulsation: epicycle.pulsating
+    rsine: trig.rsine_table_linear
+    rversine: trig.rversine_table_linear
+    sighra: epicycle.sighra_karna
+    sunrise: sunrise.mean_meridian_plus_carry
+    time_base: ahargana.civil_days_since_kali_epoch
+    weekday: weekday.remainder_from_friday
+  intraday: intraday.linear_gati
+  range:
+    from_jdn: 1794108
+    to_jdn: 2524958
+    cut: search.floor to search.horizon, cut to the method's runs_from
+  tool: step_scan/1
+  engine_version: 1.0.0.dev9
+  data_files:
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/eras/kali.yaml: 6169bfbba81270533efe71a9d482b34c4da5fc6aa3bda24a438c45a39e6921b5
+    jyotirganita/data/texts/aryabhatiya/corrections.yaml: 0dd4470e1c9794f93b78c7d1309603404cb7384e3a55519da7687434767b13c4
+    jyotirganita/data/texts/aryabhatiya/elements.yaml: 86760632e6619cbca4bddbb5f009d29e9bfdcf716a55aa5c31d2fca1b80d4baa
+    jyotirganita/data/texts/aryabhatiya/epicycles.yaml: ce2032b4a0e9c1dbfacfd3f5b1ac5491006549096c7ecccfa383172c62b7d436
+    jyotirganita/data/texts/aryabhatiya/procedures.yaml: ead38130fee50001d8af9ac290a6869f575593b89c4cda79369ba6706c9637f6
+    jyotirganita/data/texts/aryabhatiya/trig.yaml: 4143d39b91235bef36c2c04268d926b287404960b7fba8b3fd1b77e5e7dcc5a2
+  parameters_sha256: sha256:10deb44991ddccae74c6f0517a57beb09e25c95f26bcd46c097c767a4c1f611b
+  scanned_on: 2026-10-24
+- key: derived.search.step_bound.parahita.jupiter
+  value: 443/1800
+  sunrise_step_max:
+    value: 12895278927474919483243707744308151043371896205500443126831418820003804214876642141990924403561540613918880579091369739546159279642152381005052738791838091597857172552203506602865399030444957311697315475176878645605347883322155187780812342170811036386280102869821994741401687202147536360310245716267534577148885762329140366683757816854166570149247431/52434874981350835909871960761366339255860903849328063079999393321581260042594917632813570150317556884030660415957177614379621236289704717164006702584434499030688393791457802177005299698004826657862237960914915254574614721264178441445524825326174322981387376785278320312500000000000000000000000000000000000000000000000000000000000000000000000000000000
+    day: 2351551
+  motion_max:
+    value: 12895278927474919483243707744308151043371896205500443126831418820003804214876642141990924403561540613918880579091369739546159279642152381005052738791838091597857172552203506602865399030444957311697315475176878645605347883322155187780812342170811036386280102869821994741401687202147536360310245716267534577148885762329140366683757816854166570149247431/52434874981350835909871960761366339255860903849328063079999393321581260042594917632813570150317556884030660415957177614379621236289704717164006702584434499030688393791457802177005299698004826657862237960914915254574614721264178441445524825326174322981387376785278320312500000000000000000000000000000000000000000000000000000000000000000000000000000000
+    day: 2351551
+  unit: degree/day
+  method: parahita
+  body: jupiter
+  observer: meridians/lanka
+  procedures:
+    ahargana: ahargana.lunar_reckoning
+    arc: trig.arc_table_linear
+    ascensional_difference: ascensional_difference.earthsine
+    bhuja_koti: epicycle.bhuja_koti
+    carry.bhujantara: carry.bhujantara
+    carry.cara: carry.cara
+    carry.desantara: carry.desantara_ghati
+    computation_instant: computation_instant.meridian_mean_sunrise
+    declination: declination.rsine_obliquity
+    declination.argument: declination_argument.svaniraksa_true_longitude
+    ending_rounding: rounding.ending_truncate_at_asu
+    epoch_additive: mean.moon_apogee_node_additive
+    gati: gati.sunrise_difference
+    half_day: half_day.quarter_day_plus_cara
+    intraday: intraday.linear_gati
+    layer.count_reckoning: layer.count_by_mean_mesha
+    layer.negative_count: layer.negative_count_floor
+    layer.step: layer.step_per_completed_year
+    manda: epicycle.manda_bhujaphala
+    mean_longitude: mean.yuga_rate_successive_division
+    mean_precision: rounding.truncate_at_vikala
+    order.inferior: order.inferior_three_step
+    order.superior: order.superior_four_step
+    proportional_parts: ending.proportional_parts
+    pulsation: epicycle.pulsating
+    rsine: trig.rsine_table_linear
+    rversine: trig.rversine_table_linear
+    sighra: epicycle.sighra_karna
+    sunrise: sunrise.mean_meridian_plus_carry
+    time_base: ahargana.civil_days_since_kali_epoch
+    weekday: weekday.remainder_from_friday
+  intraday: intraday.linear_gati
+  range:
+    from_jdn: 1794108
+    to_jdn: 2524958
+    cut: search.floor to search.horizon, cut to the method's runs_from
+  tool: step_scan/1
+  engine_version: 1.0.0.dev9
+  data_files:
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/eras/kali.yaml: 6169bfbba81270533efe71a9d482b34c4da5fc6aa3bda24a438c45a39e6921b5
+    jyotirganita/data/texts/aryabhatiya/corrections.yaml: 0dd4470e1c9794f93b78c7d1309603404cb7384e3a55519da7687434767b13c4
+    jyotirganita/data/texts/aryabhatiya/elements.yaml: 86760632e6619cbca4bddbb5f009d29e9bfdcf716a55aa5c31d2fca1b80d4baa
+    jyotirganita/data/texts/aryabhatiya/epicycles.yaml: ce2032b4a0e9c1dbfacfd3f5b1ac5491006549096c7ecccfa383172c62b7d436
+    jyotirganita/data/texts/aryabhatiya/procedures.yaml: ead38130fee50001d8af9ac290a6869f575593b89c4cda79369ba6706c9637f6
+    jyotirganita/data/texts/aryabhatiya/trig.yaml: 4143d39b91235bef36c2c04268d926b287404960b7fba8b3fd1b77e5e7dcc5a2
+  parameters_sha256: sha256:10deb44991ddccae74c6f0517a57beb09e25c95f26bcd46c097c767a4c1f611b
+  scanned_on: 2026-10-24
+- key: derived.search.step_bound.parahita.saturn
+  value: 169/1200
+  sunrise_step_max:
+    value: 28351358699777674373417174518438386029409293158167192034859845381884526591789336698630554741783700918399450802202534075106498889417802590545901806648985316111679558334111978549980187477596654040506162889548936211386176475164772622041785675730428503236228979353941323042954825125172785479322411092467099960721173050961810145416302101860768854068182190320252292872470856670697655525750923162093698801/201602450826349927507195760552581625410083219219057305284955067994134287461383855443628609790675284665143055638166971417129134427905272454785302830046610598144970165275556939645430184637319240419154746449816549027077048145898977496808972954750061035156250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    day: 2324264
+  motion_max:
+    value: 28351358699777674373417174518438386029409293158167192034859845381884526591789336698630554741783700918399450802202534075106498889417802590545901806648985316111679558334111978549980187477596654040506162889548936211386176475164772622041785675730428503236228979353941323042954825125172785479322411092467099960721173050961810145416302101860768854068182190320252292872470856670697655525750923162093698801/201602450826349927507195760552581625410083219219057305284955067994134287461383855443628609790675284665143055638166971417129134427905272454785302830046610598144970165275556939645430184637319240419154746449816549027077048145898977496808972954750061035156250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    day: 2324264
+  unit: degree/day
+  method: parahita
+  body: saturn
+  observer: meridians/lanka
+  procedures:
+    ahargana: ahargana.lunar_reckoning
+    arc: trig.arc_table_linear
+    ascensional_difference: ascensional_difference.earthsine
+    bhuja_koti: epicycle.bhuja_koti
+    carry.bhujantara: carry.bhujantara
+    carry.cara: carry.cara
+    carry.desantara: carry.desantara_ghati
+    computation_instant: computation_instant.meridian_mean_sunrise
+    declination: declination.rsine_obliquity
+    declination.argument: declination_argument.svaniraksa_true_longitude
+    ending_rounding: rounding.ending_truncate_at_asu
+    epoch_additive: mean.moon_apogee_node_additive
+    gati: gati.sunrise_difference
+    half_day: half_day.quarter_day_plus_cara
+    intraday: intraday.linear_gati
+    layer.count_reckoning: layer.count_by_mean_mesha
+    layer.negative_count: layer.negative_count_floor
+    layer.step: layer.step_per_completed_year
+    manda: epicycle.manda_bhujaphala
+    mean_longitude: mean.yuga_rate_successive_division
+    mean_precision: rounding.truncate_at_vikala
+    order.inferior: order.inferior_three_step
+    order.superior: order.superior_four_step
+    proportional_parts: ending.proportional_parts
+    pulsation: epicycle.pulsating
+    rsine: trig.rsine_table_linear
+    rversine: trig.rversine_table_linear
+    sighra: epicycle.sighra_karna
+    sunrise: sunrise.mean_meridian_plus_carry
+    time_base: ahargana.civil_days_since_kali_epoch
+    weekday: weekday.remainder_from_friday
+  intraday: intraday.linear_gati
+  range:
+    from_jdn: 1794108
+    to_jdn: 2524958
+    cut: search.floor to search.horizon, cut to the method's runs_from
+  tool: step_scan/1
+  engine_version: 1.0.0.dev9
+  data_files:
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/eras/kali.yaml: 6169bfbba81270533efe71a9d482b34c4da5fc6aa3bda24a438c45a39e6921b5
+    jyotirganita/data/texts/aryabhatiya/corrections.yaml: 0dd4470e1c9794f93b78c7d1309603404cb7384e3a55519da7687434767b13c4
+    jyotirganita/data/texts/aryabhatiya/elements.yaml: 86760632e6619cbca4bddbb5f009d29e9bfdcf716a55aa5c31d2fca1b80d4baa
+    jyotirganita/data/texts/aryabhatiya/epicycles.yaml: ce2032b4a0e9c1dbfacfd3f5b1ac5491006549096c7ecccfa383172c62b7d436
+    jyotirganita/data/texts/aryabhatiya/procedures.yaml: ead38130fee50001d8af9ac290a6869f575593b89c4cda79369ba6706c9637f6
+    jyotirganita/data/texts/aryabhatiya/trig.yaml: 4143d39b91235bef36c2c04268d926b287404960b7fba8b3fd1b77e5e7dcc5a2
+  parameters_sha256: sha256:10deb44991ddccae74c6f0517a57beb09e25c95f26bcd46c097c767a4c1f611b
+  scanned_on: 2026-10-24
+- key: derived.search.step_bound.parahita.node
+  value: 3/50
+  sunrise_step_max:
+    value: 1723/28800
+    day: 1794184
+  motion_max: not_served
+  unit: degree/day
+  method: parahita
+  body: node
+  observer: meridians/lanka
+  procedures:
+    ahargana: ahargana.lunar_reckoning
+    arc: trig.arc_table_linear
+    ascensional_difference: ascensional_difference.earthsine
+    bhuja_koti: epicycle.bhuja_koti
+    carry.bhujantara: carry.bhujantara
+    carry.cara: carry.cara
+    carry.desantara: carry.desantara_ghati
+    computation_instant: computation_instant.meridian_mean_sunrise
+    declination: declination.rsine_obliquity
+    declination.argument: declination_argument.svaniraksa_true_longitude
+    ending_rounding: rounding.ending_truncate_at_asu
+    epoch_additive: mean.moon_apogee_node_additive
+    gati: gati.sunrise_difference
+    half_day: half_day.quarter_day_plus_cara
+    intraday: intraday.linear_gati
+    layer.count_reckoning: layer.count_by_mean_mesha
+    layer.negative_count: layer.negative_count_floor
+    layer.step: layer.step_per_completed_year
+    manda: epicycle.manda_bhujaphala
+    mean_longitude: mean.yuga_rate_successive_division
+    mean_precision: rounding.truncate_at_vikala
+    order.inferior: order.inferior_three_step
+    order.superior: order.superior_four_step
+    proportional_parts: ending.proportional_parts
+    pulsation: epicycle.pulsating
+    rsine: trig.rsine_table_linear
+    rversine: trig.rversine_table_linear
+    sighra: epicycle.sighra_karna
+    sunrise: sunrise.mean_meridian_plus_carry
+    time_base: ahargana.civil_days_since_kali_epoch
+    weekday: weekday.remainder_from_friday
+  intraday: intraday.linear_gati
+  range:
+    from_jdn: 1794108
+    to_jdn: 2524958
+    cut: search.floor to search.horizon, cut to the method's runs_from
+  tool: step_scan/1
+  engine_version: 1.0.0.dev9
+  data_files:
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/eras/kali.yaml: 6169bfbba81270533efe71a9d482b34c4da5fc6aa3bda24a438c45a39e6921b5
+    jyotirganita/data/texts/aryabhatiya/corrections.yaml: 0dd4470e1c9794f93b78c7d1309603404cb7384e3a55519da7687434767b13c4
+    jyotirganita/data/texts/aryabhatiya/elements.yaml: 86760632e6619cbca4bddbb5f009d29e9bfdcf716a55aa5c31d2fca1b80d4baa
+    jyotirganita/data/texts/aryabhatiya/epicycles.yaml: ce2032b4a0e9c1dbfacfd3f5b1ac5491006549096c7ecccfa383172c62b7d436
+    jyotirganita/data/texts/aryabhatiya/procedures.yaml: ead38130fee50001d8af9ac290a6869f575593b89c4cda79369ba6706c9637f6
+    jyotirganita/data/texts/aryabhatiya/trig.yaml: 4143d39b91235bef36c2c04268d926b287404960b7fba8b3fd1b77e5e7dcc5a2
+  parameters_sha256: sha256:10deb44991ddccae74c6f0517a57beb09e25c95f26bcd46c097c767a4c1f611b
+  scanned_on: 2026-10-24
+- key: derived.search.step_bound.drgganita.mercury
+  value: 7109/3600
+  sunrise_step_max:
+    value: 168961369122601797339452139521290645514247029042341783592331068131370250756255819951302961713030403089392852112926677675823236290956850317784134404773659305335836004025367729894019358932119646669666299414310148196659188210451136651690683366696390979415880738380247655252108140105774259254129583434398518143033998627161070551896038157340533255271945983537350659648431998591959499051859020315126474279971669008122378884403257893158527616739712280658813600413497801803723440052798791619469935420391179502079/85565469692401499756572679470222525910421363441446864719558905989080090320936789300597080499859707487123471659672699798865824910595800317871351558960956459513998128644929899718815967235089252648439565255100919126703119451298571656863705852288147375648399476953533818674318991761600302512354944107431766714252003782319998453486322417553414373220542248585091554861854225282094450271090029138834863312667777433600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    day: 1869846
+  motion_max:
+    value: 168961369122601797339452139521290645514247029042341783592331068131370250756255819951302961713030403089392852112926677675823236290956850317784134404773659305335836004025367729894019358932119646669666299414310148196659188210451136651690683366696390979415880738380247655252108140105774259254129583434398518143033998627161070551896038157340533255271945983537350659648431998591959499051859020315126474279971669008122378884403257893158527616739712280658813600413497801803723440052798791619469935420391179502079/85565469692401499756572679470222525910421363441446864719558905989080090320936789300597080499859707487123471659672699798865824910595800317871351558960956459513998128644929899718815967235089252648439565255100919126703119451298571656863705852288147375648399476953533818674318991761600302512354944107431766714252003782319998453486322417553414373220542248585091554861854225282094450271090029138834863312667777433600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    day: 1869846
+  unit: degree/day
+  method: drgganita
+  body: mercury
+  observer: meridians/drgganita_samarekha
+  procedures:
+    arc: trig.arc_table_linear
+    ascensional_difference: ascensional_difference.earthsine
+    carry.bhujantara: carry.bhujantara_mean_elements
+    carry.cara: carry.cara_mean_elements
+    carry.desantara: carry.desantara_yojana
+    computation_instant: computation_instant.dhruva_sunrise
+    declination: declination.rsine_obliquity
+    declination.argument: declination_argument.svaniraksa_true_longitude
+    ending_rounding: gap
+    epoch_additive: mean.dhruva_signed
+    gati: gati.sunrise_difference
+    half_day: half_day.quarter_day_plus_cara
+    interpolation: table.second_difference
+    interpolation.last_step: table.last_step_preceding_difference
+    intraday: intraday.linear_gati
+    kendra: table.kendra_body_less_ucca
+    latitude: latitude.great_sine_moon
+    mean_longitude: mean.guna_hara_drift
+    mean_precision: gap
+    node_complement: node.complement_once
+    order.inferior: order.inferior_drgganita
+    order.luminaries: order.manda_only
+    order.superior: order.superior_drgganita
+    proportional_parts: ending.proportional_parts
+    rsine: trig.rsine_table_linear
+    sighrocca: sighrocca.sun_mean_or_own
+    sunrise: sunrise.mean_meridian_plus_carry
+    table_branch: table.manda_one_sighra_two
+    time_base: ahargana.kali_dinagana
+    weekday: weekday.remainder_from_friday
+  intraday: intraday.linear_gati
+  range:
+    from_jdn: 1794108
+    to_jdn: 2524958
+    cut: search.floor to search.horizon, cut to the method's runs_from
+  tool: step_scan/1
+  engine_version: 1.0.0b3
+  data_files:
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/eras/kali.yaml: 6169bfbba81270533efe71a9d482b34c4da5fc6aa3bda24a438c45a39e6921b5
+    jyotirganita/data/texts/drgganita/drk_school.yaml: d086fa45bc134f86ddfca402bd269ce98b4f09a1e2caab1a47987ac0ee866026
+    jyotirganita/data/texts/drgganita/elements.yaml: 5ff276f2b9c9c1dfc101f1a8f330f19a8b91c0cdf60c0a6c2dac591d7fa84ad7
+    jyotirganita/data/texts/drgganita/jya.yaml: 595615579e55f6748060737a89bff0551a543e5c751e21c2ab16af160b61e9b1
+    jyotirganita/data/texts/drgganita/procedures.yaml: 60a0b8989415f1f0d4c4184bb2f62cec8732d8b3e206d349357df2fdb94869dc
+  parameters_sha256: sha256:33ec850d591f23c7fad4cd288b114b4ebfdfe14b41396d87deb6de32b26337cb
+  scanned_on: 2026-10-29
+- key: derived.search.step_bound.drgganita.venus
+  value: 4691/3600
+  sunrise_step_max:
+    value: 3503519462849251509635326016792902495901569958251886064432611588412541401918653809339964051601170693405962267982249568314186320513800260427377168269149961616252453735284749700381860747926026674787366999818375399004561721502740900840801924019018292518639709124207325494571022662478997806445052678127305076812703018179357271431369450234140019416771683035786035658684140884196894489526909412989207364989667205488661350316929768761902745472367562793891418626982684094644478576876841349687403326179977435425778722682454114535851059137388428144987700715648605032717737433198902951753522373296305433180826181794328532740761380224038514332075165504660663858702553587435409838957031529174141170879512856400082244925800375999/2688946163699149860106243958051651987405202940235829194235914836866165346553256940225141938982825086749461288601424785717563478016478259336815174625591523427810452449527981909837073196196287045190323235700959524987073199151102259865714017517752998601842664205848199218208261568849174312164388874242341916619176203572464160439777156566489729225310469092317165128158806857096156246833946272711498074690031397515054716985758911283456469242113369428797211096192451605041360326260460814118225027972023069395108268239505471329372384855206840906734248011744031811934780108750476982666717099458560000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    day: 2107138
+  motion_max:
+    value: 3503519462849251509635326016792902495901569958251886064432611588412541401918653809339964051601170693405962267982249568314186320513800260427377168269149961616252453735284749700381860747926026674787366999818375399004561721502740900840801924019018292518639709124207325494571022662478997806445052678127305076812703018179357271431369450234140019416771683035786035658684140884196894489526909412989207364989667205488661350316929768761902745472367562793891418626982684094644478576876841349687403326179977435425778722682454114535851059137388428144987700715648605032717737433198902951753522373296305433180826181794328532740761380224038514332075165504660663858702553587435409838957031529174141170879512856400082244925800375999/2688946163699149860106243958051651987405202940235829194235914836866165346553256940225141938982825086749461288601424785717563478016478259336815174625591523427810452449527981909837073196196287045190323235700959524987073199151102259865714017517752998601842664205848199218208261568849174312164388874242341916619176203572464160439777156566489729225310469092317165128158806857096156246833946272711498074690031397515054716985758911283456469242113369428797211096192451605041360326260460814118225027972023069395108268239505471329372384855206840906734248011744031811934780108750476982666717099458560000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    day: 2107138
+  unit: degree/day
+  method: drgganita
+  body: venus
+  observer: meridians/drgganita_samarekha
+  procedures:
+    arc: trig.arc_table_linear
+    ascensional_difference: ascensional_difference.earthsine
+    carry.bhujantara: carry.bhujantara_mean_elements
+    carry.cara: carry.cara_mean_elements
+    carry.desantara: carry.desantara_yojana
+    computation_instant: computation_instant.dhruva_sunrise
+    declination: declination.rsine_obliquity
+    declination.argument: declination_argument.svaniraksa_true_longitude
+    ending_rounding: gap
+    epoch_additive: mean.dhruva_signed
+    gati: gati.sunrise_difference
+    half_day: half_day.quarter_day_plus_cara
+    interpolation: table.second_difference
+    interpolation.last_step: table.last_step_preceding_difference
+    intraday: intraday.linear_gati
+    kendra: table.kendra_body_less_ucca
+    latitude: latitude.great_sine_moon
+    mean_longitude: mean.guna_hara_drift
+    mean_precision: gap
+    node_complement: node.complement_once
+    order.inferior: order.inferior_drgganita
+    order.luminaries: order.manda_only
+    order.superior: order.superior_drgganita
+    proportional_parts: ending.proportional_parts
+    rsine: trig.rsine_table_linear
+    sighrocca: sighrocca.sun_mean_or_own
+    sunrise: sunrise.mean_meridian_plus_carry
+    table_branch: table.manda_one_sighra_two
+    time_base: ahargana.kali_dinagana
+    weekday: weekday.remainder_from_friday
+  intraday: intraday.linear_gati
+  range:
+    from_jdn: 1794108
+    to_jdn: 2524958
+    cut: search.floor to search.horizon, cut to the method's runs_from
+  tool: step_scan/1
+  engine_version: 1.0.0b3
+  data_files:
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/eras/kali.yaml: 6169bfbba81270533efe71a9d482b34c4da5fc6aa3bda24a438c45a39e6921b5
+    jyotirganita/data/texts/drgganita/drk_school.yaml: d086fa45bc134f86ddfca402bd269ce98b4f09a1e2caab1a47987ac0ee866026
+    jyotirganita/data/texts/drgganita/elements.yaml: 5ff276f2b9c9c1dfc101f1a8f330f19a8b91c0cdf60c0a6c2dac591d7fa84ad7
+    jyotirganita/data/texts/drgganita/jya.yaml: 595615579e55f6748060737a89bff0551a543e5c751e21c2ab16af160b61e9b1
+    jyotirganita/data/texts/drgganita/procedures.yaml: 60a0b8989415f1f0d4c4184bb2f62cec8732d8b3e206d349357df2fdb94869dc
+  parameters_sha256: sha256:33ec850d591f23c7fad4cd288b114b4ebfdfe14b41396d87deb6de32b26337cb
+  scanned_on: 2026-10-29
+- key: derived.search.step_bound.drgganita.mars
+  value: 353/450
+  sunrise_step_max:
+    value: 405668746098198503869306502168153513925702154367748696196662937035027493254076822729139149535715600245735186896518543102789864247179543247905911789814051743508729883797475412655849996291017903805600254160012517402686756126175934225476147318980398746271518953933592293972426832159393711419647181117623886264944846790949710017521228843075963483006926985724510903621272795459287858390882943302940734427583/517321154992822021073660252515620979128157821389033011290739216664807136220686150881791273057506555973646638909176481210050990709741697952432442741558796913831397084789831777570291020557182371104999577134668380840538593506962696299697959633455090133230907789296103207132826670179967087930579153480213279539200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    day: 2305858
+  motion_max:
+    value: 405668746098198503869306502168153513925702154367748696196662937035027493254076822729139149535715600245735186896518543102789864247179543247905911789814051743508729883797475412655849996291017903805600254160012517402686756126175934225476147318980398746271518953933592293972426832159393711419647181117623886264944846790949710017521228843075963483006926985724510903621272795459287858390882943302940734427583/517321154992822021073660252515620979128157821389033011290739216664807136220686150881791273057506555973646638909176481210050990709741697952432442741558796913831397084789831777570291020557182371104999577134668380840538593506962696299697959633455090133230907789296103207132826670179967087930579153480213279539200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    day: 2305858
+  unit: degree/day
+  method: drgganita
+  body: mars
+  observer: meridians/drgganita_samarekha
+  procedures:
+    arc: trig.arc_table_linear
+    ascensional_difference: ascensional_difference.earthsine
+    carry.bhujantara: carry.bhujantara_mean_elements
+    carry.cara: carry.cara_mean_elements
+    carry.desantara: carry.desantara_yojana
+    computation_instant: computation_instant.dhruva_sunrise
+    declination: declination.rsine_obliquity
+    declination.argument: declination_argument.svaniraksa_true_longitude
+    ending_rounding: gap
+    epoch_additive: mean.dhruva_signed
+    gati: gati.sunrise_difference
+    half_day: half_day.quarter_day_plus_cara
+    interpolation: table.second_difference
+    interpolation.last_step: table.last_step_preceding_difference
+    intraday: intraday.linear_gati
+    kendra: table.kendra_body_less_ucca
+    latitude: latitude.great_sine_moon
+    mean_longitude: mean.guna_hara_drift
+    mean_precision: gap
+    node_complement: node.complement_once
+    order.inferior: order.inferior_drgganita
+    order.luminaries: order.manda_only
+    order.superior: order.superior_drgganita
+    proportional_parts: ending.proportional_parts
+    rsine: trig.rsine_table_linear
+    sighrocca: sighrocca.sun_mean_or_own
+    sunrise: sunrise.mean_meridian_plus_carry
+    table_branch: table.manda_one_sighra_two
+    time_base: ahargana.kali_dinagana
+    weekday: weekday.remainder_from_friday
+  intraday: intraday.linear_gati
+  range:
+    from_jdn: 1794108
+    to_jdn: 2524958
+    cut: search.floor to search.horizon, cut to the method's runs_from
+  tool: step_scan/1
+  engine_version: 1.0.0b3
+  data_files:
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/eras/kali.yaml: 6169bfbba81270533efe71a9d482b34c4da5fc6aa3bda24a438c45a39e6921b5
+    jyotirganita/data/texts/drgganita/drk_school.yaml: d086fa45bc134f86ddfca402bd269ce98b4f09a1e2caab1a47987ac0ee866026
+    jyotirganita/data/texts/drgganita/elements.yaml: 5ff276f2b9c9c1dfc101f1a8f330f19a8b91c0cdf60c0a6c2dac591d7fa84ad7
+    jyotirganita/data/texts/drgganita/jya.yaml: 595615579e55f6748060737a89bff0551a543e5c751e21c2ab16af160b61e9b1
+    jyotirganita/data/texts/drgganita/procedures.yaml: 60a0b8989415f1f0d4c4184bb2f62cec8732d8b3e206d349357df2fdb94869dc
+  parameters_sha256: sha256:33ec850d591f23c7fad4cd288b114b4ebfdfe14b41396d87deb6de32b26337cb
+  scanned_on: 2026-10-29
+- key: derived.search.step_bound.drgganita.jupiter
+  value: 293/1200
+  sunrise_step_max:
+    value: 948372135209263031612670293287056444990916138242971228809612959329125270744410217923622985488774638931051562996210501035781782128138313279832613186387119027961484497401318711576387774764034512632849223891883620017454540108305261772215528953070428228247382561445504850361754144258999651782160060111465878205865287121617629590759585283271766506052171260752229431829194987587864734439648896140337011/3884472859867588819785835985863393414988642680998149534621436663438923903330134132665785434279116755033949615286811789877211266244041382273370895480608893734407179208896649313150366002653819279110959410475450063836445663887632536268105641365284221453629351422889906405048521514181264284245192703153743236907169455538176000000000000000000000000000000000000000000000000000000000000000000000000000000
+    day: 1996549
+  motion_max:
+    value: 948372135209263031612670293287056444990916138242971228809612959329125270744410217923622985488774638931051562996210501035781782128138313279832613186387119027961484497401318711576387774764034512632849223891883620017454540108305261772215528953070428228247382561445504850361754144258999651782160060111465878205865287121617629590759585283271766506052171260752229431829194987587864734439648896140337011/3884472859867588819785835985863393414988642680998149534621436663438923903330134132665785434279116755033949615286811789877211266244041382273370895480608893734407179208896649313150366002653819279110959410475450063836445663887632536268105641365284221453629351422889906405048521514181264284245192703153743236907169455538176000000000000000000000000000000000000000000000000000000000000000000000000000000
+    day: 1996549
+  unit: degree/day
+  method: drgganita
+  body: jupiter
+  observer: meridians/drgganita_samarekha
+  procedures:
+    arc: trig.arc_table_linear
+    ascensional_difference: ascensional_difference.earthsine
+    carry.bhujantara: carry.bhujantara_mean_elements
+    carry.cara: carry.cara_mean_elements
+    carry.desantara: carry.desantara_yojana
+    computation_instant: computation_instant.dhruva_sunrise
+    declination: declination.rsine_obliquity
+    declination.argument: declination_argument.svaniraksa_true_longitude
+    ending_rounding: gap
+    epoch_additive: mean.dhruva_signed
+    gati: gati.sunrise_difference
+    half_day: half_day.quarter_day_plus_cara
+    interpolation: table.second_difference
+    interpolation.last_step: table.last_step_preceding_difference
+    intraday: intraday.linear_gati
+    kendra: table.kendra_body_less_ucca
+    latitude: latitude.great_sine_moon
+    mean_longitude: mean.guna_hara_drift
+    mean_precision: gap
+    node_complement: node.complement_once
+    order.inferior: order.inferior_drgganita
+    order.luminaries: order.manda_only
+    order.superior: order.superior_drgganita
+    proportional_parts: ending.proportional_parts
+    rsine: trig.rsine_table_linear
+    sighrocca: sighrocca.sun_mean_or_own
+    sunrise: sunrise.mean_meridian_plus_carry
+    table_branch: table.manda_one_sighra_two
+    time_base: ahargana.kali_dinagana
+    weekday: weekday.remainder_from_friday
+  intraday: intraday.linear_gati
+  range:
+    from_jdn: 1794108
+    to_jdn: 2524958
+    cut: search.floor to search.horizon, cut to the method's runs_from
+  tool: step_scan/1
+  engine_version: 1.0.0b3
+  data_files:
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/eras/kali.yaml: 6169bfbba81270533efe71a9d482b34c4da5fc6aa3bda24a438c45a39e6921b5
+    jyotirganita/data/texts/drgganita/drk_school.yaml: d086fa45bc134f86ddfca402bd269ce98b4f09a1e2caab1a47987ac0ee866026
+    jyotirganita/data/texts/drgganita/elements.yaml: 5ff276f2b9c9c1dfc101f1a8f330f19a8b91c0cdf60c0a6c2dac591d7fa84ad7
+    jyotirganita/data/texts/drgganita/jya.yaml: 595615579e55f6748060737a89bff0551a543e5c751e21c2ab16af160b61e9b1
+    jyotirganita/data/texts/drgganita/procedures.yaml: 60a0b8989415f1f0d4c4184bb2f62cec8732d8b3e206d349357df2fdb94869dc
+  parameters_sha256: sha256:33ec850d591f23c7fad4cd288b114b4ebfdfe14b41396d87deb6de32b26337cb
+  scanned_on: 2026-10-29
+- key: derived.search.step_bound.drgganita.saturn
+  value: 101/720
+  sunrise_step_max:
+    value: 94298670335231071907943385525742884913833317139955800981073687073401448930393897267785635887810952862236235553540672357465429512490653810829529868399192607739941612121931926947844337261994464827051873583790730033019660738660935188597007448581978684273348663982551808603265112387427690621382285238337926252576440443763319796302732667920016111652459273467851702805442840379040279655819489785615497092666643600856797696899745655365421119098908124793722081861205505020639103/672597846509938678998297995010643057115260505100997505016617966726656333495846721626192714794317794446644720222162529462349391439102258192741247537403986847064857261009891096107221523697509067928184941599744154501164043963271967350250357410129873230737971826743000839570529193650856481353914404211966827569716220399987032824936767549502456822919689829297021554892886270961254400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    day: 1881903
+  motion_max:
+    value: 94298670335231071907943385525742884913833317139955800981073687073401448930393897267785635887810952862236235553540672357465429512490653810829529868399192607739941612121931926947844337261994464827051873583790730033019660738660935188597007448581978684273348663982551808603265112387427690621382285238337926252576440443763319796302732667920016111652459273467851702805442840379040279655819489785615497092666643600856797696899745655365421119098908124793722081861205505020639103/672597846509938678998297995010643057115260505100997505016617966726656333495846721626192714794317794446644720222162529462349391439102258192741247537403986847064857261009891096107221523697509067928184941599744154501164043963271967350250357410129873230737971826743000839570529193650856481353914404211966827569716220399987032824936767549502456822919689829297021554892886270961254400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    day: 1881903
+  unit: degree/day
+  method: drgganita
+  body: saturn
+  observer: meridians/drgganita_samarekha
+  procedures:
+    arc: trig.arc_table_linear
+    ascensional_difference: ascensional_difference.earthsine
+    carry.bhujantara: carry.bhujantara_mean_elements
+    carry.cara: carry.cara_mean_elements
+    carry.desantara: carry.desantara_yojana
+    computation_instant: computation_instant.dhruva_sunrise
+    declination: declination.rsine_obliquity
+    declination.argument: declination_argument.svaniraksa_true_longitude
+    ending_rounding: gap
+    epoch_additive: mean.dhruva_signed
+    gati: gati.sunrise_difference
+    half_day: half_day.quarter_day_plus_cara
+    interpolation: table.second_difference
+    interpolation.last_step: table.last_step_preceding_difference
+    intraday: intraday.linear_gati
+    kendra: table.kendra_body_less_ucca
+    latitude: latitude.great_sine_moon
+    mean_longitude: mean.guna_hara_drift
+    mean_precision: gap
+    node_complement: node.complement_once
+    order.inferior: order.inferior_drgganita
+    order.luminaries: order.manda_only
+    order.superior: order.superior_drgganita
+    proportional_parts: ending.proportional_parts
+    rsine: trig.rsine_table_linear
+    sighrocca: sighrocca.sun_mean_or_own
+    sunrise: sunrise.mean_meridian_plus_carry
+    table_branch: table.manda_one_sighra_two
+    time_base: ahargana.kali_dinagana
+    weekday: weekday.remainder_from_friday
+  intraday: intraday.linear_gati
+  range:
+    from_jdn: 1794108
+    to_jdn: 2524958
+    cut: search.floor to search.horizon, cut to the method's runs_from
+  tool: step_scan/1
+  engine_version: 1.0.0b3
+  data_files:
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/eras/kali.yaml: 6169bfbba81270533efe71a9d482b34c4da5fc6aa3bda24a438c45a39e6921b5
+    jyotirganita/data/texts/drgganita/drk_school.yaml: d086fa45bc134f86ddfca402bd269ce98b4f09a1e2caab1a47987ac0ee866026
+    jyotirganita/data/texts/drgganita/elements.yaml: 5ff276f2b9c9c1dfc101f1a8f330f19a8b91c0cdf60c0a6c2dac591d7fa84ad7
+    jyotirganita/data/texts/drgganita/jya.yaml: 595615579e55f6748060737a89bff0551a543e5c751e21c2ab16af160b61e9b1
+    jyotirganita/data/texts/drgganita/procedures.yaml: 60a0b8989415f1f0d4c4184bb2f62cec8732d8b3e206d349357df2fdb94869dc
+  parameters_sha256: sha256:33ec850d591f23c7fad4cd288b114b4ebfdfe14b41396d87deb6de32b26337cb
+  scanned_on: 2026-10-29
+- key: derived.search.step_bound.drgganita.node
+  value: 191/3600
+  sunrise_step_max:
+    value: 145792345750056221514748553018304023/2751333188151323330060960563200000000
+    day: 1909496
+  motion_max: not_served
+  unit: degree/day
+  method: drgganita
+  body: node
+  observer: meridians/drgganita_samarekha
+  procedures:
+    arc: trig.arc_table_linear
+    ascensional_difference: ascensional_difference.earthsine
+    carry.bhujantara: carry.bhujantara_mean_elements
+    carry.cara: carry.cara_mean_elements
+    carry.desantara: carry.desantara_yojana
+    computation_instant: computation_instant.dhruva_sunrise
+    declination: declination.rsine_obliquity
+    declination.argument: declination_argument.svaniraksa_true_longitude
+    ending_rounding: gap
+    epoch_additive: mean.dhruva_signed
+    gati: gati.sunrise_difference
+    half_day: half_day.quarter_day_plus_cara
+    interpolation: table.second_difference
+    interpolation.last_step: table.last_step_preceding_difference
+    intraday: intraday.linear_gati
+    kendra: table.kendra_body_less_ucca
+    latitude: latitude.great_sine_moon
+    mean_longitude: mean.guna_hara_drift
+    mean_precision: gap
+    node_complement: node.complement_once
+    order.inferior: order.inferior_drgganita
+    order.luminaries: order.manda_only
+    order.superior: order.superior_drgganita
+    proportional_parts: ending.proportional_parts
+    rsine: trig.rsine_table_linear
+    sighrocca: sighrocca.sun_mean_or_own
+    sunrise: sunrise.mean_meridian_plus_carry
+    table_branch: table.manda_one_sighra_two
+    time_base: ahargana.kali_dinagana
+    weekday: weekday.remainder_from_friday
+  intraday: intraday.linear_gati
+  range:
+    from_jdn: 1794108
+    to_jdn: 2524958
+    cut: search.floor to search.horizon, cut to the method's runs_from
+  tool: step_scan/1
+  engine_version: 1.0.0b3
+  data_files:
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/eras/kali.yaml: 6169bfbba81270533efe71a9d482b34c4da5fc6aa3bda24a438c45a39e6921b5
+    jyotirganita/data/texts/drgganita/drk_school.yaml: d086fa45bc134f86ddfca402bd269ce98b4f09a1e2caab1a47987ac0ee866026
+    jyotirganita/data/texts/drgganita/elements.yaml: 5ff276f2b9c9c1dfc101f1a8f330f19a8b91c0cdf60c0a6c2dac591d7fa84ad7
+    jyotirganita/data/texts/drgganita/jya.yaml: 595615579e55f6748060737a89bff0551a543e5c751e21c2ab16af160b61e9b1
+    jyotirganita/data/texts/drgganita/procedures.yaml: 60a0b8989415f1f0d4c4184bb2f62cec8732d8b3e206d349357df2fdb94869dc
+  parameters_sha256: sha256:33ec850d591f23c7fad4cd288b114b4ebfdfe14b41396d87deb6de32b26337cb
+  scanned_on: 2026-10-29
+- key: derived.search.step_bound.suryasiddhanta.mercury
+  value: 3443/1800
+  sunrise_step_max:
+    value: 4137676536798145906950747187503527316117817657179314929870048362764057665769963344760988762760316875003676994233265133097515910906142359836240625807283307905260097185676503771307332063290053776894075464334285411632576355332926955446067083271989070692561210961814495306817858239064673159372971/2163459213326689943294177833964300448788666816285109162451669026152654065209383406573483319090647224006043311378761541781428466660366388513912888921965525075862134529386768657487333242738624259896166821827076742407667671197349962322481803334896553488045974080479888252266648342915000000000000
+    day: 2431968
+  motion_max:
+    value: 1045896738286875744461995149507099220084026751464488040826678314600/555241745404111029439881494410294877052456442002730799533058468153
+    day: 1963706
+  unit: degree/day
+  method: suryasiddhanta
+  body: mercury
+  observer: meridians/suryasiddhanta_lanka
+  procedures:
+    ahargana: ahargana.lunar_reckoning
+    arc: trig.arc_from_sine_table
+    ascensional_difference: ascensional_difference.palabha_versine
+    bhuja_koti: epicycle.bhuja_koti
+    carry.bhujantara: carry.bhujantara_true_place
+    carry.cara: carry.cara_sunrise_mean_elements
+    carry.desantara: carry.desantara_corrected_circumference
+    carry.epoch_advance: carry.epoch_advance_mean
+    computation_instant: computation_instant.lanka_midnight
+    declination: declination.rsine_obliquity
+    declination.argument: declination_argument.ayana_corrected_true_longitude
+    ending_rounding: gap
+    gati: gati.equation_of_motion
+    half_day: half_day.quarter_day_plus_cara
+    intraday: intraday.linear_gati
+    latitude: latitude.node_hypotenuse
+    manda: epicycle.manda_arc
+    mean_longitude: mean.revolutions_from_creation
+    order.luminaries: order.manda_only
+    order.planets: order.four_processes
+    proportional_parts: ending.proportional_parts
+    pulsation: epicycle.base_sine_variation
+    rsine: trig.sine_table_linear
+    sighra: epicycle.sighra_variable_hypotenuse
+    sunrise: sunrise.surya_quarter_day_less_cara
+    time_base: ahargana.civil_days_since_creation
+    weekday: weekday.remainder_from_sunday
+  intraday: intraday.linear_gati
+  range:
+    from_jdn: 1794108
+    to_jdn: 2524958
+    cut: search.floor to search.horizon, cut to the method's runs_from
+  tool: step_scan/1
+  engine_version: 1.0.0.dev9
+  data_files:
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/eras/kali.yaml: 6169bfbba81270533efe71a9d482b34c4da5fc6aa3bda24a438c45a39e6921b5
+    jyotirganita/data/texts/suryasiddhanta/elements.yaml: afee776fef7cb5ceeaaecaef464124398d80a73e3e5a5245f6dfcc286c7b8e83
+    jyotirganita/data/texts/suryasiddhanta/epicycles.yaml: 3c2b266e8b34abc3d849f16e99fcd63f7a1a1f2428db58679f5065632a6233c4
+    jyotirganita/data/texts/suryasiddhanta/procedures.yaml: 3054eccea475c1e0b914cd4e36f4d2d6fe10c48cccfb6869cc3c94eb8c7078e2
+    jyotirganita/data/texts/suryasiddhanta/trig.yaml: cad0696af33c1beea1d49072f433ef824632ad93ea4b26a40f0955733f5e1683
+  parameters_sha256: sha256:30df894423d21500cf7b69f65ecf3c2f11cb46a8962e3b65786d1a026b947e29
+  scanned_on: 2026-10-22
+- key: derived.search.step_bound.suryasiddhanta.venus
+  value: 507/400
+  sunrise_step_max:
+    value: 53869111027206248160871955919842989962958572373051330654798881049180439263393145535254000097110263338039530125324882655912001193599482198959613983271508886765315355441581565440723528015419117934092912215540621250829432282976814169554311520876639791437164313256912317238592145503052622686852129475005148270536556703901/42501256566321468347109495670012054310853736583852532867497164647896778827872316620068929273906268812534199349112118180603546018333928241177096814212366190144400615493110809684095897485421862218707652366219890756122132578956426018469923497959122340455291865242292441725394172924311108869957269133340827661107200000000
+    day: 2138154
+  motion_max:
+    value: 107442497422998404165587737793009612798171678346228938842912735/84981065467151774255212269611623085834938398670652722484870903
+    day: 2031867
+  unit: degree/day
+  method: suryasiddhanta
+  body: venus
+  observer: meridians/suryasiddhanta_lanka
+  procedures:
+    ahargana: ahargana.lunar_reckoning
+    arc: trig.arc_from_sine_table
+    ascensional_difference: ascensional_difference.palabha_versine
+    bhuja_koti: epicycle.bhuja_koti
+    carry.bhujantara: carry.bhujantara_true_place
+    carry.cara: carry.cara_sunrise_mean_elements
+    carry.desantara: carry.desantara_corrected_circumference
+    carry.epoch_advance: carry.epoch_advance_mean
+    computation_instant: computation_instant.lanka_midnight
+    declination: declination.rsine_obliquity
+    declination.argument: declination_argument.ayana_corrected_true_longitude
+    ending_rounding: gap
+    gati: gati.equation_of_motion
+    half_day: half_day.quarter_day_plus_cara
+    intraday: intraday.linear_gati
+    latitude: latitude.node_hypotenuse
+    manda: epicycle.manda_arc
+    mean_longitude: mean.revolutions_from_creation
+    order.luminaries: order.manda_only
+    order.planets: order.four_processes
+    proportional_parts: ending.proportional_parts
+    pulsation: epicycle.base_sine_variation
+    rsine: trig.sine_table_linear
+    sighra: epicycle.sighra_variable_hypotenuse
+    sunrise: sunrise.surya_quarter_day_less_cara
+    time_base: ahargana.civil_days_since_creation
+    weekday: weekday.remainder_from_sunday
+  intraday: intraday.linear_gati
+  range:
+    from_jdn: 1794108
+    to_jdn: 2524958
+    cut: search.floor to search.horizon, cut to the method's runs_from
+  tool: step_scan/1
+  engine_version: 1.0.0.dev9
+  data_files:
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/eras/kali.yaml: 6169bfbba81270533efe71a9d482b34c4da5fc6aa3bda24a438c45a39e6921b5
+    jyotirganita/data/texts/suryasiddhanta/elements.yaml: afee776fef7cb5ceeaaecaef464124398d80a73e3e5a5245f6dfcc286c7b8e83
+    jyotirganita/data/texts/suryasiddhanta/epicycles.yaml: 3c2b266e8b34abc3d849f16e99fcd63f7a1a1f2428db58679f5065632a6233c4
+    jyotirganita/data/texts/suryasiddhanta/procedures.yaml: 3054eccea475c1e0b914cd4e36f4d2d6fe10c48cccfb6869cc3c94eb8c7078e2
+    jyotirganita/data/texts/suryasiddhanta/trig.yaml: cad0696af33c1beea1d49072f433ef824632ad93ea4b26a40f0955733f5e1683
+  parameters_sha256: sha256:30df894423d21500cf7b69f65ecf3c2f11cb46a8962e3b65786d1a026b947e29
+  scanned_on: 2026-10-22
+- key: derived.search.step_bound.suryasiddhanta.mars
+  value: 713/900
+  sunrise_step_max:
+    value: 158022327078870522389360434162204069635395851650959959880820831803346454750762581586623257341444289012615340209303825445794038892425101909054734732420505459998164943038378007952580850706187686715316307774395937937340924822641276695256474965231162678794435663738055677912464835391751857047/199528144424397427446271240084521098225906636131451368106836160064647866017710197127592415764415795409204443760616947872160288665367000342018343761507493227278079229318064438567657845177542189334899440462722620240873457212268617250259502036862786199838805308465156419464396800000000000000
+    day: 2392426
+  motion_max:
+    value: 150712748138562580491387325525980363357265030502146880482534474656/195138449061028522164285836816588724349243768294334615228832710315
+    day: 2202128
+  unit: degree/day
+  method: suryasiddhanta
+  body: mars
+  observer: meridians/suryasiddhanta_lanka
+  procedures:
+    ahargana: ahargana.lunar_reckoning
+    arc: trig.arc_from_sine_table
+    ascensional_difference: ascensional_difference.palabha_versine
+    bhuja_koti: epicycle.bhuja_koti
+    carry.bhujantara: carry.bhujantara_true_place
+    carry.cara: carry.cara_sunrise_mean_elements
+    carry.desantara: carry.desantara_corrected_circumference
+    carry.epoch_advance: carry.epoch_advance_mean
+    computation_instant: computation_instant.lanka_midnight
+    declination: declination.rsine_obliquity
+    declination.argument: declination_argument.ayana_corrected_true_longitude
+    ending_rounding: gap
+    gati: gati.equation_of_motion
+    half_day: half_day.quarter_day_plus_cara
+    intraday: intraday.linear_gati
+    latitude: latitude.node_hypotenuse
+    manda: epicycle.manda_arc
+    mean_longitude: mean.revolutions_from_creation
+    order.luminaries: order.manda_only
+    order.planets: order.four_processes
+    proportional_parts: ending.proportional_parts
+    pulsation: epicycle.base_sine_variation
+    rsine: trig.sine_table_linear
+    sighra: epicycle.sighra_variable_hypotenuse
+    sunrise: sunrise.surya_quarter_day_less_cara
+    time_base: ahargana.civil_days_since_creation
+    weekday: weekday.remainder_from_sunday
+  intraday: intraday.linear_gati
+  range:
+    from_jdn: 1794108
+    to_jdn: 2524958
+    cut: search.floor to search.horizon, cut to the method's runs_from
+  tool: step_scan/1
+  engine_version: 1.0.0.dev9
+  data_files:
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/eras/kali.yaml: 6169bfbba81270533efe71a9d482b34c4da5fc6aa3bda24a438c45a39e6921b5
+    jyotirganita/data/texts/suryasiddhanta/elements.yaml: afee776fef7cb5ceeaaecaef464124398d80a73e3e5a5245f6dfcc286c7b8e83
+    jyotirganita/data/texts/suryasiddhanta/epicycles.yaml: 3c2b266e8b34abc3d849f16e99fcd63f7a1a1f2428db58679f5065632a6233c4
+    jyotirganita/data/texts/suryasiddhanta/procedures.yaml: 3054eccea475c1e0b914cd4e36f4d2d6fe10c48cccfb6869cc3c94eb8c7078e2
+    jyotirganita/data/texts/suryasiddhanta/trig.yaml: cad0696af33c1beea1d49072f433ef824632ad93ea4b26a40f0955733f5e1683
+  parameters_sha256: sha256:30df894423d21500cf7b69f65ecf3c2f11cb46a8962e3b65786d1a026b947e29
+  scanned_on: 2026-10-22
+- key: derived.search.step_bound.suryasiddhanta.jupiter
+  value: 73/300
+  sunrise_step_max:
+    value: 251419524176100191498353901563486545499945338950263238604951335800330831856573735504722153408869574404967339762050059007243977937780215103558364715826610055862783505923865027700080452565546702705753456044621831795292722589900411690193806403132680842160174386536997499670490165741235880161596088356101/1033922876869777185558011282089632701063275349660268944016944849618592620559129587982402570783805658839864766031128458799025206611196331272095197824040054688433831752164760937457886120126573576232275055438210201564710330292979337849456659623395652005472230886134349172311447137156715404468420608000000
+    day: 2451270
+  motion_max:
+    value: 154862087857729593339357835890065352423655248597769893210325425/655047310756977599653628367568448041275306616197297236418743258
+    day: 2325624
+  unit: degree/day
+  method: suryasiddhanta
+  body: jupiter
+  observer: meridians/suryasiddhanta_lanka
+  procedures:
+    ahargana: ahargana.lunar_reckoning
+    arc: trig.arc_from_sine_table
+    ascensional_difference: ascensional_difference.palabha_versine
+    bhuja_koti: epicycle.bhuja_koti
+    carry.bhujantara: carry.bhujantara_true_place
+    carry.cara: carry.cara_sunrise_mean_elements
+    carry.desantara: carry.desantara_corrected_circumference
+    carry.epoch_advance: carry.epoch_advance_mean
+    computation_instant: computation_instant.lanka_midnight
+    declination: declination.rsine_obliquity
+    declination.argument: declination_argument.ayana_corrected_true_longitude
+    ending_rounding: gap
+    gati: gati.equation_of_motion
+    half_day: half_day.quarter_day_plus_cara
+    intraday: intraday.linear_gati
+    latitude: latitude.node_hypotenuse
+    manda: epicycle.manda_arc
+    mean_longitude: mean.revolutions_from_creation
+    order.luminaries: order.manda_only
+    order.planets: order.four_processes
+    proportional_parts: ending.proportional_parts
+    pulsation: epicycle.base_sine_variation
+    rsine: trig.sine_table_linear
+    sighra: epicycle.sighra_variable_hypotenuse
+    sunrise: sunrise.surya_quarter_day_less_cara
+    time_base: ahargana.civil_days_since_creation
+    weekday: weekday.remainder_from_sunday
+  intraday: intraday.linear_gati
+  range:
+    from_jdn: 1794108
+    to_jdn: 2524958
+    cut: search.floor to search.horizon, cut to the method's runs_from
+  tool: step_scan/1
+  engine_version: 1.0.0.dev9
+  data_files:
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/eras/kali.yaml: 6169bfbba81270533efe71a9d482b34c4da5fc6aa3bda24a438c45a39e6921b5
+    jyotirganita/data/texts/suryasiddhanta/elements.yaml: afee776fef7cb5ceeaaecaef464124398d80a73e3e5a5245f6dfcc286c7b8e83
+    jyotirganita/data/texts/suryasiddhanta/epicycles.yaml: 3c2b266e8b34abc3d849f16e99fcd63f7a1a1f2428db58679f5065632a6233c4
+    jyotirganita/data/texts/suryasiddhanta/procedures.yaml: 3054eccea475c1e0b914cd4e36f4d2d6fe10c48cccfb6869cc3c94eb8c7078e2
+    jyotirganita/data/texts/suryasiddhanta/trig.yaml: cad0696af33c1beea1d49072f433ef824632ad93ea4b26a40f0955733f5e1683
+  parameters_sha256: sha256:30df894423d21500cf7b69f65ecf3c2f11cb46a8962e3b65786d1a026b947e29
+  scanned_on: 2026-10-22
+- key: derived.search.step_bound.suryasiddhanta.saturn
+  value: 11/80
+  sunrise_step_max:
+    value: 315703524968949204927643572226055541312991040801349857611291272453378581722153855524954280890371566860795100247387758705986839986954199522352738536471968648756767548706683000431604207056043433263057170055018660519962362727010331558458111590710671262123492183674729958644643014023378845720141414483546105466079/2299816618875008010501245868263804406973987539902707050543481947571719933497131329967137998616295089609278947767949294704519428337200151723445282698724339007872469950318992689341929710951449449651429029911939572907835851827966573228961890776881483171480445697368186907906454925511174316376457216000000000000000
+    day: 1849758
+  motion_max:
+    value: 1025248589996389223888975185989997064890405796849407841810923228323/7849459952149290178676716729573948989639772725555900451657785842960
+    day: 1849762
+  unit: degree/day
+  method: suryasiddhanta
+  body: saturn
+  observer: meridians/suryasiddhanta_lanka
+  procedures:
+    ahargana: ahargana.lunar_reckoning
+    arc: trig.arc_from_sine_table
+    ascensional_difference: ascensional_difference.palabha_versine
+    bhuja_koti: epicycle.bhuja_koti
+    carry.bhujantara: carry.bhujantara_true_place
+    carry.cara: carry.cara_sunrise_mean_elements
+    carry.desantara: carry.desantara_corrected_circumference
+    carry.epoch_advance: carry.epoch_advance_mean
+    computation_instant: computation_instant.lanka_midnight
+    declination: declination.rsine_obliquity
+    declination.argument: declination_argument.ayana_corrected_true_longitude
+    ending_rounding: gap
+    gati: gati.equation_of_motion
+    half_day: half_day.quarter_day_plus_cara
+    intraday: intraday.linear_gati
+    latitude: latitude.node_hypotenuse
+    manda: epicycle.manda_arc
+    mean_longitude: mean.revolutions_from_creation
+    order.luminaries: order.manda_only
+    order.planets: order.four_processes
+    proportional_parts: ending.proportional_parts
+    pulsation: epicycle.base_sine_variation
+    rsine: trig.sine_table_linear
+    sighra: epicycle.sighra_variable_hypotenuse
+    sunrise: sunrise.surya_quarter_day_less_cara
+    time_base: ahargana.civil_days_since_creation
+    weekday: weekday.remainder_from_sunday
+  intraday: intraday.linear_gati
+  range:
+    from_jdn: 1794108
+    to_jdn: 2524958
+    cut: search.floor to search.horizon, cut to the method's runs_from
+  tool: step_scan/1
+  engine_version: 1.0.0.dev9
+  data_files:
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/eras/kali.yaml: 6169bfbba81270533efe71a9d482b34c4da5fc6aa3bda24a438c45a39e6921b5
+    jyotirganita/data/texts/suryasiddhanta/elements.yaml: afee776fef7cb5ceeaaecaef464124398d80a73e3e5a5245f6dfcc286c7b8e83
+    jyotirganita/data/texts/suryasiddhanta/epicycles.yaml: 3c2b266e8b34abc3d849f16e99fcd63f7a1a1f2428db58679f5065632a6233c4
+    jyotirganita/data/texts/suryasiddhanta/procedures.yaml: 3054eccea475c1e0b914cd4e36f4d2d6fe10c48cccfb6869cc3c94eb8c7078e2
+    jyotirganita/data/texts/suryasiddhanta/trig.yaml: cad0696af33c1beea1d49072f433ef824632ad93ea4b26a40f0955733f5e1683
+  parameters_sha256: sha256:30df894423d21500cf7b69f65ecf3c2f11cb46a8962e3b65786d1a026b947e29
+  scanned_on: 2026-10-22
+- key: derived.search.step_bound.suryasiddhanta.node
+  value: 191/3600
+  sunrise_step_max:
+    value: 20901420/394479457
+    day: 1794108
+  motion_max: not_served
+  unit: degree/day
+  method: suryasiddhanta
+  body: node
+  observer: meridians/suryasiddhanta_lanka
+  procedures:
+    ahargana: ahargana.lunar_reckoning
+    arc: trig.arc_from_sine_table
+    ascensional_difference: ascensional_difference.palabha_versine
+    bhuja_koti: epicycle.bhuja_koti
+    carry.bhujantara: carry.bhujantara_true_place
+    carry.cara: carry.cara_sunrise_mean_elements
+    carry.desantara: carry.desantara_corrected_circumference
+    carry.epoch_advance: carry.epoch_advance_mean
+    computation_instant: computation_instant.lanka_midnight
+    declination: declination.rsine_obliquity
+    declination.argument: declination_argument.ayana_corrected_true_longitude
+    ending_rounding: gap
+    gati: gati.equation_of_motion
+    half_day: half_day.quarter_day_plus_cara
+    intraday: intraday.linear_gati
+    latitude: latitude.node_hypotenuse
+    manda: epicycle.manda_arc
+    mean_longitude: mean.revolutions_from_creation
+    order.luminaries: order.manda_only
+    order.planets: order.four_processes
+    proportional_parts: ending.proportional_parts
+    pulsation: epicycle.base_sine_variation
+    rsine: trig.sine_table_linear
+    sighra: epicycle.sighra_variable_hypotenuse
+    sunrise: sunrise.surya_quarter_day_less_cara
+    time_base: ahargana.civil_days_since_creation
+    weekday: weekday.remainder_from_sunday
+  intraday: intraday.linear_gati
+  range:
+    from_jdn: 1794108
+    to_jdn: 2524958
+    cut: search.floor to search.horizon, cut to the method's runs_from
+  tool: step_scan/1
+  engine_version: 1.0.0.dev9
+  data_files:
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/eras/kali.yaml: 6169bfbba81270533efe71a9d482b34c4da5fc6aa3bda24a438c45a39e6921b5
+    jyotirganita/data/texts/suryasiddhanta/elements.yaml: afee776fef7cb5ceeaaecaef464124398d80a73e3e5a5245f6dfcc286c7b8e83
+    jyotirganita/data/texts/suryasiddhanta/epicycles.yaml: 3c2b266e8b34abc3d849f16e99fcd63f7a1a1f2428db58679f5065632a6233c4
+    jyotirganita/data/texts/suryasiddhanta/procedures.yaml: 3054eccea475c1e0b914cd4e36f4d2d6fe10c48cccfb6869cc3c94eb8c7078e2
+    jyotirganita/data/texts/suryasiddhanta/trig.yaml: cad0696af33c1beea1d49072f433ef824632ad93ea4b26a40f0955733f5e1683
+  parameters_sha256: sha256:30df894423d21500cf7b69f65ecf3c2f11cb46a8962e3b65786d1a026b947e29
+  scanned_on: 2026-10-22
+- key: derived.search.step_bound.suryasiddhanta_paramesvara_recension.mercury
+  value: 3443/1800
+  sunrise_step_max:
+    value: 4137676536798145906950747187503527316117817657179314929870048362764057665769963344760988762760316875003676994233265133097515910906142359836240625807283307905260097185676503771307332063290053776894075464334285411632576355332926955446067083271989070692561210961814495306817858239064673159372971/2163459213326689943294177833964300448788666816285109162451669026152654065209383406573483319090647224006043311378761541781428466660366388513912888921965525075862134529386768657487333242738624259896166821827076742407667671197349962322481803334896553488045974080479888252266648342915000000000000
+    day: 2431968
+  motion_max:
+    value: 1045896738286875744461995149507099220084026751464488040826678314600/555241745404111029439881494410294877052456442002730799533058468153
+    day: 1963706
+  unit: degree/day
+  method: suryasiddhanta_paramesvara_recension
+  body: mercury
+  observer: meridians/suryasiddhanta_lanka
+  procedures:
+    ahargana: ahargana.lunar_reckoning
+    arc: trig.arc_from_sine_table
+    ascensional_difference: ascensional_difference.palabha_versine
+    bhuja_koti: epicycle.bhuja_koti
+    carry.bhujantara: carry.bhujantara_true_place
+    carry.cara: carry.cara_sunrise_mean_elements
+    carry.desantara: carry.desantara_corrected_circumference
+    carry.epoch_advance: carry.epoch_advance_mean
+    computation_instant: computation_instant.lanka_midnight
+    declination: declination.rsine_obliquity
+    declination.argument: declination_argument.ayana_corrected_true_longitude
+    ending_rounding: gap
+    gati: gati.equation_of_motion
+    half_day: half_day.quarter_day_plus_cara
+    intraday: intraday.linear_gati
+    latitude: latitude.node_hypotenuse
+    manda: epicycle.manda_arc
+    mean_longitude: mean.revolutions_from_creation
+    order.luminaries: order.manda_only
+    order.planets: order.four_processes
+    proportional_parts: ending.proportional_parts
+    pulsation: epicycle.base_sine_variation
+    rsine: trig.sine_table_linear
+    sighra: epicycle.sighra_variable_hypotenuse
+    sunrise: sunrise.surya_quarter_day_less_cara
+    time_base: ahargana.civil_days_since_creation
+    weekday: weekday.remainder_from_sunday
+  intraday: intraday.linear_gati
+  range:
+    from_jdn: 1794108
+    to_jdn: 2524958
+    cut: search.floor to search.horizon, cut to the method's runs_from
+  tool: step_scan/1
+  engine_version: 1.0.0.dev9
+  data_files:
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/eras/kali.yaml: 6169bfbba81270533efe71a9d482b34c4da5fc6aa3bda24a438c45a39e6921b5
+    jyotirganita/data/texts/suryasiddhanta/elements.yaml: afee776fef7cb5ceeaaecaef464124398d80a73e3e5a5245f6dfcc286c7b8e83
+    jyotirganita/data/texts/suryasiddhanta/epicycles.yaml: 3c2b266e8b34abc3d849f16e99fcd63f7a1a1f2428db58679f5065632a6233c4
+    jyotirganita/data/texts/suryasiddhanta/procedures.yaml: 3054eccea475c1e0b914cd4e36f4d2d6fe10c48cccfb6869cc3c94eb8c7078e2
+    jyotirganita/data/texts/suryasiddhanta/trig.yaml: cad0696af33c1beea1d49072f433ef824632ad93ea4b26a40f0955733f5e1683
+    jyotirganita/data/texts/suryasiddhanta/witness_suryasiddhanta_paramesvara_1957.yaml: 106339ca5d78164868682071a849fa129b8fb2d982de01285241a32a8bf5f3cc
+  parameters_sha256: sha256:6cebaf654a510ba63848fd5ca185fd84505b653de114d3fe146287ec7492d2c5
+  scanned_on: 2026-10-22
+- key: derived.search.step_bound.suryasiddhanta_paramesvara_recension.venus
+  value: 507/400
+  sunrise_step_max:
+    value: 53869111027206248160871955919842989962958572373051330654798881049180439263393145535254000097110263338039530125324882655912001193599482198959613983271508886765315355441581565440723528015419117934092912215540621250829432282976814169554311520876639791437164313256912317238592145503052622686852129475005148270536556703901/42501256566321468347109495670012054310853736583852532867497164647896778827872316620068929273906268812534199349112118180603546018333928241177096814212366190144400615493110809684095897485421862218707652366219890756122132578956426018469923497959122340455291865242292441725394172924311108869957269133340827661107200000000
+    day: 2138154
+  motion_max:
+    value: 107442497422998404165587737793009612798171678346228938842912735/84981065467151774255212269611623085834938398670652722484870903
+    day: 2031867
+  unit: degree/day
+  method: suryasiddhanta_paramesvara_recension
+  body: venus
+  observer: meridians/suryasiddhanta_lanka
+  procedures:
+    ahargana: ahargana.lunar_reckoning
+    arc: trig.arc_from_sine_table
+    ascensional_difference: ascensional_difference.palabha_versine
+    bhuja_koti: epicycle.bhuja_koti
+    carry.bhujantara: carry.bhujantara_true_place
+    carry.cara: carry.cara_sunrise_mean_elements
+    carry.desantara: carry.desantara_corrected_circumference
+    carry.epoch_advance: carry.epoch_advance_mean
+    computation_instant: computation_instant.lanka_midnight
+    declination: declination.rsine_obliquity
+    declination.argument: declination_argument.ayana_corrected_true_longitude
+    ending_rounding: gap
+    gati: gati.equation_of_motion
+    half_day: half_day.quarter_day_plus_cara
+    intraday: intraday.linear_gati
+    latitude: latitude.node_hypotenuse
+    manda: epicycle.manda_arc
+    mean_longitude: mean.revolutions_from_creation
+    order.luminaries: order.manda_only
+    order.planets: order.four_processes
+    proportional_parts: ending.proportional_parts
+    pulsation: epicycle.base_sine_variation
+    rsine: trig.sine_table_linear
+    sighra: epicycle.sighra_variable_hypotenuse
+    sunrise: sunrise.surya_quarter_day_less_cara
+    time_base: ahargana.civil_days_since_creation
+    weekday: weekday.remainder_from_sunday
+  intraday: intraday.linear_gati
+  range:
+    from_jdn: 1794108
+    to_jdn: 2524958
+    cut: search.floor to search.horizon, cut to the method's runs_from
+  tool: step_scan/1
+  engine_version: 1.0.0.dev9
+  data_files:
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/eras/kali.yaml: 6169bfbba81270533efe71a9d482b34c4da5fc6aa3bda24a438c45a39e6921b5
+    jyotirganita/data/texts/suryasiddhanta/elements.yaml: afee776fef7cb5ceeaaecaef464124398d80a73e3e5a5245f6dfcc286c7b8e83
+    jyotirganita/data/texts/suryasiddhanta/epicycles.yaml: 3c2b266e8b34abc3d849f16e99fcd63f7a1a1f2428db58679f5065632a6233c4
+    jyotirganita/data/texts/suryasiddhanta/procedures.yaml: 3054eccea475c1e0b914cd4e36f4d2d6fe10c48cccfb6869cc3c94eb8c7078e2
+    jyotirganita/data/texts/suryasiddhanta/trig.yaml: cad0696af33c1beea1d49072f433ef824632ad93ea4b26a40f0955733f5e1683
+    jyotirganita/data/texts/suryasiddhanta/witness_suryasiddhanta_paramesvara_1957.yaml: 106339ca5d78164868682071a849fa129b8fb2d982de01285241a32a8bf5f3cc
+  parameters_sha256: sha256:6cebaf654a510ba63848fd5ca185fd84505b653de114d3fe146287ec7492d2c5
+  scanned_on: 2026-10-22
+- key: derived.search.step_bound.suryasiddhanta_paramesvara_recension.mars
+  value: 713/900
+  sunrise_step_max:
+    value: 158022327078870522389360434162204069635395851650959959880820831803346454750762581586623257341444289012615340209303825445794038892425101909054734732420505459998164943038378007952580850706187686715316307774395937937340924822641276695256474965231162678794435663738055677912464835391751857047/199528144424397427446271240084521098225906636131451368106836160064647866017710197127592415764415795409204443760616947872160288665367000342018343761507493227278079229318064438567657845177542189334899440462722620240873457212268617250259502036862786199838805308465156419464396800000000000000
+    day: 2392426
+  motion_max:
+    value: 150712748138562580491387325525980363357265030502146880482534474656/195138449061028522164285836816588724349243768294334615228832710315
+    day: 2202128
+  unit: degree/day
+  method: suryasiddhanta_paramesvara_recension
+  body: mars
+  observer: meridians/suryasiddhanta_lanka
+  procedures:
+    ahargana: ahargana.lunar_reckoning
+    arc: trig.arc_from_sine_table
+    ascensional_difference: ascensional_difference.palabha_versine
+    bhuja_koti: epicycle.bhuja_koti
+    carry.bhujantara: carry.bhujantara_true_place
+    carry.cara: carry.cara_sunrise_mean_elements
+    carry.desantara: carry.desantara_corrected_circumference
+    carry.epoch_advance: carry.epoch_advance_mean
+    computation_instant: computation_instant.lanka_midnight
+    declination: declination.rsine_obliquity
+    declination.argument: declination_argument.ayana_corrected_true_longitude
+    ending_rounding: gap
+    gati: gati.equation_of_motion
+    half_day: half_day.quarter_day_plus_cara
+    intraday: intraday.linear_gati
+    latitude: latitude.node_hypotenuse
+    manda: epicycle.manda_arc
+    mean_longitude: mean.revolutions_from_creation
+    order.luminaries: order.manda_only
+    order.planets: order.four_processes
+    proportional_parts: ending.proportional_parts
+    pulsation: epicycle.base_sine_variation
+    rsine: trig.sine_table_linear
+    sighra: epicycle.sighra_variable_hypotenuse
+    sunrise: sunrise.surya_quarter_day_less_cara
+    time_base: ahargana.civil_days_since_creation
+    weekday: weekday.remainder_from_sunday
+  intraday: intraday.linear_gati
+  range:
+    from_jdn: 1794108
+    to_jdn: 2524958
+    cut: search.floor to search.horizon, cut to the method's runs_from
+  tool: step_scan/1
+  engine_version: 1.0.0.dev9
+  data_files:
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/eras/kali.yaml: 6169bfbba81270533efe71a9d482b34c4da5fc6aa3bda24a438c45a39e6921b5
+    jyotirganita/data/texts/suryasiddhanta/elements.yaml: afee776fef7cb5ceeaaecaef464124398d80a73e3e5a5245f6dfcc286c7b8e83
+    jyotirganita/data/texts/suryasiddhanta/epicycles.yaml: 3c2b266e8b34abc3d849f16e99fcd63f7a1a1f2428db58679f5065632a6233c4
+    jyotirganita/data/texts/suryasiddhanta/procedures.yaml: 3054eccea475c1e0b914cd4e36f4d2d6fe10c48cccfb6869cc3c94eb8c7078e2
+    jyotirganita/data/texts/suryasiddhanta/trig.yaml: cad0696af33c1beea1d49072f433ef824632ad93ea4b26a40f0955733f5e1683
+    jyotirganita/data/texts/suryasiddhanta/witness_suryasiddhanta_paramesvara_1957.yaml: 106339ca5d78164868682071a849fa129b8fb2d982de01285241a32a8bf5f3cc
+  parameters_sha256: sha256:6cebaf654a510ba63848fd5ca185fd84505b653de114d3fe146287ec7492d2c5
+  scanned_on: 2026-10-22
+- key: derived.search.step_bound.suryasiddhanta_paramesvara_recension.jupiter
+  value: 73/300
+  sunrise_step_max:
+    value: 251419524176100191498353901563486545499945338950263238604951335800330831856573735504722153408869574404967339762050059007243977937780215103558364715826610055862783505923865027700080452565546702705753456044621831795292722589900411690193806403132680842160174386536997499670490165741235880161596088356101/1033922876869777185558011282089632701063275349660268944016944849618592620559129587982402570783805658839864766031128458799025206611196331272095197824040054688433831752164760937457886120126573576232275055438210201564710330292979337849456659623395652005472230886134349172311447137156715404468420608000000
+    day: 2451270
+  motion_max:
+    value: 154862087857729593339357835890065352423655248597769893210325425/655047310756977599653628367568448041275306616197297236418743258
+    day: 2325624
+  unit: degree/day
+  method: suryasiddhanta_paramesvara_recension
+  body: jupiter
+  observer: meridians/suryasiddhanta_lanka
+  procedures:
+    ahargana: ahargana.lunar_reckoning
+    arc: trig.arc_from_sine_table
+    ascensional_difference: ascensional_difference.palabha_versine
+    bhuja_koti: epicycle.bhuja_koti
+    carry.bhujantara: carry.bhujantara_true_place
+    carry.cara: carry.cara_sunrise_mean_elements
+    carry.desantara: carry.desantara_corrected_circumference
+    carry.epoch_advance: carry.epoch_advance_mean
+    computation_instant: computation_instant.lanka_midnight
+    declination: declination.rsine_obliquity
+    declination.argument: declination_argument.ayana_corrected_true_longitude
+    ending_rounding: gap
+    gati: gati.equation_of_motion
+    half_day: half_day.quarter_day_plus_cara
+    intraday: intraday.linear_gati
+    latitude: latitude.node_hypotenuse
+    manda: epicycle.manda_arc
+    mean_longitude: mean.revolutions_from_creation
+    order.luminaries: order.manda_only
+    order.planets: order.four_processes
+    proportional_parts: ending.proportional_parts
+    pulsation: epicycle.base_sine_variation
+    rsine: trig.sine_table_linear
+    sighra: epicycle.sighra_variable_hypotenuse
+    sunrise: sunrise.surya_quarter_day_less_cara
+    time_base: ahargana.civil_days_since_creation
+    weekday: weekday.remainder_from_sunday
+  intraday: intraday.linear_gati
+  range:
+    from_jdn: 1794108
+    to_jdn: 2524958
+    cut: search.floor to search.horizon, cut to the method's runs_from
+  tool: step_scan/1
+  engine_version: 1.0.0.dev9
+  data_files:
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/eras/kali.yaml: 6169bfbba81270533efe71a9d482b34c4da5fc6aa3bda24a438c45a39e6921b5
+    jyotirganita/data/texts/suryasiddhanta/elements.yaml: afee776fef7cb5ceeaaecaef464124398d80a73e3e5a5245f6dfcc286c7b8e83
+    jyotirganita/data/texts/suryasiddhanta/epicycles.yaml: 3c2b266e8b34abc3d849f16e99fcd63f7a1a1f2428db58679f5065632a6233c4
+    jyotirganita/data/texts/suryasiddhanta/procedures.yaml: 3054eccea475c1e0b914cd4e36f4d2d6fe10c48cccfb6869cc3c94eb8c7078e2
+    jyotirganita/data/texts/suryasiddhanta/trig.yaml: cad0696af33c1beea1d49072f433ef824632ad93ea4b26a40f0955733f5e1683
+    jyotirganita/data/texts/suryasiddhanta/witness_suryasiddhanta_paramesvara_1957.yaml: 106339ca5d78164868682071a849fa129b8fb2d982de01285241a32a8bf5f3cc
+  parameters_sha256: sha256:6cebaf654a510ba63848fd5ca185fd84505b653de114d3fe146287ec7492d2c5
+  scanned_on: 2026-10-22
+- key: derived.search.step_bound.suryasiddhanta_paramesvara_recension.saturn
+  value: 11/80
+  sunrise_step_max:
+    value: 315703524968949204927643572226055541312991040801349857611291272453378581722153855524954280890371566860795100247387758705986839986954199522352738536471968648756767548706683000431604207056043433263057170055018660519962362727010331558458111590710671262123492183674729958644643014023378845720141414483546105466079/2299816618875008010501245868263804406973987539902707050543481947571719933497131329967137998616295089609278947767949294704519428337200151723445282698724339007872469950318992689341929710951449449651429029911939572907835851827966573228961890776881483171480445697368186907906454925511174316376457216000000000000000
+    day: 1849758
+  motion_max:
+    value: 1025248589996389223888975185989997064890405796849407841810923228323/7849459952149290178676716729573948989639772725555900451657785842960
+    day: 1849762
+  unit: degree/day
+  method: suryasiddhanta_paramesvara_recension
+  body: saturn
+  observer: meridians/suryasiddhanta_lanka
+  procedures:
+    ahargana: ahargana.lunar_reckoning
+    arc: trig.arc_from_sine_table
+    ascensional_difference: ascensional_difference.palabha_versine
+    bhuja_koti: epicycle.bhuja_koti
+    carry.bhujantara: carry.bhujantara_true_place
+    carry.cara: carry.cara_sunrise_mean_elements
+    carry.desantara: carry.desantara_corrected_circumference
+    carry.epoch_advance: carry.epoch_advance_mean
+    computation_instant: computation_instant.lanka_midnight
+    declination: declination.rsine_obliquity
+    declination.argument: declination_argument.ayana_corrected_true_longitude
+    ending_rounding: gap
+    gati: gati.equation_of_motion
+    half_day: half_day.quarter_day_plus_cara
+    intraday: intraday.linear_gati
+    latitude: latitude.node_hypotenuse
+    manda: epicycle.manda_arc
+    mean_longitude: mean.revolutions_from_creation
+    order.luminaries: order.manda_only
+    order.planets: order.four_processes
+    proportional_parts: ending.proportional_parts
+    pulsation: epicycle.base_sine_variation
+    rsine: trig.sine_table_linear
+    sighra: epicycle.sighra_variable_hypotenuse
+    sunrise: sunrise.surya_quarter_day_less_cara
+    time_base: ahargana.civil_days_since_creation
+    weekday: weekday.remainder_from_sunday
+  intraday: intraday.linear_gati
+  range:
+    from_jdn: 1794108
+    to_jdn: 2524958
+    cut: search.floor to search.horizon, cut to the method's runs_from
+  tool: step_scan/1
+  engine_version: 1.0.0.dev9
+  data_files:
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/eras/kali.yaml: 6169bfbba81270533efe71a9d482b34c4da5fc6aa3bda24a438c45a39e6921b5
+    jyotirganita/data/texts/suryasiddhanta/elements.yaml: afee776fef7cb5ceeaaecaef464124398d80a73e3e5a5245f6dfcc286c7b8e83
+    jyotirganita/data/texts/suryasiddhanta/epicycles.yaml: 3c2b266e8b34abc3d849f16e99fcd63f7a1a1f2428db58679f5065632a6233c4
+    jyotirganita/data/texts/suryasiddhanta/procedures.yaml: 3054eccea475c1e0b914cd4e36f4d2d6fe10c48cccfb6869cc3c94eb8c7078e2
+    jyotirganita/data/texts/suryasiddhanta/trig.yaml: cad0696af33c1beea1d49072f433ef824632ad93ea4b26a40f0955733f5e1683
+    jyotirganita/data/texts/suryasiddhanta/witness_suryasiddhanta_paramesvara_1957.yaml: 106339ca5d78164868682071a849fa129b8fb2d982de01285241a32a8bf5f3cc
+  parameters_sha256: sha256:6cebaf654a510ba63848fd5ca185fd84505b653de114d3fe146287ec7492d2c5
+  scanned_on: 2026-10-22
+- key: derived.search.step_bound.suryasiddhanta_paramesvara_recension.node
+  value: 191/3600
+  sunrise_step_max:
+    value: 20901060/394479457
+    day: 1794108
+  motion_max: not_served
+  unit: degree/day
+  method: suryasiddhanta_paramesvara_recension
+  body: node
+  observer: meridians/suryasiddhanta_lanka
+  procedures:
+    ahargana: ahargana.lunar_reckoning
+    arc: trig.arc_from_sine_table
+    ascensional_difference: ascensional_difference.palabha_versine
+    bhuja_koti: epicycle.bhuja_koti
+    carry.bhujantara: carry.bhujantara_true_place
+    carry.cara: carry.cara_sunrise_mean_elements
+    carry.desantara: carry.desantara_corrected_circumference
+    carry.epoch_advance: carry.epoch_advance_mean
+    computation_instant: computation_instant.lanka_midnight
+    declination: declination.rsine_obliquity
+    declination.argument: declination_argument.ayana_corrected_true_longitude
+    ending_rounding: gap
+    gati: gati.equation_of_motion
+    half_day: half_day.quarter_day_plus_cara
+    intraday: intraday.linear_gati
+    latitude: latitude.node_hypotenuse
+    manda: epicycle.manda_arc
+    mean_longitude: mean.revolutions_from_creation
+    order.luminaries: order.manda_only
+    order.planets: order.four_processes
+    proportional_parts: ending.proportional_parts
+    pulsation: epicycle.base_sine_variation
+    rsine: trig.sine_table_linear
+    sighra: epicycle.sighra_variable_hypotenuse
+    sunrise: sunrise.surya_quarter_day_less_cara
+    time_base: ahargana.civil_days_since_creation
+    weekday: weekday.remainder_from_sunday
+  intraday: intraday.linear_gati
+  range:
+    from_jdn: 1794108
+    to_jdn: 2524958
+    cut: search.floor to search.horizon, cut to the method's runs_from
+  tool: step_scan/1
+  engine_version: 1.0.0.dev9
+  data_files:
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/eras/kali.yaml: 6169bfbba81270533efe71a9d482b34c4da5fc6aa3bda24a438c45a39e6921b5
+    jyotirganita/data/texts/suryasiddhanta/elements.yaml: afee776fef7cb5ceeaaecaef464124398d80a73e3e5a5245f6dfcc286c7b8e83
+    jyotirganita/data/texts/suryasiddhanta/epicycles.yaml: 3c2b266e8b34abc3d849f16e99fcd63f7a1a1f2428db58679f5065632a6233c4
+    jyotirganita/data/texts/suryasiddhanta/procedures.yaml: 3054eccea475c1e0b914cd4e36f4d2d6fe10c48cccfb6869cc3c94eb8c7078e2
+    jyotirganita/data/texts/suryasiddhanta/trig.yaml: cad0696af33c1beea1d49072f433ef824632ad93ea4b26a40f0955733f5e1683
+    jyotirganita/data/texts/suryasiddhanta/witness_suryasiddhanta_paramesvara_1957.yaml: 106339ca5d78164868682071a849fa129b8fb2d982de01285241a32a8bf5f3cc
+  parameters_sha256: sha256:6cebaf654a510ba63848fd5ca185fd84505b653de114d3fe146287ec7492d2c5
+  scanned_on: 2026-10-22
+- key: derived.search.step_bound.modern_de.mercury
+  value: '2.202500000'
+  sunrise_step_max:
+    value: '2.202500000'
+    day: 2458276
+  motion_max:
+    value: '2.202500000'
+    day: 2458276
+  unit: degree/day
+  method: modern_de
+  body: mercury
+  observer: kerala/kozhikode
+  procedures:
+    kernel:
+      id: de440
+      sha256: a4ce9bf9b3282becc9f4b2ac3cebe03a2ae7599981aabd7265fd8482fff7c4b5
+      source: jpl_kernels
+    precession:
+      precession: iau2006
+      table:
+        source: iau2006_precession
+        sha256: 9ec6fac43f7037ff43896539d759333fc7e6007176cd72043b38d71cfd3e69c0
+      range: unstated (TN36 states no range for the IAU 2006 expressions)
+    nutation:
+      nutation: iau2000a
+      instance: 48e393d907c415ef62b384748797d3e2a0b5fb720bcb52ec544e8e684926c930
+      tables:
+        nutation_iau2000a:
+          source: iau2000a_nutation
+          sha256: 6da73bfe10873ac815520d00fffd67114d647a34afebc5946cfc275e73693f32
+        precession_iau2006:
+          source: iau2006_precession
+          sha256: 9ec6fac43f7037ff43896539d759333fc7e6007176cd72043b38d71cfd3e69c0
+      range: unstated
+    ayanamsa:
+      ayanamsa: iae_lahiri
+      equinox: 'true'
+      data: modern.ayanamsa.iae_lahiri.mean.*
+      range: unstated
+    observer_frame: geocentric
+    node: mean
+    delta_t:
+    - model: smh2016
+      range: 'Table S15: The Polynomial Coefficients for DT -720.0 to 2016.0 (decimal years -720.0 to 2016.0)'
+      range_datum: modern.deltat.smh2016.range
+      table:
+        source: stephenson_2016_supplement
+        sha256: ae44da13701d36e4e449991c59391af5b0ab60d5068cc70f99ab6d24816fb860
+      tidal_acceleration:
+        datum: modern.deltat.smh2016.tidal_acceleration
+        arcsec_per_cy2: -1291/50
+      tidal_correction: the kernel's lunar tidal acceleration is a recorded gap (modern.kernel.de440.tidal_acceleration); no correction for a different value is applied
+    - model: iers
+      range: IERS EOP 20 C04 from MJD 41317 to the cut-off MJD 61291 (0h UTC)
+      table:
+        source: iers_eop
+        sha256: 9fb4ac0567b4260662a72aef597f754f2c575f75d70d50ff753e669b57791f46
+      series: IERS EOP 20 C04, sampled at 0h UTC
+      cutoff_mjd: 61291
+      tidal_acceleration: observed series (no lunar ephemeris assumed)
+    presets: [modern_smh, modern_iers]
+  intraday: modern.at_instant
+  range:
+    from_jdn: 2287188
+    to_jdn: 2461289
+    cut: search.floor to search.horizon, cut to the span the modern runs serve
+  tool: step_scan/1
+  engine_version: 1.0.0.dev9
+  data_files:
+    jyotirganita/data/modern/calendar_reform.yaml: 04c1d275ba55422cc049bd60e250f0d1b90184873a35834d6279919ad46ae5d1
+    jyotirganita/data/modern/gaps.yaml: 475583b5285fc584777484150dd8292182fc9900874aa5da1f7f09c63dbd3f32
+    jyotirganita/data/modern/iae_2022.yaml: 627a68393862d99c5d54bf579614a1c9a8100c9b2388262d451951e692b84b83
+    jyotirganita/data/modern/iau1980.yaml: ebcf190f50e2d69d315a4f57771e79f86a79b238d405b038bb78c8713c8cc984
+    jyotirganita/data/modern/smh_2016.yaml: 04740494900beec17179ff719ef83f3dbfc2cbdb20646762c66dbf51ea3f2c2b
+    jyotirganita/data/modern/vondrak_2011.yaml: 02c1f7c56e07277bb64d2e16bd0f7f08ba889c51489a7e4e5233f6382ef86fd6
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/time_standards/ist.yaml: efb92bc50016f017cbeffa4b756279673c3d9b059ab50278c39bf8c49b7f593c
+    jyotirganita/data/time_standards/lmt.yaml: 22f671c013df32dfeb1e3629e39c6db66ed2d520058e4f24f6171283c66fa952
+    jyotirganita/data/time_standards/madras_time.yaml: f5e99101817fdb59d16ef6c784f8cc14d5e9ff6d529c202285df04f65345a820
+  parameters_sha256: sha256:564beadf0ab82c8efa27a23966e2fdcbef1bc0e6f474749b2e22efa76939ffee
+  scanned_on: 2026-10-24
+- key: derived.search.step_bound.modern_de.venus
+  value: '1.259444445'
+  sunrise_step_max:
+    value: '1.259444445'
+    day: 2306881
+  motion_max:
+    value: '1.259444445'
+    day: 2306881
+  unit: degree/day
+  method: modern_de
+  body: venus
+  observer: kerala/kozhikode
+  procedures:
+    kernel:
+      id: de440
+      sha256: a4ce9bf9b3282becc9f4b2ac3cebe03a2ae7599981aabd7265fd8482fff7c4b5
+      source: jpl_kernels
+    precession:
+      precession: iau2006
+      table:
+        source: iau2006_precession
+        sha256: 9ec6fac43f7037ff43896539d759333fc7e6007176cd72043b38d71cfd3e69c0
+      range: unstated (TN36 states no range for the IAU 2006 expressions)
+    nutation:
+      nutation: iau2000a
+      instance: 48e393d907c415ef62b384748797d3e2a0b5fb720bcb52ec544e8e684926c930
+      tables:
+        nutation_iau2000a:
+          source: iau2000a_nutation
+          sha256: 6da73bfe10873ac815520d00fffd67114d647a34afebc5946cfc275e73693f32
+        precession_iau2006:
+          source: iau2006_precession
+          sha256: 9ec6fac43f7037ff43896539d759333fc7e6007176cd72043b38d71cfd3e69c0
+      range: unstated
+    ayanamsa:
+      ayanamsa: iae_lahiri
+      equinox: 'true'
+      data: modern.ayanamsa.iae_lahiri.mean.*
+      range: unstated
+    observer_frame: geocentric
+    node: mean
+    delta_t:
+    - model: smh2016
+      range: 'Table S15: The Polynomial Coefficients for DT -720.0 to 2016.0 (decimal years -720.0 to 2016.0)'
+      range_datum: modern.deltat.smh2016.range
+      table:
+        source: stephenson_2016_supplement
+        sha256: ae44da13701d36e4e449991c59391af5b0ab60d5068cc70f99ab6d24816fb860
+      tidal_acceleration:
+        datum: modern.deltat.smh2016.tidal_acceleration
+        arcsec_per_cy2: -1291/50
+      tidal_correction: the kernel's lunar tidal acceleration is a recorded gap (modern.kernel.de440.tidal_acceleration); no correction for a different value is applied
+    - model: iers
+      range: IERS EOP 20 C04 from MJD 41317 to the cut-off MJD 61291 (0h UTC)
+      table:
+        source: iers_eop
+        sha256: 9fb4ac0567b4260662a72aef597f754f2c575f75d70d50ff753e669b57791f46
+      series: IERS EOP 20 C04, sampled at 0h UTC
+      cutoff_mjd: 61291
+      tidal_acceleration: observed series (no lunar ephemeris assumed)
+    presets: [modern_smh, modern_iers]
+  intraday: modern.at_instant
+  range:
+    from_jdn: 2287188
+    to_jdn: 2461289
+    cut: search.floor to search.horizon, cut to the span the modern runs serve
+  tool: step_scan/1
+  engine_version: 1.0.0.dev9
+  data_files:
+    jyotirganita/data/modern/calendar_reform.yaml: 04c1d275ba55422cc049bd60e250f0d1b90184873a35834d6279919ad46ae5d1
+    jyotirganita/data/modern/gaps.yaml: 475583b5285fc584777484150dd8292182fc9900874aa5da1f7f09c63dbd3f32
+    jyotirganita/data/modern/iae_2022.yaml: 627a68393862d99c5d54bf579614a1c9a8100c9b2388262d451951e692b84b83
+    jyotirganita/data/modern/iau1980.yaml: ebcf190f50e2d69d315a4f57771e79f86a79b238d405b038bb78c8713c8cc984
+    jyotirganita/data/modern/smh_2016.yaml: 04740494900beec17179ff719ef83f3dbfc2cbdb20646762c66dbf51ea3f2c2b
+    jyotirganita/data/modern/vondrak_2011.yaml: 02c1f7c56e07277bb64d2e16bd0f7f08ba889c51489a7e4e5233f6382ef86fd6
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/time_standards/ist.yaml: efb92bc50016f017cbeffa4b756279673c3d9b059ab50278c39bf8c49b7f593c
+    jyotirganita/data/time_standards/lmt.yaml: 22f671c013df32dfeb1e3629e39c6db66ed2d520058e4f24f6171283c66fa952
+    jyotirganita/data/time_standards/madras_time.yaml: f5e99101817fdb59d16ef6c784f8cc14d5e9ff6d529c202285df04f65345a820
+  parameters_sha256: sha256:564beadf0ab82c8efa27a23966e2fdcbef1bc0e6f474749b2e22efa76939ffee
+  scanned_on: 2026-10-24
+- key: derived.search.step_bound.modern_de.mars
+  value: '0.791388889'
+  sunrise_step_max:
+    value: '0.791388889'
+    day: 2444637
+  motion_max:
+    value: '0.791388889'
+    day: 2444637
+  unit: degree/day
+  method: modern_de
+  body: mars
+  observer: kerala/kozhikode
+  procedures:
+    kernel:
+      id: de440
+      sha256: a4ce9bf9b3282becc9f4b2ac3cebe03a2ae7599981aabd7265fd8482fff7c4b5
+      source: jpl_kernels
+    precession:
+      precession: iau2006
+      table:
+        source: iau2006_precession
+        sha256: 9ec6fac43f7037ff43896539d759333fc7e6007176cd72043b38d71cfd3e69c0
+      range: unstated (TN36 states no range for the IAU 2006 expressions)
+    nutation:
+      nutation: iau2000a
+      instance: 48e393d907c415ef62b384748797d3e2a0b5fb720bcb52ec544e8e684926c930
+      tables:
+        nutation_iau2000a:
+          source: iau2000a_nutation
+          sha256: 6da73bfe10873ac815520d00fffd67114d647a34afebc5946cfc275e73693f32
+        precession_iau2006:
+          source: iau2006_precession
+          sha256: 9ec6fac43f7037ff43896539d759333fc7e6007176cd72043b38d71cfd3e69c0
+      range: unstated
+    ayanamsa:
+      ayanamsa: iae_lahiri
+      equinox: 'true'
+      data: modern.ayanamsa.iae_lahiri.mean.*
+      range: unstated
+    observer_frame: geocentric
+    node: mean
+    delta_t:
+    - model: smh2016
+      range: 'Table S15: The Polynomial Coefficients for DT -720.0 to 2016.0 (decimal years -720.0 to 2016.0)'
+      range_datum: modern.deltat.smh2016.range
+      table:
+        source: stephenson_2016_supplement
+        sha256: ae44da13701d36e4e449991c59391af5b0ab60d5068cc70f99ab6d24816fb860
+      tidal_acceleration:
+        datum: modern.deltat.smh2016.tidal_acceleration
+        arcsec_per_cy2: -1291/50
+      tidal_correction: the kernel's lunar tidal acceleration is a recorded gap (modern.kernel.de440.tidal_acceleration); no correction for a different value is applied
+    - model: iers
+      range: IERS EOP 20 C04 from MJD 41317 to the cut-off MJD 61291 (0h UTC)
+      table:
+        source: iers_eop
+        sha256: 9fb4ac0567b4260662a72aef597f754f2c575f75d70d50ff753e669b57791f46
+      series: IERS EOP 20 C04, sampled at 0h UTC
+      cutoff_mjd: 61291
+      tidal_acceleration: observed series (no lunar ephemeris assumed)
+    presets: [modern_smh, modern_iers]
+  intraday: modern.at_instant
+  range:
+    from_jdn: 2287188
+    to_jdn: 2461289
+    cut: search.floor to search.horizon, cut to the span the modern runs serve
+  tool: step_scan/1
+  engine_version: 1.0.0.dev9
+  data_files:
+    jyotirganita/data/modern/calendar_reform.yaml: 04c1d275ba55422cc049bd60e250f0d1b90184873a35834d6279919ad46ae5d1
+    jyotirganita/data/modern/gaps.yaml: 475583b5285fc584777484150dd8292182fc9900874aa5da1f7f09c63dbd3f32
+    jyotirganita/data/modern/iae_2022.yaml: 627a68393862d99c5d54bf579614a1c9a8100c9b2388262d451951e692b84b83
+    jyotirganita/data/modern/iau1980.yaml: ebcf190f50e2d69d315a4f57771e79f86a79b238d405b038bb78c8713c8cc984
+    jyotirganita/data/modern/smh_2016.yaml: 04740494900beec17179ff719ef83f3dbfc2cbdb20646762c66dbf51ea3f2c2b
+    jyotirganita/data/modern/vondrak_2011.yaml: 02c1f7c56e07277bb64d2e16bd0f7f08ba889c51489a7e4e5233f6382ef86fd6
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/time_standards/ist.yaml: efb92bc50016f017cbeffa4b756279673c3d9b059ab50278c39bf8c49b7f593c
+    jyotirganita/data/time_standards/lmt.yaml: 22f671c013df32dfeb1e3629e39c6db66ed2d520058e4f24f6171283c66fa952
+    jyotirganita/data/time_standards/madras_time.yaml: f5e99101817fdb59d16ef6c784f8cc14d5e9ff6d529c202285df04f65345a820
+  parameters_sha256: sha256:564beadf0ab82c8efa27a23966e2fdcbef1bc0e6f474749b2e22efa76939ffee
+  scanned_on: 2026-10-24
+- key: derived.search.step_bound.modern_de.jupiter
+  value: '0.242500000'
+  sunrise_step_max:
+    value: '0.242500000'
+    day: 2347160
+  motion_max:
+    value: '0.242500000'
+    day: 2347160
+  unit: degree/day
+  method: modern_de
+  body: jupiter
+  observer: kerala/kozhikode
+  procedures:
+    kernel:
+      id: de440
+      sha256: a4ce9bf9b3282becc9f4b2ac3cebe03a2ae7599981aabd7265fd8482fff7c4b5
+      source: jpl_kernels
+    precession:
+      precession: iau2006
+      table:
+        source: iau2006_precession
+        sha256: 9ec6fac43f7037ff43896539d759333fc7e6007176cd72043b38d71cfd3e69c0
+      range: unstated (TN36 states no range for the IAU 2006 expressions)
+    nutation:
+      nutation: iau2000a
+      instance: 48e393d907c415ef62b384748797d3e2a0b5fb720bcb52ec544e8e684926c930
+      tables:
+        nutation_iau2000a:
+          source: iau2000a_nutation
+          sha256: 6da73bfe10873ac815520d00fffd67114d647a34afebc5946cfc275e73693f32
+        precession_iau2006:
+          source: iau2006_precession
+          sha256: 9ec6fac43f7037ff43896539d759333fc7e6007176cd72043b38d71cfd3e69c0
+      range: unstated
+    ayanamsa:
+      ayanamsa: iae_lahiri
+      equinox: 'true'
+      data: modern.ayanamsa.iae_lahiri.mean.*
+      range: unstated
+    observer_frame: geocentric
+    node: mean
+    delta_t:
+    - model: smh2016
+      range: 'Table S15: The Polynomial Coefficients for DT -720.0 to 2016.0 (decimal years -720.0 to 2016.0)'
+      range_datum: modern.deltat.smh2016.range
+      table:
+        source: stephenson_2016_supplement
+        sha256: ae44da13701d36e4e449991c59391af5b0ab60d5068cc70f99ab6d24816fb860
+      tidal_acceleration:
+        datum: modern.deltat.smh2016.tidal_acceleration
+        arcsec_per_cy2: -1291/50
+      tidal_correction: the kernel's lunar tidal acceleration is a recorded gap (modern.kernel.de440.tidal_acceleration); no correction for a different value is applied
+    - model: iers
+      range: IERS EOP 20 C04 from MJD 41317 to the cut-off MJD 61291 (0h UTC)
+      table:
+        source: iers_eop
+        sha256: 9fb4ac0567b4260662a72aef597f754f2c575f75d70d50ff753e669b57791f46
+      series: IERS EOP 20 C04, sampled at 0h UTC
+      cutoff_mjd: 61291
+      tidal_acceleration: observed series (no lunar ephemeris assumed)
+    presets: [modern_smh, modern_iers]
+  intraday: modern.at_instant
+  range:
+    from_jdn: 2287188
+    to_jdn: 2461289
+    cut: search.floor to search.horizon, cut to the span the modern runs serve
+  tool: step_scan/1
+  engine_version: 1.0.0.dev9
+  data_files:
+    jyotirganita/data/modern/calendar_reform.yaml: 04c1d275ba55422cc049bd60e250f0d1b90184873a35834d6279919ad46ae5d1
+    jyotirganita/data/modern/gaps.yaml: 475583b5285fc584777484150dd8292182fc9900874aa5da1f7f09c63dbd3f32
+    jyotirganita/data/modern/iae_2022.yaml: 627a68393862d99c5d54bf579614a1c9a8100c9b2388262d451951e692b84b83
+    jyotirganita/data/modern/iau1980.yaml: ebcf190f50e2d69d315a4f57771e79f86a79b238d405b038bb78c8713c8cc984
+    jyotirganita/data/modern/smh_2016.yaml: 04740494900beec17179ff719ef83f3dbfc2cbdb20646762c66dbf51ea3f2c2b
+    jyotirganita/data/modern/vondrak_2011.yaml: 02c1f7c56e07277bb64d2e16bd0f7f08ba889c51489a7e4e5233f6382ef86fd6
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/time_standards/ist.yaml: efb92bc50016f017cbeffa4b756279673c3d9b059ab50278c39bf8c49b7f593c
+    jyotirganita/data/time_standards/lmt.yaml: 22f671c013df32dfeb1e3629e39c6db66ed2d520058e4f24f6171283c66fa952
+    jyotirganita/data/time_standards/madras_time.yaml: f5e99101817fdb59d16ef6c784f8cc14d5e9ff6d529c202285df04f65345a820
+  parameters_sha256: sha256:564beadf0ab82c8efa27a23966e2fdcbef1bc0e6f474749b2e22efa76939ffee
+  scanned_on: 2026-10-24
+- key: derived.search.step_bound.modern_de.saturn
+  value: '0.130833334'
+  sunrise_step_max:
+    value: '0.130833334'
+    day: 2291370
+  motion_max:
+    value: '0.130833334'
+    day: 2291370
+  unit: degree/day
+  method: modern_de
+  body: saturn
+  observer: kerala/kozhikode
+  procedures:
+    kernel:
+      id: de440
+      sha256: a4ce9bf9b3282becc9f4b2ac3cebe03a2ae7599981aabd7265fd8482fff7c4b5
+      source: jpl_kernels
+    precession:
+      precession: iau2006
+      table:
+        source: iau2006_precession
+        sha256: 9ec6fac43f7037ff43896539d759333fc7e6007176cd72043b38d71cfd3e69c0
+      range: unstated (TN36 states no range for the IAU 2006 expressions)
+    nutation:
+      nutation: iau2000a
+      instance: 48e393d907c415ef62b384748797d3e2a0b5fb720bcb52ec544e8e684926c930
+      tables:
+        nutation_iau2000a:
+          source: iau2000a_nutation
+          sha256: 6da73bfe10873ac815520d00fffd67114d647a34afebc5946cfc275e73693f32
+        precession_iau2006:
+          source: iau2006_precession
+          sha256: 9ec6fac43f7037ff43896539d759333fc7e6007176cd72043b38d71cfd3e69c0
+      range: unstated
+    ayanamsa:
+      ayanamsa: iae_lahiri
+      equinox: 'true'
+      data: modern.ayanamsa.iae_lahiri.mean.*
+      range: unstated
+    observer_frame: geocentric
+    node: mean
+    delta_t:
+    - model: smh2016
+      range: 'Table S15: The Polynomial Coefficients for DT -720.0 to 2016.0 (decimal years -720.0 to 2016.0)'
+      range_datum: modern.deltat.smh2016.range
+      table:
+        source: stephenson_2016_supplement
+        sha256: ae44da13701d36e4e449991c59391af5b0ab60d5068cc70f99ab6d24816fb860
+      tidal_acceleration:
+        datum: modern.deltat.smh2016.tidal_acceleration
+        arcsec_per_cy2: -1291/50
+      tidal_correction: the kernel's lunar tidal acceleration is a recorded gap (modern.kernel.de440.tidal_acceleration); no correction for a different value is applied
+    - model: iers
+      range: IERS EOP 20 C04 from MJD 41317 to the cut-off MJD 61291 (0h UTC)
+      table:
+        source: iers_eop
+        sha256: 9fb4ac0567b4260662a72aef597f754f2c575f75d70d50ff753e669b57791f46
+      series: IERS EOP 20 C04, sampled at 0h UTC
+      cutoff_mjd: 61291
+      tidal_acceleration: observed series (no lunar ephemeris assumed)
+    presets: [modern_smh, modern_iers]
+  intraday: modern.at_instant
+  range:
+    from_jdn: 2287188
+    to_jdn: 2461289
+    cut: search.floor to search.horizon, cut to the span the modern runs serve
+  tool: step_scan/1
+  engine_version: 1.0.0.dev9
+  data_files:
+    jyotirganita/data/modern/calendar_reform.yaml: 04c1d275ba55422cc049bd60e250f0d1b90184873a35834d6279919ad46ae5d1
+    jyotirganita/data/modern/gaps.yaml: 475583b5285fc584777484150dd8292182fc9900874aa5da1f7f09c63dbd3f32
+    jyotirganita/data/modern/iae_2022.yaml: 627a68393862d99c5d54bf579614a1c9a8100c9b2388262d451951e692b84b83
+    jyotirganita/data/modern/iau1980.yaml: ebcf190f50e2d69d315a4f57771e79f86a79b238d405b038bb78c8713c8cc984
+    jyotirganita/data/modern/smh_2016.yaml: 04740494900beec17179ff719ef83f3dbfc2cbdb20646762c66dbf51ea3f2c2b
+    jyotirganita/data/modern/vondrak_2011.yaml: 02c1f7c56e07277bb64d2e16bd0f7f08ba889c51489a7e4e5233f6382ef86fd6
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/time_standards/ist.yaml: efb92bc50016f017cbeffa4b756279673c3d9b059ab50278c39bf8c49b7f593c
+    jyotirganita/data/time_standards/lmt.yaml: 22f671c013df32dfeb1e3629e39c6db66ed2d520058e4f24f6171283c66fa952
+    jyotirganita/data/time_standards/madras_time.yaml: f5e99101817fdb59d16ef6c784f8cc14d5e9ff6d529c202285df04f65345a820
+  parameters_sha256: sha256:564beadf0ab82c8efa27a23966e2fdcbef1bc0e6f474749b2e22efa76939ffee
+  scanned_on: 2026-10-24
+- key: derived.search.step_bound.modern_de.node
+  value: '0.053055556'
+  sunrise_step_max:
+    value: '0.053055556'
+    day: 2289721
+  motion_max: not_served
+  unit: degree/day
+  method: modern_de
+  body: node
+  observer: kerala/kozhikode
+  procedures:
+    kernel:
+      id: de440
+      sha256: a4ce9bf9b3282becc9f4b2ac3cebe03a2ae7599981aabd7265fd8482fff7c4b5
+      source: jpl_kernels
+    precession:
+      precession: iau2006
+      table:
+        source: iau2006_precession
+        sha256: 9ec6fac43f7037ff43896539d759333fc7e6007176cd72043b38d71cfd3e69c0
+      range: unstated (TN36 states no range for the IAU 2006 expressions)
+    nutation:
+      nutation: iau2000a
+      instance: 48e393d907c415ef62b384748797d3e2a0b5fb720bcb52ec544e8e684926c930
+      tables:
+        nutation_iau2000a:
+          source: iau2000a_nutation
+          sha256: 6da73bfe10873ac815520d00fffd67114d647a34afebc5946cfc275e73693f32
+        precession_iau2006:
+          source: iau2006_precession
+          sha256: 9ec6fac43f7037ff43896539d759333fc7e6007176cd72043b38d71cfd3e69c0
+      range: unstated
+    ayanamsa:
+      ayanamsa: iae_lahiri
+      equinox: 'true'
+      data: modern.ayanamsa.iae_lahiri.mean.*
+      range: unstated
+    observer_frame: geocentric
+    node: mean
+    delta_t:
+    - model: smh2016
+      range: 'Table S15: The Polynomial Coefficients for DT -720.0 to 2016.0 (decimal years -720.0 to 2016.0)'
+      range_datum: modern.deltat.smh2016.range
+      table:
+        source: stephenson_2016_supplement
+        sha256: ae44da13701d36e4e449991c59391af5b0ab60d5068cc70f99ab6d24816fb860
+      tidal_acceleration:
+        datum: modern.deltat.smh2016.tidal_acceleration
+        arcsec_per_cy2: -1291/50
+      tidal_correction: the kernel's lunar tidal acceleration is a recorded gap (modern.kernel.de440.tidal_acceleration); no correction for a different value is applied
+    - model: iers
+      range: IERS EOP 20 C04 from MJD 41317 to the cut-off MJD 61291 (0h UTC)
+      table:
+        source: iers_eop
+        sha256: 9fb4ac0567b4260662a72aef597f754f2c575f75d70d50ff753e669b57791f46
+      series: IERS EOP 20 C04, sampled at 0h UTC
+      cutoff_mjd: 61291
+      tidal_acceleration: observed series (no lunar ephemeris assumed)
+    presets: [modern_smh, modern_iers]
+  intraday: modern.at_instant
+  range:
+    from_jdn: 2287188
+    to_jdn: 2461289
+    cut: search.floor to search.horizon, cut to the span the modern runs serve
+  tool: step_scan/1
+  engine_version: 1.0.0.dev9
+  data_files:
+    jyotirganita/data/modern/calendar_reform.yaml: 04c1d275ba55422cc049bd60e250f0d1b90184873a35834d6279919ad46ae5d1
+    jyotirganita/data/modern/gaps.yaml: 475583b5285fc584777484150dd8292182fc9900874aa5da1f7f09c63dbd3f32
+    jyotirganita/data/modern/iae_2022.yaml: 627a68393862d99c5d54bf579614a1c9a8100c9b2388262d451951e692b84b83
+    jyotirganita/data/modern/iau1980.yaml: ebcf190f50e2d69d315a4f57771e79f86a79b238d405b038bb78c8713c8cc984
+    jyotirganita/data/modern/smh_2016.yaml: 04740494900beec17179ff719ef83f3dbfc2cbdb20646762c66dbf51ea3f2c2b
+    jyotirganita/data/modern/vondrak_2011.yaml: 02c1f7c56e07277bb64d2e16bd0f7f08ba889c51489a7e4e5233f6382ef86fd6
+    jyotirganita/data/engine_parameters.yaml: 0f800d16618b7e2f3cbff6d9bb48547f1609647df16ea5577d4821efebe8ae19
+    jyotirganita/data/time_standards/ist.yaml: efb92bc50016f017cbeffa4b756279673c3d9b059ab50278c39bf8c49b7f593c
+    jyotirganita/data/time_standards/lmt.yaml: 22f671c013df32dfeb1e3629e39c6db66ed2d520058e4f24f6171283c66fa952
+    jyotirganita/data/time_standards/madras_time.yaml: f5e99101817fdb59d16ef6c784f8cc14d5e9ff6d529c202285df04f65345a820
+  parameters_sha256: sha256:564beadf0ab82c8efa27a23966e2fdcbef1bc0e6f474749b2e22efa76939ffee
+  scanned_on: 2026-10-24

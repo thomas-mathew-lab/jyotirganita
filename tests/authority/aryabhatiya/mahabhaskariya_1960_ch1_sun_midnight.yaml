@@ -1,0 +1,299 @@
+id: authority/aryabhatiya/mahabhaskariya_1960_ch1_sun_midnight
+methods: [aryabhatiya]
+class: editor_computed
+source: mahabhaskariya_1960
+file: mahabhaskariya_1960-mahabhaskariya-shukla-1960.pdf
+edition_page: 39
+pdf_page: 124
+locus: I.49 (the time-pulveriser), 'Example 1. "The (mean) longitude of the Sun for midnight is found to be … signs, … degrees, … minutes, and … seconds. Quickly say the ahargaṇa and the revolutions (performed by the Sun) according to the Āśmakīya."' and Shukla's solution, pp. 39–40 (PDF 124–125)
+rounding: seconds of arc, the fraction dropped
+precision: seconds of arc; whole days
+datum_keys: [texts.aryabhatiya.sun.revolutions, texts.aryabhatiya.civil_days.laghubhaskariya_1963, texts.aryabhatiya.procedures.residue.from_longitude.mahabhaskariya_1960]
+notes: 'Footnote 2 on p. 39: ''Bhāskara I''s example, occurring in his comm. on Ā, ii. 32-33,''. The question is Bhāskara I''s; the solution and its figures are Shukla''s (editor_computed). The longitude is for midnight under the Āśmakīya (Āryabhaṭa''s sunrise) reckoning: Shukla''s equation (3) uses x − 1/4 days and calls x − 1 the required ahargaṇa (as printed, p. 39). The forward test is the Sun''s mean longitude at ahargaṇa 1750 plus three quarters of a day (the midnight before the sunrise of day 1751), to the printed second.'
+values:
+- name: input.sun_longitude
+  role: input
+  value: [9, 15, 32, 40]
+  form: rdms
+  unit: rasi_deg_min_sec
+  script: latin
+  edition_page: 39
+  pdf_page: 124
+  locus: I.49, 'Example 1. "The (mean) longitude of the Sun for midnight is found to be … signs, … degrees, … minutes, and … seconds. …"' and Shukla's solution, 'Since the mean longitude of the Sun = … signs …° …′ …″'. A degree sign printed as a superscript … is keyed as °.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 124)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.residue
+  role: output
+  value: 166876
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 39
+  pdf_page: 124
+  locus: I.49, 'Example 1. "The (mean) longitude of the Sun for midnight is found to be … signs, … degrees, … minutes, and … seconds. …"' and Shukla's solution, 'therefore, by stanza 46 (ii), the residue of revolutions = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 124)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.abraded_sun_revolutions
+  role: output
+  value: 576
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 39
+  pdf_page: 124
+  locus: I.49, 'Example 1. "The (mean) longitude of the Sun for midnight is found to be … signs, … degrees, … minutes, and … seconds. …"' and Shukla's solution, equation (3), '(… (x — …/…) — …) / … = y', the coefficient.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 124)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.day_fraction
+  role: output
+  value: 1/4
+  form: fraction
+  unit: days
+  script: latin
+  edition_page: 39
+  pdf_page: 124
+  locus: I.49, 'Example 1. "The (mean) longitude of the Sun for midnight is found to be … signs, … degrees, … minutes, and … seconds. …"' and Shukla's solution, equation (3), the fraction subtracted from x.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 124)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.abraded_civil_days
+  role: output
+  value: 210389
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 39
+  pdf_page: 124
+  locus: I.49, 'Example 1. "The (mean) longitude of the Sun for midnight is found to be … signs, … degrees, … minutes, and … seconds. …"' and Shukla's solution, equation (3), the denominator.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 124)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.reduced_coefficient
+  role: output
+  value: 144
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 39
+  pdf_page: 124
+  locus: I.49, 'Example 1. "The (mean) longitude of the Sun for midnight is found to be … signs, … degrees, … minutes, and … seconds. …"' and Shukla's solution, equation (4), '(144X — …) / … =y', the coefficient of X.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 124)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.x_reduced
+  role: output
+  value: 7003
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 40
+  pdf_page: 125
+  locus: 'I.49, ''Example 1. "The (mean) longitude of the Sun for midnight is found to be … signs, … degrees, … minutes, and … seconds. …"'' and Shukla''s solution, p. 40, ''Solving equation (4), we get X = …'': X (= 4x — …).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 125)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.revolutions
+  role: output
+  value: 4
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 40
+  pdf_page: 125
+  locus: I.49, 'Example 1. "The (mean) longitude of the Sun for midnight is found to be … signs, … degrees, … minutes, and … seconds. …"' and Shukla's solution, p. 40, the same sentence, 'y = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 125)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.x
+  role: output
+  value: 1751
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 40
+  pdf_page: 125
+  locus: I.49, 'Example 1. "The (mean) longitude of the Sun for midnight is found to be … signs, … degrees, … minutes, and … seconds. …"' and Shukla's solution, p. 40, the same sentence, 'giving x = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 125)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.ahargana
+  role: output
+  value: 1750
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 40
+  pdf_page: 125
+  locus: I.49, 'Example 1. "The (mean) longitude of the Sun for midnight is found to be … signs, … degrees, … minutes, and … seconds. …"' and Shukla's solution, p. 40, 'Hence the required ahargaṇa is …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 125)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.revolutions_stated
+  role: output
+  value: 4
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 40
+  pdf_page: 125
+  locus: I.49, 'Example 1. "The (mean) longitude of the Sun for midnight is found to be … signs, … degrees, … minutes, and … seconds. …"' and Shukla's solution, p. 40, 'and the number of revolutions performed by the Sun is …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 125)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''

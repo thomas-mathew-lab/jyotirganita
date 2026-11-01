@@ -1,0 +1,347 @@
+id: authority/aryabhatiya/mahabhaskariya_1960_ch1_mars_moon_sum_govinda
+methods: [aryabhatiya]
+class: editor_computed
+source: mahabhaskariya_1960
+file: mahabhaskariya_1960-mahabhaskariya-shukla-1960.pdf
+edition_page: 43
+pdf_page: 128
+locus: I.52, 'Example 1. "The sum of the (mean) longitudes of Mars and the Moon is calculated to be … signs, … degrees, … minutes, ( … seconds, and … thirds ). O you, well versed in the ( Ārya )bhaṭa-tantra, quickly say the ahargaṇa and also the (mean) longitudes of the Moon and Mars."' and Shukla's solution, pp. 43–44 (PDF 128–129)
+rounding: the residue to the nearest integer (as computed on the page)
+precision: thirds of arc; whole days
+datum_keys: [texts.aryabhatiya.moon.revolutions, texts.aryabhatiya.mars.revolutions, texts.aryabhatiya.civil_days.laghubhaskariya_1963, texts.aryabhatiya.procedures.residue.from_longitude.mahabhaskariya_1960]
+notes: 'Footnote 1 on p. 43: ''Bhāskara I''s example ( MBh, viii. 19) with Govinda Svāmī''s modification.'' The seconds and thirds in parentheses are Govinda Svāmī''s addition to VIII.19 (mahabhaskariya_1960_ch8_19_mars_moon_sum keys the unmodified problem); the solution and its figures are Shukla''s (editor_computed). The residue is the nearest integer to the quotient (11480264.99, the reader''s arithmetic). The printed y = 386459 carries an emendation to 386559. The forward test is the sum of the Moon''s and Mars''s mean longitudes at ahargaṇa 10157490, to the printed third.'
+values:
+- name: input.sum_longitude
+  role: input
+  value: [5, 7, 9, 9, 6]
+  form: rdms
+  unit: rasi_deg_min_sec_thirds
+  script: latin
+  edition_page: 43
+  pdf_page: 128
+  locus: I.52, 'Example 1. "The sum of the (mean) longitudes of Mars and the Moon is calculated to be … signs, … degrees, … minutes, ( … seconds, and … thirds ). …"' and Shukla's solution, '=… signs …° …′ …″ …‴'. A degree sign printed as a superscript … is keyed as °.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 128)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.moon_revolutions
+  role: input
+  value: 57753336
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 43
+  pdf_page: 128
+  locus: I.52, 'Example 1. "The sum of the (mean) longitudes of Mars and the Moon is calculated to be … signs, … degrees, … minutes, ( … seconds, and … thirds ). …"' and Shukla's solution, 'The revolution-number of the Moon = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 128)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.mars_revolutions
+  role: input
+  value: 2296824
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 43
+  pdf_page: 128
+  locus: I.52, 'Example 1. "The sum of the (mean) longitudes of Mars and the Moon is calculated to be … signs, … degrees, … minutes, ( … seconds, and … thirds ). …"' and Shukla's solution, 'The revolution-number of Mars = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 128)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.revolutions_sum
+  role: output
+  value: 60050160
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 43
+  pdf_page: 128
+  locus: I.52, 'Example 1. "The sum of the (mean) longitudes of Mars and the Moon is calculated to be … signs, … degrees, … minutes, ( … seconds, and … thirds ). …"' and Shukla's solution, 'Their sum = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 128)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.civil_days
+  role: input
+  value: 1577917500
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 43
+  pdf_page: 128
+  locus: I.52, 'Example 1. "The sum of the (mean) longitudes of Mars and the Moon is calculated to be … signs, … degrees, … minutes, ( … seconds, and … thirds ). …"' and Shukla's solution, 'The number of civil days in a yuga = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 128)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.hcf
+  role: output
+  value: 60
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 43
+  pdf_page: 128
+  locus: I.52, 'Example 1. "The sum of the (mean) longitudes of Mars and the Moon is calculated to be … signs, … degrees, … minutes, ( … seconds, and … thirds ). …"' and Shukla's solution, 'The H. C. F. of … and … is …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 128)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.abraded_sum
+  role: output
+  value: 1000836
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 43
+  pdf_page: 128
+  locus: I.52, 'Example 1. "The sum of the (mean) longitudes of Mars and the Moon is calculated to be … signs, … degrees, … minutes, ( … seconds, and … thirds ). …"' and Shukla's solution, '= … ÷ …= …,'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 128)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.abraded_civil_days
+  role: output
+  value: 26298625
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 43
+  pdf_page: 128
+  locus: I.52, 'Example 1. "The sum of the (mean) longitudes of Mars and the Moon is calculated to be … signs, … degrees, … minutes, ( … seconds, and … thirds ). …"' and Shukla's solution, '=… ÷ …=…'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 128)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.sum_thirds
+  role: output
+  value: 33944946
+  form: integer
+  unit: thirds of arc
+  script: latin
+  edition_page: 43
+  pdf_page: 128
+  locus: I.52, 'Example 1. "The sum of the (mean) longitudes of Mars and the Moon is calculated to be … signs, … degrees, … minutes, ( … seconds, and … thirds ). …"' and Shukla's solution, '=… thirds'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 128)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.residue
+  role: output
+  value: 11480265
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 43
+  pdf_page: 128
+  locus: I.52, 'Example 1. "The sum of the (mean) longitudes of Mars and the Moon is calculated to be … signs, … degrees, … minutes, ( … seconds, and … thirds ). …"' and Shukla's solution, 'Therefore, by stanza 46(ii), the residue of revolutions=…'; the equation '(… x — …) / … = y'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 128)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.ahargana
+  role: output
+  value: 10157490
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 44
+  pdf_page: 129
+  locus: I.52, 'Example 1. "The sum of the (mean) longitudes of Mars and the Moon is calculated to be … signs, … degrees, … minutes, ( … seconds, and … thirds ). …"' and Shukla's solution, p. 44, 'The minimum solution of this equation is x = …,'; 'The required ahargaṇa is, therefore, …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 129)
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [140, 100, 240, 135]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tight clip [140,100,240,135], no tiling (mahabhaskariya_1960 PDF 129): the minimum solution of Example 1'
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.y
+  role: output
+  value: 386459
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 44
+  pdf_page: 129
+  locus: I.52, 'Example 1. "The sum of the (mean) longitudes of Mars and the Moon is calculated to be … signs, … degrees, … minutes, ( … seconds, and … thirds ). …"' and Shukla's solution, p. 44, 'y = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 129)
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [140, 100, 240, 135]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tight clip [140,100,240,135], no tiling (mahabhaskariya_1960 PDF 129): the minimum solution of Example 1'
+  status: double_read
+  emendation:
+    printed: 386459
+    adopted: 386559
+    evidence: 'internal arithmetic (the reader''s, from the page''s own figures; no second witness): (1000836 × 10157490 − 11480265) / 26298625 = 386559 exactly, with the printed x = 10157490 and the printed equation; 386459 leaves a remainder of 2629862500. The printed ahargaṇa is not affected.'
+    evidence_indic: false
+    by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    owner_signoff: null
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''

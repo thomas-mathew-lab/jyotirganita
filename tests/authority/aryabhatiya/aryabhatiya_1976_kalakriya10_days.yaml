@@ -1,0 +1,143 @@
+id: authority/aryabhatiya/aryabhatiya_1976_kalakriya10_days
+methods: [aryabhatiya]
+class: editor_computed
+source: aryabhatiya_1976
+file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+edition_page: 95
+pdf_page: 169
+locus: 'Kālakriyā 10, the editors'' note: … years as civil days and the date of that epoch'
+rounding: none stated; the day count printed to two decimals
+precision: 'the editors'' arithmetic: the day count as printed (two decimals); the date and the instant as printed'
+datum_keys: [texts.aryabhatiya.composed, texts.aryabhatiya.sun.revolutions, texts.aryabhatiya.civil_days.rule]
+notes: The editors convert the Kali years elapsed to days (civil days of a yuga over 1200, printed as a fraction) and date the instant.
+values:
+- name: input.kali_years_elapsed
+  role: input
+  value: 3600
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 95
+  pdf_page: 169
+  locus: Editors' note, the equation's left side '… years'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r3c1 of clip [40,25,265,429] 1x3 --overlap 8: the bold translation and the editors'' note'
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.numerator
+  role: output
+  value: 1577917500
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 95
+  pdf_page: 169
+  locus: 'Editors'' note, the equation: the numerator over ….'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r3c1 of clip [40,25,265,429] 1x3 --overlap 8: the bold translation and the editors'' note'
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.divisor
+  role: output
+  value: 1200
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 95
+  pdf_page: 169
+  locus: 'Editors'' note, the equation: the denominator under ….'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r3c1 of clip [40,25,265,429] 1x3 --overlap 8: the bold translation and the editors'' note'
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.days
+  role: output
+  value: '1314931.25'
+  form: fraction
+  unit: days
+  script: latin
+  edition_page: 95
+  pdf_page: 169
+  locus: 'Editors'' note, the equation: the figure after ''or'' (the decimal point printed raised, keyed as ''.'').'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r3c1 of clip [40,25,265,429] 1x3 --overlap 8: the bold translation and the editors'' note'
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.instant
+  role: output
+  value: mean noon at Ujjayinī, Sunday, March 21, 499 A.D.
+  form: text
+  unit: statement
+  script: latin
+  edition_page: 95
+  pdf_page: 169
+  locus: 'Editors'' note: the words from ''mean noon'' to ''A.D.'' in ''this epoch corresponds to …''. Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r3c1 of clip [40,25,265,429] 1x3 --overlap 8: the bold translation and the editors'' note'
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

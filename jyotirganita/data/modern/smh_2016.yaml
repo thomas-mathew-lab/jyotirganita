@@ -1,0 +1,91 @@
+- key: modern.deltat.smh2016.range
+  value: 'Measurement of the Earth''s rotation: 720 BC to AD 2015'
+  form: text
+  unit: statement
+  script: latin
+  source: stephenson_2016
+  file: stephenson_2016-stephenson-morrison-hohenkerk-2016-deltat.pdf
+  edition_page: 1
+  pdf_page: 1
+  locus: The paper's title, whole. Latin text keyed as printed (spelling, case; italics not marked); spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; a formula in plain characters (superscripts as ^n, subscripts as _x, Greek letters as Unicode); the value ends before the closing full stop. An apostrophe as U+0027 whatever its printed shape.
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [218, 10, 430, 68]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'one tile of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: the title gives the interval of the analysis; the apostrophe printed curly, keyed as U+0027
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [218, 10, 430, 68]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: no re-read
+- key: modern.deltat.smh2016.tidal_acceleration
+  value: '25.82'
+  form: fraction
+  negative: true
+  unit: arcseconds_per_century_squared
+  script: latin
+  source: stephenson_2016
+  file: stephenson_2016-stephenson-morrison-hohenkerk-2016-deltat.pdf
+  edition_page: 9
+  pdf_page: 9
+  locus: '§3a, the sentence ''The value implicit in the JPL ephemerides DE430, which was used to reduce the occultation observations after AD 1600, is … [4],'': the number. a decimal coefficient keyed as printed digit for digit, trailing zeros kept, the printed grouping of digits dropped, its sign as `negative`; a unit mark printed inside the number is not keyed (it is the `unit`; its placement in `notes`).'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [50, 457, 442, 676]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: printed with a minus sign and the unit ″ cy^−2
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [50, 457, 442, 676]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- key: modern.deltat.smh2016.tidal_statement
+  value: We have investigated the effect on ΔT of using slightly different values of the lunar tidal acceleration before and after AD 1600. We compared the latest JPL longitudes of the Moon at epochs back to 700 BC with the analytical theory j = 2, incorporating a tidal acceleration of −26.00″ cy^−2. The differences in longitude, employing the same value of the precession constant, are plotted in figure 1. They are negligible in the medieval and ancient period compared to the precision of the observations. This is not the case after AD 1600, where the systematic difference ranges from about +2″ at AD 1700 to zero at AD 1900, in the sense DE430 − (j = 2). These account for the systematic differences in ΔT after AD 1600 between this analysis (see §4) and previous work by Stephenson & Morrison [5]. The values of ΔT derived in this paper should be used in conjunction with the lunar ephemeris JPL DE430, or with other ephemerides in which the tidal acceleration is close to the value of −25.82″ cy^−2 implicit in the JPL ephemeris
+  form: text
+  unit: statement
+  script: latin
+  source: stephenson_2016
+  file: stephenson_2016-stephenson-morrison-hohenkerk-2016-deltat.pdf
+  edition_page: 9
+  pdf_page: 9
+  locus: '§3a, two paragraphs: from ''We have investigated the effect on ΔT'' to ''implicit in the JPL ephemeris''. Latin text keyed as printed (spelling, case; italics not marked); spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; a formula in plain characters (superscripts as ^n, subscripts as _x, Greek letters as Unicode); the value ends before the closing full stop.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 400
+    clip: [50, 457, 442, 676]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tiles 2x1 --overlap 12 of this clip; born-digital page (native: vector) rendered at 400 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: two printed paragraphs joined by one space; 'j = 2' printed as an italic j with a spaced equals sign; no correction for a different tidal acceleration is given
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 400
+    clip: [50, 457, 442, 676]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''

@@ -1,0 +1,360 @@
+id: authority/suryasiddhanta/whitney_sun_day_length
+methods: [suryasiddhanta]
+class: editor_computed
+source: suryasiddhanta_burgess_1860
+edition_page: 232
+pdf_page: 93
+locus: 'Whitney''s note to ii. 59, printed p. 232: from ''Thus, to find the length of the sun''s day'' to the end of the sentence giving the apparent day''s length (''... mean solar time.''); then the sentence ''According to the Nautical Almanac, it is ...'' that follows it, and the sentence ''By a similar process, the length of Jupiter''s day at the same time is found to be ...; by the Nautical Almanac, it is ...''.'
+rounding: not stated
+precision: hundredths of a prana (respiration); tenths of a second of time
+datum_keys: [texts.suryasiddhanta.procedures.cara.day_night]
+notes: 'Length of the sun''s apparent day: the sun''s longitude corrected by the precession places him in a sign whose rising time is given; the proportion minutes in a sign: rising time:: daily motion: excess gives the excess of his day over the sidereal day, additive since his motion is direct; the apparent day in nadis, vinadis and pranas and its equivalent in mean solar time; Jupiter''s day by a similar process. Units as printed: superscript s (signs), p (pranas, respirations), n (nadis), v (vinadis), h m s (hours, minutes, seconds of mean solar time); a decimal of the last part is printed after the unit mark. The ordinal ''tenth'' (the sign the sun is in) is a number word and is not keyed. both are keyed. The Nautical Almanac figures are the editor''s comparison values, not results of the text''s process. Errata (suryasiddhanta_burgess_1860_reprint PDF 364) checked: no entry on this page. First read lat-b, fixture file sha256 046da04c.'
+values:
+- name: input.sun.longitude_corrected_for_precession
+  role: input
+  value: [9, 8, 40]
+  form: rdms
+  unit: signs_degrees_minutes
+  script: latin
+  edition_page: 232
+  pdf_page: 93
+  locus: sentence 'The sun's longitude, as corrected by the precession, is', line … of the paragraph beginning 'Thus, to find'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 85, 209, 171.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 046da04c); suryasiddhanta_burgess_1860_p93_600dpi_r1c1_clip40-85.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 85, 370, 171.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p93_600dpi_r1c2_clip40-85.png
+  status: double_read
+  notes: 'signs marked with a superscript s; no seconds printed. locus as first keyed: sentence ''The sun''s longitude, as corrected by the precession, is'', line 4 of the paragraph beginning ''Thus, to find'''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 85, 209, 171.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.sun.rising_time_of_sign
+  role: input
+  value: 1935
+  form: integer
+  unit: pranas
+  script: latin
+  edition_page: 232
+  pdf_page: 93
+  locus: sentence 'of which the time of rising (udayâsavas), or the equivalent in right ascension, is'; restated as the second term of the proportion
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 85, 209, 171.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 046da04c); suryasiddhanta_burgess_1860_p93_600dpi_r1c1_clip40-85.png
+  status: double_read
+  notes: unit printed as superscript p.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 85, 209, 171.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.sun.true_daily_motion
+  role: input
+  value: [61, 26]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 232
+  pdf_page: 93
+  locus: sentence 'His rate of daily motion in longitude is'; restated as the third term of the proportion
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 85, 370, 171.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 046da04c); suryasiddhanta_burgess_1860_p93_600dpi_r1c2_clip40-85.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 85, 370, 171.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.minutes_in_sign
+  role: input
+  value: 1800
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 232
+  pdf_page: 93
+  locus: proportion after 'Hence the proportion', first term
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 163.5, 209, 250]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 046da04c); suryasiddhanta_burgess_1860_p93_600dpi_r2c1_clip40-85.png
+  status: double_read
+  notes: old-style figures.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 163.5, 209, 250]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sun.rising_time_of_daily_motion
+  role: output
+  value: '66.04'
+  form: fraction
+  unit: pranas
+  script: latin
+  edition_page: 232
+  pdf_page: 93
+  locus: proportion, fourth term
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 163.5, 370, 250]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 046da04c); suryasiddhanta_burgess_1860_p93_600dpi_r2c2_clip40-85.png
+  status: double_read
+  notes: printed with the unit mark before the decimal point (superscript p then .04); old-style figures.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 163.5, 370, 250]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sun.excess_over_sidereal_day
+  role: output
+  value:
+  - [11, '0.04']
+  form: table
+  unit: vinadis_pranas
+  script: latin
+  edition_page: 232
+  pdf_page: 93
+  locus: sentence 'shows that his day differs from the true sidereal day by'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 163.5, 370, 250]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 046da04c); suryasiddhanta_burgess_1860_p93_600dpi_r2c2_clip40-85.png
+  status: double_read
+  notes: decimal last part; additive ('the difference is additive').
+  columns: [vinadis, pranas]
+  second_read:
+  - by: claude-fable-5-1/2026-10-22-r3
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 163.5, 370, 250]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sun.apparent_day_length
+  role: output
+  value:
+  - [60, 11, '0.04']
+  form: table
+  unit: nadis_vinadis_pranas
+  script: latin
+  edition_page: 232
+  pdf_page: 93
+  locus: sentence 'the length of the apparent day is therefore'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 163.5, 209, 250]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 046da04c); suryasiddhanta_burgess_1860_p93_600dpi_r2c1_clip40-85.png
+  status: double_read
+  notes: decimal last part.
+  columns: [nadis, vinadis, pranas]
+  second_read:
+  - by: claude-fable-5-1/2026-10-22-r3
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 163.5, 209, 250]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sun.apparent_day_length_mean_solar_time
+  role: output
+  value:
+  - [24, 0, '27.5']
+  form: table
+  unit: hours_minutes_seconds
+  script: latin
+  edition_page: 232
+  pdf_page: 93
+  locus: same sentence, after 'which is equivalent to', before 'mean solar time'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 163.5, 370, 250]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 046da04c); suryasiddhanta_burgess_1860_p93_600dpi_r2c2_clip40-85.png
+  status: double_read
+  notes: decimal last part.
+  columns: [hours, minutes, seconds]
+  second_read:
+  - by: claude-fable-5-1/2026-10-22-r3
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 163.5, 370, 250]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sun.apparent_day_length_nautical_almanac
+  role: output
+  value:
+  - [24, 0, '28.6']
+  form: table
+  unit: hours_minutes_seconds
+  script: latin
+  edition_page: 232
+  pdf_page: 93
+  locus: sentence 'According to the Nautical Almanac, it is'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 163.5, 370, 250]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 046da04c); suryasiddhanta_burgess_1860_p93_600dpi_r2c2_clip40-85.png
+  status: double_read
+  notes: decimal last part; the editor's comparison value from the Nautical Almanac, outside the text's process.
+  columns: [hours, minutes, seconds]
+  second_read:
+  - by: claude-fable-5-1/2026-10-22-r3
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 163.5, 370, 250]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.jupiter.day_length
+  role: output
+  value: [59, 58, 4]
+  form: sexagesimal
+  unit: nadis_vinadis_pranas
+  script: latin
+  edition_page: 232
+  pdf_page: 93
+  locus: sentence 'By a similar process, the length of Jupiter's day at the same time is found to be'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 163.5, 209, 250]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 046da04c); suryasiddhanta_burgess_1860_p93_600dpi_r2c1_clip40-85.png
+  status: double_read
+  notes: unit marks superscript n, v, p.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 163.5, 209, 250]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.jupiter.day_length_mean_solar_time
+  role: output
+  value:
+  - [23, 55, '30.8']
+  form: table
+  unit: hours_minutes_seconds
+  script: latin
+  edition_page: 232
+  pdf_page: 93
+  locus: same sentence, after 'or'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 163.5, 209, 250]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 046da04c); suryasiddhanta_burgess_1860_p93_600dpi_r2c1_clip40-85.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 163.5, 370, 250]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p93_600dpi_r2c2_clip40-85.png
+  status: double_read
+  notes: decimal last part; the figure falls across the two tiles (30s. on the left, .8 on the right, read on both).
+  columns: [hours, minutes, seconds]
+  second_read:
+  - by: claude-fable-5-1/2026-10-22-r3
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 163.5, 209, 250]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.jupiter.day_length_nautical_almanac
+  role: output
+  value: [23, 55, 30]
+  form: sexagesimal
+  unit: hours_minutes_seconds
+  script: latin
+  edition_page: 232
+  pdf_page: 93
+  locus: same sentence, after 'by the Nautical Almanac, it is' (the last line of the paragraph)
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 163.5, 209, 250]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 046da04c); suryasiddhanta_burgess_1860_p93_600dpi_r2c1_clip40-85.png
+  status: double_read
+  notes: no decimal printed; the editor's comparison value from the Nautical Almanac.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 163.5, 209, 250]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

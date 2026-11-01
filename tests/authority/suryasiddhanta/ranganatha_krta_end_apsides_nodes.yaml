@@ -1,0 +1,370 @@
+id: authority/suryasiddhanta/ranganatha_krta_end_apsides_nodes
+methods: [suryasiddhanta]
+class: text_computed
+source: suryasiddhanta_hall_1859
+edition_page: 43
+pdf_page: 55
+locus: 'from ''candrasya mandoccam tadanim'' (PDF 55 l. 5) to ''sanipatasya ...'' (l. 20): the commentary on i.58'
+rounding: the positions are printed to seconds of arc
+precision: seconds of arc (sign, degree, minute, second)
+datum_keys: [texts.suryasiddhanta.procedures.mean_longitude.rule]
+notes: 'The commentary gives as ksepakas the apsides (mandocca) of the Sun and the five planets and the nodes of the five planets at the end of the Krta, as sign|degree|minute|second. It prints no revolution number or elapsed-years figure on this page from which they are derived (it says, l. 12-14, that being slow they serve for a thousand years and their computation from the start of the Treta is omitted; the word sahasra there is not a computation input and is not keyed). For the Moon it adds 9 and 6 signs (apogee in Makara, node in Tula; numeral words keyed as inputs). Errata: p. 43 l. 19 Venus node 4|17|25|4 -> 4|17|25|48 (keyed as printed).'
+values:
+- name: input.moon_apogee_signs_word
+  role: input
+  value: 9
+  form: numeral_word
+  value_form: integer
+  word:
+    text: नव
+    script: devanagari
+    system: bhutasankhya
+    decode: 9
+  unit: signs
+  script: devanagari
+  edition_page: 43
+  pdf_page: 55
+  locus: PDF 55 l. 6 last word to l. 7 (a compound with राशि, split at the line end), the first numeral member of that compound; keyed separately because the compound lists one number for each of the two bodies (tayoh)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 750
+    clip: [194, 240, 348, 264]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: l. 6 on tile r1c2 of clip [40,240,348,264] 2x1; l. 7 (drasi...) on clip [40,260,194,284]; upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_krta_end_apsides_nodes.yaml (sha256 4cf46a9a)
+  status: double_read
+  notes: for the Moon's apogee (in Makara at the end of the Krta, l. 5); the Moon is not among the 'other planets' of the task but the figure is used on this page
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 750
+    clip: [194, 240, 348, 264]
+    delivered_ppi: 300
+    note: value = the word's decode (the frozen file carries the word only)
+- name: input.moon_node_signs_word
+  role: input
+  value: 6
+  form: numeral_word
+  value_form: integer
+  word:
+    text: षट्
+    script: devanagari
+    system: bhutasankhya
+    decode: 6
+  unit: signs
+  script: devanagari
+  edition_page: 43
+  pdf_page: 55
+  locus: PDF 55 l. 6-7, the second numeral member of the same compound (pausal form; the member राशि not keyed)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 750
+    clip: [194, 240, 348, 264]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: l. 6 on tile r1c2 of clip [40,240,348,264] 2x1; l. 7 (drasi...) on clip [40,260,194,284]; upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_krta_end_apsides_nodes.yaml (sha256 4cf46a9a)
+  status: double_read
+  notes: for the Moon's node (in Tula, l. 6).
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 750
+    clip: [194, 240, 348, 264]
+    delivered_ppi: 300
+    note: value = the word's decode (the frozen file carries the word only)
+- name: output.sun.apsis
+  role: output
+  value: [0, 7, 28, 12]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: devanagari
+  edition_page: 43
+  pdf_page: 55
+  locus: PDF 55 l. 16, after 'ksepakas tu ravimandoccam rasyadikam'; Devanagari digits transcribed, parts separated by danda in print
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1500
+    clip: [160, 455, 250, 475]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_krta_end_apsides_nodes.yaml (sha256 4cf46a9a)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1500
+    clip: [160, 455, 250, 475]
+    delivered_ppi: 300
+    note: ''
+- name: output.mars.apsis
+  role: output
+  value: [3, 3, 14, 24]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: devanagari
+  edition_page: 43
+  pdf_page: 55
+  locus: PDF 55 l. 16, after 'bhaumasya'; Devanagari digits transcribed, parts separated by danda in print
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1500
+    clip: [270, 455, 348, 475]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_krta_end_apsides_nodes.yaml (sha256 4cf46a9a)
+  status: double_read
+  notes: the first two figures are the same glyph (३), each with its lower-right tail; distinct from the 8-shaped ४ in 14 and 24
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1500
+    clip: [270, 455, 348, 475]
+    delivered_ppi: 300
+    note: ''
+- name: output.mercury.apsis
+  role: output
+  value: [5, 4, 4, 48]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: devanagari
+  edition_page: 43
+  pdf_page: 55
+  locus: PDF 55 l. 17, after 'budhasya'; Devanagari digits transcribed, parts separated by danda in print
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1500
+    clip: [40, 477, 140, 497]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_krta_end_apsides_nodes.yaml (sha256 4cf46a9a)
+  status: double_read
+  notes: 'DOUBT: the second figure (degrees) is a heavily inked closed blob with one small hole; read as ४ (the same height and width as the ४ of the third figure), possibly ८ or a damaged ४. Tiles [40,477,90,497] and [90,477,140,497] at 1500 dpi upsampled.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1439
+    clip: [40, 477, 140, 497]
+    delivered_ppi: 300
+    note: ''
+- name: output.jupiter.apsis
+  role: output
+  value: [0, 9, 0, 0]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: devanagari
+  edition_page: 43
+  pdf_page: 55
+  locus: PDF 55 l. 17, after 'guroh'; Devanagari digits transcribed, parts separated by danda in print
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1500
+    clip: [160, 477, 230, 497]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_krta_end_apsides_nodes.yaml (sha256 4cf46a9a)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1500
+    clip: [160, 477, 230, 497]
+    delivered_ppi: 300
+    note: ''
+- name: output.venus.apsis
+  role: output
+  value: [11, 13, 21, 0]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: devanagari
+  edition_page: 43
+  pdf_page: 55
+  locus: PDF 55 l. 17, after 'sukrasya'; Devanagari digits transcribed, parts separated by danda in print
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1500
+    clip: [255, 477, 348, 497]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_krta_end_apsides_nodes.yaml (sha256 4cf46a9a)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1500
+    clip: [255, 477, 348, 497]
+    delivered_ppi: 300
+    note: ''
+- name: output.saturn.apsis
+  role: output
+  value: [4, 20, 13, 12]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: devanagari
+  edition_page: 43
+  pdf_page: 55
+  locus: PDF 55 l. 18, after 'saneh'; Devanagari digits transcribed, parts separated by danda in print
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1500
+    clip: [55, 498, 145, 518]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_krta_end_apsides_nodes.yaml (sha256 4cf46a9a)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1500
+    clip: [55, 498, 145, 518]
+    delivered_ppi: 300
+    note: ''
+- name: output.mars.node
+  role: output
+  value: [9, 11, 20, 12]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: devanagari
+  edition_page: 43
+  pdf_page: 55
+  locus: PDF 55 l. 18, after 'bhaumapatasya'; Devanagari digits transcribed, parts separated by danda in print
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1500
+    clip: [190, 498, 265, 518]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_krta_end_apsides_nodes.yaml (sha256 4cf46a9a)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1500
+    clip: [190, 498, 265, 518]
+    delivered_ppi: 300
+    note: ''
+- name: output.mercury.node
+  role: output
+  value: [8, 11, 16, 48]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: devanagari
+  edition_page: 43
+  pdf_page: 55
+  locus: 'PDF 55 l. 18-19, after ''budhasya'': signs and degrees at the end of l. 18, minutes and seconds at the start of l. 19; Devanagari digits transcribed, parts separated by danda in print'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1500
+    clip: [295, 498, 348, 518]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_krta_end_apsides_nodes.yaml (sha256 4cf46a9a)
+  status: double_read
+  notes: l. 19 part read on clip [40,520,90,540] at 1500 dpi; the 6 of 16 is a blotted glyph with a lower-right tail, read as ६ (not ९)
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1500
+    clip: [295, 498, 348, 518]
+    delivered_ppi: 300
+    note: ''
+- name: output.jupiter.node
+  role: output
+  value: [8, 8, 56, 24]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: devanagari
+  edition_page: 43
+  pdf_page: 55
+  locus: PDF 55 l. 19, after 'guroh'; Devanagari digits transcribed, parts separated by danda in print
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1500
+    clip: [140, 520, 230, 540]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_krta_end_apsides_nodes.yaml (sha256 4cf46a9a)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1500
+    clip: [140, 520, 230, 540]
+    delivered_ppi: 300
+    note: ''
+- name: output.venus.node
+  role: output
+  value: [4, 17, 25, 4]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: devanagari
+  edition_page: 43
+  pdf_page: 55
+  locus: PDF 55 l. 19, after 'sukrasya'; Devanagari digits transcribed, parts separated by danda in print
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1500
+    clip: [255, 520, 330, 540]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_krta_end_apsides_nodes.yaml (sha256 4cf46a9a)
+  emendation:
+    printed: [4, 17, 25, 4]
+    adopted: [4, 17, 25, 48]
+    evidence: 'the edition''s own errata (suryasiddhanta_hall_1859 PDF 402): p. 43 l. 19, wrong 4|17|25|4, right 4|17|25|48 (the seconds), read by the first reader (notes); the text''s rule (i.41-44, i.53) at the end of the Krta gives 48 seconds (tests/authority/test_suryasiddhanta_mean.py). The errata are printed in Devanagari digits: evidence_indic, the library author''s sign-off'
+    evidence_indic: true
+    by: claude-opus-5-5/2026-10-11-r1
+    on: 2026-10-11
+    owner_signoff: null
+  status: double_read
+  notes: 'keyed as printed. Errata (suryasiddhanta_hall_1859 PDF 402): p. 43 l. 19, wrong 4|17|25|4, right 4|17|25|48 (the seconds).'
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1500
+    clip: [255, 520, 330, 540]
+    delivered_ppi: 300
+    note: ''
+- name: output.saturn.node
+  role: output
+  value: [4, 20, 13, 12]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: devanagari
+  edition_page: 43
+  pdf_page: 55
+  locus: PDF 55 l. 20, after 'sanipatasya' (l. 19 end 'sani-', l. 20 'patasya'); Devanagari digits transcribed, parts separated by danda in print
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1500
+    clip: [60, 541, 145, 561]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_krta_end_apsides_nodes.yaml (sha256 4cf46a9a)
+  status: double_read
+  notes: 'DOUBT: the first digit of the degrees is a damaged glyph (the head and bar of २ with its tail broken, a dot below); read as २. The figures equal those of the Saturn apsis (l. 18) as printed.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1500
+    clip: [60, 541, 145, 561]
+    delivered_ppi: 300
+    note: ''

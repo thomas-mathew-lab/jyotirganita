@@ -1,0 +1,94 @@
+id: authority/suryasiddhanta/whitney_earth_circumference
+methods: [suryasiddhanta]
+class: editor_computed
+source: suryasiddhanta_burgess_1860
+edition_page: 183
+pdf_page: 44
+locus: Whitney's note on i.59-60, paragraph beginning "The greatest circumference of the earth, as calculated according to the data and method of the text" to "yojanas." (one sentence), with the two figures of the same paragraph's following sentence ("To make the earth's mean diameter correct ... should equal 4.91 miles."), which the paragraph states from the computation.
+rounding: not stated
+precision: thousandths of a yojana (the circumference); hundredths of a mile (the yojana's length)
+datum_keys: [texts.suryasiddhanta.yojana_scale.statement.i59.suryasiddhanta_burgess_1860, texts.suryasiddhanta.yojana_scale.i59.n1.suryasiddhanta_burgess_1860, texts.suryasiddhanta.yojana_scale.i59.n2.suryasiddhanta_burgess_1860, texts.suryasiddhanta.yojana_scale.i59.n3.suryasiddhanta_burgess_1860]
+notes: 'Computes the earth''s circumference from i.59 (diameter 1600 yojanas, circumference the square root of ten times its square) and then the length of the yojana in English miles needed to make the diameter or the circumference correct. Errata checked: suryasiddhanta_burgess_1860_reprint p. 39 l. 41 (suryasiddhanta_burgess_1860_reprint p. 39 + 5 = suryasiddhanta_burgess_1860 PDF 44, confirmed: the "for" figure of the erratum is the figure printed here) reads 5059.64 for 5059.556; recorded as a variant, the value kept as printed. The 1600 of the verse is not restated as a figure in this paragraph. First read lat-a, fixture file sha256 fd077995.'
+values:
+- name: output.earth.circumference
+  role: output
+  value: '5059.556'
+  form: fraction
+  unit: yojanas
+  script: latin
+  edition_page: 183
+  pdf_page: 44
+  locus: second line of the paragraph, after "the data and method of the text, is", before "yojanas."
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 395, 355, 485]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fd077995); suryasiddhanta_burgess_1860_p44_600dpi_r1c2_clip40-395.png
+  status: double_read
+  variants: []
+  notes: 'suryasiddhanta_burgess_1860_reprint errata p. 364: "p. 39, l. 41 -- for 5059.556 read 5059.64" (suryasiddhanta_burgess_1860_reprint p. 39 = suryasiddhanta_burgess_1860 PDF 44); the value stays as printed. the first read had carried it as a variant with witness suryasiddhanta_burgess_1860_reprint-errata; no reading changed.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 395, 355, 485]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.yojana.miles_for_mean_diameter
+  role: output
+  value: '4.94'
+  form: fraction
+  unit: english_miles
+  script: latin
+  edition_page: 183
+  pdf_page: 44
+  locus: same paragraph, line beginning "… English miles;", after "To make the earth's mean diameter correct as determined by the Sûrya-Siddhânta, the yojana should equal"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 475, 201.5, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fd077995); suryasiddhanta_burgess_1860_p44_600dpi_r1c1_clip40-475.png
+  status: double_read
+  notes: 'locus as first keyed: same paragraph, line beginning "4.94 English miles;", after "To make the earth''s mean diameter correct as determined by the Sûrya-Siddhânta, the yojana should equal"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 475, 201.5, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.yojana.miles_for_circumference
+  role: output
+  value: '4.91'
+  form: fraction
+  unit: english_miles
+  script: latin
+  edition_page: 183
+  pdf_page: 44
+  locus: same paragraph, last line, "… miles.", after "to make the circumference correct, it should equal"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 475, 201.5, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fd077995); suryasiddhanta_burgess_1860_p44_600dpi_r1c1_clip40-475.png
+  status: double_read
+  notes: 'locus as first keyed: same paragraph, last line, "4.91 miles.", after "to make the circumference correct, it should equal"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 475, 201.5, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

@@ -1,0 +1,377 @@
+id: authority/aryabhatiya/aryabhatiya_1976_ganita11_12_ex1
+methods: [aryabhatiya]
+class: editor_computed
+source: aryabhatiya_1976
+file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+edition_page: 45
+pdf_page: 119
+locus: Gaṇita 11, 'Following Bhāskara I, we explain the method implied in the above stanza by solving three examples.', Example 1 (six Rsines at intervals of …°) and its solution, pp. 45–47 (PDF 119–121)
+rounding: not stated; each Rsine and chord printed in whole minutes of arc
+precision: whole minutes of arc, as printed
+datum_keys: [texts.aryabhatiya.trig.rsine_differences.d01, texts.aryabhatiya.trig.rsine_differences.d02, texts.aryabhatiya.trig.rsine_differences.d03, texts.aryabhatiya.trig.rsine_differences.d04, texts.aryabhatiya.trig.rsine_differences.d05, texts.aryabhatiya.trig.rsine_differences.d06, texts.aryabhatiya.trig.rsine_differences.d07, texts.aryabhatiya.trig.rsine_differences.d08, texts.aryabhatiya.trig.rsine_differences.d09, texts.aryabhatiya.trig.rsine_differences.d10, texts.aryabhatiya.trig.rsine_differences.d11, texts.aryabhatiya.trig.rsine_differences.d12, texts.aryabhatiya.trig.rsine_differences.d13, texts.aryabhatiya.trig.rsine_differences.d14, texts.aryabhatiya.trig.rsine_differences.d15, texts.aryabhatiya.trig.rsine_differences.d16, texts.aryabhatiya.trig.rsine_differences.d17, texts.aryabhatiya.trig.rsine_differences.d18, texts.aryabhatiya.trig.rsine_differences.d19, texts.aryabhatiya.trig.rsine_differences.d20, texts.aryabhatiya.trig.rsine_differences.d21, texts.aryabhatiya.trig.rsine_differences.d22, texts.aryabhatiya.trig.rsine_differences.d23, texts.aryabhatiya.trig.rsine_differences.d24]
+notes: 'The editors'' solution of Bhāskara I''s example (editor_computed): each Rsine from right triangles and the semi-square on the circle of radius 3438′, in whole minutes, then the six listed together on p. 47 (the summary.* values, the same figures stated twice). The forward test compares them with the cumulative sums of the 24 Rsine-differences of Gītikā 12 at every fourth entry.'
+values:
+- name: input.radius
+  role: input
+  value: 3438
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 45
+  pdf_page: 119
+  locus: Gaṇita 11, the editors' solution of 'Example 1. Find six Rsines at intervals of …° in a circle of radius …′.', pp. 45–47 (PDF 119–121), p. 45, the question's 'radius …′'; the same in 'Let Fig. … represent a circle of radius R ( =…′).' The minute sign ′ after a figure is the unit, not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r3c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 119)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.interval
+  role: input
+  value: 15
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 45
+  pdf_page: 119
+  locus: Gaṇita 11, the editors' solution of 'Example 1. Find six Rsines at intervals of …° in a circle of radius …′.', pp. 45–47 (PDF 119–121), p. 45, the question's 'at intervals of …°'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r3c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 119)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.count
+  role: input
+  value: 6
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 45
+  pdf_page: 119
+  locus: Gaṇita 11, the editors' solution of 'Example 1. Find six Rsines at intervals of …° in a circle of radius …′.', pp. 45–47 (PDF 119–121), p. 45, the question's 'Find six Rsines'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r3c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 119)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.rsin_30
+  role: output
+  value: 1719
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 45
+  pdf_page: 119
+  locus: Gaṇita 11, the editors' solution of 'Example 1. Find six Rsines at intervals of …° in a circle of radius …′.', pp. 45–47 (PDF 119–121), p. 45, 'Thus Rsin …°=R/…=…′. This is the second Rsine.' The minute sign ′ after a figure is the unit, not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r3c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 119)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.rsin_60
+  role: output
+  value: 2978
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 46
+  pdf_page: 120
+  locus: Gaṇita 11, the editors' solution of 'Example 1. Find six Rsines at intervals of …° in a circle of radius …′.', pp. 45–47 (PDF 119–121), p. 46, 'OM=√R²—(R/…)²=√…/… R=…′. This is the fourth Rsine, viz., Rsin …°.' The minute sign ′ after a figure is the unit, not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 120)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.rsin_15
+  role: output
+  value: 890
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 46
+  pdf_page: 120
+  locus: Gaṇita 11, the editors' solution of 'Example 1. Find six Rsines at intervals of …° in a circle of radius …′.', pp. 45–47 (PDF 119–121), p. 46, 'Rsin …°=… √(Rsin …°)²+(Rvers …°)² =…′. This is the first Rsine.' The minute sign ′ after a figure is the unit, not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 120)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.rsin_75
+  role: output
+  value: 3321
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 46
+  pdf_page: 120
+  locus: Gaṇita 11, the editors' solution of 'Example 1. Find six Rsines at intervals of …° in a circle of radius …′.', pp. 45–47 (PDF 119–121), p. 46, '∴ON= √R² — (Rsin …°)² = …′. This is the fifth Rsine, i.e., Rsin …°.' The minute sign ′ after a figure is the unit, not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r3c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 120)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.rsin_45
+  role: output
+  value: 2431
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 47
+  pdf_page: 121
+  locus: Gaṇita 11, the editors' solution of 'Example 1. Find six Rsines at intervals of …° in a circle of radius …′.', pp. 45–47 (PDF 119–121), p. 47, 'Thus, Rsin …°=R/√… = …′. This is the third Rsine.' The minute sign ′ after a figure is the unit, not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 121)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: summary.rsin_15
+  role: output
+  value: 890
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 47
+  pdf_page: 121
+  locus: Gaṇita 11, the editors' solution of 'Example 1. Find six Rsines at intervals of …° in a circle of radius …′.', pp. 45–47 (PDF 119–121), p. 47, 'Thus we get all the six Rsines, which are as follows :', first line, first entry 'Rsin …°=…′'. The minute sign ′ after a figure is the unit, not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 121)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: summary.rsin_30
+  role: output
+  value: 1719
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 47
+  pdf_page: 121
+  locus: Gaṇita 11, the editors' solution of 'Example 1. Find six Rsines at intervals of …° in a circle of radius …′.', pp. 45–47 (PDF 119–121), p. 47, the same list, first line, second entry 'Rsin …°=…′'. The minute sign ′ after a figure is the unit, not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 121)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: summary.rsin_45
+  role: output
+  value: 2431
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 47
+  pdf_page: 121
+  locus: Gaṇita 11, the editors' solution of 'Example 1. Find six Rsines at intervals of …° in a circle of radius …′.', pp. 45–47 (PDF 119–121), p. 47, the same list, first line, third entry 'Rsin …°=…′'. The minute sign ′ after a figure is the unit, not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 121)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: summary.rsin_60
+  role: output
+  value: 2978
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 47
+  pdf_page: 121
+  locus: Gaṇita 11, the editors' solution of 'Example 1. Find six Rsines at intervals of …° in a circle of radius …′.', pp. 45–47 (PDF 119–121), p. 47, the same list, second line, first entry 'Rsin …°=…′'. The minute sign ′ after a figure is the unit, not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 121)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: summary.rsin_75
+  role: output
+  value: 3321
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 47
+  pdf_page: 121
+  locus: Gaṇita 11, the editors' solution of 'Example 1. Find six Rsines at intervals of …° in a circle of radius …′.', pp. 45–47 (PDF 119–121), p. 47, the same list, second line, second entry 'Rsin …°=…′'. The minute sign ′ after a figure is the unit, not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 121)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: summary.rsin_90
+  role: output
+  value: 3438
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 47
+  pdf_page: 121
+  locus: Gaṇita 11, the editors' solution of 'Example 1. Find six Rsines at intervals of …° in a circle of radius …′.', pp. 45–47 (PDF 119–121), p. 47, the same list, second line, third entry 'Rsin …°=…′'. The minute sign ′ after a figure is the unit, not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 121)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

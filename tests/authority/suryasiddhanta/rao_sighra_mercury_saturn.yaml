@@ -1,0 +1,987 @@
+id: authority/suryasiddhanta/rao_sighra_mercury_saturn
+methods: [suryasiddhanta]
+class: editor_computed
+source: balachandra_rao_2000
+edition_page: 108
+pdf_page: 122
+locus: '§9.2 Example (printed pp. 108-109: from "Example: Find the śīghra anomaly and, thus, the corrected periphery" to "= …° = ..." for Śani) and §9.3 Example (printed pp. 110-111: from "Example: Find the śīghra correction for Budha and Śani" to "Śīghra correction = + ..." for Śani); Table 9.3 cells (printed p. 108) as inputs (pdf_page as keyed: 122-125; edition_page as keyed: 108-111)'
+rounding: anomalies to whole seconds and 3-4 decimals of a degree; peripheries to 4-5 decimals of a degree; intermediate minutes to 4-6 decimals; śīghraphala to 6-7 decimals of a degree and whole seconds. Not stated whether rounded or truncated
+precision: seconds of arc
+datum_keys: []
+notes: '§9.2: śīghra anomaly m = śīghrocca − mean planet (for Śani the śīghrocca is the mean Sun), corrected periphery p = p_e − (p_e − p_o)|sin m| with p_e, p_o from Table 9.3 (only the Budha and Śani cells keyed). §9.3: dohphala, koṭiphala, sphuṭakoṭi, śīghrakarṇa, R sin(śīghraphala), śīghraphala, with R = 3438 and continuous trigonometric functions. Several printed intermediates disagree with the values they restate (the koṭiphala restated in the sphuṭakoṭi line for Budha; the dohphala restated in the karṇa line for Śani; Budha''s śīghraphala and the stated correction) — each printed figure keyed as printed. The mean positions are stated "after the deśāntara correction" for Bangalore and are inputs. Restatements identical to an earlier printed figure are not keyed again. Fixture pages: the first page recorded as the fixture''s page, the span in the locus. Printed places (the review''s N9 (x)): each value''s `pdf_page` names the place it was keyed from. The Sun''s mean longitude keyed here is the same as the one keyed in rao_saturn_four_steps (PDF 127), for the same date, and differs from rao_manda_sun_moon''s (PDF 107), whose date differs. §8.4 (PDF 110, not keyed) is a milestone item.'
+values:
+- name: input.mercury.sighra_periphery_odd
+  role: input
+  value: 132
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 108
+  pdf_page: 122
+  locus: Table 9.3, row Budha, column "At the end of odd quadrants"; Latin figure
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: restated in the p display p. 109
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.mercury.sighra_periphery_even
+  role: input
+  value: 133
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 108
+  pdf_page: 122
+  locus: Table 9.3, row Budha, column "At the end of even quadrants"; Latin figure
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: restated in the p display p. 109
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.saturn.sighra_periphery_odd
+  role: input
+  value: 40
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 108
+  pdf_page: 122
+  locus: Table 9.3, row Śani, column "At the end of odd quadrants"; Latin figure
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: restated in the p display p. 109
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.saturn.sighra_periphery_even
+  role: input
+  value: 39
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 108
+  pdf_page: 122
+  locus: Table 9.3, row Śani, column "At the end of even quadrants"; Latin figure
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: restated in the p display p. 109
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.date
+  role: input
+  value: the midnight preceding March 22, 1991, at Bangalore
+  form: text
+  unit: none
+  script: latin
+  edition_page: 108
+  pdf_page: 122
+  locus: §9.2 "Example:" sentence, from "the midnight" to "Bangalore"; Latin text
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: §9.3 Example restates it; calendar not stated
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.sun.mean_longitude
+  role: input
+  value: [334, 51, 30]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 108
+  pdf_page: 122
+  locus: §9.2 Example list, line 1 (Mean longitude of the Sun); sexagesimal [deg, min, sec] as printed, marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: restated in both m displays
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.mercury_sighrocca.mean_longitude
+  role: input
+  value: [67, 46, 46]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 108
+  pdf_page: 122
+  locus: §9.2 Example list, line 2 (Mean śīghrocca of Budha); sexagesimal [deg, min, sec] as printed, marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: restated in the m display
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.saturn.mean_longitude
+  role: input
+  value: [272, 49, 4]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 108
+  pdf_page: 122
+  locus: §9.2 Example list, line 3 (Mean longitude of Śani); sexagesimal [deg, min, sec] as printed, marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: seconds printed with a leading zero; restated in the m display
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.mercury.sighra_anomaly
+  role: output
+  value: [92, 55, 16]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 108
+  pdf_page: 122
+  locus: (i) Budha's m display, second line, before "(after adding …°)"; sexagesimal [deg, min, sec] as printed, marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.mercury.sighra_anomaly_deg
+  role: output
+  value: '92.921'
+  form: fraction
+  unit: degrees
+  script: latin
+  edition_page: 108
+  pdf_page: 122
+  locus: (i) Budha's m display, second line, the last figure; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: restated in the §9.3 list and displays
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.mercury.abs_sin_m
+  role: output
+  value: '0.9987'
+  form: fraction
+  unit: none
+  script: latin
+  edition_page: 109
+  pdf_page: 123
+  locus: p. 109, Budha's p display, second line, the last factor in parentheses; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.mercury.sighra_periphery_deg
+  role: output
+  value: '132.0013'
+  form: fraction
+  unit: degrees
+  script: latin
+  edition_page: 109
+  pdf_page: 123
+  locus: Budha's p display, third line, before "or"; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: restated in the §9.3 list and displays
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.mercury.sighra_periphery
+  role: output
+  value:
+  - [132, 0, '4.7']
+  form: table
+  columns: [part1, part2, part3]
+  unit: degrees
+  script: latin
+  edition_page: 109
+  pdf_page: 123
+  locus: Budha's p display, third line, after "or"; [deg, min, sec] with the seconds printed as a decimal with the seconds mark before the point (…".7), keyed as the string of the decimal seconds
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r1
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.saturn.sighra_anomaly
+  role: output
+  value: [62, 2, 26]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 109
+  pdf_page: 123
+  locus: (ii) Śani's m display, fourth line, before the … "="; sexagesimal [deg, min, sec] as printed, marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: minutes printed with a leading zero
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.saturn.sighra_anomaly_deg
+  role: output
+  value: '62.0406'
+  form: fraction
+  unit: degrees
+  script: latin
+  edition_page: 109
+  pdf_page: 123
+  locus: (ii) Śani's m display, fourth line, after the … "="; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: restated in the p display and in §9.3
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.saturn.abs_sin_m
+  role: output
+  value: '0.88328'
+  form: fraction
+  unit: none
+  script: latin
+  edition_page: 109
+  pdf_page: 123
+  locus: Śani's p display, second line, the last factor in parentheses; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.saturn.sighra_periphery_deg
+  role: output
+  value: '39.88328'
+  form: fraction
+  unit: degrees
+  script: latin
+  edition_page: 109
+  pdf_page: 123
+  locus: Śani's p display, third line, before the … "="; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: restated in §9.3
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.saturn.sighra_periphery
+  role: output
+  value: [39, 53]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 109
+  pdf_page: 123
+  locus: Śani's p display, third line, after the … "=" [deg, min]; sexagesimal [deg, min, sec] as printed, marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.radius
+  role: input
+  value: 3438
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 109
+  pdf_page: 123
+  locus: §9.3 first paragraph, "(with R = ...)"; Latin figure
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: restated in every display
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.mercury.dohphala
+  role: output
+  value: '1258.97456'
+  form: fraction
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 110
+  pdf_page: 124
+  locus: (1)(i) Dohphala display, second line; printed with the minute mark before the decimal point; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: restated in (iv) and (v)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.mercury.kotiphala
+  role: output
+  value: '64.23953'
+  form: fraction
+  negative: true
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 111
+  pdf_page: 125
+  locus: (1)(ii) Koṭiphala display, second line, with a printed minus sign; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.mercury.kotiphala_in_sphutakoti
+  role: output
+  value: '64.717731'
+  form: fraction
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 111
+  pdf_page: 125
+  locus: (1)(iii) Sphuṭakoṭi line, the subtracted term (it does not repeat the koṭiphala printed in (ii)); decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.mercury.sphutakoti
+  role: output
+  value: '3373.76047'
+  form: fraction
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 111
+  pdf_page: 125
+  locus: (1)(iii) Sphuṭakoṭi line, after the … "="; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: restated in (iv)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.mercury.sighrakarna
+  role: output
+  value: '3601.0105'
+  form: fraction
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 111
+  pdf_page: 125
+  locus: (1)(iv) Śīghrakarṇa display, second line; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: restated in (v)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.mercury.rsin_sighraphala
+  role: output
+  value: '1201.9833'
+  form: fraction
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 111
+  pdf_page: 125
+  locus: (1)(v) display, second line; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: restated in the sin^-1 line
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.mercury.sighraphala_deg
+  role: output
+  value: '20.463892'
+  form: fraction
+  unit: degrees
+  script: latin
+  edition_page: 111
+  pdf_page: 125
+  locus: Śīghraphala display (Budha), second line; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.mercury.sighraphala
+  role: output
+  value: [20, 27, 50]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 111
+  pdf_page: 125
+  locus: Śīghraphala display (Budha), third line; sexagesimal [deg, min, sec] as printed, marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.mercury.sighra_correction
+  role: output
+  value: [20, 27, 22]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 111
+  pdf_page: 125
+  locus: '"i.e., śīghra correction = + ..." (Budha), printed with a plus sign; sexagesimal [deg, min, sec] as printed, marks to unit'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: differs from the third line of the śīghraphala display; both keyed as printed
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.saturn.dohphala
+  role: output
+  value: '336.4284'
+  form: fraction
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 111
+  pdf_page: 125
+  locus: (2)(i) Dohphala display (first line at the foot of the upper half-page tile), second line at the head of the lower tile; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: restated in (v)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.saturn.kotiphala
+  role: output
+  value: '178.57648'
+  form: fraction
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 111
+  pdf_page: 125
+  locus: (2)(ii) Koṭiphala display, second line; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: restated in (iii)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.saturn.sphutakoti
+  role: output
+  value: '3616.5765'
+  form: fraction
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 111
+  pdf_page: 125
+  locus: (2)(iii) Sphuṭakoṭi line, after the … "="; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: restated in (iv)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.saturn.dohphala_in_karna
+  role: output
+  value: '33.4284'
+  form: fraction
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 111
+  pdf_page: 125
+  locus: (2)(iv) Śīghrakarṇa display, first line, the … squared term (it does not repeat the dohphala printed in (i)); decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.saturn.sighrakarna
+  role: output
+  value: '3632.1907'
+  form: fraction
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 111
+  pdf_page: 125
+  locus: (2)(iv) Śīghrakarṇa display, second line; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: restated in (v)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.saturn.rsin_sighraphala
+  role: output
+  value: '318.44166'
+  form: fraction
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 111
+  pdf_page: 125
+  locus: (2)(v) display, second line; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: restated in the sin^-1 line
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.saturn.sighraphala_deg
+  role: output
+  value: '5.3145878'
+  form: fraction
+  unit: degrees
+  script: latin
+  edition_page: 111
+  pdf_page: 125
+  locus: Śīghraphala display (Śani), second line; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.saturn.sighraphala
+  role: output
+  value: [5, 18, 53]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 111
+  pdf_page: 125
+  locus: Śīghraphala display (Śani), third line; sexagesimal [deg, min, sec] as printed, marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_sighra_mercury_saturn.yaml (sha256 fd614066)
+  status: double_read
+  notes: restated as "Śīghra correction = + ..."
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''

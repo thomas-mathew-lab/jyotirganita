@@ -1,0 +1,633 @@
+id: authority/aryabhatiya/mahabhaskariya_1960_ch1_eighth_sign
+methods: [aryabhatiya]
+class: editor_computed
+source: mahabhaskariya_1960
+file: mahabhaskariya_1960-mahabhaskariya-shukla-1960.pdf
+edition_page: 41
+pdf_page: 126
+locus: I.51, 'Example. "Given that … minutes of the eighth sign are to be traversed by the Sun, say quickly, after carefully considering, O intelligent one, if the Gaṇita of Āśmaka is known to you, all the years that have elapsed this day since the beginning of Kaliyuga. Also say the number of days that have elapsed since the beginning of Kaliyuga."' and Shukla's solution with the Note on Govinda Svāmī's interpretation, pp. 41–42 (PDF 126–127)
+rounding: the residue taken as the next integer above the quotient (as computed on the page)
+precision: whole days; whole years
+datum_keys: [texts.aryabhatiya.sun.revolutions, texts.aryabhatiya.civil_days.laghubhaskariya_1963, texts.aryabhatiya.procedures.residue.from_longitude.mahabhaskariya_1960]
+notes: 'Footnote 2 on p. 41: ''Bhāskara I''s example, occurring in his comm. on Ā, ii, 32-33.'' The question is Bhāskara I''s; the solution and its figures are Shukla''s (editor_computed). The residue is printed 123707 in the text line and 123701 in the equation; the solution satisfies 123701. Here the residue is the next integer above the quotient (123700.94; Govinda Svāmī''s 71104 from 71103.69, the reader''s arithmetic), where the I.46–49 examples drop the fraction. Bhāskara I''s reading gives the same day as mahabhaskariya_1960_ch1_sun_observed (ahargaṇa 105345, 288 years; 4 signs 28° 20′ plus 7 signs 100′ is a whole circle). The forward test is the Sun''s mean longitude at both ahargaṇas.'
+values:
+- name: input.minutes
+  role: input
+  value: 100
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 41
+  pdf_page: 126
+  locus: I.51, 'Example. "Given that … minutes of the eighth sign are to be traversed by the Sun, …"' and Shukla's solution, the question, 'Given that … minutes of the eighth sign are to be traversed by the Sun'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 126)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: bhaskara.part_to_traverse.signs
+  role: output
+  value: 7
+  form: integer
+  unit: signs
+  script: latin
+  edition_page: 42
+  pdf_page: 127
+  locus: 'I.51, ''Example. "Given that … minutes of the eighth sign are to be traversed by the Sun, …"'' and Shukla''s solution, p. 42, ''Here, according to Bhāskara I''s interpretation, the part of the revolution to be traversed by the Sun = … signs …′'': the signs.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 127)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: bhaskara.part_to_traverse.minutes
+  role: output
+  value: 100
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 42
+  pdf_page: 127
+  locus: 'I.51, ''Example. "Given that … minutes of the eighth sign are to be traversed by the Sun, …"'' and Shukla''s solution, p. 42, the same: the minutes.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 127)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: bhaskara.residue
+  role: output
+  value: 123707
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 42
+  pdf_page: 127
+  locus: I.51, 'Example. "Given that … minutes of the eighth sign are to be traversed by the Sun, …"' and Shukla's solution, p. 42, 'The corresponding residue of revolutions = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 127)
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [150, 85, 240, 105]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tight clip [150,85,240,105], no tiling (mahabhaskariya_1960 PDF 127): the residue in the text line'
+  status: double_read
+  emendation:
+    printed: 123707
+    adopted: 123701
+    evidence: the same page's equation '(576 x + 123701) / 210389 = y' and its printed solution x = 105345, y = 289, which satisfy 576 × 105345 + 123701 = 289 × 210389 (the reader's arithmetic); 12700′ × 210389 / 21600 = 123700.94 (the reader's arithmetic). An editor's slip in the text line; inference from the page's own figures, no second printing.
+    evidence_indic: false
+    by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    owner_signoff: null
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: bhaskara.additive
+  role: output
+  value: 123701
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 42
+  pdf_page: 127
+  locus: I.51, 'Example. "Given that … minutes of the eighth sign are to be traversed by the Sun, …"' and Shukla's solution, p. 42, the equation '(… x + …) / … = y', the additive.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 127)
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [180, 118, 240, 138]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: 'tight clip [180,118,240,138], no tiling (mahabhaskariya_1960 PDF 127): the additive in the equation'
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: bhaskara.chain.1
+  role: output
+  value: 365
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 42
+  pdf_page: 127
+  locus: I.51, 'Example. "Given that … minutes of the eighth sign are to be traversed by the Sun, …"' and Shukla's solution, p. 42, the chain 'Mutually dividing … and … and taking … for the optional number (mati) after six quotients', first entry.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 127)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: bhaskara.chain.2
+  role: output
+  value: 3
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 42
+  pdf_page: 127
+  locus: I.51, 'Example. "Given that … minutes of the eighth sign are to be traversed by the Sun, …"' and Shukla's solution, p. 42, the chain, second entry.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 127)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: bhaskara.chain.3
+  role: output
+  value: 1
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 42
+  pdf_page: 127
+  locus: I.51, 'Example. "Given that … minutes of the eighth sign are to be traversed by the Sun, …"' and Shukla's solution, p. 42, the chain, third entry.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 127)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: bhaskara.chain.4
+  role: output
+  value: 6
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 42
+  pdf_page: 127
+  locus: I.51, 'Example. "Given that … minutes of the eighth sign are to be traversed by the Sun, …"' and Shukla's solution, p. 42, the chain, fourth entry.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 127)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: bhaskara.chain.5
+  role: output
+  value: 2
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 42
+  pdf_page: 127
+  locus: I.51, 'Example. "Given that … minutes of the eighth sign are to be traversed by the Sun, …"' and Shukla's solution, p. 42, the chain, fifth entry.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 127)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: bhaskara.chain.6
+  role: output
+  value: 4
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 42
+  pdf_page: 127
+  locus: I.51, 'Example. "Given that … minutes of the eighth sign are to be traversed by the Sun, …"' and Shukla's solution, p. 42, the chain, sixth entry.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 127)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: bhaskara.mati
+  role: output
+  value: 1
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 42
+  pdf_page: 127
+  locus: I.51, 'Example. "Given that … minutes of the eighth sign are to be traversed by the Sun, …"' and Shukla's solution, p. 42, the chain, '… (mati)'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 127)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: bhaskara.chain.last
+  role: output
+  value: 61851
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 42
+  pdf_page: 127
+  locus: I.51, 'Example. "Given that … minutes of the eighth sign are to be traversed by the Sun, …"' and Shukla's solution, p. 42, the chain, the entry below the mati.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 127)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: bhaskara.multiplier
+  role: output
+  value: 1310408037
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 42
+  pdf_page: 127
+  locus: I.51, 'Example. "Given that … minutes of the eighth sign are to be traversed by the Sun, …"' and Shukla's solution, p. 42, 'which reduces to …', the upper figure.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 127)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: bhaskara.quotient
+  role: output
+  value: 3587617
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 42
+  pdf_page: 127
+  locus: I.51, 'Example. "Given that … minutes of the eighth sign are to be traversed by the Sun, …"' and Shukla's solution, p. 42, the lower figure, '…'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 127)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: bhaskara.ahargana
+  role: output
+  value: 105345
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 42
+  pdf_page: 127
+  locus: I.51, 'Example. "Given that … minutes of the eighth sign are to be traversed by the Sun, …"' and Shukla's solution, p. 42, 'Therefore x = …'; 'Hence the required ahargaṇa = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 127)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: bhaskara.y
+  role: output
+  value: 289
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 42
+  pdf_page: 127
+  locus: I.51, 'Example. "Given that … minutes of the eighth sign are to be traversed by the Sun, …"' and Shukla's solution, p. 42, 'y = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 127)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: bhaskara.years
+  role: output
+  value: 288
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 42
+  pdf_page: 127
+  locus: I.51, 'Example. "Given that … minutes of the eighth sign are to be traversed by the Sun, …"' and Shukla's solution, p. 42, 'and the number of years elapsed = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 127)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: govinda.part_to_traverse
+  role: output
+  value: [4, 1, 40]
+  form: rdms
+  unit: rasi_deg_min
+  script: latin
+  edition_page: 42
+  pdf_page: 127
+  locus: I.51, 'Example. "Given that … minutes of the eighth sign are to be traversed by the Sun, …"' and Shukla's solution, p. 42, 'Note. According to Govinda Svāmī's interpretation the part of the revolution to be traversed by the Sun = … signs …° …′'. A degree sign printed as a superscript … is keyed as °.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 127)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: govinda.residue
+  role: output
+  value: 71104
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 42
+  pdf_page: 127
+  locus: I.51, 'Example. "Given that … minutes of the eighth sign are to be traversed by the Sun, …"' and Shukla's solution, p. 42, Note, 'The corresponding residue of the revolution = …'; the equation '(576x+…) / … = y'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 127)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: govinda.ahargana
+  role: output
+  value: 186889
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 42
+  pdf_page: 127
+  locus: I.51, 'Example. "Given that … minutes of the eighth sign are to be traversed by the Sun, …"' and Shukla's solution, p. 42, Note, 'of which the solution is x = …'; 'the required ahargaṇa = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 127)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: govinda.y
+  role: output
+  value: 512
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 42
+  pdf_page: 127
+  locus: I.51, 'Example. "Given that … minutes of the eighth sign are to be traversed by the Sun, …"' and Shukla's solution, p. 42, Note, 'y = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 127)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: govinda.years
+  role: output
+  value: 511
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 42
+  pdf_page: 127
+  locus: I.51, 'Example. "Given that … minutes of the eighth sign are to be traversed by the Sun, …"' and Shukla's solution, p. 42, Note, 'and the number of years elapsed = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 127)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''

@@ -1,0 +1,88 @@
+jyotirganita
+Copyright 2026 Thomas Mathew
+
+This product is licensed under the Apache License, Version 2.0 (see
+LICENSE). The notices below concern material in this distribution that
+is not the project's own.
+
+1. Passages quoted from editions
+--------------------------------
+
+The data files under jyotirganita/data/, jyotirganita/methods/ and
+jyotirganita/regions/ hold short passages quoted from the editions
+listed in jyotirganita/data/sources.yaml, each with its page. A passage
+from an edition whose `copyright` there is `in-copyright` (among them
+the editions and translations by K. S. Shukla, K. V. Sarma and their
+co-editors published by Lucknow University, the Indian National Science
+Academy, the Vishveshvaranand Vedic Research Institute and the
+Kuppuswami Sastri Research Institute) is quoted, with citation, for
+scholarly research and review: it records what the edition prints on
+the page a datum cites. These passages remain the copyright of their
+publishers and are not licensed under the Apache License by this
+project. Numbers and rules of the pre-modern texts themselves are the
+texts' own content, cited to the edition that witnesses them.
+
+2. Published tables shipped as data
+-----------------------------------
+
+The extracts under jyotirganita/data/tables/ and jyotirganita/data/modern/
+are taken from the following publications. Each extract records the
+file it was taken from and that file's SHA-256 in
+jyotirganita/data/sources.yaml.
+
+- IERS Earth orientation series EOP 20 C04 (UT1-UTC, ΔT) and the
+  leap-second table Leap_Second.dat of IERS Bulletin C (TAI-UTC),
+  International Earth Rotation and Reference Systems Service,
+  https://hpiers.obspm.fr/iers/eop/eopc04/ and
+  https://hpiers.obspm.fr/iers/bul/bulc/ (fetched 2026-10-09).
+  Terms: the publisher's page states no terms of use (read
+  2026-10-31). The series is credited here to the IERS Earth
+  Orientation Centre.
+- IAU 2000A nutation series and IAU 2006 precession, IERS Conventions
+  (2010), IERS Technical Note 36, ed. G. Petit and B. Luzum,
+  https://iers-conventions.obspm.fr/ (fetched 2026-10-09).
+  Terms: the publisher's page states no terms of use (read
+  2026-10-31). Credited here to the IERS and its editors.
+- IAU 1980 nutation series, IERS Conventions (1996), IERS Technical
+  Note 21, ed. D. D. McCarthy. Terms: the publisher's page could not
+  be read (2026-10-31); no terms are claimed. Credited here to the IERS
+  and its editor.
+- ΔT polynomials of F. Espenak and J. Meeus, NASA Goddard Space Flight
+  Center, https://eclipse.gsfc.nasa.gov/SEcat5/deltatpoly.html
+  (fetched 2026-10-09). Terms: a work of the U.S. Government. The
+  NASA eclipse site grants permission to reproduce its data with an
+  acknowledgment, given here: Fred Espenak and Jean Meeus, NASA/GSFC.
+- ΔT spline of F. R. Stephenson, L. V. Morrison and C. Y. Hohenkerk,
+  "Measurement of the Earth's rotation: 720 BC to AD 2015", Proc. R.
+  Soc. A 472, 20160404 (2016), supplementary data,
+  https://ndownloader.figshare.com/files/6998699 (fetched 2026-10-09).
+  Terms: the article is published under the Creative Commons
+  Attribution License (CC BY 4.0), which permits unrestricted use
+  provided the original author and source are credited; they are
+  credited here.
+- Hipparcos catalogue (ESA 1997, I/239), extract of the one star the
+  ayanāṃśas name (Spica, HIP 65474), via VizieR, CDS Strasbourg
+  (fetched 2026-10-09). Terms: the CDS licence page could not be read
+  (2026-10-31); no terms are claimed. The extract holds only that
+  star's catalogue entry, credited here to ESA (1997) and the CDS,
+  Strasbourg.
+- Precession expressions of J. Vondrák, N. Capitaine and P. Wallace,
+  Astronomy & Astrophysics 534, A22 (2011), with its corrigendum.
+  Terms: the journal's page could not be read (2026-10-31); no terms
+  are claimed. Only the published expressions' coefficients are used,
+  credited here to the authors.
+- IANA time zone database, release 2025b, https://data.iana.org/
+  (fetched 2026-10-08). In the public domain, as its LICENSE file
+  states (https://data.iana.org/time-zones/tzdb/LICENSE, read
+  2026-10-29).
+
+The JPL planetary ephemerides (DE440, DE441) are not shipped: the user
+fetches them from JPL (jyotirganita fetch-kernel).
+
+3. Optional dependency
+----------------------
+
+The optional extra `swisseph` installs pyswisseph (Swiss Ephemeris,
+AGPL-3.0). It is reserved for cross-check tests of the `extras` tier,
+which holds no test in 1.0.0, and nothing in the package imports it. It
+is not a dependency of the package.

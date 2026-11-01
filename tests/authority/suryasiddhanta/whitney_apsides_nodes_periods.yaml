@@ -1,0 +1,930 @@
+id: authority/suryasiddhanta/whitney_apsides_nodes_periods
+methods: [suryasiddhanta]
+class: editor_computed
+source: suryasiddhanta_burgess_1860
+edition_page: 171
+pdf_page: 32
+locus: introduced on p. 170 (PDF 31) from "In illustration of the curious feature" to p. 171 (PDF 32) "as determined by this Siddhanta."; table "Table of Revolutions and Present Position of the Apsides and Nodes of the Planets." on p. 171 (PDF 32), under i.41-44; first three numeric columns only
+rounding: time of revolution and years to 1' printed to one decimal of a year
+precision: 0.1 year
+datum_keys: []
+notes: 'Table heads as printed: "Planet." | "No. of rev. in an AEon." | "Time of revolution, in years." | "No. of years to 1'' of motion." | "Resulting position, A. D. 1850." | "True position, A. D. 1850." | "Error of Hindu position."; rows under "Apsides:" (Sun, Mercury, Venus, Mars, Jupiter, Saturn) and "Nodes:" (Mercury, Venus, Mars, Jupiter, Saturn). Keyed: the AEon length stated in the lead-in text, the revolutions, the time of revolution and the years to 1''. Not keyed (leads per TASK, positions): the three position columns for A.D. 1850 (the TASK names a positions table for A.D. 1860; the only positions on PDF 32 are this table''s A.D. 1850 columns and a second table, "Positions of the Apsides and Nodes of the Planets, according to Different Authorities, at the Commencement of the Iron Age, 3102 B. C.", with a Surya-Siddhanta column; neither keyed). The table has a single column per quantity (no separate bija or modern column for these three).'
+values:
+- name: input.aeon_years
+  role: input
+  value: 4320000000
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 170
+  pdf_page: 31
+  locus: 'p. 170 last paragraph, line 3: "or period of … years"; integer, grouping dropped'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [120, 506, 345, 530]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [120,506,345,530]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r13
+    on: 2026-10-11
+    dpi: 600
+    clip: [120, 506, 345, 530]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.sun_apsis.revolutions_in_aeon
+  role: input
+  value: 387
+  form: integer
+  unit: revolutions_per_aeon
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'row "Apsides: Sun", column "No. of rev. in an AEon."; integer'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 182, 220]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,148,182,220]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sun_apsis.time_of_revolution
+  role: output
+  value: '11162790.7'
+  form: fraction
+  unit: years
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'row "Apsides: Sun", column "Time of revolution, in years."; decimal as printed, grouping dropped'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 182, 220]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,148,182,220]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sun_apsis.years_to_one_minute
+  role: output
+  value: '516.8'
+  form: fraction
+  unit: years_per_minute_of_arc
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'row "Apsides: Sun", column "No. of years to …'' of motion."; decimal as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [140, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [140,148,250,290]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.mercury_apsis.revolutions_in_aeon
+  role: input
+  value: 368
+  form: integer
+  unit: revolutions_per_aeon
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'row "Apsides: Mercury", column "No. of rev. in an AEon."; integer'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 182, 220]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,148,182,220]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mercury_apsis.time_of_revolution
+  role: output
+  value: '11739130.4'
+  form: fraction
+  unit: years
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'row "Apsides: Mercury", column "Time of revolution, in years."; decimal as printed, grouping dropped'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 182, 220]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,148,182,220]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mercury_apsis.years_to_one_minute
+  role: output
+  value: '543.5'
+  form: fraction
+  unit: years_per_minute_of_arc
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'row "Apsides: Mercury", column "No. of years to …'' of motion."; decimal as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [140, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [140,148,250,290]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.venus_apsis.revolutions_in_aeon
+  role: input
+  value: 535
+  form: integer
+  unit: revolutions_per_aeon
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'row "Apsides: Venus", column "No. of rev. in an AEon."; integer'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 182, 220]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,148,182,220]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.venus_apsis.time_of_revolution
+  role: output
+  value: '8074766.4'
+  form: fraction
+  unit: years
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'row "Apsides: Venus", column "Time of revolution, in years."; decimal as printed, grouping dropped'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 182, 220]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,148,182,220]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.venus_apsis.years_to_one_minute
+  role: output
+  value: '373.8'
+  form: fraction
+  unit: years_per_minute_of_arc
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'row "Apsides: Venus", column "No. of years to …'' of motion."; decimal as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [140, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [140,148,250,290]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.mars_apsis.revolutions_in_aeon
+  role: input
+  value: 204
+  form: integer
+  unit: revolutions_per_aeon
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'row "Apsides: Mars", column "No. of rev. in an AEon."; integer'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 182, 220]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,148,182,220]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mars_apsis.time_of_revolution
+  role: output
+  value: '21176470.6'
+  form: fraction
+  unit: years
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'row "Apsides: Mars", column "Time of revolution, in years."; decimal as printed, grouping dropped'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 182, 220]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,148,182,220]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mars_apsis.years_to_one_minute
+  role: output
+  value: '980.4'
+  form: fraction
+  unit: years_per_minute_of_arc
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'row "Apsides: Mars", column "No. of years to …'' of motion."; decimal as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [140, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [140,148,250,290]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.jupiter_apsis.revolutions_in_aeon
+  role: input
+  value: 900
+  form: integer
+  unit: revolutions_per_aeon
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'row "Apsides: Jupiter", column "No. of rev. in an AEon."; integer'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 215, 182, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,215,182,290]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.jupiter_apsis.time_of_revolution
+  role: output
+  value: '4800000.0'
+  form: fraction
+  unit: years
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'row "Apsides: Jupiter", column "Time of revolution, in years."; decimal as printed, grouping dropped'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 215, 182, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,215,182,290]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.jupiter_apsis.years_to_one_minute
+  role: output
+  value: '222.2'
+  form: fraction
+  unit: years_per_minute_of_arc
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'row "Apsides: Jupiter", column "No. of years to …'' of motion."; decimal as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [140, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [140,148,250,290]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.saturn_apsis.revolutions_in_aeon
+  role: input
+  value: 39
+  form: integer
+  unit: revolutions_per_aeon
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'row "Apsides: Saturn", column "No. of rev. in an AEon."; integer'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 215, 182, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,215,182,290]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.saturn_apsis.time_of_revolution
+  role: output
+  value: '110769230.8'
+  form: fraction
+  unit: years
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'row "Apsides: Saturn", column "Time of revolution, in years."; decimal as printed, grouping dropped'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 215, 182, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,215,182,290]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.saturn_apsis.years_to_one_minute
+  role: output
+  value: '5128.2'
+  form: fraction
+  unit: years_per_minute_of_arc
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'row "Apsides: Saturn", column "No. of years to …'' of motion."; decimal as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [140, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [140,148,250,290]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.mercury_node.revolutions_in_aeon
+  role: input
+  value: 488
+  form: integer
+  unit: revolutions_per_aeon
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'row "Nodes: Mercury", column "No. of rev. in an AEon."; integer'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 215, 182, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,215,182,290]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mercury_node.time_of_revolution
+  role: output
+  value: '8852459.0'
+  form: fraction
+  unit: years
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'row "Nodes: Mercury", column "Time of revolution, in years."; decimal as printed, grouping dropped'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 215, 182, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,215,182,290]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mercury_node.years_to_one_minute
+  role: output
+  value: '409.8'
+  form: fraction
+  unit: years_per_minute_of_arc
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'row "Nodes: Mercury", column "No. of years to …'' of motion."; decimal as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [140, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [140,148,250,290]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.venus_node.revolutions_in_aeon
+  role: input
+  value: 903
+  form: integer
+  unit: revolutions_per_aeon
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'row "Nodes: Venus", column "No. of rev. in an AEon."; integer'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 215, 182, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,215,182,290]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.venus_node.time_of_revolution
+  role: output
+  value: '4784053.2'
+  form: fraction
+  unit: years
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'row "Nodes: Venus", column "Time of revolution, in years."; decimal as printed, grouping dropped'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 215, 182, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,215,182,290]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.venus_node.years_to_one_minute
+  role: output
+  value: '221.5'
+  form: fraction
+  unit: years_per_minute_of_arc
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'row "Nodes: Venus", column "No. of years to …'' of motion."; decimal as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [140, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [140,148,250,290]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.mars_node.revolutions_in_aeon
+  role: input
+  value: 214
+  form: integer
+  unit: revolutions_per_aeon
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'row "Nodes: Mars", column "No. of rev. in an AEon."; integer'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 215, 182, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,215,182,290]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mars_node.time_of_revolution
+  role: output
+  value: '20186915.9'
+  form: fraction
+  unit: years
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'row "Nodes: Mars", column "Time of revolution, in years."; decimal as printed, grouping dropped'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 215, 182, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,215,182,290]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mars_node.years_to_one_minute
+  role: output
+  value: '934.6'
+  form: fraction
+  unit: years_per_minute_of_arc
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'row "Nodes: Mars", column "No. of years to …'' of motion."; decimal as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [140, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [140,148,250,290]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.jupiter_node.revolutions_in_aeon
+  role: input
+  value: 174
+  form: integer
+  unit: revolutions_per_aeon
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'row "Nodes: Jupiter", column "No. of rev. in an AEon."; integer'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 215, 182, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,215,182,290]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.jupiter_node.time_of_revolution
+  role: output
+  value: '24827586.2'
+  form: fraction
+  unit: years
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'row "Nodes: Jupiter", column "Time of revolution, in years."; decimal as printed, grouping dropped'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 215, 182, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,215,182,290]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.jupiter_node.years_to_one_minute
+  role: output
+  value: '1149.4'
+  form: fraction
+  unit: years_per_minute_of_arc
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'row "Nodes: Jupiter", column "No. of years to …'' of motion."; decimal as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [140, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [140,148,250,290]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.saturn_node.revolutions_in_aeon
+  role: input
+  value: 662
+  form: integer
+  unit: revolutions_per_aeon
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'row "Nodes: Saturn", column "No. of rev. in an AEon."; integer'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 215, 182, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,215,182,290]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.saturn_node.time_of_revolution
+  role: output
+  value: '6525678.2'
+  form: fraction
+  unit: years
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'row "Nodes: Saturn", column "Time of revolution, in years."; decimal as printed, grouping dropped'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 215, 182, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [50,215,182,290]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.saturn_node.years_to_one_minute
+  role: output
+  value: '302.1'
+  form: fraction
+  unit: years_per_minute_of_arc
+  script: latin
+  edition_page: 171
+  pdf_page: 32
+  locus: 'row "Nodes: Saturn", column "No. of years to …'' of motion."; decimal as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [140, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: single tile clip [140,148,250,290]; first-read fixture file k7/fixtures/whitney_apsides_nodes_periods.yaml (sha256 501f4d49)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 148, 250, 290]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

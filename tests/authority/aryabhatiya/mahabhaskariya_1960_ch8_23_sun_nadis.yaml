@@ -1,0 +1,287 @@
+id: authority/aryabhatiya/mahabhaskariya_1960_ch8_23_sun_nadis
+methods: [aryabhatiya]
+class: editor_computed
+source: mahabhaskariya_1960
+file: mahabhaskariya_1960-mahabhaskariya-shukla-1960.pdf
+edition_page: 40
+pdf_page: 125
+locus: 'VIII.23 (p. 224, PDF 309; Bhāskara I''s problem, footnote 1: ''This example has been solved in Chapter I under stanza 49. See supra, p. 40.''), solved by Shukla as I.49 ''Example 2. "The revolutions, etc., of the Sun''s mean longitude, calculated from an ahargaṇa plus a few nāḍīs elapsed, have now been destroyed by the wind; … minutes are seen by me to remain intact. Say the ahargaṇa, the Sun''s (mean) longitude, and the correct value of the nāḍīs (used in the calculation)."'', p. 40 (PDF 125)'
+rounding: minutes of arc, the fraction dropped
+precision: minutes of arc; whole days and nāḍīs
+datum_keys: [texts.aryabhatiya.sun.revolutions, texts.aryabhatiya.civil_days.laghubhaskariya_1963, texts.aryabhatiya.procedures.residue.from_longitude.mahabhaskariya_1960]
+notes: 'Footnote 1 on p. 40: ''Bhāskara I''s example, occurring in his comm. on Ā, iii. 32-33, and in MBh, viii. 23.'' (the chapter is printed iii here and ii in the footnotes on pp. 37 and 39). The question is Bhāskara I''s; the solution and its figures are Shukla''s (editor_computed). Shukla''s y is the minutes traversed since the beginning of Kaliyuga and 71 the remainder of the division; the forward test is the Sun''s mean longitude at ahargaṇa 720 plus 3 nāḍīs, to the printed minute (11 signs 19° 41′).'
+values:
+- name: input.residue_minutes
+  role: input
+  value: 71
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 40
+  pdf_page: 125
+  locus: I.49, 'Example 2. "The revolutions, etc., of the Sun's mean longitude, calculated from an ahargaṇa plus a few nāḍīs elapsed, …"' and Shukla's solution, '… minutes are seen by me to remain intact'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 125)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.abraded_sun_revolutions
+  role: output
+  value: 576
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 40
+  pdf_page: 125
+  locus: I.49, 'Example 2. "The revolutions, etc., of the Sun's mean longitude, calculated from an ahargaṇa plus a few nāḍīs elapsed, …"' and Shukla's solution, equation (5), '(…×…×…×…(x+n/…) — …) / … = y', the first factor.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 125)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.abraded_civil_days
+  role: output
+  value: 210389
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 40
+  pdf_page: 125
+  locus: I.49, 'Example 2. "The revolutions, etc., of the Sun's mean longitude, calculated from an ahargaṇa plus a few nāḍīs elapsed, …"' and Shukla's solution, equation (5), the denominator.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 125)
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 125)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.reduced_coefficient
+  role: output
+  value: 207360
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 40
+  pdf_page: 125
+  locus: I.49, 'Example 2. "The revolutions, etc., of the Sun's mean longitude, calculated from an ahargaṇa plus a few nāḍīs elapsed, …"' and Shukla's solution, equation (6), '(207360X—…) / … = y', the coefficient of X.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 125)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.x_combined
+  role: output
+  value: 43203
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 40
+  pdf_page: 125
+  locus: I.49, 'Example 2. "The revolutions, etc., of the Sun's mean longitude, calculated from an ahargaṇa plus a few nāḍīs elapsed, …"' and Shukla's solution, 'X = …,' (X = 60x+n).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 125)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.y_minutes
+  role: output
+  value: 42581
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 40
+  pdf_page: 125
+  locus: I.49, 'Example 2. "The revolutions, etc., of the Sun's mean longitude, calculated from an ahargaṇa plus a few nāḍīs elapsed, …"' and Shukla's solution, 'y = …,'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 125)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.ahargana
+  role: output
+  value: 720
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 40
+  pdf_page: 125
+  locus: I.49, 'Example 2. "The revolutions, etc., of the Sun's mean longitude, calculated from an ahargaṇa plus a few nāḍīs elapsed, …"' and Shukla's solution, 'whence we have x = …'; 'Hence the ahargaṇa is …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 125)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.nadis
+  role: output
+  value: 3
+  form: integer
+  unit: nadis
+  script: latin
+  edition_page: 40
+  pdf_page: 125
+  locus: I.49, 'Example 2. "The revolutions, etc., of the Sun's mean longitude, calculated from an ahargaṇa plus a few nāḍīs elapsed, …"' and Shukla's solution, 'and n = …'; 'the nāḍīs elapsed are …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 125)
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 125)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.sun_longitude_minutes
+  role: output
+  value: 42581
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 40
+  pdf_page: 125
+  locus: I.49, 'Example 2. "The revolutions, etc., of the Sun's mean longitude, calculated from an ahargaṇa plus a few nāḍīs elapsed, …"' and Shukla's solution, 'the mean longitude of the Sun is … minutes'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 125)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.sun_longitude
+  role: output
+  value: [11, 19, 41]
+  form: rdms
+  unit: rasi_deg_min
+  script: latin
+  edition_page: 40
+  pdf_page: 125
+  locus: I.49, 'Example 2. "The revolutions, etc., of the Sun's mean longitude, calculated from an ahargaṇa plus a few nāḍīs elapsed, …"' and Shukla's solution, 'i.e., … signs, … degrees, and … minutes'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 125)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''

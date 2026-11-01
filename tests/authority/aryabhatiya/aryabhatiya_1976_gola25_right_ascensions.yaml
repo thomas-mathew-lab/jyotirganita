@@ -1,0 +1,538 @@
+id: authority/aryabhatiya/aryabhatiya_1976_gola25_right_ascensions
+methods: [aryabhatiya]
+class: editor_computed
+source: aryabhatiya_1976
+file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+edition_page: 133
+pdf_page: 207
+locus: 'Gola 25, the editors'' note, p. 133 (PDF 207): formulae (1)–(3) (their figures only) and from ''Now, Rcos δ₁=…′'' to ''right ascension of Gemini=γ—β=… respirations.''; and p. 134 (PDF 208) Table 22 ''Right ascensions of the signs of the ecliptic'', six rows (Sign; Right ascension in respirations; Sign)'
+rounding: none stated on the page; whole minutes and whole respirations as printed
+precision: whole minutes of arc and whole respirations (asus), as printed
+datum_keys: [texts.aryabhatiya.procedures.rsine.rule, texts.aryabhatiya.trig.statement, texts.aryabhatiya.procedures.day_radius.rule.aryabhatiya_1976, texts.aryabhatiya.procedures.declination.not_stated_note.aryabhatiya_1976]
+notes: Respirations (prāṇas, asus) are keyed in unit 'asus'. The serial numbers 1–12 and the sign names of Table 22 are row labels, not keyed; the table's number is not keyed. The 'Indian method' derivation below the table is outside the extent. The dash in 'β—α' and 'γ—β' is a subtraction sign. the right ascensions by the editors' formula with the text's Rsines, the Rsine of the colatitude of the greatest declination taken as the day-radius at the solstice, lie within one unit of the printed figures (the editors work in modern trigonometry).
+values:
+- name: input.f1.lambda
+  role: input
+  value: 30
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 133
+  pdf_page: 207
+  locus: Editors' note on Gola 25, formula (1) 'Rsin α = Rsin …°×Rcos …° / Rcos δ₁', the first figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 600
+    clip: [70, 165, 280, 232]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tight tile clip [70,165,280,232] 1x1 at native 600 (aryabhatiya_1976 vol. 1 PDF 207)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 600
+    clip: [70, 165, 280, 232]
+    delivered_ppi: 600
+    note: ''
+- name: input.f1.greatest_declination
+  role: input
+  value: 24
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 133
+  pdf_page: 207
+  locus: Editors' note on Gola 25, formula (1), the second figure ('Rcos …°').
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 600
+    clip: [70, 165, 280, 232]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tight tile clip [70,165,280,232] 1x1 at native 600 (aryabhatiya_1976 vol. 1 PDF 207)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 600
+    clip: [70, 165, 280, 232]
+    delivered_ppi: 600
+    note: ''
+- name: input.f2.lambda
+  role: input
+  value: 60
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 133
+  pdf_page: 207
+  locus: Editors' note on Gola 25, formula (2) 'Rsin β = Rsin …°× Rcos …° / Rcos δ₂', the first figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 600
+    clip: [50, 228, 265, 258]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tight tile clip [50,228,265,258] 1x1 at native 600 (aryabhatiya_1976 vol. 1 PDF 207)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 600
+    clip: [50, 228, 265, 258]
+    delivered_ppi: 600
+    note: ''
+- name: input.f2.greatest_declination
+  role: input
+  value: 24
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 133
+  pdf_page: 207
+  locus: Editors' note on Gola 25, formula (2), the second figure ('Rcos …°').
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 600
+    clip: [50, 228, 265, 258]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tight tile clip [50,228,265,258] 1x1 at native 600 (aryabhatiya_1976 vol. 1 PDF 207)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 600
+    clip: [50, 228, 265, 258]
+    delivered_ppi: 600
+    note: ''
+- name: input.f3.lambda
+  role: input
+  value: 90
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 133
+  pdf_page: 207
+  locus: Editors' note on Gola 25, formula (3) 'Rsin γ = Rsin …°×Rcos …° / Rcos δ₃', the first figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 240, 275, 275]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tight tile clip [40,240,275,275] 1x1 at native 600 (aryabhatiya_1976 vol. 1 PDF 207)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 240, 275, 275]
+    delivered_ppi: 600
+    note: ''
+- name: input.f3.greatest_declination
+  role: input
+  value: 24
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 133
+  pdf_page: 207
+  locus: Editors' note on Gola 25, formula (3), the second figure ('Rcos …°').
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 240, 275, 275]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tight tile clip [40,240,275,275] 1x1 at native 600 (aryabhatiya_1976 vol. 1 PDF 207)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 240, 275, 275]
+    delivered_ppi: 600
+    note: ''
+- name: output.rcos_declination1
+  role: output
+  value: 3366
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 133
+  pdf_page: 207
+  locus: Editors' note on Gola 25, 'Now, Rcos δ₁=…′, Rcos δ₂=…′ and Rcos δ₃=…′.', the first figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 600
+    clip: [60, 270, 275, 315]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tight tile clip [60,270,275,315] 1x1 at native 600 (aryabhatiya_1976 vol. 1 PDF 207)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 600
+    clip: [60, 270, 275, 315]
+    delivered_ppi: 600
+    note: ''
+- name: output.rcos_declination2
+  role: output
+  value: 3218
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 133
+  pdf_page: 207
+  locus: Editors' note on Gola 25, the same sentence, the second figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 600
+    clip: [60, 270, 275, 315]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tight tile clip [60,270,275,315] 1x1 at native 600 (aryabhatiya_1976 vol. 1 PDF 207)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 600
+    clip: [60, 270, 275, 315]
+    delivered_ppi: 600
+    note: ''
+- name: output.rcos_declination3
+  role: output
+  value: 3141
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 133
+  pdf_page: 207
+  locus: Editors' note on Gola 25, the same sentence, the third figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 600
+    clip: [60, 270, 275, 315]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tight tile clip [60,270,275,315] 1x1 at native 600 (aryabhatiya_1976 vol. 1 PDF 207)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 600
+    clip: [60, 270, 275, 315]
+    delivered_ppi: 600
+    note: ''
+- name: output.alpha
+  role: output
+  value: 1670
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 133
+  pdf_page: 207
+  locus: Editors' note on Gola 25, 'Hence substituting these values and simplifying, we get α=…′ β=…′ and γ=…′.', the first figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 600
+    clip: [60, 270, 275, 315]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tight tile clip [60,270,275,315] 1x1 at native 600 (aryabhatiya_1976 vol. 1 PDF 207)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 600
+    clip: [60, 270, 275, 315]
+    delivered_ppi: 600
+    note: ''
+- name: output.beta
+  role: output
+  value: 3465
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 133
+  pdf_page: 207
+  locus: Editors' note on Gola 25, the same sentence, 'β=…′', the second figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 600
+    clip: [30, 280, 160, 300]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tight tile clip [30,280,160,300] 1x1 at native 600 (aryabhatiya_1976 vol. 1 PDF 207)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 600
+    clip: [30, 280, 160, 300]
+    delivered_ppi: 600
+    note: ''
+- name: output.gamma
+  role: output
+  value: 5400
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 133
+  pdf_page: 207
+  locus: Editors' note on Gola 25, the same sentence, 'γ=…′', the third figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 600
+    clip: [30, 280, 160, 300]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tight tile clip [30,280,160,300] 1x1 at native 600 (aryabhatiya_1976 vol. 1 PDF 207)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 600
+    clip: [30, 280, 160, 300]
+    delivered_ppi: 600
+    note: ''
+- name: output.ra_aries
+  role: output
+  value: 1670
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 133
+  pdf_page: 207
+  locus: Editors' note on Gola 25, 'Consequently, right ascension of Aries=α=… respirations'.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 600
+    clip: [60, 295, 275, 335]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tight tile clip [60,295,275,335] 1x1 at native 600 (aryabhatiya_1976 vol. 1 PDF 207)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 600
+    clip: [60, 295, 275, 335]
+    delivered_ppi: 600
+    note: ''
+- name: output.ra_taurus
+  role: output
+  value: 1795
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 133
+  pdf_page: 207
+  locus: Editors' note on Gola 25, 'right ascension of Taurus=β—α=… respirations'.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 600
+    clip: [60, 295, 275, 335]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tight tile clip [60,295,275,335] 1x1 at native 600 (aryabhatiya_1976 vol. 1 PDF 207)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 600
+    clip: [60, 295, 275, 335]
+    delivered_ppi: 600
+    note: ''
+- name: output.ra_gemini
+  role: output
+  value: 1935
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 133
+  pdf_page: 207
+  locus: Editors' note on Gola 25, 'right ascension of Gemini=γ—β=… respirations.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 600
+    clip: [60, 295, 275, 335]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tight tile clip [60,295,275,335] 1x1 at native 600 (aryabhatiya_1976 vol. 1 PDF 207)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 600
+    clip: [60, 295, 275, 335]
+    delivered_ppi: 600
+    note: ''
+- name: output.table22.aries
+  role: output
+  value: 1670
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 134
+  pdf_page: 208
+  locus: Table 22 'Right ascensions of the signs of the ecliptic', column 'Right ascension in respirations', row 'Aries' (paired 'Pisces').
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 85, 265, 200]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tight tile clip [40,85,265,200] 1x1 at native 600 (aryabhatiya_1976 vol. 1 PDF 208), Table 22
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 85, 265, 200]
+    delivered_ppi: 600
+    note: ''
+- name: output.table22.taurus
+  role: output
+  value: 1795
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 134
+  pdf_page: 208
+  locus: Table 22 'Right ascensions of the signs of the ecliptic', column 'Right ascension in respirations', row 'Taurus' (paired 'Aquarius').
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 85, 265, 200]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tight tile clip [40,85,265,200] 1x1 at native 600 (aryabhatiya_1976 vol. 1 PDF 208), Table 22
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 85, 265, 200]
+    delivered_ppi: 600
+    note: ''
+- name: output.table22.gemini
+  role: output
+  value: 1935
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 134
+  pdf_page: 208
+  locus: Table 22 'Right ascensions of the signs of the ecliptic', column 'Right ascension in respirations', row 'Gemini' (paired 'Capricorn').
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 85, 265, 200]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tight tile clip [40,85,265,200] 1x1 at native 600 (aryabhatiya_1976 vol. 1 PDF 208), Table 22
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 85, 265, 200]
+    delivered_ppi: 600
+    note: ''
+- name: output.table22.cancer
+  role: output
+  value: 1935
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 134
+  pdf_page: 208
+  locus: Table 22 'Right ascensions of the signs of the ecliptic', column 'Right ascension in respirations', row 'Cancer' (paired 'Sagittarius').
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 85, 265, 200]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tight tile clip [40,85,265,200] 1x1 at native 600 (aryabhatiya_1976 vol. 1 PDF 208), Table 22
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 85, 265, 200]
+    delivered_ppi: 600
+    note: ''
+- name: output.table22.leo
+  role: output
+  value: 1795
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 134
+  pdf_page: 208
+  locus: Table 22 'Right ascensions of the signs of the ecliptic', column 'Right ascension in respirations', row 'Leo' (paired 'Scorpio').
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 85, 265, 200]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tight tile clip [40,85,265,200] 1x1 at native 600 (aryabhatiya_1976 vol. 1 PDF 208), Table 22
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 85, 265, 200]
+    delivered_ppi: 600
+    note: ''
+- name: output.table22.virgo
+  role: output
+  value: 1670
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 134
+  pdf_page: 208
+  locus: Table 22 'Right ascensions of the signs of the ecliptic', column 'Right ascension in respirations', row 'Virgo' (paired 'Libra').
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 85, 265, 200]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tight tile clip [40,85,265,200] 1x1 at native 600 (aryabhatiya_1976 vol. 1 PDF 208), Table 22
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 85, 265, 200]
+    delivered_ppi: 600
+    note: ''

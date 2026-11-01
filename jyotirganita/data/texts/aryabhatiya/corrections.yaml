@@ -1,0 +1,3310 @@
+- key: texts.aryabhatiya.sakabda_samskara.rates.moon
+  value: 9/85
+  form: fraction
+  negative: true
+  unit: arcminutes_per_year
+  script: latin
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: x
+  pdf_page: 207
+  locus: 'p. x, Sarma''s sentence below the quotation (''The above Saṃskāra states that …''): the first fraction of the list, for the Moon (the list is matched to the bodies ''respectively'').'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page: the quotation''s last lines and Sarma''s sentence below it'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Printed with its sign (−); the value is the printed fraction, the sign the negative flag. Unit: kalās (minutes of arc) per completed year after the epoch (the sentence''s ''a correction in kalās (minutes) of …'' ''for every completed year'').'
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.rates.moon_apogee
+  value: 65/134
+  form: fraction
+  negative: true
+  unit: arcminutes_per_year
+  script: latin
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: x
+  pdf_page: 207
+  locus: 'p. x, Sarma''s sentence below the quotation (''The above Saṃskāra states that …''): the second fraction of the list, for the Moon''s apsis (''its Apsis'') (the list is matched to the bodies ''respectively'').'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page: the quotation''s last lines and Sarma''s sentence below it'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Printed with its sign (−); the value is the printed fraction, the sign the negative flag. Unit: kalās (minutes of arc) per completed year after the epoch (the sentence''s ''a correction in kalās (minutes) of …'' ''for every completed year''). The predecessor''s fitted rate for the Moon''s apsis (the predecessor''s files are not attached) differs from this keyed rate (65/134 kalā = 29.1″ a year): an open item, not a parameter change.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.rates.moon_node
+  value: 13/32
+  form: fraction
+  negative: true
+  unit: arcminutes_per_year
+  script: latin
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: x
+  pdf_page: 207
+  locus: 'p. x, Sarma''s sentence below the quotation (''The above Saṃskāra states that …''): the third fraction of the list, for the Moon''s node (''Node'') (the list is matched to the bodies ''respectively'').'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page: the quotation''s last lines and Sarma''s sentence below it'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Printed with its sign (−); the value is the printed fraction, the sign the negative flag. Unit: kalās (minutes of arc) per completed year after the epoch (the sentence''s ''a correction in kalās (minutes) of …'' ''for every completed year''). The quotation''s own verb for the Moon, its apogee and node is विरहिततनवः (diminished; texts.aryabhatiya.sakabda_samskara.quotation.signs.moon); the Saṅgraha''s v. 18 reads, as parsed here, ''added'' for the node (the node-sign question).'
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.rates.mars
+  value: 45/235
+  form: fraction
+  unit: arcminutes_per_year
+  script: latin
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: x
+  pdf_page: 207
+  locus: 'p. x, Sarma''s sentence below the quotation (''The above Saṃskāra states that …''): the fourth fraction of the list, for Mars (the list is matched to the bodies ''respectively'').'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page: the quotation''s last lines and Sarma''s sentence below it'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Printed with its sign (+); the value is the printed fraction, the sign the negative flag. Unit: kalās (minutes of arc) per completed year after the epoch (the sentence''s ''a correction in kalās (minutes) of …'' ''for every completed year'').'
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.rates.mercury
+  value: 420/235
+  form: fraction
+  unit: arcminutes_per_year
+  script: latin
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: x
+  pdf_page: 207
+  locus: 'p. x, Sarma''s sentence below the quotation (''The above Saṃskāra states that …''): the fifth fraction of the list, for Mercury (the list is matched to the bodies ''respectively'').'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page: the quotation''s last lines and Sarma''s sentence below it'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Printed with its sign (+); the value is the printed fraction, the sign the negative flag. Unit: kalās (minutes of arc) per completed year after the epoch (the sentence''s ''a correction in kalās (minutes) of …'' ''for every completed year'').'
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.rates.jupiter
+  value: 47/235
+  form: fraction
+  negative: true
+  unit: arcminutes_per_year
+  script: latin
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: x
+  pdf_page: 207
+  locus: 'p. x, Sarma''s sentence below the quotation (''The above Saṃskāra states that …''): the sixth fraction of the list, for Jupiter (the list is matched to the bodies ''respectively'').'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page: the quotation''s last lines and Sarma''s sentence below it'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Printed with its sign (−); the value is the printed fraction, the sign the negative flag. Unit: kalās (minutes of arc) per completed year after the epoch (the sentence''s ''a correction in kalās (minutes) of …'' ''for every completed year'').'
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-fable-5-1/2026-10-03-r2
+      on: 2026-10-03
+      dpi: 288
+      clip: [15, 192, 270, 246]
+      delivered_ppi: 288
+      max_edge: 2000
+      note: ''
+    matches: read
+- key: texts.aryabhatiya.sakabda_samskara.rates.venus
+  value: 153/235
+  form: fraction
+  negative: true
+  unit: arcminutes_per_year
+  script: latin
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: x
+  pdf_page: 207
+  locus: 'p. x, Sarma''s sentence below the quotation (''The above Saṃskāra states that …''): the seventh fraction of the list, for Venus (the list is matched to the bodies ''respectively'').'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page: the quotation''s last lines and Sarma''s sentence below it'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Printed with its sign (−); the value is the printed fraction, the sign the negative flag. Unit: kalās (minutes of arc) per completed year after the epoch (the sentence''s ''a correction in kalās (minutes) of …'' ''for every completed year'').'
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-fable-5-1/2026-10-03-r2
+      on: 2026-10-03
+      dpi: 288
+      clip: [15, 192, 270, 246]
+      delivered_ppi: 288
+      max_edge: 2000
+      note: ''
+    matches: read
+- key: texts.aryabhatiya.sakabda_samskara.rates.saturn
+  value: 20/235
+  form: fraction
+  unit: arcminutes_per_year
+  script: latin
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: x
+  pdf_page: 207
+  locus: 'p. x, Sarma''s sentence below the quotation (''The above Saṃskāra states that …''): the eighth fraction of the list, for Saturn (the list is matched to the bodies ''respectively'').'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page: the quotation''s last lines and Sarma''s sentence below it'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Printed with its sign (+); the value is the printed fraction, the sign the negative flag. Unit: kalās (minutes of arc) per completed year after the epoch (the sentence''s ''a correction in kalās (minutes) of …'' ''for every completed year'').'
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.rates.sun
+  value: no correction need be made in the case of the Sun
+  form: text
+  unit: statement
+  script: latin
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: x
+  pdf_page: 207
+  locus: 'p. x, Sarma''s sentence below the quotation (''The above Saṃskāra states that …''): its last clause, from ''no correction'' (the conjunction before it not keyed). Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page: the quotation''s last lines and Sarma''s sentence below it'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'The null rate of the Sun: the layer corrects no solar element. The quotation ends ''न भानोः'' (texts.aryabhatiya.sakabda_samskara.quotation.signs).'
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.statement
+  value: The above Saṁskāra states that for every completed year after śaka 444 (Kali 3600), a correction in kalās (minutes) of −9/85, −65/134, −13/32, +45/235, +420/235, −47/235, −153/235 and +20/235 should be made to the mean positions of the Moon, its Apsis and Node, Mars, Mercury, Jupiter, Venus and Saturn respectively and that no correction need be made in the case of the Sun.
+  form: text
+  unit: statement
+  script: latin
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: x
+  pdf_page: 207
+  locus: 'p. x, Sarma''s sentence below the quotation (''The above Saṃskāra states that …''): the whole sentence, to ''the case of the Sun.'' A minus sign is keyed as − (U+…) whatever dash the face sets. Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page: the quotation''s last lines and Sarma''s sentence below it'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: Sarma's statement of the saṃskāra in English. The Śaka year and the Kali year it pairs with it disagree (Śaka 444 elapsed is Kali 3623 elapsed; texts.aryabhatiya.sakabda_samskara.epoch, texts.aryabhatiya.sakabda_samskara.epoch.kali_pair).
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-08-r1
+      on: 2026-10-08
+      dpi: 288
+      clip: [0, 146, 270, 304]
+      delivered_ppi: 288
+      note: ''
+    matches: second_read
+- key: texts.aryabhatiya.sakabda_samskara.application
+  value: should be made to the mean positions of the Moon, its Apsis and Node, Mars, Mercury, Jupiter, Venus and Saturn respectively
+  form: text
+  unit: statement
+  script: latin
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: x
+  pdf_page: 207
+  locus: 'p. x, Sarma''s sentence below the quotation (''The above Saṃskāra states that …''): the clause naming what is corrected. Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page: the quotation''s last lines and Sarma''s sentence below it'
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: grahacaranibandhana_1954 p. x (PDF 207), Sarma's sentence below the quotation
+  notes: The correction is added (with its sign) to the mean positions, before any true-position correction; the quotation calls it a correction of the mean positions as computed from Āryabhaṭa's constants (p. x, 'the values of the mean and true positions … as obtained from Āryabhaṭa's constants').
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.epoch.statement
+  value: This correction is called Śakābda-saṁskāra since it applied from the date of Āryabhaṭa in the Śaka era, viz., 444
+  form: text
+  unit: statement
+  script: latin
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: x
+  pdf_page: 207
+  locus: p. x, the paragraph before the quotation, from 'This correction' to '…' (the three words in parentheses after it are not keyed here). Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 0, 270, 154]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of the page, 1x3 --overlap 8: the Śakābda-saṃskāra paragraph and the quotation''s first three lines'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: The parentheses after 444 print three words for it, वाग्भाव (the quotation's), विभव (Saṅgraha v. 17) and भवभानु (Saṅgraha v. 19), each kaṭapayādi for 444; the first and the second are keyed as texts.aryabhatiya.sakabda_samskara.epoch.word and texts.aryabhatiya.sakabda_samskara.variant.sangraha.epoch.word, the third as texts.aryabhatiya.sakabda_samskara.variant.bija.epoch.word.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 0, 270, 154]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-08-r1
+      on: 2026-10-08
+      dpi: 288
+      clip: [0, 0, 270, 154]
+      delivered_ppi: 288
+      note: ''
+    matches: second_read
+- key: texts.aryabhatiya.sakabda_samskara.epoch
+  value: 444
+  form: integer
+  unit: saka_years_elapsed
+  script: latin
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: x
+  pdf_page: 207
+  locus: 'p. x, Sarma''s sentence below the quotation (''The above Saṃskāra states that …''): the Śaka figure in ''for every completed year after śaka …''.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page: the quotation''s last lines and Sarma''s sentence below it'
+  status: double_read
+  verified_by: [texts.aryabhatiya.sakabda_samskara.epoch.sarma_1972_kerala_school]
+  emendation: null
+  basis: stated
+  basis_ref: 'grahacaranibandhana_1954 p. x (PDF 207): the quotation counts from the Śaka year less vāgbhāva (वाग्भावोनात् शकाब्दात्, texts.aryabhatiya.sakabda_samskara.epoch.word) and Sarma''s sentence ''for every completed year after śaka 444'''
+  convention: inferred_from_pair
+  contradiction:
+    issue: disputed
+    with: [texts.aryabhatiya.sakabda_samskara.epoch.kali_pair]
+  notes: 'The count is the completed Śaka years less 444. Elapsed, from the pair Sarma prints for the same date: sarma_1972_kerala_school p. 8 (PDF 23) ''composed in Kali 3623 (A.D. 522)'' for Āryabhaṭa''s date, which grahacaranibandhana_1954 p. x names Śaka 444 (texts.aryabhatiya.sakabda_samskara.epoch.statement); Kali 3623 elapsed begins in CE 522 and Śaka 444 elapsed in CE 522, and counted current neither would begin in CE 522. grahacaranibandhana_1954 p. v gives the Kali year 3623 for the composition (texts.aryabhatiya.sakabda_samskara.epoch.kali); p. x pairs Śaka 444 with Kali 3600 instead (the p. x slip; recorded, not resolved).'
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.epoch.kali_pair
+  value: 3600
+  form: integer
+  unit: kali_years
+  script: latin
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: x
+  pdf_page: 207
+  locus: 'p. x, Sarma''s sentence below the quotation (''The above Saṃskāra states that …''): the Kali figure in the parenthesis ''(Kali …)''.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page: the quotation''s last lines and Sarma''s sentence below it'
+  status: double_read
+  verified_by: []
+  emendation: null
+  contradiction:
+    issue: disputed
+    with: [texts.aryabhatiya.sakabda_samskara.epoch]
+  notes: Printed beside śaka 444. Kali 3600 is the year the Dṛkkaraṇa quoted on p. v gives for Āryabhaṭa's birth (texts.aryabhatiya.sakabda_samskara.epoch.kali.birth) and the Kali year of the Āryabhaṭīya's Kālakriyā 10; Śaka 444 is Kali 3623 under one convention for both.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.epoch.word
+  value: 444
+  form: numeral_word
+  value_form: integer
+  word:
+    text: वाग्भाव
+    script: devanagari
+    system: katapayadi
+    decode: 444
+  unit: saka_years
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: x
+  pdf_page: 207
+  locus: 'p. x, Sundararāja''s quotation of the saṃskāra (footnote 1: ''Cf. Vākyakaraṇa-vyākhyā, II. 19-21.''), first line, the word before ऊनात् (printed …ोनाच्छकाब्दाद्…) and the figure beneath it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 0, 270, 154]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of the page, 1x3 --overlap 8: the Śakābda-saṃskāra paragraph and the quotation''s first three lines'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [20, 62, 146.5, 108.67]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of clip [20,62,265,190] 2x3 --overlap 8, rendered --dpi 768 --upsample to enlarge (native 288 ppi; no detail above native): the quotation''s first line and the figures beneath'
+  status: double_read
+  verified_by: []
+  emendation: null
+  decides: [procedure]
+  notes: 'Decides the layer''s epoch (the count''s reference year): an individual sign-off.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 768
+    clip: [20, 62, 146.5, 108.67]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.epoch.kali
+  value: 3623
+  form: numeral_word
+  value_form: integer
+  word:
+    text: गिरितुङ्ग
+    script: devanagari
+    system: katapayadi
+    decode: 3623
+  unit: kali_years
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: v
+  pdf_page: 202
+  locus: 'p. v, DATE: the Dṛkkaraṇa (footnote 1: ''Travancore Univ. Mss. Library, Ms. No. C. …-c.'') v. 7, the year word (printed …े(…)ति कल्यब्दे गणितं निर्मितं परम्) and the figure in parentheses after it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 296, 270, 450]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r3c1 of the page, 1x3 --overlap 8: the DATE paragraph, Dṛkkaraṇa vv. 6–7, footnote 1'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [30, 363.5, 215, 395]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the same clip: Dṛkkaraṇa v. 7'
+  status: double_read
+  verified_by: [texts.aryabhatiya.sakabda_samskara.epoch.kali.sarma_1972_kerala_school]
+  emendation: null
+  decides: [procedure]
+  notes: The Kali year in which, by the Dṛkkaraṇa, Āryabhaṭa's computation was made (गणितं निर्मितम्); the figure is printed in parentheses after the word, not beneath it. The word as printed carries the locative ending (गिरितुङ्गे); keyed without it. Decides the Kali form of the layer's epoch.
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 768
+    clip: [30, 363.5, 215, 395]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.epoch.kali.birth
+  value: 3600
+  form: numeral_word
+  value_form: integer
+  word:
+    text: ज्ञानतुङ्ग
+    script: devanagari
+    system: katapayadi
+    decode: 3600
+  unit: kali_years
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: v
+  pdf_page: 202
+  locus: 'p. v, DATE: the Dṛkkaraṇa v. 6, the year word (printed …े(…)ति कल्यब्दे जातनाय् अवनीतले) and the figure in parentheses after it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 296, 270, 450]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r3c1 of the page, 1x3 --overlap 8: the DATE paragraph, Dṛkkaraṇa vv. 6–7, footnote 1'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [30, 340, 215, 371.5]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of clip [30,340,215,395] 1x2 --overlap 8, rendered --dpi 768 --upsample to enlarge (native 288 ppi; no detail above native): Dṛkkaraṇa v. 6'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: The Kali year of Āryabhaṭa's birth by the Dṛkkaraṇa (जात…, born). Keyed because p. x pairs Śaka 444 with Kali 3600.
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 768
+    clip: [30, 340, 215, 371.5]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.epoch.kali.sadratnamala
+  value: 3623
+  form: numeral_word
+  value_form: integer
+  word:
+    text: गोत्रोत्तुङ्ग
+    script: devanagari
+    system: katapayadi
+    decode: 3623
+  unit: kali_years
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: vi
+  pdf_page: 203
+  locus: 'p. vi, Śaṅkara Varman''s Sadratnamālā VI. 1-3 as quoted: the year word of the first verse''s second line (printed …(…)मिताब्दके) and the figure in parentheses after it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 0, 270, 154]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of the page, 1x3 --overlap 8: Dṛkkaraṇa v. 17, the Sadratnamālā VI.1–3'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [40, 140, 154, 176.5]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,140,260,205] 2x2 --overlap 8, rendered --dpi 768 --upsample to enlarge (native 288 ppi; no detail above native): Sadratnamālā, the line of गोत्रोत्तुङ्ग'
+  status: double_read
+  verified_by: []
+  emendation: null
+  decides: [procedure]
+  notes: The year of Āryabhaṭa's karaṇa by the Sadratnamālā. The third akṣara is read त्तु (sarma_1972_kerala_school p. 8 transliterates 'gotrottuṅga'); read तु the word decodes to the same 3623.
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 768
+    clip: [40, 140, 154, 176.5]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-fable-5-1/2026-10-03-r2
+      on: 2026-10-03
+      dpi: 288
+      clip: [58, 144, 114, 162]
+      delivered_ppi: 288
+      max_edge: 2000
+      note: ''
+    matches: read
+- key: texts.aryabhatiya.sakabda_samskara.quotation.signs.moon
+  value: विरहिततनवश्चन्द्रतत्तुङ्गपाताः
+  form: text
+  unit: statement
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: x
+  pdf_page: 207
+  locus: 'p. x, Sundararāja''s quotation of the saṃskāra (footnote 1: ''Cf. Vākyakaraṇa-vyākhyā, II. 19-21.''), second line, from विरहित to पाताः. Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 0, 270, 154]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of the page, 1x3 --overlap 8: the Śakābda-saṃskāra paragraph and the quotation''s first three lines'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [20, 100.67, 146.5, 151.33]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of clip [20,62,265,190] 2x3 --overlap 8, rendered --dpi 768 --upsample to enlarge (native 288 ppi; no detail above native): the quotation''s second line'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [138.5, 100.67, 265, 151.33]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c2 of clip [20,62,265,190] 2x3 --overlap 8, rendered --dpi 768 --upsample to enlarge (native 288 ppi; no detail above native): the quotation''s second line, right half'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: '''(The Moon, its apogee and its node) with their bodies diminished'': the sign of the first three rates (the reading of the compound is ours, an inference).'
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 768
+    clip: [20, 100.67, 146.5, 151.33]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.quotation.signs
+  value: संयुक्ता ज्ञारसौरा विरहिततनुकौ जीवशुक्रौ न भानोः
+  form: text
+  unit: statement
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: x
+  pdf_page: 207
+  locus: 'p. x, Sundararāja''s quotation of the saṃskāra (footnote 1: ''Cf. Vākyakaraṇa-vyākhyā, II. 19-21.''), fourth line, to the double daṇḍa (not keyed). Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page: the quotation''s last lines and Sarma''s sentence below it'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: '''Mercury, Mars and Saturn increased; Jupiter and Venus with diminished bodies; not of the Sun'': the signs of the last five rates and the Sun''s null rate (the reading is ours, an inference).'
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.quotation.moon.multiplier
+  value: 9
+  form: numeral_word
+  value_form: integer
+  word:
+    text: धन
+    script: devanagari
+    system: katapayadi
+    decode: 9
+  unit: multiplier
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: x
+  pdf_page: 207
+  locus: 'p. x, Sundararāja''s quotation of the saṃskāra (footnote 1: ''Cf. Vākyakaraṇa-vyākhyā, II. 19-21.''), first line: the word … (printed …ब्दाद्…-, the sandhi द्ध) and the figure beneath it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 0, 270, 154]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of the page, 1x3 --overlap 8: the Śakābda-saṃskāra paragraph and the quotation''s first three lines'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [20, 62, 146.5, 108.67]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of clip [20,62,265,190] 2x3 --overlap 8, rendered --dpi 768 --upsample to enlarge (native 288 ppi; no detail above native): the quotation''s first line and the figures beneath'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [138.5, 62, 265, 108.67]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c2 of clip [20,62,265,190] 2x3 --overlap 8, rendered --dpi 768 --upsample to enlarge (native 288 ppi; no detail above native): the quotation''s first line and the figures beneath'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 768
+    clip: [20, 62, 146.5, 108.67]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.quotation.moon_apogee.multiplier
+  value: 65
+  form: numeral_word
+  value_form: integer
+  word:
+    text: शत
+    script: devanagari
+    system: katapayadi
+    decode: 65
+  unit: multiplier
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: x
+  pdf_page: 207
+  locus: 'p. x, Sundararāja''s quotation of the saṃskāra (footnote 1: ''Cf. Vākyakaraṇa-vyākhyā, II. 19-21.''), first line: the word … and the figure beneath it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 0, 270, 154]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of the page, 1x3 --overlap 8: the Śakābda-saṃskāra paragraph and the quotation''s first three lines'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [20, 62, 146.5, 108.67]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of clip [20,62,265,190] 2x3 --overlap 8, rendered --dpi 768 --upsample to enlarge (native 288 ppi; no detail above native): the quotation''s first line and the figures beneath'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [138.5, 62, 265, 108.67]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c2 of clip [20,62,265,190] 2x3 --overlap 8, rendered --dpi 768 --upsample to enlarge (native 288 ppi; no detail above native): the quotation''s first line and the figures beneath'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 768
+    clip: [20, 62, 146.5, 108.67]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.quotation.moon_node.multiplier
+  value: 13
+  form: numeral_word
+  value_form: integer
+  word:
+    text: लय
+    script: devanagari
+    system: katapayadi
+    decode: 13
+  unit: multiplier
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: x
+  pdf_page: 207
+  locus: 'p. x, Sundararāja''s quotation of the saṃskāra (footnote 1: ''Cf. Vākyakaraṇa-vyākhyā, II. 19-21.''), first line: the word … (printed …-हान्, the compound''s -हान्) and the figure beneath it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 0, 270, 154]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of the page, 1x3 --overlap 8: the Śakābda-saṃskāra paragraph and the quotation''s first three lines'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [20, 62, 146.5, 108.67]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of clip [20,62,265,190] 2x3 --overlap 8, rendered --dpi 768 --upsample to enlarge (native 288 ppi; no detail above native): the quotation''s first line and the figures beneath'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [138.5, 62, 265, 108.67]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c2 of clip [20,62,265,190] 2x3 --overlap 8, rendered --dpi 768 --upsample to enlarge (native 288 ppi; no detail above native): the quotation''s first line and the figures beneath'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 768
+    clip: [20, 62, 146.5, 108.67]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.quotation.moon.divisor
+  value: 85
+  form: numeral_word
+  value_form: integer
+  word:
+    text: मन्द
+    script: devanagari
+    system: katapayadi
+    decode: 85
+  unit: divisor
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: x
+  pdf_page: 207
+  locus: 'p. x, Sundararāja''s quotation of the saṃskāra (footnote 1: ''Cf. Vākyakaraṇa-vyākhyā, II. 19-21.''), first line: the word … (printed हान्…-, after the -हान्) and the figure beneath it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 0, 270, 154]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of the page, 1x3 --overlap 8: the Śakābda-saṃskāra paragraph and the quotation''s first three lines'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [20, 62, 146.5, 108.67]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of clip [20,62,265,190] 2x3 --overlap 8, rendered --dpi 768 --upsample to enlarge (native 288 ppi; no detail above native): the quotation''s first line and the figures beneath'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [138.5, 62, 265, 108.67]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c2 of clip [20,62,265,190] 2x3 --overlap 8, rendered --dpi 768 --upsample to enlarge (native 288 ppi; no detail above native): the quotation''s first line and the figures beneath'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 768
+    clip: [138.5, 62, 265, 108.67]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.quotation.moon_apogee.divisor
+  value: 134
+  form: numeral_word
+  value_form: integer
+  word:
+    text: वैलक्ष्य
+    script: devanagari
+    system: katapayadi
+    decode: 134
+  unit: divisor
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: x
+  pdf_page: 207
+  locus: 'p. x, Sundararāja''s quotation of the saṃskāra (footnote 1: ''Cf. Vākyakaraṇa-vyākhyā, II. 19-21.''), first line: the word … and the figure beneath it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 0, 270, 154]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of the page, 1x3 --overlap 8: the Śakābda-saṃskāra paragraph and the quotation''s first three lines'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [20, 62, 146.5, 108.67]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of clip [20,62,265,190] 2x3 --overlap 8, rendered --dpi 768 --upsample to enlarge (native 288 ppi; no detail above native): the quotation''s first line and the figures beneath'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [138.5, 62, 265, 108.67]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c2 of clip [20,62,265,190] 2x3 --overlap 8, rendered --dpi 768 --upsample to enlarge (native 288 ppi; no detail above native): the quotation''s first line and the figures beneath'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 768
+    clip: [138.5, 62, 265, 108.67]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.quotation.moon_node.divisor
+  value: 32
+  form: numeral_word
+  value_form: integer
+  word:
+    text: राग
+    script: devanagari
+    system: katapayadi
+    decode: 32
+  unit: divisor
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: x
+  pdf_page: 207
+  locus: 'p. x, Sundararāja''s quotation of the saṃskāra (footnote 1: ''Cf. Vākyakaraṇa-vyākhyā, II. 19-21.''), first line: the word … (the instrumental plural …ः, its visarga joined to the next line) and the figure beneath it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 0, 270, 154]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of the page, 1x3 --overlap 8: the Śakābda-saṃskāra paragraph and the quotation''s first three lines'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [20, 62, 146.5, 108.67]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of clip [20,62,265,190] 2x3 --overlap 8, rendered --dpi 768 --upsample to enlarge (native 288 ppi; no detail above native): the quotation''s first line and the figures beneath'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [138.5, 62, 265, 108.67]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c2 of clip [20,62,265,190] 2x3 --overlap 8, rendered --dpi 768 --upsample to enlarge (native 288 ppi; no detail above native): the quotation''s first line and the figures beneath'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 768
+    clip: [138.5, 62, 265, 108.67]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.quotation.mars.multiplier
+  value: 45
+  form: numeral_word
+  value_form: integer
+  word:
+    text: शोभा
+    script: devanagari
+    system: katapayadi
+    decode: 45
+  unit: multiplier
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: x
+  pdf_page: 207
+  locus: 'p. x, Sundararāja''s quotation of the saṃskāra (footnote 1: ''Cf. Vākyakaraṇa-vyākhyā, II. 19-21.''), third line: the word … and the figure beneath it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 0, 270, 154]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of the page, 1x3 --overlap 8: the Śakābda-saṃskāra paragraph and the quotation''s first three lines'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page: the quotation''s last lines and Sarma''s sentence below it'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [20, 143.33, 146.5, 190]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r3c1 of clip [20,62,265,190] 2x3 --overlap 8, rendered --dpi 768 --upsample to enlarge (native 288 ppi; no detail above native): the quotation''s third line and the figures beneath'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [138.5, 143.33, 265, 190]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r3c2 of clip [20,62,265,190] 2x3 --overlap 8, rendered --dpi 768 --upsample to enlarge (native 288 ppi; no detail above native): the quotation''s third line and the figures beneath'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 768
+    clip: [20, 143.33, 146.5, 190]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.quotation.mercury.multiplier
+  value: 420
+  form: numeral_word
+  value_form: integer
+  word:
+    text: नीरूढ
+    script: devanagari
+    system: katapayadi
+    decode: 420
+  unit: multiplier
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: x
+  pdf_page: 207
+  locus: 'p. x, Sundararāja''s quotation of the saṃskāra (footnote 1: ''Cf. Vākyakaraṇa-vyākhyā, II. 19-21.''), third line: the word … and the figure beneath it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 0, 270, 154]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of the page, 1x3 --overlap 8: the Śakābda-saṃskāra paragraph and the quotation''s first three lines'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page: the quotation''s last lines and Sarma''s sentence below it'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [20, 143.33, 146.5, 190]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r3c1 of clip [20,62,265,190] 2x3 --overlap 8, rendered --dpi 768 --upsample to enlarge (native 288 ppi; no detail above native): the quotation''s third line and the figures beneath'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [138.5, 143.33, 265, 190]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r3c2 of clip [20,62,265,190] 2x3 --overlap 8, rendered --dpi 768 --upsample to enlarge (native 288 ppi; no detail above native): the quotation''s third line and the figures beneath'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 768
+    clip: [20, 143.33, 146.5, 190]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.quotation.jupiter.multiplier
+  value: 47
+  form: numeral_word
+  value_form: integer
+  word:
+    text: संविद्
+    script: devanagari
+    system: katapayadi
+    decode: 47
+  unit: multiplier
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: x
+  pdf_page: 207
+  locus: 'p. x, Sundararāja''s quotation of the saṃskāra (footnote 1: ''Cf. Vākyakaraṇa-vyākhyā, II. 19-21.''), third line: the word … and the figure beneath it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 0, 270, 154]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of the page, 1x3 --overlap 8: the Śakābda-saṃskāra paragraph and the quotation''s first three lines'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page: the quotation''s last lines and Sarma''s sentence below it'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [20, 143.33, 146.5, 190]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r3c1 of clip [20,62,265,190] 2x3 --overlap 8, rendered --dpi 768 --upsample to enlarge (native 288 ppi; no detail above native): the quotation''s third line and the figures beneath'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [138.5, 143.33, 265, 190]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r3c2 of clip [20,62,265,190] 2x3 --overlap 8, rendered --dpi 768 --upsample to enlarge (native 288 ppi; no detail above native): the quotation''s third line and the figures beneath'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 768
+    clip: [20, 143.33, 146.5, 190]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.quotation.venus.multiplier
+  value: 153
+  form: numeral_word
+  value_form: integer
+  word:
+    text: गणक
+    script: devanagari
+    system: katapayadi
+    decode: 153
+  unit: multiplier
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: x
+  pdf_page: 207
+  locus: 'p. x, Sundararāja''s quotation of the saṃskāra (footnote 1: ''Cf. Vākyakaraṇa-vyākhyā, II. 19-21.''), third line: the word … and the figure beneath it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 0, 270, 154]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of the page, 1x3 --overlap 8: the Śakābda-saṃskāra paragraph and the quotation''s first three lines'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page: the quotation''s last lines and Sarma''s sentence below it'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [20, 143.33, 146.5, 190]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r3c1 of clip [20,62,265,190] 2x3 --overlap 8, rendered --dpi 768 --upsample to enlarge (native 288 ppi; no detail above native): the quotation''s third line and the figures beneath'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [138.5, 143.33, 265, 190]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r3c2 of clip [20,62,265,190] 2x3 --overlap 8, rendered --dpi 768 --upsample to enlarge (native 288 ppi; no detail above native): the quotation''s third line and the figures beneath'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 768
+    clip: [138.5, 143.33, 265, 190]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.quotation.saturn.multiplier
+  value: 20
+  form: numeral_word
+  value_form: integer
+  word:
+    text: नर
+    script: devanagari
+    system: katapayadi
+    decode: 20
+  unit: multiplier
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: x
+  pdf_page: 207
+  locus: 'p. x, Sundararāja''s quotation of the saṃskāra (footnote 1: ''Cf. Vākyakaraṇa-vyākhyā, II. 19-21.''), third line: the word … (printed …-हतान्) and the figure beneath it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 0, 270, 154]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of the page, 1x3 --overlap 8: the Śakābda-saṃskāra paragraph and the quotation''s first three lines'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page: the quotation''s last lines and Sarma''s sentence below it'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [20, 143.33, 146.5, 190]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r3c1 of clip [20,62,265,190] 2x3 --overlap 8, rendered --dpi 768 --upsample to enlarge (native 288 ppi; no detail above native): the quotation''s third line and the figures beneath'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [138.5, 143.33, 265, 190]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r3c2 of clip [20,62,265,190] 2x3 --overlap 8, rendered --dpi 768 --upsample to enlarge (native 288 ppi; no detail above native): the quotation''s third line and the figures beneath'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 768
+    clip: [20, 143.33, 146.5, 190]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.quotation.planets.divisor
+  value: 235
+  form: numeral_word
+  value_form: integer
+  word:
+    text: मागर
+    script: devanagari
+    system: katapayadi
+    decode: 235
+  unit: divisor
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: x
+  pdf_page: 207
+  locus: 'p. x, Sundararāja''s quotation of the saṃskāra (footnote 1: ''Cf. Vākyakaraṇa-vyākhyā, II. 19-21.''), third line: the word … (printed हतान्…ाप्ताः) and the figure beneath it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 0, 270, 154]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of the page, 1x3 --overlap 8: the Śakābda-saṃskāra paragraph and the quotation''s first three lines'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page: the quotation''s last lines and Sarma''s sentence below it'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [20, 143.33, 146.5, 190]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r3c1 of clip [20,62,265,190] 2x3 --overlap 8, rendered --dpi 768 --upsample to enlarge (native 288 ppi; no detail above native): the quotation''s third line and the figures beneath'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [138.5, 143.33, 265, 190]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r3c2 of clip [20,62,265,190] 2x3 --overlap 8, rendered --dpi 768 --upsample to enlarge (native 288 ppi; no detail above native): the quotation''s third line and the figures beneath'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 768
+    clip: [138.5, 143.33, 265, 190]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.defined
+  value: 3785
+  form: integer
+  unit: kali_years_elapsed
+  script: latin
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: v
+  pdf_page: 202
+  locus: 'p. v, DATE, the paragraph''s first sentence: the Kali figure in ''was introduced in Kali …, corresponding to A. D. …''.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 296, 270, 450]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r3c1 of the page, 1x3 --overlap 8: the DATE paragraph, Dṛkkaraṇa vv. 6–7, footnote 1'
+  status: double_read
+  verified_by: [texts.aryabhatiya.sakabda_samskara.defined.sarma_1972_kerala_school]
+  emendation: null
+  basis: stated
+  basis_ref: 'grahacaranibandhana_1954 p. v (PDF 202), DATE: ''the Parahita system was introduced in Kali 3785''; the Dṛkkaraṇa v. 17 and the Sadratnamālā VI. 1-3 (p. vi, PDF 203) state the year in words'
+  convention: unstated
+  contradiction:
+    issue: disputed
+    with: [texts.aryabhatiya.sakabda_samskara.defined.ad_pair]
+  notes: 'The promulgation date, the layer''s `defined` and parahita''s `composed`. The page''s pairs: Kali 3785 with Śaka 606 (Dṛkkaraṇa v. 17, p. vi) agree under either convention; with A.D. 683 (p. v; sarma_1972_kerala_school pp. 7–8) they agree only if the years are current (Kali 3785 elapsed begins in CE 684). The sources do not say elapsed or current; the unit follows the later reading (elapsed, CE 684) until the library author adjudicates.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 296, 270, 450]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.defined.statement
+  value: Both Malayalam and Sanskrit astronomical works of Kerala affirm that the Parahita system was introduced in Kali 3785, corresponding to A. D. 683.
+  form: text
+  unit: statement
+  script: latin
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: v
+  pdf_page: 202
+  locus: p. v, DATE, the paragraph's first sentence. Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 296, 270, 450]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r3c1 of the page, 1x3 --overlap 8: the DATE paragraph, Dṛkkaraṇa vv. 6–7, footnote 1'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 296, 270, 450]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.defined.ad_pair
+  value: 683
+  form: integer
+  unit: ce_years
+  script: latin
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: v
+  pdf_page: 202
+  locus: 'p. v, DATE, the paragraph''s first sentence: the A.D. figure in ''corresponding to A. D. …''.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 296, 270, 450]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r3c1 of the page, 1x3 --overlap 8: the DATE paragraph, Dṛkkaraṇa vv. 6–7, footnote 1'
+  status: double_read
+  verified_by: [texts.aryabhatiya.sakabda_samskara.defined.ad_pair.sarma_1972_kerala_school]
+  emendation: null
+  contradiction:
+    issue: disputed
+    with: [texts.aryabhatiya.sakabda_samskara.defined]
+  notes: sarma_1972_kerala_school prints the same pair (p. 7 'in A. D. 683'; p. 8 'in Kali 3785 (A.D. 683)').
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 296, 270, 450]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.defined.word
+  value: 3785
+  form: numeral_word
+  value_form: integer
+  word:
+    text: मन्दस्थल
+    script: devanagari
+    system: katapayadi
+    decode: 3785
+  unit: kali_years
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: vi
+  pdf_page: 203
+  locus: 'p. vi, the Dṛkkaraṇa v. 17 (the verse ends at the top of p. vi): the year word before ''ति कल्यब्दे'' (printed …े(…)ति) and the figure in parentheses after it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 0, 270, 154]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of the page, 1x3 --overlap 8: Dṛkkaraṇa v. 17, the Sadratnamālā VI.1–3'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [40, 38, 154, 78]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,38,260,110] 2x2 --overlap 8, rendered --dpi 768 --upsample to enlarge (native 288 ppi; no detail above native): v. 17, first half of its second line'
+  status: double_read
+  verified_by: []
+  emendation: null
+  decides: [procedure]
+  notes: Printed with the locative ending (मन्दस्थले); keyed without it.
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 768
+    clip: [40, 38, 154, 78]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.defined.saka
+  value: 606
+  form: numeral_word
+  value_form: integer
+  word:
+    text: तनुत
+    script: devanagari
+    system: katapayadi
+    decode: 606
+  unit: saka_years
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: vi
+  pdf_page: 203
+  locus: 'p. vi, the Dṛkkaraṇa v. 17: the year word before ''ति शकाब्दके'' (printed …े(…)ति) and the figure in parentheses after it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 0, 270, 154]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of the page, 1x3 --overlap 8: Dṛkkaraṇa v. 17, the Sadratnamālā VI.1–3'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [146, 38, 260, 78]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c2 of the same clip: v. 17, second half of its second line'
+  status: double_read
+  verified_by: []
+  emendation: null
+  decides: [procedure]
+  notes: Printed with the locative ending (तनुते); keyed without it. Kali 3785 less Śaka 606 is 3179, the difference of the two eras counted alike.
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 768
+    clip: [146, 38, 260, 78]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.defined.sadratnamala
+  value: 3785
+  form: numeral_word
+  value_form: integer
+  word:
+    text: महास्थल
+    script: devanagari
+    system: katapayadi
+    decode: 3785
+  unit: kali_years
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: vi
+  pdf_page: 203
+  locus: 'p. vi, the Sadratnamālā VI. 1-3 as quoted: the year word of the third verse (printed …(…)मिते कल्यब्दके निश्चितः संस्कारो) and the figure in parentheses after it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 0, 270, 154]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of the page, 1x3 --overlap 8: Dṛkkaraṇa v. 17, the Sadratnamālā VI.1–3'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [40, 168.5, 154, 205]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the same clip: Sadratnamālā, the line of महास्थल'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 768
+    clip: [146, 168.5, 260, 205]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c2 of the same clip: the line''s end and the reference VI. 1-3'
+  status: double_read
+  verified_by: []
+  emendation: null
+  decides: [procedure]
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 768
+    clip: [40, 168.5, 154, 205]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.step_count
+  value: for every completed year after śaka 444
+  form: text
+  unit: statement
+  script: latin
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: x
+  pdf_page: 207
+  locus: 'p. x, Sarma''s sentence below the quotation (''The above Saṃskāra states that …''): the clause naming the step, from ''for every'' to ''śaka …'', without the parenthesis that follows it. Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page: the quotation''s last lines and Sarma''s sentence below it'
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: grahacaranibandhana_1954 p. x (PDF 207), Sarma's sentence; the quotation corrects by the Śaka years less 444 (वाग्भावोनाच्छकाब्दात्) with no fraction of a year
+  notes: 'A step function: the correction changes once a year, by the completed Śaka years.'
+  procedure: layer.step_per_completed_year
+  no_printed_example:
+    second_witness: texts.aryabhatiya.sakabda_samskara.statement.sarma_1972_kerala_school
+    external: pending
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.step_count.reckoning
+  value: for every completed year after śaka 444
+  form: text
+  unit: statement
+  script: latin
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: x
+  pdf_page: 207
+  locus: 'p. x, Sarma''s sentence below the quotation (''The above Saṃskāra states that …''): the clause naming the step, from ''for every'' to ''śaka …'', without the parenthesis that follows it (the rule it would complete is stated nowhere). Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page: the quotation''s last lines and Sarma''s sentence below it'
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: fallback_no_stated_rule
+  basis_ref: 'searched grahacaranibandhana_1954 pp. v–x (PDF 202–207), pp. 25–26 (PDF 236–237) and sarma_1972_kerala_school pp. 7–9 (PDF 22–24): no statement of whether the completed Śaka years are counted by the mean or the true Sun''s entry into Meṣa'
+  notes: Unstated. The engine counts the completed years at the mean Meṣa saṅkrānti of the base text's own elements (the Āryabhaṭīya's mean Sun), a fallback recorded here and printed by the ledger; a later witness that states the reckoning replaces it.
+  procedure: layer.count_by_mean_mesha
+  provisional: pending later work (no stated rule, basis fallback_no_stated_rule; a dated Parahita computation of the Basel series shows how the completed years were reckoned)
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.negative_count_floor
+  value: for every completed year after śaka 444
+  form: text
+  unit: statement
+  script: latin
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: x
+  pdf_page: 207
+  locus: 'p. x, Sarma''s sentence below the quotation (''The above Saṃskāra states that …''): the clause naming the step, from ''for every'' to ''śaka …'', without the parenthesis that follows it (nothing is said of a year before the epoch). Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page: the quotation''s last lines and Sarma''s sentence below it'
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: fallback_no_stated_rule
+  basis_ref: 'searched grahacaranibandhana_1954 pp. v–x (PDF 202–207), pp. 25–26 (PDF 236–237) and sarma_1972_kerala_school pp. 7–9 (PDF 22–24): no rule for a year before Śaka 444'
+  notes: Before the epoch the completed years are the floor of the elapsed years less 444, so the year before the epoch counts −1; records of such a day carry before_epoch:sakabda_samskara.
+  procedure: layer.negative_count_floor
+  provisional: pending later work (no stated rule, basis fallback_no_stated_rule)
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.variant.sangraha.epoch.word
+  value: 444
+  form: numeral_word
+  value_form: integer
+  word:
+    text: विभव
+    script: devanagari
+    system: katapayadi
+    decode: 444
+  unit: saka_years
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: 25
+  pdf_page: 236
+  locus: 'p. 25, Appendix (Grahacāranibandhana-saṅgraha), [शकाब्दसंस्कारः] v. 17, first line: the word before ऊन (printed …ोनशकाब्दं) and the figure beneath it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page, 1x3 --overlap 8: Saṅgraha vv. 17–19 (first line)'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 160, 235, 199]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,160,235,265] 1x3 --overlap 8, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): v. 17'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 160, 235, 199]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.variant.sangraha.mars.multiplier
+  value: 45
+  form: numeral_word
+  value_form: integer
+  word:
+    text: शिव
+    script: devanagari
+    system: katapayadi
+    decode: 45
+  unit: multiplier
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: 25
+  pdf_page: 236
+  locus: 'p. 25, Appendix (Grahacāranibandhana-saṅgraha), [शकाब्दसंस्कारः] v. 17, second line: … and the figure beneath it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page, 1x3 --overlap 8: Saṅgraha vv. 17–19 (first line)'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 160, 235, 199]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,160,235,265] 1x3 --overlap 8, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): v. 17, second line'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 191, 235, 234]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,160,235,265] 1x3 --overlap 8, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): the figures beneath'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 191, 235, 234]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.variant.sangraha.mercury.multiplier
+  value: 420
+  form: numeral_word
+  value_form: integer
+  word:
+    text: नीरूढ
+    script: devanagari
+    system: katapayadi
+    decode: 420
+  unit: multiplier
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: 25
+  pdf_page: 236
+  locus: 'p. 25, Appendix (Grahacāranibandhana-saṅgraha), [शकाब्दसंस्कारः] v. 17, second line: … and the figure beneath it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page, 1x3 --overlap 8: Saṅgraha vv. 17–19 (first line)'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 160, 235, 199]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,160,235,265] 1x3 --overlap 8, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): v. 17, second line'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 191, 235, 234]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,160,235,265] 1x3 --overlap 8, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): the figures beneath'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 191, 235, 234]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.variant.sangraha.venus.multiplier
+  value: 153
+  form: numeral_word
+  value_form: integer
+  word:
+    text: गुणक
+    script: devanagari
+    system: katapayadi
+    decode: 153
+  unit: multiplier
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: 25
+  pdf_page: 236
+  locus: 'p. 25, Appendix (Grahacāranibandhana-saṅgraha), [शकाब्दसंस्कारः] v. 17, second line, inside the editor''s parenthesis: … and the figure beneath it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page, 1x3 --overlap 8: Saṅgraha vv. 17–19 (first line)'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 160, 235, 199]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,160,235,265] 1x3 --overlap 8, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): v. 17, second line'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 191, 235, 234]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,160,235,265] 1x3 --overlap 8, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): the figures beneath'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 191, 235, 234]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-fable-5-1/2026-10-03-r2
+      on: 2026-10-03
+      dpi: 288
+      clip: [120, 186, 165, 206]
+      delivered_ppi: 288
+      note: ''
+    matches: second_read
+  further_look:
+  - issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-08-r3
+      on: 2026-10-08
+      dpi: 288
+      clip: [120, 186, 165, 206]
+      delivered_ppi: 288
+      max_edge: 2000
+      note: ''
+    matches: second_read
+- key: texts.aryabhatiya.sakabda_samskara.variant.sangraha.saturn.multiplier
+  value: 20
+  form: numeral_word
+  value_form: integer
+  word:
+    text: नर
+    script: devanagari
+    system: katapayadi
+    decode: 20
+  unit: multiplier
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: 25
+  pdf_page: 236
+  locus: 'p. 25, Appendix (Grahacāranibandhana-saṅgraha), [शकाब्दसंस्कारः] v. 17, second line, inside the editor''s parenthesis: … (printed …ै) and the figure beneath it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page, 1x3 --overlap 8: Saṅgraha vv. 17–19 (first line)'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 160, 235, 199]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,160,235,265] 1x3 --overlap 8, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): v. 17, second line'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 191, 235, 234]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,160,235,265] 1x3 --overlap 8, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): the figures beneath'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 191, 235, 234]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.variant.sangraha.planets.divisor
+  value: 235
+  form: numeral_word
+  value_form: integer
+  word:
+    text: मागर
+    script: devanagari
+    system: katapayadi
+    decode: 235
+  unit: divisor
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: 25
+  pdf_page: 236
+  locus: 'p. 25, Appendix (Grahacāranibandhana-saṅgraha), [शकाब्दसंस्कारः] v. 18, first line: … (printed …ाप्तं) and the figure beneath it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page, 1x3 --overlap 8: Saṅgraha vv. 17–19 (first line)'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 191, 235, 234]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,160,235,265] 1x3 --overlap 8, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): v. 18, first line and the figure beneath'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 191, 235, 234]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.variant.sangraha.moon.multiplier
+  value: 9
+  form: numeral_word
+  value_form: integer
+  word:
+    text: धन
+    script: devanagari
+    system: katapayadi
+    decode: 9
+  unit: multiplier
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: 25
+  pdf_page: 236
+  locus: 'p. 25, Appendix (Grahacāranibandhana-saṅgraha), [शकाब्दसंस्कारः] v. 18, second line: … and the figure beneath it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page, 1x3 --overlap 8: Saṅgraha vv. 17–19 (first line)'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 191, 235, 234]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,160,235,265] 1x3 --overlap 8, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): v. 18, second line'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 226, 235, 265]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r3c1 of clip [40,160,235,265] 1x3 --overlap 8, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): the figures beneath'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 226, 235, 265]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.variant.sangraha.moon_apogee.multiplier
+  value: 65
+  form: numeral_word
+  value_form: integer
+  word:
+    text: शेष
+    script: devanagari
+    system: katapayadi
+    decode: 65
+  unit: multiplier
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: 25
+  pdf_page: 236
+  locus: 'p. 25, Appendix (Grahacāranibandhana-saṅgraha), [शकाब्दसंस्कारः] v. 18, second line: … and the figure beneath it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page, 1x3 --overlap 8: Saṅgraha vv. 17–19 (first line)'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 191, 235, 234]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,160,235,265] 1x3 --overlap 8, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): v. 18, second line'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 226, 235, 265]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r3c1 of clip [40,160,235,265] 1x3 --overlap 8, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): the figures beneath'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 226, 235, 265]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.variant.sangraha.moon_node.multiplier
+  value: 13
+  form: numeral_word
+  value_form: integer
+  word:
+    text: लय
+    script: devanagari
+    system: katapayadi
+    decode: 13
+  unit: multiplier
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: 25
+  pdf_page: 236
+  locus: 'p. 25, Appendix (Grahacāranibandhana-saṅgraha), [शकाब्दसंस्कारः] v. 18, second line: … (printed …ै-, the instrumental plural) and the figure beneath it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page, 1x3 --overlap 8: Saṅgraha vv. 17–19 (first line)'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 191, 235, 234]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,160,235,265] 1x3 --overlap 8, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): v. 18, second line'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 226, 235, 265]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r3c1 of clip [40,160,235,265] 1x3 --overlap 8, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): the figures beneath'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 226, 235, 265]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.variant.sangraha.moon.divisor
+  value: 85
+  form: numeral_word
+  value_form: integer
+  word:
+    text: महा
+    script: devanagari
+    system: katapayadi
+    decode: 85
+  unit: divisor
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: 25
+  pdf_page: 236
+  locus: 'p. 25, Appendix (Grahacāranibandhana-saṅgraha), [शकाब्दसंस्कारः] v. 18, third line: … and the figure beneath it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page, 1x3 --overlap 8: Saṅgraha vv. 17–19 (first line)'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 226, 235, 265]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r3c1 of clip [40,160,235,265] 1x3 --overlap 8, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): v. 18, third line and the figures beneath'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 226, 235, 265]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.variant.sangraha.moon_apogee.divisor
+  value: 134
+  form: numeral_word
+  value_form: integer
+  word:
+    text: वैलक्ष्य
+    script: devanagari
+    system: katapayadi
+    decode: 134
+  unit: divisor
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: 25
+  pdf_page: 236
+  locus: 'p. 25, Appendix (Grahacāranibandhana-saṅgraha), [शकाब्दसंस्कारः] v. 18, third line: … and the figure beneath it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page, 1x3 --overlap 8: Saṅgraha vv. 17–19 (first line)'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 226, 235, 265]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r3c1 of clip [40,160,235,265] 1x3 --overlap 8, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): v. 18, third line and the figures beneath'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 226, 235, 265]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.variant.sangraha.moon_node.divisor
+  value: 32
+  form: numeral_word
+  value_form: integer
+  word:
+    text: राग
+    script: devanagari
+    system: katapayadi
+    decode: 32
+  unit: divisor
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: 25
+  pdf_page: 236
+  locus: 'p. 25, Appendix (Grahacāranibandhana-saṅgraha), [शकाब्दसंस्कारः] v. 18, third line: … (printed …ैश्च) and the figure beneath it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page, 1x3 --overlap 8: Saṅgraha vv. 17–19 (first line)'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 226, 235, 265]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r3c1 of clip [40,160,235,265] 1x3 --overlap 8, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): v. 18, third line and the figures beneath'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 226, 235, 265]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.variant.sangraha.jupiter.multiplier
+  value: 47
+  form: numeral_word
+  value_form: integer
+  word:
+    text: संभिद्
+    script: devanagari
+    system: katapayadi
+    decode: 47
+  unit: multiplier
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: 25
+  pdf_page: 236
+  locus: 'p. 25, Appendix (Grahacāranibandhana-saṅgraha), [शकाब्दसंस्कारः] v. 17, second line: the third word of the list as the editor emends it (the parenthesis after its first akṣaras holds the manuscript''s reading, a query and the editor''s reading) and the figure beneath it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page, 1x3 --overlap 8: Saṅgraha vv. 17–19 (first line)'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 160, 235, 199]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,160,235,265] 1x3 --overlap 8, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): v. 17, second line'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 191, 235, 234]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,160,235,265] 1x3 --overlap 8, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): the figures beneath'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 1440
+    clip: [85, 186, 175, 203]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'single tile of clip [85,186,175,203], rendered --dpi 1440 --upsample to enlarge (native 288 ppi; no detail above native): the word for 47 and the editor''s parenthesis'
+  status: read
+  verified_by: []
+  emendation: null
+  variants:
+  - witness: the manuscript, as grahacaranibandhana_1954 p. 25 v. 17 prints it inside the editor's parenthesis
+    word: संभिन्नगुणकारैः
+    decode: null
+  notes: 'The editor''s emendation (footnote 17b: ''Emendation according to the well-known Parahita Śakābda-Saṃskāra.''), class 2, keyed as printed. The manuscript''s reading has no word for 47, 153 or 20 (decode null). The second akṣara is read भि (bha), not मि (ma, which would decode 57), at the tight 1440-dpi enlargement; at the native 288 ppi the two are close. The quotation''s own word for 47 is संविद् (texts.aryabhatiya.sakabda_samskara.quotation.jupiter.multiplier).'
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 1440
+    clip: [85, 186, 175, 203]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-fable-5-1/2026-10-03-r2
+      on: 2026-10-03
+      dpi: 288
+      clip: [82, 186, 102, 206]
+      delivered_ppi: 288
+      note: ''
+    matches: second_read
+  further_look:
+  - issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-08-r3
+      on: 2026-10-08
+      dpi: 288
+      clip: [82, 186, 122, 206]
+      delivered_ppi: 288
+      max_edge: 2000
+      note: ''
+    matches: read
+  read_issue: disputed
+- key: texts.aryabhatiya.sakabda_samskara.variant.sangraha.signs.planets
+  value: मागराप्तं वियुक् शुक्रगुर्वोः, युग् ज्ञारसौरिषु
+  form: text
+  unit: statement
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: 25
+  pdf_page: 236
+  locus: p. 25, Appendix (Grahacāranibandhana-saṅgraha), [शकाब्दसंस्कारः] v. 18, first line, to the daṇḍa (not keyed). Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page, 1x3 --overlap 8: Saṅgraha vv. 17–19 (first line)'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 191, 235, 234]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,160,235,265] 1x3 --overlap 8, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): v. 18, first line'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: '''Divided by 235: subtracted for Venus and Jupiter, added for Mercury, Mars and Saturn'' (our reading): the same signs as the quotation of p. x.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 191, 235, 234]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.variant.sangraha.signs.moon
+  value: लब्धं हीन, महेर्युतम्
+  form: text
+  unit: statement
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: 25
+  pdf_page: 236
+  locus: p. 25, Appendix (Grahacāranibandhana-saṅgraha), [शकाब्दसंस्कारः] v. 18, third line, from लब्धं to the double daṇḍa (not keyed). Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page, 1x3 --overlap 8: Saṅgraha vv. 17–19 (first line)'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 226, 235, 265]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r3c1 of clip [40,160,235,265] 1x3 --overlap 8, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): v. 18, third line'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Parsed here, an inference: लब्धं हीनम्, अहेः युतम् (''the result is subtracted; of the node, added''). The quotation of p. x and Sarma''s sentence subtract the node''s correction; the parse adds it (the node-sign question, a queue item for an outside reader).'
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 226, 235, 265]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: the reading of हीन is untouched
+  third_look:
+    issue: disputed
+    read:
+      by: claude-fable-5-1/2026-10-03-r2
+      on: 2026-10-03
+      dpi: 288
+      clip: [118, 245, 180, 260]
+      delivered_ppi: 288
+      note: ''
+    matches: second_read
+  further_look:
+  - issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-08-r3
+      on: 2026-10-08
+      dpi: 288
+      clip: [118, 244, 180, 261]
+      delivered_ppi: 288
+      max_edge: 2000
+      note: ''
+    matches: second_read
+- key: texts.aryabhatiya.sakabda_samskara.variant.bija.epoch.word
+  value: 444
+  form: numeral_word
+  value_form: integer
+  word:
+    text: भवभानु
+    script: devanagari
+    system: katapayadi
+    decode: 444
+  unit: saka_years
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: 25
+  pdf_page: 236
+  locus: 'p. 25, Appendix, [बीजरूपशकाब्दसंस्कारः] v. 19, first line: the word before ऊनित (its final vowel lengthened in the sandhi) The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page, 1x3 --overlap 8: Saṅgraha vv. 17–19 (first line)'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 265, 240, 311.5]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,265,240,350] 1x2 --overlap 8, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): v. 19, first line and the figures beneath'
+  status: double_read
+  verified_by: []
+  emendation: null
+  variants:
+  - witness: 'the manuscript, grahacaranibandhana_1954 p. 25 footnote a: ''The Ms. reads भवमागोनिते which is wrong.'''
+    word: भवमाग
+    decode: 3544
+  notes: The manuscript's भवमाग decodes 3544 in kaṭapayādi (our decode; the editor prints none for it).
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 265, 240, 311.5]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.variant.bija.divisor
+  value: 235
+  form: numeral_word
+  value_form: integer
+  word:
+    text: शबर
+    script: devanagari
+    system: katapayadi
+    decode: 235
+  unit: divisor
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: 25
+  pdf_page: 236
+  locus: 'p. 25, Appendix, [बीजरूपशकाब्दसंस्कारः] v. 19, first line: … (printed …ोद्धृते, the footnote mark a after the figure) The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as kaṭapayādi. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 146, 270, 304]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of the page, 1x3 --overlap 8: Saṅgraha vv. 17–19 (first line)'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 265, 240, 311.5]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,265,240,350] 1x2 --overlap 8, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): v. 19, first line and the figures beneath'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 265, 240, 311.5]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.variant.bija.signs.positive
+  value: फलं लिप्ताविलिप्ताः स्युर्ज्ञाराक्यहि(?ह्वौ) धनं भवेत्
+  form: text
+  unit: statement
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: 25
+  pdf_page: 236
+  locus: p. 25, Appendix, [बीजरूपशकाब्दसंस्कारः] v. 19, second line, to the double daṇḍa (not keyed); the editor's parenthesis kept as printed. Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 296, 270, 450]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r3c1 of the page: Saṅgraha vv. 19–20 and the footnotes 17b, 19, a, 19-22a'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 265, 240, 311.5]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,265,240,350] 1x2 --overlap 8, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): v. 19, second line'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 303.5, 240, 350]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,265,240,350] 1x2 --overlap 8, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): v. 19, second line'
+  status: read
+  verified_by: []
+  emendation: null
+  notes: '''The result is in minutes and seconds; for Mercury, Mars, Saturn and the node (ahi) it is positive'' (our reading). Footnote 19: ''The Ms. reads before this अपि च आर्यभटीये''. Footnote 19-22a: quoted by Gārgya Kerala Nīlakaṇṭha (Trivandrum Palace No. 975).'
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 303.5, 240, 350]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-fable-5-1/2026-10-03-r2
+      on: 2026-10-03
+      dpi: 288
+      clip: [40, 303, 240, 319]
+      delivered_ppi: 288
+      max_edge: 2000
+      note: ''
+    matches: neither
+  read_issue: disputed
+- key: texts.aryabhatiya.sakabda_samskara.variant.bija.signs.negative
+  value: चन्द्रतत्तुङ्गजीवानां ऋणं कार्यं भृगोरपि
+  form: text
+  unit: statement
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: 25
+  pdf_page: 236
+  locus: p. 25, Appendix, [बीजरूपशकाब्दसंस्कारः] v. 20, first line, to the daṇḍa (not keyed). Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 296, 270, 450]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r3c1 of the page: Saṅgraha vv. 19–20 and the footnotes 17b, 19, a, 19-22a'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 303.5, 240, 350]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,265,240,350] 1x2 --overlap 8, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): v. 20'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: '''Negative for the Moon, its apogee, Jupiter and Venus'' (our reading). The third akṣara group is read त्तु as in v. 18''s चन्द्रतत्तुङ्ग; at 288 ppi it could be read तु.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 303.5, 240, 350]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.variant.bija.moon
+  value: 25
+  form: numeral_word
+  value_form: integer
+  word:
+    text: बाणकर
+    script: devanagari
+    system: bhutasankhya
+    decode: 25
+  unit: bija_units
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: 25
+  pdf_page: 236
+  locus: 'p. 25, Appendix, [बीजरूपशकाब्दसंस्कारः] v. 20, second line: … (printed …ा) and the figure beneath it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as bhūtasaṅkhyā. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 296, 270, 450]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r3c1 of the page: Saṅgraha vv. 19–20 and the footnotes 17b, 19, a, 19-22a'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 303.5, 240, 350]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,265,240,350] 1x2 --overlap 8, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): v. 20'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Bhūtasaṅkhyā, the digits read from the right: our decode. The bīja is multiplied by the Śaka years less 444 and divided by 235 (v. 19), the result in minutes and seconds.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 303.5, 240, 350]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.variant.bija.moon_apogee
+  value: 114
+  form: numeral_word
+  value_form: integer
+  word:
+    text: मनुभूमि
+    script: devanagari
+    system: bhutasankhya
+    decode: 114
+  unit: bija_units
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: 25
+  pdf_page: 236
+  locus: 'p. 25, Appendix, [बीजरूपशकाब्दसंस्कारः] v. 20, second line: the line''s second number word (the Moon''s apogee''s, in the nominative plural) and the figure beneath it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as bhūtasaṅkhyā. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 296, 270, 450]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r3c1 of the page: Saṅgraha vv. 19–20 and the footnotes 17b, 19, a, 19-22a'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 303.5, 240, 350]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,265,240,350] 1x2 --overlap 8, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): v. 20'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Bhūtasaṅkhyā, the digits read from the right: our decode. The bīja is multiplied by the Śaka years less 444 and divided by 235 (v. 19), the result in minutes and seconds.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 720
+    clip: [40, 303.5, 240, 350]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.variant.bija.mars
+  value: 50
+  form: numeral_word
+  value_form: integer
+  word:
+    text: शून्यशर
+    script: devanagari
+    system: bhutasankhya
+    decode: 50
+  unit: bija_units
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: 26
+  pdf_page: 237
+  locus: 'p. 26, Appendix, v. 21, first line: … (printed …ा) and the figure beneath it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as bhūtasaṅkhyā. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 0, 270, 154]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of the page (PDF 237), 1x3 --overlap 8: Saṅgraha v. 21'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [30, 30, 230, 66.5]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of clip [30,30,230,95] 1x2 --overlap 8 on PDF 237, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): v. 21, first line'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Bhūtasaṅkhyā, the digits read from the right: our decode. The bīja is multiplied by the Śaka years less 444 and divided by 235 (v. 19), the result in minutes and seconds.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 720
+    clip: [30, 30, 230, 66.5]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.variant.bija.mercury
+  value: 430
+  form: numeral_word
+  value_form: integer
+  word:
+    text: खाग्निवेद
+    script: devanagari
+    system: bhutasankhya
+    decode: 430
+  unit: bija_units
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: 26
+  pdf_page: 237
+  locus: 'p. 26, Appendix, v. 21, first line: … (printed …ा) and the figure beneath it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as bhūtasaṅkhyā. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 0, 270, 154]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of the page (PDF 237), 1x3 --overlap 8: Saṅgraha v. 21'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [30, 30, 230, 66.5]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of clip [30,30,230,95] 1x2 --overlap 8 on PDF 237, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): v. 21, first line'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Bhūtasaṅkhyā, the digits read from the right: our decode. The bīja is multiplied by the Śaka years less 444 and divided by 235 (v. 19), the result in minutes and seconds.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 720
+    clip: [30, 30, 230, 66.5]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.variant.bija.jupiter
+  value: 50
+  form: numeral_word
+  value_form: integer
+  word:
+    text: खपञ्च
+    script: devanagari
+    system: bhutasankhya
+    decode: 50
+  unit: bija_units
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: 26
+  pdf_page: 237
+  locus: 'p. 26, Appendix, v. 21, second line: … and the figure beneath it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as bhūtasaṅkhyā. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 0, 270, 154]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of the page (PDF 237), 1x3 --overlap 8: Saṅgraha v. 21'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [30, 30, 230, 66.5]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of clip [30,30,230,95] 1x2 --overlap 8 on PDF 237, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): v. 21, second line'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [30, 58.5, 230, 95]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of clip [30,30,230,95] 1x2 --overlap 8 on PDF 237, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): the figures beneath'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Bhūtasaṅkhyā, the digits read from the right: our decode. The bīja is multiplied by the Śaka years less 444 and divided by 235 (v. 19), the result in minutes and seconds.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 720
+    clip: [30, 30, 230, 66.5]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.variant.bija.venus
+  value: 160
+  form: numeral_word
+  value_form: integer
+  word:
+    text: खाङ्गनिशाकर
+    script: devanagari
+    system: bhutasankhya
+    decode: 160
+  unit: bija_units
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: 26
+  pdf_page: 237
+  locus: 'p. 26, Appendix, v. 21, second line: … (printed …ाः) and the figure beneath it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as bhūtasaṅkhyā. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 0, 270, 154]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of the page (PDF 237), 1x3 --overlap 8: Saṅgraha v. 21'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [30, 30, 230, 66.5]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of clip [30,30,230,95] 1x2 --overlap 8 on PDF 237, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): v. 21, second line'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [30, 58.5, 230, 95]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of clip [30,30,230,95] 1x2 --overlap 8 on PDF 237, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): the figures beneath'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Bhūtasaṅkhyā, the digits read from the right: our decode. The bīja is multiplied by the Śaka years less 444 and divided by 235 (v. 19), the result in minutes and seconds.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 720
+    clip: [30, 58.5, 230, 95]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.variant.bija.saturn
+  value: 21
+  form: numeral_word
+  value_form: integer
+  word:
+    text: शशिकर
+    script: devanagari
+    system: bhutasankhya
+    decode: 21
+  unit: bija_units
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: 26
+  pdf_page: 237
+  locus: 'p. 26, Appendix, v. 21, third line: … (printed …ाः) and the figure beneath it. The word: Devanagari Unicode (NFC), the number word''s stem only, without its case ending and without its sandhi with the next word, a hyphen of a compound dropped; decoded as bhūtasaṅkhyā. The value: the editor''s figure printed beneath the word, keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 0, 270, 154]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of the page (PDF 237), 1x3 --overlap 8: Saṅgraha v. 21'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [30, 58.5, 230, 95]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of clip [30,30,230,95] 1x2 --overlap 8 on PDF 237, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): v. 21, third line and the figures beneath'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Bhūtasaṅkhyā, the digits read from the right: our decode. The bīja is multiplied by the Śaka years less 444 and divided by 235 (v. 19), the result in minutes and seconds.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 720
+    clip: [30, 58.5, 230, 95]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.variant.bija.rahu
+  value: 540
+  form: integer
+  unit: bija_units
+  script: latin
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: 26
+  pdf_page: 237
+  locus: 'p. 26, Appendix, v. 21, third line: the figure printed beneath राहोः … (a dot or mark before it).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 0, 270, 154]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of the page (PDF 237), 1x3 --overlap 8: Saṅgraha v. 21'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [30, 58.5, 230, 95]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of clip [30,30,230,95] 1x2 --overlap 8 on PDF 237, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): v. 21, third line and the figures beneath'
+  status: double_read
+  verified_by: []
+  emendation: null
+  contradiction:
+    issue: disputed
+    with: [texts.aryabhatiya.sakabda_samskara.variant.bija.rahu.word]
+  notes: The editor's figure; the word above it is the ordinary number word for 96 (ṣaṇṇavati). Recorded both ways, not resolved.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 720
+    clip: [30, 58.5, 230, 95]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.variant.bija.rahu.word
+  value: षण्णवतिः
+  form: text
+  unit: statement
+  script: devanagari
+  source: grahacaranibandhana_1954
+  file: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+  edition_page: 26
+  pdf_page: 237
+  locus: 'p. 26, Appendix, v. 21, third line: Rāhu''s number word (printed राहोः … स्मृताः). Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 288
+    clip: [0, 0, 270, 154]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r1c1 of the page (PDF 237), 1x3 --overlap 8: Saṅgraha v. 21'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 720
+    clip: [30, 58.5, 230, 95]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: 'tile r2c1 of clip [30,30,230,95] 1x2 --overlap 8 on PDF 237, rendered --dpi 720 --upsample to enlarge (native 288 ppi; no detail above native): v. 21, third line'
+  status: double_read
+  verified_by: []
+  emendation: null
+  contradiction:
+    issue: disputed
+    with: [texts.aryabhatiya.sakabda_samskara.variant.bija.rahu]
+  notes: An ordinary Sanskrit number word, ṣaṇṇavati = 96 (our reading); no numeral-word system of the schema fits it, so it is keyed as text. The figure printed beneath it is 540.
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 720
+    clip: [30, 58.5, 230, 95]
+    delivered_ppi: 288
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.defined.ad_pair.sarma_1972_kerala_school
+  value: 683
+  form: integer
+  unit: ce_years
+  script: latin
+  source: sarma_1972_kerala_school
+  file: sarma_1972_kerala_school-sarma-history-kerala-school-1972.pdf
+  edition_page: 7
+  pdf_page: 22
+  locus: 'Ch. I §8 ''Parahita system of astronomy'', first sentence: the A.D. figure in ''the promulgation, in A. D. …, of the Parahita system by Haridatta ( c. …-… )''.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [30, 395, 214, 480]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [30,395,570,480] 3x1 --overlap 8: §8, first lines'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [206, 395, 394, 480]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c2 of clip [30,395,570,480] 3x1 --overlap 8: §8, first lines'
+  status: double_read
+  verified_by: [texts.aryabhatiya.sakabda_samskara.defined.ad_pair]
+  emendation: null
+  contradiction:
+    issue: disputed
+    with: [texts.aryabhatiya.sakabda_samskara.defined]
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 600
+    clip: [206, 395, 394, 480]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.defined.sarma_1972_kerala_school
+  value: 3785
+  form: integer
+  unit: kali_years
+  script: latin
+  source: sarma_1972_kerala_school
+  file: sarma_1972_kerala_school-sarma-history-kerala-school-1972.pdf
+  edition_page: 8
+  pdf_page: 23
+  locus: 'Ch. I §8, the translation of the Sadratnamālā: the Kali figure in ''the correction called Parahita was adopted by the wise in Kali … (A.D. …) for the planets other than the Sun''.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [206, 226, 394, 400]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c2 of clip [30,60,570,400] 3x2 --overlap 8: the translation of the Sadratnamālā'
+  status: double_read
+  verified_by: [texts.aryabhatiya.sakabda_samskara.defined]
+  emendation: null
+  notes: Printed with A.D. 683. The same translation gives 'composed in Kali 3623 (A.D. 522)' for Āryabhaṭa's treatise, the pair on which the epoch's convention rests.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 600
+    clip: [206, 226, 394, 400]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.epoch.kali.sarma_1972_kerala_school
+  value: 3623
+  form: integer
+  unit: kali_years
+  script: latin
+  source: sarma_1972_kerala_school
+  file: sarma_1972_kerala_school-sarma-history-kerala-school-1972.pdf
+  edition_page: 8
+  pdf_page: 23
+  locus: 'Ch. I §8, the translation of the Sadratnamālā: the Kali figure in ''The astronomical treatise composed in Kali … (A.D. …) by Āryabhaṭa''.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [206, 226, 394, 400]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c2 of clip [30,60,570,400] 3x2 --overlap 8: the translation of the Sadratnamālā'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [386, 226, 570, 400]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c3 of clip [30,60,570,400] 3x2 --overlap 8: the translation of the Sadratnamālā'
+  status: double_read
+  verified_by: [texts.aryabhatiya.sakabda_samskara.epoch.kali]
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 600
+    clip: [386, 226, 570, 400]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.epoch.ad_pair.sarma_1972_kerala_school
+  value: 522
+  form: integer
+  unit: ce_years
+  script: latin
+  source: sarma_1972_kerala_school
+  file: sarma_1972_kerala_school-sarma-history-kerala-school-1972.pdf
+  edition_page: 8
+  pdf_page: 23
+  locus: 'Ch. I §8, the translation of the Sadratnamālā: the A.D. figure in ''composed in Kali … (A.D. …)''.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [386, 226, 570, 400]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c3 of clip [30,60,570,400] 3x2 --overlap 8: the translation of the Sadratnamālā'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Kali 3623 elapsed begins in CE 522: the pair that makes the epoch elapsed (texts.aryabhatiya.sakabda_samskara.epoch).'
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 600
+    clip: [386, 226, 570, 400]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.epoch.sarma_1972_kerala_school
+  value: 444
+  form: integer
+  unit: saka_years
+  script: latin
+  source: sarma_1972_kerala_school
+  file: sarma_1972_kerala_school-sarma-history-kerala-school-1972.pdf
+  edition_page: 9
+  pdf_page: 24
+  locus: 'Ch. I §8: the figure in ''(on account of its being calculated for the years beginning from the ''śakābda'' of Āryabhaṭa, viz., …)''.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [30, 60, 214, 234]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [30,60,570,400] 3x2 --overlap 8: §8, the śakābda-saṃskāra'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [206, 60, 394, 234]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c2 of clip [30,60,570,400] 3x2 --overlap 8: §8, the śakābda-saṃskāra'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [386, 60, 570, 234]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c3 of clip [30,60,570,400] 3x2 --overlap 8: §8, the śakābda-saṃskāra'
+  status: double_read
+  verified_by: [texts.aryabhatiya.sakabda_samskara.epoch]
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 600
+    clip: [30, 60, 214, 234]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.sakabda_samskara.statement.sarma_1972_kerala_school
+  value: This correction specifies that for every completed year after Śaka 444, a correction in minutes (kalā) of −9/85, −65/134, −13/32, + 45/235, + 420/235, −47/235, −153/235 and +20/235 should be made to the Mean positions of the Moon, Moon's apsis, Moon's node, Mars, Mercury, Jupiter, Venus and Saturn, respectively, no correction being necessary in the case of the Sun.
+  form: text
+  unit: statement
+  script: latin
+  source: sarma_1972_kerala_school
+  file: sarma_1972_kerala_school-sarma-history-kerala-school-1972.pdf
+  edition_page: 9
+  pdf_page: 24
+  locus: Ch. I §8, the sentence from 'This correction specifies' to 'the case of the Sun.' (the footnote mark … not keyed). A minus sign is keyed as − (U+…) whatever dash the face sets. Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [30, 60, 214, 234]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [30,60,570,400] 3x2 --overlap 8: §8, the śakābda-saṃskāra'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [206, 60, 394, 234]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c2 of clip [30,60,570,400] 3x2 --overlap 8: §8, the śakābda-saṃskāra'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [386, 60, 570, 234]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c3 of clip [30,60,570,400] 3x2 --overlap 8: §8, the śakābda-saṃskāra'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [30, 226, 214, 400]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [30,60,570,400] 3x2 --overlap 8: §8, the śakābda-saṃskāra'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [206, 226, 394, 400]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c2 of clip [30,60,570,400] 3x2 --overlap 8: §8, the śakābda-saṃskāra'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [386, 226, 570, 400]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c3 of clip [30,60,570,400] 3x2 --overlap 8: §8, the śakābda-saṃskāra'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: The second witness of the eight rates, their order, sign and unit, and of the Sun's null rate; it pairs Śaka 444 with no Kali year. The 2 of the last '235' is damaged in the scan (a stroke like ∠); read 2 from the other seven denominators of the same sentence and grahacaranibandhana_1954 p. x. Footnote 1 (p. 9, PDF 24, clip [30,600,570,800]) transliterates the verse ('vāgbhāvo' (444) nāc chakābdāt dhana-śata-laya-hān …) with the same words as grahacaranibandhana_1954 p. x; a lead, not keyed.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 600
+    clip: [206, 60, 394, 234]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

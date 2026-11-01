@@ -1,0 +1,768 @@
+id: authority/suryasiddhanta/whitney_moon_manda_equation
+methods: [suryasiddhanta]
+class: editor_computed
+source: suryasiddhanta_burgess_1860
+edition_page: 209
+pdf_page: 70
+locus: 'note on ii.39, suryasiddhanta_burgess_1860 printed pp. 209-210 (PDF 70-71): from "To give a farther and practical illustration of the process" (p. 209) to the line "Moon''s true longitude" (p. 210), before "We present below, in a briefer form"'
+rounding: 'p. 210 (PDF 71, after the sun''s calculation): Whitney states he neglected the seconds, rejecting the fraction of a minute or counting it as a minute according as it was less or greater than a half; the moon''s mean anomaly and arcs are printed to seconds, the sines, epicycle and equation to whole minutes'
+precision: seconds of arc for the longitudes and the anomaly; whole minutes for the sines, the epicycle diminution, the bhujaphala and the equation
+datum_keys: [texts.suryasiddhanta.procedures.epicycle_variation.rule, texts.suryasiddhanta.procedures.manda.equation]
+notes: 'Moon''s manda equation for 1860 Jan 1, midnight, Washington: mean longitude and apsis carried from Ujjayini by the desantara correction, mean anomaly, bhuja arc (anomaly in the fourth quadrant), base-sine and perpendicular-sine (by the interpolation of ii.31-32, values only stated), the epicycle diminished by the rule of ii.38 (radius 3438 in the proportion), bhujaphala by ii.39, its arc taken equal (below 225''), equation subtracted to the true longitude. Chapter i references printed beside the lines (''i. 53'', ''i. 60, 61'', ''ii. 29'') and verse numbers are not keyed. The sun''s companion calculation on p. 210 is keyed as a separate fixture (whitney_sun_manda_equation, proposed). Calendar of the date not stated on the page.'
+values:
+- name: input.time
+  role: input
+  value: the 1st of January, 1860, midnight, at Washington
+  form: text
+  unit: none
+  script: latin
+  edition_page: 209
+  pdf_page: 70
+  locus: 'para. "To give a farther and practical illustration", line 4: from "the 1st" to "Washington"; Latin text'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 176, 204, 196]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles r1c1 and r1c2 of clip [55,176,345,196] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_moon_manda_equation.yaml (sha256 4b838314)
+  status: double_read
+  notes: the page names no calendar
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 176, 204, 196]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.moon_mean_longitude_ujjayini
+  role: input
+  value: [11, 15, 23, 24]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 209
+  pdf_page: 70
+  locus: table 1, line 'Moon's mean longitude, midnight, at Ujjayini (i. 53),'; rdms [signs, deg, min, sec] as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [262, 190, 342, 215]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_moon_manda_equation.yaml (sha256 4b838314)
+  status: double_read
+  notes: printed with s ° ′ ″ marks
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [262, 190, 342, 215]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.desantara_correction
+  role: input
+  value: [5, 35, 37]
+  form: sexagesimal
+  unit: degrees_minutes_seconds
+  script: latin
+  edition_page: 209
+  pdf_page: 70
+  locus: table 1, line 'add the equation for difference of meridian (decantaraphala), or for her motion between midnight at Ujj. and Wash. (i. 60, 61),' (two lines braced, one figure); [deg, min, sec] as printed in the degree, minute and second columns
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [262, 200, 342, 300]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_moon_manda_equation.yaml (sha256 4b838314)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [262, 200, 342, 300]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.moon_mean_longitude
+  role: output
+  value: [11, 20, 59, 1]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 209
+  pdf_page: 70
+  locus: table 1, line 'Moon's mean longitude at required time,'; rdms [signs, deg, min, sec] as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [262, 200, 342, 300]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_moon_manda_equation.yaml (sha256 4b838314)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [262, 200, 342, 300]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.apsis_longitude_ujjayini
+  role: input
+  value: [10, 9, 42, 26]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 209
+  pdf_page: 70
+  locus: table 1, line 'Longitude of moon's apsis, midnight, at Ujjayini (i. 53),'; rdms [signs, deg, min, sec] as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [262, 200, 342, 300]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_moon_manda_equation.yaml (sha256 4b838314)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [262, 200, 342, 300]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.apsis_desantara_correction
+  role: input
+  value: [2, 50]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 209
+  pdf_page: 70
+  locus: table 1, line 'add for difference of meridian, as above,'; [min, sec] as printed in the minute and second columns
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [262, 200, 342, 300]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_moon_manda_equation.yaml (sha256 4b838314)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [262, 200, 342, 300]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.apsis_longitude
+  role: output
+  value: [10, 9, 45, 16]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 209
+  pdf_page: 70
+  locus: table 1, line 'Longitude of moon's apsis at required time,'; rdms [signs, deg, min, sec] as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [262, 200, 342, 300]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_moon_manda_equation.yaml (sha256 4b838314)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [262, 200, 342, 300]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.deduct_moon_mean_longitude
+  role: input
+  value: [11, 20, 59, 1]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 209
+  pdf_page: 70
+  locus: table 1, line 'deduct moon's mean longitude (ii. 29),'; rdms [signs, deg, min, sec] as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [262, 200, 342, 300]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_moon_manda_equation.yaml (sha256 4b838314)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [262, 200, 342, 300]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mean_anomaly
+  role: output
+  value: [10, 18, 46, 15]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 209
+  pdf_page: 70
+  locus: table 1, line 'Moon's mean anomaly (mandakendra),'; rdms [signs, deg, min, sec] as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [262, 200, 342, 300]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_moon_manda_equation.yaml (sha256 4b838314)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [262, 200, 342, 300]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.anomaly
+  role: input
+  value: [10, 18, 46, 15]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 209
+  pdf_page: 70
+  locus: table 2, line 'From the anomaly,'; rdms [signs, deg, min, sec] as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [262, 370, 342, 435]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_moon_manda_equation.yaml (sha256 4b838314)
+  status: double_read
+  notes: printed with s ° ′ ″ marks
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [262, 370, 342, 435]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.three_quadrants
+  role: input
+  value: 9
+  form: integer
+  unit: signs
+  script: latin
+  edition_page: 209
+  pdf_page: 70
+  locus: table 2, line 'deduct … quadrants,'; [signs] (printed in the signs column)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [262, 370, 342, 435]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_moon_manda_equation.yaml (sha256 4b838314)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [262, 370, 342, 435]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.arc_md
+  role: output
+  value: [1, 18, 46, 15]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 209
+  pdf_page: 70
+  locus: table 2, line 'remains the arc M D,'; rdms [signs, deg, min, sec] as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [262, 370, 342, 435]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_moon_manda_equation.yaml (sha256 4b838314)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [262, 370, 342, 435]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.quadrant
+  role: input
+  value: 3
+  form: integer
+  unit: signs
+  script: latin
+  edition_page: 209
+  pdf_page: 70
+  locus: table 2, line 'take this from a quadrant,'; [signs]
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [262, 370, 342, 435]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_moon_manda_equation.yaml (sha256 4b838314)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [262, 370, 342, 435]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.arc_am
+  role: output
+  value: [1, 11, 13, 45]
+  form: rdms
+  unit: signs_degrees_minutes_seconds
+  script: latin
+  edition_page: 209
+  pdf_page: 70
+  locus: table 2, line 'remains the arc A M,'; rdms [signs, deg, min, sec] as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [262, 370, 342, 435]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_moon_manda_equation.yaml (sha256 4b838314)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [262, 370, 342, 435]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.base_sine
+  role: output
+  value: 2266
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 209
+  pdf_page: 70
+  locus: 'para. "And by the method already illustrated", line 3: "M B, is found to be …''"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 435, 345, 550]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [55,435,345,550] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_moon_manda_equation.yaml (sha256 4b838314)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 435, 345, 550]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.perpendicular_sine
+  role: output
+  value: 2585
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 209
+  pdf_page: 70
+  locus: 'same para., line 5: "anomaly, is …''"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 435, 204, 550]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [55,435,345,550] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_moon_manda_equation.yaml (sha256 4b838314)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 435, 204, 550]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.epicycle_contraction
+  role: input
+  value: 20
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 209
+  pdf_page: 70
+  locus: 'para. "The next point is to find the true size", line 2: "amounts at D to …''"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 435, 345, 550]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [55,435,345,550] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_moon_manda_equation.yaml (sha256 4b838314)
+  status: double_read
+  notes: 'the same 20'' recurs in the symbolic proportion ''sin A D : 20'' : : sin A M : diminution at M'' (line 4), not keyed again'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 435, 345, 550]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.epicycle_proportion
+  role: output
+  value: '3438 : 20 :: 2266 : 13'
+  form: text
+  unit: none
+  script: latin
+  edition_page: 209
+  pdf_page: 70
+  locus: 'same para., centred line: "…"; Latin text, spacing normalised; a proportion keyed in the form a: b:: c: d, the symbols: and:: each set off by one space'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 435, 204, 550]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'spans tiles r1c1 and r1c2 of clip [55,435,345,550] 2x1 --overlap 8; old-style figures; "::" printed ": :"; first-read fixture file k9/fixtures/whitney_moon_manda_equation.yaml (sha256 4b838314)'
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 435, 204, 550]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.epicycle_diminution
+  role: output
+  value: 13
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 209
+  pdf_page: 70
+  locus: same centred line, fourth term "…"
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 435, 345, 550]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [55,435,345,550] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_moon_manda_equation.yaml (sha256 4b838314)
+  status: double_read
+  notes: printed without a unit mark
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 435, 345, 550]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.epicycle_at_apsis
+  role: input
+  value: [32]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 209
+  pdf_page: 70
+  locus: para. "Deducting from …°, the circumference of the epicycle at A"; [deg]
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 435, 204, 550]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [55,435,345,550] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_moon_manda_equation.yaml (sha256 4b838314)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 435, 204, 550]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.epicycle_at_m
+  role: output
+  value: [31, 47]
+  form: sexagesimal
+  unit: degrees_minutes
+  script: latin
+  edition_page: 209
+  pdf_page: 70
+  locus: 'same para., line 2: "we have …° …'' as its dimensions at M"; [deg, min]'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 538, 345, 560]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_moon_manda_equation.yaml (sha256 4b838314)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 538, 345, 560]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.bhujaphala_proportion
+  role: output
+  value: '360° : 31° 47'' :: 2266 : 200'
+  form: text
+  unit: none
+  script: latin
+  edition_page: 210
+  pdf_page: 71
+  locus: 'para. "… more, by verse …", centred line: "…°: …° …'':: …"; Latin text, spacing normalised, the prime as U+0027; a proportion keyed in the form a: b:: c: d, the symbols: and:: each set off by one space'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 75, 204, 165]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: spans tiles r1c1 and r1c2 of clip [55,75,345,165] 2x1 --overlap 8; old-style figures; first-read fixture file k9/fixtures/whitney_moon_manda_equation.yaml (sha256 4b838314)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 75, 204, 165]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.bhujaphala
+  role: output
+  value: 200
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 210
+  pdf_page: 71
+  locus: 'para. "The value, then, of mn", line 2: "is …''"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 75, 204, 165]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [55,75,345,165] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_moon_manda_equation.yaml (sha256 4b838314)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 75, 204, 165]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.first_tabular_sine_limit
+  role: input
+  value: 225
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 210
+  pdf_page: 71
+  locus: 'same para., line 3: "Being less than …''"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 75, 204, 165]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [55,75,345,165] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_moon_manda_equation.yaml (sha256 4b838314)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 75, 204, 165]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.equation
+  role: output
+  value: [3, 20]
+  form: sexagesimal
+  unit: degrees_minutes
+  script: latin
+  edition_page: 210
+  pdf_page: 71
+  locus: 'same para., line 4: "the same value: …° …'', accordingly, is the moon''s equation of the apsis"; [deg, min]'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 75, 204, 165]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [55,75,345,165] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_moon_manda_equation.yaml (sha256 4b838314)
+  status: double_read
+  notes: stated subtractive (rna) in the text
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 75, 204, 165]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.moon_mean_longitude_final
+  role: input
+  value: [11, 20, 59]
+  form: rdms
+  unit: signs_degrees_minutes
+  script: latin
+  edition_page: 210
+  pdf_page: 71
+  locus: table, line 'Moon's mean longitude,'; rdms [signs, deg, min] as printed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [250, 148, 342, 285]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_moon_manda_equation.yaml (sha256 4b838314)
+  status: double_read
+  notes: printed with s ° ′ marks; seconds not printed
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [250, 148, 342, 285]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.deduct_equation
+  role: input
+  value: [3, 20]
+  form: sexagesimal
+  unit: degrees_minutes
+  script: latin
+  edition_page: 210
+  pdf_page: 71
+  locus: table, line 'deduct the equation,'; [deg, min] in the degree and minute columns
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [250, 148, 342, 285]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_moon_manda_equation.yaml (sha256 4b838314)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [250, 148, 342, 285]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.moon_true_longitude
+  role: output
+  value: [11, 17, 39]
+  form: rdms
+  unit: signs_degrees_minutes
+  script: latin
+  edition_page: 210
+  pdf_page: 71
+  locus: table, line 'Moon's true longitude,'; rdms [signs, deg, min]
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [250, 148, 342, 285]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file k9/fixtures/whitney_moon_manda_equation.yaml (sha256 4b838314)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [250, 148, 342, 285]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

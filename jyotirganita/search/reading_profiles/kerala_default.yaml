@@ -1,0 +1,91 @@
+# Reading profile kerala_default.
+#
+# How a recorded element is read against a civil day, for every element that
+# needs a match mode and does not state its own. Each entry cites the statements
+# it encodes by datum key; an entry for which the inventory found no printed
+# rule is `provisional` with the gap records searched, and every candidate
+# evaluated under it carries
+# provisional:search.reading_profiles.kerala_default.<element>. Nothing here
+# changes the preset's assignment rule or convention set: the conventions say
+# how the day is labelled, the profile how a record is read against it. The
+# wording of a statement is the datum's, never this file's.
+profile: kerala_default
+names: kerala
+description: >-
+  The inclusive reading for dating Kerala records: an occurrence element is read as
+  present at some instant of the civil day, as sewell_dikshit_1896 Art. 31 allows for some purposes and
+  its worked Example XXV does for a date (both systems of naming a civil day, sewell_dikshit_1896 rule D
+  (d)); a planet's sign is read at sunrise, and Jupiter's by its mean place, the
+  mean-sign system of pillai_1911_chronology §102 and §105. The candidates show for each occurrence
+  whether it was also the label assigned at sunrise.
+entries:
+  - element: tithi
+    match: any_occurrence
+    cites:
+      - search.reading_rules.tithi.any_moment.sewell_dikshit_1896
+      - search.reading_rules.tithi.connected_after_sunrise.sewell_dikshit_1896
+      - search.reading_rules.tithi.two_systems.sewell_dikshit_1896
+      - search.reading_rules.tithi.civil_sunrise_religious_begin.pillai_1911_chronology
+      - search.reading_rules.occurrence.ceremony.sewell_dikshit_1896
+  - element: nakshatra
+    match: any_occurrence
+    cites:
+      - search.reading_rules.nakshatra.cited_with_tithi.pillai_1911_chronology
+      - search.reading_rules.nakshatra.at_sunrise_check.sewell_dikshit_1896
+      - search.reading_rules.occurrence.ceremony.sewell_dikshit_1896
+  - element: yoga
+    match: any_occurrence
+    cites:
+      - search.reading_rules.tithi.any_moment.sewell_dikshit_1896
+      - search.reading_rules.occurrence.ceremony.sewell_dikshit_1896
+    provisional: no page found states a reading rule for the yoga; it is read as the tithi is
+    searched: [search.reading_rules.yoga.reading.gap]
+  - element: karana
+    match: any_occurrence
+    cites:
+      - search.reading_rules.tithi.any_moment.sewell_dikshit_1896
+      - search.reading_rules.occurrence.ceremony.sewell_dikshit_1896
+    provisional: no page found states a reading rule for the karaṇa; it is read as the tithi is
+    searched: [search.reading_rules.karana.reading.gap]
+  - element: planet_rasi
+    match: at_sunrise
+    position: true
+    position_by_body: {jupiter: mean}
+    cites:
+      - search.reading_rules.planet.almanac_sunrise.sewell_dikshit_1896
+      - search.reading_rules.planet_rasi.jupiter_fourth_mode.pillai_1911_chronology
+      - search.reading_rules.planet_rasi.jupiter_mean_sign.pillai_1911_chronology
+    provisional: no page found states the instant of the day at which a recorded planet's sign is read, nor the place (true or mean) of a planet other than Jupiter
+    searched: [search.reading_rules.planet.reading_instant.gap, search.reading_rules.planet.position.gap]
+  - element: planet_nakshatra
+    match: at_sunrise
+    position: true
+    cites:
+      - search.reading_rules.planet.almanac_sunrise.sewell_dikshit_1896
+    provisional: no page found states the instant of the day at which a recorded planet's nakṣatra is read, nor whether it is the true or the mean place
+    searched: [search.reading_rules.planet.reading_instant.gap, search.reading_rules.planet.position.gap]
+  - element: moon_rasi
+    match: at_sunrise
+    cites:
+      - search.reading_rules.planet.almanac_sunrise.sewell_dikshit_1896
+    provisional: no page found states the instant of the day at which a recorded Moon's sign is read
+    searched: [search.reading_rules.moon_rasi.reading_instant.gap]
+  - element: sun_rasi
+    match: at_sunrise
+    cites:
+      - search.reading_rules.planet.almanac_sunrise.sewell_dikshit_1896
+      - search.reading_rules.ayana.nirayana.sewell_dikshit_1896
+    provisional: no page found states the instant of the day at which a recorded Sun's sign is read
+    searched: [search.reading_rules.planet.reading_instant.gap]
+  - element: ayana
+    match: at_sunrise
+    cites:
+      - search.reading_rules.ayana.uttarayana.sewell_dikshit_1896
+      - search.reading_rules.ayana.dakshinayana.sewell_dikshit_1896
+      - search.reading_rules.ayana.nirayana.sewell_dikshit_1896
+    provisional: the statements define the ayanas by the sidereal Makara and Karka saṅkrāntis; no page found states the instant of the day at which a recorded ayana is read
+    searched: [search.reading_rules.ayana.reading_instant.gap]
+  - element: eclipse
+    cites:
+      - search.reading_rules.eclipse.calculated.sewell_dikshit_1896
+    note: an eclipse named in a record may be a calculated one (sewell_dikshit_1896 Art. 40a); the search reports the modern engine's eclipse geometry and states visibility at the observer only when the query asks for it

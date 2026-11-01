@@ -1,0 +1,195 @@
+id: authority/aryabhatiya/mahabhaskariya_1960_ch8_16_mercury
+methods: [aryabhatiya]
+class: editor_computed
+source: mahabhaskariya_1960
+file: mahabhaskariya_1960-mahabhaskariya-shukla-1960.pdf
+edition_page: 220
+pdf_page: 305
+locus: VIII.16 and Shukla's solution ('The following is the solution of this example'), p. 220 (PDF 305) to p. 221 (PDF 306)
+rounding: none (integers)
+precision: integers, as printed
+datum_keys: [texts.aryabhatiya.mercury_sighrocca.revolutions, texts.aryabhatiya.civil_days.laghubhaskariya_1963, texts.aryabhatiya.procedures.residue.from_longitude.mahabhaskariya_1960]
+notes: 'The question is Bhāskara I''s (mahabhaskariya_1960 ch. VIII); the solution and its figures are Shukla''s (editor_computed). A pulveriser: the test checks the printed pair against the keyed revolution number and civil days, not the solving. Mercury''s revolution number here is its śīghra''s (aryabhatiya_1976 Gītikā 3–4).'
+values:
+- name: input.mercury_longitude
+  role: input
+  value: [3, 15, 5]
+  form: rdms
+  unit: rasi_deg_min
+  script: latin
+  edition_page: 220
+  pdf_page: 305
+  locus: VIII.16 (Mercury), 'The (mean) longitude of Mercury is … signs, … degrees, and … minutes'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 305)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.minutes
+  role: output
+  value: 6305
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 220
+  pdf_page: 305
+  locus: VIII.16 (Mercury), 'Longitude of Mercury = … signs …° …′ = …′'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 305)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.abraded_mercury_revolutions
+  role: input
+  value: 896851
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 220
+  pdf_page: 305
+  locus: VIII.16 (Mercury), 'revolution-number of Mercury / civil days in a yuga = … / …', the numerator.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 305)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.abraded_civil_days
+  role: input
+  value: 78895875
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 220
+  pdf_page: 305
+  locus: VIII.16 (Mercury), the same fraction, the denominator.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 305)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.residue
+  role: output
+  value: 23029559
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 220
+  pdf_page: 305
+  locus: VIII.16 (Mercury), 'we get … as the quotient. This is the residue of the revolutions.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 305)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.ahargana
+  role: output
+  value: 74350409
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 221
+  pdf_page: 306
+  locus: VIII.16 (Mercury), p. 221, 'By the usual method, we get x = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 306)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.revolutions
+  role: output
+  value: 845180
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 221
+  pdf_page: 306
+  locus: VIII.16 (Mercury), p. 221, 'and y = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 306)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''

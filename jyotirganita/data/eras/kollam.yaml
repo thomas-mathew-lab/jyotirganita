@@ -1,0 +1,650 @@
+era: kollam
+epoch:
+  date: eras.kollam.epoch.gislen
+  calendar: julian
+  calendar_ref: eras.kollam.epoch.calendar.gislen
+  day_start: eras.kollam.day_start.sarma
+counting:
+  mode: elapsed
+  datum: eras.kollam.counting.sewell_dikshit_1896
+year_start:
+  simha:
+    rule: sankranti.simha
+    sun: true
+    epoch: era
+    datum: eras.kollam.year_start.sewell_dikshit_1896
+  kanya:
+    rule: sankranti.kanya
+    sun: true
+    epoch:
+      date: eras.kollam.epoch.sarma_b
+      calendar: julian
+      calendar_ref: eras.kollam.epoch.calendar.sarma
+      day_start: eras.kollam.day_start.sarma
+    datum: eras.kollam.year_start.sewell_dikshit_1896
+range:
+  from: epoch
+  to: open
+  datum: eras.kollam.range.calendar_reform_committee_1955
+months:
+  naming: rasi
+  datum: eras.kollam.year_start.sewell_dikshit_1896
+notes: 'Kollam, epochs by the library author''s ruling: the first days of the year 0. The era and its Siṃha year start (South Malabar) count from Gislén''s CE 25 July 824 (Julian, gislen_2018), Chingam 1; the Kanyā year start (North Malabar) from Sarma p. 93''s August 25, 824 (Julian), Kanni 1; sewell_dikshit_1896 Art. 71''s year pair gives the count. Sarma''s August 15, 824 (abstract), August 25, 825 (p. 99) and September 25, 824 (p. 99; p. 93''s September 25/15), and Menon''s August 15, 824 as Sarma quotes it, are kept with contradiction.'
+data:
+- key: eras.kollam.epoch.sarma_b
+  value: August 25, 824 AD
+  form: text
+  unit: date
+  script: latin
+  source: sarma_1996_kollam_era
+  edition_page: 93
+  pdf_page: 1
+  locus: 'the paragraph beginning ''Kollam era commenced on a date corresponding to'': the date only Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 290, 405, 420]
+    delivered_ppi: 300
+    max_edge: 2000
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'The epoch of the Kanyā year start (North Malabar) as the record adopts it: Kanni 1 of the year 0. Sarma gives it as the start of the Siṃha year; it is the first day of Kanyā under the Parahita, Āryabhaṭīya and Sūrya-siddhānta methods, so reading it as the Kanyā epoch is inferred. The era''s epoch is eras.kollam.epoch.gislen. sewell_dikshit_1896 Art. 71 (eras.kollam.counting.sewell_dikshit_1896) and calendar_reform_committee_1955 Table 27 (eras.kollam.range.calendar_reform_committee_1955) witness the year only. Sarma prints three epochs (this, eras.kollam.epoch.sarma_a, eras.kollam.epoch.sarma_c); sarma_2009_facets reprints the paper (eras.kollam.epoch.sarma_b.sarma_2009_facets).'
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 290, 405, 420]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- key: eras.kollam.epoch.calendar.sarma
+  value: From the time of the acceptance of Pope Gregory's compensation of 10 days to the Julian era, in 1582, the commencement of the Kollam years has shifted to August 15 of the Christian year.
+  form: text
+  unit: statement
+  script: latin
+  source: sarma_1996_kollam_era
+  edition_page: 93
+  pdf_page: 1
+  locus: 'the paragraph beginning ''Kollam era commenced on a date corresponding to'': the sentence beginning ''From the time'' Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 290, 405, 420]
+    delivered_ppi: 300
+    max_edge: 2000
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'The calendar statement of the Kollam epochs: dates before 1582 in the Julian reckoning.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 290, 405, 420]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- key: eras.kollam.epoch.sarma_a
+  value: August 15, 824 AD
+  form: text
+  unit: date
+  script: latin
+  source: sarma_1996_kollam_era
+  edition_page: 93
+  pdf_page: 1
+  locus: 'the abstract, ''Kollam era, called also Malabar era, is reckoned from'': the date only Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [40, 125, 400, 215]
+    delivered_ppi: 300
+    max_edge: 2000
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  contradiction:
+    issue: disputed
+    with: [eras.kollam.epoch.gislen]
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [40, 125, 400, 215]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- key: eras.kollam.epoch.sarma_c
+  value: August 25, 825 AD
+  form: text
+  unit: date
+  script: latin
+  source: sarma_1996_kollam_era
+  edition_page: 99
+  pdf_page: 7
+  locus: 'the sentence ''What remains in them is the fact of the era to have commenced on'': the date only Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 300, 405, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  contradiction:
+    issue: disputed
+    with: [eras.kollam.epoch.gislen]
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 300, 405, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- key: eras.kollam.epoch.menon
+  value: to adopt the new era from the first of Chiṅṅam of that year August 15, 824, as Kollam year one
+  form: text
+  unit: statement
+  script: latin
+  source: sarma_1996_kollam_era
+  edition_page: 99
+  pdf_page: 7
+  locus: 'the quotation from Menon: the words from ''to adopt'' to ''year one'' Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 300, 405, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: Quoted by Sarma; recorded as printed in sarma_1996_kollam_era.
+  contradiction:
+    issue: disputed
+    with: [eras.kollam.epoch.gislen]
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 300, 405, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-03-r2
+      on: 2026-10-03
+      dpi: 300
+      clip: [25, 300, 405, 560]
+      delivered_ppi: 300
+      max_edge: 2000
+      note: ''
+    matches: read
+- key: eras.kollam.epoch.kanya.sarma
+  value: September 25, 824
+  form: text
+  unit: date
+  script: latin
+  source: sarma_1996_kollam_era
+  edition_page: 99
+  pdf_page: 7
+  locus: 'the sentence on the beginning of the Kollam era in North Malabar (the sentence beginning ''Kali day''): the date only Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 405, 200]
+    delivered_ppi: 300
+    max_edge: 2000
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: The epoch of the Kanyā year start (North Malabar). Sarma equates it with Kali day 14,34,160; bag_2003_julian_days Example 2 converts the same Kali day to 25 Aug. 825 AD.
+  contradiction:
+    issue: disputed
+    with: [eras.kollam.epoch.sarma_b]
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 90, 405, 200]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- key: eras.kollam.epoch.kanya.sarma_93
+  value: in North Kerala the era is reckoned from the next month, Kanyā, i.e. from September 25/15 instead of from August 25/15.
+  form: text
+  unit: statement
+  script: latin
+  source: sarma_1996_kollam_era
+  edition_page: 93
+  pdf_page: 1
+  locus: the words from 'in North Kerala' to the end of that sentence Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 410, 405, 460]
+    delivered_ppi: 300
+    max_edge: 2000
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: Same paper as eras.kollam.epoch.kanya.sarma; not an independent source.
+  contradiction:
+    issue: disputed
+    with: [eras.kollam.epoch.sarma_b]
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 410, 405, 460]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- key: eras.kollam.day_start.sarma
+  value: The days are reckoned from one local sunrise to the next.
+  form: text
+  unit: statement
+  script: latin
+  source: sarma_1996_kollam_era
+  edition_page: 94
+  pdf_page: 2
+  locus: the sentence beginning 'The days are reckoned' Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 190, 405, 260]
+    delivered_ppi: 300
+    max_edge: 2000
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 190, 405, 260]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- key: eras.kollam.year_start.sarma
+  value: In Kollam era, the years commence with the Siṃha-rāśi (sign Leo)
+  form: text
+  unit: statement
+  script: latin
+  source: sarma_1996_kollam_era
+  edition_page: 94
+  pdf_page: 2
+  locus: the words from 'In Kollam era' to '(sign Leo)' Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 190, 405, 260]
+    delivered_ppi: 300
+    max_edge: 2000
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 190, 405, 260]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- key: eras.kollam.counting.sarma
+  value: Kollam era alone, is expressed in its current years like the Christian era, AD.
+  form: text
+  unit: statement
+  script: latin
+  source: sarma_1996_kollam_era
+  edition_page: 94
+  pdf_page: 2
+  locus: the words from 'Kollam era alone' to the closing bracket Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 40, 405, 90]
+    delivered_ppi: 300
+    max_edge: 2000
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: '''Current'' in Sarma''s and sewell_dikshit_1896''s sense: the year numbered N runs from the year start in A.D. 824 + N (eras.kollam.counting.sewell_dikshit_1896); the record counts it as the engine''s elapsed count from the 824 epoch.'
+  convention: stated
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 40, 405, 140]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-03-r2
+      on: 2026-10-03
+      dpi: 300
+      clip: [25, 40, 405, 150]
+      delivered_ppi: 300
+      max_edge: 2000
+      note: ''
+    matches: second_read
+- key: eras.kollam.counting.sewell_dikshit_1896
+  value: The first Kollam âṇḍu commenced in Kali 3927 current, Śaka 748 current, A.D. 825—26, the epoch being Śaka 747—48 current, A.D. 824—25. The years of this era as used are current years, and we have treated them so in our Tables.
+  form: text
+  unit: statement
+  script: latin
+  source: sewell_dikshit_1896
+  edition_page: 45
+  pdf_page: 61
+  locus: Art. 71, the two sentences beginning 'The first Kollam' Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 401
+    clip: [15, 205, 372, 365]
+    delivered_ppi: 401
+    max_edge: 2000
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Year 1 runs from the year start in A.D. 825 and the epoch year is A.D. 824—25 (with eras.kollam.year_pair.sewell_dikshit_1896: 1894—95 is Kollam 1070): the engine''s elapsed count from an epoch in A.D. 824 gives these numbers. sewell_dikshit_1896 calls the years ''current''; the count is inferred from the printed pair, not from the word.'
+  convention: inferred_from_pair
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 401
+    clip: [15, 205, 372, 365]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+- key: eras.kollam.year_pair.sewell_dikshit_1896
+  value: A.D. 1894—95 being called Kollam 1070.
+  form: text
+  unit: statement
+  script: latin
+  source: sewell_dikshit_1896
+  edition_page: 45
+  pdf_page: 61
+  locus: 'Art. 71: the clause naming an A.D. year and the Kollam year it is called, from its ''A.D.'' to the end of that sentence Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 401
+    clip: [15, 205, 372, 365]
+    delivered_ppi: 401
+    max_edge: 2000
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  convention: inferred_from_pair
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 401
+    clip: [15, 205, 372, 365]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+- key: eras.kollam.year_start.sewell_dikshit_1896
+  value: In North Malabar it begins with the solar month Kanni (Kanyâ), and in South Malabar and Tinnevelly with the month Chiṅgam (Siṁha).
+  form: text
+  unit: statement
+  script: latin
+  source: sewell_dikshit_1896
+  edition_page: 45
+  pdf_page: 61
+  locus: Art. 71, the sentence beginning 'In North Malabar' Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 401
+    clip: [15, 205, 372, 365]
+    delivered_ppi: 401
+    max_edge: 2000
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'With the preceding sentence ''The year is sidereal solar.'': both year-start options, months named by rāśi.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 401
+    clip: [15, 205, 372, 365]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-03-r2
+      on: 2026-10-03
+      dpi: 401
+      clip: [15, 205, 372, 365]
+      delivered_ppi: 401
+      max_edge: 2000
+      note: ''
+    matches: second_read
+- key: eras.kollam.counting.pillai_1922_ephemeris
+  value: The Kollam year is a current one, like the A D. year, while all the other Hindu years, Śaka, Vikrama and Kaliyuga, are expired years
+  form: text
+  unit: statement
+  script: latin
+  source: pillai_1922_ephemeris
+  edition_page: '[i]'
+  pdf_page: 3
+  locus: Preface, the sentence beginning 'The Kollam year' Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 600
+    clip: [220, 448, 415, 468]
+    delivered_ppi: 600
+    max_edge: 2000
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  convention: stated
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [25, 440, 415, 520]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-03-r2
+      on: 2026-10-03
+      dpi: 600
+      clip: [25, 440, 415, 505]
+      delivered_ppi: 600
+      max_edge: 2000
+      note: ''
+    matches: second_read
+- key: eras.kollam.range.calendar_reform_committee_1955
+  value:
+  - [Kollam (I), 824, 1130, Sept. 17, Kanyādi, North Malabar]
+  - [Kollam (II), 824, 1130, Aug. 17, Siṁhādi, South Malabar]
+  form: table
+  columns: [era, zero_year, current_1954, commencement_1954, solar, provenance]
+  unit: statement
+  script: latin
+  source: calendar_reform_committee_1955
+  edition_page: 258
+  pdf_page: 270
+  locus: 'Table 27 ''Indian Eras'', the two Kollam rows: era, zero year of era (A.D.), year current in 1954 A.D., date of commencement in 1954 A.D., year-beginning solar, provenance. A ditto mark under a word is keyed as the word it repeats'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [462, 413.5, 500, 800]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: 'landscape table: the tile was rotated 90 degrees clockwise for reading (the same pixels); era to solar year-beginning'
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [462, 35, 500, 421.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: 'landscape table: the tile was rotated 90 degrees clockwise for reading (the same pixels); provenance'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: Zero year 824 for both year starts; the era is in use in 1954 (range open).
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [455, 35, 505, 800]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- key: eras.kollam.epoch.sarma_a.sarma_2009_facets
+  value: August 15, 824 AD
+  form: text
+  unit: date
+  script: latin
+  source: sarma_2009_facets
+  edition_page: 227
+  pdf_page: 247
+  locus: 'the reprint of sarma_1996_kollam_era, the abstract, ''Kollam era, called also Malabar era, is reckoned from'': the date only Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 301
+    clip: [60, 75, 420, 110]
+    delivered_ppi: 301
+    max_edge: 2000
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 301
+    clip: [60, 100, 420, 125]
+    delivered_ppi: 301
+    max_edge: 2000
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: A re-typeset second printing of sarma_1996_kollam_era (pp. 227–234), not an independent witness.
+  contradiction:
+    issue: disputed
+    with: [eras.kollam.epoch.gislen]
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 301
+    clip: [60, 75, 420, 125]
+    delivered_ppi: 301
+    max_edge: 2000
+    note: ''
+- key: eras.kollam.epoch.sarma_b.sarma_2009_facets
+  value: August 25, 824 AD
+  form: text
+  unit: date
+  script: latin
+  source: sarma_2009_facets
+  edition_page: 227
+  pdf_page: 247
+  locus: 'the reprint of sarma_1996_kollam_era, the paragraph beginning ''Kollam era commenced on a date corresponding to'': the date only Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 301
+    clip: [60, 335, 420, 445]
+    delivered_ppi: 301
+    max_edge: 2000
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'A re-typeset second printing of sarma_1996_kollam_era, not an independent witness: it reproduces eras.kollam.epoch.sarma_b and is not in its verified_by.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 301
+    clip: [60, 335, 420, 445]
+    delivered_ppi: 301
+    max_edge: 2000
+    note: ''
+- key: eras.kollam.epoch.gislen
+  value: CE 25 July 824
+  form: text
+  unit: date
+  script: latin
+  source: gislen_2018
+  edition_page: 134
+  pdf_page: 1
+  locus: 'the abstract, ''It will be shown that the correct epoch of the Kollam Era is'': the date only Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r1
+    on: 2026-10-22
+    dpi: 300
+    clip: [60, 135, 540, 170]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: 'one tile of this clip; born-digital page (native: vector) rendered at 300 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'The era''s epoch and the epoch of its Siṃha year start: Chingam 1 of the year 0, the first day of the first year counted (the paper''s section 1 calls that year "year zero"; its section 3 has the year start "at mean sunrise the next day, CE 25 July 824" after the Sun''s entry into Leo on 24 July). Gislén computes it with the older Sūrya-siddhānta''s figures; the engine''s Parahita, Āryabhaṭīya and Sūrya-siddhānta methods give the same day (a diagnostic, not evidence). sewell_dikshit_1896 Art. 71 (eras.kollam.counting.sewell_dikshit_1896) and calendar_reform_committee_1955 Table 27 (eras.kollam.range.calendar_reform_committee_1955) witness the year only.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r2
+    on: 2026-10-22
+    dpi: 300
+    clip: [60, 135, 540, 170]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- key: eras.kollam.epoch.calendar.gislen
+  value: It will be shown that the correct epoch of the Kollam Era is CE 25 July 824, Julian Calendar.
+  form: text
+  unit: statement
+  script: latin
+  source: gislen_2018
+  edition_page: 134
+  pdf_page: 1
+  locus: the abstract, whole, after the label 'Abstract:' Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).
+  read:
+  - by: claude-opus-5-5/2026-10-22-r1
+    on: 2026-10-22
+    dpi: 300
+    clip: [60, 135, 540, 170]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: 'one tile of this clip; born-digital page (native: vector) rendered at 300 dpi'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'The calendar statement of eras.kollam.epoch.gislen: the date is Julian.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r2
+    on: 2026-10-22
+    dpi: 300
+    clip: [60, 135, 540, 170]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''

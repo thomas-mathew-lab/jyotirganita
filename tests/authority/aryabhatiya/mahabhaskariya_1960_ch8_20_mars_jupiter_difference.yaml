@@ -1,0 +1,306 @@
+id: authority/aryabhatiya/mahabhaskariya_1960_ch8_20_mars_jupiter_difference
+methods: [aryabhatiya]
+class: editor_computed
+source: mahabhaskariya_1960
+file: mahabhaskariya_1960-mahabhaskariya-shukla-1960.pdf
+edition_page: 44
+pdf_page: 129
+locus: VIII.20, 'The difference between the mean longitudes of Mars and Jupiter is exactly … signs. Say what is the number of days elapsed since the beginning of Kaliyuga and what are the (mean) longitudes of Jupiter and Mars.' (p. 223, PDF 308), solved by Shukla as I.52 'Example 2', p. 44 (PDF 129)
+rounding: none (integers)
+precision: integers, as printed
+datum_keys: [texts.aryabhatiya.mars.revolutions, texts.aryabhatiya.jupiter.revolutions, texts.aryabhatiya.civil_days.laghubhaskariya_1963, texts.aryabhatiya.procedures.residue.from_longitude.mahabhaskariya_1960]
+notes: 'Footnote 1 on p. 44: ''Mbh, viii. 20.'' The question is Bhāskara I''s; the solution and its figures are Shukla''s (editor_computed). The residue drops the fraction (2191552.08, the reader''s arithmetic). The forward test is the difference of Mars''s and Jupiter''s mean longitudes at ahargaṇa 1133606, exactly 5 signs to the precision the residue carries.'
+values:
+- name: input.difference_signs
+  role: input
+  value: 5
+  form: integer
+  unit: signs
+  script: latin
+  edition_page: 223
+  pdf_page: 308
+  locus: VIII.20, 'The difference between the mean longitudes of Mars and Jupiter is exactly … signs'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 308)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.mars_revolutions
+  role: input
+  value: 2296824
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 44
+  pdf_page: 129
+  locus: I.52, 'Example 2. "The difference between the mean longitudes of Mars and Jupiter is exactly … signs. …"' and Shukla's solution, 'The revolution-number of Mars = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 129)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.jupiter_revolutions
+  role: input
+  value: 364224
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 44
+  pdf_page: 129
+  locus: I.52, 'Example 2. "The difference between the mean longitudes of Mars and Jupiter is exactly … signs. …"' and Shukla's solution, 'The revolution-number of Jupiter = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 129)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.revolutions_difference
+  role: output
+  value: 1932600
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 44
+  pdf_page: 129
+  locus: I.52, 'Example 2. "The difference between the mean longitudes of Mars and Jupiter is exactly … signs. …"' and Shukla's solution, 'Their difference = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 129)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.civil_days
+  role: input
+  value: 1577917500
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 44
+  pdf_page: 129
+  locus: I.52, 'Example 2. "The difference between the mean longitudes of Mars and Jupiter is exactly … signs. …"' and Shukla's solution, 'Also the number of civil days =…'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 129)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.hcf
+  role: output
+  value: 300
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 44
+  pdf_page: 129
+  locus: I.52, 'Example 2. "The difference between the mean longitudes of Mars and Jupiter is exactly … signs. …"' and Shukla's solution, 'The H. C. F. of … and … is …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 129)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.abraded_difference
+  role: output
+  value: 6442
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 44
+  pdf_page: 129
+  locus: I.52, 'Example 2. "The difference between the mean longitudes of Mars and Jupiter is exactly … signs. …"' and Shukla's solution, '= … ÷ …, i.e., …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 129)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.abraded_civil_days
+  role: output
+  value: 5259725
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 44
+  pdf_page: 129
+  locus: I.52, 'Example 2. "The difference between the mean longitudes of Mars and Jupiter is exactly … signs. …"' and Shukla's solution, '= … ÷ …, i.e., …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 129)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.residue
+  role: output
+  value: 2191552
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 44
+  pdf_page: 129
+  locus: I.52, 'Example 2. "The difference between the mean longitudes of Mars and Jupiter is exactly … signs. …"' and Shukla's solution, 'Therefore, by stanza 46(ii), the residue of revolutions=…'; the equation '(… x—…) / … =y'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 129)
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 129)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.ahargana
+  role: output
+  value: 1133606
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 44
+  pdf_page: 129
+  locus: I.52, 'Example 2. "The difference between the mean longitudes of Mars and Jupiter is exactly … signs. …"' and Shukla's solution, 'The minimum solution of this equation is x = …,'; 'The required ahargaṇa is therefore …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 129)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.y
+  role: output
+  value: 1388
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 44
+  pdf_page: 129
+  locus: I.52, 'Example 2. "The difference between the mean longitudes of Mars and Jupiter is exactly … signs. …"' and Shukla's solution, 'y = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 129)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''

@@ -1,0 +1,419 @@
+id: authority/suryasiddhanta/whitney_yoga
+methods: [suryasiddhanta]
+class: editor_computed
+source: suryasiddhanta_burgess_1860
+edition_page: 236
+pdf_page: 97
+locus: 'Whitney''s note to ii. 65, printed p. 236: from ''We will find the time in yogas corresponding to that for which the previous calculations have been made.'' through the next paragraph to ''... after the given time.'''
+rounding: not stated
+precision: minutes of arc; pranas (respirations)
+datum_keys: [texts.suryasiddhanta.procedures.endings.naksatra.ii64.suryasiddhanta_burgess_1860]
+notes: 'The yoga at the given time: the longitudes of moon and sun summed (whole revolutions dropped), in minutes, divided by the portion of a yoga give the yogas past, the current yoga, and its parts past and to come; these divided by the sum of the daily motions and multiplied by sixty give the time since it began and until it ends, in nadis. The counts of yogas past and the current yoga''s number are printed in words; they are keyed as integers with notes. The yoga''s name is restated at the end of the passage and keyed once. Unit marks as printed: superscript s (signs), n v p (nadis, vinadis, pranas). Errata (suryasiddhanta_burgess_1860_reprint PDF 364) checked: no entry on this page. First read lat-b, fixture file sha256 f2b1ae0f.'
+values:
+- name: input.moon.longitude
+  role: input
+  value: [11, 17, 39]
+  form: rdms
+  unit: signs_degrees_minutes
+  script: latin
+  edition_page: 236
+  pdf_page: 97
+  locus: sentence 'The longitude of the moon at that time is'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 228, 370, 292]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 f2b1ae0f); suryasiddhanta_burgess_1860_p97_600dpi_r2c2_clip40-172.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 228, 209, 292]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p97_600dpi_r2c1_clip40-172.png
+  status: double_read
+  notes: signs marked with a superscript s; no seconds printed.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 228, 370, 292]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.sun.longitude
+  role: input
+  value: [8, 18, 15]
+  form: rdms
+  unit: signs_degrees_minutes
+  script: latin
+  edition_page: 236
+  pdf_page: 97
+  locus: same sentence, after 'that of the sun is'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 228, 209, 292]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 f2b1ae0f); suryasiddhanta_burgess_1860_p97_600dpi_r2c1_clip40-172.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 228, 209, 292]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sum_of_longitudes
+  role: output
+  value: [8, 5, 54]
+  form: rdms
+  unit: signs_degrees_minutes
+  script: latin
+  edition_page: 236
+  pdf_page: 97
+  locus: same sentence, after 'their sum is'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 228, 209, 292]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 f2b1ae0f); suryasiddhanta_burgess_1860_p97_600dpi_r2c1_clip40-172.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 228, 370, 292]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p97_600dpi_r2c2_clip40-172.png
+  status: double_read
+  notes: the sum is printed with whole revolutions dropped.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 228, 209, 292]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sum_of_longitudes_minutes
+  role: output
+  value: 14754
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 236
+  pdf_page: 97
+  locus: same sentence, after 'or'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 228, 370, 292]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 f2b1ae0f); suryasiddhanta_burgess_1860_p97_600dpi_r2c2_clip40-172.png
+  status: double_read
+  notes: printed with a comma as thousands separator.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 228, 370, 292]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.yoga_portion
+  role: input
+  value: 800
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 236
+  pdf_page: 97
+  locus: sentence 'Dividing by'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 228, 370, 292]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 f2b1ae0f); suryasiddhanta_burgess_1860_p97_600dpi_r2c2_clip40-172.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 228, 370, 292]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.yoga.count_past
+  role: output
+  value: 18
+  form: integer
+  unit: yogas
+  script: latin
+  edition_page: 236
+  pdf_page: 97
+  locus: same sentence, after 'we find that', before 'yogas of the series are past'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 228, 209, 292]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 f2b1ae0f); suryasiddhanta_burgess_1860_p97_600dpi_r2c1_clip40-172.png
+  status: double_read
+  notes: printed in words (eighteen)
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 228, 209, 292]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.yoga.number
+  role: output
+  value: 19
+  form: integer
+  unit: yoga
+  script: latin
+  edition_page: 236
+  pdf_page: 97
+  locus: same sentence, after 'and that the current … is the'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 228, 209, 292]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 f2b1ae0f); suryasiddhanta_burgess_1860_p97_600dpi_r2c1_clip40-172.png
+  status: double_read
+  notes: 'printed in words as an ordinal (nineteenth). locus as first keyed: same sentence, after ''and that the current one is the'''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 228, 209, 292]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.yoga.name
+  role: output
+  value: Parigha
+  form: text
+  unit: statement
+  script: latin
+  edition_page: 236
+  pdf_page: 97
+  locus: same sentence, after the ordinal; restated at the end of the next sentence ('and we find that ... began')
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 228, 209, 292]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 f2b1ae0f); suryasiddhanta_burgess_1860_p97_600dpi_r2c1_clip40-172.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 284, 370, 340]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p97_600dpi_r1c2_clip40-284.png
+  status: double_read
+  notes: name as printed; restated once, keyed once.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r11
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 228, 209, 292]
+    delivered_ppi: 600
+    note: ''
+- name: output.yoga.part_past
+  role: output
+  value: 354
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 236
+  pdf_page: 97
+  locus: same sentence, after 'of which', before 'are past'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 228, 370, 292]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 f2b1ae0f); suryasiddhanta_burgess_1860_p97_600dpi_r2c2_clip40-172.png
+  status: double_read
+  notes: a stray dot is printed low after the prime; not part of the figure.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 228, 370, 292]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.yoga.part_to_come
+  role: output
+  value: 446
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 236
+  pdf_page: 97
+  locus: same sentence, after 'and', before 'to come'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 228, 370, 292]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 f2b1ae0f); suryasiddhanta_burgess_1860_p97_600dpi_r2c2_clip40-172.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 228, 370, 292]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.sum_of_daily_motions
+  role: input
+  value:
+  - [798, 1/2]
+  form: table
+  columns: [whole, fraction]
+  unit: minutes
+  script: latin
+  edition_page: 236
+  pdf_page: 97
+  locus: sentence 'we divide these parts respectively by', before 'the sum of the daily motions of the sun and moon'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 284, 370, 340]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 f2b1ae0f); suryasiddhanta_burgess_1860_p97_600dpi_r1c2_clip40-284.png
+  status: double_read
+  notes: 'mixed fraction: printed 798 with the prime and then a set fraction one half; keyed ''<whole> <num>/<den>''.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-22-r3
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 284, 370, 340]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.nadis_per_day
+  role: input
+  value: 60
+  form: integer
+  unit: nadis
+  script: latin
+  edition_page: 236
+  pdf_page: 97
+  locus: same sentence, after 'and multiply by', before 'to reduce the results to nâdîs'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 284, 209, 340]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 f2b1ae0f); suryasiddhanta_burgess_1860_p97_600dpi_r1c1_clip40-284.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 284, 209, 340]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.yoga.began_before
+  role: output
+  value: [26, 36]
+  form: sexagesimal
+  unit: nadis_vinadis
+  script: latin
+  edition_page: 236
+  pdf_page: 97
+  locus: sentence end, after 'and we find that … began', before 'before'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 284, 209, 340]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 f2b1ae0f); suryasiddhanta_burgess_1860_p97_600dpi_r1c1_clip40-284.png
+  status: double_read
+  notes: no pranas printed.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 284, 209, 340]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.yoga.ends_after
+  role: output
+  value: [33, 30, 4]
+  form: sexagesimal
+  unit: nadis_vinadis_pranas
+  script: latin
+  edition_page: 236
+  pdf_page: 97
+  locus: same sentence, after 'and will end', before 'after the given time'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 284, 209, 340]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 f2b1ae0f); suryasiddhanta_burgess_1860_p97_600dpi_r1c1_clip40-284.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 284, 370, 340]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p97_600dpi_r1c2_clip40-284.png
+  status: double_read
+  notes: the figure falls across the two tiles.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 284, 209, 340]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

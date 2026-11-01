@@ -1,0 +1,937 @@
+- key: texts.aryabhatiya.trig.rsine_differences.d01
+  value: 225
+  form: numeral_word
+  value_form: integer
+  word:
+    text: मखि
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 225
+  unit: arcminutes
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 29
+  pdf_page: 103
+  locus: 'Gītikā 12: word no. 1 of the verse (counting from …) and figure no. 1 of the bold translation''s list. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.trig.rsine_differences.d02
+  value: 224
+  form: numeral_word
+  value_form: integer
+  word:
+    text: भखि
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 224
+  unit: arcminutes
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 29
+  pdf_page: 103
+  locus: 'Gītikā 12: word no. 2 of the verse (counting from …) and figure no. 2 of the bold translation''s list. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.trig.rsine_differences.d03
+  value: 222
+  form: numeral_word
+  value_form: integer
+  word:
+    text: फखि
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 222
+  unit: arcminutes
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 29
+  pdf_page: 103
+  locus: 'Gītikā 12: word no. 3 of the verse (counting from …) and figure no. 3 of the bold translation''s list. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.trig.rsine_differences.d04
+  value: 219
+  form: numeral_word
+  value_form: integer
+  word:
+    text: धखि
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 219
+  unit: arcminutes
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 29
+  pdf_page: 103
+  locus: 'Gītikā 12: word no. 4 of the verse (counting from …) and figure no. 4 of the bold translation''s list. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.trig.rsine_differences.d05
+  value: 215
+  form: numeral_word
+  value_form: integer
+  word:
+    text: णखि
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 215
+  unit: arcminutes
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 29
+  pdf_page: 103
+  locus: 'Gītikā 12: word no. 5 of the verse (counting from …) and figure no. 5 of the bold translation''s list. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.trig.rsine_differences.d06
+  value: 210
+  form: numeral_word
+  value_form: integer
+  word:
+    text: ञखि
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 210
+  unit: arcminutes
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 29
+  pdf_page: 103
+  locus: 'Gītikā 12: word no. 6 of the verse (counting from …) and figure no. 6 of the bold translation''s list. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.trig.rsine_differences.d07
+  value: 205
+  form: numeral_word
+  value_form: integer
+  word:
+    text: ङखि
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 205
+  unit: arcminutes
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 29
+  pdf_page: 103
+  locus: 'Gītikā 12: word no. 7 of the verse (counting from …) and figure no. 7 of the bold translation''s list. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.trig.rsine_differences.d08
+  value: 199
+  form: numeral_word
+  value_form: integer
+  word:
+    text: हस्झ
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 199
+  unit: arcminutes
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 29
+  pdf_page: 103
+  locus: 'Gītikā 12: word no. 8 of the verse (counting from …) and figure no. 8 of the bold translation''s list. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.trig.rsine_differences.d09
+  value: 191
+  form: numeral_word
+  value_form: integer
+  word:
+    text: स्ककि
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 191
+  unit: arcminutes
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 29
+  pdf_page: 103
+  locus: 'Gītikā 12: word no. 9 of the verse (counting from …) and figure no. 9 of the bold translation''s list. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.trig.rsine_differences.d10
+  value: 183
+  form: numeral_word
+  value_form: integer
+  word:
+    text: किष्ग
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 183
+  unit: arcminutes
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 29
+  pdf_page: 103
+  locus: 'Gītikā 12: word no. 10 of the verse (counting from …) and figure no. 10 of the bold translation''s list. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.trig.rsine_differences.d11
+  value: 174
+  form: numeral_word
+  value_form: integer
+  word:
+    text: श्घकि
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 174
+  unit: arcminutes
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 29
+  pdf_page: 103
+  locus: 'Gītikā 12: word no. 11 of the verse (counting from …) and figure no. 11 of the bold translation''s list. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.trig.rsine_differences.d12
+  value: 164
+  form: numeral_word
+  value_form: integer
+  word:
+    text: किघ्व
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 164
+  unit: arcminutes
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 29
+  pdf_page: 103
+  locus: 'Gītikā 12: word no. 12 of the verse (counting from …) and figure no. 12 of the bold translation''s list. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r3c1 of the same clip: the footnotes'
+  status: double_read
+  verified_by: []
+  emendation: null
+  variants:
+  - witness: D.G. Sū. (aryabhatiya_1976 vol. 1 p. 29 footnote 1)
+    word: किघ्वा
+    decode: 164
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.trig.rsine_differences.d13
+  value: 154
+  form: numeral_word
+  value_form: integer
+  word:
+    text: घ्लकि
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 154
+  unit: arcminutes
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 29
+  pdf_page: 103
+  locus: 'Gītikā 12: word no. 13 of the verse (counting from …) and figure no. 13 of the bold translation''s list. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.trig.rsine_differences.d14
+  value: 143
+  form: numeral_word
+  value_form: integer
+  word:
+    text: किग्र
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 143
+  unit: arcminutes
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 29
+  pdf_page: 103
+  locus: 'Gītikā 12: word no. 14 of the verse (counting from …) and figure no. 14 of the bold translation''s list. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.trig.rsine_differences.d15
+  value: 131
+  form: numeral_word
+  value_form: integer
+  word:
+    text: हक्य
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 131
+  unit: arcminutes
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 29
+  pdf_page: 103
+  locus: 'Gītikā 12: word no. 15 of the verse (counting from …) and figure no. 15 of the bold translation''s list. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r3c1 of the same clip: the footnotes'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: Footnote 2 of p. 29 prints manuscript variants for the words of the 15th to 17th differences (A., Bh. Śa., E., Pa. Ra. Sū., So.) whose word division differs from the text's; they are not keyed as variants of single entries.
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.trig.rsine_differences.d16
+  value: 119
+  form: numeral_word
+  value_form: integer
+  word:
+    text: धकि
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 119
+  unit: arcminutes
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 29
+  pdf_page: 103
+  locus: 'Gītikā 12: word no. 16 of the verse (counting from …) and figure no. 16 of the bold translation''s list. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r3c1 of the same clip: the footnotes'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: Footnote 2 of p. 29 prints manuscript variants for the words of the 15th to 17th differences (A., Bh. Śa., E., Pa. Ra. Sū., So.) whose word division differs from the text's; they are not keyed as variants of single entries.
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.trig.rsine_differences.d17
+  value: 106
+  form: numeral_word
+  value_form: integer
+  word:
+    text: किच
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 106
+  unit: arcminutes
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 29
+  pdf_page: 103
+  locus: 'Gītikā 12: word no. 17 of the verse (counting from …) and figure no. 17 of the bold translation''s list. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r3c1 of the same clip: the footnotes'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: Footnote 2 of p. 29 prints manuscript variants for the words of the 15th to 17th differences (A., Bh. Śa., E., Pa. Ra. Sū., So.) whose word division differs from the text's; they are not keyed as variants of single entries.
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.trig.rsine_differences.d18
+  value: 93
+  form: numeral_word
+  value_form: integer
+  word:
+    text: स्ग
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 93
+  unit: arcminutes
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 29
+  pdf_page: 103
+  locus: 'Gītikā 12: word no. 18 of the verse (counting from …) and figure no. 18 of the bold translation''s list. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.trig.rsine_differences.d19
+  value: 79
+  form: numeral_word
+  value_form: integer
+  word:
+    text: श्झ
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 79
+  unit: arcminutes
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 29
+  pdf_page: 103
+  locus: 'Gītikā 12: word no. 19 of the verse (counting from …) and figure no. 19 of the bold translation''s list. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r3c1 of the same clip: the footnotes'
+  status: double_read
+  verified_by: []
+  emendation: null
+  variants:
+  - witness: Bh. (aryabhatiya_1976 vol. 1 p. 29 footnote 3)
+    word: झश
+    decode: 79
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.trig.rsine_differences.d20
+  value: 65
+  form: numeral_word
+  value_form: integer
+  word:
+    text: ङ्व
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 65
+  unit: arcminutes
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 29
+  pdf_page: 103
+  locus: 'Gītikā 12: word no. 20 of the verse (counting from …) and figure no. 20 of the bold translation''s list. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.trig.rsine_differences.d21
+  value: 51
+  form: numeral_word
+  value_form: integer
+  word:
+    text: क्ल
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 51
+  unit: arcminutes
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 29
+  pdf_page: 103
+  locus: 'Gītikā 12: word no. 21 of the verse (counting from …) and figure no. 21 of the bold translation''s list. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.trig.rsine_differences.d22
+  value: 37
+  form: numeral_word
+  value_form: integer
+  word:
+    text: प्त
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 37
+  unit: arcminutes
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 29
+  pdf_page: 103
+  locus: 'Gītikā 12: word no. 22 of the verse (counting from …) and figure no. 22 of the bold translation''s list. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.trig.rsine_differences.d23
+  value: 22
+  form: numeral_word
+  value_form: integer
+  word:
+    text: फ
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 22
+  unit: arcminutes
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 29
+  pdf_page: 103
+  locus: 'Gītikā 12: word no. 23 of the verse (counting from …) and figure no. 23 of the bold translation''s list. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.trig.rsine_differences.d24
+  value: 7
+  form: numeral_word
+  value_form: integer
+  word:
+    text: छ
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 7
+  unit: arcminutes
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 29
+  pdf_page: 103
+  locus: 'Gītikā 12: word no. 24 of the verse (counting from …) and figure no. 24 of the bold translation''s list. The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.trig.statement
+  value: these are the Rsine-differences (at intervals of 225 minutes of arc) in terms of minutes of arc.
+  form: text
+  unit: statement
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 29
+  pdf_page: 103
+  locus: Gītikā 12, bold translation, the words after the last figure's dash. Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8: the verse and the bold translation'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: The interval in parentheses is the editors' gloss; the verse's last word kalārdhajyāḥ names the unit. The radius (the sum of the 24 differences) is not stated in the verse.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 1200
+    clip: [60, 135, 162.5, 155]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

@@ -1,0 +1,29 @@
+preset: modern_antiquity
+header:
+  represents: Sidereal positions for dates far from the present, on the JPL DE441 kernel with Vondrák, Capitaine and Wallace's long-term precession (vondrak_2011 with its corrigendum), IAU 2000A nutation and ΔT from Stephenson, Morrison and Hohenkerk 2016 (stephenson_2016), with the ayanāṃśa that places Citrā (Spica, the Hipparcos catalogue's position and space motion) at 180° (the Calendar Reform Committee's statement, modern.ayanamsa.citra_180.calendar_reform_committee_1955_statement), under the Kerala profile's calendar conventions, in local mean time at the observer.
+  hypothesis: That Spica's apparent longitude on the true ecliptic and equinox of date, without annual aberration, is the reduction the Committee's 180° means (calendar_reform_committee_1955 states the point, not its reduction); that the IAE's calendar sunrise event, geocentric positions and mean node, which modern_iers takes from indian_astronomical_ephemeris, apply to an almanac of any period; that IAU 2000A nutation, fitted to recent centuries, runs as a stated convention outside its accuracy interval. The kernel is the design's choice; the observer's height is 0 m, the place tables giving none. The Kerala month rule ships provisional; the Kollam year starts at Siṃha by default, Kanyā selectable.
+  range: docs/verification.md prints the computed date range (the intersection of the kernel's span, the SMH 2016 model's and the Vondrák theory's stated ranges); none is typed here.
+method: modern_de
+variants: {}
+conventions: kerala
+time_standard: lmt
+intraday: modern.at_instant
+sunrise: sunrise_event
+output:
+  elements: [tithi, nakshatra, yoga, karana]
+  scripts: [latin]
+engine_data:
+  text: modern
+  layers: []
+observer:
+  required: true
+modern:
+  kernel: de441
+  delta_t: {id: smh2016, seconds: null}
+  precession: vondrak2011
+  nutation: iau2000a
+  ayanamsa: {id: citra_180, equinox: 'true', aberration: false, coefficients: null}
+  observer_frame: {value: geocentric, datum: modern.iae.observer_frame.statement}
+  sunrise_event: {reference: upper_limb, refraction: iae_india, dip: none, dip_height_m: null, datum: modern.iae.calendar_sunrise.statement}
+  node: {value: mean, datum: modern.node.iae.statement}
+  observer_height_m: {value: '0', basis: 'the place tables state no height; the height enters the topocentric position of the rise and set only (the dip is the event''s, here none)'}

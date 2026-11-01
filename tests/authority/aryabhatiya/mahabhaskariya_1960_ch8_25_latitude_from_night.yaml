@@ -1,0 +1,91 @@
+id: authority/aryabhatiya/mahabhaskariya_1960_ch8_25_latitude_from_night
+methods: [aryabhatiya]
+class: editor_computed
+source: mahabhaskariya_1960
+file: mahabhaskariya_1960-mahabhaskariya-shukla-1960.pdf
+edition_page: 225
+pdf_page: 310
+locus: 'VIII.25 ''One example on the determination of the latitude: 25. The Sun being at the end of (the sign) Gemini, the length of the night is … ghaṭīs. Calculate and give out the latitude and also the colatitude of the place.'' and Shukla''s fn 2 ''Assuming the obliquity of the ecliptic to be …°…′, the required latitude comes out to be …°…′ approx.'''
+rounding: '''approx.'' printed after the answer; no rule stated'
+precision: whole minutes of arc, as printed ('approx.')
+datum_keys: [texts.aryabhatiya.procedures.cara.rule, texts.aryabhatiya.procedures.rsine.rule.mahabhaskariya_1960, texts.aryabhatiya.time_units.nadis_per_day, texts.aryabhatiya.procedures.cara.rule.mahabhaskariya_1960, texts.aryabhatiya.procedures.day_length.rule.mahabhaskariya_1960]
+notes: The problem is Bhāskara I's (input in the verse translation); the assumption and answer are Shukla's footnote (editor_computed). The verse asks for latitude and colatitude; fn 2 prints one figure, labelled 'the required latitude'. The obliquity is the editor's assumption, not the text's. The verse number is not keyed. The half-day rule gives the ascensional difference from the night; inverting the earthsine rule gives a latitude well below the editor's; the editor's answer is reproduced to the minute only by modern trigonometry with twice that ascensional difference (attributed to the editor's arithmetic).
+values:
+- name: input.night_ghatis
+  role: input
+  value: 21
+  form: integer
+  unit: ghatis
+  script: latin
+  edition_page: 225
+  pdf_page: 310
+  locus: VIII.25 'The Sun being at the end of (the sign) Gemini, the length of the night is … ghaṭīs.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 125, 380, 165]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tight tile clip [30,125,380,165] 1x1 at native 400 (mahabhaskariya_1960 PDF 310); also tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 125, 380, 165]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.obliquity
+  role: input
+  value: [23, 30]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 225
+  pdf_page: 310
+  locus: fn 2 'Assuming the obliquity of the ecliptic to be …°…′', degrees and minutes.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 515, 380, 550]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tight tile clip [30,515,380,550] 1x1 at native 400 (mahabhaskariya_1960 PDF 310), fn 2; also tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 515, 380, 550]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.latitude
+  role: output
+  value: [61, 45]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 225
+  pdf_page: 310
+  locus: fn 2 'the required latitude comes out to be …°…′ approx.', degrees and minutes.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 515, 380, 550]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tight tile clip [30,515,380,550] 1x1 at native 400 (mahabhaskariya_1960 PDF 310), fn 2; also tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8; clearly printed
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r10
+    on: 2026-10-08
+    dpi: 400
+    clip: [30, 515, 380, 550]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''

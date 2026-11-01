@@ -1,0 +1,29 @@
+preset: modern_iers
+header:
+  represents: The Indian Astronomical Ephemeris's calendar computation as indian_astronomical_ephemeris (2022) states it (apparent geocentric places, modern.iae.observer_frame.statement; the true ayanāṃśa, its Lahiri polynomial plus the nutation in longitude, modern.ayanamsa.iae_lahiri.true_definition; the mean node as Rāhu, modern.node.iae.statement; sunrise and sunset of the Sun's upper limb with 31′ horizontal refraction and a 16′ semi-diameter, modern.iae.calendar_sunrise.statement), on the JPL DE440 kernel with IAU 2006 precession, IAU 2000A nutation and ΔT from the IERS series, under the Kerala profile's calendar conventions at the observer's place, in Indian Standard Time.
+  hypothesis: That a Kerala almanac's sunrise is the IAE's calendar event (the Kerala profile's regions.kerala.conventions.sunrise_event is a recorded gap), that its positions are geocentric and its Rāhu the mean node as the IAE's are; the kernel is the design's choice, the IAE naming no ephemeris for its calendar section; the observer's height is 0 m, the place tables giving none. The Kerala month rule ships provisional (sewell_dikshit_1896's statement alone); the Kollam year starts at Siṃha by default, Kanyā selectable.
+  range: docs/verification.md prints the computed date range (the intersection of the kernel's span, the IERS series' and the precession theory's stated ranges); none is typed here.
+method: modern_de
+variants: {}
+conventions: kerala
+time_standard: ist
+intraday: modern.at_instant
+sunrise: sunrise_event
+output:
+  elements: [tithi, nakshatra, yoga, karana]
+  scripts: [latin]
+engine_data:
+  text: modern
+  layers: []
+observer:
+  required: true
+modern:
+  kernel: de440
+  delta_t: {id: iers, seconds: null}
+  precession: iau2006
+  nutation: iau2000a
+  ayanamsa: {id: iae_lahiri, equinox: 'true', aberration: null, coefficients: null}
+  observer_frame: {value: geocentric, datum: modern.iae.observer_frame.statement}
+  sunrise_event: {reference: upper_limb, refraction: iae_india, dip: none, dip_height_m: null, datum: modern.iae.calendar_sunrise.statement}
+  node: {value: mean, datum: modern.node.iae.statement}
+  observer_height_m: {value: '0', basis: 'the place tables state no height; the height enters the topocentric position of the rise and set only (the dip is the event''s, here none)'}

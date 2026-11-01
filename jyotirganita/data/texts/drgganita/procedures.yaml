@@ -1,0 +1,1608 @@
+- key: texts.drgganita.procedures.time_base
+  value: कलेर्दिनगणं न्यस्य
+  form: text
+  unit: statement
+  script: devanagari
+  source: drgganita_1963
+  edition_page: 16
+  pdf_page: 32
+  locus: 'II.11 both lines and II.12 line 1; extent from कलेर्दिनगणं to न्यस्य (II.11 line 1, first quarter). Text: Devanagari NFC as printed, from its first to its last akṣara, the daṇḍa, double daṇḍa and verse number not keyed, a line-end hyphen joined, footnote marks not keyed, words separated by single spaces as printed.'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [170, 110, 450, 235.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the reader's notes are the datum's
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: footnote a) on दिनगणं (B's first set of folios breaks off; not a reading of the text) not keyed; the daṇḍas and the verse number not keyed; comma after भगणादि as printed. The extent is part of the read keyed as texts.drgganita.part2.rates.rule (the same tile).
+  basis: stated
+  basis_ref: 'drgganita_1963 II.11, printed p. 16 (PDF 32): the Kali day count'
+  procedure: ahargana.kali_dinagana
+  no_printed_example:
+    second_witness: 'none held: drgganita_1963 Part I, Part II and the apparatus are one copy'
+    external: pending
+  second_read:
+  - by: claude-fable-5-1/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 600
+    clip: [170, 110, 450, 235.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.procedures.mean_longitude
+  value: कलेर्दिनगणं न्यस्य गुणकारेण ताडयेत् हारकेण हरेल्लब्धं भगणादि, स्वमध्यमम्
+  form: text
+  unit: statement
+  script: devanagari
+  source: drgganita_1963
+  edition_page: 16
+  pdf_page: 32
+  locus: 'II.11 both lines and II.12 line 1; extent from कलेर्दिनगणं to स्वमध्यमम् (II.11 both lines). Text: Devanagari NFC as printed, from its first to its last akṣara, the daṇḍa, double daṇḍa and verse number not keyed, a line-end hyphen joined, footnote marks not keyed, words separated by single spaces as printed.'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [170, 110, 450, 235.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the reader's notes are the datum's
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: footnote a) on दिनगणं (B's first set of folios breaks off; not a reading of the text) not keyed; the daṇḍas and the verse number not keyed; comma after भगणादि as printed. The extent is part of the read keyed as texts.drgganita.part2.rates.rule (the same tile).
+  basis: stated
+  basis_ref: drgganita_1963 II.11, printed p. 16 (PDF 32)
+  procedure: mean.guna_hara_drift
+  no_printed_example:
+    second_witness: texts.drgganita.witness.billard_1971.p155
+    external: pending
+  second_read:
+  - by: claude-fable-5-1/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 600
+    clip: [170, 110, 450, 235.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.procedures.dhruva
+  value: तस्मिन्नत्रोक्तसंस्कारे कृते कुर्यान्निजध्रुवम्
+  form: text
+  unit: statement
+  script: devanagari
+  source: drgganita_1963
+  edition_page: 16
+  pdf_page: 32
+  locus: 'II.11 both lines and II.12 line 1; extent from तस्मिन्नत्रोक्तसंस्कारे to कुर्यान्निजध्रुवम् (II.12 line 1). Text: Devanagari NFC as printed, from its first to its last akṣara, the daṇḍa, double daṇḍa and verse number not keyed, a line-end hyphen joined, footnote marks not keyed, words separated by single spaces as printed.'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [170, 110, 450, 235.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the reader's notes are the datum's
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: footnote a) on दिनगणं (B's first set of folios breaks off; not a reading of the text) not keyed; the daṇḍas and the verse number not keyed; comma after भगणादि as printed. The extent is part of the read keyed as texts.drgganita.part2.rates.rule (the same tile).
+  basis: stated
+  basis_ref: drgganita_1963 II.12a, printed p. 16 (PDF 32); the signs II.12b–15a
+  procedure: mean.dhruva_signed
+  no_printed_example:
+    second_witness: texts.drgganita.witness.billard_1971.p155
+    external: pending
+  second_read:
+  - by: claude-fable-5-1/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 600
+    clip: [170, 110, 450, 235.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.procedures.computation_instant
+  value: सौरे सिद्धान्तेऽपि च निर्दिष्टाः खेचराः ध्रुवैरेतैः युक्ता हीनाश्चोक्तवदुदयावधिका स्फुटा भवन्ति तथा
+  form: text
+  unit: statement
+  script: devanagari
+  source: drgganita_1963
+  edition_page: 6
+  pdf_page: 22
+  locus: 'I.ii.6, both lines; extent from सौरे to तथा. Text: Devanagari NFC as printed, from its first to its last akṣara, the daṇḍa, double daṇḍa and verse number not keyed, a line-end hyphen joined, footnote marks not keyed, words separated by single spaces as printed.'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r3
+    on: 2026-10-10
+    dpi: 600
+    clip: [160, 276, 435, 320]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the reader's notes are the datum's
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: tiles [160,276,300.5,320], [294.5,276,435,320]; footnotes d after खेचराः 'C. खेचरैः.'; e after स्फुटा 'A. D. स्पष्टाः.'.
+  basis: stated
+  basis_ref: 'drgganita_1963 I.ii.6, printed p. 6 (PDF 22): the means so made are ''udayāvadhikā'', to sunrise'
+  procedure: computation_instant.dhruva_sunrise
+  no_printed_example:
+    second_witness: 'none held: drgganita_1963 Part I, Part II and the apparatus are one copy'
+    external: pending
+  second_read:
+  - by: claude-fable-5-1/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 600
+    clip: [160, 276, 435, 320]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.procedures.weekday
+  value: द्युगणो मध्ये विषुवति भृगुसुतवारोदयादिः स्यात्
+  form: text
+  unit: statement
+  script: devanagari
+  source: drgganita_1963
+  edition_page: 2
+  pdf_page: 18
+  locus: 'I.i.8, both lines; extent from द्युगणो to स्यात् (I.i.8 line 1). Text: Devanagari NFC as printed, from its first to its last akṣara, the daṇḍa, double daṇḍa and verse number not keyed, a line-end hyphen joined, footnote marks not keyed, words separated by single spaces as printed.'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r3
+    on: 2026-10-10
+    dpi: 600
+    clip: [165, 282, 445, 345]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the reader's notes are the datum's
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'two tiles [165,282,308,345], [302,282,445,345]; footnotes: c (after वारोदयादिः) ''A D. lack visarga; B. दिषु.''; d (after हीनः) ''D. हीनं.''. The extent is part of the read keyed as texts.drgganita.part1.ahargana.equinox (the same tile).'
+  basis: inferred
+  basis_ref: 'drgganita_1963 I.i.8, printed p. 2 (PDF 18): the day count begins with a Friday sunrise (bhṛgusuta-vāra); stated of Part I''s day count, read as holding for II.11''s Kali day count'
+  procedure: weekday.remainder_from_friday
+  no_printed_example:
+    second_witness: 'none held: drgganita_1963 Part I, Part II and the apparatus are one copy'
+    external: pending
+  provisional: the Friday start is stated for the day count of I.i.7–8, read as holding for II.11's Kali day count
+  second_read:
+  - by: claude-fable-5-1/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 600
+    clip: [165, 282, 445, 345]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.procedures.desantara
+  value: देशान्तरादि कार्यं ग्रहेषु, तत् पूर्वतन्त्रतो ज्ञेयम् सिद्धं न पूर्वतन्त्राद् यत् तत्कथनाय मे यत्नः
+  form: text
+  unit: statement
+  script: devanagari
+  source: drgganita_1963
+  edition_page: 6
+  pdf_page: 22
+  locus: 'I.ii.7, both lines; extent from देशान्तरादि to यत्नः. Text: Devanagari NFC as printed, from its first to its last akṣara, the daṇḍa, double daṇḍa and verse number not keyed, a line-end hyphen joined, footnote marks not keyed, words separated by single spaces as printed.'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r3
+    on: 2026-10-10
+    dpi: 600
+    clip: [160, 350, 435, 385]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the reader's notes are the datum's
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'tiles [160,350,300.5,385], [294.5,350,435,385]; comma after ग्रहेषु kept; footnote f after देशान्तरादि: ''A. देशान्तरसंस्कारादि, hypermetrical.''.'
+  basis: stated
+  basis_ref: 'drgganita_1963 I.ii.7, printed p. 6 (PDF 22): the deśāntara and the rest are to be known from earlier works'
+  second_read:
+  - by: claude-fable-5-1/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 600
+    clip: [160, 350, 435, 385]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.procedures.sighrocca
+  value: शीघ्रोच्चं रविमध्यं स्यात् कुजसूर्यजमन्त्रिणाम् सितज्ञयोः स्वमध्यं तु शीघ्रोच्चं, मध्यमं रविः
+  form: text
+  unit: statement
+  script: devanagari
+  source: drgganita_1963
+  edition_page: 17
+  pdf_page: 33
+  locus: 'II.18; extent from शीघ्रोच्चं to रविः (II.18 both lines). Text: Devanagari NFC as printed, from its first to its last akṣara, the daṇḍa, double daṇḍa and verse number not keyed, a line-end hyphen joined, footnote marks not keyed, words separated by single spaces as printed.'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [105, 247, 375, 368]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the reader's notes are the datum's
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'footnote g): B. ज्ञशुक्रयोः for सितज्ञयोः; mark not keyed.'
+  basis: stated
+  basis_ref: drgganita_1963 II.18, printed p. 17 (PDF 33)
+  procedure: sighrocca.sun_mean_or_own
+  no_printed_example:
+    second_witness: 'none held: drgganita_1963 Part I, Part II and the apparatus are one copy'
+    external: pending
+  second_read:
+  - by: claude-fable-5-1/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 600
+    clip: [105, 247, 375, 368]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.procedures.kendra
+  value: उच्चोनो विहगः केन्द्रं, तस्मिन् मेषादिके त्वृणम् दोर्ज्याफलं, तुलादौ स्व,मेवं स्यान्मन्दशीघ्रयोः
+  form: text
+  unit: statement
+  script: devanagari
+  source: drgganita_1963
+  edition_page: 17
+  pdf_page: 33
+  locus: 'II.19; extent from उच्चोनो to स्यान्मन्दशीघ्रयोः (II.19 both lines). Text: Devanagari NFC as printed, from its first to its last akṣara, the daṇḍa, double daṇḍa and verse number not keyed, a line-end hyphen joined, footnote marks not keyed, words separated by single spaces as printed.'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [105, 362, 375, 480]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the reader's notes are the datum's
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: the editor's comma inside स्व,मेवं as printed.
+  basis: stated
+  basis_ref: drgganita_1963 II.19, printed p. 17 (PDF 33)
+  procedure: table.kendra_body_less_ucca
+  no_printed_example:
+    second_witness: 'none held: drgganita_1963 Part I, Part II and the apparatus are one copy'
+    external: pending
+  second_read:
+  - by: claude-fable-5-1/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 600
+    clip: [105, 362, 375, 480]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.procedures.table.branches
+  value: एकधा ज्याफलं मान्दे, कुजादीनां द्विधा पुनः शैघ्रे मृगादिकर्क्यादिभेदाद्, वक्ष्यामि तान्यथ
+  form: text
+  unit: statement
+  script: devanagari
+  source: drgganita_1963
+  edition_page: 18
+  pdf_page: 34
+  locus: 'II.25; extent from एकधा to तान्यथ (II.25 both lines). Text: Devanagari NFC as printed, from its first to its last akṣara, the daṇḍa, double daṇḍa and verse number not keyed, a line-end hyphen joined, footnote marks not keyed, words separated by single spaces as printed.'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [180, 273.67, 450, 365]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the reader's notes are the datum's
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'footnote f) at ज्याफलं: B breaks off here (not a reading); mark not keyed. The section heading above it ([ ग्रहाणां मन्दशीघ्रज्याः ]) not keyed.'
+  basis: stated
+  basis_ref: drgganita_1963 II.25, printed p. 18 (PDF 34)
+  procedure: table.manda_one_sighra_two
+  no_printed_example:
+    second_witness: 'none held: drgganita_1963 Part I, Part II and the apparatus are one copy'
+    external: pending
+  second_read:
+  - by: claude-fable-5-1/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 600
+    clip: [180, 273.67, 450, 365]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.procedures.interpolation
+  value: गतैष्यचापांशकयोराहतिर्भद्रभक्तयोः ज्यान्तरान्तरसंक्षुण्णा निर्मोघैभाजिता धनम् इहप्रोक्तेष्टजीवायां स्फुटैवं संस्कृता तु सा ऋणं तत्राधिकं यत्र परजीवान्तरं भवेत्
+  form: text
+  unit: statement
+  script: devanagari
+  source: drgganita_1963
+  edition_page: 25
+  pdf_page: 41
+  locus: 'II.44–45; extent from गतैष्यचापांशकयो to भवेत् (II.44 both lines, II.45 both lines). Text: Devanagari NFC as printed, from its first to its last akṣara, the daṇḍa, double daṇḍa and verse number not keyed, a line-end hyphen joined, footnote marks not keyed, words separated by single spaces as printed.'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [60, 370, 400, 565]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the reader's notes are the datum's
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'the editor''s * after शकयो not keyed; footnote g) on इहप्रोक्तेष्टजीवायां: C D. इहप्रोक्तेषु जीवा या (?), the query the editor''s; mark not keyed.'
+  basis: stated
+  basis_ref: drgganita_1963 II.44–45, printed p. 25 (PDF 41)
+  procedure: table.second_difference
+  no_printed_example:
+    second_witness: 'none held: drgganita_1963 Part I, Part II and the apparatus are one copy'
+    external: pending
+  second_read:
+  - by: claude-fable-5-1/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 600
+    clip: [60, 370, 400, 565]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: no change; not re-read
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-10-r4
+      on: 2026-10-10
+      dpi: 4800
+      clip: [200, 452, 216, 472]
+      delivered_ppi: 600
+      note: no change; not re-read
+    matches: neither
+  further_look:
+  - issue: disputed
+    read:
+      by: person/2026-10-24-r1
+      on: 2026-10-24
+      dpi: 600
+      clip: [57, 367, 403, 568]
+      delivered_ppi: 600
+      note: the library author's choice among the recorded readings shown unlabelled; drgganita_1963 PDF 41, crop A (the passage)
+    matches: look
+    look: claude-opus-5-5/2026-10-10-r4
+- key: texts.drgganita.procedures.interpolation.divisor_arc
+  value: 24
+  form: numeral_word
+  value_form: integer
+  word:
+    text: भद्र
+    script: devanagari
+    system: katapayadi
+    decode: 24
+  unit: divisor
+  script: devanagari
+  source: drgganita_1963
+  edition_page: 25
+  pdf_page: 41
+  locus: 'II.44, line 1, word 2. The word: Devanagari NFC, the stem from its first to its last akṣara without its case ending and without the sandhi joining it to the next word, a compound''s hyphen dropped, a line-end hyphen joined, footnote marks not keyed; decoded in kaṭapayādi (ka…jha 1–9, ña 0; ṭa…dha 1–9, na 0; pa…ma 1–5; ya…ha 1–8; a lone vowel 0; in a conjunct the last consonant; the first akṣara the units digit). The value: the editor''s figure printed for the word, Indian digit grouping dropped; a digit the print does not show is noted and the value is the word''s decode. The apparatus: every footnote variant of the word, as variants.'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [60, 370, 400, 438]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the reader's notes are the datum's
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Locus: the number word opens the compound printed भद्रभक्तयोः, after राहतिर्. the editor''s footnote mark * after शकयो refers to his note below the footnotes (keyed as procedures.interpolation.editor_note). Internal redundancy: with the tables'' step of six degrees (360 kalās, texts.drgganita.table.step) the two divisors satisfy d²·q = 2h², which makes II.44–45 Newton''s second-order term; asserted in tests/invariants/test_drgganita_invariants.py.'
+  decides: [procedure]
+  basis: stated
+  basis_ref: drgganita_1963 II.44, printed p. 25 (PDF 41)
+  second_read:
+  - by: claude-fable-5-1/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 600
+    clip: [60, 370, 400, 438]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.procedures.interpolation.divisor_diff
+  value: 450
+  form: numeral_word
+  value_form: integer
+  word:
+    text: निर्मोघ
+    script: devanagari
+    system: katapayadi
+    decode: 450
+  unit: divisor
+  script: devanagari
+  source: drgganita_1963
+  edition_page: 25
+  pdf_page: 41
+  locus: 'II.44, line 2, word 2. The word: Devanagari NFC, the stem from its first to its last akṣara without its case ending and without the sandhi joining it to the next word, a compound''s hyphen dropped, a line-end hyphen joined, footnote marks not keyed; decoded in kaṭapayādi (ka…jha 1–9, ña 0; ṭa…dha 1–9, na 0; pa…ma 1–5; ya…ha 1–8; a lone vowel 0; in a conjunct the last consonant; the first akṣara the units digit). The value: the editor''s figure printed for the word, Indian digit grouping dropped; a digit the print does not show is noted and the value is the word''s decode. The apparatus: every footnote variant of the word, as variants.'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [60, 432, 233, 503]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the reader's notes are the datum's
+  status: read
+  verified_by: []
+  emendation: null
+  notes: 'printed निर्मोघैर्भाजिता. Internal redundancy: with the tables'' step of six degrees (360 kalās, texts.drgganita.table.step) the two divisors satisfy d²·q = 2h², which makes II.44–45 Newton''s second-order term; asserted in tests/invariants/test_drgganita_invariants.py.'
+  decides: [procedure]
+  basis: stated
+  basis_ref: drgganita_1963 II.44, printed p. 25 (PDF 41)
+  second_read:
+  - by: claude-fable-5-1/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 600
+    clip: [60, 432, 233, 503]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-10-r4
+      on: 2026-10-10
+      dpi: 4800
+      clip: [200, 452, 216, 472]
+      delivered_ppi: 600
+      note: ''
+    matches: read
+  further_look:
+  - issue: disputed
+    read:
+      by: claude-fable-5-1/2026-10-10-r1
+      on: 2026-10-10
+      dpi: 2400
+      clip: [192, 455, 266, 477]
+      delivered_ppi: 600
+      max_edge: 2000
+      note: ''
+    matches: second_read
+  read_issue: disputed
+- key: texts.drgganita.procedures.interpolation.editor_note
+  value: वर्तमानचापखण्डे गतैष्यकलाः इत्यर्थः (Ed.).
+  form: text
+  unit: statement
+  script: devanagari
+  source: drgganita_1963
+  edition_page: 25
+  pdf_page: 41
+  locus: 'editor''s note marked * below the footnotes; extent from वर्तमानचापखण्डे to (Ed.). (the editor''s starred note on p. 25). Text: Devanagari NFC as printed, from its first to its last akṣara, the daṇḍa, double daṇḍa and verse number not keyed, a line-end hyphen joined, footnote marks not keyed, words separated by single spaces as printed.'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [80, 600, 400, 690]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the reader's notes are the datum's
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: the daṇḍa before (Ed.) not keyed; the * not keyed.
+  basis: stated
+  basis_ref: drgganita_1963 p. 25 (PDF 41), the editor's note to II.44
+  second_read:
+  - by: claude-fable-5-1/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 600
+    clip: [80, 600, 400, 690]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.procedures.interpolation.last_step
+  value: ऋणं तत्राधिकं यत्र परजीवान्तरं भवेत्
+  form: text
+  unit: statement
+  script: devanagari
+  source: drgganita_1963
+  edition_page: 25
+  pdf_page: 41
+  locus: 'II.45 line 2, the whole line; extent from its first word to भवेत्, the clause naming the next difference. Text: Devanagari NFC as printed, from its first to its last akṣara, the daṇḍa, double daṇḍa and verse number not keyed, a line-end hyphen joined, footnote marks not keyed, words separated by single spaces as printed.'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [60, 370, 400, 565]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the extent is part of the read keyed as texts.drgganita.procedures.interpolation (the same tile), truncated to this locus (Extent); no letter changed; datum added for the review's B2
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'Unstated by the text. II.44–45 multiply by the difference between the next jyā-difference and the current one, and this clause names the next difference; the table''s last step, ending at its last entry, has no next difference. The engine takes the preceding pair''s second difference there (table.last_step_preceding_difference): the engine''s fallback, never called the text''s rule. Read by the engine (TableModel.build), so every record carries its flag. A text or commentary that states the last step replaces it.'
+  basis: fallback_no_stated_rule
+  basis_ref: 'searched drgganita_1963 II.25–45 with the editor''s notes and apparatus, pp. 18–25 (PDF 34–41), as keyed: no rule for the last step of a table, which has no next difference'
+  procedure: table.last_step_preceding_difference
+  no_printed_example:
+    second_witness: 'none held: drgganita_1963 Part I, Part II and the apparatus are one copy'
+    external: pending
+  provisional: 'no stated rule (basis fallback_no_stated_rule): in the last step of a table the second difference is the preceding pair''s'
+  second_read:
+  - by: claude-fable-5-1/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 600
+    clip: [60, 370, 400, 565]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: no letter changed; not re-read
+- key: texts.drgganita.procedures.luminaries
+  value: मान्दज्यासंस्कृतं मध्यं स्फुटं स्याच्चन्द्रसूर्ययोः
+  form: text
+  unit: statement
+  script: devanagari
+  source: drgganita_1963
+  edition_page: 25
+  pdf_page: 41
+  locus: 'II.43; extent from मान्दज्यासंस्कृतं to स्याच्चन्द्रसूर्ययोः (II.43 line 1). Text: Devanagari NFC as printed, from its first to its last akṣara, the daṇḍa, double daṇḍa and verse number not keyed, a line-end hyphen joined, footnote marks not keyed, words separated by single spaces as printed.'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [100, 340, 400, 438]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the reader's notes are the datum's
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'footnote f) (Latin): of Mss C, D, E, which contain this portion, only D has this verse; mark not keyed. The extent is part of the read keyed as texts.drgganita.procedures.complement (the same tile).'
+  basis: stated
+  basis_ref: drgganita_1963 II.43a, printed p. 25 (PDF 41)
+  procedure: order.manda_only
+  applies_to: [moon, sun]
+  no_printed_example:
+    second_witness: 'none held: drgganita_1963 Part I, Part II and the apparatus are one copy'
+    external: pending
+  second_read:
+  - by: claude-fable-5-1/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 600
+    clip: [100, 340, 400, 438]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.procedures.complement
+  value: चक्राच्छुद्धः स्फुटो राहुर्यस्मात् सोऽधोगतिः सदा
+  form: text
+  unit: statement
+  script: devanagari
+  source: drgganita_1963
+  edition_page: 25
+  pdf_page: 41
+  locus: 'II.43; extent from चक्राच्छुद्धः to सदा (II.43 line 2). Text: Devanagari NFC as printed, from its first to its last akṣara, the daṇḍa, double daṇḍa and verse number not keyed, a line-end hyphen joined, footnote marks not keyed, words separated by single spaces as printed.'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [100, 340, 400, 438]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the reader's notes are the datum's
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'footnote f) (Latin): of Mss C, D, E, which contain this portion, only D has this verse; mark not keyed. The extent is part of the read keyed as texts.drgganita.procedures.complement (the same tile).'
+  basis: stated
+  basis_ref: drgganita_1963 II.43b, printed p. 25 (PDF 41)
+  procedure: node.complement_once
+  applies_to: [node]
+  no_printed_example:
+    second_witness: 'none held: drgganita_1963 Part I, Part II and the apparatus are one copy'
+    external: pending
+  second_read:
+  - by: claude-fable-5-1/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 600
+    clip: [100, 340, 400, 438]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.procedures.complement.witness_note
+  value: Of the three Mss., C, D, E, which contain this portion of Dṛggaṇita, only D has this verse.
+  form: text
+  unit: statement
+  script: latin
+  source: drgganita_1963
+  edition_page: 25
+  pdf_page: 41
+  locus: 'footnote f); extent from Of to verse. (footnote f) of p. 25). Text keyed as printed (spelling, diacritics, letters), with spacing at punctuation and parentheses normalised (none before,;: ? ! or), one after; none after, a dash between numbers or as a sign keyed as − (U+2212) and between words as — (U+2014), italics not marked, footnote marks not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [80, 600, 400, 690]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the reader's notes are the datum's
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: Latin convention; 'Dṛggaṇita' printed in italic.
+  basis: stated
+  basis_ref: drgganita_1963 p. 25 (PDF 41), footnote f)
+  second_read:
+  - by: claude-opus-5-5/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 600
+    clip: [80, 600, 400, 690]
+    delivered_ppi: 600
+    note: ''
+- key: texts.drgganita.procedures.order.superior
+  value: मध्या(?द्या)न्मान्ददलं मध्ये, तस्मिन् शैघ्रदलं ततः ततो मान्दं मध्यमे स्यात् सर्वं, तस्मात् पृथक्स्थितात्
+  form: text
+  unit: statement
+  script: devanagari
+  source: drgganita_1963
+  edition_page: 17
+  pdf_page: 33
+  locus: 'II.20; extent from मध्या(?द्या)न्मान्ददलं to पृथक्स्थितात् (II.20 both lines). Text: Devanagari NFC as printed, from its first to its last akṣara, the daṇḍa, double daṇḍa and verse number not keyed, a line-end hyphen joined, footnote marks not keyed, words separated by single spaces as printed.'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [105, 362, 375, 480]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the reader's notes are the datum's
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'the editor''s query ''(?द्या)'' printed inside the first word, kept as printed; footnote h): C. पुनः for ततः (line 1''s last word); mark not keyed.'
+  basis: stated
+  basis_ref: drgganita_1963 II.20–21, printed pp. 17–18 (PDF 33–34)
+  procedure: order.superior_drgganita
+  applies_to: [jupiter, mars, saturn]
+  no_printed_example:
+    second_witness: 'none held: drgganita_1963 Part I, Part II and the apparatus are one copy'
+    external: pending
+  decides: [procedure]
+  second_read:
+  - by: claude-fable-5-1/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 600
+    clip: [105, 362, 375, 480]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.procedures.order.superior.verse_21
+  value: शीघ्रजं सकलं तस्मिन् कृतमान्दे तु मध्यमे कुर्यात्, स्फुटः स; एवं स्यात् कुजसूर्यजमन्त्रिणाम्
+  form: text
+  unit: statement
+  script: devanagari
+  source: drgganita_1963
+  edition_page: 18
+  pdf_page: 34
+  locus: 'II.21; extent from शीघ्रजं to कुजसूर्यजमन्त्रिणाम् (II.21 both lines). Text: Devanagari NFC as printed, from its first to its last akṣara, the daṇḍa, double daṇḍa and verse number not keyed, a line-end hyphen joined, footnote marks not keyed, words separated by single spaces as printed.'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [180, 100, 450, 191.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the reader's notes are the datum's; re-expressed 2026-10-10 (k); not re-read
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: the comma after कुर्यात् and the semicolon after स (with a space before it) as printed.
+  basis: stated
+  basis_ref: drgganita_1963 II.21, printed p. 18 (PDF 34)
+  second_read:
+  - by: claude-fable-5-1/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 600
+    clip: [180, 100, 450, 191.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: no change; not re-read
+- key: texts.drgganita.procedures.order.inferior
+  value: दोर्ज्याफलं मान्दशैघ्रफलाभ्यामिह कथ्यते मध्यात् शैघ्रदलं मध्ये, तस्मान्मान्ददलं पुनः
+  form: text
+  unit: statement
+  script: devanagari
+  source: drgganita_1963
+  edition_page: 18
+  pdf_page: 34
+  locus: 'II.22; extent from दोर्ज्याफलं to पुनः (II.22 both lines). Text: Devanagari NFC as printed, from its first to its last akṣara, the daṇḍa, double daṇḍa and verse number not keyed, a line-end hyphen joined, footnote marks not keyed, words separated by single spaces as printed.'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [180, 100, 450, 191.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the reader's notes are the datum's
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'footnotes: a) C. शीघ्र (for शैघ्र in मान्दशैघ्र); b) B D. पदाभ्या (for फलाभ्या); c) C. फलं (for दलं in मान्ददलं); marks not keyed.'
+  basis: stated
+  basis_ref: drgganita_1963 II.22–24, printed p. 18 (PDF 34)
+  procedure: order.inferior_drgganita
+  applies_to: [mercury, venus]
+  no_printed_example:
+    second_witness: 'none held: drgganita_1963 Part I, Part II and the apparatus are one copy'
+    external: pending
+  second_read:
+  - by: claude-fable-5-1/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 600
+    clip: [180, 100, 450, 191.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.procedures.order.inferior.verse_23
+  value: मध्ये, तस्मात् शैघ्रफलं सर्वं केवलमध्यमे तस्मात् पृथक्स्थितान्मान्दं सकलं कृतशीघ्रजे
+  form: text
+  unit: statement
+  script: devanagari
+  source: drgganita_1963
+  edition_page: 18
+  pdf_page: 34
+  locus: 'II.23; extent from मध्ये to कृतशीघ्रजे (II.23 both lines). Text: Devanagari NFC as printed, from its first to its last akṣara, the daṇḍa, double daṇḍa and verse number not keyed, a line-end hyphen joined, footnote marks not keyed, words separated by single spaces as printed.'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [180, 185.33, 450, 279.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the reader's notes are the datum's
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  basis: stated
+  basis_ref: drgganita_1963 II.23, printed p. 18 (PDF 34)
+  second_read:
+  - by: claude-fable-5-1/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 600
+    clip: [180, 185.33, 450, 279.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.procedures.order.inferior.verse_24
+  value: तस्मिन्नेव स्फुटः सः स्याद् विधिरेवं ज्ञशुक्रयोः गोळसिद्धः क्रमो दृष्टिसाम्यायैवं तयोः स्मृतः
+  form: text
+  unit: statement
+  script: devanagari
+  source: drgganita_1963
+  edition_page: 18
+  pdf_page: 34
+  locus: 'II.24; extent from तस्मिन्नेव to स्मृतः (II.24 both lines). Text: Devanagari NFC as printed, from its first to its last akṣara, the daṇḍa, double daṇḍa and verse number not keyed, a line-end hyphen joined, footnote marks not keyed, words separated by single spaces as printed.'
+  read:
+  - by: claude-opus-5-5/2026-10-10-r1
+    on: 2026-10-10
+    dpi: 600
+    clip: [180, 185.33, 450, 365]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the reader's notes are the datum's
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'footnotes: d) C. विदुरेवं (for विधिरेवं); e) C. ततः (for स्मृतः); marks not keyed. The ज्ञ of ज्ञशुक्रयोः is the ligature shape seen in II.13–14.'
+  basis: stated
+  basis_ref: drgganita_1963 II.24, printed p. 18 (PDF 34)
+  second_read:
+  - by: claude-fable-5-1/2026-10-10-r5
+    on: 2026-10-10
+    dpi: 600
+    clip: [180, 185.33, 450, 365]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.procedures.mean_precision
+  status: gap
+  reason: drgganita_1963 states no rounding or truncation of the mean as read
+  searched: drgganita_1963 II.11–15, I.i.23–24, I.ii.1–6
+  effect: the mean is exact rational arithmetic; no rounding is applied
+  notes: ''
+- key: texts.drgganita.trig.rsine_table.quoted.editor_note.grahanamandana_1965
+  value: C.E. omit the two old well known mnemonic verses 25A and B, which, really speaking, do not belong to this text, but are quoted here for convenience.
+  form: text
+  unit: statement
+  script: latin
+  source: grahanamandana_1965
+  file: grahanamandana_1965-grahanamandana-sarma-1965.pdf
+  edition_page: 11
+  pdf_page: 34
+  locus: apparatus note 25A at the foot of p. 11, from "C.E. omit" to "for convenience.". Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised (one space after a full stop), a dash keyed as − for a sign and — between words, italics, footnote marks and verse numbers not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 321.97, 456.19, 651.94]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: r2c1 of 1x2 --overlap 8 (grahanamandana_1965 PDF 34)
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: fallback_no_stated_rule
+  basis_ref: 'the table of grahanamandana_1965 śl. 25A–B (texts.drgganita.trig.rsine_table.quoted.grahanamandana_1965.e01 to e24), printed p. 11 (PDF 34), adopted for the Dṛk line where the Dṛggaṇita states none (texts.drgganita.trig.rsine_table); no Dṛk page states how the table is read between its entries (searched: goladipika_1916 whole, golasara_1970 whole, grahanamandana_1965 śl. 16–25B): the Āryabhaṭan linear rule (laghubhaskariya_1963 II.2(ii)–3(i)) is the engine''s fallback'
+  notes: The editor's note, cited. The English page (p. 10, PDF 33) prints the same 24 sines as a table under "(The Great Sines)"; not keyed (the cited table is keyed from the Sanskrit page with the editor's decodes).
+  procedure: trig.rsine_table_linear
+  no_printed_example:
+    second_witness: 'none held: no Dṛk page states the interpolation'
+    external: pending
+  provisional: texts.drgganita.trig.rsine_table (a Dṛk-school text, grahanamandana_1965, fills the Dṛggaṇita's gap)
+  second_read:
+  - by: claude-opus-5-5/2026-10-16-r7
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 321.97, 456.18, 651.93]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.procedures.proportional_parts.rule.grahanamandana_1965
+  value: 'The difference between the Sun and the Moon, converted into minutes and again multiplied by 60 is divided by the difference of their True daily motions in minutes: the result will be the nāḍikās to or from the (moment of) conjunction.'
+  form: text
+  unit: statement
+  script: latin
+  source: grahanamandana_1965
+  file: grahanamandana_1965-grahanamandana-sarma-1965.pdf
+  edition_page: 12
+  pdf_page: 35
+  locus: śl. 27b–28a, Sarma's translation, from "The difference" to "of) conjunction.". Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised (one space after a full stop), a dash keyed as − for a sign and — between words, italics, footnote marks and verse numbers not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 0, 442.97, 330.81]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: r1c1 (grahanamandana_1965 PDF 35)
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 600
+    clip: [30, 195, 225, 232]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: enlarged --dpi 600 --upsample (grahanamandana_1965 PDF 35)
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 600
+    clip: [225, 195, 420, 232]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: enlarged --dpi 600 --upsample (grahanamandana_1965 PDF 35)
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: grahanamandana_1965 śl. 27b–28a, printed p. 12 (PDF 35)
+  notes: Printed "minutes :" with a space before the colon; normalised.
+  procedure: ending.proportional_parts
+  no_printed_example:
+    second_witness: 'none held: goladipika_1916 and golasara_1970 state no ending rule (searched whole)'
+    external: pending
+  provisional: texts.drgganita.procedures.desantara (a Dṛk-school text, grahanamandana_1965, fills the Dṛggaṇita's gap)
+  second_read:
+  - by: claude-opus-5-5/2026-10-16-r7
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 0, 442.96, 330.81]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.procedures.intraday.rule.grahanamandana_1965
+  value: The True daily motion (for that day) in minutes is multiplied by the number of nāḍikās to (or from) the moment of conjunction and (the product) divided by 60, is added to the respective True positions (of the Sun and the Moon). when the conjunction is yet to take place and subtracted when the conjunction is past.
+  form: text
+  unit: statement
+  script: latin
+  source: grahanamandana_1965
+  file: grahanamandana_1965-grahanamandana-sarma-1965.pdf
+  edition_page: 12
+  pdf_page: 35
+  locus: śl. 29, Sarma's translation, from "The True daily" to "is past.". Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised (one space after a full stop), a dash keyed as − for a sign and — between words, italics, footnote marks and verse numbers not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 0, 442.97, 330.81]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: r1c1 (grahanamandana_1965 PDF 35)
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 322.81, 442.97, 653.62]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: r2c1 (grahanamandana_1965 PDF 35)
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 600
+    clip: [30, 318, 250, 362]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: enlarged --dpi 600 --upsample (grahanamandana_1965 PDF 35)
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: grahanamandana_1965 śl. 29, printed p. 12 (PDF 35)
+  notes: 'A dark baseline dot is printed between "Moon)" and "when" (no space): keyed as a full stop as printed, spacing normalised. The faint marks after "from)" and before "moment" are show-through from the facing page, not keyed.'
+  procedure: intraday.linear_gati
+  no_printed_example:
+    second_witness: 'none held: goladipika_1916 and golasara_1970 state no rule for a position inside the day (searched whole)'
+    external: pending
+  provisional: texts.drgganita.procedures.desantara (a Dṛk-school text, grahanamandana_1965, fills the Dṛggaṇita's gap)
+  second_read:
+  - by: claude-opus-5-5/2026-10-16-r7
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 0, 442.96, 330.81]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.latitude.rule.moon.grahanamandana_1965
+  value: The Great Sine got from (Moon − Node) multiplied by 4 and divided by 51 is the Moon's Latitude. This, multiplied by its True motion and divided by its Mean motion gives a more accurate (value of the) latitude according to some. The latitude in minutes resulting from (Moon − Node) in Aries etc. is north, and that resulting from the same in Libra etc. is south.
+  form: text
+  unit: statement
+  script: latin
+  source: grahanamandana_1965
+  file: grahanamandana_1965-grahanamandana-sarma-1965.pdf
+  edition_page: 14
+  pdf_page: 37
+  locus: śl. 37–38, Sarma's translation (PDF 37 to 39), from "The Great Sine" to "is south." A dash between quantities keyed as the minus sign U+2212 with a space around it (a formula on one line). Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised (one space after a full stop), a dash keyed as − for a sign and — between words, italics, footnote marks and verse numbers not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 322.81, 442.97, 653.62]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: r2c1 of 1x2 --overlap 8 (PDF 37) (grahanamandana_1965 PDF 37)
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 0, 442.97, 330.81]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: r1c1 of 1x2 --overlap 8 (PDF 39) (grahanamandana_1965 PDF 37)
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: grahanamandana_1965 śl. 37–38, printed p. 14 (PDF 37)
+  notes: Both minus signs are printed as long dashes without spaces ("Moon—Node", "Moon—Node").
+  procedure: latitude.great_sine_moon
+  no_printed_example:
+    second_witness: 'golasara_1970 I.7a (texts.drgganita.latitude.maxima.statement.golasara_1970): the Moon''s greatest latitude, which the rule''s multiplier and divisor give on the table''s radius within half of golasara_1970''s ten-minute quantum (tests/invariants/test_drgganita_invariants.py)'
+    external: pending
+  provisional: texts.drgganita.latitude.rule (a Dṛk-school text, grahanamandana_1965, fills the Dṛggaṇita's gap)
+  second_read:
+  - by: claude-opus-5-5/2026-10-16-r7
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 322.81, 442.96, 653.62]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.trig.rsine_rule.golasara_1970
+  value: To get the R Sines successively previous to the one already found, multiply this R Sine by twice the very last difference, and divide by the radius. The result plus the difference (using which this R Sine has been found) is the difference to be subtracted from this R Sine to get the next previous R Sine.
+  form: text
+  unit: statement
+  script: latin
+  source: golasara_1970
+  file: golasara_1970-golasara-nilakantha.pdf
+  edition_page: 18
+  pdf_page: 44
+  locus: III.13b–14a, Sarma's translation, from "To get the" to "previous R Sine." (footnote mark 3 not keyed; "R Sine" with the space as printed). Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised (one space after a full stop), a dash keyed as − for a sign and — between words, italics, footnote marks and verse numbers not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 0, 526.5, 401.41]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: r1c1 (golasara_1970 PDF 44)
+  status: double_read
+  verified_by: [authority/drgganita/golasara_1970_iii_13_rsine_recursion]
+  emendation: null
+  basis: stated
+  basis_ref: golasara_1970 III.13b–14a, printed p. 18 (PDF 44)
+  notes: Under the heading "(The tabular R Sines by computation)". The closing parenthesis after "found" is printed broken.
+  procedure: trig.rsine_recursion_backward
+  provisional: texts.drgganita.trig.rsine_table (a Dṛk-school text, golasara_1970, fills the Dṛggaṇita's gap)
+  second_read:
+  - by: claude-opus-5-5/2026-10-16-r7
+    on: 2026-10-16
+    dpi: 256
+    clip: [0, 0, 526.5, 401.41]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.procedures.declination.verses.v073a.goladipika_1916
+  value: स्फुटदोर्ज्या सप्तनवत्र्येकैर्निहता त्रिराशिगुणविहृता
+  form: text
+  unit: statement
+  script: devanagari
+  source: goladipika_1916
+  file: goladipika_1916-goladipika-1916.pdf
+  edition_page: 8
+  pdf_page: 13
+  locus: 'v.73 first half (to the danda), from स्फुटदोर्ज्या to त्रिराशिगुणविहृता. The half-verse: Devanagari NFC as printed, from its first to its last akṣara, to the daṇḍa (first half) or the double daṇḍa (second half); the daṇḍas and the verse number not keyed, a line-end hyphen joined, footnote marks not keyed, words separated by single spaces as printed, an avagraha keyed as printed; the apparatus (footnote variants of the half-verse) as variants.'
+  read:
+  - by: claude-opus-5-5/2026-10-16-r4
+    on: 2026-10-16
+    dpi: 300
+    clip: [0, 0, 164.6, 271.9]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: the reader's notes are the datum's; goladipika_1916_p13_300dpi.png (native page tile, 686x1133)
+  - by: claude-opus-5-5/2026-10-16-r4
+    on: 2026-10-16
+    dpi: 900
+    clip: [4, 189.57, 162, 231.29]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: goladipika_1916_p13_900dpi_r6c1_clip4-14.png (enlarged strip, 1x7 of [4,14,162,264])
+  - by: claude-opus-5-5/2026-10-16-r4
+    on: 2026-10-16
+    dpi: 2400
+    clip: [20, 207, 75, 225]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tight enlarged clip (--upsample) of a doubtful akshara/space
+  - by: claude-opus-5-5/2026-10-16-r4
+    on: 2026-10-16
+    dpi: 2400
+    clip: [50, 207, 105, 225]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tight enlarged clip (--upsample) of a doubtful akshara/space
+  - by: claude-opus-5-5/2026-10-16-r4
+    on: 2026-10-16
+    dpi: 4800
+    clip: [56, 208, 82, 224]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tight enlarged clip (--upsample) of a doubtful akshara/space
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: goladipika_1916 v.73 first half (to the danda), printed p. 8 (PDF 13)
+  variants: []
+  notes: 'verse number not printed; counted from the nearest printed number (counted from printed 66: 67-72 then 73 at PDF 13 lines 19-20). Doubt: the akshara after nava in the second word read as the gnye conjunct (gna-ya with e-sign); no aa-sign is printed between va and it. "trirasi" (three signs) is a term (sine of 90 degrees), not keyed as a number word. the first read''s gnye not adopted.'
+  further_look:
+  - issue: disputed
+    read:
+      by: claude-fable-5-1/2026-10-16-r1
+      on: 2026-10-16
+      dpi: 4800
+      clip: [56, 208, 82, 224]
+      delivered_ppi: 300
+      max_edge: 2000
+      note: 'its clips_read were: [0, 0, 164.6, 271.9]@300; [4, 189.57, 162, 231.29]@900; [20, 207, 75, 225]@2400; [50, 207, 105, 225]@2400; [56, 208, 82, 224]@4800; [54, 207, 120, 226]@2400; [50, 208, 70, 224]@4800; [75, 36, 110, 50]@2400; [10, 172, 60, 187]@2400'
+    matches: second_read
+  - issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-24-r1
+      on: 2026-10-24
+      dpi: 900
+      clip: [160, 845, 290, 895]
+      delivered_ppi: 300
+      max_edge: 2000
+      note: 'clip and dpi are its tightest tile; its tiles were: goladipika_1916_second_scan PDF 22 [0,0,637.2,1132.3]@120; [20,733,620,1057]@300 (2x1); [20,840,620,900]@600 (3x1); [160,845,290,895]@900; the environment reports the model id as claude-opus-5-5[1m]'
+    matches: second_read
+  - issue: disputed
+    read:
+      by: claude-fable-5-1/2026-10-24-r1
+      on: 2026-10-24
+      dpi: 300
+      clip: [20, 733, 340, 933]
+      delivered_ppi: 300
+      max_edge: 2000
+      note: 'clip and dpi are its tightest tile; its tiles were: goladipika_1916_second_scan PDF 22 [20,733,320,933]@300; [320,733,620,933]@300; [20,733,340,933]@300; [300,733,620,933]@300; [0,0,637.2,1132.3]@120'
+    matches: neither
+  - issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-24-r2
+      on: 2026-10-24
+      dpi: 1500
+      clip: [70, 207, 110, 225]
+      delivered_ppi: 300
+      max_edge: 2000
+      note: 'clip and dpi are its tightest tile; its tiles were: goladipika_1916 PDF 13 [0,0,164.6,271.9]@300, [4,189.57,162,231.29]@300, [20,207,105,225]@300 and @1200, [56,208,82,224]@300 and @1200, [70,207,110,225]@1500; goladipika_1916_second_scan PDF 22 [20,733,620,933]@300, [160,845,305,885]@300, [215,845,270,885]@1200; the environment reports the model id as claude-opus-5-5[1m]'
+    matches: second_read
+  - issue: disputed
+    read:
+      by: claude-fable-5-1/2026-10-24-r2
+      on: 2026-10-24
+      dpi: 2400
+      clip: [60, 207, 80, 225]
+      delivered_ppi: 300
+      max_edge: 2000
+      note: 'clip and dpi are its tightest tile; its tiles were: goladipika_1916 PDF 13 [0,0,164.6,271.9]@300, [4,189.57,162,231.29]@300, [20,207,105,225]@900, [56,208,82,224]@1800, [60,207,80,225]@2400, [100,207,130,225]@2400 (comparison); goladipika_1916_second_scan PDF 22 [20,733,620,933]@300, [160,845,305,885]@900, [225,843,275,885]@2400'
+    matches: second_read
+  procedure: declination_argument.svaniraksa_true_longitude
+  decides: [procedure]
+  no_printed_example:
+    second_witness: 'none agreeing: grahanamandana_1965 śl. 18b–19 (texts.drgganita.procedures.ascensional_difference.rule.grahanamandana_1965) takes the true Sun with the precession added for its own cara rule, an alternative not run (no ayanāṃśa keyed)'
+    external: pending
+  provisional: texts.drgganita.obliquity (a Dṛk-school text, goladipika_1916, fills the Dṛggaṇita's gap)
+  second_read:
+  - by: claude-fable-5-1/2026-10-16-r2
+    on: 2026-10-16
+    dpi: 900
+    clip: [4, 189.57, 162, 231.29]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-16-r6
+      on: 2026-10-16
+      dpi: 4800
+      clip: [56, 208, 82, 224]
+      delivered_ppi: 300
+      max_edge: 2000
+      note: 'its tiles were: [0,0,164.59,271.89]@300; [4,189.57,162,231.29]@900; [20,207,75,225]@2400; [50,207,105,225]@2400; [56,208,82,224]@4800; [54,207,120,226]@300 (focus)'
+    matches: read
+- key: texts.drgganita.procedures.ascensional_difference.verses.v074a.goladipika_1916
+  value: अक्षज्याघ्ना क्रान्तिर्लम्बकजीवोद्धृता क्षितिज्या स्यात्
+  form: text
+  unit: statement
+  script: devanagari
+  source: goladipika_1916
+  file: goladipika_1916-goladipika-1916.pdf
+  edition_page: 8
+  pdf_page: 13
+  locus: 'v.74 first half (to the danda), from अक्षज्याघ्ना to स्यात्. The half-verse: Devanagari NFC as printed, from its first to its last akṣara, to the daṇḍa (first half) or the double daṇḍa (second half); the daṇḍas and the verse number not keyed, a line-end hyphen joined, footnote marks not keyed, words separated by single spaces as printed, an avagraha keyed as printed; the apparatus (footnote variants of the half-verse) as variants.'
+  read:
+  - by: claude-opus-5-5/2026-10-16-r4
+    on: 2026-10-16
+    dpi: 300
+    clip: [0, 0, 164.6, 271.9]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: the reader's notes are the datum's; goladipika_1916_p13_300dpi.png (native page tile, 686x1133)
+  - by: claude-opus-5-5/2026-10-16-r4
+    on: 2026-10-16
+    dpi: 900
+    clip: [4, 225.29, 162, 264]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: goladipika_1916_p13_900dpi_r7c1_clip4-14.png (enlarged strip, 1x7 of [4,14,162,264])
+  - by: claude-opus-5-5/2026-10-16-r4
+    on: 2026-10-16
+    dpi: 2400
+    clip: [66, 235, 112, 253]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tight enlarged clip (--upsample) of a doubtful akshara/space
+  - by: claude-opus-5-5/2026-10-16-r4
+    on: 2026-10-16
+    dpi: 4800
+    clip: [84, 236, 104, 252]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tight enlarged clip (--upsample) of a doubtful akshara/space
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: goladipika_1916 v.74 first half (to the danda), printed p. 8 (PDF 13)
+  variants: []
+  notes: 'verse number not printed; counted from the nearest printed number (last verse of PDF 13). Doubt: the conjunct in the third word read as ddha with the vowel r (same ligature as v.32a).'
+  procedure: ascensional_difference.earthsine
+  decides: [procedure]
+  no_printed_example:
+    second_witness: 'goladipika_1916 v. 83 (texts.drgganita.procedures.ascensional_difference.verses.v083a.goladipika_1916): the cara-sine by the same proportion'
+    external: pending
+  provisional: texts.drgganita.procedures.desantara (a Dṛk-school text, goladipika_1916, fills the Dṛggaṇita's gap)
+  second_read:
+  - by: claude-fable-5-1/2026-10-16-r2
+    on: 2026-10-16
+    dpi: 900
+    clip: [4, 225.29, 162, 264]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.procedures.ascensional_difference.verses.v078b.goladipika_1916
+  value: चापीकृता चरज्या प्राणात्मकमुच्यते चरार्धमिति
+  form: text
+  unit: statement
+  script: devanagari
+  source: goladipika_1916
+  file: goladipika_1916-goladipika-1916.pdf
+  edition_page: 9
+  pdf_page: 14
+  locus: 'v.78 second half (to the double danda), from चापीकृता to चरार्धमिति. The half-verse: Devanagari NFC as printed, from its first to its last akṣara, to the daṇḍa (first half) or the double daṇḍa (second half); the daṇḍas and the verse number not keyed, a line-end hyphen joined, footnote marks not keyed, words separated by single spaces as printed, an avagraha keyed as printed; the apparatus (footnote variants of the half-verse) as variants.'
+  read:
+  - by: claude-opus-5-5/2026-10-16-r4
+    on: 2026-10-16
+    dpi: 300
+    clip: [0, 0, 164.6, 271.9]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: the reader's notes are the datum's; goladipika_1916_p14_300dpi.png (native page tile, 686x1133)
+  - by: claude-opus-5-5/2026-10-16-r4
+    on: 2026-10-16
+    dpi: 900
+    clip: [4, 82.43, 162, 124.14]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: goladipika_1916_p14_900dpi_r3c1_clip4-14.png (enlarged strip, 1x7 of [4,14,162,264])
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: fallback_no_stated_rule
+  basis_ref: 'goladipika_1916 v. 78b, printed p. 8 (PDF 13), says only that the cara-sine is made into an arc; no Dṛk page states how an arc is taken from a Rsine (searched: goladipika_1916 whole, golasara_1970 whole, grahanamandana_1965 śl. 16–25B): the inverse of the table by linear interpolation, the Āryabhaṭan rule (mahabhaskariya_1960 VIII.6), is the engine''s fallback'
+  variants: []
+  notes: verse number not printed; counted from the nearest printed number.
+  procedure: trig.arc_table_linear
+  decides: [procedure]
+  no_printed_example:
+    second_witness: 'none held: no Dṛk page states the rule'
+    external: pending
+  provisional: texts.drgganita.procedures.desantara (a Dṛk-school text, goladipika_1916, fills the Dṛggaṇita's gap)
+  second_read:
+  - by: claude-fable-5-1/2026-10-16-r2
+    on: 2026-10-16
+    dpi: 900
+    clip: [4, 82.43, 162, 124.14]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.procedures.declination.verses.v081a.goladipika_1916
+  value: परमापमो यदि स्यात् त्रिराशिदोर्जीवया तदा तु कियान्
+  form: text
+  unit: statement
+  script: devanagari
+  source: goladipika_1916
+  file: goladipika_1916-goladipika-1916.pdf
+  edition_page: 9
+  pdf_page: 14
+  locus: 'v.81 first half (to the danda), from परमापमो to कियान्. The half-verse: Devanagari NFC as printed, from its first to its last akṣara, to the daṇḍa (first half) or the double daṇḍa (second half); the daṇḍas and the verse number not keyed, a line-end hyphen joined, footnote marks not keyed, words separated by single spaces as printed, an avagraha keyed as printed; the apparatus (footnote variants of the half-verse) as variants.'
+  read:
+  - by: claude-opus-5-5/2026-10-16-r4
+    on: 2026-10-16
+    dpi: 300
+    clip: [0, 0, 164.6, 271.9]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: the reader's notes are the datum's; goladipika_1916_p14_300dpi.png (native page tile, 686x1133)
+  - by: claude-opus-5-5/2026-10-16-r4
+    on: 2026-10-16
+    dpi: 900
+    clip: [4, 153.86, 162, 195.57]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: goladipika_1916_p14_900dpi_r5c1_clip4-14.png (enlarged strip, 1x7 of [4,14,162,264])
+  - by: claude-opus-5-5/2026-10-16-r4
+    on: 2026-10-16
+    dpi: 2000
+    clip: [0, 150, 60, 166]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tight enlarged clip (--upsample) of a doubtful akshara/space
+  - by: claude-opus-5-5/2026-10-16-r4
+    on: 2026-10-16
+    dpi: 2000
+    clip: [100, 150, 164.6, 166]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tight enlarged clip (--upsample) of a doubtful akshara/space
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: goladipika_1916 v.81 first half (to the danda), printed p. 9 (PDF 14)
+  variants: []
+  notes: printed verse number 81 at the end of this verse. "trirasi" not keyed as a number word.
+  procedure: declination.rsine_obliquity
+  decides: [procedure]
+  no_printed_example:
+    second_witness: 'goladipika_1916 v. 73a (texts.drgganita.procedures.declination.verses.v073a.goladipika_1916): the same declination with the Rsine of the greatest declination stated'
+    external: pending
+  provisional: texts.drgganita.obliquity (a Dṛk-school text, goladipika_1916, fills the Dṛggaṇita's gap)
+  second_read:
+  - by: claude-fable-5-1/2026-10-16-r2
+    on: 2026-10-16
+    dpi: 900
+    clip: [4, 153.86, 162, 195.57]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.procedures.half_day.verses.v109a.goladipika_1916
+  value: सौम्ये चरहीनानां गोले याम्ये चरार्धयुक्तानाम्
+  form: text
+  unit: statement
+  script: devanagari
+  source: goladipika_1916
+  file: goladipika_1916-goladipika-1916.pdf
+  edition_page: 12
+  pdf_page: 17
+  locus: 'v.109 first half (to the danda), from सौम्ये to चरार्धयुक्तानाम्. The half-verse: Devanagari NFC as printed, from its first to its last akṣara, to the daṇḍa (first half) or the double daṇḍa (second half); the daṇḍas and the verse number not keyed, a line-end hyphen joined, footnote marks not keyed, words separated by single spaces as printed, an avagraha keyed as printed; the apparatus (footnote variants of the half-verse) as variants.'
+  read:
+  - by: claude-opus-5-5/2026-10-16-r4
+    on: 2026-10-16
+    dpi: 300
+    clip: [0, 0, 164.6, 271.9]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: the reader's notes are the datum's; goladipika_1916_p17_300dpi.png (native page tile, 686x1133)
+  - by: claude-opus-5-5/2026-10-16-r4
+    on: 2026-10-16
+    dpi: 900
+    clip: [4, 46.71, 162, 88.43]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: goladipika_1916_p17_900dpi_r2c1_clip4-14.png (enlarged strip, 1x7 of [4,14,162,264])
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: goladipika_1916 v.109 first half (to the danda), printed p. 12 (PDF 17)
+  variants: []
+  notes: printed verse number 109 at the end of this verse (PDF 17 = printed 12; PDF 19 duplicate not used).
+  procedure: half_day.quarter_day_plus_cara
+  decides: [procedure]
+  no_printed_example:
+    second_witness: 'goladipika_1916 v. 45–48 (texts.drgganita.procedures.half_day.verses.v045a.goladipika_1916 to v048b.goladipika_1916): day and night at the equator and their change with the hemisphere and the latitude'
+    external: pending
+  provisional: texts.drgganita.procedures.desantara (a Dṛk-school text, goladipika_1916, fills the Dṛggaṇita's gap)
+  second_read:
+  - by: claude-fable-5-1/2026-10-16-r2
+    on: 2026-10-16
+    dpi: 900
+    clip: [4, 46.71, 162, 88.43]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.procedures.sunrise.verses.v195a.goladipika_1916
+  value: समरेखायां मध्यमभानोरुन्मण्डलोदये हि बुधैः
+  form: text
+  unit: statement
+  script: devanagari
+  source: goladipika_1916
+  file: goladipika_1916-goladipika-1916.pdf
+  edition_page: 20
+  pdf_page: 27
+  locus: 'v.195 first half (to the danda), from समरेखायां to बुधैः. The half-verse: Devanagari NFC as printed, from its first to its last akṣara, to the daṇḍa (first half) or the double daṇḍa (second half); the daṇḍas and the verse number not keyed, a line-end hyphen joined, footnote marks not keyed, words separated by single spaces as printed, an avagraha keyed as printed; the apparatus (footnote variants of the half-verse) as variants.'
+  read:
+  - by: claude-opus-5-5/2026-10-16-r4
+    on: 2026-10-16
+    dpi: 300
+    clip: [0, 0, 164.6, 271.9]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: the reader's notes are the datum's; goladipika_1916_p27_300dpi.png (native page tile, 686x1133)
+  - by: claude-opus-5-5/2026-10-16-r4
+    on: 2026-10-16
+    dpi: 900
+    clip: [4, 118.14, 162, 159.86]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: goladipika_1916_p27_900dpi_r4c1_clip4-14.png (enlarged strip, 1x7 of [4,14,162,264])
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: goladipika_1916 v.195 first half (to the danda), printed p. 20 (PDF 27)
+  variants: []
+  notes: 'verse number not printed; counted from the nearest printed number (counted from printed 191 on PDF 27: 192-194, then 195 at lines 11-12).'
+  procedure: sunrise.mean_meridian_plus_carry
+  decides: [procedure]
+  no_printed_example:
+    second_witness: 'grahanamandana_1965 śl. 22 (texts.drgganita.procedures.sunrise.signs.grahanamandana_1965): the corrections applied at sunrise, the node reversed'
+    external: pending
+  provisional: texts.drgganita.procedures.desantara (a Dṛk-school text, goladipika_1916, fills the Dṛggaṇita's gap)
+  second_read:
+  - by: claude-fable-5-1/2026-10-16-r2
+    on: 2026-10-16
+    dpi: 900
+    clip: [4, 118.14, 162, 159.86]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.procedures.carry.desantara.verses.v196a.goladipika_1916
+  value: समरेखानिजभूम्योरन्तरजैर्योजनैर्हता भुक्तिः
+  form: text
+  unit: statement
+  script: devanagari
+  source: goladipika_1916
+  file: goladipika_1916-goladipika-1916.pdf
+  edition_page: 20
+  pdf_page: 27
+  locus: 'v.196 first half (to the danda), from समरेखानिजभूम्योरन्तरजैर्योजनैर्हता to भुक्तिः. The half-verse: Devanagari NFC as printed, from its first to its last akṣara, to the daṇḍa (first half) or the double daṇḍa (second half); the daṇḍas and the verse number not keyed, a line-end hyphen joined, footnote marks not keyed, words separated by single spaces as printed, an avagraha keyed as printed; the apparatus (footnote variants of the half-verse) as variants.'
+  read:
+  - by: claude-opus-5-5/2026-10-16-r4
+    on: 2026-10-16
+    dpi: 300
+    clip: [0, 0, 164.6, 271.9]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: the reader's notes are the datum's; goladipika_1916_p27_300dpi.png (native page tile, 686x1133)
+  - by: claude-opus-5-5/2026-10-16-r4
+    on: 2026-10-16
+    dpi: 900
+    clip: [4, 153.86, 162, 195.57]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: goladipika_1916_p27_900dpi_r5c1_clip4-14.png (enlarged strip, 1x7 of [4,14,162,264])
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: goladipika_1916 v.196 first half (to the danda), printed p. 20 (PDF 27)
+  variants: []
+  notes: verse number not printed; counted from the nearest printed number.
+  procedure: carry.desantara_yojana
+  acts_on: mean_before_equation
+  motion: mean
+  applies_to: [all_elements]
+  decides: [procedure]
+  no_printed_example:
+    second_witness: grahanamandana_1965 śl. 13a–14a (texts.drgganita.procedures.carry.desantara.rule.grahanamandana_1965)
+    external: pending
+  provisional: texts.drgganita.procedures.desantara (a Dṛk-school text, goladipika_1916, fills the Dṛggaṇita's gap)
+  second_read:
+  - by: claude-fable-5-1/2026-10-16-r2
+    on: 2026-10-16
+    dpi: 900
+    clip: [4, 153.86, 162, 195.57]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.procedures.carry.bhujantara.verses.v202a.goladipika_1916
+  value: रविदोःफलं हि भानोः स्फुटमध्यमयोः कलात्मकं विवरम्
+  form: text
+  unit: statement
+  script: devanagari
+  source: goladipika_1916
+  file: goladipika_1916-goladipika-1916.pdf
+  edition_page: 21
+  pdf_page: 28
+  locus: 'v.202 first half (to the danda), from रविदोःफलं to विवरम्. The half-verse: Devanagari NFC as printed, from its first to its last akṣara, to the daṇḍa (first half) or the double daṇḍa (second half); the daṇḍas and the verse number not keyed, a line-end hyphen joined, footnote marks not keyed, words separated by single spaces as printed, an avagraha keyed as printed; the apparatus (footnote variants of the half-verse) as variants.'
+  read:
+  - by: claude-opus-5-5/2026-10-16-r4
+    on: 2026-10-16
+    dpi: 300
+    clip: [0, 0, 164.6, 271.9]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: the reader's notes are the datum's; goladipika_1916_p28_300dpi.png (native page tile, 686x1133)
+  - by: claude-opus-5-5/2026-10-16-r4
+    on: 2026-10-16
+    dpi: 860
+    clip: [0, 46.71, 164.6, 88.43]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: goladipika_1916_p28_860dpi_r2c1_clip0-14.png (enlarged strip, 1x7 of [0,14,164.6,264])
+  - by: claude-opus-5-5/2026-10-16-r4
+    on: 2026-10-16
+    dpi: 860
+    clip: [0, 82.43, 164.6, 124.14]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: goladipika_1916_p28_860dpi_r3c1_clip0-14.png (enlarged strip, 1x7 of [0,14,164.6,264])
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: goladipika_1916 v.202 first half (to the danda), printed p. 21 (PDF 28)
+  variants: []
+  notes: 'verse number not printed; counted from the nearest printed number. The half runs over a line end: its last word is set right-aligned on the next printed line; one datum.'
+  procedure: carry.bhujantara_mean_elements
+  acts_on: mean_before_equation
+  motion: mean
+  applies_to: [all_elements]
+  decides: [procedure]
+  no_printed_example:
+    second_witness: grahanamandana_1965 śl. 16–17 (texts.drgganita.procedures.carry.bhujantara.rule.grahanamandana_1965), its divisors compared in the report
+    external: pending
+  provisional: texts.drgganita.procedures.desantara (a Dṛk-school text, goladipika_1916, fills the Dṛggaṇita's gap)
+  second_read:
+  - by: claude-fable-5-1/2026-10-16-r2
+    on: 2026-10-16
+    dpi: 860
+    clip: [0, 46.71, 164.6, 88.43]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.procedures.carry.cara.verses.v205a.goladipika_1916
+  value: रविचरदलासुनिहता दिनासुभक्ता गतिस्त्वृणं सौम्ये
+  form: text
+  unit: statement
+  script: devanagari
+  source: goladipika_1916
+  file: goladipika_1916-goladipika-1916.pdf
+  edition_page: 21
+  pdf_page: 28
+  locus: 'v.205 first half (to the danda), from रविचरदलासुनिहता to सौम्ये. The half-verse: Devanagari NFC as printed, from its first to its last akṣara, to the daṇḍa (first half) or the double daṇḍa (second half); the daṇḍas and the verse number not keyed, a line-end hyphen joined, footnote marks not keyed, words separated by single spaces as printed, an avagraha keyed as printed; the apparatus (footnote variants of the half-verse) as variants.'
+  read:
+  - by: claude-opus-5-5/2026-10-16-r4
+    on: 2026-10-16
+    dpi: 300
+    clip: [0, 0, 164.6, 271.9]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: the reader's notes are the datum's; goladipika_1916_p28_300dpi.png (native page tile, 686x1133)
+  - by: claude-opus-5-5/2026-10-16-r4
+    on: 2026-10-16
+    dpi: 860
+    clip: [0, 153.86, 164.6, 195.57]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: goladipika_1916_p28_860dpi_r5c1_clip0-14.png (enlarged strip, 1x7 of [0,14,164.6,264])
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: goladipika_1916 v.205 first half (to the danda), printed p. 21 (PDF 28)
+  variants: []
+  notes: printed verse number 205 at the end of this verse.
+  procedure: carry.cara_mean_elements
+  acts_on: mean_before_equation
+  motion: mean
+  applies_to: [all_elements]
+  decides: [procedure]
+  no_printed_example:
+    second_witness: grahanamandana_1965 śl. 20–21 (texts.drgganita.procedures.carry.cara.planets.grahanamandana_1965), its divisors compared in the report
+    external: pending
+  provisional: texts.drgganita.procedures.desantara (a Dṛk-school text, goladipika_1916, fills the Dṛggaṇita's gap)
+  second_read:
+  - by: claude-fable-5-1/2026-10-16-r2
+    on: 2026-10-16
+    dpi: 860
+    clip: [0, 153.86, 164.6, 195.57]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- key: texts.drgganita.procedures.gati.use.grahanamandana_1965
+  value: The True daily motion of the Sun (for the day) in minutes, multiplied by 5 and divided by 9 is (the measure of) its diameter in minutes.
+  form: text
+  unit: statement
+  script: latin
+  source: grahanamandana_1965
+  file: grahanamandana_1965-grahanamandana-sarma-1965.pdf
+  edition_page: 12
+  pdf_page: 35
+  locus: śl. 31b, Sarma's translation, from "The True daily motion" to "in minutes." (the last line of the page). Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised (one space after a full stop), a dash keyed as − for a sign and — between words, italics, footnote marks and verse numbers not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-16-r3
+    on: 2026-10-22
+    dpi: 256
+    clip: [0, 326.81, 442.96, 653.62]
+    delivered_ppi: 256
+    max_edge: 2000
+    note: grahanamandana_1965_p35_256dpi_clip0-326 (the lower half of PDF 35, native); also read from [30, 560, 215, 610] and [215, 560, 400, 610] at 512 dpi --upsample (256 ppi delivered)
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: fallback_no_stated_rule
+  basis_ref: 'no Dṛk page states how the true daily motion is computed (searched: goladipika_1916 whole, golasara_1970 whole, grahanamandana_1965 śl. 26–34); grahanamandana_1965 śl. 31b (this datum), like śl. 27b–29 and 32–34a, uses ''the True daily motion (for the day)'': the difference of consecutive sunrise longitudes is the engine''s fallback'
+  notes: The statement is the Sun's diameter from its true daily motion; it is keyed as the Dṛk line's use of the quantity, the rule for which is not stated.
+  procedure: gati.sunrise_difference
+  no_printed_example:
+    second_witness: 'none held: no Dṛk page states the rule'
+    external: pending
+  provisional: texts.drgganita.procedures.desantara (a Dṛk-school text, grahanamandana_1965, fills the Dṛggaṇita's gap)
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r3
+    on: 2026-10-22
+    dpi: 256
+    clip: [0, 326.81, 442.96, 653.62]
+    delivered_ppi: 256
+    note: ''
+- key: texts.drgganita.procedures.ending_rounding
+  status: gap
+  reason: no rounding or truncation of an ending time is stated as read
+  searched: grahanamandana_1965 śl. 26–34; goladipika_1916 whole; golasara_1970 whole
+  effect: ending times are exact; no rounding is applied (as the Āryabhaṭan engine, which states one but applies none to the record)
+  source: grahanamandana_1965
+  notes: ''

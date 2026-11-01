@@ -1,0 +1,130 @@
+standard: ist
+title: Indian Standard Time
+definition:
+  kind: utc_offset
+  offset: +05:30
+  datum: time_standards.ist.definition.rashtriya_panchanga_1959
+  witnesses: [time_standards.ist.definition.calendar_reform_committee_1955]
+in_force:
+  table: tzdata_asia_kolkata
+  periods:
+  - from: 1906-01-01
+    to: 1941-10-01
+    offset: +05:30
+    line: 4
+  - from: 1941-10-01
+    to: 1942-05-15
+    offset: +06:30
+    line: 5
+    war_time: true
+  - from: 1942-05-15
+    to: 1942-09-01
+    offset: +05:30
+    line: 6
+  - from: 1942-09-01
+    to: 1945-10-15
+    offset: +06:30
+    line: 7
+    war_time: true
+  - from: 1945-10-15
+    to: open
+    offset: +05:30
+    line: 8
+notes: The offset is printed by rashtriya_panchanga_1959 and calendar_reform_committee_1955. The dates of force and the war-time periods (an hour of daylight saving) are the IANA time-zone database's (iana_tzdata), whose own comment calls its source for 1941–1945 dubious; a fetched table, never a witness for verified. A period's bounds are wall-clock midnights, as the database's UNTIL column reads.
+data:
+- key: time_standards.ist.definition.rashtriya_panchanga_1959
+  value: This time (I.S.T.) is 5h 30m ahead of the Universal Time or the Greenwich Mean Time
+  form: text
+  unit: statement
+  script: latin
+  source: rashtriya_panchanga_1959
+  file: rashtriya_panchanga_1959-rashtriya-panchang-1959.pdf
+  edition_page: xvi
+  pdf_page: 18
+  locus: 'rashtriya_panchanga_1959 printed xvi, the Explanation, the page''s first paragraph: the sentence from ''This time'' to ''Greenwich Mean Time''. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 241
+    clip: [0, 0, 381.8, 302.65]
+    delivered_ppi: 241
+    max_edge: 2000
+    note: tile r1c1 of the page 1x2, native 241 ppi
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  basis: stated
+  basis_ref: rashtriya_panchanga_1959 p. xvi
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r18
+    on: 2026-10-08
+    dpi: 241
+    clip: [0, 0, 381.79, 302.65]
+    delivered_ppi: 241
+    max_edge: 2000
+    note: ''
+- key: time_standards.ist.definition.calendar_reform_committee_1955
+  value: It is given for 5−30 A. M. I. S. T., which is the same as 0h Greenwich mean mid-night or 0h U. T
+  form: text
+  unit: statement
+  script: latin
+  source: calendar_reform_committee_1955
+  file: calendar_reform_committee_1955-calendar-reform-committee-1955.pdf
+  edition_page: '[40]'
+  pdf_page: 52
+  locus: 'calendar_reform_committee_1955 printed [40], the explanation of the table, item (4): from ''It is given'' to ''U. T'' (the page is printed turned a quarter turn; the clip is in the PDF''s unrotated page box: turn the tile to read). Small capitals keyed as capitals. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 450
+    clip: [230, 540, 370, 812]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: --dpi 450 --upsample (native 300 ppi); read turned a quarter turn
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  basis: stated
+  basis_ref: calendar_reform_committee_1955 p. [40] item (4)
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r18
+    on: 2026-10-08
+    dpi: 300
+    clip: [230, 540, 370, 812]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- key: time_standards.ist.almanac_use.rashtriya_panchanga_1959
+  value: The ending moments of tithis, nakshatras, etc., having been given in I.S.T. and these being geocentric phenomena, the timings require no correction for different longitudes, and are applicable for any place in India in I.S.T
+  form: text
+  unit: statement
+  script: latin
+  source: rashtriya_panchanga_1959
+  file: rashtriya_panchanga_1959-rashtriya-panchang-1959.pdf
+  edition_page: xvi
+  pdf_page: 18
+  locus: 'rashtriya_panchanga_1959 printed xvi, the Explanation: the sentence from ''The ending moments'' to ''in I.S.T'' (its end). Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 241
+    clip: [0, 296.65, 381.8, 599.3]
+    delivered_ppi: 241
+    max_edge: 2000
+    note: tile r2c1 of the page 1x2, native 241 ppi
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  basis: stated
+  basis_ref: rashtriya_panchanga_1959 p. xvi
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r18
+    on: 2026-10-08
+    dpi: 241
+    clip: [0, 296.65, 381.79, 599.29]
+    delivered_ppi: 241
+    max_edge: 2000
+    note: ''

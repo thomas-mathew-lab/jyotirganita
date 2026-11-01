@@ -1,0 +1,19 @@
+preset: drgganita_kerala
+header:
+  represents: The Dṛggaṇita (Parameśvara, drgganita_1963 Part II's rates, drifts, dhruvas and jyā tables, without the II.47–50 correction, which corrects the Grahaṇamaṇḍana) under the Kerala profile's conventions (regions/kerala/conventions.yaml), at the text's computation instant (drgganita_1963 I.ii.6).
+  hypothesis: That a Kerala almanac of the Dṛk school computed its positions by these rates and tables. Which almanacs did, and from when, is for the later comparisons. The Kerala places reach this preset by route (b) through the editor's identification of the samarekhā's line, on the Dṛk-school sunrise and carry and grahanamandana_1965's Rsine table, both provisional, and the profile's default aparāhna month rule runs. The Kollam year starts at Siṃha by default, Kanyā selectable.
+  range: docs/verification.md prints the computed date range (from the method's runs_from, no upper end) and the effective composition date; neither is typed here.
+method: drgganita
+variants: {}
+conventions: kerala
+time_standard: text_local:drgganita
+intraday: intraday.linear_gati
+sunrise: text
+output:
+  elements: [tithi, nakshatra, yoga, karana]
+  scripts: [latin]
+engine_data:
+  text: drgganita
+  layers: []
+observer:
+  required: true

@@ -1,0 +1,55 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "jyotirganita/derived.schema.json",
+ "title": "Derived records",
+ "description": "Quantities the project computes from its own data, never read from a page nor chosen as engine parameters. Each file under jyotirganita/data/derived/ is a list of records; the first are the search's planet step bounds, written by tools/step_scan.py.",
+ "type": "array",
+ "items": {"$ref": "#/$defs/step_bound"},
+ "$defs": {
+  "exact": {"type": "string", "pattern": "^-?[0-9]+(/[1-9][0-9]*|\\.[0-9]+)?$"},
+  "maximum": {
+   "type": "object",
+   "required": ["value", "day"],
+   "additionalProperties": false,
+   "properties": {"value": {"$ref": "#/$defs/exact"}, "day": {"type": "integer"}}
+  },
+  "step_bound": {
+   "type": "object",
+   "required": ["key", "value", "sunrise_step_max", "motion_max", "unit", "method", "body",
+                "observer", "procedures", "intraday", "range", "tool", "engine_version",
+                "data_files", "parameters_sha256", "scanned_on"],
+   "additionalProperties": false,
+   "properties": {
+    "key": {"type": "string", "pattern": "^derived\\.search\\.step_bound\\.[a-z0-9_]+\\.[a-z]+$"},
+    "value": {"$ref": "#/$defs/exact"},
+    "sunrise_step_max": {"$ref": "#/$defs/maximum"},
+    "motion_max": {"anyOf": [{"$ref": "#/$defs/maximum"}, {"const": "not_served"}]},
+    "unit": {"const": "degree/day"},
+    "method": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+    "body": {"enum": ["mercury", "venus", "mars", "jupiter", "saturn", "node"]},
+    "observer": {"type": "string", "pattern": "^[a-z0-9_]+/[a-z0-9_]+$"},
+    "procedures": {"type": "object"},
+    "intraday": {"type": "string", "minLength": 1},
+    "range": {
+     "type": "object",
+     "required": ["from_jdn", "to_jdn", "cut"],
+     "additionalProperties": false,
+     "properties": {
+      "from_jdn": {"type": "integer"},
+      "to_jdn": {"type": "integer"},
+      "cut": {"type": "string", "minLength": 1}
+     }
+    },
+    "tool": {"type": "string", "pattern": "^step_scan/[0-9]+$"},
+    "engine_version": {"type": "string", "minLength": 1},
+    "data_files": {
+     "type": "object",
+     "minProperties": 1,
+     "additionalProperties": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+    },
+    "parameters_sha256": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+    "scanned_on": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"}
+   }
+  }
+ }
+}

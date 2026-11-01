@@ -1,0 +1,296 @@
+id: authority/suryasiddhanta/whitney_moon_asterism
+methods: [suryasiddhanta]
+class: editor_computed
+source: suryasiddhanta_burgess_1860
+edition_page: 235
+pdf_page: 96
+locus: 'Whitney''s note to ii. 64, printed p. 235: the paragraph from ''The true longitude of the moon was found above (under v. 39)'' to ''... in the asterism.'''
+rounding: not stated
+precision: minutes of arc; pranas (respirations)
+datum_keys: [texts.suryasiddhanta.procedures.endings.naksatra.ii64.suryasiddhanta_burgess_1860]
+notes: 'The moon''s asterism: her true longitude in minutes divided by the portion of an asterism gives the number of asterisms traversed and the part of the current one passed and to come; these divided by her daily motion give the time spent in it and still to run. The verse citation (under v. 39) is not keyed; the word ''last'' beside the ordinal is not a separate figure. Unit marks as printed: superscript s (signs), v p (vinadis, pranas), d n v p (days, nadis, vinadis, pranas). Errata (suryasiddhanta_burgess_1860_reprint PDF 364) checked: no entry on this page. First read lat-b, fixture file sha256 bd734423.'
+values:
+- name: input.moon.true_longitude
+  role: input
+  value: [11, 17, 39]
+  form: rdms
+  unit: signs_degrees_minutes
+  script: latin
+  edition_page: 235
+  pdf_page: 96
+  locus: sentence 'The true longitude of the moon was found above (under v. …) to be', start of the next line
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 265, 209, 338]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bd734423); suryasiddhanta_burgess_1860_p96_600dpi_r1c1_clip40-265.png
+  status: double_read
+  notes: 'signs marked with a superscript s; no seconds printed. locus as first keyed: sentence ''The true longitude of the moon was found above (under v. 39) to be'', start of the next line'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 265, 209, 338]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.moon.true_longitude_minutes
+  role: input
+  value: 20859
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 235
+  pdf_page: 96
+  locus: same sentence, after 'or'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 265, 209, 338]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bd734423); suryasiddhanta_burgess_1860_p96_600dpi_r1c1_clip40-265.png
+  status: double_read
+  notes: printed with a comma as thousands separator.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 265, 209, 338]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.asterism_portion
+  role: input
+  value: 800
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 235
+  pdf_page: 96
+  locus: sentence 'Dividing by'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 265, 370, 338]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bd734423); suryasiddhanta_burgess_1860_p96_600dpi_r1c2_clip40-265.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 265, 370, 338]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.moon.asterism.number
+  role: output
+  value: 27
+  form: integer
+  unit: asterism
+  script: latin
+  edition_page: 235
+  pdf_page: 96
+  locus: same sentence, after 'at the given time, the moon is in the'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 265, 209, 338]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bd734423); suryasiddhanta_burgess_1860_p96_600dpi_r1c1_clip40-265.png
+  status: double_read
+  notes: printed as an ordinal in figures with 'th', followed by 'or last,'.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 265, 209, 338]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.moon.asterism.name
+  role: output
+  value: Revatî
+  form: text
+  unit: statement
+  script: latin
+  edition_page: 235
+  pdf_page: 96
+  locus: same sentence, after 'asterism, named'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 265, 370, 338]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bd734423); suryasiddhanta_burgess_1860_p96_600dpi_r1c2_clip40-265.png
+  status: double_read
+  notes: name as printed, with a circumflex on the final i.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 265, 370, 338]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.moon.asterism.part_traversed
+  role: output
+  value: 59
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 235
+  pdf_page: 96
+  locus: same sentence, after 'of which it has traversed'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 265, 209, 338]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bd734423); suryasiddhanta_burgess_1860_p96_600dpi_r1c1_clip40-265.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 328, 209, 362]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p96_600dpi_r1c1_clip40-328.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 265, 209, 338]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.moon.asterism.part_to_traverse
+  role: output
+  value: 741
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 235
+  pdf_page: 96
+  locus: same sentence, after 'and has', before 'still to pass over'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 265, 209, 338]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bd734423); suryasiddhanta_burgess_1860_p96_600dpi_r1c1_clip40-265.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 328, 209, 362]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p96_600dpi_r1c1_clip40-328.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 265, 209, 338]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.moon.true_daily_motion
+  role: input
+  value: 737
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 235
+  pdf_page: 96
+  locus: sentence 'Its daily motion being'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 328, 209, 362]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bd734423); suryasiddhanta_burgess_1860_p96_600dpi_r1c1_clip40-328.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 328, 209, 362]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.moon.asterism.time_spent
+  role: output
+  value: [28, 4]
+  form: sexagesimal
+  unit: vinadis_pranas
+  script: latin
+  edition_page: 235
+  pdf_page: 96
+  locus: same sentence, after 'it has spent'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 328, 209, 362]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bd734423); suryasiddhanta_burgess_1860_p96_600dpi_r1c1_clip40-328.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 328, 209, 362]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.moon.asterism.time_to_run
+  role: output
+  value: [1, 0, 19, 3]
+  form: sexagesimal
+  unit: days_nadis_vinadis_pranas
+  script: latin
+  edition_page: 235
+  pdf_page: 96
+  locus: same sentence, after 'and has yet to continue', before 'in the asterism'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 328, 370, 362]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 bd734423); suryasiddhanta_burgess_1860_p96_600dpi_r1c2_clip40-328.png
+  status: double_read
+  notes: unit marks superscript d, n, v, p.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 328, 370, 362]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

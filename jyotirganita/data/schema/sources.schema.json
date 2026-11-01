@@ -1,0 +1,106 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "jyotirganita/sources.schema.json",
+ "title": "Sources registry",
+ "type": "object",
+ "required": ["sources"],
+ "additionalProperties": false,
+ "properties": {
+  "sources": {
+   "type": "object",
+   "propertyNames": {"pattern": "^[a-z][a-z0-9_]*$"},
+   "additionalProperties": {
+    "if": {"properties": {"kind": {"const": "online"}}, "required": ["kind"]},
+    "then": {"$ref": "#/$defs/online"},
+    "else": {"$ref": "#/$defs/library"}
+   }
+  }
+ },
+ "$defs": {
+  "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+  "file": {
+   "type": "object",
+   "required": ["path", "sha256", "bytes"],
+   "additionalProperties": false,
+   "properties": {
+    "path": {"type": "string", "pattern": "^[^/]+$"},
+    "sha256": {"$ref": "#/$defs/sha256"},
+    "bytes": {"type": "integer", "minimum": 1},
+    "born_digital": {"type": "boolean"},
+    "inspection": {"type": "string", "minLength": 1},
+    "pages": {"type": "integer", "minimum": 1}
+   }
+  },
+  "anchor": {
+   "type": "object",
+   "required": ["pdf_page", "printed"],
+   "additionalProperties": false,
+   "properties": {
+    "file": {"type": "string"},
+    "pdf_page": {"type": "integer", "minimum": 1},
+    "printed": {"type": ["integer", "string"]},
+    "note": {"type": "string"}
+   }
+  },
+  "library": {
+   "type": "object",
+   "required": ["kind", "title", "author", "edition", "year", "copyright", "held",
+                "verified_basis", "verified_basis_note", "files", "born_digital"],
+   "additionalProperties": false,
+   "properties": {
+    "kind": {"const": "library"},
+    "title": {"type": "string", "minLength": 1},
+    "author": {"type": ["string", "null"]},
+    "edition": {"type": ["string", "null"]},
+    "year": {"type": ["integer", "null"]},
+    "copyright": {"enum": ["public-domain", "in-copyright", "open-access", "open-source", "unknown"]},
+    "held": {"type": "boolean"},
+    "gap": {"type": "string", "minLength": 1},
+    "verified_basis": {"enum": ["durable", "scan_sufficient", "scan_pending", "excluded"]},
+    "verified_basis_note": {"type": "string", "minLength": 1},
+    "files": {"type": "array", "items": {"$ref": "#/$defs/file"}},
+    "mirror": {
+     "type": "object",
+     "required": ["upstream", "commit"],
+     "additionalProperties": false,
+     "properties": {
+      "upstream": {"type": "string"},
+      "commit": {"type": "string", "pattern": "^[0-9a-f]{40}$"}
+     }
+    },
+    "born_digital": {"type": ["boolean", "null"]},
+    "page_map": {"type": "array", "items": {"$ref": "#/$defs/anchor"}}
+   }
+  },
+  "online": {
+   "type": "object",
+   "required": ["kind", "title", "url", "fetched", "sha256", "query", "fetched_by"],
+   "additionalProperties": false,
+   "properties": {
+    "kind": {"const": "online"},
+    "title": {"type": "string", "minLength": 1},
+    "url": {"type": ["string", "null"]},
+    "fetched": {"type": ["string", "null"]},
+    "sha256": {"anyOf": [{"$ref": "#/$defs/sha256"}, {"type": "null"}]},
+    "query": {"type": ["string", "null"]},
+    "fetched_by": {"type": ["string", "null"]},
+    "more_files": {
+     "$comment": "Further files of the same fetch record, each with its own URL, date, SHA-256 and query (the SMH supplement's archive and document).",
+     "type": "array",
+     "minItems": 1,
+     "items": {
+      "type": "object",
+      "required": ["url", "fetched", "sha256", "query"],
+      "additionalProperties": false,
+      "properties": {
+       "url": {"type": "string", "minLength": 1},
+       "fetched": {"type": "string", "minLength": 1},
+       "sha256": {"$ref": "#/$defs/sha256"},
+       "query": {"type": "string", "minLength": 1}
+      }
+     }
+    }
+   }
+  }
+ }
+}

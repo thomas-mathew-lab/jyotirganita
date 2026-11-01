@@ -1,0 +1,32 @@
+# The firewall's whitelist file.
+#
+# The closed set (0, 1, 2, 3, 4, 5, 6, 7, 10, 12, 15, 24, 27, 30, 60, 90, 100,
+# 180, 360, 1000, 1440, 3600, 86400 and 0.5) is held in
+# jyotirganita/data/firewall.py and is not repeated here. This file adds
+# literals one at a time, each with a one-line reason:
+#
+# - value: 1461 # an int, or an exact string module: core/calendar.py #
+# optional: package-relative path reason: "4 × 365 + 1, the Julian leap cycle,
+# derived in the module docstring
+#
+# An entry without `module` allows the literal everywhere.
+
+entries:
+  - value: 31
+    module: core/calendar.py
+    reason: "days of the 31-day months of both calendars, stated in the module docstring"
+  - value: 28
+    module: core/calendar.py
+    reason: "days of February in a common year, stated in the module docstring"
+  - value: 4712
+    module: core/calendar.py
+    reason: "JDN 0 is Julian 1 January 4713 B.C. = astronomical year -4712, derived in the module docstring"
+  - value: 1582
+    module: core/calendar.py
+    reason: "the reform alignment, Gregorian 15 Oct 1582 = the day after Julian 4 Oct 1582, derived in the module docstring"
+  - value: 36525
+    module: modern/timescales.py
+    reason: "days in the Julian century of the time argument T = (JD − 2451545)/36525, stated in the module docstring from indian_astronomical_ephemeris (modern.ayanamsa.iae_lahiri.time_argument) and vondrak_2011 (modern.precession.vondrak2011.time_argument)"
+  - value: 2000
+    module: modern/timescales.py
+    reason: "the Julian epoch J2000.0, 2000 January 1d 12h TT, stated in the module docstring from vondrak_2011 (modern.precession.vondrak2011.time_argument)"

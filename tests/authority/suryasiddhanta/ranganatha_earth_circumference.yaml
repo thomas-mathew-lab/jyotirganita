@@ -1,0 +1,641 @@
+id: authority/suryasiddhanta/ranganatha_earth_circumference
+methods: [suryasiddhanta]
+class: text_computed
+source: suryasiddhanta_hall_1859
+edition_page: 44
+pdf_page: 56
+locus: Ranganatha's commentary on i.59, from अत्रोपपत्तिः (p. 44, line 13 of the page counting text lines below the running head) to इत्युपपन्नमुक्तम् before ॥५९॥ (p. 45, line 5); spans printed pp. 44-45 (PDF 56-57)
+rounding: not stated as a rule; the text takes the square 9;52,12 as ten "by small difference" (स्वल्पान्तरात्) and calls the second square 9;59,59 "nearly ten" (दशप्रायः)
+precision: sexagesimal seconds (third place) for the squares and the multiplier; integers for the diameters and circumferences
+datum_keys: [texts.suryasiddhanta.yojana_scale.statement.i59.suryasiddhanta_burgess_1860, texts.suryasiddhanta.yojana_scale.i59.n1.suryasiddhanta_burgess_1860, texts.suryasiddhanta.yojana_scale.i59.n2.suryasiddhanta_burgess_1860, texts.suryasiddhanta.yojana_scale.i59.n3.suryasiddhanta_burgess_1860]
+notes: 'Demonstration of the rule of i.59 (circumference = square root of ten times the square of the diameter). With radius 3438 and circle 21600 minutes, divisor 6876 reduced to unity gives the multiplier three with eight-and-a-half parts, whose square 9;52,12 is taken as ten; then the Lord''s diameter 11384 with circumference 36000 gives multiplier 3;9,44 (three with ten-less-a-quarter parts), whose square 9;59,59 is nearly ten. Role judged from the text: a figure the text takes as given (radius, circle of 21600 minutes, the Lord''s diameter) is input; a figure obtained in the passage by doubling, division or squaring is output. Numbers written in words and restated in digits are keyed twice (word and digits) as printed. Restatements not keyed again: दश in दशगुणितः (p. 44 line 20) and in दशग्रहणेन (p. 44 line 21) restate the ten of line 19; २१६०० as गुण (line 15) is keyed because it is printed again as the multiplier of the proportion. Not keyed as numbers: त्रि in त्रिज्या (lines 14, and p. 45) as part of the technical term "radius"; रूप in गुणरूपगुणगुणितः (line 20) read as part of a compound naming the multiplier. Errata (suryasiddhanta_hall_1859 PDF 402) checked first: p. 44 l. 17 (गुणस्थान → गुणस्यैकस्थान) and p. 44 l. 20 (गुणरूप → मूलरूप) fall inside this extent and touch words, not figures (l. 20 on my count is the line with गुणरूपगुणगुणितः; l. 17 does not hold गुणस्थान on my count: गुणस्थाने stands on line 16 and गुणस्थानकरणार्थं on line 18; the entry most plausibly addresses the latter); p. 45 l. 16 (तन → तेन) and l. 20 (प्रक्षिपे → प्रक्षिपेद्योजये) fall outside this extent (commentary on i.60-61). First read deva-suryasiddhanta_bapudeva_1861, fixture file sha256 c303ece2.'
+values:
+- name: input.radius.word
+  role: input
+  value: 3438
+  form: numeral_word
+  value_form: integer
+  word:
+    text: गजाग्निवेदराम
+    script: devanagari
+    system: bhutasankhya
+    decode: 3438
+  unit: minutes_of_arc
+  script: devanagari
+  edition_page: 44
+  pdf_page: 56
+  locus: p. 44 line 13 end to line 14 start, after अत्रोपपत्तिः।, the compound running over the line end (line-end hyphen joined); member मित not keyed
+  read:
+  - by: claude-opus-5-5/2026-10-22-r6
+    on: 2026-10-22
+    dpi: 300
+    clip: [0, 309.6, 388.8, 619.2]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file deva-suryasiddhanta_bapudeva_1861 (sha256 c303ece2); suryasiddhanta_hall_1859_p56_300dpi_r2c1
+  - by: claude-opus-5-5/2026-10-22-r6
+    on: 2026-10-22
+    dpi: 900
+    clip: [195, 366, 350, 409.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: suryasiddhanta_hall_1859_p56_900dpi_r1c2_clip40-366 (upsampled)
+  status: double_read
+  notes: 'gaja 8, agni 3, veda 4, rama 3, lowest place first. locus as first keyed: p. 44 line 13 end to line 14 start, after अत्रोपपत्तिः।, line-end hyphen joined (गजाग्निवेदराम-|मित); member मित not keyed'
+  second_read:
+  - by: claude-fable-5-1/2026-10-22-r2
+    on: 2026-10-22
+    dpi: 900
+    clip: [195, 366, 350, 409.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.radius.digits
+  role: input
+  value: 3438
+  form: integer
+  unit: minutes_of_arc
+  script: devanagari
+  edition_page: 44
+  pdf_page: 56
+  locus: p. 44 line 14, after मित, before त्रिज्यायाः
+  read:
+  - by: claude-opus-5-5/2026-10-22-r6
+    on: 2026-10-22
+    dpi: 900
+    clip: [40, 366, 195, 409.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file deva-suryasiddhanta_bapudeva_1861 (sha256 c303ece2); suryasiddhanta_hall_1859_p56_900dpi_r1c1_clip40-366 (upsampled)
+  - by: claude-opus-5-5/2026-10-22-r6
+    on: 2026-10-22
+    dpi: 1800
+    clip: [58, 392, 92, 410]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: suryasiddhanta_hall_1859_p56_1800dpi_clip58-392 (upsampled; doubtful first digit)
+  status: double_read
+  notes: 'doubtful first digit: printed as a solid ink-filled glyph; its outline (upper bowl, lower bowl, tail to lower right) matches the third digit ३ of the same number and not १; read ३. A raised dot precedes the number.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-22-r2
+    on: 2026-10-22
+    dpi: 1800
+    clip: [58, 392, 92, 410]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.diameter_multiplier
+  role: input
+  value: 2
+  form: integer
+  unit: unspecified
+  script: devanagari
+  edition_page: 44
+  pdf_page: 56
+  locus: p. 44 line 14, after कक्षाव्यासार्द्धत्वाद्, the first member of the compound ending in गुणत्रिज्यारूपव्यासे; members गुण, त्रिज्या, रूप, व्यास not keyed
+  read:
+  - by: claude-opus-5-5/2026-10-22-r6
+    on: 2026-10-22
+    dpi: 900
+    clip: [195, 366, 350, 409.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: 'first-read fixture file deva-suryasiddhanta_bapudeva_1861; suryasiddhanta_hall_1859_p56_900dpi_r1c2_clip40-366 (upsampled); re-expressed: keyed as a numeral-word (system number_word), re-expressed as an ordinary number word, form integer; value unchanged, never re-read'
+  status: double_read
+  notes: 'a multiplier (twice the radius as diameter) The reader''s word as keyed: द्वि (classified number_word); an ordinary Sanskrit number word. locus as first keyed: p. 44 line 14, in कक्षाव्यासार्द्धत्वाद्द्विगुणत्रिज्यारूपव्यासे; members गुण, त्रिज्या, रूप, व्यास not keyed'
+  second_read:
+  - by: claude-fable-5-1/2026-10-22-r2
+    on: 2026-10-22
+    dpi: 900
+    clip: [195, 366, 350, 409.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.circle_minutes
+  role: input
+  value: 21600
+  form: integer
+  unit: minutes_of_arc
+  script: devanagari
+  edition_page: 44
+  pdf_page: 56
+  locus: p. 44 line 15, चक्रकलातुल्यः परिधिः ___ तदिष्टव्यासे
+  read:
+  - by: claude-opus-5-5/2026-10-22-r6
+    on: 2026-10-22
+    dpi: 900
+    clip: [40, 409.5, 195, 453]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file deva-suryasiddhanta_bapudeva_1861 (sha256 c303ece2); suryasiddhanta_hall_1859_p56_900dpi_r2c1_clip40-366 (upsampled)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-22-r2
+    on: 2026-10-22
+    dpi: 900
+    clip: [40, 409.5, 195, 453]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.proportion_multiplier
+  role: input
+  value: 21600
+  form: integer
+  unit: minutes_of_arc
+  script: devanagari
+  edition_page: 44
+  pdf_page: 56
+  locus: p. 44 line 15 end, क इति गुण ___ (followed on line 16 by हरो)
+  read:
+  - by: claude-opus-5-5/2026-10-22-r6
+    on: 2026-10-22
+    dpi: 900
+    clip: [195, 409.5, 350, 453]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file deva-suryasiddhanta_bapudeva_1861 (sha256 c303ece2); suryasiddhanta_hall_1859_p56_900dpi_r2c2_clip40-366 (upsampled)
+  status: double_read
+  notes: the circle printed again as the multiplier of the proportion.
+  second_read:
+  - by: claude-fable-5-1/2026-10-22-r2
+    on: 2026-10-22
+    dpi: 900
+    clip: [195, 409.5, 350, 453]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.diameter_divisor
+  role: output
+  value: 6876
+  form: integer
+  unit: minutes_of_arc
+  script: devanagari
+  edition_page: 44
+  pdf_page: 56
+  locus: p. 44 line 16, हरो ___ हरेणापवर्तितो
+  read:
+  - by: claude-opus-5-5/2026-10-22-r6
+    on: 2026-10-22
+    dpi: 900
+    clip: [40, 409.5, 195, 453]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file deva-suryasiddhanta_bapudeva_1861 (sha256 c303ece2); suryasiddhanta_hall_1859_p56_900dpi_r2c1_clip40-366 (upsampled)
+  - by: claude-opus-5-5/2026-10-22-r6
+    on: 2026-10-22
+    dpi: 1800
+    clip: [72, 436, 108, 453]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: suryasiddhanta_hall_1859_p56_1800dpi_clip72-436 (upsampled; doubtful last digit)
+  status: double_read
+  notes: 'doubtful last digit: heavily inked; its form (hooked top, bowl, tail to lower right) matches the first digit ६ of the same number; read ६, not ५. Output: twice the radius.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-22-r2
+    on: 2026-10-22
+    dpi: 1800
+    clip: [72, 436, 108, 453]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.reduced_divisor
+  role: output
+  value: 1
+  form: integer
+  unit: unspecified
+  script: devanagari
+  edition_page: 44
+  pdf_page: 56
+  locus: p. 44 line 16, the word after हरस्थाने
+  read:
+  - by: claude-opus-5-5/2026-10-22-r6
+    on: 2026-10-22
+    dpi: 900
+    clip: [195, 409.5, 350, 453]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: 'first-read fixture file deva-suryasiddhanta_bapudeva_1861; suryasiddhanta_hall_1859_p56_900dpi_r2c2_clip40-366 (upsampled); re-expressed: keyed as a numeral-word (system number_word), re-expressed as an ordinary number word, form integer; value unchanged, never re-read'
+  status: double_read
+  notes: 'rupa as unity: the divisor after reduction. The reader''s word as keyed: रूप (classified number_word); an ordinary Sanskrit number word. locus as first keyed: p. 44 line 16, हरस्थाने रूपं'
+  second_read:
+  - by: claude-fable-5-1/2026-10-22-r2
+    on: 2026-10-22
+    dpi: 900
+    clip: [195, 409.5, 350, 453]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.multiplier_parts
+  role: output
+  value: 17/2
+  form: fraction
+  unit: avayava (parts; sixtieths by the sense)
+  script: devanagari
+  edition_page: 44
+  pdf_page: 56
+  locus: p. 44 line 16 end to line 17 start, after गुणस्थाने, the compound running over the line end up to अवयवयुता-; line-end hyphen joined; members अवयव, युत not keyed
+  read:
+  - by: claude-opus-5-5/2026-10-22-r6
+    on: 2026-10-22
+    dpi: 900
+    clip: [195, 409.5, 350, 453]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: 'first-read fixture file deva-suryasiddhanta_bapudeva_1861; suryasiddhanta_hall_1859_p56_900dpi_r2c2_clip40-366 (upsampled); re-expressed: keyed as a numeral-word (system number_word), re-expressed as an ordinary number word, form integer; value unchanged, never re-read'
+  - by: claude-opus-5-5/2026-10-22-r6
+    on: 2026-10-22
+    dpi: 900
+    clip: [40, 453, 195, 496.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: suryasiddhanta_hall_1859_p56_900dpi_r3c1_clip40-366 (upsampled)
+  status: double_read
+  notes: 'eight and a half (sa-ardha + asta); printed with the conjunct द्ध. The reader''s word as keyed: सार्द्धाष्ट (classified number_word); an ordinary Sanskrit number word. locus as first keyed: p. 44 line 16 end to line 17 start, गुणस्थाने सार्द्धा-|ष्टावयवयुतास्त्रयः; line-end hyphen joined; members अवयव, युत not keyed'
+  second_read:
+  - by: claude-fable-5-1/2026-10-22-r2
+    on: 2026-10-22
+    dpi: 900
+    clip: [195, 409.5, 350, 453]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-22-r12
+      on: 2026-10-22
+      dpi: 2400
+      clip: [308, 436, 352, 458]
+      delivered_ppi: 300
+      max_edge: 2000
+      note: ''
+    matches: read
+  further_look:
+  - issue: disputed
+    read:
+      by: claude-fable-5-1/2026-10-22-r1
+      on: 2026-10-22
+      dpi: 900
+      clip: [195, 409.5, 350, 453]
+      delivered_ppi: 300
+      max_edge: 2000
+      note: ''
+    matches: read
+- name: output.multiplier_whole
+  role: output
+  value: 3
+  form: integer
+  unit: unspecified
+  script: devanagari
+  edition_page: 44
+  pdf_page: 56
+  locus: p. 44 line 17, the word after ...अवयवयुतास् and before तथा, printed with sandhi, stem keyed
+  read:
+  - by: claude-opus-5-5/2026-10-22-r6
+    on: 2026-10-22
+    dpi: 900
+    clip: [40, 453, 195, 496.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: 'first-read fixture file deva-suryasiddhanta_bapudeva_1861; suryasiddhanta_hall_1859_p56_900dpi_r3c1_clip40-366 (upsampled); re-expressed: keyed as a numeral-word (system number_word), re-expressed as an ordinary number word, form integer; value unchanged, never re-read'
+  status: double_read
+  notes: 'three, increased by eight and a half parts: the multiplier 21600/6876. The reader''s word as keyed: त्रि (classified number_word); an ordinary Sanskrit number word. locus as first keyed: p. 44 line 17, ...युतास्त्रयस्तथा; printed in the form त्रयः (sandhi स्त्रयस्), stem keyed'
+  second_read:
+  - by: claude-fable-5-1/2026-10-22-r2
+    on: 2026-10-22
+    dpi: 900
+    clip: [40, 453, 195, 496.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.multiplier_square
+  role: output
+  value: [9, 52, 12]
+  form: sexagesimal
+  unit: units_parts_subparts (sexagesimal)
+  script: devanagari
+  edition_page: 44
+  pdf_page: 56
+  locus: p. 44 line 18, वर्गः कृतः ___। अत्र
+  read:
+  - by: claude-opus-5-5/2026-10-22-r6
+    on: 2026-10-22
+    dpi: 900
+    clip: [195, 453, 350, 496.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file deva-suryasiddhanta_bapudeva_1861 (sha256 c303ece2); suryasiddhanta_hall_1859_p56_900dpi_r3c2_clip40-366 (upsampled)
+  status: double_read
+  notes: printed with daṇḍa-like separators between the three parts.
+  second_read:
+  - by: claude-fable-5-1/2026-10-22-r2
+    on: 2026-10-22
+    dpi: 900
+    clip: [195, 453, 350, 496.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.square_taken
+  role: output
+  value: 10
+  form: integer
+  unit: unspecified
+  script: devanagari
+  edition_page: 44
+  pdf_page: 56
+  locus: p. 44 line 19, the word after स्वल्पान्तराद् and before गृहीताः (line-end hyphen joined)
+  read:
+  - by: claude-opus-5-5/2026-10-22-r6
+    on: 2026-10-22
+    dpi: 900
+    clip: [40, 496.5, 195, 540]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: 'first-read fixture file deva-suryasiddhanta_bapudeva_1861; suryasiddhanta_hall_1859_p56_900dpi_r4c1_clip40-366 (upsampled); re-expressed: keyed as a numeral-word (system number_word), re-expressed as an ordinary number word, form integer; value unchanged, never re-read'
+  status: double_read
+  notes: 'the square taken as ten; restated in दशगुणितः (line 20) and दशग्रहणेन (line 21), not keyed again. The reader''s word as keyed: दश (classified number_word); an ordinary Sanskrit number word. locus as first keyed: p. 44 line 19, स्वल्पान्तराद्दश गृहीताः (line-end hyphen स्व-|ल्पान्तराद् joined)'
+  second_read:
+  - by: claude-fable-5-1/2026-10-22-r2
+    on: 2026-10-22
+    dpi: 900
+    clip: [40, 496.5, 195, 540]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.lord_diameter.word
+  role: input
+  value: 11384
+  form: numeral_word
+  value_form: integer
+  word:
+    text: वेदमङ्गलविश्वरूप
+    script: devanagari
+    system: bhutasankhya
+    decode: 11384
+  unit: unspecified
+  script: devanagari
+  edition_page: 45
+  pdf_page: 57
+  locus: p. 45 line 2, वस्तुतो भगवता ___मितव्यासस्य; members मित, व्यास not keyed
+  read:
+  - by: claude-opus-5-5/2026-10-22-r6
+    on: 2026-10-22
+    dpi: 900
+    clip: [40, 80, 195, 125]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file deva-suryasiddhanta_bapudeva_1861 (sha256 c303ece2); suryasiddhanta_hall_1859_p57_900dpi_r1c1_clip40-80 (upsampled)
+  - by: claude-opus-5-5/2026-10-22-r6
+    on: 2026-10-22
+    dpi: 900
+    clip: [195, 80, 350, 125]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: suryasiddhanta_hall_1859_p57_900dpi_r1c2_clip40-80 (upsampled)
+  status: double_read
+  notes: veda 4, mangala 8, visva 13 (two places), rupa 1, lowest place first.
+  second_read:
+  - by: claude-fable-5-1/2026-10-22-r2
+    on: 2026-10-22
+    dpi: 900
+    clip: [40, 80, 195, 125]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.lord_diameter.digits
+  role: input
+  value: 11384
+  form: integer
+  unit: unspecified
+  script: devanagari
+  edition_page: 45
+  pdf_page: 57
+  locus: p. 45 line 2, ...व्यासस्य ___ परिधि-
+  read:
+  - by: claude-opus-5-5/2026-10-22-r6
+    on: 2026-10-22
+    dpi: 1800
+    clip: [260, 103, 310, 123]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file deva-suryasiddhanta_bapudeva_1861 (sha256 c303ece2); suryasiddhanta_hall_1859_p57_1800dpi_clip260-103 (upsampled)
+  status: double_read
+  notes: third digit ink-filled in its upper bowl, read ३.
+  second_read:
+  - by: claude-fable-5-1/2026-10-22-r2
+    on: 2026-10-22
+    dpi: 1800
+    clip: [260, 103, 310, 123]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.lord_circumference.word
+  role: output
+  value: 36000
+  form: numeral_word
+  value_form: integer
+  word:
+    text: खखखरसराम
+    script: devanagari
+    system: bhutasankhya
+    decode: 36000
+  unit: unspecified
+  script: devanagari
+  edition_page: 45
+  pdf_page: 57
+  locus: p. 45 line 3, प्रत्यक्षेण ___मितः
+  read:
+  - by: claude-opus-5-5/2026-10-22-r6
+    on: 2026-10-22
+    dpi: 900
+    clip: [40, 125, 195, 170]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file deva-suryasiddhanta_bapudeva_1861 (sha256 c303ece2); suryasiddhanta_hall_1859_p57_900dpi_r2c1_clip40-80 (upsampled)
+  - by: claude-opus-5-5/2026-10-22-r6
+    on: 2026-10-22
+    dpi: 900
+    clip: [195, 125, 350, 170]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: suryasiddhanta_hall_1859_p57_900dpi_r2c2_clip40-80 (upsampled)
+  status: double_read
+  notes: 'kha 0, kha 0, kha 0, rasa 6, rama 3; output: the circumference "obtained by calculation" (गणितागतः)'
+  second_read:
+  - by: claude-fable-5-1/2026-10-22-r2
+    on: 2026-10-22
+    dpi: 900
+    clip: [40, 125, 195, 170]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.lord_circumference.digits
+  role: output
+  value: 36000
+  form: integer
+  unit: unspecified
+  script: devanagari
+  edition_page: 45
+  pdf_page: 57
+  locus: p. 45 line 3, ...मितः ___ अत्र पूर्वो-
+  read:
+  - by: claude-opus-5-5/2026-10-22-r6
+    on: 2026-10-22
+    dpi: 1800
+    clip: [255, 125, 300, 145]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file deva-suryasiddhanta_bapudeva_1861 (sha256 c303ece2); suryasiddhanta_hall_1859_p57_1800dpi_clip255-125 (upsampled)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-22-r2
+    on: 2026-10-22
+    dpi: 1800
+    clip: [255, 125, 300, 145]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.lord_multiplier
+  role: output
+  value: [3, 9, 44]
+  form: sexagesimal
+  unit: units_parts_subparts (sexagesimal)
+  script: devanagari
+  edition_page: 45
+  pdf_page: 57
+  locus: p. 45 line 4, पूर्वोक्तरीत्यापवर्तने गुणः ___ पादोन...
+  read:
+  - by: claude-opus-5-5/2026-10-22-r6
+    on: 2026-10-22
+    dpi: 1800
+    clip: [160, 148, 205, 168]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file deva-suryasiddhanta_bapudeva_1861 (sha256 c303ece2); suryasiddhanta_hall_1859_p57_1800dpi_clip160-148 (upsampled)
+  - by: claude-opus-5-5/2026-10-22-r6
+    on: 2026-10-22
+    dpi: 1800
+    clip: [140, 148, 175, 168]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: suryasiddhanta_hall_1859_p57_1800dpi_clip140-148 (upsampled; first digit)
+  status: double_read
+  notes: first digit ink-filled in its upper bowl; outline of ३.
+  second_read:
+  - by: claude-fable-5-1/2026-10-22-r2
+    on: 2026-10-22
+    dpi: 1800
+    clip: [160, 148, 205, 168]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.lord_multiplier_parts
+  role: output
+  value: 39/4
+  form: fraction
+  unit: avayava (parts; sixtieths by the sense)
+  script: devanagari
+  edition_page: 45
+  pdf_page: 57
+  locus: p. 45 line 4, the compound ending in अवयवयुतं (after the multiplier); members अवयव, युत not keyed
+  read:
+  - by: claude-opus-5-5/2026-10-22-r6
+    on: 2026-10-22
+    dpi: 900
+    clip: [195, 125, 350, 170]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: 'first-read fixture file deva-suryasiddhanta_bapudeva_1861; suryasiddhanta_hall_1859_p57_900dpi_r2c2_clip40-80 (upsampled); re-expressed: keyed as a numeral-word (system number_word), re-expressed as an ordinary number word, form integer; value unchanged, never re-read'
+  status: double_read
+  notes: 'ten less a quarter (pada-una-dasa); the words restate the sexagesimal part 9;44 approximately. The reader''s word as keyed: पादोनदश (classified number_word); an ordinary Sanskrit number word. locus as first keyed: p. 45 line 4, पादोनदशावयवयुतं; members अवयव, युत not keyed'
+  second_read:
+  - by: claude-fable-5-1/2026-10-22-r2
+    on: 2026-10-22
+    dpi: 900
+    clip: [195, 125, 350, 170]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.lord_multiplier_whole
+  role: output
+  value: 3
+  form: integer
+  unit: unspecified
+  script: devanagari
+  edition_page: 45
+  pdf_page: 57
+  locus: p. 45 line 4, the word after the compound ending in युतं; printed inflected, stem keyed
+  read:
+  - by: claude-opus-5-5/2026-10-22-r6
+    on: 2026-10-22
+    dpi: 900
+    clip: [195, 125, 350, 170]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: 'first-read fixture file deva-suryasiddhanta_bapudeva_1861; suryasiddhanta_hall_1859_p57_900dpi_r2c2_clip40-80 (upsampled); re-expressed: keyed as a numeral-word (system number_word), re-expressed as an ordinary number word, form integer; value unchanged, never re-read'
+  status: double_read
+  notes: 'restates the whole part of the multiplier in words. The reader''s word as keyed: त्रय (classified number_word); an ordinary Sanskrit number word. locus as first keyed: p. 45 line 4, ...युतं त्रयमस्य; printed त्रयम्'
+  second_read:
+  - by: claude-fable-5-1/2026-10-22-r2
+    on: 2026-10-22
+    dpi: 900
+    clip: [195, 125, 350, 170]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.lord_square_taken
+  role: output
+  value: 10
+  form: integer
+  unit: unspecified
+  script: devanagari
+  edition_page: 45
+  pdf_page: 57
+  locus: p. 45 line 5, after वर्गो, the first member of the compound ending in प्रायः
+  read:
+  - by: claude-opus-5-5/2026-10-22-r6
+    on: 2026-10-22
+    dpi: 900
+    clip: [40, 170, 195, 195]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: 'first-read fixture file deva-suryasiddhanta_bapudeva_1861; suryasiddhanta_hall_1859_p57_900dpi_r1c1_clip40-170 (upsampled); re-expressed: keyed as a numeral-word (system number_word), re-expressed as an ordinary number word, form integer; value unchanged, never re-read'
+  status: double_read
+  notes: 'member प्राय ("nearly") not keyed. The reader''s word as keyed: दश (classified number_word); an ordinary Sanskrit number word. locus as first keyed: p. 45 line 5, वर्गो दशप्रायः'
+  second_read:
+  - by: claude-fable-5-1/2026-10-22-r2
+    on: 2026-10-22
+    dpi: 900
+    clip: [40, 170, 195, 195]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.lord_multiplier_square
+  role: output
+  value: [9, 59, 59]
+  form: sexagesimal
+  unit: units_parts_subparts (sexagesimal)
+  script: devanagari
+  edition_page: 45
+  pdf_page: 57
+  locus: p. 45 line 5, after the compound ending in प्रायः, before । इत्युपपन्नमुक्तम्
+  read:
+  - by: claude-opus-5-5/2026-10-22-r6
+    on: 2026-10-22
+    dpi: 900
+    clip: [40, 170, 195, 195]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file deva-suryasiddhanta_bapudeva_1861 (sha256 c303ece2); suryasiddhanta_hall_1859_p57_900dpi_r1c1_clip40-170 (upsampled)
+  status: double_read
+  notes: 'locus as first keyed: p. 45 line 5, दशप्रायः ___। इत्युपपन्नमुक्तम्'
+  second_read:
+  - by: claude-fable-5-1/2026-10-22-r2
+    on: 2026-10-22
+    dpi: 900
+    clip: [40, 170, 195, 195]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''

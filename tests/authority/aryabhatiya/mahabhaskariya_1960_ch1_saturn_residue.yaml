@@ -1,0 +1,495 @@
+id: authority/aryabhatiya/mahabhaskariya_1960_ch1_saturn_residue
+methods: [aryabhatiya]
+class: editor_computed
+source: mahabhaskariya_1960
+file: mahabhaskariya_1960-mahabhaskariya-shukla-1960.pdf
+edition_page: 30
+pdf_page: 115
+locus: Shukla's note on I.42-44, 'Example. The residue of the revolutions of Saturn is …, find the ahargaṇa and the revolutions performed by Saturn.' and its solution, pp. 30–32 (PDF 115–117)
+rounding: none (integers)
+precision: integers, as printed
+datum_keys: [texts.aryabhatiya.saturn.revolutions, texts.aryabhatiya.civil_days.laghubhaskariya_1963, texts.aryabhatiya.civil_days.rule]
+notes: 'Shukla''s own example (footnote 2: ''Based on Bhāskara I''s problem given in LBh, viii. 17.''). A pulveriser (kuṭṭaka): the engine does not solve pulverisers; the test checks that the printed ahargaṇa gives the printed residue and revolutions from the keyed revolution number and civil days. The mutual-division working and the reduced chain''s intermediate columns are not keyed; the chain''s quotients, the mati and the final pair are.'
+values:
+- name: input.residue
+  role: input
+  value: 24
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 30
+  pdf_page: 115
+  locus: Shukla's 'Example. The residue of the revolutions of Saturn is …' on I.42-44, 'is …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 115)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.saturn_revolutions
+  role: input
+  value: 146564
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 30
+  pdf_page: 115
+  locus: Shukla's 'Example. The residue of the revolutions of Saturn is …' on I.42-44, 'The revolution-number of Saturn is …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 115)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.civil_days
+  role: input
+  value: 1577917500
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 30
+  pdf_page: 115
+  locus: Shukla's 'Example. The residue of the revolutions of Saturn is …' on I.42-44, 'the number of civil days in a yuga is …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 115)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.hcf
+  role: output
+  value: 4
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 30
+  pdf_page: 115
+  locus: Shukla's 'Example. The residue of the revolutions of Saturn is …' on I.42-44, 'Their H.C.F. is …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 115)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.abraded_dividend
+  role: output
+  value: 36641
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 30
+  pdf_page: 115
+  locus: 'Shukla''s ''Example. The residue of the revolutions of Saturn is …'' on I.42-44, ''we get … and … as the abraded dividend and the abraded divisor respectively'': the first figure.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 115)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.abraded_divisor
+  role: output
+  value: 394479375
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 30
+  pdf_page: 115
+  locus: 'Shukla''s ''Example. The residue of the revolutions of Saturn is …'' on I.42-44, the same sentence: the second figure.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 115)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.chain.1
+  role: output
+  value: 10766
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 31
+  pdf_page: 116
+  locus: Shukla's 'Example. The residue of the revolutions of Saturn is …' on I.42-44, p. 31, the chain after 'we get the chain', first entry.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 116)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.chain.2
+  role: output
+  value: 15
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 31
+  pdf_page: 116
+  locus: Shukla's 'Example. The residue of the revolutions of Saturn is …' on I.42-44, p. 31, the chain, second entry.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 116)
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 116)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.chain.3
+  role: output
+  value: 2
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 31
+  pdf_page: 116
+  locus: Shukla's 'Example. The residue of the revolutions of Saturn is …' on I.42-44, p. 31, the chain, third entry.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 116)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.chain.4
+  role: output
+  value: 7
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 31
+  pdf_page: 116
+  locus: Shukla's 'Example. The residue of the revolutions of Saturn is …' on I.42-44, p. 31, the chain, fourth entry.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 116)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.chain.5
+  role: output
+  value: 22
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 31
+  pdf_page: 116
+  locus: Shukla's 'Example. The residue of the revolutions of Saturn is …' on I.42-44, p. 31, the chain, fifth entry.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 116)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.chain.6
+  role: output
+  value: 2
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 31
+  pdf_page: 116
+  locus: Shukla's 'Example. The residue of the revolutions of Saturn is …' on I.42-44, p. 31, the chain, sixth entry.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 116)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.mati
+  role: output
+  value: 27
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 31
+  pdf_page: 116
+  locus: Shukla's 'Example. The residue of the revolutions of Saturn is …' on I.42-44, p. 31, 'We have chosen here the number … as the optional number (mati)'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 116)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.chain.last
+  role: output
+  value: 1
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 31
+  pdf_page: 116
+  locus: Shukla's 'Example. The residue of the revolutions of Saturn is …' on I.42-44, p. 31, the chain, the entry below '(mati) …' (the quotient of … × … − … = … by …).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 116)
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 116)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.multiplier
+  role: output
+  value: 3108044439
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 32
+  pdf_page: 117
+  locus: Shukla's 'Example. The residue of the revolutions of Saturn is …' on I.42-44, p. 32, the reduced chain's last column, '… (multiplier)'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 117)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.quotient
+  role: output
+  value: 288689
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 32
+  pdf_page: 117
+  locus: Shukla's 'Example. The residue of the revolutions of Saturn is …' on I.42-44, p. 32, the reduced chain's last column, '… (quotient)'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 117)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.ahargana
+  role: output
+  value: 346688814
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 32
+  pdf_page: 117
+  locus: Shukla's 'Example. The residue of the revolutions of Saturn is …' on I.42-44, p. 32, 'Therefore, the required ahargaṇa = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 117)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.revolutions
+  role: output
+  value: 32202
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 32
+  pdf_page: 117
+  locus: Shukla's 'Example. The residue of the revolutions of Saturn is …' on I.42-44, p. 32, 'the revolutions performed by Saturn = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 117)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r6
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''

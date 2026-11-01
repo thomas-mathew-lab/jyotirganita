@@ -1,25 +1,40 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
-title: jyotirganita
-abstract: >-
-  A deterministic, fully parameterized pañcāṅgam computation engine for the
-  scientific study of Indian calendrical traditions — historical almanacs,
-  inscriptions, and siddhantic astronomy. Version 0.0.1 is a placeholder
-  release that reserves the package name; the engine is under active
-  development.
+message: "If you use this software, please cite it using the metadata below."
+title: "jyotirganita: A Python library for traditional and modern Indian calendrical astronomy"
 type: software
-authors:
-  - given-names: Thomas
-    family-names: Mathew
-    orcid: "https://orcid.org/0000-0002-5289-4056"
-    affiliation: "Department of Physics, St. Stephen's College, Uzhavoor, Kottayam, Kerala, India"
-    email: mathew.physics@gmail.com
-version: 0.0.1
+version: 1.0.0
+date-released: 2026-11-01
 license: Apache-2.0
 repository-code: "https://github.com/thomas-mathew-lab/jyotirganita"
-url: "https://github.com/thomas-mathew-lab/jyotirganita"
+authors:
+  - family-names: "Mathew"
+    given-names: "Thomas"
+    affiliation: "Department of Physics, St. Stephen's College Uzhavoor, Kottayam, Keralam, India"
+    orcid: "https://orcid.org/0000-0002-5289-4056"
 keywords:
-  - pañcāṅgam
   - Indian calendar
+  - calendrical astronomy
+  - pañcāṅga
   - siddhantic astronomy
-  - computational astronomy
+  - Aryabhatiya
+  - Parahita
+  - Drgganita
+  - Surya-siddhanta
+  - Kerala
+  - inscriptions
+abstract: >-
+  jyotirganita computes the elements of the Indian calendar (tithi,
+  nakṣatra, yoga, karaṇa, saṅkrānti, the planets' longitudes and the
+  eras) by the rules of the traditional astronomical texts and by modern
+  astronomy from the JPL ephemerides. Version 1.0.0 carries the
+  Āryabhaṭīya, Parahita, Dṛggaṇita and the Sūrya-siddhānta (in Burgess's
+  translation and in Parameśvara's recension). The texts' constants are
+  read from cited pages of printed editions, and the modern tables are
+  taken from published sources recorded with their checksums. The text
+  methods compute in exact arithmetic, and the tests check them against
+  the worked examples printed in the texts and their commentaries, and
+  against published tables. Regional conventions are kept in separate
+  profiles, Kerala's the first. Each result records the engine version,
+  the configuration and the data files it used, and its method's status.
+  It is meant for the study of inscriptions and historical almanacs
+  (pañcāṅgas).

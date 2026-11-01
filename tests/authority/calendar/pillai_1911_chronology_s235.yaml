@@ -1,0 +1,122 @@
+id: authority/calendar/pillai_1911_chronology_s235
+methods: [calendar]
+class: text_computed
+source: pillai_1911_chronology
+edition_page: 86
+pdf_page: 108
+locus: §235, the week-day of the first day of Kaliyuga
+rounding: 'none: whole days and a remainder modulo 7'
+precision: null
+datum_keys: [eras.kali.epoch.date.pillai_1911_chronology]
+notes: The author's own arithmetic; a B.C. date in the Old Style (calendar.statement, §236); 'B.C. 44 is really the year minus 44 in relation to A.D. 1' (§235).
+values:
+- name: input.date
+  role: input
+  value: 18 February 3102 B.C.
+  form: text
+  unit: date
+  script: latin
+  locus: '§235: the date whose week-day is computed Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 360
+    clip: [55, 380, 640, 885]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: tiles 2x2 --overlap 8 of this clip (r1c1 [55,380,351.5,636.5], r1c2 [343.5,380,640,636.5], r2c1 [55,628.5,351.5,885], r2c2 [343.5,628.5,640,885])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 360
+    clip: [55, 380, 640, 885]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: ''
+- name: output.total
+  role: output
+  value: 27
+  form: integer
+  unit: coefficient
+  script: latin
+  locus: '§235: the total of the co-efficients'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 360
+    clip: [55, 380, 640, 885]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: tiles 2x2 --overlap 8 of this clip (r1c1 [55,380,351.5,636.5], r1c2 [343.5,380,640,636.5], r2c1 [55,628.5,351.5,885], r2c2 [343.5,628.5,640,885])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 360
+    clip: [55, 380, 640, 885]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: ''
+- name: output.weekday
+  role: output
+  value: Friday
+  form: text
+  unit: weekday
+  script: latin
+  locus: '§235: the week-day the remainder gives: the week-day only Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 360
+    clip: [55, 380, 640, 885]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: tiles 2x2 --overlap 8 of this clip (r1c1 [55,380,351.5,636.5], r1c2 [343.5,380,640,636.5], r2c1 [55,628.5,351.5,885], r2c2 [343.5,628.5,640,885])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 360
+    clip: [55, 380, 640, 885]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: ''
+- name: calendar.statement
+  role: input
+  value: For Old Style dates, i.e., dates down to, and inclusive of, 2 Sep. A.D. 1752, the reader should use the co-efficients of centuries appearing under "Old Style" in Table IV.
+  form: text
+  unit: statement
+  script: latin
+  edition_page: 87
+  pdf_page: 109
+  locus: '§236: the sentence beginning ''For Old Style dates'' Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 360
+    clip: [15, 45, 625, 235]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: tiles 2x1 --overlap 8 of this clip ([15,45,324,235], [316,45,625,235])
+  status: double_read
+  notes: 'The book''s statement of its dates'' calendar: Old Style (Julian) down to 2 Sep. 1752, New Style (Gregorian) after.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 360
+    clip: [15, 45, 625, 235]
+    delivered_ppi: 360
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-03-r2
+      on: 2026-10-03
+      dpi: 360
+      clip: [15, 45, 625, 235]
+      delivered_ppi: 360
+      max_edge: 2000
+      note: ''
+    matches: second_read

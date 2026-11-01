@@ -1,0 +1,27 @@
+# The kernel registry. A fetched-table record, not a page read. A kernel without
+# an entry never loads; its hash and span are written only from a verified fetch
+# (tools/fetch_kernel.py --record), never from a published checksum alone.
+# Kernels are fetched once into the git-ignored jyotirganita/data/ephemerides/
+# and never at run time. bytes: the size the host reports (Content-Length).
+table: kernels
+kernels:
+  de440:
+    url: https://ssd.jpl.nasa.gov/ftp/eph/planets/bsp/de440.bsp
+    file: de440.bsp
+    bytes: 119799808
+    sha256: a4ce9bf9b3282becc9f4b2ac3cebe03a2ae7599981aabd7265fd8482fff7c4b5
+    span: {from_jd: '2287184.5', to_jd: '2688976.5'}
+    source: jpl_kernels
+    fetched: 2026-10-09
+    fetched_by: claude-opus-5-5/2026-10-09-r1
+    notes: The CI and default kernel.
+  de441:
+    url: https://ssd.jpl.nasa.gov/ftp/eph/planets/bsp/de441.bsp
+    file: de441.bsp
+    bytes: 3307878400
+    sha256: 9a824e6a8ce3d39f8a513b17278ff7b7ad226f964c76d2019b0a51d8808d6ff5
+    span: {from_jd: '-3100015.5', to_jd: '8000016.5'}
+    source: jpl_de441
+    fetched: 2026-10-09
+    fetched_by: claude-opus-5-5/2026-10-09-r1
+    notes: The declared reference before 1550; fetched last.

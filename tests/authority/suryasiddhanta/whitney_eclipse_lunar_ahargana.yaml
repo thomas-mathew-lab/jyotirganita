@@ -1,0 +1,230 @@
+id: authority/suryasiddhanta/whitney_eclipse_lunar_ahargana
+methods: [suryasiddhanta]
+class: editor_computed
+source: suryasiddhanta_burgess_1860
+edition_page: 434
+pdf_page: 295
+locus: 'note to ch. iv (lunar eclipse example), p. 434 (PDF 295): from "have selected for the purpose the partial eclipse of the moon which occurred on the evening of …" through step "I. To find the sum of days" to "is … days."; nothing after step I'
+rounding: integers (civil days)
+precision: integers
+datum_keys: [texts.suryasiddhanta.procedures.ahargana.rule]
+notes: Step I prints only the Hindu date, the elapsed time from the beginning of the Iron Age and the resulting sum of days; the intermediate lines (months, intercalary months, lunar days, omitted days) are not printed ("as found by the processes already sufficiently illustrated in the notes to i. 48-51"). The day count runs from the commencement of the Iron Age (i. 56), for mean midnight next preceding full moon. Calculations by the text alone, without the bija (p. 434). The Hindu date refers to the calendar of p. 174 (whitney_ahargana_1860).
+values:
+- name: input.eclipse_date
+  role: input
+  value: Feb. 6th, 1860
+  form: text
+  unit: none
+  script: latin
+  edition_page: 434
+  pdf_page: 295
+  locus: 'p. 434: "the partial eclipse of the moon which occurred on the evening of …."; date as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [30, 140, 205.5, 190]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [30,140,375,190] 2x1 --overlap 6 and tile r1c2 of clip [30,140,375,190] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_eclipse_lunar_ahargana.yaml (sha256 2b49ba4a)
+  status: double_read
+  notes: calendar not named; "on the evening of"
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [30, 140, 205.5, 190]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.iron_age_year
+  role: input
+  value: 4961
+  form: integer
+  unit: iron_age_year
+  script: latin
+  edition_page: 434
+  pdf_page: 295
+  locus: 'p. 434: "at the time of full moon in the month Magha, I. A. … (see page …)"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [30, 225, 205.5, 365]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [30,225,375,365] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_eclipse_lunar_ahargana.yaml (sha256 2b49ba4a)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [30, 225, 205.5, 365]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.samvat_year
+  role: input
+  value: 1917
+  form: integer
+  unit: samvat_year
+  script: latin
+  edition_page: 434
+  pdf_page: 295
+  locus: 'p. 434: "or samvat … (see add. note …)"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 225, 375, 365]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,225,375,365] 2x1 --overlap 6 (the "1" of 1917 at the edge of tile r1c1 of clip [30,225,375,365] 2x1 --overlap 6); first-read fixture file k7/fixtures/whitney_eclipse_lunar_ahargana.yaml (sha256 2b49ba4a)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 225, 375, 365]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.civil_date_day
+  role: input
+  value: The sixth day of February, 1860
+  form: text
+  unit: none
+  script: latin
+  edition_page: 434
+  pdf_page: 295
+  locus: 'step I, sentence 1: "…, being the day of full moon (purnima)"; as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [30, 225, 205.5, 365]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [30,225,375,365] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_eclipse_lunar_ahargana.yaml (sha256 2b49ba4a)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [30, 225, 205.5, 365]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.tithi
+  role: input
+  value: 15
+  form: integer
+  unit: lunar_day
+  script: latin
+  edition_page: 434
+  pdf_page: 295
+  locus: 'step I, sentence 1: "is the … day of the …, or light, … of the lunar month Magha"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [30, 225, 205.5, 365]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [30,225,375,365] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_eclipse_lunar_ahargana.yaml (sha256 2b49ba4a)
+  status: double_read
+  notes: printed in words ("fifteenth")
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [30, 225, 205.5, 365]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.lunar_month_number
+  role: input
+  value: 11
+  form: integer
+  unit: month_of_year
+  script: latin
+  edition_page: 434
+  pdf_page: 295
+  locus: 'step I, sentence 1: "Magha, the … month of the year, as is shown by the table on page …"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [30, 225, 205.5, 365]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [30,225,375,365] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_eclipse_lunar_ahargana.yaml (sha256 2b49ba4a)
+  status: double_read
+  notes: printed in words ("eleventh")
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [30, 225, 205.5, 365]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.time_elapsed
+  role: input
+  value:
+  - [4960, 10, 14]
+  form: table
+  columns: [years, months, days]
+  unit: years_months_days
+  script: latin
+  edition_page: 434
+  pdf_page: 295
+  locus: 'step I, sentence 2: "The time, then, for which we are to find the sum of days, is …y …m …d"; [y, m, d] as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [30, 225, 205.5, 365]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [30,225,375,365] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_eclipse_lunar_ahargana.yaml (sha256 2b49ba4a)
+  status: double_read
+  notes: 'not a sexagesimal: years, months, days, with superscript y, m, d; form chosen as the nearest list form.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r2
+    on: 2026-10-11
+    dpi: 600
+    clip: [0, 199.8, 200, 414.6]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sum_of_days
+  role: output
+  value: 1811981
+  form: integer
+  unit: civil_days
+  script: latin
+  edition_page: 434
+  pdf_page: 295
+  locus: 'step I, sentence 3: "is … days."; grouping dropped'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 225, 375, 365]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,225,375,365] 2x1 --overlap 6; checked on clip [255,346,335,358] at 1500 dpi --upsample (delivered 600); first-read fixture file k7/fixtures/whitney_eclipse_lunar_ahargana.yaml (sha256 2b49ba4a)
+  status: double_read
+  notes: the third digit (the 1 after "8") has a damaged top on the print; read as 1
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [199.5, 225, 375, 365]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

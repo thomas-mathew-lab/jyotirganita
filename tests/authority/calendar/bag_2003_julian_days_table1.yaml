@@ -1,0 +1,265 @@
+id: authority/calendar/bag_2003_julian_days_table1
+methods: [calendar]
+class: text_computed
+source: bag_2003_julian_days
+edition_page: 32
+pdf_page: 16
+locus: Table 1, the year constants with JD and KA
+rounding: 'none: whole days'
+precision: null
+datum_keys: [eras.kali.epoch.date.pillai_1911_chronology]
+notes: The author's table, every row. Each row's calendar is the row's own mark, (J) or (G), as the legend defines them. The row printed '100 (J)' between -200 (J) and 0 (J) is recorded as printed with the emendation -100.
+values:
+- name: table
+  role: output
+  value:
+  - [-3200, J, 552258, -36208]
+  - [-3100, J, 588783, 317]
+  - [-3000, J, 625308, 36842]
+  - [-2900, J, 661833, 73367]
+  - [-2800, J, 698358, 109892]
+  - [-2700, J, 734883, 146417]
+  - [-2600, J, 771408, 182942]
+  - [-2500, J, 807933, 219467]
+  - [-2400, J, 844458, 255992]
+  - [-2300, J, 880983, 292517]
+  - [-2200, J, 917508, 329042]
+  - [-2100, J, 954033, 365567]
+  - [-2000, J, 990558, 402092]
+  - [-1900, J, 1027083, 438617]
+  - [-1800, J, 1063608, 475142]
+  - [-1700, J, 1100133, 511667]
+  - [-1600, J, 1136658, 548192]
+  - [-1500, J, 1173183, 584717]
+  - [-1400, J, 1209708, 621242]
+  - [-1300, J, 1246233, 657767]
+  - [-1200, J, 1282758, 694292]
+  - [-1100, J, 1319283, 730817]
+  - [-1000, J, 1355808, 767342]
+  - [-900, J, 1392333, 803867]
+  - [-800, J, 1428858, 840392]
+  - [-700, J, 1465383, 876917]
+  - [-600, J, 1501908, 913442]
+  - [-500, J, 1538433, 949967]
+  - [-400, J, 1574958, 986492]
+  - [-300, J, 1611483, 1023017]
+  - [-200, J, 1648008, 1059542]
+  - [100, J, 1684533, 1096067]
+  - [0, J, 1721058, 1132592]
+  - [100, J, 1757583, 1169117]
+  - [200, J, 1794108, 1205642]
+  - [300, J, 1830633, 1242167]
+  - [400, J, 1867158, 1278692]
+  - [500, J, 1903683, 1315217]
+  - [600, J, 1940208, 1351742]
+  - [700, J, 1976733, 1388267]
+  - [800, J, 2013258, 1424792]
+  - [900, J, 2049783, 1461317]
+  - [1000, J, 2086308, 1497842]
+  - [1100, J, 2122833, 1534367]
+  - [1200, J, 2159358, 1570892]
+  - [1300, J, 2195883, 1607417]
+  - [1400, J, 2232408, 1643942]
+  - [1500, J, 2268933, 1680467]
+  - [1500, G, 2268923, 1680457]
+  - [1600, G, 2305448, 1716982]
+  - [1700, G, 2341972, 1753506]
+  - [1800, G, 2378496, 1790030]
+  - [1900, G, 2415020, 1826554]
+  - [2000, G, 2451545, 1863079]
+  - [2100, G, 2488069, 1899603]
+  - [2200, G, 2524593, 1936127]
+  form: table
+  columns: [year, calendar, jd, ka]
+  unit: days
+  script: latin
+  locus: 'Table 1: every row, the left half top to bottom, then the right half top to bottom: the year as a signed integer (a printed ''- '' before it is the minus sign), its mark J or G without the brackets, JD, KA; a stray mark after a year is not keyed'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 50, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tiles 1x2 --overlap 8 of this clip (r1c1 [25,50,410,309], r2c1 [25,301,410,560])
+  status: double_read
+  emendation:
+    printed:
+    - [-3200, J, 552258, -36208]
+    - [-3100, J, 588783, 317]
+    - [-3000, J, 625308, 36842]
+    - [-2900, J, 661833, 73367]
+    - [-2800, J, 698358, 109892]
+    - [-2700, J, 734883, 146417]
+    - [-2600, J, 771408, 182942]
+    - [-2500, J, 807933, 219467]
+    - [-2400, J, 844458, 255992]
+    - [-2300, J, 880983, 292517]
+    - [-2200, J, 917508, 329042]
+    - [-2100, J, 954033, 365567]
+    - [-2000, J, 990558, 402092]
+    - [-1900, J, 1027083, 438617]
+    - [-1800, J, 1063608, 475142]
+    - [-1700, J, 1100133, 511667]
+    - [-1600, J, 1136658, 548192]
+    - [-1500, J, 1173183, 584717]
+    - [-1400, J, 1209708, 621242]
+    - [-1300, J, 1246233, 657767]
+    - [-1200, J, 1282758, 694292]
+    - [-1100, J, 1319283, 730817]
+    - [-1000, J, 1355808, 767342]
+    - [-900, J, 1392333, 803867]
+    - [-800, J, 1428858, 840392]
+    - [-700, J, 1465383, 876917]
+    - [-600, J, 1501908, 913442]
+    - [-500, J, 1538433, 949967]
+    - [-400, J, 1574958, 986492]
+    - [-300, J, 1611483, 1023017]
+    - [-200, J, 1648008, 1059542]
+    - [100, J, 1684533, 1096067]
+    - [0, J, 1721058, 1132592]
+    - [100, J, 1757583, 1169117]
+    - [200, J, 1794108, 1205642]
+    - [300, J, 1830633, 1242167]
+    - [400, J, 1867158, 1278692]
+    - [500, J, 1903683, 1315217]
+    - [600, J, 1940208, 1351742]
+    - [700, J, 1976733, 1388267]
+    - [800, J, 2013258, 1424792]
+    - [900, J, 2049783, 1461317]
+    - [1000, J, 2086308, 1497842]
+    - [1100, J, 2122833, 1534367]
+    - [1200, J, 2159358, 1570892]
+    - [1300, J, 2195883, 1607417]
+    - [1400, J, 2232408, 1643942]
+    - [1500, J, 2268933, 1680467]
+    - [1500, G, 2268923, 1680457]
+    - [1600, G, 2305448, 1716982]
+    - [1700, G, 2341972, 1753506]
+    - [1800, G, 2378496, 1790030]
+    - [1900, G, 2415020, 1826554]
+    - [2000, G, 2451545, 1863079]
+    - [2100, G, 2488069, 1899603]
+    - [2200, G, 2524593, 1936127]
+    adopted:
+    - [-3200, J, 552258, -36208]
+    - [-3100, J, 588783, 317]
+    - [-3000, J, 625308, 36842]
+    - [-2900, J, 661833, 73367]
+    - [-2800, J, 698358, 109892]
+    - [-2700, J, 734883, 146417]
+    - [-2600, J, 771408, 182942]
+    - [-2500, J, 807933, 219467]
+    - [-2400, J, 844458, 255992]
+    - [-2300, J, 880983, 292517]
+    - [-2200, J, 917508, 329042]
+    - [-2100, J, 954033, 365567]
+    - [-2000, J, 990558, 402092]
+    - [-1900, J, 1027083, 438617]
+    - [-1800, J, 1063608, 475142]
+    - [-1700, J, 1100133, 511667]
+    - [-1600, J, 1136658, 548192]
+    - [-1500, J, 1173183, 584717]
+    - [-1400, J, 1209708, 621242]
+    - [-1300, J, 1246233, 657767]
+    - [-1200, J, 1282758, 694292]
+    - [-1100, J, 1319283, 730817]
+    - [-1000, J, 1355808, 767342]
+    - [-900, J, 1392333, 803867]
+    - [-800, J, 1428858, 840392]
+    - [-700, J, 1465383, 876917]
+    - [-600, J, 1501908, 913442]
+    - [-500, J, 1538433, 949967]
+    - [-400, J, 1574958, 986492]
+    - [-300, J, 1611483, 1023017]
+    - [-200, J, 1648008, 1059542]
+    - [-100, J, 1684533, 1096067]
+    - [0, J, 1721058, 1132592]
+    - [100, J, 1757583, 1169117]
+    - [200, J, 1794108, 1205642]
+    - [300, J, 1830633, 1242167]
+    - [400, J, 1867158, 1278692]
+    - [500, J, 1903683, 1315217]
+    - [600, J, 1940208, 1351742]
+    - [700, J, 1976733, 1388267]
+    - [800, J, 2013258, 1424792]
+    - [900, J, 2049783, 1461317]
+    - [1000, J, 2086308, 1497842]
+    - [1100, J, 2122833, 1534367]
+    - [1200, J, 2159358, 1570892]
+    - [1300, J, 2195883, 1607417]
+    - [1400, J, 2232408, 1643942]
+    - [1500, J, 2268933, 1680467]
+    - [1500, G, 2268923, 1680457]
+    - [1600, G, 2305448, 1716982]
+    - [1700, G, 2341972, 1753506]
+    - [1800, G, 2378496, 1790030]
+    - [1900, G, 2415020, 1826554]
+    - [2000, G, 2451545, 1863079]
+    - [2100, G, 2488069, 1899603]
+    - [2200, G, 2524593, 1936127]
+    evidence: 'the table''s own heading (''at an interval of 100 years'') and order: the row printed ''100 (J)'' stands between -200 (J) and 0 (J), and its JD and KA differ from both neighbours'' by 36525 days, as every Julian century of the table does; the sign is missing in print (row 32, the third of the right half)'
+    evidence_indic: false
+    by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    owner_signoff: null
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 50, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: calendar.statement
+  role: input
+  value: J = Julian Calendrical System applicable upto Oct. 4, 1582 AD; 10 days were adjusted in 1582 without disturbing the weekday.
+  form: text
+  unit: statement
+  script: latin
+  edition_page: 32
+  pdf_page: 16
+  locus: Table 1, the legend line beginning 'J =' Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 50, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tiles 1x2 --overlap 8 of this clip (r1c1 [25,50,410,309], r2c1 [25,301,410,560])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 50, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: calendar.statement_g
+  role: input
+  value: G = Gregorian System, applicable beyond prescribed in J.
+  form: text
+  unit: statement
+  script: latin
+  edition_page: 32
+  pdf_page: 16
+  locus: Table 1, the legend line beginning 'G =' Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 50, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: tiles 1x2 --overlap 8 of this clip (r1c1 [25,50,410,309], r2c1 [25,301,410,560])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 300
+    clip: [25, 50, 410, 560]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''

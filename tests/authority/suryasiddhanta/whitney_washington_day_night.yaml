@@ -1,0 +1,560 @@
+id: authority/suryasiddhanta/whitney_washington_day_night
+methods: [suryasiddhanta]
+class: editor_computed
+source: suryasiddhanta_burgess_1860
+edition_page: 234
+pdf_page: 95
+locus: 'Whitney''s note to ii. 61-63, printed p. 234: from ''In illustration of the process, we will calculate the respective length of the sun''s day and night at Washington'' to ''... mean solar time.'' (two paragraphs, with two proportions set on their own lines).'
+rounding: not stated
+precision: hundredths of a digit; minutes of arc; pranas (respirations); tenths of a second of time
+datum_keys: [texts.suryasiddhanta.procedures.cara.day_night, texts.suryasiddhanta.procedures.half_day.day_radius.ii60.suryasiddhanta_burgess_1860, texts.suryasiddhanta.procedures.sunrise.statement.xiv18.suryasiddhanta_burgess_1860]
+notes: 'Day and night at Washington: the equinoctial shadow of the twelve-digit gnomon at the latitude; the proportion gnomon : shadow :: sine of declination : earth-sine; the earth-sine reduced to a great circle by day-radius : radius :: earth-sine : sine of ascensional difference; its arc in degrees and minutes, in minutes of arc, and in time (a minute of arc taken as a respiration); the day''s length (from v. 59) quartered, increased and diminished by the ascensional difference and doubled, gives night and day in nadis and in mean solar time. Verse citations (iii. 17), (under v. 59) and the number words twelve (gnomon digits, restated in figures in the proportion), quarter and double are not keyed as values beyond the figure 12. Unit marks as printed: superscript d (digits), n v p (nadis, vinadis, pranas), h m s; the decimal follows the unit mark. Errata (suryasiddhanta_burgess_1860_reprint PDF 364) checked: no entry on this page. First read lat-b, fixture file sha256 d118d5a9.'
+values:
+- name: input.washington.latitude
+  role: input
+  value: [38, 54]
+  form: sexagesimal
+  unit: degrees_minutes
+  script: latin
+  edition_page: 234
+  pdf_page: 95
+  locus: sentence 'The latitude of Washington being', first line of the second paragraph
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 198, 370, 262.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 d118d5a9); suryasiddhanta_burgess_1860_p95_600dpi_r1c2_clip40-198.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 198, 209, 262.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p95_600dpi_r1c1_clip40-198.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 198, 370, 262.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.washington.equinoctial_shadow
+  role: output
+  value: '9.68'
+  form: fraction
+  unit: digits
+  script: latin
+  edition_page: 234
+  pdf_page: 95
+  locus: same sentence, after 'by the rule given below (iii. …), to be'; restated as the second term of the first proportion
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 254.67, 209, 323.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 d118d5a9); suryasiddhanta_burgess_1860_p95_600dpi_r2c1_clip40-198.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 198, 209, 262.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p95_600dpi_r1c1_clip40-198.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 198, 370, 262.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p95_600dpi_r1c2_clip40-198.png
+  status: double_read
+  notes: 'printed with the unit mark d before the decimal point; restated in the proportion without unit mark (old-style figures). locus as first keyed: same sentence, after ''by the rule given below (iii. 17), to be''; restated as the second term of the first proportion'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 254.67, 209, 323.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.sun.declination
+  role: input
+  value: [23, 41]
+  form: sexagesimal
+  unit: degrees_minutes
+  negative: true
+  script: latin
+  edition_page: 234
+  pdf_page: 95
+  locus: sentence 'The sine, d F or b C, of the sun's declination at the given time,'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 254.67, 370, 323.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 d118d5a9); suryasiddhanta_burgess_1860_p95_600dpi_r2c2_clip40-198.png
+  status: double_read
+  notes: followed by the letter S (south)
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 254.67, 370, 323.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.sun.sine_of_declination
+  role: input
+  value: 1380
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 234
+  pdf_page: 95
+  locus: same sentence, after 'is'; restated as the third term of the first proportion
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 254.67, 370, 323.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 d118d5a9); suryasiddhanta_burgess_1860_p95_600dpi_r2c2_clip40-198.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 254.67, 209, 323.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p95_600dpi_r2c1_clip40-198.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 254.67, 370, 323.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.gnomon_length
+  role: input
+  value: 12
+  form: integer
+  unit: digits
+  script: latin
+  edition_page: 234
+  pdf_page: 95
+  locus: first proportion after 'Hence the proportion', first term
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 254.67, 209, 323.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 d118d5a9); suryasiddhanta_burgess_1860_p95_600dpi_r2c1_clip40-198.png
+  status: double_read
+  notes: the gnomon is also described in words earlier in the sentence ('a gnomon twelve digits long'); old-style figures.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 254.67, 209, 323.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sun.earth_sine
+  role: output
+  value: 1113
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 234
+  pdf_page: 95
+  locus: first proportion, fourth term; restated after 'gives us the value of the earth-sine, a b, as'; restated as the third term of the second proportion
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 254.67, 370, 323.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 d118d5a9); suryasiddhanta_burgess_1860_p95_600dpi_r2c2_clip40-198.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 254.67, 209, 323.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p95_600dpi_r2c1_clip40-198.png
+  status: double_read
+  notes: in the restatement the minute mark after the figure is printed as a heavy blotted mark, read as a prime.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 254.67, 370, 323.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.sun.day_radius
+  role: input
+  value: 3148
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 234
+  pdf_page: 95
+  locus: second proportion after 'the dimensions of a great circle by the proportion', first term
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 254.67, 209, 323.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 d118d5a9); suryasiddhanta_burgess_1860_p95_600dpi_r2c1_clip40-198.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 315.33, 209, 380]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p95_600dpi_r3c1_clip40-198.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 254.67, 209, 323.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.radius
+  role: input
+  value: 3438
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 234
+  pdf_page: 95
+  locus: second proportion, second term
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 254.67, 209, 323.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 d118d5a9); suryasiddhanta_burgess_1860_p95_600dpi_r2c1_clip40-198.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 315.33, 209, 380]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p95_600dpi_r3c1_clip40-198.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 254.67, 209, 323.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sun.sine_of_ascensional_difference
+  role: output
+  value: 1216
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 234
+  pdf_page: 95
+  locus: second proportion, fourth term; restated after 'The value of C g, the sine of ascensional difference, is therefore'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 254.67, 370, 323.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 d118d5a9); suryasiddhanta_burgess_1860_p95_600dpi_r2c2_clip40-198.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 315.33, 370, 380]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p95_600dpi_r3c2_clip40-198.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 254.67, 370, 323.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sun.ascensional_difference_arc
+  role: output
+  value: [20, 44]
+  form: sexagesimal
+  unit: degrees_minutes
+  script: latin
+  edition_page: 234
+  pdf_page: 95
+  locus: sentence 'the corresponding arc is'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 315.33, 209, 380]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 d118d5a9); suryasiddhanta_burgess_1860_p95_600dpi_r3c1_clip40-198.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 315.33, 209, 380]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sun.ascensional_difference_minutes
+  role: output
+  value: 1244
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 234
+  pdf_page: 95
+  locus: same sentence, after 'or'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 315.33, 209, 380]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 d118d5a9); suryasiddhanta_burgess_1860_p95_600dpi_r3c1_clip40-198.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 315.33, 370, 380]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p95_600dpi_r3c2_clip40-198.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 315.33, 370, 380]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sun.ascensional_difference_time
+  role: output
+  value: [3, 27, 2]
+  form: sexagesimal
+  unit: nadis_vinadis_pranas
+  script: latin
+  edition_page: 234
+  pdf_page: 95
+  locus: same sentence, after 'which, as a minute of arc equals a respiration of time, is equivalent to'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 315.33, 370, 380]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 d118d5a9); suryasiddhanta_burgess_1860_p95_600dpi_r3c2_clip40-198.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 315.33, 370, 380]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.sun.day_length_total
+  role: input
+  value: [60, 11]
+  form: sexagesimal
+  unit: nadis_vinadis
+  script: latin
+  edition_page: 234
+  pdf_page: 95
+  locus: sentence 'The total length of the day was found above (under v. …) to be'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 315.33, 370, 380]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 d118d5a9); suryasiddhanta_burgess_1860_p95_600dpi_r3c2_clip40-198.png
+  status: double_read
+  notes: 'only nadis and vinadis printed here. locus as first keyed: sentence ''The total length of the day was found above (under v. 59) to be'''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 315.33, 370, 380]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sun.night_length
+  role: output
+  value: [37, 0, 1]
+  form: sexagesimal
+  unit: nadis_vinadis_pranas
+  script: latin
+  edition_page: 234
+  pdf_page: 95
+  locus: sentence 'and the length of the night is found to be'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 368, 209, 402]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 d118d5a9); suryasiddhanta_burgess_1860_p95_600dpi_r1c1_clip40-368.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 368, 370, 402]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p95_600dpi_r1c2_clip40-368.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 368, 209, 402]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sun.day_length
+  role: output
+  value: [23, 10, 5]
+  form: sexagesimal
+  unit: nadis_vinadis_pranas
+  script: latin
+  edition_page: 234
+  pdf_page: 95
+  locus: same sentence, after 'and that of the day'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 368, 209, 402]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 d118d5a9); suryasiddhanta_burgess_1860_p95_600dpi_r1c1_clip40-368.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 368, 370, 402]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p95_600dpi_r1c2_clip40-368.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r10
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 368, 370, 402]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sun.night_length_mean_solar_time
+  role: output
+  value:
+  - [14, 45, '38.6']
+  form: table
+  unit: hours_minutes_seconds
+  script: latin
+  edition_page: 234
+  pdf_page: 95
+  locus: same sentence, after 'which are equivalent respectively to', first figure
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 368, 209, 402]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 d118d5a9); suryasiddhanta_burgess_1860_p95_600dpi_r1c1_clip40-368.png
+  status: double_read
+  notes: decimal last part.
+  columns: [hours, minutes, seconds]
+  second_read:
+  - by: claude-fable-5-1/2026-10-22-r3
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 368, 209, 402]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sun.day_length_mean_solar_time
+  role: output
+  value:
+  - [9, 14, '48.9']
+  form: table
+  unit: hours_minutes_seconds
+  script: latin
+  edition_page: 234
+  pdf_page: 95
+  locus: same sentence, after 'and', before 'mean solar time'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 368, 209, 402]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-b (sha256 d118d5a9); suryasiddhanta_burgess_1860_p95_600dpi_r1c1_clip40-368.png
+  - by: claude-opus-5-5/2026-10-22-r8
+    on: 2026-10-22
+    dpi: 600
+    clip: [201, 368, 370, 402]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: suryasiddhanta_burgess_1860_p95_600dpi_r1c2_clip40-368.png
+  status: double_read
+  notes: decimal last part; the figure falls across the two tiles.
+  columns: [hours, minutes, seconds]
+  second_read:
+  - by: claude-fable-5-1/2026-10-22-r3
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 368, 209, 402]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

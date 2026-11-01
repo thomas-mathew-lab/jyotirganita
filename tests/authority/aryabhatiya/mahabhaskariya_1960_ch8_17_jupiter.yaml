@@ -1,0 +1,221 @@
+id: authority/aryabhatiya/mahabhaskariya_1960_ch8_17_jupiter
+methods: [aryabhatiya]
+class: editor_computed
+source: mahabhaskariya_1960
+file: mahabhaskariya_1960-mahabhaskariya-shukla-1960.pdf
+edition_page: 221
+pdf_page: 306
+locus: VIII.17 and Shukla's solution ('The following is the solution of this example'), p. 221 (PDF 306)
+rounding: none (integers)
+precision: integers, as printed
+datum_keys: [texts.aryabhatiya.jupiter.revolutions, texts.aryabhatiya.civil_days.laghubhaskariya_1963, texts.aryabhatiya.procedures.residue.from_longitude.mahabhaskariya_1960]
+notes: 'The question is Bhāskara I''s (mahabhaskariya_1960 ch. VIII); the solution and its figures are Shukla''s (editor_computed). A pulveriser: the test checks the printed pair against the keyed revolution number and civil days, not the solving.'
+values:
+- name: input.residue_seconds
+  role: input
+  value: 9
+  form: integer
+  unit: arcseconds
+  script: latin
+  edition_page: 221
+  pdf_page: 306
+  locus: VIII.17 (Jupiter), 'nine seconds are seen to remain (undisturbed)'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 306)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.abraded_jupiter_revolution_minutes
+  role: input
+  value: 26224128
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 221
+  pdf_page: 306
+  locus: VIII.17 (Jupiter), 'Revolution-number of Jupiter reduced to minutes / civil days in a yuga = … / …', the numerator.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 306)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.abraded_civil_days
+  role: input
+  value: 5259725
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 221
+  pdf_page: 306
+  locus: VIII.17 (Jupiter), the same fraction, the denominator.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 306)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.residue_minutes
+  role: output
+  value: 788958
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 221
+  pdf_page: 306
+  locus: VIII.17 (Jupiter), 'we obtain … as the quotient. This is the residue of the minutes.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 306)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.ahargana
+  role: output
+  value: 2269811
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 221
+  pdf_page: 306
+  locus: VIII.17 (Jupiter), 'we get x = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 306)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.minutes
+  role: output
+  value: 11316906
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 221
+  pdf_page: 306
+  locus: VIII.17 (Jupiter), 'y = …′'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 306)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.revolutions
+  role: output
+  value: 523
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 221
+  pdf_page: 306
+  locus: 'VIII.17 (Jupiter), ''i.e., … revs., … signs, … degrees, … minutes'': the revolutions.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 306)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.jupiter_longitude
+  role: output
+  value: [11, 5, 6, 9]
+  form: rdms
+  unit: rasi_deg_min_sec
+  script: latin
+  edition_page: 221
+  pdf_page: 306
+  locus: VIII.17 (Jupiter), 'the mean longitude of Jupiter is … signs …° …′ …″'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 306)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''

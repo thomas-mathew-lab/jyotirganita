@@ -1,0 +1,2250 @@
+# Sources registry.
+#
+# Every edition, paper, program and fetched table the data cite, under its
+# name. A held edition lists its files by name, each with its SHA-256, size
+# and page count (the scans are not distributed); born_digital is per file,
+# by inspection, and the entry's born_digital is true only when every PDF
+# is. An online entry records its URL, the date it was fetched and the
+# file's SHA-256.
+
+sources:
+  aryabhatiya_1976:
+    kind: library
+    title: Āryabhaṭīya of Āryabhaṭa — 3 volumes
+    author: Āryabhaṭa
+    edition: vol. 1 crit. ed. with English translation and notes by K. S. Shukla & K. V. Sarma; vol. 2 with the commentary of Bhāskara I and Someśvara, ed. K. S. Shukla; vol. 3 with the commentary of Sūryadeva Yajvan, ed. K. V. Sarma. Indian National Science Academy, New Delhi 1976
+    year: 1976
+    copyright: in-copyright
+    held: true
+    verified_basis: scan_pending
+    verified_basis_note: in-copyright scan; the catalogue wants a durable copy
+    files:
+    - path: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+      sha256: 6133b14c56015deef5f9f6c422a012b33fcd9d5f70c793efc94d15971e88ce77
+      bytes: 11895339
+      born_digital: false
+      inspection: 293 of 293 pages are scans
+      pages: 293
+    - path: aryabhatiya_1976-aryabhatiya-v2-1976.pdf
+      sha256: a73a8d9baf70978aef08bc390fb38b5a454e9fe03cb1e5574713d8c37bc8812c
+      bytes: 26880588
+      born_digital: false
+      inspection: 503 of 503 pages are scans
+      pages: 503
+    - path: aryabhatiya_1976-aryabhatiya-v3-1976.pdf
+      sha256: 289a67dc442f1bb083e3b2dd3fb2cce63b2880f6a157dc986c327e1084e66967
+      bytes: 12788924
+      born_digital: false
+      inspection: 251 of 251 pages are scans
+      pages: 251
+    born_digital: false
+  aryabhatiya_clark_1930:
+    kind: library
+    title: The Āryabhaṭīya of Āryabhaṭa — an ancient Indian work on mathematics and astronomy
+    author: Āryabhaṭa
+    edition: trans. Walter Eugene Clark, University of Chicago Press, 1930
+    year: 1930
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: aryabhatiya_clark_1930-aryabhatiya-clark-1930.pdf
+      sha256: 2d8acac3571c1eb6dc649ab0aec5efb48a4747c99916f52465a9deeadc5f3891
+      bytes: 13155658
+      born_digital: false
+      inspection: 122 of 122 pages are scans
+      pages: 122
+    born_digital: false
+  grahacaranibandhana_1954:
+    kind: library
+    title: Grahacāranibandhana — a karaṇa manual
+    author: Haridatta
+    edition: ed. K. V. Sarma, Kuppuswami Sastri Research Institute, Madras 1954 (KSRI Series)
+    year: 1954
+    copyright: in-copyright
+    held: true
+    verified_basis: scan_pending
+    verified_basis_note: in-copyright scan; the catalogue does not note the scan as sufficient
+    files:
+    - path: grahacaranibandhana_1954-grahacaranibandhana-sarma-1954.pdf
+      sha256: 088f6d1c426c9fae451115a59612db42b7253b52eb4c9f611f414535cbb1eb89
+      bytes: 8855368
+      born_digital: false
+      inspection: 245 of 245 pages are scans
+      pages: 245
+    born_digital: false
+  drgganita_1963:
+    kind: library
+    title: Dṛggaṇita
+    author: Parameśvara
+    edition: ed. K. V. Sarma, Vishveshvaranand Institute Publications, Vishveshvaranand Vedic Research Institute, Hoshiarpur 1963
+    year: 1963
+    copyright: in-copyright
+    held: true
+    verified_basis: scan_pending
+    verified_basis_note: in-copyright scan; the catalogue does not note the scan as sufficient
+    files:
+    - path: drgganita_1963-drgganita-sarma-1963.pdf
+      sha256: 15c48f46397c6c98fd2fae82b8fffa50ed53a514ca248a3ceb1a4ce6432af563
+      bytes: 4869310
+      born_digital: false
+      inspection: 48 of 48 pages are scans
+      pages: 48
+    born_digital: false
+  vakyakarana_1962:
+    kind: library
+    title: Vākyakaraṇa, with the commentary Laghuprakāśikā of Sundararāja
+    author: anonymous (Tamil Nadu, c. 1300); Sundararāja (comm.)
+    edition: ed. T. S. Kuppanna Sastri & K. V. Sarma, Kuppuswami Sastri Research Institute, Madras 1962 (KSRI Series no. 8)
+    year: 1962
+    copyright: in-copyright
+    held: true
+    verified_basis: scan_pending
+    verified_basis_note: in-copyright scan; the catalogue does not note the scan as sufficient
+    files:
+    - path: vakyakarana_1962-vakyakarana-1962.pdf
+      sha256: eca0a678f4c1525230f02f81571a69ca3d4822ca65e9640b065bdbfd26765804
+      bytes: 25750649
+      born_digital: false
+      inspection: 339 of 339 pages are scans
+      pages: 339
+    born_digital: false
+  suryasiddhanta_burgess_1860:
+    kind: library
+    title: Translation of the Sûrya-Siddhânta, a Text-Book of Hindu Astronomy; with Notes and an Appendix
+    author: Ebenezer Burgess (trans.); William D. Whitney (notes)
+    edition: Journal of the American Oriental Society 6 (1858/1860), pp. 141–498
+    year: 1860
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: suryasiddhanta_burgess_1860-burgess-ss-translation.pdf
+      sha256: b555c7eaabf8f167cfae4177180090059451610f547c1fb4a197a0b28ded41fa
+      bytes: 44676052
+      born_digital: false
+      inspection: '361 of 362 pages are scans; 1 carry no scan image (first: PDF pp. 1)'
+      pages: 362
+    born_digital: false
+  suryasiddhanta_burgess_1860_reprint:
+    kind: library
+    title: Translation of the Sûrya-Siddhânta (separate 1860 reprint)
+    author: Ebenezer Burgess (trans.); William D. Whitney (notes)
+    edition: Separately paginated reprint of the JAOS 6 paper, New Haven 1860
+    year: 1860
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: suryasiddhanta_burgess_1860_reprint-burgess-1860-standalone-reprint.pdf
+      sha256: 7b323e54b40dcb51336a719107ef6315330087e9ef4c8a739e8634672cfeb866
+      bytes: 36799445
+      born_digital: false
+      inspection: 372 of 372 pages are scans
+      pages: 372
+    born_digital: false
+  suryasiddhanta_paramesvara_1957:
+    kind: library
+    title: The Sūrya-siddhānta with the Commentary of Parameśvara
+    author: Parameśvara (comm.)
+    edition: ed. Kripa Shankar Shukla, Hindu Astronomical and Mathematical Texts Series no. 1, Department of Mathematics and Astronomy, Lucknow University, 1957
+    year: 1957
+    copyright: in-copyright
+    held: true
+    verified_basis: scan_pending
+    verified_basis_note: in-copyright scan; the catalogue does not note the scan as sufficient
+    files:
+    - path: suryasiddhanta_paramesvara_1957-ss-with-paramesvara-shukla-1957.pdf
+      sha256: ef658a7116e7cc928226d94aef305c1f8c9dc3852f3a2039eaad597824f37956
+      bytes: 20306987
+      born_digital: false
+      inspection: '84 of 117 pages are scans; 33 carry no scan image (first: PDF pp. 1, 3, 4, 6, 7); ClearScan-processed: the vector pages are OCR glyphs'
+      pages: 117
+    born_digital: false
+  suryasiddhanta_hall_1859:
+    kind: library
+    title: The Sûrya Siddhânta, an Ancient System of Hindu Astronomy, with Raṅganātha's exposition the Gūḍhârtha-prakâśaka
+    author: Raṅganātha (comm.)
+    edition: ed. Fitz-Edward Hall & Bāpū Deva Śāstrin, Bibliotheca Indica, Asiatic Society of Bengal, Calcutta 1859
+    year: 1859
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: suryasiddhanta_hall_1859-ss-with-ranganatha-hall-bapudeva-1859.pdf
+      sha256: 7ae0546830da01818cc484bf4985978934c18bd575bb0cc00065a1c56826b22a
+      bytes: 15718636
+      born_digital: false
+      inspection: 418 of 418 pages are scans
+      pages: 418
+    born_digital: false
+  suryasiddhanta_ranganatha_1871:
+    kind: library
+    title: The Sūrya Siddhānta, an Ancient System of Hindu Astronomy, with Raṅganātha's exposition
+    author: Raṅganātha (comm.)
+    edition: 'Calcutta: Bābu Bhuvana Chandra Vasāka, Saṃvāda Jñānaratnākara Press, 1871; a separate setting under the English title of the Bibliotheca Indica edition of 1859, not a reissue of its text'
+    year: 1871
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    born_digital: false
+    files:
+    - path: suryasiddhanta_ranganatha_1871-ss-ranganatha-1871.pdf
+      sha256: 1c4a6f75bad4675155965dd42ea79f27e2cdab9f53ba4819375b9464017f8995
+      bytes: 25413952
+      born_digital: false
+      pages: 402
+  suryasiddhanta_ranganatha_1891:
+    kind: library
+    title: Sūryasiddhānta with Raṅganātha's Gūḍhārthaprakāśaka
+    author: Raṅganātha (comm.)
+    edition: ed. Jīvānanda Vidyāsāgara Bhaṭṭācārya, second edition, Siddheśvara Press, Calcutta 1891
+    year: 1891
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    born_digital: false
+    files:
+    - path: suryasiddhanta_ranganatha_1891-ss-gudharthaprakasaka-jivananda-1891.pdf
+      sha256: 69f58e51b56975125a36a2178093b90c15c764feae580e78da487468abe42f61
+      bytes: 23510343
+      born_digital: false
+      pages: 346
+  suryasiddhanta_bapudeva_1861:
+    kind: library
+    title: Translation of the Surya Siddhanta (and of the Siddhanta Siromani)
+    author: Bāpū Deva Śāstrin and Lancelot Wilkinson (trans.)
+    edition: Bibliotheca Indica, Calcutta 1861
+    year: 1861
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: suryasiddhanta_bapudeva_1861-ss-bapudeva-translation-1861.pdf
+      sha256: ed7c188719fc0cff7ebf14696478cf93bdad022b488b81656b3808dcbd628597
+      bytes: 8139626
+      born_digital: false
+      inspection: 278 of 278 pages are scans
+      pages: 278
+    born_digital: false
+  grahanamandana_1965:
+    kind: library
+    title: Grahaṇamaṇḍana
+    author: Parameśvara
+    edition: ed. and trans. K. V. Sarma, Vishveshvaranand Institute, Hoshiarpur 1965
+    year: 1965
+    copyright: in-copyright
+    held: true
+    verified_basis: scan_pending
+    verified_basis_note: in-copyright scan; the catalogue does not note the scan as sufficient
+    files:
+    - path: grahanamandana_1965-grahanamandana-sarma-1965.pdf
+      sha256: 14d7922668db02e10189fc0e304e8d86535ead91b412943163e7dcf34d3a9a77
+      bytes: 21973217
+      born_digital: false
+      inspection: 71 of 71 pages are scans
+      pages: 71
+    born_digital: false
+  goladipika_1916:
+    kind: library
+    title: Goladīpikā
+    author: Parameśvara
+    edition: ed. T. Ganapati Sastri, Trivandrum Sanskrit Series no. 49, Government of Travancore, Trivandrum 1916
+    year: 1916
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain); registered at first use; the verses only, Devanagari, no translation or commentary; the catalogue''s wanted Sarma edition (Adyar 1957) is not this file; scan duplicate: PDF pp. 19–20 repeat printed pp. 12–13 (PDF 17–18), so printed = PDF − 5 to p. 13 and PDF − 7 from p. 14'
+    files:
+    - path: goladipika_1916-goladipika-1916.pdf
+      sha256: 2b3d613c3420d85989d254c08032ed7480e65de5ff83709664eae29c910edbcd
+      bytes: 902655
+      born_digital: false
+      inspection: 39 of 39 pages are scans
+      pages: 39
+    born_digital: false
+  goladipika_1916_second_scan:
+    kind: library
+    title: Goladīpikā
+    author: Parameśvara
+    edition: ed. T. Ganapati Sastri, Trivandrum Sanskrit Series no. 49, Government of Travancore, Trivandrum 1916 (the same printing as goladipika_1916; the Wellcome Library's copy)
+    year: 1916
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain; Wellcome Collection Public Domain Mark); a second scan of goladipika_1916''s own printing, so a second copy for a scan fault, not a second witness for a misprint in the type; printed = PDF − 14'
+    files:
+    - path: goladipika_1916_second_scan-goladipika-1916-wellcome.pdf
+      sha256: 3ece2846d9e5a93c2e36fa4b1e2c5d0d413eeb3e17160cadf7899a3a82c745b9
+      bytes: 9547352
+      born_digital: false
+      inspection: 56 of 56 pages are scans
+      pages: 56
+    born_digital: false
+  venvaroha_1956:
+    kind: library
+    title: Veṇvāroha of Mādhava, with Acyuta Piṣāraṭi's Malayalam commentary
+    author: Mādhava of Saṅgamagrāma; Acyuta Piṣāraṭi (comm.)
+    edition: ed. K. V. Sarma, Sanskrit College Committee, Tripunithura 1956 (Ravivarma Sanskrit Series no. 3)
+    year: 1956
+    copyright: in-copyright
+    held: false
+    verified_basis: scan_pending
+    verified_basis_note: in-copyright scan; the catalogue does not note the scan as sufficient
+    gap: 'not held: the catalogue''s acquisition status is not-online'
+    files: []
+    born_digital: null
+  sarma_1972_kerala_school:
+    kind: library
+    title: A History of the Kerala School of Hindu Astronomy (in perspective)
+    author: K. V. Sarma
+    edition: Vishveshvaranand Institute Publications 55, VVRI Hoshiarpur 1972
+    year: 1972
+    copyright: in-copyright
+    held: true
+    verified_basis: scan_pending
+    verified_basis_note: in-copyright scan; the catalogue does not note the scan as sufficient
+    files:
+    - path: sarma_1972_kerala_school-sarma-history-kerala-school-1972.pdf
+      sha256: 4bcd1234887158d281296d01163f2bf982a90f0ef0e83e69ebde06d67092a15f
+      bytes: 19838216
+      born_digital: false
+      inspection: 220 of 220 pages are scans
+      pages: 220
+    born_digital: false
+  karanapaddhati_1920:
+    kind: library
+    title: Karaṇapaddhati
+    author: Putumana Somayājī
+    edition: ed. K. Sambasiva Sastri, Trivandrum Sanskrit Series no. 126, Government of Travancore, Trivandrum 1920
+    year: 1920
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: karanapaddhati_1920-karanapaddhati-tss-1920.pdf
+      sha256: 29e2242d0c247984451ec5655f44725f776b470d0ff44e81d94442e3fce76821
+      bytes: 1311647
+      born_digital: false
+      inspection: 54 of 54 pages are scans
+      pages: 54
+    born_digital: false
+  karanapaddhati_2018:
+    kind: library
+    title: Karaṇapaddhati of Putumana Somayājī
+    author: Putumana Somayājī
+    edition: trans. Venketeswara Pai, K. Ramasubramanian, M. S. Sriram & M. D. Srinivas, Sources and Studies in the History of Mathematics and Physical Sciences, Hindustan Book Agency / Springer 2018. ISBN 978-981-10-6813-3
+    year: 2018
+    copyright: in-copyright
+    held: true
+    verified_basis: excluded
+    verified_basis_note: a copy without an established licence
+    files:
+    - path: karanapaddhati_2018-karanapaddhati-pai-et-al-2018.pdf
+      sha256: fe1fcfa98d9b72809e3d17ab724575c78f1b3e808390d9c5a6ccfb9ecd69461d
+      bytes: 4282546
+      born_digital: true
+      inspection: 485 of 486 pages are vector (producer 'xdvipdfmx (0.7.9)'); 1 carry a raster image and are read as scans
+      pages: 486
+    born_digital: true
+  mahabhaskariya_1960:
+    kind: library
+    title: Mahābhāskarīya
+    author: Bhāskara I
+    edition: ed. and trans. with notes by K. S. Shukla, Hindu Astronomical and Mathematical Texts Series no. 3, Lucknow University, 1960
+    year: 1960
+    copyright: in-copyright
+    held: true
+    verified_basis: scan_pending
+    verified_basis_note: in-copyright scan; the catalogue does not note the scan as sufficient
+    files:
+    - path: mahabhaskariya_1960-mahabhaskariya-shukla-1960.pdf
+      sha256: 9b2698c79cfc2e52006b810425cce3d510f757c56659f6c77f7c6715c511cfb7
+      bytes: 12957305
+      born_digital: false
+      inspection: 340 of 340 pages are scans
+      pages: 340
+    born_digital: false
+  laghubhaskariya_1963:
+    kind: library
+    title: Laghubhāskarīya
+    author: Bhāskara I
+    edition: ed. and trans. with notes by K. S. Shukla, Hindu Astronomical and Mathematical Texts Series no. 4, Lucknow University, 1963
+    year: 1963
+    copyright: in-copyright
+    held: true
+    verified_basis: scan_pending
+    verified_basis_note: in-copyright scan; the catalogue does not note the scan as sufficient
+    files:
+    - path: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+      sha256: d2d5eccabc7f7b8f2094a9b111df8ec76ea89f5b96b440f148a867fa9fd5afda
+      bytes: 8474869
+      born_digital: false
+      inspection: 211 of 211 pages are scans; PDF p. 3 also carries a line of vector text (a price label) outside its images; re-measured after a fix for short pages
+      pages: 211
+    born_digital: false
+  mahabhaskariya_govindasvamin_1957:
+    kind: library
+    title: Mahābhāskarīya of Bhāskarācārya, with the bhāṣya of Govindasvāmin and the Siddhāntadīpikā of Parameśvara
+    author: Bhāskara I; Govindasvāmin (comm.); Parameśvara (super-comm.)
+    edition: ed. T. S. Kuppanna Sastri, Madras Government Oriental Series, Government Oriental Manuscripts Library, Madras 1957
+    year: 1957
+    copyright: in-copyright
+    held: true
+    verified_basis: scan_pending
+    verified_basis_note: in-copyright scan; the catalogue does not note the scan as sufficient
+    files:
+    - path: mahabhaskariya_govindasvamin_1957-mahabhaskariya-govindasvamin-siddhantadipika.pdf
+      sha256: a781e57bfdde28c784d4950660f08ca7440bb7f55dc29366b0ee4717d9022cd4
+      bytes: 22514252
+      born_digital: false
+      inspection: 580 of 580 pages are scans
+      pages: 580
+    born_digital: false
+  khandakhadyaka_1970:
+    kind: library
+    title: The Khaṇḍakhādyaka of Brahmagupta, with the commentary Vivṛti of Bhaṭṭotpala
+    author: Brahmagupta (628); Bhaṭṭotpala (comm.)
+    edition: ed. and trans. Bina Chatterjee, 2 vols, Delhi 1970
+    year: 1970
+    copyright: in-copyright
+    held: true
+    verified_basis: scan_pending
+    verified_basis_note: in-copyright scan; the catalogue does not note the scan as sufficient
+    files:
+    - path: khandakhadyaka_1970-khandakhadyaka-chatterjee-1970.pdf
+      sha256: b62383cafc52dee0e622d9f86150379bfff28d3aa1d686f116cbf26db71a55f4
+      bytes: 17662767
+      born_digital: false
+      inspection: '531 of 585 pages are scans; 54 carry no scan image (first: PDF pp. 1, 2, 3, 44, 88)'
+      pages: 585
+    born_digital: false
+  khandakhadyaka_sengupta_1934:
+    kind: library
+    title: The Khaṇḍakhādyaka, an astronomical treatise of Brahmagupta
+    author: Brahmagupta
+    edition: trans. Prabodh Chandra Sengupta, University of Calcutta, 1934
+    year: 1934
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: khandakhadyaka_sengupta_1934-khandakhadyaka-sengupta-1934.pdf
+      sha256: 6a08b144782e5a4745c2c821f01b376b5f58bcbaacad0446ef53bd957eea3df0
+      bytes: 36547188
+      born_digital: false
+      inspection: 232 of 232 pages are scans
+      pages: 232
+    born_digital: false
+  tantrasangraha_2011:
+    kind: library
+    title: Tantrasaṅgraha of Nīlakaṇṭha Somayājī
+    author: Nīlakaṇṭha Somayājī
+    edition: trans. K. Ramasubramanian & M. S. Sriram, Sources and Studies in the History of Mathematics and Physical Sciences, Hindustan Book Agency / Springer 2011
+    year: 2011
+    copyright: in-copyright
+    held: true
+    verified_basis: excluded
+    verified_basis_note: a copy without an established licence
+    files:
+    - path: tantrasangraha_2011-tantrasangraha-ramasubramanian-sriram-2011.pdf
+      sha256: d5badcf64840dda6eb3e9cd304c89171ab252425b0babc2872eadcc26127d719
+      bytes: 5559313
+      born_digital: true
+      inspection: 641 of 642 pages are vector (producer ''); 1 carry a raster image and are read as scans
+      pages: 642
+    born_digital: true
+  tantrasangraha_1977:
+    kind: library
+    title: Tantrasaṅgraha with Yuktidīpikā and Laghuvivṛti of Śaṅkara Vāriyar
+    author: Nīlakaṇṭha Somayājī; Śaṅkara Vāriyar (comm.)
+    edition: ed. K. V. Sarma, Vishveshvaranand Institute Publications, VVRI Hoshiarpur 1977
+    year: 1977
+    copyright: in-copyright
+    held: true
+    verified_basis: scan_pending
+    verified_basis_note: in-copyright scan; the catalogue does not note the scan as sufficient
+    files:
+    - path: tantrasangraha_1977-tantrasangraha-sarma-1977.pdf
+      sha256: 0d5e7a3dc4e258afbf6d6f03e0ea736ae013752729a1d25b862b5dea56f2b159
+      bytes: 7765021
+      born_digital: false
+      inspection: 494 of 494 pages are scans
+      pages: 494
+    born_digital: false
+  dikshit_1969_jyotisa_vol1:
+    kind: library
+    title: Bhāratīya Jyotiṣa Śāstra — volume 1
+    author: Śaṅkara Bālakṛṣṇa Dīkṣita
+    edition: English translation by R. V. Vaidya, Government of India (India Meteorological Department), 1969/1981; original Marathi 1896
+    year: 1969
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: dikshit_1969_jyotisa_vol1-dikshit-bharatiya-jyotisha-1.pdf
+      sha256: 779ce8ea6c0655c09cfdc0a9dad7baa7df3bcace5c29e6c3ee041d4c3df85503
+      bytes: 16381755
+      born_digital: false
+      inspection: 181 of 181 pages are scans
+      pages: 181
+    born_digital: false
+  dikshit_1981_jyotisa_vol2:
+    kind: library
+    title: Bhāratīya Jyotiṣa Śāstra — volume 2
+    author: Śaṅkara Bālakṛṣṇa Dīkṣita
+    edition: Government of India, 1981
+    year: 1981
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: dikshit_1981_jyotisa_vol2-dikshit-bharatiya-jyotisha-2.pdf
+      sha256: d5b26adb1f49e23eaad99840d4127b7d99e01254bb29da5c1aaad6d1e276f84f
+      bytes: 29671643
+      born_digital: false
+      inspection: '429 of 431 pages are scans; 2 carry no scan image (first: PDF pp. 5, 19)'
+      pages: 431
+    born_digital: false
+  sewell_dikshit_1896:
+    kind: library
+    title: The Indian Calendar, with tables for the conversion of Hindu and Muhammadan into A.D. dates and vice versa
+    author: Robert Sewell & Śaṅkara Bālakṛṣṇa Dīkṣita
+    edition: Swan Sonnenschein, London 1896
+    year: 1896
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: sewell_dikshit_1896-sewell-dikshit-indian-calendar-1896.pdf
+      sha256: 0b287c91e9cca8ad36cd33197df92a8582b017c6bfbe89268a4c61b81edcb3f9
+      bytes: 19592702
+      born_digital: false
+      inspection: 338 of 338 pages are scans
+      pages: 338
+    born_digital: false
+  pillai_1911_chronology:
+    kind: library
+    title: Indian Chronology (solar, lunar and planetary)
+    author: L. D. Swamikannu Pillai
+    edition: Grames & Co., Madras 1911
+    year: 1911
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: pillai_1911_chronology-pillai-indian-chronology-1911.pdf
+      sha256: ae740859183ccd6c32391e45d509e998b40e8456e0423546cee48516883dc7db
+      bytes: 43420988
+      born_digital: false
+      inspection: 390 of 390 pages are scans
+      pages: 390
+    born_digital: false
+  pillai_1922_ephemeris:
+    kind: library
+    title: An Indian Ephemeris, A.D. 700 to A.D. 1799
+    author: L. D. Swamikannu Pillai
+    edition: Government Press, Madras 1922, 7 vols
+    year: 1922
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: pillai_1922_ephemeris-pillai-indian-ephemeris.pdf
+      sha256: 6ed65eaeb1cb8832c5fb214178b9310efc472bc75c5f7e229403e4c47ef02405
+      bytes: 67000109
+      born_digital: false
+      inspection: 406 of 406 pages are scans
+      pages: 406
+    born_digital: false
+  calendar_reform_committee_1955:
+    kind: library
+    title: Report of the Calendar Reform Committee
+    author: 'Government of India, Council of Scientific & Industrial Research (chair: M. N. Saha)'
+    edition: CSIR, New Delhi 1955
+    year: 1955
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: calendar_reform_committee_1955-calendar-reform-committee-1955.pdf
+      sha256: 74cd0c90dbc17178a64158ac8dd9080cc9637b9e8ac68e521fb91951f13b1f41
+      bytes: 24950619
+      born_digital: false
+      inspection: 292 of 292 pages are scans
+      pages: 292
+    born_digital: false
+  billard_1971:
+    kind: library
+    title: 'L''astronomie indienne: investigation des textes sanskrits et des données numériques'
+    author: Roger Billard
+    edition: Publications de l'École française d'Extrême-Orient vol. 83, Paris 1971
+    year: 1971
+    copyright: in-copyright
+    held: true
+    verified_basis: scan_pending
+    verified_basis_note: in-copyright scan; the catalogue does not note the scan as sufficient
+    files:
+    - path: billard_1971-billard-astronomie-indienne-1971.pdf
+      sha256: b4d6168f291e9af2d0e913e1ef685811db04173e6189fc259f13dd95cb42d062
+      bytes: 36960740
+      born_digital: false
+      inspection: 246 of 246 pages are scans
+      pages: 246
+    born_digital: false
+  rashtriya_panchanga_1959:
+    kind: library
+    title: Rāṣṭrīya Pañcāṅga (Indian National Calendar) for 1959
+    author: Director General of Observatories, India Meteorological Department
+    edition: Government of India, 1959
+    year: 1959
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: rashtriya_panchanga_1959-rashtriya-panchang-1959.pdf
+      sha256: 0104d7ece7356edcb60b08d2c2c7f9abbf4da7cf53f7c137ab81f306da8c7b91
+      bytes: 5510569
+      born_digital: false
+      inspection: 142 of 142 pages are scans
+      pages: 142
+    born_digital: false
+  indian_astronomical_ephemeris:
+    kind: library
+    title: The Indian Astronomical Ephemeris
+    author: Positional Astronomy Centre, India Meteorological Department
+    edition: Government of India, annual
+    year: null
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: indian_astronomical_ephemeris-iae-2018.pdf
+      sha256: 35ef1132c899ba3dbd8deacb00c33077093d9048ea78eb8d5ef4cf601ff537c7
+      bytes: 7699821
+      born_digital: true
+      inspection: 480 of 482 pages are vector (producer 'Adobe Acrobat Pro 11.0.8'); 2 carry a raster image and are read as scans
+      pages: 482
+    - path: indian_astronomical_ephemeris-iae-2019.pdf
+      sha256: dbe3548f2c85ac84c9ed48a8403981161f3dcb31aca24a39d54578cb18d8bb06
+      bytes: 5628521
+      born_digital: true
+      inspection: 483 of 488 pages are vector (producer 'Adobe Acrobat Pro 11.0.8'); 5 carry a raster image and are read as scans
+      pages: 488
+    - path: indian_astronomical_ephemeris-iae-2020.pdf
+      sha256: bbb86cd1518f01fa15327b8516b9b5dc3fe140b49f8e9d247751292885a5414f
+      bytes: 6950180
+      born_digital: true
+      inspection: 487 of 487 pages are vector (producer 'Adobe Acrobat Pro 11.0.8')
+      pages: 487
+    - path: indian_astronomical_ephemeris-iae-2021.pdf
+      sha256: 999ff6010aab78f350a4290bd2e7824e8e321ed6f8c771ecdf001c84ba87e38f
+      bytes: 9486392
+      born_digital: true
+      inspection: 461 of 477 pages are vector (producer 'www.ilovepdf.com'); 16 carry a raster image and are read as scans
+      pages: 477
+    - path: indian_astronomical_ephemeris-iae-2022.pdf
+      sha256: 9cf7c4b3822c2900d45f574f1d1dca3d4e8a632c243d2e219e775c6003e61bdf
+      bytes: 6270550
+      born_digital: true
+      inspection: 481 of 484 pages are vector (producer 'iLovePDF'); 3 carry a raster image and are read as scans
+      pages: 484
+    born_digital: true
+  travancore_almanac_1876:
+    kind: library
+    title: Trevandrum Almanac for 1876
+    author: Government of Travancore
+    edition: null
+    year: 1876
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: travancore_almanac_1876-travancore-almanac-1876.pdf
+      sha256: aede735b9a2b37c759fed8739120d9813236c22b4de508a75619d465b9b74ef8
+      bytes: 8686562
+      born_digital: false
+      inspection: 210 of 210 pages are scans
+      pages: 210
+    born_digital: false
+  travancore_almanac_1878:
+    kind: library
+    title: Travancore Almanac for 1878
+    author: Government of Travancore
+    edition: null
+    year: 1878
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: travancore_almanac_1878-travancore-almanac-1878.pdf
+      sha256: e2e9bd376f917b364738b1e552fbc277d8f69fa4d8e1b59fe7e84b55625f15db
+      bytes: 19784329
+      born_digital: false
+      inspection: 356 of 356 pages are scans
+      pages: 356
+    born_digital: false
+  travancore_almanac_1880:
+    kind: library
+    title: Travancore Almanac 1880 (Kollam 1055-56)
+    author: Government of Travancore
+    edition: null
+    year: 1880
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: travancore_almanac_1880-travancore-almanac-1880.pdf
+      sha256: 31690c801eb1fe9799d811f93f327000e2f422f0ba8b6be14429169f60fb39cd
+      bytes: 12391419
+      born_digital: false
+      inspection: 316 of 316 pages are scans
+      pages: 316
+    born_digital: false
+  travancore_almanac_1881:
+    kind: library
+    title: Travancore Almanac 1881 (1056-57)
+    author: Government of Travancore
+    edition: null
+    year: 1881
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: travancore_almanac_1881-travancore-almanac-1881.pdf
+      sha256: 0a3438278a63cd5624c650bd12392b7c05e442e3c914694606cbab2b75f24a3d
+      bytes: 9759143
+      born_digital: false
+      inspection: 260 of 260 pages are scans
+      pages: 260
+    born_digital: false
+  travancore_almanac_1884:
+    kind: library
+    title: Travancore Almanac 1884 (1059-60)
+    author: Government of Travancore
+    edition: null
+    year: 1884
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: travancore_almanac_1884-travancore-almanac-1884.pdf
+      sha256: 079ff3cf70fc4ad2cbaeada973ef2ba038b407938f6dd3be59ca4fef38415d64
+      bytes: 7994258
+      born_digital: false
+      inspection: 213 of 213 pages are scans
+      pages: 213
+    born_digital: false
+  travancore_almanac_1885:
+    kind: library
+    title: Travancore Almanac 1885 (1060-61)
+    author: Government of Travancore
+    edition: null
+    year: 1885
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: travancore_almanac_1885-travancore-almanac-1885.pdf
+      sha256: 155f3a0e6ca93c82aa52fa42b1dd8fc3d29e1511e4c972804df53761f5bd5d42
+      bytes: 10318819
+      born_digital: false
+      inspection: 276 of 276 pages are scans
+      pages: 276
+    born_digital: false
+  travancore_almanac_1889:
+    kind: library
+    title: Travancore Almanac 1889 (1084-85)
+    author: Government of Travancore
+    edition: null
+    year: 1889
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: travancore_almanac_1889-travancore-almanac-1889.pdf
+      sha256: d848abc287d7ba0955ef798f844d5cdd934668e50bfcb0c19a4a82c1d671b68d
+      bytes: 13809362
+      born_digital: false
+      inspection: 364 of 364 pages are scans
+      pages: 364
+    born_digital: false
+  travancore_almanac_1890:
+    kind: library
+    title: Travancore Almanac for 1890 (1065-66)
+    author: Government of Travancore
+    edition: null
+    year: 1890
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: travancore_almanac_1890-travancore-almanac-1890.pdf
+      sha256: 6d1b1aeebc75100ff19ade5f43bf13daeabbdf71bd7b16e1c0d24a203a5688e4
+      bytes: 8954233
+      born_digital: false
+      inspection: 295 of 295 pages are scans
+      pages: 295
+    born_digital: false
+  travancore_almanac_1891:
+    kind: library
+    title: Travancore Almanac 1891 (1066-67)
+    author: Government of Travancore
+    edition: null
+    year: 1891
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: travancore_almanac_1891-travancore-almanac-1891.pdf
+      sha256: fc428ead09f12f363a0f116ced2829e5c760b54117813925e1cd0ff0eb832732
+      bytes: 12507530
+      born_digital: false
+      inspection: 311 of 311 pages are scans
+      pages: 311
+    born_digital: false
+  travancore_almanac_1893:
+    kind: library
+    title: Travancore Almanac 1893
+    author: Government of Travancore
+    edition: null
+    year: 1893
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: travancore_almanac_1893-travancore-almanac-1893.pdf
+      sha256: 28654123716a8443111affe250b7446f467c490f26b4fa0372d81dcb0ab98622
+      bytes: 16801831
+      born_digital: false
+      inspection: 331 of 331 pages are scans
+      pages: 331
+    born_digital: false
+  travancore_almanac_1895:
+    kind: library
+    title: Travancore Almanac 1895 (1070-71)
+    author: Government of Travancore
+    edition: null
+    year: 1895
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: travancore_almanac_1895-travancore-almanac-1895.pdf
+      sha256: a1587af4dcee92d6c32adcac93e227712500be838dcfdd608de6dc45f806bf74
+      bytes: 16197111
+      born_digital: false
+      inspection: 421 of 421 pages are scans
+      pages: 421
+    born_digital: false
+  travancore_almanac_1896:
+    kind: library
+    title: Travancore Almanac for the Year 1896
+    author: Government of Travancore
+    edition: null
+    year: 1896
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: travancore_almanac_1896-travancore-almanac-1896.pdf
+      sha256: 1cb74bebac83a0550f1d40423b2e7c893e8e6c71a29c6a6ee54da36a7a6d4387
+      bytes: 20785646
+      born_digital: false
+      inspection: 628 of 628 pages are scans
+      pages: 628
+    born_digital: false
+  travancore_almanac_1898:
+    kind: library
+    title: Travancore Almanac 1898
+    author: Government of Travancore
+    edition: null
+    year: 1898
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: travancore_almanac_1898-travancore-almanac-1898.pdf
+      sha256: eeb1328a67642c18f31a437153c89b6451869f4fd2e55a78688b799db495441c
+      bytes: 15609385
+      born_digital: false
+      inspection: 494 of 494 pages are scans
+      pages: 494
+    born_digital: false
+  travancore_almanac_1899:
+    kind: library
+    title: Travancore Almanac 1899 (1074-75)
+    author: Government of Travancore
+    edition: null
+    year: 1899
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: travancore_almanac_1899-travancore-almanac-1899.pdf
+      sha256: bad58bc4e45c4b553eb38a66f9a1fc54a6420f971d3350a4a418738b86c1c782
+      bytes: 22250381
+      born_digital: false
+      inspection: 579 of 579 pages are scans
+      pages: 579
+    born_digital: false
+  travancore_almanac_1900:
+    kind: library
+    title: Travancore Almanac 1900 (1075-76)
+    author: Government of Travancore
+    edition: null
+    year: 1900
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: travancore_almanac_1900-travancore-almanac-1900.pdf
+      sha256: ac17948cb093409a8722dbcda436db100b7764dc4390196f0d44eb10bb6073a7
+      bytes: 14480880
+      born_digital: false
+      inspection: 405 of 405 pages are scans
+      pages: 405
+    born_digital: false
+  travancore_almanac_1901:
+    kind: library
+    title: Travancore Almanac 1901 (1076-77)
+    author: Government of Travancore
+    edition: null
+    year: 1901
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: travancore_almanac_1901-travancore-almanac-1901.pdf
+      sha256: e0d0c62e3e652c9ce3612b602f25f05ad3834864c7d42f24bd3cbd84f0e90513
+      bytes: 15798723
+      born_digital: false
+      inspection: 464 of 464 pages are scans
+      pages: 464
+    born_digital: false
+  travancore_almanac_1905:
+    kind: library
+    title: Travancore Almanac 1905 (1080-81)
+    author: Government of Travancore
+    edition: null
+    year: 1905
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: travancore_almanac_1905-travancore-almanac-1905.pdf
+      sha256: 321f9ca962b521d14324e2761e3fbcfff6db7286d02f975a0ef3e336273d5f31
+      bytes: 16526338
+      born_digital: false
+      inspection: 465 of 465 pages are scans
+      pages: 465
+    born_digital: false
+  travancore_almanac_1906:
+    kind: library
+    title: Travancore Almanac 1906 (1081-82)
+    author: Government of Travancore
+    edition: null
+    year: 1906
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: travancore_almanac_1906-travancore-almanac-1906.pdf
+      sha256: 2f7de25bbe5f982184dee46ce1ac2991c0ec7668322deb2d75fb5e24248e13c4
+      bytes: 17880438
+      born_digital: false
+      inspection: 497 of 497 pages are scans
+      pages: 497
+    born_digital: false
+  travancore_almanac_1907:
+    kind: library
+    title: Travancore Almanac 1907
+    author: Government of Travancore
+    edition: null
+    year: 1907
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: travancore_almanac_1907-travancore-almanac-1907.pdf
+      sha256: 2bda6f04835588c7dae5b4c464400ebd9a167fb29b21a299573b414e741a1a59
+      bytes: 16112936
+      born_digital: false
+      inspection: 448 of 448 pages are scans
+      pages: 448
+    born_digital: false
+  yano_fushimi_pancanga:
+    kind: library
+    title: pancanga (v3.14) — Sūrya-siddhānta calendar program
+    author: Michio Yano & Makoto Fushimi
+    edition: Kyoto Sangyo University; source mirrored at github.com/kollavarsham/pancanga
+    year: null
+    copyright: open-source
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'open-source mirror under its own licence (catalogue copyright: open-source)'
+    files: []
+    mirror:
+      upstream: https://github.com/kollavarsham/pancanga.git
+      commit: 9f1dc4df77e534c32ef6179a94a2213b5cde79f7
+    born_digital: true
+  kollavarsham_software:
+    kind: library
+    title: kollavarsham — Malayalam calendar implementation
+    author: kollavarsham project
+    edition: kollavarsham.org, open source
+    year: null
+    copyright: open-source
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'open-source mirror under its own licence (catalogue copyright: open-source)'
+    files: []
+    mirror:
+      upstream: https://github.com/kollavarsham/kollavarsham-js.git
+      commit: 1548bf7e76759b5d1eae3ac8a9e5e26aebe54825
+    born_digital: true
+  iau1980_nutation:
+    kind: library
+    title: IAU 1980 nutation theory — the 106-term series
+    author: J. M. Wahr / IAU
+    edition: Table 5.1 of IERS Conventions (1996), IERS Technical Note 21, ed. Dennis D. McCarthy, U.S. Naval Observatory, July 1996 — chapter 5, distributed as TeX source. Originally Seidelmann (1982) after Wahr.
+    year: 1980
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: iau1980_nutation-iau-1980-nutation.tex
+      sha256: 66fc95bcb5573a60f3726f880b3349f7ede57ec02f87357781b852f9961160d8
+      bytes: 76199
+    - path: iau1980_nutation-iau-1980-nutation-iers-tn3-ch4.pdf
+      sha256: 928b4aded656585443bf1fd08badcf525d8349e83023a948ad3d25c5ad79b17a
+      bytes: 180518
+      born_digital: false
+      inspection: 4 of 4 pages are scans
+      pages: 4
+    born_digital: false
+  vondrak_2011:
+    kind: library
+    title: New precession expressions, valid for long time intervals
+    author: J. Vondrák, N. Capitaine & P. Wallace
+    edition: Astronomy & Astrophysics 534, A22 (2011)
+    year: 2011
+    copyright: open-access
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'open-access file issued by its publisher (catalogue copyright: open-access)'
+    files:
+    - path: vondrak_2011-vondrak-2011-long-term-precession.pdf
+      sha256: db762fd5723d745fdc0796cd5929653df105a368810e25e894f289509a16a8fd
+      bytes: 2321205
+      born_digital: true
+      inspection: 19 of 19 pages are vector (producer 'Acrobat Distiller 7.0.5 (Windows)')
+      pages: 19
+    - path: vondrak_2011-vondrak-2011-long-term-precession-corrigendum.pdf
+      sha256: 3de338fc3d148a3ba6359997410c586af811745ec7563de533e13bd4b0752d55
+      bytes: 28354
+      born_digital: true
+      inspection: 1 of 1 pages are vector (producer 'Acrobat Distiller 7.0.5 (Windows)')
+      pages: 1
+    born_digital: true
+  stephenson_2016:
+    kind: library
+    title: 'Measurement of the Earth''s rotation: 720 BC to AD 2015'
+    author: F. R. Stephenson, L. V. Morrison & C. Y. Hohenkerk
+    edition: Proceedings of the Royal Society A 472, 20160404 (2016)
+    year: 2016
+    copyright: open-access
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'open-access file issued by its publisher (catalogue copyright: open-access)'
+    files:
+    - path: stephenson_2016-stephenson-morrison-hohenkerk-2016-deltat.pdf
+      sha256: d0096ce13c9314aebcac0bb0141e8b7c924e78ef5074f35be9420f695de698ec
+      bytes: 1474802
+      born_digital: true
+      inspection: 26 of 26 pages are vector (producer 'Acrobat Distiller 8.1.0 (Windows); modified using iTextSharp.LGPLv2.Core 3.7.4.0')
+      pages: 26
+    born_digital: true
+  jpl_de441:
+    kind: library
+    title: JPL DE441 planetary and lunar ephemeris
+    author: Jet Propulsion Laboratory
+    edition: JPL SSD, DE441 (long-span, −13200 to +17191)
+    year: 2021
+    copyright: public-domain
+    held: false
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    gap: not held in the library (too large); DE441 is fetched on demand by the package that needs it
+    files: []
+    born_digital: null
+  stephenson_morrison_1984:
+    kind: library
+    title: 'Long-term changes in the rotation of the Earth: 700 BC to AD 1980'
+    author: F. R. Stephenson & L. V. Morrison
+    edition: Philosophical Transactions of the Royal Society of London, Series A, vol. 313 (1984), pp. 47-70
+    year: 1984
+    copyright: in-copyright
+    held: false
+    verified_basis: scan_pending
+    verified_basis_note: in-copyright scan; the catalogue does not note the scan as sufficient
+    gap: 'not held: the catalogue''s acquisition route is a library'
+    files: []
+    born_digital: null
+  basel_panchangam_1866:
+    kind: library
+    title: മലയാള പഞ്ചാംഗം (Malayāḷa Pañcāṅgam) 1866
+    author: Basel Mission Press, Mangalore
+    edition: Basel Mission lithographic/letterpress print, 1866
+    year: 1866
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: basel_panchangam_1866-basel-malayala-pancangam-1866.pdf
+      sha256: d470eb52cb900d15c09a95d0ced71275f32353c971646964112fd482a603538c
+      bytes: 11904065
+      born_digital: false
+      inspection: 61 of 61 pages are scans
+      pages: 61
+    born_digital: false
+  basel_panchangam_1867:
+    kind: library
+    title: മലയാള പഞ്ചാംഗം 1867
+    author: Basel Mission Press
+    edition: null
+    year: 1867
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: basel_panchangam_1867-basel-malayala-pancangam-1867.pdf
+      sha256: cf015ea4fcdbf7db5e36c18b6d84699cdccf3cd6f55038f17578ff8a028ac084
+      bytes: 12801674
+      born_digital: false
+      inspection: 73 of 73 pages are scans
+      pages: 73
+    born_digital: false
+  basel_panchangam_1868:
+    kind: library
+    title: മലയാള പഞ്ചാംഗം 1868
+    author: Basel Mission Press
+    edition: null
+    year: 1868
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: basel_panchangam_1868-basel-malayala-pancangam-1868.pdf
+      sha256: 4b98b7e5e3ab20742059917c555e4956ada25ed686be7c220676abd78320d899
+      bytes: 14071457
+      born_digital: false
+      inspection: 95 of 95 pages are scans
+      pages: 95
+    born_digital: false
+  basel_panchangam_1869:
+    kind: library
+    title: മലയാള പഞ്ചാംഗം 1869
+    author: Basel Mission Press
+    edition: null
+    year: 1869
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: basel_panchangam_1869-basel-malayala-pancangam-1869.pdf
+      sha256: d042b1ed5b9760bcfc6801ce628c0fd50a747dbe4a1a215d4d18c712019b8829
+      bytes: 12604037
+      born_digital: false
+      inspection: 87 of 87 pages are scans
+      pages: 87
+    born_digital: false
+  basel_panchangam_1870:
+    kind: library
+    title: മലയാള പഞ്ചാംഗം 1870
+    author: Basel Mission Press
+    edition: null
+    year: 1870
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: basel_panchangam_1870-basel-malayala-pancangam-1870.pdf
+      sha256: 2f5b39c2ad1533bcd36ff7713e5428576e8658de9da976f6660921d3626d2d60
+      bytes: 11804488
+      born_digital: false
+      inspection: 79 of 79 pages are scans
+      pages: 79
+    born_digital: false
+  basel_panchangam_1871:
+    kind: library
+    title: മലയാള പഞ്ചാംഗം 1871
+    author: Basel Mission Press
+    edition: null
+    year: 1871
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: basel_panchangam_1871-basel-malayala-pancangam-1871.pdf
+      sha256: d763cc61d70e8d88e59759200043eadca877479ba721cf8e9a128242bebd979d
+      bytes: 10601162
+      born_digital: false
+      inspection: 65 of 65 pages are scans
+      pages: 65
+    born_digital: false
+  basel_panchangam_1872:
+    kind: library
+    title: മലയാള പഞ്ചാംഗം 1872
+    author: Basel Mission Press
+    edition: null
+    year: 1872
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: basel_panchangam_1872-basel-malayala-pancangam-1872.pdf
+      sha256: ebeef4b1109fe4bf2d0f3c671902e50231ae2c976645d091b31b3c20b030bd93
+      bytes: 11187531
+      born_digital: false
+      inspection: 81 of 81 pages are scans
+      pages: 81
+    born_digital: false
+  basel_panchangam_1874:
+    kind: library
+    title: മലയാള പഞ്ചാംഗം 1874
+    author: Basel Mission Press
+    edition: null
+    year: 1874
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: basel_panchangam_1874-basel-malayala-pancangam-1874.pdf
+      sha256: 21dac6f20dbfff035adcd2e768daf721c25f139d4b47b2b389be5e455db21cf2
+      bytes: 12877130
+      born_digital: false
+      inspection: 85 of 85 pages are scans
+      pages: 85
+    born_digital: false
+  basel_panchangam_1875:
+    kind: library
+    title: മലയാള പഞ്ചാംഗം 1875
+    author: Basel Mission Press
+    edition: null
+    year: 1875
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: basel_panchangam_1875-basel-malayala-pancangam-1875.pdf
+      sha256: c65864ca37245179ca6cc81d89dfaffae9a718c3b2c6d073e2c0d74253786b76
+      bytes: 13396937
+      born_digital: false
+      inspection: 89 of 89 pages are scans
+      pages: 89
+    born_digital: false
+  basel_panchangam_1885:
+    kind: library
+    title: മലയാള പഞ്ചാംഗം 1885
+    author: Basel Mission Press
+    edition: null
+    year: 1885
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: basel_panchangam_1885-basel-malayala-pancangam-1885.pdf
+      sha256: 87f3d109b2f4f87d6dda50f60339e1403bf4a2bf27f38c2e5074f0b6cc07d68b
+      bytes: 13029667
+      born_digital: false
+      inspection: 89 of 89 pages are scans
+      pages: 89
+    born_digital: false
+  karanaratna_1979:
+    kind: library
+    title: Karaṇaratna of Devācārya (epoch 689)
+    author: Devācārya
+    edition: Hindu Astronomical and Mathematical Texts Series 5 — crit. ed. with notes and translation, Kripa Shankar Shukla, Dept. of Mathematics and Astronomy, Lucknow University, 1979
+    year: 1979
+    copyright: in-copyright
+    held: true
+    verified_basis: scan_pending
+    verified_basis_note: in-copyright scan; the catalogue does not note the scan as sufficient
+    files:
+    - path: karanaratna_1979-karanaratna-devacarya.pdf
+      sha256: 94c7b1b36296a441cc9ac49c64a3e32f63a140c478f76a5731b503847582d25f
+      bytes: 11737492
+      born_digital: false
+      inspection: 150 of 150 pages are scans
+      pages: 150
+    born_digital: false
+  siddhantadarpana_1976:
+    kind: library
+    title: Siddhāntadarpaṇa (Mirror of the laws of astronomy), with auto-commentary
+    author: Nīlakaṇṭha Somayājī
+    edition: ed. and trans. K. V. Sarma, VVRI Hoshiarpur
+    year: 1976
+    copyright: in-copyright
+    held: true
+    verified_basis: scan_pending
+    verified_basis_note: in-copyright scan; the catalogue does not note the scan as sufficient
+    files:
+    - path: siddhantadarpana_1976-siddhantadarpana-nilakantha.pdf
+      sha256: 14a2c3e5156db452920b033b2be2483b7a0d7debe382ff74c8b23855758298b4
+      bytes: 1371255
+      born_digital: false
+      inspection: 80 of 80 pages are scans
+      pages: 80
+    born_digital: false
+  sphutacandrapti_1973:
+    kind: library
+    title: Sphuṭacandrāpti
+    author: Mādhava of Saṅgamagrāma; K. V. Sarma (ed., trans.)
+    edition: 'Vishveshvaranand Institute, Hoshiarpur, 1973 — Vishveshvarand Indological Series 62, Vishveshvaranand Institute Publication 619, gen. ed. Vishva Bandhu; printed by Deva Datta Shastri at the V.V.R.I. Press. Title page: "Computation of True Moon by Mādhava of Saṅgamagrāma / saṅgamagrāma-mādhava-kṛtā Sphuṭacandrāptiḥ … Critically Edited with Introduction, Translation and Notes by K. V. Sarma, Reader in Sanskrit". 66 printed pages in 65 leaves.'
+    year: 1973
+    copyright: in-copyright
+    held: true
+    verified_basis: scan_pending
+    verified_basis_note: in-copyright scan; the catalogue does not note the scan as sufficient
+    files:
+    - path: sphutacandrapti_1973-sphutacandrapti.pdf
+      sha256: 81278d6b857f605fac209e702a73eeb6d8e435a236d182f4b0772fa582101a13
+      bytes: 1806001
+      born_digital: false
+      inspection: '60 of 65 pages are scans; 5 carry no scan image (first: PDF pp. 2, 15, 23, 24, 65)'
+      pages: 65
+    born_digital: false
+  vakyakaranadipika_manuscript:
+    kind: library
+    title: Vākyakaraṇadīpikā (manuscript)
+    author: null
+    edition: Royal Asiatic Society, Whish collection MS 68–69a
+    year: null
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: vakyakaranadipika_manuscript-vakyakaranadipika-ms.pdf
+      sha256: 85cd19e6a3474b7e6c67f5c1c75293e8e0853a3483399e79ca50fb1e12150044
+      bytes: 25810729
+      born_digital: false
+      inspection: 136 of 136 pages are scans
+      pages: 136
+    born_digital: false
+  aryabhatiyabhasya_1930:
+    kind: library
+    title: Āryabhaṭīyabhāṣya of Nīlakaṇṭha Somayājī — volume 1 (Gaṇitapāda)
+    author: Nīlakaṇṭha Somayājī
+    edition: ed. K. Sāmbaśiva Śāstrī, Trivandrum Sanskrit Series 101, University of Travancore 1930
+    year: 1930
+    copyright: in-copyright
+    held: true
+    verified_basis: scan_pending
+    verified_basis_note: in-copyright scan; the catalogue does not note the scan as sufficient
+    files:
+    - path: aryabhatiyabhasya_1930-aryabhatiyabhasya-nilakantha-vol1.pdf
+      sha256: fb0e26e348cad77011ff32b50c50fbd3aa4a9b3dd24e435a645051cd19d3bf5f
+      bytes: 10329631
+      born_digital: false
+      inspection: 212 of 212 pages are scans
+      pages: 212
+    born_digital: false
+  aryabhatiyabhasya_1931:
+    kind: library
+    title: Āryabhaṭīyabhāṣya of Nīlakaṇṭha Somayājī — volume 2 (Kālakriyāpāda)
+    author: Nīlakaṇṭha Somayājī
+    edition: ed. K. Sāmbaśiva Śāstrī, Trivandrum Sanskrit Series 110, University of Travancore 1931
+    year: 1931
+    copyright: in-copyright
+    held: true
+    verified_basis: scan_pending
+    verified_basis_note: in-copyright scan; the catalogue does not note the scan as sufficient
+    files:
+    - path: aryabhatiyabhasya_1931-aryabhatiyabhasya-nilakantha-vol2.pdf
+      sha256: c8a3aa8610f2a63499bbb12ccd1dcecfeee62c8e94ad8619eeed9fec09db16ab
+      bytes: 4081438
+      born_digital: false
+      inspection: 97 of 97 pages are scans
+      pages: 97
+    born_digital: false
+  aryabhatiyabhasya_1957:
+    kind: library
+    title: Āryabhaṭīyabhāṣya of Nīlakaṇṭha Somayājī — volume 3 (Golapāda)
+    author: Nīlakaṇṭha Somayājī
+    edition: ed. Suranad Kunjan Pillai, Trivandrum Sanskrit Series 185, University of Travancore 1957
+    year: 1957
+    copyright: in-copyright
+    held: true
+    verified_basis: scan_pending
+    verified_basis_note: in-copyright scan; the catalogue does not note the scan as sufficient
+    files:
+    - path: aryabhatiyabhasya_1957-aryabhatiyabhasya-nilakantha-vol3.pdf
+      sha256: e17fdbe8d3af60cf13b0e78a8dde48342f7454367341106a8c3a8d4c9e01cdfa
+      bytes: 29611072
+      born_digital: false
+      inspection: 91 of 91 pages are scans
+      pages: 91
+    born_digital: false
+  golasara_1970:
+    kind: library
+    title: Golasāra of Nīlakaṇṭha Somayājī
+    author: Nīlakaṇṭha Somayājī
+    edition: ed. and trans. K. V. Sarma, Vishveshvaranand Institute Series 47, Hoshiarpur 1970
+    year: 1970
+    copyright: in-copyright
+    held: true
+    verified_basis: scan_pending
+    verified_basis_note: 'in-copyright scan (keyed from, never supporting verified); an edition of a pre-modern text: the verses are class 1 with this edition as their witness, Sarma''s translation, figures and notes class 2, cited individually; registered at first use'
+    files:
+    - path: golasara_1970-golasara-nilakantha.pdf
+      sha256: 00e1952c91e0ecd47549379acbcf1574ce6803d8329b1fc47661fc64143aad87
+      bytes: 28415046
+      born_digital: false
+      inspection: 60 of 60 pages are scans
+      pages: 60
+    born_digital: false
+  balachandra_rao_2000:
+    kind: library
+    title: 'Indian Astronomy: An Introduction'
+    author: S. Balachandra Rao
+    edition: Universities Press, Hyderabad 2000
+    year: 2000
+    copyright: in-copyright
+    held: true
+    verified_basis: scan_pending
+    verified_basis_note: in-copyright scan; the catalogue does not note the scan as sufficient
+    files:
+    - path: balachandra_rao_2000-rao-indian-astronomy-introduction.pdf
+      sha256: 60c332cbc9146af96210e5ce82150743b0fc16c02d3be4fc99c5e2ddabef8992
+      bytes: 9805185
+      born_digital: false
+      inspection: '222 of 223 pages are scans; 1 carry no scan image (first: PDF pp. 2)'
+      pages: 223
+    born_digital: false
+  drik_panchanga_software:
+    kind: library
+    title: drik-panchanga — modern dṛk pañcāṅga generator
+    author: Satish BD
+    edition: open source, Swiss Ephemeris based
+    year: null
+    copyright: open-source
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'open-source mirror under its own licence (catalogue copyright: open-source)'
+    files: []
+    mirror:
+      upstream: https://github.com/webresh/drik-panchanga.git
+      commit: 325c7f37c01131d1a159d9db1cc3a2e70822ee13
+    born_digital: true
+  travancore_panchangam_1921:
+    kind: library
+    title: കൊല്ലവർഷം 1097-മാണ്ടത്തെ പഞ്ചാംഗം (Travancore Government Pañcāṅga, ME 1097 = 1921-22)
+    author: Government of Travancore
+    edition: null
+    year: 1921
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: travancore_panchangam_1921-travancore-govt-pancanga-me1097.pdf
+      sha256: 7100dcc649369e2e4c32dfe96fbe4305b821ea6406dfa2342881e7aea3d19763
+      bytes: 9483070
+      born_digital: false
+      inspection: 348 of 348 pages are scans
+      pages: 348
+    born_digital: false
+  travancore_panchangam_1920:
+    kind: library
+    title: പഞ്ചാംഗം 1096 (Travancore Government Pañcāṅga, ME 1096 = 1920-21)
+    author: Government of Travancore
+    edition: null
+    year: 1920
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: travancore_panchangam_1920-travancore-govt-pancanga-me1096.pdf
+      sha256: 73c801395fc68c5bfa0fe6c196c84c39d3d36f12c0292271231903c33dbdf12c
+      bytes: 9463665
+      born_digital: false
+      inspection: 347 of 347 pages are scans
+      pages: 347
+    born_digital: false
+  travancore_panchangam_1922:
+    kind: library
+    title: കൊല്ലവർഷം 1098-ാംമാണ്ടത്തെ പഞ്ചാംഗം (Travancore Government Pañcāṅga, ME 1098 = 1922-23)
+    author: Government of Travancore
+    edition: null
+    year: 1922
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: travancore_panchangam_1922-travancore-govt-pancanga-me1098.pdf
+      sha256: 46f6480179730458e14ca74fd675077942e4d2f72f937c944621fa5210c6a123
+      bytes: 8579778
+      born_digital: false
+      inspection: 321 of 321 pages are scans
+      pages: 321
+    born_digital: false
+  travancore_panchangam_1939:
+    kind: library
+    title: കൊല്ലവർഷം 1115 മാണ്ടത്തെ പഞ്ചാംഗം, മൂന്നാം പുസ്തകം (ME 1115 = 1939-40)
+    author: Government of Travancore
+    edition: null
+    year: 1939
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: travancore_panchangam_1939-travancore-govt-pancanga-me1115.pdf
+      sha256: c6c814227a603218ee50c03ce201513eb133b1ac0160528115e9f2526976be01
+      bytes: 9777839
+      born_digital: false
+      inspection: 306 of 306 pages are scans
+      pages: 306
+    born_digital: false
+  gopala_varyar_1954:
+    kind: library
+    title: 'നിത്യപഞ്ചാംഗഗണിതം: ലളിതമായ വിവരണവും ഉദാഹരണക്രിയകളും അടങ്ങിയത്'
+    author: 'പാണ്ടനാട്ടിൽ പി. ആർ. ഗോപാലവാര്യർ (ശാസ്ത്രി) — P. R. Gopala Varyar (Śāstri) of Pandanad'
+    edition: null
+    year: 1954
+    copyright: public-domain
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'public-domain edition (catalogue copyright: public-domain)'
+    files:
+    - path: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+      sha256: 86370d0ea3dbfacb4e3dcfdfd415985a9771b91cdf39bfd0c0f88c214e60f404
+      bytes: 7691234
+      born_digital: false
+      inspection: 166 of 166 pages are scans
+      pages: 166
+    born_digital: false
+  sarma_2009_facets:
+    kind: library
+    title: 'Facets of Indian Astronomy: A Collection of Articles of Prof. K. V. Sarma'
+    author: K. V. Sarma; ed. Siniruddha Dash
+    edition: Rashtriya Sanskrit University Publication Series 200, Rashtriya Sanskrit University, Tirupati, 2009
+    year: 2009
+    copyright: in-copyright
+    held: true
+    verified_basis: scan_pending
+    verified_basis_note: in-copyright scan; the catalogue does not note the scan as sufficient
+    files:
+    - path: sarma_2009_facets-sarma-facets-of-indian-astronomy-2009.pdf
+      sha256: feb973dfc4c7ae69d43d6c58634b7490e0d56b6f6b3b2bd34d0735947f399414
+      bytes: 19071148
+      born_digital: false
+      inspection: 500 of 500 pages are scans
+      pages: 500
+    born_digital: false
+  tantrasangraha_500_years_2002:
+    kind: library
+    title: '500 Years of Tantrasaṅgraha: A Landmark in the History of Astronomy'
+    author: ed. M. S. Sriram, K. Ramasubramanian and M. D. Srinivas
+    edition: Indian Institute of Advanced Study, Rashtrapati Nivas, Shimla, first published 2002, ISBN 81-7986-009-4; typeset at the IIAS and printed at Replika Press, Delhi. The proceedings of a conference held 11-13 March 2000 by the Department of Theoretical Physics, University of Madras, with the Inter-university Centre for Humanities and Social Sciences of the IIAS, marking the 500th anniversary of the Tantrasaṅgraha. Eleven papers, pp. 1-180, with a contributors list at the end.
+    year: 2002
+    copyright: in-copyright
+    held: true
+    verified_basis: scan_pending
+    verified_basis_note: in-copyright scan; the catalogue does not note the scan as sufficient
+    files:
+    - path: tantrasangraha_500_years_2002-500-years-tantrasangraha-2002.pdf
+      sha256: 9cac0c3ff08c14e9b510f39f56a798cc2116d6dd34b5909ce7178752f85e65d9
+      bytes: 8062973
+      born_digital: false
+      inspection: 192 of 192 pages are scans
+      pages: 192
+    born_digital: false
+  lahiri_1972:
+    kind: library
+    title: Advance Ephemeris of Planets' Positions for One Hundred Years from 1951 to 2050 A.D.
+    author: N. C. Lahiri
+    edition: Second edition, Astro-Research Bureau, Calcutta-6, 1972. Title page reads "ADVANCE EPHEMERIS" — not "Advanced", as it is often cited.
+    year: 1972
+    copyright: in-copyright
+    held: true
+    verified_basis: scan_pending
+    verified_basis_note: in-copyright scan; the catalogue does not note the scan as sufficient
+    files:
+    - path: lahiri_1972-lahiri-advance-ephemeris-1972.pdf
+      sha256: aa6b9a6d6e9c36f3b92de922cc3084a4322a64e2b2f7e674fe476f31d91348a6
+      bytes: 9437345
+      born_digital: false
+      inspection: 138 of 138 pages are scans
+      pages: 138
+    born_digital: false
+  sreedharan_grahasthana_ganitam:
+    kind: library
+    title: ഗ്രഹസ്ഥാന ഗണിതം (Grahasthāna Gaṇitam — computation of planetary positions)
+    author: ഡോ. ഇ. ശ്രീധരൻ (Dr. E. Sreedharan)
+    edition: Publisher and date not recorded — not visible on the cover, and the copy in hand has not been opened to its imprint page. Malayalam; a modern trade paperback, cover carrying a rāśi-cakra with the twelve signs named in both Malayalam and English. The bibliography discussed below is at pp. 150-151.
+    year: null
+    copyright: in-copyright
+    held: false
+    verified_basis: scan_pending
+    verified_basis_note: in-copyright scan; the catalogue does not note the scan as sufficient
+    gap: 'not held: the library author holds the copy; no scan deposited and its imprint not yet recorded'
+    files: []
+    born_digital: null
+  sarma_1977_thesis:
+    kind: library
+    title: Contributions to the Study of the Kerala School of Hindu Astronomy and Mathematics, vol. 2
+    author: K. V. Sarma
+    edition: PhD thesis, Panjab University, Chandigarh 1977 (typescript), vol. 2 of 2
+    year: 1977
+    copyright: in-copyright
+    held: true
+    verified_basis: scan_pending
+    verified_basis_note: 'in-copyright scan; the catalogue does not note the scan as sufficient; binds in Sarma''s printed editions in their own typesetting: drgganita_1963 (thesis PDF = drgganita_1963 PDF + 46), grahanamandana_1965 (printed p. = PDF − 322), grahacaranibandhana_1954 (printed p. = PDF − 17), so a second copy for a scan fault, not a second witness for a misprint in the type'
+    files:
+    - path: sarma_1977_thesis-sarma-thesis-kerala-school-1977-vol2.pdf
+      sha256: e66a75a2f01423abc4bf4274ab030cbd96785f93d161fe58cc589061cbfe4633
+      bytes: 64186852
+      born_digital: false
+      inspection: 1014 of 1014 pages are scans
+      pages: 1014
+    born_digital: false
+  laghubhaskariya_vivarana_1974:
+    kind: library
+    title: Laghubhāskarīya, with the commentary Vivaraṇa of Śaṅkaranārāyaṇa
+    author: Bhāskara I; Śaṅkaranārāyaṇa (comm.)
+    edition: ed. P. K. Nārāyaṇa Pillai, Trivandrum Sanskrit Series no. 162, University of Travancore, Trivandrum 1949; reprinted by the Department of Publications, University of Kerala, Trivandrum 1974 (the held scan is of the 1974 reprint)
+    year: 1974
+    copyright: in-copyright
+    held: true
+    verified_basis: scan_pending
+    verified_basis_note: in-copyright scan; the catalogue does not note the scan as sufficient; its printed p. 35 (PDF 63) quotes grahacaranibandhana_1954 III.26–28a, a different edition and typesetting
+    files:
+    - path: laghubhaskariya_vivarana_1974-laghubhaskariya-vivarana-tss162.pdf
+      sha256: 95be2b304934110cba64f6d90203ab7948f590ed3c83f85d52a44c307b79d761
+      bytes: 5127126
+      born_digital: false
+      inspection: 174 of 174 pages are scans
+      pages: 174
+    born_digital: false
+  gislen_2018:
+    kind: library
+    title: On the Epoch of the Kollam Era
+    author: Lars Gislén
+    edition: Journal of Astronomical History and Heritage 21(2 & 3), p. 134 (2018), doi 10.3724/SP.J.1440-2807.2018.02.03
+    year: 2018
+    copyright: open-access
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'open-access file issued by its publisher (catalogue copyright: open-access; no licence statement reachable); registered for the Kollam epoch'
+    files:
+    - path: gislen_2018-gislen-kollam-era-epoch-2018.pdf
+      sha256: d09ab29a8e805587a7099cac24815583e506d3215712e8843ee59295b4a2c132
+      bytes: 569526
+      born_digital: true
+      inspection: 1 of 1 pages are vector (producer 'Microsoft® Word 2010')
+      pages: 1
+    born_digital: true
+  madhavan_2012:
+    kind: library
+    title: Venvaroha from a Modern Perspective
+    author: S Madhavan
+    edition: Indian Journal of History of Science 47.4 (2012)
+    year: 2012
+    copyright: open-access
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'open-access file issued by its publisher (catalogue copyright: open-access)'
+    files:
+    - path: madhavan_2012-ijhs-v47-venvaroha-from-a-modern-perspective.pdf
+      sha256: 284d4ad10006d2ad2bccd292b85000ce6defc4404b007bef651448cf1d7bab49
+      bytes: 221124
+      born_digital: true
+      inspection: 20 of 20 pages are vector (producer 'Acrobat Distiller 6.0 (Windows)')
+      pages: 20
+    born_digital: true
+  sriram_2012:
+    kind: library
+    title: Relation between the Arc and the Rsine in Tantrasangraha and other Kerala Works
+    author: M S Sriram's;K Ramasubramanian and R Venketeswara Pai
+    edition: Indian Journal of History of Science 47.4 (2012)
+    year: 2012
+    copyright: open-access
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'open-access file issued by its publisher (catalogue copyright: open-access)'
+    files:
+    - path: sriram_2012-ijhs-v47-relation-between-the-arc-and-the.pdf
+      sha256: 7bd7263f2c5428c5096cb176fb8bf952dd5678438288c6ddcd1733eb50588a8d
+      bytes: 320387
+      born_digital: true
+      inspection: 18 of 18 pages are vector (producer 'pdfTeX-1.40.10')
+      pages: 18
+    born_digital: true
+  mahesh_2014:
+    kind: library
+    title: Sankramavakyas of the Vakyakarana
+    author: K Mahesh
+    edition: Indian Journal of History of Science 49.2 (2014)
+    year: 2014
+    copyright: open-access
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'open-access file issued by its publisher (catalogue copyright: open-access)'
+    files:
+    - path: mahesh_2014-ijhs-v49-sankramavakyas-of-the-vakyakarana.pdf
+      sha256: 125c4d0471f0695bf92ed223f643f5e0d0fa5b8bba91eabb40ca2ee19733f6ab
+      bytes: 364019
+      born_digital: true
+      inspection: 13 of 13 pages are vector (producer 'Acrobat Distiller 6.0 (Windows)')
+      pages: 13
+    born_digital: true
+  narayanan_2011:
+    kind: library
+    title: The Pulsating Indian Epicycle of the Sun
+    author: Anil Narayanan
+    edition: Indian Journal of History of Science 46.3 (2011)
+    year: 2011
+    copyright: open-access
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'open-access file issued by its publisher (catalogue copyright: open-access)'
+    files:
+    - path: narayanan_2011-ijhs-v46-the-pulsating-indian-epicycle-of-the.pdf
+      sha256: fc8fd0434201d9c15b06bed8328c36195f8a28d8a2ae91ca0de6f59fbe4b6826
+      bytes: 465635
+      born_digital: true
+      inspection: 15 of 15 pages are vector (producer 'Acrobat Distiller 6.0 (Windows)')
+      pages: 15
+    born_digital: true
+  bag_2001:
+    kind: library
+    title: Ahargana and Weekdays As Per Modern Suryasiddhanta
+    author: A K Bag
+    edition: Indian Journal of History of Science 36.1&2 (2001)
+    year: 2001
+    copyright: open-access
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'open-access file issued by its publisher (catalogue copyright: open-access)'
+    files:
+    - path: bag_2001-ijhs-v36-ahargana-and-weekdays-as-per-modern.pdf
+      sha256: f43c128787cae6c05ee5a690ac983c8bf18ba70f8f41607d5b0f2e7d21c32d7c
+      bytes: 167131
+      born_digital: false
+      inspection: 9 of 9 pages are scans
+      pages: 9
+    born_digital: false
+  sarma_2001_aryabhata:
+    kind: library
+    title: 'Aryabhata: His name‚ Time and Provenance'
+    author: K V Sarma
+    edition: Indian Journal of History of Science 36.3&4 (2001)
+    year: 2001
+    copyright: open-access
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'open-access file issued by its publisher (catalogue copyright: open-access)'
+    files:
+    - path: sarma_2001_aryabhata-ijhs-v36-aryabhata-his-name-time-and-provenance.pdf
+      sha256: c3742eae418f3b5f9117292185bc76aa8df376bbe13569ba6d46f4890887c2a8
+      bytes: 165160
+      born_digital: false
+      inspection: 11 of 11 pages are scans
+      pages: 11
+    born_digital: false
+  achar_2002:
+    kind: library
+    title: Aryabhata and the table of Rsines
+    author: B N Narahari Achar
+    edition: Indian Journal of History of Science 37.2 (2002)
+    year: 2002
+    copyright: open-access
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'open-access file issued by its publisher (catalogue copyright: open-access)'
+    files:
+    - path: achar_2002-ijhs-v37-aryabhata-and-the-table-of-rsines.pdf
+      sha256: 18066863da7350a15fc53b5bfa5a1d7660aa038dd40b702c4f467fca903c5546
+      bytes: 71963
+      born_digital: false
+      inspection: 5 of 5 pages are scans
+      pages: 5
+    born_digital: false
+  chandra_hari_2002:
+    kind: library
+    title: Date of Haridatta‚ Promulgator of the Prahita System of Astronomy in Kerala
+    author: K Chandra Hari
+    edition: Indian Journal of History of Science 37.3 (2002)
+    year: 2002
+    copyright: open-access
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'open-access file issued by its publisher (catalogue copyright: open-access)'
+    files:
+    - path: chandra_hari_2002-ijhs-v37-date-of-haridatta-promulgator-of-the.pdf
+      sha256: 4c29914341d287895c61874f5bbcbb97531be7b05fde53a971046e3b81e33088
+      bytes: 218669
+      born_digital: false
+      inspection: 14 of 14 pages are scans
+      pages: 14
+    born_digital: false
+  bag_2003_julian_days:
+    kind: library
+    title: Luni–Solar Calender‚ Kali Ahargana and Julian Days
+    author: A K Bag
+    edition: Indian Journal of History of Science 38.1 (2003)
+    year: 2003
+    copyright: open-access
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'open-access file issued by its publisher (catalogue copyright: open-access)'
+    files:
+    - path: bag_2003_julian_days-ijhs-v38-luni-solar-calender-kali-ahargana-and.pdf
+      sha256: be7f31d0a86ab4982919f0a282cd93bea256cb0c2e006bdecd530e974beb8474
+      bytes: 739056
+      born_digital: false
+      inspection: 21 of 21 pages are scans
+      pages: 21
+    born_digital: false
+  bag_2003_weekdays:
+    kind: library
+    title: A Note on the Ahargana and the Weekdays as per Modern Suryasiddhanta
+    author: A K Bag
+    edition: Indian Journal of History of Science 38.1 (2003)
+    year: 2003
+    copyright: open-access
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'open-access file issued by its publisher (catalogue copyright: open-access)'
+    files:
+    - path: bag_2003_weekdays-ijhs-v38-a-note-on-the-ahargana-and.pdf
+      sha256: 71425684f1146c69681b234c84e97392fefea7098ff87281a919b10e35514af5
+      bytes: 187918
+      born_digital: false
+      inspection: 4 of 4 pages are scans
+      pages: 4
+    born_digital: false
+  chandra_hari_2003_eclipses:
+    kind: library
+    title: Eclipse Observations of Paramesvara‚ the 14–15th century Astronomer of Kerala
+    author: K Chandra Hari
+    edition: Indian Journal of History of Science 38.1 (2003)
+    year: 2003
+    copyright: open-access
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'open-access file issued by its publisher (catalogue copyright: open-access)'
+    files:
+    - path: chandra_hari_2003_eclipses-ijhs-v38-eclipse-observations-of-paramesvara-the-14.pdf
+      sha256: 8168a15d98ce1d55382f1f0cb5d3943b1cd19f54baeffb3da7bfc1a5379cb1f0
+      bytes: 682063
+      born_digital: false
+      inspection: 15 of 15 pages are scans
+      pages: 15
+    born_digital: false
+  ramasubramanian_sriram_2003:
+    kind: library
+    title: Corrections to the Terrestrial Latitude in Tantrasangraha
+    author: K Ramasubramanian and M S Sriram
+    edition: Indian Journal of History of Science 38.2 (2003)
+    year: 2003
+    copyright: open-access
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'open-access file issued by its publisher (catalogue copyright: open-access)'
+    files:
+    - path: ramasubramanian_sriram_2003-ijhs-v38-corrections-to-the-terrestrial-latitude-in.pdf
+      sha256: 73851bd3280b10777fc4c9387cd98694790ccb666f5e778384ae3880fb15bf04
+      bytes: 545102
+      born_digital: false
+      inspection: 16 of 16 pages are scans
+      pages: 16
+    born_digital: false
+  chandra_hari_2003_true_moon:
+    kind: library
+    title: Computation of the True Moon by Madhava of Sangama–Grama
+    author: K Chandra Hari
+    edition: Indian Journal of History of Science 38.3 (2003)
+    year: 2003
+    copyright: open-access
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'open-access file issued by its publisher (catalogue copyright: open-access)'
+    files:
+    - path: chandra_hari_2003_true_moon-ijhs-v38-computation-of-the-true-moon-by.pdf
+      sha256: 8a3c41a3ff7609305367d2fbe9600feaa2b2565d8e00af7cf386e2b926abacfb
+      bytes: 1178031
+      born_digital: false
+      inspection: 23 of 23 pages are scans
+      pages: 23
+    born_digital: false
+  bhattacharyya_1969:
+    kind: library
+    title: Ahargana In Hindu Astronomy
+    author: S P Bhattacharyya
+    edition: Indian Journal of History of Science 4.1&2 (1969)
+    year: 1969
+    copyright: open-access
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'open-access file issued by its publisher (catalogue copyright: open-access)'
+    files:
+    - path: bhattacharyya_1969-ijhs-v4-ahargana-in-hindu-astronomy.pdf
+      sha256: 1c0258ada40bd7ac4f99ad3b5d41df7e60686b2c31ee502b225047055b97fb16
+      bytes: 227125
+      born_digital: false
+      inspection: 12 of 12 pages are scans
+      pages: 12
+    born_digital: false
+  rai_1971:
+    kind: library
+    title: The Ardharatrika System of Aryabhata I
+    author: R N Rai
+    edition: Indian Journal of History of Science 6.2 (1971)
+    year: 1971
+    copyright: open-access
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'open-access file issued by its publisher (catalogue copyright: open-access)'
+    files:
+    - path: rai_1971-ijhs-v6-the-ardharatrika-system-of-aryabhata-i.pdf
+      sha256: 62bcb1c6a5058db0053c3290703fe7d1ada1d393a4f6d8de2a904c15f660ab20
+      bytes: 126354
+      born_digital: false
+      inspection: 6 of 6 pages are scans
+      pages: 6
+    born_digital: false
+  swaminathan_1973:
+    kind: library
+    title: Jyotisa in Kerala
+    author: K D Swaminathan
+    edition: Indian Journal of History of Science 8.1&2 (1973)
+    year: 1973
+    copyright: open-access
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'open-access file issued by its publisher (catalogue copyright: open-access)'
+    files:
+    - path: swaminathan_1973-ijhs-v8-jyotisa-in-kerala.pdf
+      sha256: 04e9a8c2c5f61a45f4633112ea61d478a237ef81771772c692c921f021431b1a
+      bytes: 190306
+      born_digital: false
+      inspection: 9 of 9 pages are scans
+      pages: 9
+    born_digital: false
+  rai_1974:
+    kind: library
+    title: The Prime Meridian in Indian Astronomy
+    author: R N Rai
+    edition: Indian Journal of History of Science 9.1 (1974)
+    year: 1974
+    copyright: open-access
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'open-access file issued by its publisher (catalogue copyright: open-access)'
+    files:
+    - path: rai_1974-ijhs-v9-the-prime-meridian-in-indian-astronomy.pdf
+      sha256: 1659c96709f7a962deda916ad25f1553bedf2a4454e448833871dd1ef7ca1f34
+      bytes: 110552
+      born_digital: false
+      inspection: 6 of 6 pages are scans
+      pages: 6
+    born_digital: false
+  sarma_1996_kollam_era:
+    kind: library
+    title: Kollam Era
+    author: K V Sarma
+    edition: Indian Journal of History of Science 31.1 (1996)
+    year: 1996
+    copyright: open-access
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'open-access file issued by its publisher (catalogue copyright: open-access)'
+    files:
+    - path: sarma_1996_kollam_era-ijhs-v31-kollam-era.pdf
+      sha256: fb193219b0de261c03be7876ed5020dc5e06d02a5ede4fbd9c2cbd23ae4ebf16
+      bytes: 97003
+      born_digital: false
+      inspection: 8 of 8 pages are scans
+      pages: 8
+    born_digital: false
+  sarma_narasimhan_1998_part1:
+    kind: library
+    title: 'Supplement: Tantrasamgraha of Nilakantha Somayaji'
+    author: K V Sarma and V S Narasimhan
+    edition: Indian Journal of History of Science 33.1 (1998)
+    year: 1998
+    copyright: open-access
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'open-access file issued by its publisher (catalogue copyright: open-access)'
+    files:
+    - path: sarma_narasimhan_1998_part1-ijhs-v33-supplement-tantrasamgraha-of-nilakantha-somayaji-3.pdf
+      sha256: 583a673c1c38c860a00cf0175f958e510dfea562d951599be53934387e572d7e
+      bytes: 608391
+      born_digital: false
+      inspection: 48 of 48 pages are scans
+      pages: 48
+    born_digital: false
+  sarma_narasimhan_1998_part2:
+    kind: library
+    title: 'Supplement: Tantrasamgraha of Nilakantha Somayaji'
+    author: K V Sarma and V S Narasimhan
+    edition: Indian Journal of History of Science 33.2 (1998)
+    year: 1998
+    copyright: open-access
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'open-access file issued by its publisher (catalogue copyright: open-access)'
+    files:
+    - path: sarma_narasimhan_1998_part2-ijhs-v33-supplement-tantrasamgraha-of-nilakantha-somayaji-2.pdf
+      sha256: a754fd2cbd744de7ef5ea17d61a786b4f633cfcde9b3eac2d1e33fbe571461c7
+      bytes: 625732
+      born_digital: false
+      inspection: 44 of 44 pages are scans
+      pages: 44
+    born_digital: false
+  sarma_narasimhan_1998_part3:
+    kind: library
+    title: 'Supplement: Tantrasamgraha of Nilakantha Somayaji'
+    author: K V Sarma and V S Narasimhan
+    edition: Indian Journal of History of Science 33.3 (1998)
+    year: 1998
+    copyright: open-access
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'open-access file issued by its publisher (catalogue copyright: open-access)'
+    files:
+    - path: sarma_narasimhan_1998_part3-ijhs-v33-supplement-tantrasamgraha-of-nilakantha-somayaji.pdf
+      sha256: 7cb84320d939fe18f07e18fed585a67fa081c87814be2aaa00ad269445d461c6
+      bytes: 808824
+      born_digital: false
+      inspection: 58 of 58 pages are scans
+      pages: 58
+    born_digital: false
+  pai_2010:
+    kind: library
+    title: 'Supplement: A Commentary of Tantrasangraha in Keralabhasa: Kriyakalapa— Eng. Tr. with Notes'
+    author: Venketswara Pai R‚ K Mahesh and K Ramasubramanian
+    edition: Indian Journal of History of Science 45.2 (2010)
+    year: 2010
+    copyright: open-access
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'open-access file issued by its publisher (catalogue copyright: open-access)'
+    files:
+    - path: pai_2010-ijhs-v45-supplement-a-commentary-of-tantrasangraha-in.pdf
+      sha256: 7c84f7e1cc5c85730092d2f05c5ad50a4c5788501c861a2f569e54408e73368c
+      bytes: 46564
+      born_digital: true
+      inspection: 4 of 4 pages are vector (producer 'Acrobat Distiller 6.0 (Windows)')
+      pages: 4
+    born_digital: true
+  pai_2015:
+    kind: library
+    title: Rationale for Vakyas Pertaining to the Sun in Karanapaddhati
+    author: Venketeswara Pai R
+    edition: Indian Journal of History of Science 50.2 (2015)
+    year: 2015
+    copyright: open-access
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'open-access file issued by its publisher (catalogue copyright: open-access)'
+    files:
+    - path: pai_2015-ijhs-v50-rationale-for-vakyas-pertaining-to-the.pdf
+      sha256: 272dd66b6add4e0a7cd721183aec498830da0f881edec26903f86528577043e7
+      bytes: 853858
+      born_digital: true
+      inspection: 14 of 14 pages are vector (producer 'Acrobat Distiller 6.0 (Windows)')
+      pages: 14
+    born_digital: true
+  hayashi_2015:
+    kind: library
+    title: Nilakanthas Value of R-Sine for the Arc of Twenty-four Degrees
+    author: Takao Hayashi
+    edition: Indian Journal of History of Science 50.4 (2015)
+    year: 2015
+    copyright: open-access
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'open-access file issued by its publisher (catalogue copyright: open-access)'
+    files:
+    - path: hayashi_2015-ijhs-v50-nilakanthas-value-of-r-sine-for.pdf
+      sha256: 5e507b0cf56995177afe29946b1e88e87a37a43ddb550047552228ed4732f511
+      bytes: 953857
+      born_digital: true
+      inspection: 14 of 14 pages are vector (producer 'Acrobat Distiller 6.0 (Windows)')
+      pages: 14
+    born_digital: true
+  kolachana_2018:
+    kind: library
+    title: Determination of Ascensional Difference in the Lagnaprakarana
+    author: Aditya Kolachana et al.
+    edition: Indian Journal of History of Science 53.3 (2018), pp. 302-316
+    year: 2018
+    copyright: open-access
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'open-access file issued by its publisher (catalogue copyright: open-access); registered as context only, a source of no value'
+    files:
+    - path: kolachana_2018-ijhs-v53-determination-of-ascensional-difference-in-the.pdf
+      sha256: fb267e1872ded2658713b206f2b30bb8d2cf5baa6d871512ed115d94c999a362
+      bytes: 196193
+      born_digital: true
+      inspection: 15 of 15 pages are vector (producer 'XeTeX 0.99999')
+      pages: 15
+    born_digital: true
+  roy_2019:
+    kind: library
+    title: Sidereal Ecliptic Coordinate System of Sūryasiddhānta
+    author: Raja Ram Mohan Roy
+    edition: Indian Journal of History of Science 54.3 (2019)
+    year: 2019
+    copyright: open-access
+    held: true
+    verified_basis: durable
+    verified_basis_note: 'open-access file issued by its publisher (catalogue copyright: open-access)'
+    files:
+    - path: roy_2019-ijhs-v54-sidereal-ecliptic-coordinate-system-of-suryasiddhanta.pdf
+      sha256: 9e27d1384e5a59c07dff4f796f58260bf4d276bb8ee5d9ab2a8875aacf8d301d
+      bytes: 339713
+      born_digital: true
+      inspection: 18 of 18 pages are vector (producer 'xdvipdfmx (20190503)')
+      pages: 18
+    born_digital: true
+  jpl_kernels:
+    kind: online
+    title: JPL planetary and lunar ephemeris kernels (DE440; DE441 is jpl_de441)
+    url: https://ssd.jpl.nasa.gov/ftp/eph/planets/bsp/de440.bsp
+    fetched: 2026-10-09
+    sha256: a4ce9bf9b3282becc9f4b2ac3cebe03a2ae7599981aabd7265fd8482fff7c4b5
+    query: de440.bsp, 119 799 808 bytes (the host's Content-Length); fetched twice from the JPL host with the same SHA-256; its size, hash and span recorded in jyotirganita/data/tables/kernels.yaml by tools/fetch_kernel.py --record. DE441 is jpl_de441.
+    fetched_by: claude-opus-5-5/2026-10-09-r1
+  iers_eop:
+    kind: online
+    title: IERS Earth orientation series (UT1−UTC, ΔT)
+    url: https://hpiers.obspm.fr/iers/eop/eopc04/eopc04.1962-now
+    fetched: 2026-10-09
+    sha256: 9fb4ac0567b4260662a72aef597f754f2c575f75d70d50ff753e669b57791f46
+    query: IERS EOP 20 C04 daily series (product centre at the Paris Observatory; datacenter.iers.org and ftp.iers.org were not reachable at the fetch), last row 2026-09-08 (the cut-off); UT1−UTC per day from 1972-01-01 extracted by tools/extract_iers.py to jyotirganita/data/tables/iers_eop_c04.yaml
+    fetched_by: claude-opus-5-5/2026-10-09-r1
+    more_files:
+    - url: https://hpiers.obspm.fr/iers/bul/bulc/Leap_Second.dat
+      fetched: 2026-10-09
+      sha256: 6cb6f5d4b819f2e568e25db4b0b26d89dedf031fdffb18bc94d40f4e94e268d7
+      query: TAI−UTC from 1972-01-01 (updated through IERS Bulletin C 72, July 2026; file expires 2027-06-28), extracted by tools/extract_iers.py to jyotirganita/data/tables/leap_seconds.yaml
+  hipparcos:
+    kind: online
+    title: Hipparcos catalogue extract (the stars the ayanāṃśas name)
+    url: https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=I/239/hip_main&HIP=65474&-out.all
+    fetched: 2026-10-09
+    sha256: 4805f08ab14579c32ea4924ce8d374931f9ed27202182b62766dfac8f1182ed1
+    query: 'VizieR I/239/hip_main (The Hipparcos and Tycho Catalogues, ESA 1997; one catalogue, one epoch J1991.25, ICRS), the row HIP 65474 (Spica), every column; the response carries its request date, so its hash is this fetch''s; extracted by tools/extract_hipparcos.py to jyotirganita/data/tables/hipparcos.yaml. I/311 (the 2007 re-reduction) was fetched first and not used: its ReadMe does not state whether pmRA includes cos(delta), I/239''s does'
+    fetched_by: claude-opus-5-5/2026-10-09-r1
+    more_files:
+    - url: https://cdsarc.cds.unistra.fr/ftp/I/239/ReadMe
+      fetched: 2026-10-09
+      sha256: 7a7d54903d16460a76c240f07c41b019d57becfd27b5dfa2908e828f52f90c27
+      query: 'the catalogue''s ReadMe: the byte-by-byte description of hip_main (the columns'' units, epoch, frame and the definition of pmRA as mu_alpha.cos(delta)); its lines 121–131 copied into the extract'
+  stephenson_2016_supplement:
+    kind: online
+    title: Stephenson, Morrison & Hohenkerk 2016, supplementary data (stephenson_2016)
+    url: https://ndownloader.figshare.com/files/6998699
+    fetched: 2026-10-09
+    sha256: ae44da13701d36e4e449991c59391af5b0ab60d5068cc70f99ab6d24816fb860
+    query: figshare article 4290866 (collection 10.6084/m9.figshare.c.3590336.v1), rspa20160404_si_002.zip; its member Table-S15.txt (sha256 b972e922…, "The Polynomial Coefficients for DT −720.0 to 2016.0", 54 rows) extracted by tools/extract_smh2016.py to jyotirganita/data/tables/deltat_smh2016.yaml
+    fetched_by: claude-opus-5-5/2026-10-09-r1
+    more_files:
+    - url: https://ndownloader.figshare.com/files/6998702
+      fetched: 2026-10-09
+      sha256: 81c91834caf8fc688921696710d0fa34a30afe0cc688b88d4a13371cb5b85f64
+      query: 'figshare article 4290869, rspa20160404_si_001.pdf, the supplement''s text: section S5 (its p. 9) states how table S15 is evaluated (S5.1–S5.3)'
+  iau2006_precession:
+    kind: online
+    title: IAU 2006 precession coefficients, published tables
+    url: https://iers-conventions.obspm.fr/content/chapter5/icc5.pdf
+    fetched: 2026-10-09
+    sha256: 9ec6fac43f7037ff43896539d759333fc7e6007176cd72043b38d71cfd3e69c0
+    query: 'IERS Conventions (2010), IERS TN36, chapter 5 (version of 2011/07/13 on its pages): the Earth rotation angle (5.15), GMST (5.32), the precession quantities (5.39)–(5.40) and the Delaunay arguments (5.43), extracted from the PDF''s text layer by tools/extract_tn36.py to jyotirganita/data/tables/precession_iau2006.yaml'
+    fetched_by: claude-opus-5-5/2026-10-09-r1
+  iau2000a_nutation:
+    kind: online
+    title: IAU 2000A nutation series (IERS Conventions 2010, tables 5.3a and 5.3b)
+    url: https://iers-conventions.obspm.fr/content/chapter5/additional_info/tab5.3a.txt
+    fetched: 2026-10-09
+    sha256: 6da73bfe10873ac815520d00fffd67114d647a34afebc5946cfc275e73693f32
+    query: 'IERS Conventions (2010), TN36 chapter 5 additional file tab5.3a.txt, nutation in longitude (the "IAU 2000_R06" expression: IAU 2000A with the IAU 2006 adjustments, as its heading states), 1320 + 38 terms; replaces the IAU 2000B record by the library author''s decision (2000B has no open published table); extracted by tools/extract_nutation2000a.py to jyotirganita/data/tables/nutation_iau2000a.yaml'
+    fetched_by: claude-opus-5-5/2026-10-09-r1
+    more_files:
+    - url: https://iers-conventions.obspm.fr/content/chapter5/additional_info/tab5.3b.txt
+      fetched: 2026-10-09
+      sha256: f0dff02c78809b629cc64e2a9fbeffaea5ae20f67e1a62a0ed966f8624807557
+      query: tab5.3b.txt, nutation in obliquity (IAU 2000_R06), 1037 + 19 terms; extracted with tab5.3a.txt
+  espenak_meeus_2006:
+    kind: online
+    title: Espenak & Meeus 2006 ΔT polynomials, NASA publication
+    url: https://eclipse.gsfc.nasa.gov/SEcat5/deltatpoly.html
+    fetched: 2026-10-09
+    sha256: 415c0c6f36600c296db386b99f476a36dafa6eb06483e281b30338ade793cc27
+    query: 'Espenak and Meeus, "Polynomial Expressions for Delta T", Five Millennium Canon of Solar Eclipses (page dated 2007 Oct 03): the decimal-year definition, the fourteen polynomial segments with their year ranges, and the stated lunar secular acceleration with its correction; extracted by tools/extract_em2006.py to jyotirganita/data/tables/deltat_em2006.yaml'
+    fetched_by: claude-opus-5-5/2026-10-09-r1
+  iana_tzdata:
+    kind: online
+    title: IANA time zone database, release 2025b (tzdata2025b.tar.gz)
+    url: https://data.iana.org/time-zones/releases/tzdata2025b.tar.gz
+    fetched: 2026-10-08
+    sha256: 11810413345fc7805017e27ea9fa4885fd74cd61b2911711ad038f5d28d71474
+    query: 'member asia (sha256 9a8b7e64…): the zone Asia/Kolkata, lines 1309–1316, and its comment on the sources for 1870–1945; extracted to jyotirganita/data/tables/tzdata_asia_kolkata.yaml'
+    fetched_by: claude-opus-5-5/2026-10-08-r14

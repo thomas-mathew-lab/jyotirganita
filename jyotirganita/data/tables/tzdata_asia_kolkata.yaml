@@ -1,0 +1,12 @@
+# A fetched table: not a page read.
+table: tzdata_asia_kolkata
+source: iana_tzdata
+release: 2025b
+archive: tzdata2025b.tar.gz
+archive_sha256: 11810413345fc7805017e27ea9fa4885fd74cd61b2911711ad038f5d28d71474
+member: asia
+member_sha256: 9a8b7e640cb0692b9e50b9126f599bf89360a2f9ed9e54b722f3e5b6f631b419
+first_line: 1309
+lines: ["Zone\tAsia/Kolkata\t5:53:28 -\tLMT\t1854 Jun 28 # Kolkata", "\t\t\t5:53:20\t-\tHMT\t1870\t    # Howrah Mean Time?", "\t\t\t5:21:10\t-\tMMT\t1906 Jan  1 # Madras local time", "\t\t\t5:30\t-\tIST\t1941 Oct", "\t\t\t5:30\t1:00\t%z\t1942 May 15", "\t\t\t5:30\t-\tIST\t1942 Sep", "\t\t\t5:30\t1:00\t%z\t1945 Oct 15", "\t\t\t5:30\t-\tIST"]
+extracted_by: claude-opus-5-5/2026-10-08-r14
+notes: The zone Asia/Kolkata as the release prints it (lines 1309–1316 of its member asia, tabs kept). The time-standard records read their offsets and dates of force from these lines (jyotirganita/data/time_standards.py). Line 1 is the zone's first line; the records cite lines 3–8.

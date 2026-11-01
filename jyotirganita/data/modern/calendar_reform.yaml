@@ -1,0 +1,60 @@
+- key: modern.observer_frame.calendar_reform_committee_1955
+  value: The geocentric apparent longitude of the Sun measured from the true vernal equinoctial point. It is given for 5−30 A. M. I. S. T., which is the same as 0^h Greenwich mean mid-night or 0^h U. T
+  form: text
+  unit: statement
+  script: latin
+  source: calendar_reform_committee_1955
+  file: calendar_reform_committee_1955-calendar-reform-committee-1955.pdf
+  edition_page: 40
+  pdf_page: 52
+  locus: 'EXPLANATION, I. Calendar for five years, item (4), whole: from ''The geocentric apparent longitude'' to ''0^h U. T'' (the item number not keyed). Latin text keyed as printed (spelling, case; italics not marked); spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; a formula in plain characters (superscripts as ^n, subscripts as _x, Greek letters as Unicode); the value ends before the closing full stop.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 300
+    clip: [225, 575, 300, 812]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: one tile of this clip at the scan's native 300 ppi; the page is printed sideways (landscape) and the tile was rotated 90° clockwise for reading
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: '''A. M.'' printed in small capitals; the hyphen in ''5-30'' (a time) keyed as U+2212 by the convention for a dash between numbers; the closing point after ''U. T'' not keyed, as time_standards.ist.definition.calendar_reform_committee_1955 keys the same item''s end; re-expressed from the first read, not re-read. The item''s second sentence is also time_standards.ist.definition.calendar_reform_committee_1955'
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 300
+    clip: [225, 575, 300, 812]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- key: modern.ayanamsa.citra_180.calendar_reform_committee_1955_statement
+  value: Initial point to be 180° from the star Spica
+  form: text
+  unit: statement
+  script: latin
+  source: calendar_reform_committee_1955
+  file: calendar_reform_committee_1955-calendar-reform-committee-1955.pdf
+  edition_page: unnumbered (Annexure VII, first page)
+  pdf_page: 44
+  locus: 'Annexure VII (Summary of suggestions for Indian Calendar Reform received from different persons and institutions), item 5 (Shri Radhagovinda Chandra, letter dated 3. 4. 53), suggestion (ii): from ''Initial point'' to ''the star Spica'' (the item number not keyed). Latin text keyed as printed (spelling, case; italics not marked); spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; a formula in plain characters (superscripts as ^n, subscripts as _x, Greek letters as Unicode); the value ends before the closing full stop.'
+  read:
+  - by: claude-opus-5-5/2026-10-09-r1
+    on: 2026-10-09
+    dpi: 300
+    clip: [330, 150, 600, 195]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: one tile of this clip at the scan's native 300 ppi
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: A suggestion received by the Committee, not its own recommendation. The same page prints the point 180° from Spica in two more suggestions (item 1 (v); item 6, letters of 6. 4. 53 (ii) and 2. 4. 54 (iii)), not keyed. No reduction (equinox, aberration) is stated.
+  second_read:
+  - by: claude-opus-5-5/2026-10-09-r2
+    on: 2026-10-09
+    dpi: 300
+    clip: [330, 150, 600, 195]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''

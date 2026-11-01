@@ -1,0 +1,410 @@
+id: authority/aryabhatiya/aryabhatiya_1976_gitika5_days_before_kali
+methods: [aryabhatiya]
+class: editor_computed
+source: aryabhatiya_1976
+file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+edition_page: 8
+pdf_page: 82
+locus: the editors' introductory note to the Gītikā section, p. 8 (PDF 82), on the beginning of the Kalpa and the Earth's rotation, and their note on Gītikā 5, p. 9 (PDF 83)
+rounding: 'none: whole years and days; the sidereal rotation printed to a tenth of a second'
+precision: years and days exact, as printed; the rotation to 0.1 s, as printed
+datum_keys: [texts.aryabhatiya.kalpa.manus, texts.aryabhatiya.kalpa.yugas_per_manu, texts.aryabhatiya.kali.manus_elapsed, texts.aryabhatiya.kali.yugas_elapsed, texts.aryabhatiya.kali.quarter_yugas_elapsed, texts.aryabhatiya.civil_days.rule, texts.aryabhatiya.earth.rotations]
+notes: 'The editors'' arithmetic (editor_computed): the years and civil days from the Kalpa''s beginning to the beginning of the current yuga and of Kali (p. 8, the same figures again on p. 9 for Kali), and the length of a sidereal rotation of the Earth (p. 8). The figures follow from the Gītikā 5 counts and Gītikā 3''s civil days and rotations of a yuga of 43,20,000 years (the reader''s observation). The modern rotation value the editors print beside it (23h 56m 4s·091, from W. M. Smart) is not keyed.'
+values:
+- name: output.kalpa_start.weekday
+  role: output
+  value: Thursday
+  form: text
+  unit: statement
+  script: latin
+  edition_page: 8
+  pdf_page: 82
+  locus: the editors' introductory note to the Gītikā section, p. 8 (PDF 82), the sentence 'The current Kalpa, according to Āryabhaṭa I, started on … … years or … days before the beginning of the current yuga; and … years or … days before the beginning of the current Kaliyuga.', the week-day. Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 82)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.to_yuga.years
+  role: output
+  value: 1982880000
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 8
+  pdf_page: 82
+  locus: the editors' introductory note to the Gītikā section, p. 8 (PDF 82), the sentence 'The current Kalpa, according to Āryabhaṭa I, started on … … years or … days before the beginning of the current yuga ; and … years or … days before the beginning of the current Kaliyuga.', the first years figure, '… years'. Indian comma grouping keyed as the integer.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 82)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 1200
+    clip: [152.5, 55, 265, 90]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.to_yuga.days
+  role: output
+  value: 724264132500
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 8
+  pdf_page: 82
+  locus: the editors' introductory note to the Gītikā section, p. 8 (PDF 82), the sentence 'The current Kalpa, according to Āryabhaṭa I, started on … … years or … days before the beginning of the current yuga ; and … years or … days before the beginning of the current Kaliyuga.', the first days figure, '… days'. Indian comma grouping keyed as the integer.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 82)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 1200
+    clip: [40, 55, 152.5, 90]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.to_kali.years
+  role: output
+  value: 1986120000
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 8
+  pdf_page: 82
+  locus: the editors' introductory note to the Gītikā section, p. 8 (PDF 82), the sentence 'The current Kalpa, according to Āryabhaṭa I, started on … … years or … days before the beginning of the current yuga ; and … years or … days before the beginning of the current Kaliyuga.', the second years figure, '… years'. Indian comma grouping keyed as the integer.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 82)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 1200
+    clip: [40, 55, 152.5, 90]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.to_kali.days
+  role: output
+  value: 725447570625
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 8
+  pdf_page: 82
+  locus: the editors' introductory note to the Gītikā section, p. 8 (PDF 82), the sentence 'The current Kalpa, according to Āryabhaṭa I, started on … … years or … days before the beginning of the current yuga ; and … years or … days before the beginning of the current Kaliyuga.', the second days figure, '… days'. Indian comma grouping keyed as the integer.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 82)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 1200
+    clip: [152.5, 55, 265, 90]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.yuga_years
+  role: input
+  value: 4320000
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 8
+  pdf_page: 82
+  locus: the editors' introductory note, p. 8 (PDF 82), 'the number of rotations that the Earth performs in a period of … years.' Indian comma grouping keyed as the integer.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 82)
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 82)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sidereal_rotation.hours
+  role: output
+  value: 23
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 8
+  pdf_page: 82
+  locus: 'the editors'' introductory note, p. 8 (PDF 82), ''The period of one sidereal rotation of the Earth according of Āryabhaṭa I is 23h 56m 4s·….'': the hours (superscript h).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 82)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 1200
+    clip: [40, 160, 152.5, 195]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sidereal_rotation.minutes
+  role: output
+  value: 56
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 8
+  pdf_page: 82
+  locus: 'the same sentence: the minutes (superscript m).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 82)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 1200
+    clip: [40, 160, 152.5, 195]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sidereal_rotation.seconds
+  role: output
+  value: '4.1'
+  form: fraction
+  unit: none
+  script: latin
+  edition_page: 8
+  pdf_page: 82
+  locus: 'the same sentence: the seconds, printed ''4s·…'' (superscript s and a raised point), keyed as the decimal ''…''.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 82)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 1200
+    clip: [40, 160, 152.5, 195]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: check.kalpa.yugas
+  role: output
+  value: 1008
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 9
+  pdf_page: 83
+  locus: the editors' note on Gītikā 5, p. 9 (PDF 83), 'Thus we have … Kalpa=… Manus and … Manu=… yugas, so that … Kalpa=… yugas or … years. Likewise, the time elapsed since the beginning of the current Kalpa up to the beginning of the current Kaliyuga …', '… Kalpa=… yugas'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 83)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 1200
+    clip: [120, 195, 235, 213]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: check.kalpa.years
+  role: output
+  value: 4354560000
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 9
+  pdf_page: 83
+  locus: the editors' note on Gītikā 5, p. 9 (PDF 83), 'Thus we have … Kalpa=… Manus and … Manu=… yugas, so that … Kalpa=… yugas or … years. Likewise, the time elapsed since the beginning of the current Kalpa up to the beginning of the current Kaliyuga …', 'or … years'. Indian comma grouping keyed as the integer.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 83)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 1200
+    clip: [120, 195, 235, 213]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: check.to_kali.manu_yugas
+  role: output
+  value: 432
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 9
+  pdf_page: 83
+  locus: 'the editors'' note on Gītikā 5, p. 9 (PDF 83), ''Thus we have … Kalpa=… Manus and … Manu=… yugas, so that … Kalpa=… yugas or … years. Likewise, the time elapsed since the beginning of the current Kalpa up to the beginning of the current Kaliyuga …'', the third line of the working, ''=(…+…)×… years'': the first term.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 83)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 1200
+    clip: [110, 250, 175, 282]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: check.to_kali.yuga_years
+  role: input
+  value: 4320000
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 9
+  pdf_page: 83
+  locus: 'the editors'' note on Gītikā 5, p. 9 (PDF 83), ''Thus we have … Kalpa=… Manus and … Manu=… yugas, so that … Kalpa=… yugas or … years. Likewise, the time elapsed since the beginning of the current Kalpa up to the beginning of the current Kaliyuga …'', the same line: the multiplier ''…''.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 83)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: check.to_kali.years
+  role: output
+  value: 1986120000
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 9
+  pdf_page: 83
+  locus: 'the editors'' note on Gītikā 5, p. 9 (PDF 83), ''Thus we have … Kalpa=… Manus and … Manu=… yugas, so that … Kalpa=… yugas or … years. Likewise, the time elapsed since the beginning of the current Kalpa up to the beginning of the current Kaliyuga …'', the last line, ''=… years or … days.'': the years.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 83)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 1200
+    clip: [110, 250, 175, 282]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: check.to_kali.days
+  role: output
+  value: 725447570625
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 9
+  pdf_page: 83
+  locus: 'the editors'' note on Gītikā 5, p. 9 (PDF 83), ''Thus we have … Kalpa=… Manus and … Manu=… yugas, so that … Kalpa=… yugas or … years. Likewise, the time elapsed since the beginning of the current Kalpa up to the beginning of the current Kaliyuga …'', the same line: the days.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8 (aryabhatiya_1976 vol. 1 PDF 83)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 1200
+    clip: [175, 250, 240, 282]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

@@ -1,0 +1,565 @@
+id: authority/suryasiddhanta/ranganatha_elapsed_to_krta_end
+methods: [suryasiddhanta]
+class: text_computed
+source: suryasiddhanta_hall_1859
+edition_page: 34
+pdf_page: 46
+locus: 'from ''yatha divyabdasya sauravarsani'' (PDF 46 l. 1) to the digit group before ''||47||'' (l. 10): the end of the commentary on i.47'
+rounding: none; integer years throughout
+precision: integers (years; the creation interval also in divine years)
+datum_keys: [texts.suryasiddhanta.procedures.epoch.any_yuga]
+notes: 'A chain of products and sums: a divine year of 360 years times 12000 gives the mahayuga; times 71 a Manu; times 6 six Manus; plus seven twilights; plus 27 mahayugas; plus a Krta: years of the kalpa elapsed; less the creation interval (47400 divine years times 360): years elapsed (from creation) to the end of the Krta. Multipliers stated in words are keyed as numeral_word. Errata: p. 34 l. 9 gatabda -> srstigatabda (label only).'
+values:
+- name: input.divine_year_solar_years
+  role: input
+  value: 360
+  form: integer
+  unit: years_per_divine_year
+  script: devanagari
+  edition_page: 34
+  pdf_page: 46
+  locus: PDF 46 l. 1, digit group after 'yatha divyabdasya sauravarsani'; Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 900
+    clip: [290, 86, 350, 106]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_elapsed_to_krta_end.yaml (sha256 a03286c8)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 900
+    clip: [290, 86, 350, 106]
+    delivered_ppi: 300
+    note: ''
+- name: input.divine_years_multiplier_word
+  role: input
+  value: 12000
+  form: numeral_word
+  value_form: integer
+  word:
+    text: द्वादशसहस्र
+    script: devanagari
+    system: bhutasankhya
+    decode: 12000
+  unit: none
+  script: devanagari
+  edition_page: 34
+  pdf_page: 46
+  locus: 'PDF 46 l. 2, 1st word (a compound ending in गुणितानि): numeral members only; the member गुणित not keyed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 450
+    clip: [38, 101.5, 348, 125.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: line tile of clip [38,82,348,292] 1x10 --overlap 3 at 450 dpi; upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_elapsed_to_krta_end.yaml (sha256 a03286c8)
+  status: double_read
+  notes: the 360 multiplied by twelve thousand
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 450
+    clip: [38, 101.5, 348, 125.5]
+    delivered_ppi: 300
+    note: value = the word's decode (the frozen file carries the word only)
+- name: output.mahayuga
+  role: output
+  value: 4320000
+  form: integer
+  unit: years
+  script: devanagari
+  edition_page: 34
+  pdf_page: 46
+  locus: PDF 46 l. 2, digit group after 'mahayugam'; Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 900
+    clip: [195, 106, 275, 126]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_elapsed_to_krta_end.yaml (sha256 a03286c8)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 900
+    clip: [195, 106, 275, 126]
+    delivered_ppi: 300
+    note: ''
+- name: input.manu_multiplier_word
+  role: input
+  value: 71
+  form: numeral_word
+  value_form: integer
+  word:
+    text: एकसप्तति
+    script: devanagari
+    system: bhutasankhya
+    decode: 71
+  unit: none
+  script: devanagari
+  edition_page: 34
+  pdf_page: 46
+  locus: PDF 46 l. 2-3, last word of l. 2 to 1st word of l. 3 (a compound ending in गुणम्, split at the line end), line-end hyphen joined; numeral member only, the member गुण not keyed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 450
+    clip: [38, 101.5, 348, 146.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: line tile of clip [38,82,348,292] 1x10 --overlap 3 at 450 dpi; upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_elapsed_to_krta_end.yaml (sha256 a03286c8)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 450
+    clip: [38, 101.5, 348, 146.5]
+    delivered_ppi: 300
+    note: value = the word's decode (the frozen file carries the word only)
+- name: output.manu
+  role: output
+  value: 306720000
+  form: integer
+  unit: years
+  script: devanagari
+  edition_page: 34
+  pdf_page: 46
+  locus: PDF 46 l. 3, digit group after 'manumanam'; Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 900
+    clip: [125, 126, 215, 146]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_elapsed_to_krta_end.yaml (sha256 a03286c8)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 900
+    clip: [125, 126, 215, 146]
+    delivered_ppi: 300
+    note: ''
+- name: input.manus_multiplier_word
+  role: input
+  value: 6
+  form: numeral_word
+  value_form: integer
+  word:
+    text: षट्
+    script: devanagari
+    system: bhutasankhya
+    decode: 6
+  unit: none
+  script: devanagari
+  edition_page: 34
+  pdf_page: 46
+  locus: 'PDF 46 l. 3, the compound ending in गुणितम्: numeral member in its pausal form; the member गुणित not keyed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 450
+    clip: [38, 122.5, 348, 146.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: line tile of clip [38,82,348,292] 1x10 --overlap 3 at 450 dpi; upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_elapsed_to_krta_end.yaml (sha256 a03286c8)
+  status: double_read
+  notes: followed by 'sanmanumanam' (the measure of six Manus; not keyed separately)
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 450
+    clip: [38, 122.5, 348, 146.5]
+    delivered_ppi: 300
+    note: value = the word's decode (the frozen file carries the word only)
+- name: output.manus_total
+  role: output
+  value: 1840320000
+  form: integer
+  unit: years
+  script: devanagari
+  edition_page: 34
+  pdf_page: 46
+  locus: PDF 46 l. 4, 1st digit group (l. 4 begins with it); Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 900
+    clip: [38, 145, 140, 165]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_elapsed_to_krta_end.yaml (sha256 a03286c8)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 900
+    clip: [38, 145, 140, 165]
+    delivered_ppi: 300
+    note: ''
+- name: input.sandhis_word
+  role: input
+  value: 7
+  form: numeral_word
+  value_form: integer
+  word:
+    text: सप्त
+    script: devanagari
+    system: bhutasankhya
+    decode: 7
+  unit: none
+  script: devanagari
+  edition_page: 34
+  pdf_page: 46
+  locus: 'PDF 46 l. 4-5, the instrumental number word split across the end of l. 4 and the start of l. 5 (sandhi-joined to एभिः): the numeral stem; the case ending not keyed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 450
+    clip: [38, 143.5, 348, 188.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: line tile of clip [38,82,348,292] 1x10 --overlap 3 at 450 dpi; upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_elapsed_to_krta_end.yaml (sha256 a03286c8)
+  status: double_read
+  notes: the seven twilights (svasandhibhih krtayugapramanaih) of six Manus
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 450
+    clip: [38, 143.5, 348, 188.5]
+    delivered_ppi: 300
+    note: value = the word's decode (the frozen file carries the word only)
+- name: input.sandhis
+  role: input
+  value: 12096000
+  form: integer
+  unit: years
+  script: devanagari
+  edition_page: 34
+  pdf_page: 46
+  locus: PDF 46 l. 5, 1st digit group ('ebhih ...'); Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 900
+    clip: [70, 165, 157.5, 185]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_elapsed_to_krta_end.yaml (sha256 a03286c8)
+  status: double_read
+  notes: the third digit is printed small and raised (a superscript-looking zero), as other zeros on this page; keyed as 0
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 900
+    clip: [70, 165, 157.5, 185]
+    delivered_ppi: 300
+    note: ''
+- name: output.manus_with_sandhis
+  role: output
+  value: 1852416000
+  form: integer
+  unit: years
+  script: devanagari
+  edition_page: 34
+  pdf_page: 46
+  locus: PDF 46 l. 5, 2nd digit group ('yutam ...'); Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 900
+    clip: [157.5, 165, 245, 185]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_elapsed_to_krta_end.yaml (sha256 a03286c8)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 900
+    clip: [157.5, 165, 245, 185]
+    delivered_ppi: 300
+    note: ''
+- name: input.elapsed_yugas_word
+  role: input
+  value: 27
+  form: numeral_word
+  value_form: integer
+  word:
+    text: सप्तविंशति
+    script: devanagari
+    system: bhutasankhya
+    decode: 27
+  unit: none
+  script: devanagari
+  edition_page: 34
+  pdf_page: 46
+  locus: 'PDF 46 l. 5, the last word of l. 5 (a compound with युग, running onto l. 6): the numeral member; the member युग not keyed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 450
+    clip: [38, 164.5, 348, 188.5]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: line tile of clip [38,82,348,292] 1x10 --overlap 3 at 450 dpi; upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_elapsed_to_krta_end.yaml (sha256 a03286c8)
+  status: double_read
+  notes: twenty-seven mahayugas of the seventh Manu elapsed
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 450
+    clip: [38, 164.5, 348, 188.5]
+    delivered_ppi: 300
+    note: value = the word's decode (the frozen file carries the word only)
+- name: input.elapsed_yugas
+  role: input
+  value: 116640000
+  form: integer
+  unit: years
+  script: devanagari
+  edition_page: 34
+  pdf_page: 46
+  locus: PDF 46 l. 6, 1st digit group (l. 6 begins with it); Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 900
+    clip: [38, 190, 140, 212]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_elapsed_to_krta_end.yaml (sha256 a03286c8)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 900
+    clip: [38, 190, 140, 212]
+    delivered_ppi: 300
+    note: ''
+- name: output.with_elapsed_yugas
+  role: output
+  value: 1969056000
+  form: integer
+  unit: years
+  script: devanagari
+  edition_page: 34
+  pdf_page: 46
+  locus: PDF 46 l. 6, 2nd digit group ('sahitam ...'); Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 900
+    clip: [140, 190, 240, 212]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_elapsed_to_krta_end.yaml (sha256 a03286c8)
+  status: double_read
+  notes: the fifth digit is printed small and raised; keyed as 0
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 900
+    clip: [140, 190, 240, 212]
+    delivered_ppi: 300
+    note: ''
+- name: input.krta_years
+  role: input
+  value: 1728000
+  form: integer
+  unit: years
+  script: devanagari
+  edition_page: 34
+  pdf_page: 46
+  locus: PDF 46 l. 6, 3rd digit group ('krtayuga ...'); Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 900
+    clip: [270, 190, 350, 212]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_elapsed_to_krta_end.yaml (sha256 a03286c8)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 900
+    clip: [270, 190, 350, 212]
+    delivered_ppi: 300
+    note: ''
+- name: output.kalpa_elapsed
+  role: output
+  value: 1970784000
+  form: integer
+  unit: years
+  script: devanagari
+  edition_page: 34
+  pdf_page: 46
+  locus: PDF 46 l. 7, digit group after 'yuktam jatani kalpagatavarsani'; Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 1200
+    clip: [195, 212, 260, 234]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_elapsed_to_krta_end.yaml (sha256 a03286c8)
+  status: double_read
+  notes: the last digit is a zero with a short vertical stroke below it (a damaged type or an ink mark; tile [255,216,300,236] at 1800 dpi upsampled); read as 0, not as 1. Digits 1-6 read on clip [195,212,260,234] at 1200 dpi, the rest on [255,216,300,236] at 1800 dpi.
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 1200
+    clip: [195, 212, 300, 234]
+    delivered_ppi: 300
+    note: ''
+- name: input.creation_divine_years
+  role: input
+  value: 47400
+  form: integer
+  unit: divine_years
+  script: devanagari
+  edition_page: 34
+  pdf_page: 46
+  locus: PDF 46 l. 8, digit group after 'srstidivyabdaih' (l. 7 end 'srstidi-', l. 8 'vyabdaih'); Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 900
+    clip: [70, 236, 190, 258]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_elapsed_to_krta_end.yaml (sha256 a03286c8)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 900
+    clip: [70, 236, 190, 258]
+    delivered_ppi: 300
+    note: ''
+- name: input.creation_multiplier_word
+  role: input
+  value: 360
+  form: numeral_word
+  value_form: integer
+  word:
+    text: खषडग्नि
+    script: devanagari
+    system: bhutasankhya
+    decode: 360
+  unit: none
+  script: devanagari
+  edition_page: 34
+  pdf_page: 46
+  locus: 'PDF 46 l. 8, the compound ending in गुणितैः: its numeral members; the member गुणित not keyed; sandhi-form ḍ kept as printed inside the compound'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 900
+    clip: [70, 236, 190, 258]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: line tile of clip [38,82,348,292] 1x10 --overlap 3 at 450 dpi; upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_elapsed_to_krta_end.yaml (sha256 a03286c8)
+  status: read
+  notes: 'bhutasankhya: kha 0 (units), sat 6, agni 3 -> 360 (solar years per divine year)'
+  read_issue: disputed
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 900
+    clip: [70, 236, 190, 258]
+    delivered_ppi: 300
+    note: value = the word's decode (the frozen file carries the word only)
+  third_look:
+    issue: disputed
+    read:
+      by: claude-fable-5-1/2026-10-15-r1
+      on: 2026-10-15
+      dpi: 900
+      clip: [70, 236, 190, 258]
+      delivered_ppi: 300
+      max_edge: 2000
+      note: ''
+    matches: second_read
+  further_look:
+  - issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-15-r3
+      on: 2026-10-15
+      dpi: 900
+      clip: [70, 236, 190, 258]
+      delivered_ppi: 300
+      max_edge: 2000
+      note: ''
+    matches: read
+- name: input.creation_years
+  role: input
+  value: 17064000
+  form: integer
+  unit: years
+  script: devanagari
+  edition_page: 34
+  pdf_page: 46
+  locus: PDF 46 l. 8, 2nd digit group ('ebhih ...'), before 'hinam'; Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 900
+    clip: [220, 236, 350, 258]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_elapsed_to_krta_end.yaml (sha256 a03286c8)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 900
+    clip: [220, 236, 350, 258]
+    delivered_ppi: 300
+    note: ''
+- name: output.elapsed_to_krta_end
+  role: output
+  value: 1953720000
+  form: integer
+  unit: years
+  script: devanagari
+  edition_page: 34
+  pdf_page: 46
+  locus: PDF 46 l. 10, 1st digit group (l. 10 begins with it), before '||…||'; Devanagari digits transcribed
+  read:
+  - by: claude-opus-5-5/2026-10-11-r6
+    on: 2026-10-11
+    dpi: 900
+    clip: [38, 284, 140, 306]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: upsampled render (--upsample), adds size not detail; native 300; first-read fixture file k5/fixtures/ranganatha_elapsed_to_krta_end.yaml (sha256 a03286c8)
+  status: double_read
+  notes: 'labelled on l. 9 ''gatabda grahacaropajivyah krtayugante'' and identified with the verse''s ''khacatuska...'' (the verse''s first word quoted with ''ityadi'', a lemma, not keyed). Errata (suryasiddhanta_hall_1859 PDF 402): p. 34 l. 9 ''gatabda'' -> ''srstigatabda'' (the label of this result; touches no digit).'
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r4
+    on: 2026-10-11
+    dpi: 900
+    clip: [38, 284, 140, 306]
+    delivered_ppi: 300
+    note: ''

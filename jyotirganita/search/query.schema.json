@@ -1,0 +1,152 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "jyotirganita/search/query.schema.json",
+ "title": "An inverse-search query",
+ "description": "The shape only: names, indices, ranges and capabilities are checked against the reading profile, the regional names and the method by search/query.py, before any computation.",
+ "type": "object",
+ "required": ["reading_profile", "window", "constraints"],
+ "additionalProperties": false,
+ "properties": {
+  "reading_profile": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"},
+  "window": {
+   "type": "object",
+   "required": ["from", "to"],
+   "additionalProperties": false,
+   "properties": {"from": {"$ref": "#/$defs/date"}, "to": {"$ref": "#/$defs/date"}}
+  },
+  "constraints": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/constraint"}},
+  "near_miss": {
+   "type": "object",
+   "required": ["max_misses"],
+   "additionalProperties": false,
+   "properties": {"max_misses": {"type": "integer", "minimum": 1}}
+  }
+ },
+ "$defs": {
+  "ymd": {
+   "type": "object",
+   "required": ["y", "m", "d"],
+   "additionalProperties": false,
+   "properties": {"y": {"type": "integer"}, "m": {"type": "integer"}, "d": {"type": "integer"}}
+  },
+  "date": {
+   "description": "A calendar-tagged date, the JSON form of io/dates.py (parse_json_date)",
+   "oneOf": [
+    {"type": "object", "required": ["julian"], "additionalProperties": false, "properties": {"julian": {"$ref": "#/$defs/ymd"}}},
+    {"type": "object", "required": ["gregorian"], "additionalProperties": false, "properties": {"gregorian": {"$ref": "#/$defs/ymd"}}},
+    {"type": "object", "required": ["jdn"], "additionalProperties": false, "properties": {"jdn": {"type": "integer"}}}
+   ]
+  },
+  "name_or_index": {"oneOf": [{"type": "string", "minLength": 1}, {"type": "integer"}]},
+  "names": {
+   "oneOf": [
+    {"$ref": "#/$defs/name_or_index"},
+    {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/name_or_index"}}
+   ]
+  },
+  "tithi_one": {
+   "oneOf": [
+    {"type": "integer"},
+    {"type": "object", "required": ["paksha", "n"], "additionalProperties": false,
+     "properties": {"paksha": {"enum": ["sukla", "krishna"]}, "n": {"type": "integer"}}},
+    {"type": "object", "required": ["paksha", "name"], "additionalProperties": false,
+     "properties": {"paksha": {"enum": ["sukla", "krishna"]}, "name": {"type": "string", "minLength": 1}}}
+   ]
+  },
+  "tithis": {
+   "oneOf": [
+    {"$ref": "#/$defs/tithi_one"},
+    {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/tithi_one"}}
+   ]
+  },
+  "range": {
+   "type": "object",
+   "required": ["from", "to"],
+   "additionalProperties": false,
+   "properties": {"from": {"type": "integer"}, "to": {"type": "integer"}}
+  },
+  "integers": {
+   "oneOf": [
+    {"type": "integer"},
+    {"type": "array", "minItems": 1, "items": {"type": "integer"}},
+    {"$ref": "#/$defs/range"}
+   ]
+  },
+  "nadika": {
+   "description": "Nāḍikās after sunrise: an integer or an exact ratio \"num/den\"",
+   "oneOf": [{"type": "integer", "minimum": 0}, {"type": "string", "pattern": "^[0-9]+(/[1-9][0-9]*)?$"}]
+  },
+  "occurrence_element": {"enum": ["tithi", "nakshatra", "yoga", "karana"]},
+  "constraint": {
+   "type": "object",
+   "required": ["element"],
+   "properties": {
+    "element": {"enum": ["era_year", "era_day", "masa", "sun_rasi", "day_of_month", "sankranti_day",
+                         "ayana", "tithi", "nakshatra", "yoga", "karana", "weekday", "moon_rasi",
+                         "planet_rasi", "planet_nakshatra", "eclipse", "overlap", "at_time"]},
+    "mode": {"enum": ["require", "report"]}
+   },
+   "allOf": [
+    {"if": {"properties": {"element": {"const": "era_year"}}},
+     "then": {"required": ["era", "value"], "additionalProperties": false,
+              "properties": {"element": true, "mode": true, "era": {"type": "string", "minLength": 1},
+                             "value": {"$ref": "#/$defs/integers"},
+                             "year_start": {"type": "string", "minLength": 1}}}},
+    {"if": {"properties": {"element": {"const": "era_day"}}},
+     "then": {"required": ["era", "value"], "additionalProperties": false,
+              "properties": {"element": true, "mode": true, "era": {"type": "string", "minLength": 1},
+                             "value": {"$ref": "#/$defs/integers"}}}},
+    {"if": {"properties": {"element": {"enum": ["masa", "sankranti_day"]}}},
+     "then": {"required": ["value"], "additionalProperties": false,
+              "properties": {"element": true, "mode": true, "value": {"$ref": "#/$defs/names"}}}},
+    {"if": {"properties": {"element": {"const": "day_of_month"}}},
+     "then": {"required": ["value"], "additionalProperties": false,
+              "properties": {"element": true, "mode": true, "value": {"$ref": "#/$defs/integers"}}}},
+    {"if": {"properties": {"element": {"const": "weekday"}}},
+     "then": {"required": ["value"], "additionalProperties": false,
+              "properties": {"element": true, "mode": true, "value": {"$ref": "#/$defs/names"}}}},
+    {"if": {"properties": {"element": {"const": "ayana"}}},
+     "then": {"required": ["value"], "additionalProperties": false,
+              "properties": {"element": true, "mode": true,
+                             "value": {"enum": ["uttarayana", "dakshinayana"]},
+                             "match": {"enum": ["at_sunrise", "any_time_in_day"]}}}},
+    {"if": {"properties": {"element": {"enum": ["sun_rasi", "moon_rasi"]}}},
+     "then": {"required": ["value"], "additionalProperties": false,
+              "properties": {"element": true, "mode": true, "value": {"$ref": "#/$defs/names"},
+                             "match": {"enum": ["at_sunrise", "any_time_in_day"]}}}},
+    {"if": {"properties": {"element": {"enum": ["planet_rasi", "planet_nakshatra"]}}},
+     "then": {"required": ["value", "body"], "additionalProperties": false,
+              "properties": {"element": true, "mode": true, "value": {"$ref": "#/$defs/names"},
+                             "body": {"enum": ["mercury", "venus", "mars", "jupiter", "saturn", "rahu", "ketu"]},
+                             "position": {"enum": [true, "mean"]},
+                             "retrograde": {"type": "boolean"},
+                             "match": {"enum": ["at_sunrise", "any_time_in_day"]}}}},
+    {"if": {"properties": {"element": {"const": "tithi"}}},
+     "then": {"required": ["value"], "additionalProperties": false,
+              "properties": {"element": true, "mode": true, "value": {"$ref": "#/$defs/tithis"},
+                             "match": {"enum": ["assigned", "any_occurrence", "at_time"]},
+                             "nadika": {"$ref": "#/$defs/nadika"}}}},
+    {"if": {"properties": {"element": {"enum": ["nakshatra", "yoga", "karana"]}}},
+     "then": {"required": ["value"], "additionalProperties": false,
+              "properties": {"element": true, "mode": true, "value": {"$ref": "#/$defs/names"},
+                             "match": {"enum": ["assigned", "any_occurrence", "at_time"]},
+                             "nadika": {"$ref": "#/$defs/nadika"}}}},
+    {"if": {"properties": {"element": {"const": "eclipse"}}},
+     "then": {"required": ["value"], "additionalProperties": false,
+              "properties": {"element": true, "mode": true,
+                             "value": {"enum": ["solar", "lunar", "any"]},
+                             "visible_at_observer": {"type": "boolean"}}}},
+    {"if": {"properties": {"element": {"const": "overlap"}}},
+     "then": {"required": ["of"], "additionalProperties": false,
+              "properties": {"element": true, "mode": true,
+                             "of": {"type": "array", "minItems": 2, "uniqueItems": true,
+                                    "items": {"$ref": "#/$defs/occurrence_element"}}}}},
+    {"if": {"properties": {"element": {"const": "at_time"}}},
+     "then": {"required": ["of", "nadika"], "additionalProperties": false,
+              "properties": {"element": true, "mode": true, "nadika": {"$ref": "#/$defs/nadika"},
+                             "of": {"type": "array", "minItems": 1, "uniqueItems": true,
+                                    "items": {"$ref": "#/$defs/occurrence_element"}}}}}
+   ]
+  }
+ }
+}

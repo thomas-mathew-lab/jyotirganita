@@ -1,0 +1,552 @@
+id: authority/suryasiddhanta/rao_jupiter_manda
+methods: [suryasiddhanta]
+class: editor_computed
+source: balachandra_rao_2000
+edition_page: 104
+pdf_page: 118
+locus: '§9.1 Examples (i) and (ii): from "Examples: (i) Find the mandocca of Guru as on …" to "Guru''s mandaphala ... = ..." and "Since Guru''s anomaly m is less than …°, the mandaphala is additive." (printed p. 104)'
+rounding: mandocca motion printed to whole minutes; anomaly to whole minutes and one decimal of a degree; periphery to 6 decimals of a degree and whole seconds; mandaphala to 5 decimals of a minute and whole seconds. Rounding or truncation not stated
+precision: minutes of arc (mandocca, anomaly); seconds (periphery, mandaphala)
+datum_keys: []
+notes: (i) Jupiter's mandocca at the date = epoch position (Table 9.2, as restated in the text) + kalpa revolutions × 360° × A / civil days in a kalpa. (ii) manda anomaly m = mandocca − mean longitude, corrected periphery p = p_e − (p_e − p_o)|sin m| (Rao's rule as on pp. 91-92), mandaphala = 3438' × (p/360°) × sin m with continuous sine (the sine value itself is not printed). Jupiter's mean longitude used in (ii) is stated in signs-degrees-minutes and its source is not shown on this page. The value of 32°6'35" is printed in an italic type unlike the rest (pasted correction look). Restatements (the mandocca in m, 62.9° inside the sine, 360°) are not keyed again.
+values:
+- name: input.date
+  role: input
+  value: March 22, 1991
+  form: text
+  unit: none
+  script: latin
+  edition_page: 104
+  pdf_page: 118
+  locus: Example (i), first sentence, the date after "as on"; Latin text
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_jupiter_manda.yaml (sha256 d556b159)
+  status: double_read
+  notes: (ii) restates the date with "at the preceding midnight"; calendar not stated
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.kali_ahargana
+  role: input
+  value: 1859872
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 104
+  pdf_page: 118
+  locus: Example (i), "A = ..."; Latin figure
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_jupiter_manda.yaml (sha256 d556b159)
+  status: double_read
+  notes: restated in the display
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.jupiter_apogee.kalpa_revolutions
+  role: input
+  value: 900
+  form: integer
+  unit: revolutions_per_kalpa
+  script: latin
+  edition_page: 104
+  pdf_page: 118
+  locus: paragraph "According to Table …, the number of revolutions of Guru's mandocca in a Kalpa is ..."; Latin figure
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_jupiter_manda.yaml (sha256 d556b159)
+  status: double_read
+  notes: restated in the display
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.jupiter_apogee.epoch_position
+  role: input
+  value: [5, 21]
+  form: rdms
+  unit: signs_degrees
+  script: latin
+  edition_page: 104
+  pdf_page: 118
+  locus: same paragraph, "its position at the beginning of the Kaliyuga is ..."; rdms [signs, deg, min] as printed (s = sign of …°), marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_jupiter_manda.yaml (sha256 d556b159)
+  status: double_read
+  notes: restated in the display
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.degrees_per_revolution
+  role: input
+  value: 360
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 104
+  pdf_page: 118
+  locus: Guru's mandocca display, first line, … factor in the bracket
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_jupiter_manda.yaml (sha256 d556b159)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.kalpa_civil_days
+  role: input
+  value: 1577917828000
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 104
+  pdf_page: 118
+  locus: Guru's mandocca display, first line, the divisor in the bracket, printed ungrouped; Latin figure
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_jupiter_manda.yaml (sha256 d556b159)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.jupiter_apogee.motion
+  role: output
+  value: [0, 23]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 104
+  pdf_page: 118
+  locus: Guru's mandocca display, second line, the added term [deg, min]; sexagesimal [deg, min, sec] as printed (as many parts as printed), marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_jupiter_manda.yaml (sha256 d556b159)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.jupiter_apogee.longitude
+  role: output
+  value: [5, 21, 23]
+  form: rdms
+  unit: signs_degrees_minutes
+  script: latin
+  edition_page: 104
+  pdf_page: 118
+  locus: Guru's mandocca display, second line, the result after the last "="; rdms [signs, deg, min] as printed (s = sign of …°), marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_jupiter_manda.yaml (sha256 d556b159)
+  status: double_read
+  notes: restated in the m display
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.jupiter.mean_longitude
+  role: input
+  value: [3, 18, 29]
+  form: rdms
+  unit: signs_degrees_minutes
+  script: latin
+  edition_page: 104
+  pdf_page: 118
+  locus: m display, second line, the subtracted term in parentheses; rdms [signs, deg, min] as printed (s = sign of …°), marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_jupiter_manda.yaml (sha256 d556b159)
+  status: double_read
+  notes: source not shown on this page
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.jupiter.anomaly_rdms
+  role: output
+  value: [2, 2, 54]
+  form: rdms
+  unit: signs_degrees_minutes
+  script: latin
+  edition_page: 104
+  pdf_page: 118
+  locus: m display, third line; rdms [signs, deg, min] as printed (s = sign of …°), marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_jupiter_manda.yaml (sha256 d556b159)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.jupiter.anomaly
+  role: output
+  value: [62, 54]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 104
+  pdf_page: 118
+  locus: m display, fourth line, before the … "=" [deg, min]; sexagesimal [deg, min, sec] as printed (as many parts as printed), marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_jupiter_manda.yaml (sha256 d556b159)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.jupiter.anomaly_deg
+  role: output
+  value: '62.9'
+  form: fraction
+  unit: degrees
+  script: latin
+  edition_page: 104
+  pdf_page: 118
+  locus: m display, fourth line, after the … "="; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_jupiter_manda.yaml (sha256 d556b159)
+  status: double_read
+  notes: restated inside the sines below
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.jupiter.periphery_even
+  role: input
+  value: 33
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 104
+  pdf_page: 118
+  locus: p display, second line, the first term (p_e); Latin figure
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_jupiter_manda.yaml (sha256 d556b159)
+  status: double_read
+  notes: restated in the parenthesis and on the third line
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.jupiter.periphery_odd
+  role: input
+  value: 32
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 104
+  pdf_page: 118
+  locus: p display, second line, the subtracted term inside the parenthesis (p_o)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_jupiter_manda.yaml (sha256 d556b159)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.jupiter.periphery_difference
+  role: output
+  value: 1
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 104
+  pdf_page: 118
+  locus: p display, third line, the factor before |sin|
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_jupiter_manda.yaml (sha256 d556b159)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.jupiter.periphery_deg
+  role: output
+  value: '32.109787'
+  form: fraction
+  unit: degrees
+  script: latin
+  edition_page: 104
+  pdf_page: 118
+  locus: p display, fourth line, before the … "="; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_jupiter_manda.yaml (sha256 d556b159)
+  status: double_read
+  notes: restated in the mandaphala display
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.jupiter.periphery
+  role: output
+  value: [32, 6, 35]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 104
+  pdf_page: 118
+  locus: p display, fourth line, after the … "=" (italic type; the degree mark overlaps the next digit); sexagesimal [deg, min, sec] as printed (as many parts as printed), marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 600
+    clip: [90, 395, 260, 420]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: --upsample render at 600 dpi of the clip (native 300 ppi; adds size, not detail); also seen on the half-page tile [0,345,468,690]; first-read fixture file k8/fixtures/rao_jupiter_manda.yaml (sha256 d556b159)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 600
+    clip: [90, 395, 260, 420]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.radius
+  role: input
+  value: 3438
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 104
+  pdf_page: 118
+  locus: Guru's mandaphala display, first line, the … factor; Latin figure
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_jupiter_manda.yaml (sha256 d556b159)
+  status: double_read
+  notes: restated in the second line
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.jupiter.mandaphala_min
+  role: output
+  value: '272.98239'
+  form: fraction
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 104
+  pdf_page: 118
+  locus: mandaphala display, third line; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_jupiter_manda.yaml (sha256 d556b159)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.jupiter.mandaphala
+  role: output
+  value: [4, 32, 59]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 104
+  pdf_page: 118
+  locus: mandaphala display, fourth line; sexagesimal [deg, min, sec] as printed (as many parts as printed), marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_jupiter_manda.yaml (sha256 d556b159)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''

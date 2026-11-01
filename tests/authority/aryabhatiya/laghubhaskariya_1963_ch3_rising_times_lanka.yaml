@@ -1,0 +1,481 @@
+id: authority/aryabhatiya/laghubhaskariya_1963_ch3_rising_times_lanka
+methods: [aryabhatiya]
+class: editor_computed
+source: laghubhaskariya_1963
+file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+edition_page: 44
+pdf_page: 117
+locus: Shukla's recomputation of III.5, p. 44 (PDF 117) from 'Now from MBh, iii. 9, we have' (formula (1)) through formulae (2) and (3) and 'Putting λ=…°, …° and …° successively in (3), we easily get α =… asus, … asus, and … asus approx. Hence the times of rising of Aries, Taurus and Gemini at the equator are' to p. 45 (PDF 118) '… asus, (…—…) asus, and (…—…) asus i.e., … asus, … asus, and … asus respectively.'
+rounding: '''approx.'' printed after the right ascensions; no rule stated'
+precision: whole asus, as printed ('approx.')
+datum_keys: [texts.aryabhatiya.procedures.rsine.rule, texts.aryabhatiya.trig.statement, texts.aryabhatiya.procedures.declination.rule.laghubhaskariya_1963, texts.aryabhatiya.procedures.day_radius_earthsine.laghubhaskariya_1963]
+notes: The citations 'MBh, iii. 9' and 'ii. 16', the equation numbers (1)–(3) and the squares in formula (3) are not keyed. The dash between the figures on p. 45 is a subtraction sign (printed as a long dash). 3141 is printed without a unit mark; 1397 carries a prime. the editor's multipliers are the table's Rsine of the text's obliquity and the day-radius at the solstice to the whole minute.
+values:
+- name: input.f1.multiplier
+  role: input
+  value: 3141
+  form: integer
+  unit: multiplier
+  script: latin
+  edition_page: 44
+  pdf_page: 117
+  locus: '''Now from MBh, iii. 9, we have'', formula (1) ''Rsin α = …×Rsinλ / Rcos δ asus'', the figure in the numerator.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 348
+    clip: [100, 318, 300, 460]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tight tile clip [100,318,300,460] 1x1 at native 348 (laghubhaskariya_1963 PDF 117); also tile r2c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 348
+    clip: [100, 318, 300, 460]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: ''
+- name: input.f2.rsin_greatest_declination
+  role: input
+  value: 1397
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 44
+  pdf_page: 117
+  locus: '''Also from ii. 16 above'', formula (2) ''Rsin δ = …′×Rsinλ / R'', the figure in the numerator.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 348
+    clip: [100, 318, 300, 460]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tight tile clip [100,318,300,460] 1x1 at native 348 (laghubhaskariya_1963 PDF 117); also tile r2c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 348
+    clip: [100, 318, 300, 460]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: ''
+- name: input.f3.multiplier
+  role: input
+  value: 3141
+  form: integer
+  unit: multiplier
+  script: latin
+  edition_page: 44
+  pdf_page: 117
+  locus: '''Therefore'', formula (3) ''Rsin α = …×Rsinλ / √[R²−{…′×Rsinλ/R}²]'', the figure in the numerator.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 348
+    clip: [100, 318, 300, 460]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tight tile clip [100,318,300,460] 1x1 at native 348 (laghubhaskariya_1963 PDF 117); also tile r2c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 348
+    clip: [100, 318, 300, 460]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: ''
+- name: input.f3.rsin_greatest_declination
+  role: input
+  value: 1397
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 44
+  pdf_page: 117
+  locus: formula (3), the figure inside the braces of the denominator '{…′×Rsinλ/R}'.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 348
+    clip: [100, 318, 300, 460]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tight tile clip [100,318,300,460] 1x1 at native 348 (laghubhaskariya_1963 PDF 117); also tile r2c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 348
+    clip: [100, 318, 300, 460]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: ''
+- name: input.aries.lambda
+  role: input
+  value: 30
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 44
+  pdf_page: 117
+  locus: '''Putting λ=…°, …° and …° successively in (3)'', the first figure.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 348
+    clip: [40, 455, 400, 500]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tight tile clip [40,455,400,500] 1x1 at native 348 (laghubhaskariya_1963 PDF 117); also tile r2c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 348
+    clip: [40, 455, 400, 500]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: ''
+- name: input.taurus.lambda
+  role: input
+  value: 60
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 44
+  pdf_page: 117
+  locus: '''Putting λ=…°, …° and …° successively in (3)'', the second figure.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 348
+    clip: [40, 455, 400, 500]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tight tile clip [40,455,400,500] 1x1 at native 348 (laghubhaskariya_1963 PDF 117); also tile r2c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 348
+    clip: [40, 455, 400, 500]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: ''
+- name: input.gemini.lambda
+  role: input
+  value: 90
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 44
+  pdf_page: 117
+  locus: '''Putting λ=…°, …° and …° successively in (3)'', the third figure.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 348
+    clip: [40, 455, 400, 500]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tight tile clip [40,455,400,500] 1x1 at native 348 (laghubhaskariya_1963 PDF 117); also tile r2c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 348
+    clip: [40, 455, 400, 500]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: ''
+- name: output.aries.alpha
+  role: output
+  value: 1670
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 44
+  pdf_page: 117
+  locus: '''we easily get α =… asus, … asus, and … asus approx.'', the first figure.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 348
+    clip: [40, 455, 400, 500]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tight tile clip [40,455,400,500] 1x1 at native 348 (laghubhaskariya_1963 PDF 117); also tile r2c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 348
+    clip: [40, 455, 400, 500]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: ''
+- name: output.taurus.alpha
+  role: output
+  value: 3465
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 44
+  pdf_page: 117
+  locus: '''we easily get α =… asus, … asus, and … asus approx.'', the second figure.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 348
+    clip: [40, 455, 400, 500]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tight tile clip [40,455,400,500] 1x1 at native 348 (laghubhaskariya_1963 PDF 117); also tile r2c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 348
+    clip: [40, 455, 400, 500]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: ''
+- name: output.gemini.alpha
+  role: output
+  value: 5400
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 44
+  pdf_page: 117
+  locus: '''we easily get α =… asus, … asus, and … asus approx.'', the third figure.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 348
+    clip: [40, 455, 400, 500]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tight tile clip [40,455,400,500] 1x1 at native 348 (laghubhaskariya_1963 PDF 117); also tile r2c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 348
+    clip: [40, 455, 400, 500]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: ''
+- name: output.aries.rising_restated
+  role: output
+  value: 1670
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 45
+  pdf_page: 118
+  locus: '''Hence the times of rising of Aries, Taurus and Gemini at the equator are'' (p. 44) ''… asus, (…—…) asus, and (…—…) asus'', the first figure.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 346
+    clip: [60, 65, 320, 108]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: tight tile clip [60,65,320,108] 1x1 at native 346 (laghubhaskariya_1963 PDF 118); also tile r1c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 346
+    clip: [60, 65, 320, 108]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: ''
+- name: output.taurus.rising_minuend
+  role: output
+  value: 3465
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 45
+  pdf_page: 118
+  locus: the same line, '(…—…) asus' after the first comma, the first figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 346
+    clip: [60, 65, 320, 108]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: tight tile clip [60,65,320,108] 1x1 at native 346 (laghubhaskariya_1963 PDF 118); also tile r1c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 346
+    clip: [60, 65, 320, 108]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: ''
+- name: output.taurus.rising_subtrahend
+  role: output
+  value: 1670
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 45
+  pdf_page: 118
+  locus: the same line, '(…—…) asus' after the first comma, the second figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 346
+    clip: [60, 65, 320, 108]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: tight tile clip [60,65,320,108] 1x1 at native 346 (laghubhaskariya_1963 PDF 118); also tile r1c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 346
+    clip: [60, 65, 320, 108]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: ''
+- name: output.gemini.rising_minuend
+  role: output
+  value: 5400
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 45
+  pdf_page: 118
+  locus: the same line, 'and (…—…) asus', the first figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 346
+    clip: [60, 65, 320, 108]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: tight tile clip [60,65,320,108] 1x1 at native 346 (laghubhaskariya_1963 PDF 118); also tile r1c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 346
+    clip: [60, 65, 320, 108]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: ''
+- name: output.gemini.rising_subtrahend
+  role: output
+  value: 3465
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 45
+  pdf_page: 118
+  locus: the same line, 'and (…—…) asus', the second figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 346
+    clip: [60, 65, 320, 108]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: tight tile clip [60,65,320,108] 1x1 at native 346 (laghubhaskariya_1963 PDF 118); also tile r1c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 346
+    clip: [60, 65, 320, 108]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: ''
+- name: output.aries.rising
+  role: output
+  value: 1670
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 45
+  pdf_page: 118
+  locus: '''i.e., … asus, … asus, and … asus respectively.'', the first figure.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 346
+    clip: [60, 65, 320, 108]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: tight tile clip [60,65,320,108] 1x1 at native 346 (laghubhaskariya_1963 PDF 118); also tile r1c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 346
+    clip: [60, 65, 320, 108]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: ''
+- name: output.taurus.rising
+  role: output
+  value: 1795
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 45
+  pdf_page: 118
+  locus: '''i.e., … asus, … asus, and … asus respectively.'', the second figure.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 346
+    clip: [60, 65, 320, 108]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: tight tile clip [60,65,320,108] 1x1 at native 346 (laghubhaskariya_1963 PDF 118); also tile r1c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 346
+    clip: [60, 65, 320, 108]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: ''
+- name: output.gemini.rising
+  role: output
+  value: 1935
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 45
+  pdf_page: 118
+  locus: '''i.e., … asus, … asus, and … asus respectively.'', the third figure.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 346
+    clip: [60, 65, 320, 108]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: tight tile clip [60,65,320,108] 1x1 at native 346 (laghubhaskariya_1963 PDF 118); also tile r1c1 of clip [20,20,410,580] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 346
+    clip: [60, 65, 320, 108]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: ''

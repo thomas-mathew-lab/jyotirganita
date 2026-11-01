@@ -1,0 +1,148 @@
+methods:
+- id: aryabhatiya
+  engine: siddhantic
+  text: aryabhatiya
+  variants: {}
+  procedures:
+    ahargana: texts.aryabhatiya.procedures.ahargana.rule
+    time_base: texts.aryabhatiya.procedures.ahargana.count_note
+    weekday: texts.aryabhatiya.procedures.weekday.rule
+    mean_longitude: texts.aryabhatiya.procedures.mean_longitude.rule
+    mean_precision: texts.aryabhatiya.procedures.mean_longitude.precision
+    epoch_additive: texts.aryabhatiya.procedures.apogee_node_additive.statement
+    computation_instant: texts.aryabhatiya.procedures.computation_instant.lanka_sunrise_note
+    sunrise: texts.aryabhatiya.procedures.civil_day.definition
+    carry.desantara: texts.aryabhatiya.procedures.desantara.rule
+    carry.bhujantara: texts.aryabhatiya.procedures.bhujantara.rule
+    carry.cara: texts.aryabhatiya.procedures.cara.rule
+    rsine: texts.aryabhatiya.procedures.rsine.rule
+    rversine: texts.aryabhatiya.procedures.rsine.rversine_table_note.mahabhaskariya_1960
+    arc: texts.aryabhatiya.procedures.arc_from_rsine.rule.mahabhaskariya_1960
+    bhuja_koti: texts.aryabhatiya.procedures.bhuja_koti.rule
+    pulsation: texts.aryabhatiya.procedures.quadrant_convention.rule
+    manda: texts.aryabhatiya.procedures.manda.bhujaphala_rule
+    sighra: texts.aryabhatiya.procedures.application_order.sighrakarna_sign
+    order.superior: texts.aryabhatiya.procedures.application_order.superior
+    order.inferior: texts.aryabhatiya.procedures.application_order.inferior
+    declination: texts.aryabhatiya.procedures.declination.rule.laghubhaskariya_1963
+    declination.argument: texts.aryabhatiya.procedures.declination.approximate_rule.mahabhaskariya_1960
+    ascensional_difference: texts.aryabhatiya.procedures.day_radius_earthsine.laghubhaskariya_1963
+    half_day: texts.aryabhatiya.procedures.day_length.rule.mahabhaskariya_1960
+    gati: texts.aryabhatiya.procedures.gati.rule.laghubhaskariya_1963
+    proportional_parts: texts.aryabhatiya.procedures.proportional_parts.tithi.laghubhaskariya_1963
+    intraday: texts.aryabhatiya.procedures.proportional_parts.naksatra.laghubhaskariya_1963
+    ending_rounding: texts.aryabhatiya.procedures.proportional_parts.tithi.mahabhaskariya_1960
+  composed: texts.aryabhatiya.composed
+  status: validated
+  sources: [aryabhatiya_1976, aryabhatiya_clark_1930, mahabhaskariya_1960, laghubhaskariya_1963, mahabhaskariya_govindasvamin_1957, narayanan_2011, sarma_2001_aryabhata, achar_2002, chandra_hari_2002]
+  notes: The pure 499 CE element set of the Āryabhaṭīya, with the procedures of Bhāskara I's Laghubhāskarīya (laghubhaskariya_1963) and Mahābhāskarīya (mahabhaskariya_1960) as Shukla edits them. runs_from is derived from the Kali era record through the time base.
+- id: parahita
+  engine: siddhantic
+  base: aryabhatiya
+  layers: [sakabda_samskara]
+  variants: {}
+  procedures:
+    layer.step: texts.aryabhatiya.sakabda_samskara.step_count
+    layer.count_reckoning: texts.aryabhatiya.sakabda_samskara.step_count.reckoning
+    layer.negative_count: texts.aryabhatiya.sakabda_samskara.negative_count_floor
+  composed: texts.aryabhatiya.sakabda_samskara.defined
+  status: validated
+  sources: [grahacaranibandhana_1954, sarma_1972_kerala_school]
+  notes: The Āryabhaṭīya with Haridatta's śakābda-saṃskāra (grahacaranibandhana_1954 p. x). composed is the layer's defined date.
+- id: drgganita
+  engine: siddhantic
+  text: drgganita
+  variants: {}
+  procedures:
+    time_base: texts.drgganita.procedures.time_base
+    weekday: texts.drgganita.procedures.weekday
+    mean_longitude: texts.drgganita.procedures.mean_longitude
+    mean_precision: texts.drgganita.procedures.mean_precision
+    epoch_additive: texts.drgganita.procedures.dhruva
+    computation_instant: texts.drgganita.procedures.computation_instant
+    sunrise: texts.drgganita.procedures.sunrise.verses.v195a.goladipika_1916
+    carry.desantara: texts.drgganita.procedures.carry.desantara.verses.v196a.goladipika_1916
+    carry.bhujantara: texts.drgganita.procedures.carry.bhujantara.verses.v202a.goladipika_1916
+    carry.cara: texts.drgganita.procedures.carry.cara.verses.v205a.goladipika_1916
+    declination: texts.drgganita.procedures.declination.verses.v081a.goladipika_1916
+    declination.argument: texts.drgganita.procedures.declination.verses.v073a.goladipika_1916
+    ascensional_difference: texts.drgganita.procedures.ascensional_difference.verses.v074a.goladipika_1916
+    half_day: texts.drgganita.procedures.half_day.verses.v109a.goladipika_1916
+    gati: texts.drgganita.procedures.gati.use.grahanamandana_1965
+    proportional_parts: texts.drgganita.procedures.proportional_parts.rule.grahanamandana_1965
+    intraday: texts.drgganita.procedures.intraday.rule.grahanamandana_1965
+    ending_rounding: texts.drgganita.procedures.ending_rounding
+    sighrocca: texts.drgganita.procedures.sighrocca
+    kendra: texts.drgganita.procedures.kendra
+    table_branch: texts.drgganita.procedures.table.branches
+    interpolation: texts.drgganita.procedures.interpolation
+    interpolation.last_step: texts.drgganita.procedures.interpolation.last_step
+    order.luminaries: texts.drgganita.procedures.luminaries
+    order.superior: texts.drgganita.procedures.order.superior
+    order.inferior: texts.drgganita.procedures.order.inferior
+    node_complement: texts.drgganita.procedures.complement
+    rsine: texts.drgganita.trig.rsine_table.quoted.editor_note.grahanamandana_1965
+    arc: texts.drgganita.procedures.ascensional_difference.verses.v078b.goladipika_1916
+    latitude: texts.drgganita.latitude.rule.moon.grahanamandana_1965
+  composed: texts.drgganita.composed
+  status: provisional
+  sources: [drgganita_1963, grahanamandana_1965, goladipika_1916, golasara_1970, billard_1971]
+  notes: 'Parameśvara''s Dṛggaṇita (drgganita_1963, Sarma 1963), Part II''s guṇakāra/hāraka rates, dhruvas and jyā tables with its own interpolation and application orders. No correction layer: II.47–50 corrects the Grahaṇamaṇḍana and is kept as data. The carry, the sunrise and the day''s inner time, which the text defers to earlier works (drgganita_1963 I.ii.7), are taken from the Dṛk-school pages (goladipika_1916 the Goladīpikā first, grahanamandana_1965 and golasara_1970 where it is silent), the Rsines from the table grahanamandana_1965''s manuscripts carry (provisional, the library author''s individual sign-off pending). billard_1971 is a witness keyed as data.'
+- id: suryasiddhanta
+  engine: siddhantic
+  text: suryasiddhanta
+  variants: {}
+  procedures:
+    ahargana: texts.suryasiddhanta.procedures.ahargana.rule
+    time_base: texts.suryasiddhanta.procedures.epoch.any_yuga
+    weekday: texts.suryasiddhanta.procedures.weekday.rule
+    mean_longitude: texts.suryasiddhanta.procedures.mean_longitude.rule
+    computation_instant: texts.suryasiddhanta.procedures.computation_instant.statement
+    carry.epoch_advance: texts.suryasiddhanta.procedures.epoch_advance.rule
+    sunrise: texts.suryasiddhanta.procedures.sunrise.statement.xiv18.suryasiddhanta_burgess_1860
+    carry.desantara: texts.suryasiddhanta.procedures.desantara.rule
+    carry.bhujantara: texts.suryasiddhanta.procedures.bhujantara.rule
+    carry.cara: texts.suryasiddhanta.procedures.sunrise.statement.xiv19.suryasiddhanta_burgess_1860
+    declination: texts.suryasiddhanta.procedures.declination.with_latitude.ii58.suryasiddhanta_burgess_1860
+    declination.argument: texts.suryasiddhanta.procedures.declination.argument.iii10.suryasiddhanta_burgess_1860
+    ascensional_difference: texts.suryasiddhanta.procedures.half_day.day_radius.ii60.suryasiddhanta_burgess_1860
+    half_day: texts.suryasiddhanta.procedures.cara.day_night
+    gati: texts.suryasiddhanta.procedures.gati.rule.ii48.suryasiddhanta_burgess_1860
+    proportional_parts: texts.suryasiddhanta.procedures.endings.naksatra.ii64.suryasiddhanta_burgess_1860
+    intraday: texts.suryasiddhanta.procedures.endings.tithi.ii66.suryasiddhanta_burgess_1860
+    ending_rounding: texts.suryasiddhanta.procedures.ending_rounding
+    rsine: texts.suryasiddhanta.procedures.interpolation.rule
+    arc: texts.suryasiddhanta.procedures.inverse.rule
+    bhuja_koti: texts.suryasiddhanta.procedures.bhuja_koti.rule
+    pulsation: texts.suryasiddhanta.procedures.epicycle_variation.rule
+    manda: texts.suryasiddhanta.procedures.manda.equation
+    sighra: texts.suryasiddhanta.procedures.sighra.equation
+    order.luminaries: texts.suryasiddhanta.procedures.order.statement
+    order.planets: texts.suryasiddhanta.procedures.order.planets
+    latitude: texts.suryasiddhanta.procedures.latitude.rule
+  composed: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.add30_final_reduction.year
+  status: validated
+  sources: [suryasiddhanta_burgess_1860, suryasiddhanta_hall_1859, suryasiddhanta_bapudeva_1861, suryasiddhanta_paramesvara_1957, balachandra_rao_2000, suryasiddhanta_ranganatha_1871, suryasiddhanta_ranganatha_1891, bag_2001, bag_2003_weekdays]
+  notes: The Sūrya-siddhānta as Burgess and Whitney translate it (suryasiddhanta_burgess_1860), Hall and Bāpū Deva's text with Raṅganātha's commentary (suryasiddhanta_hall_1859) the witness of every element (tools/suryasiddhanta_collation.py), suryasiddhanta_paramesvara_1957 (Parameśvara's recension, Shukla 1957) and suryasiddhanta_bapudeva_1861 where the two differ. The count runs from the end of creation and is placed on the Kali era record; runs_from is the Kali epoch. The deśāntara, bhujāntara, cara, sunrise, gati and endings are taken from suryasiddhanta_burgess_1860 i.60–67, ii.46–66, iii.9–10, iii.17b and xiv.18–19, the cara's carry composed and the precession's sign suryasiddhanta_burgess_1860's worked example; a Kerala place reaches the text by route (b) through the identification of its prime meridian (texts.suryasiddhanta.meridian.identification.suryasiddhanta_burgess_1860). composed is an A.D. year.
+- id: suryasiddhanta_paramesvara_recension
+  engine: siddhantic
+  base: suryasiddhanta
+  layers: []
+  replaces:
+    texts.suryasiddhanta.moon_apogee.revolutions: texts.suryasiddhanta.witness.suryasiddhanta_paramesvara_1957.moon_apogee.revolutions
+    texts.suryasiddhanta.moon_node.revolutions: texts.suryasiddhanta.witness.suryasiddhanta_paramesvara_1957.moon_node.revolutions
+  variants: {}
+  procedures: {}
+  composed: texts.suryasiddhanta.composed.statement.suryasiddhanta_burgess_1860.add30_final_reduction.year
+  status: provisional
+  sources: [suryasiddhanta_paramesvara_1957, suryasiddhanta_burgess_1860, suryasiddhanta_hall_1859]
+  notes: 'The Sūrya-siddhānta as the text stands in Shukla''s edition with Parameśvara''s commentary (suryasiddhanta_paramesvara_1957), which differs from the vulgate of suryasiddhanta_burgess_1860 and suryasiddhanta_hall_1859 in the Moon''s apogee and node revolutions and in nothing else the collation found (a development report, not shipped). The two numbers are the reading of Shukla''s text and of the commentator families his Introduction tables name (suryasiddhanta_paramesvara_1957 Intro pp. 16, 51; keyed as variants on the two data), not numbers Parameśvara states as his own corrections; the recension''s own date is the gap texts.suryasiddhanta.composed.recension.suryasiddhanta_paramesvara_1957. suryasiddhanta_paramesvara_1957''s copy is not durable, so nothing of this method reaches verified until a durable copy is held. Its carry, sunrise and endings are its base''s.'
+- id: modern_de
+  engine: modern
+  text: modern
+  variants: {}
+  procedures: {}
+  composed: not_applicable
+  status: validated
+  sources: [indian_astronomical_ephemeris, iau1980_nutation, vondrak_2011, stephenson_2016, rashtriya_panchanga_1959, calendar_reform_committee_1955, jpl_kernels, iers_eop, hipparcos, stephenson_2016_supplement, iau2006_precession, iau2000a_nutation, espenak_meeus_2006]
+  notes: 'The modern engine on the JPL kernels; its page-read data are under data/modern/, its fetched tables under data/tables/. No variants: the frames, ΔT models and ayanāṃśas are preset components, each a cited model. composed does not apply and runs_from is not derived; a preset''s date range is the intersection of its components'' stated ranges.'

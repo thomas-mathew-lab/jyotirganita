@@ -1,0 +1,41 @@
+# A fetched table: not a page read and never a second witness for one. Written
+# by the script its fetch header names; do not edit by hand.
+table: leap_seconds
+fetch:
+  source: iers_eop
+  file: Leap_Second.dat
+  sha256: 6cb6f5d4b819f2e568e25db4b0b26d89dedf031fdffb18bc94d40f4e94e268d7
+  script: tools/extract_iers.py
+  script_version: 1
+  extracted: lines 14–41 (every table row) and the expiry line
+columns: [mjd, day, month, year, tai_minus_utc_s]
+expires: 28 June 2027
+rows:
+- [41317, 1, 1, 1972, 10]
+- [41499, 1, 7, 1972, 11]
+- [41683, 1, 1, 1973, 12]
+- [42048, 1, 1, 1974, 13]
+- [42413, 1, 1, 1975, 14]
+- [42778, 1, 1, 1976, 15]
+- [43144, 1, 1, 1977, 16]
+- [43509, 1, 1, 1978, 17]
+- [43874, 1, 1, 1979, 18]
+- [44239, 1, 1, 1980, 19]
+- [44786, 1, 7, 1981, 20]
+- [45151, 1, 7, 1982, 21]
+- [45516, 1, 7, 1983, 22]
+- [46247, 1, 7, 1985, 23]
+- [47161, 1, 1, 1988, 24]
+- [47892, 1, 1, 1990, 25]
+- [48257, 1, 1, 1991, 26]
+- [48804, 1, 7, 1992, 27]
+- [49169, 1, 7, 1993, 28]
+- [49534, 1, 7, 1994, 29]
+- [50083, 1, 1, 1996, 30]
+- [50630, 1, 7, 1997, 31]
+- [51179, 1, 1, 1999, 32]
+- [53736, 1, 1, 2006, 33]
+- [54832, 1, 1, 2009, 34]
+- [56109, 1, 7, 2012, 35]
+- [57204, 1, 7, 2015, 36]
+- [57754, 1, 1, 2017, 37]

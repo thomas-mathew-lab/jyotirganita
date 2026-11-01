@@ -1,0 +1,48 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "jyotirganita/registry.schema.json",
+ "title": "Method registry, jyotirganita/methods/registry.yaml",
+ "type": "object",
+ "required": ["methods"],
+ "additionalProperties": false,
+ "properties": {
+  "methods": {"type": "array", "items": {"$ref": "#/$defs/method"}}
+ },
+ "$defs": {
+  "id": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"},
+  "key": {"type": "string", "pattern": "^[a-z0-9_]+(\\.[a-z0-9_]+)+$"},
+  "variant_value": {
+   "type": "object",
+   "required": ["composed"],
+   "additionalProperties": false,
+   "properties": {"composed": {"$ref": "#/$defs/key"}, "notes": {"type": "string"}}
+  },
+  "method": {
+   "type": "object",
+   "required": ["id", "engine", "variants", "procedures", "composed", "status", "sources"],
+   "additionalProperties": false,
+   "properties": {
+    "id": {"$ref": "#/$defs/id"},
+    "engine": {"enum": ["siddhantic", "modern"]},
+    "text": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"},
+    "base": {"$ref": "#/$defs/id"},
+    "layers": {"type": "array", "items": {"$ref": "#/$defs/id"}, "uniqueItems": true},
+    "replaces": {"$comment": "base datum key -> the key of the datum that stands in its place", "type": "object", "minProperties": 1, "propertyNames": {"$ref": "#/$defs/key"}, "additionalProperties": {"$ref": "#/$defs/key"}},
+    "variants": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "object",
+      "minProperties": 2,
+      "additionalProperties": {"$ref": "#/$defs/variant_value"}
+     }
+    },
+    "procedures": {"type": "object", "additionalProperties": {"type": "string", "minLength": 1}},
+    "composed": {"$comment": "The composed-year datum of a siddhantic method; not_applicable for the modern engine.", "anyOf": [{"$ref": "#/$defs/key"}, {"const": "not_applicable"}]},
+    "status": {"$comment": "computed by the ledger, never typed", "enum": ["provisional", "validated", "corroborated"]},
+    "sources": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "packages": {"type": "array", "items": {"type": "string", "pattern": "^WP[0-9]+[a-z]?$"}, "minItems": 1, "uniqueItems": true},
+    "notes": {"type": "string"}
+   }
+  }
+ }
+}

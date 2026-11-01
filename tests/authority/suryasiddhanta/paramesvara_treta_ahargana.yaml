@@ -1,0 +1,156 @@
+id: authority/suryasiddhanta/paramesvara_treta_ahargana
+methods: [suryasiddhanta, suryasiddhanta_paramesvara_recension]
+class: text_computed
+source: suryasiddhanta_paramesvara_1957
+edition_page: 17
+pdf_page: 49
+locus: 'p. 17 (PDF 49 right half): Parameśvara''s prose after the quoted verse line beginning "त्रेतामुखादतीताब्दै", from "त्रेतायुगारम्भे सृष्टिहीनकल्पद्युगणस्य" to the end of the sentence beginning "ततस्त्रेतामुखात्प्रवृत्तो द्युगणो"; and that quoted verse line.'
+rounding: integer remainder (mod 7)
+precision: days (weekday)
+datum_keys: [texts.suryasiddhanta.procedures.epoch.any_yuga]
+notes: 'The commentary states that the kalpa ahargaṇa less the creation time, counted from Sunday, leaves remainder 3 on division by 7 at the start of the Tretā, so that the ahargaṇa counted from the Tretā start begins with Wednesday. No ahargaṇa figure is printed; only the divisor, the remainder and the weekday. Reader''s decision (TASK): this rests on the text''s elements alone (civil days of the kalpa, the creation time i.24, the yuga lengths); a weekday remainder involves no planetary correction (hārāvayava, dṛgbheda), though the passage stands in Parameśvara''s Tretā-start (laghu) reckoning introduced by the quoted verses. Footnote 5 (मू. पुस्तके): सप्तहृतावशेस्त्रिसंख्यस्स्यात् (spelling only; remainder word त्रि unchanged), clip [460,468,690,508].'
+values:
+- name: input.count_from
+  role: input
+  value: सूर्यवारादिकस्य
+  form: text
+  unit: none
+  script: devanagari
+  edition_page: 17
+  pdf_page: 49
+  locus: 'p. 17 prose line 1: the genitive compound naming the day the ahargaṇa is counted from, as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r7
+    on: 2026-10-11
+    dpi: 600
+    clip: [611, 200, 775, 250]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [455,200,775,250] 2x1 --overlap 8; first-read fixture file k6/fixtures/paramesvara_treta_ahargana.yaml (sha256 b1157963)
+  - by: claude-opus-5-5/2026-10-11-r7
+    on: 2026-10-11
+    dpi: 600
+    clip: [455, 200, 619, 250]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1; first-read fixture file k6/fixtures/paramesvara_treta_ahargana.yaml (sha256 b1157963)
+  status: double_read
+  notes: the day-count runs from Sunday.
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 600
+    clip: [455, 145, 780, 255]
+    delivered_ppi: 600
+    note: ''
+- name: input.divisor
+  role: input
+  value: 7
+  form: integer
+  unit: days
+  script: devanagari
+  edition_page: 17
+  pdf_page: 49
+  locus: 'p. 17 prose line 1: the numeral member of the compound ending in हृतावशेषः; printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r7
+    on: 2026-10-11
+    dpi: 600
+    clip: [611, 200, 775, 250]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [455,200,775,250] 2x1 --overlap 8; first-read fixture file k6/fixtures/paramesvara_treta_ahargana.yaml (sha256 b1157963)
+  status: double_read
+  notes: 'printed in words: सप्त.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 600
+    clip: [617.5, 145, 780, 255]
+    delivered_ppi: 600
+    note: ''
+- name: output.remainder
+  role: output
+  value: 3
+  form: integer
+  unit: days
+  script: devanagari
+  edition_page: 17
+  pdf_page: 49
+  locus: 'p. 17 prose line 1: the numeral member of the compound ending in सङ्ख्यस्स्यात्; printed in words'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r7
+    on: 2026-10-11
+    dpi: 600
+    clip: [611, 200, 775, 250]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [455,200,775,250] 2x1 --overlap 8; first-read fixture file k6/fixtures/paramesvara_treta_ahargana.yaml (sha256 b1157963)
+  - by: claude-opus-5-5/2026-10-11-r7
+    on: 2026-10-11
+    dpi: 600
+    clip: [460, 468, 690, 508]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: footnote 5 line; first-read fixture file k6/fixtures/paramesvara_treta_ahargana.yaml (sha256 b1157963)
+  status: double_read
+  notes: 'printed in words: त्रिसङ्ख्यः (remainder three).'
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 600
+    clip: [617.5, 145, 780, 255]
+    delivered_ppi: 600
+    note: ''
+- name: output.treta_start_weekday
+  role: output
+  value: बुधादि
+  form: text
+  unit: none
+  script: devanagari
+  edition_page: 17
+  pdf_page: 49
+  locus: 'p. 17 prose line 2, the sentence beginning "ततस्त्रेतामुखात्प्रवृत्तो द्युगणो": the compound before भवति (stem; the r of sandhi not keyed)'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r7
+    on: 2026-10-11
+    dpi: 600
+    clip: [455, 200, 619, 250]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [455,200,775,250] 2x1 --overlap 8; first-read fixture file k6/fixtures/paramesvara_treta_ahargana.yaml (sha256 b1157963)
+  status: double_read
+  notes: the ahargaṇa from the Tretā start begins with Wednesday.
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 600
+    clip: [455, 145, 617.5, 255]
+    delivered_ppi: 600
+    note: ''
+- name: output.treta_start_weekday.verse
+  role: output
+  value: बुधादि
+  form: text
+  unit: none
+  script: devanagari
+  edition_page: 17
+  pdf_page: 49
+  locus: 'p. 17 quoted verse line beginning "त्रेतामुखादतीताब्दै": the compound before द्युगणस्स्मृतः (stem; the r of sandhi not keyed)'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r7
+    on: 2026-10-11
+    dpi: 600
+    clip: [515, 150, 715, 178]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: verse lines 1668x234; first-read fixture file k6/fixtures/paramesvara_treta_ahargana.yaml (sha256 b1157963)
+  status: double_read
+  notes: the same weekday stated in the quoted verse.
+  second_read:
+  - by: claude-fable-5-1/2026-10-11-r3
+    on: 2026-10-11
+    dpi: 600
+    clip: [455, 145, 780, 255]
+    delivered_ppi: 600
+    note: ''

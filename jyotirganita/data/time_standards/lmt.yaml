@@ -1,0 +1,82 @@
+standard: lmt
+title: local mean time at the observer
+definition:
+  kind: local_mean_time
+  datum: time_standards.lmt.definition.sewell_dikshit_1896
+  witnesses: [time_standards.lmt.mean_time.sewell_dikshit_1896]
+in_force:
+  from: open
+  to: open
+notes: 'Mean time at the observer''s meridian, from the place''s longitude: civil mean time counted from mean midnight, 12 hours after the astronomers'' mean-noon count sewell_dikshit_1896 states. sewell_dikshit_1896''s ''mean sunrise at 0 h, roughly 6 a.m.'' is the Indian count of the same mean time.'
+data:
+- key: time_standards.lmt.definition.sewell_dikshit_1896
+  value: The mean sunrise at any place is calculated as taking place at 0 gh. or 0 h.—roughly 6 a.m. in European civil reckoning; and the mean time of a place is the time counted from 0 gh. or 0 h
+  form: text
+  unit: statement
+  script: latin
+  source: sewell_dikshit_1896
+  file: sewell_dikshit_1896-sewell-dikshit-indian-calendar-1896.pdf
+  edition_page: 19
+  pdf_page: 35
+  locus: 'sewell_dikshit_1896 printed 19, Art. 36, second paragraph: the sentence from ''The mean sunrise'' to its end. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 401
+    clip: [15, 280, 375, 400]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: tiles 2x2 --overlap 6 of this clip, native 401 ppi
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 401
+    clip: [15, 388, 375, 428]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: tiles 2x1 --overlap 6 of this clip, native 401 ppi (the sentence's end)
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  basis: stated
+  basis_ref: sewell_dikshit_1896 Art. 36
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r16
+    on: 2026-10-08
+    dpi: 401
+    clip: [15, 280, 200, 400]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+- key: time_standards.lmt.mean_time.sewell_dikshit_1896
+  value: With European astronomers "mean noon" is the moment when the mean sun is on the meridian; and the "mean time" at any instant is the hour angle of the mean sun reckoned westward from 0 h. to 24 h., mean noon being 0 h. for astronomical purposes
+  form: text
+  unit: statement
+  script: latin
+  source: sewell_dikshit_1896
+  file: sewell_dikshit_1896-sewell-dikshit-indian-calendar-1896.pdf
+  edition_page: 19
+  pdf_page: 35
+  locus: 'sewell_dikshit_1896 printed 19, Art. 36, first paragraph: the sentence from ''With European astronomers'' to ''astronomical purposes''. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 401
+    clip: [15, 280, 375, 400]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: tiles 2x2 --overlap 6 of this clip, native 401 ppi
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  basis: stated
+  basis_ref: sewell_dikshit_1896 Art. 36
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r16
+    on: 2026-10-08
+    dpi: 401
+    clip: [190, 280, 375, 400]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''

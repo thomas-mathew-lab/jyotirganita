@@ -1,0 +1,309 @@
+id: authority/aryabhatiya/laghubhaskariya_1963_app_ex5_sun_sign_residue
+methods: [aryabhatiya]
+class: editor_computed
+source: laghubhaskariya_1963
+file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+edition_page: 113
+pdf_page: 186
+locus: the appendix 'Theory of the pulveriser', §2.9, Ex. 5 (the residue of the sign of the Sun) and its solution by two pulverisers, pp. 113–114 (PDF 186–187)
+rounding: none (integers)
+precision: integers, as printed
+datum_keys: [texts.aryabhatiya.sun.revolutions, texts.aryabhatiya.civil_days.laghubhaskariya_1963]
+notes: 'Shukla''s example (editor_computed). The second pulveriser''s denominator is printed 210339 for 210389 (emendation, the page''s own figures). The printed ''y=5800'' is not the quotient of the printed equation: 576 × 176564 − 82977 = 483 × 210389, so y = 483 revolutions, and 12 × 483 + 4 = 5800 is the count of signs from the first pulveriser''s v = 4 (the reader''s arithmetic). Whether the editor''s 5800 counts signs, as the question''s ''the revolutions and signs'' allows, or is a slip is not settled from the page; it is kept as printed, not emended, and the engine test checks 12 × revolutions + v against it with that reading named. Cross-check queue.'
+values:
+- name: input.residue_of_sign
+  role: input
+  value: 154168
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 113
+  pdf_page: 186
+  locus: the appendix 'Theory of the pulveriser', §2.9 (stanzas …–…), 'Ex. 5. The residue of the sign of the Sun is …; find the days (ahargaṇa) and the revolutions and signs of the Sun's longitude.' and its solution, pp. 113–114 (PDF 186–187), 'The residue of the sign of the Sun is …'; the same in the pulveriser '12u−… / … =v'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 346
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 186)
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 346
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 186)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 346
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: ''
+- name: input.signs_in_revolution
+  role: input
+  value: 12
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 113
+  pdf_page: 186
+  locus: 'the appendix ''Theory of the pulveriser'', §2.9 (stanzas …–…), ''Ex. 5. The residue of the sign of the Sun is …; find the days (ahargaṇa) and the revolutions and signs of the Sun''s longitude.'' and its solution, pp. 113–114 (PDF 186–187), the pulveriser ''12u−… / … =v'': the multiplier of u.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 346
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 186)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 344
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 344
+    max_edge: 2000
+    note: ''
+- name: input.divisor
+  role: input
+  value: 210389
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 113
+  pdf_page: 186
+  locus: 'the appendix ''Theory of the pulveriser'', §2.9 (stanzas …–…), ''Ex. 5. The residue of the sign of the Sun is …; find the days (ahargaṇa) and the revolutions and signs of the Sun''s longitude.'' and its solution, pp. 113–114 (PDF 186–187), the same pulveriser: the denominator.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 346
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 186)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 344
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 344
+    max_edge: 2000
+    note: ''
+- name: output.residue_of_revolution
+  role: output
+  value: 82977
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 113
+  pdf_page: 186
+  locus: the appendix 'Theory of the pulveriser', §2.9 (stanzas …–…), 'Ex. 5. The residue of the sign of the Sun is …; find the days (ahargaṇa) and the revolutions and signs of the Sun's longitude.' and its solution, pp. 113–114 (PDF 186–187), 'Thus we get u=…,'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 346
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 186)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 344
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 344
+    max_edge: 2000
+    note: ''
+- name: output.signs
+  role: output
+  value: 4
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 113
+  pdf_page: 186
+  locus: the appendix 'Theory of the pulveriser', §2.9 (stanzas …–…), 'Ex. 5. The residue of the sign of the Sun is …; find the days (ahargaṇa) and the revolutions and signs of the Sun's longitude.' and its solution, pp. 113–114 (PDF 186–187), 'v=….'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 346
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 186)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 344
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 344
+    max_edge: 2000
+    note: ''
+- name: input.second.numerator
+  role: input
+  value: 576
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 114
+  pdf_page: 187
+  locus: 'the appendix ''Theory of the pulveriser'', §2.9 (stanzas …–…), ''Ex. 5. The residue of the sign of the Sun is …; find the days (ahargaṇa) and the revolutions and signs of the Sun''s longitude.'' and its solution, pp. 113–114 (PDF 186–187), p. 114, ''Now we solve the pulveriser … x−… / … =y,'': the multiplier of x.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tile r1c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 187)
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 347
+    clip: [120, 55, 260, 115]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: laghubhaskariya_1963 PDF 187, the second pulveriser
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [120, 55, 260, 115]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''
+- name: input.second.residue
+  role: input
+  value: 82977
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 114
+  pdf_page: 187
+  locus: 'the appendix ''Theory of the pulveriser'', §2.9 (stanzas …–…), ''Ex. 5. The residue of the sign of the Sun is …; find the days (ahargaṇa) and the revolutions and signs of the Sun''s longitude.'' and its solution, pp. 113–114 (PDF 186–187), p. 114, the same pulveriser: the subtrahend.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tile r1c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 187)
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 347
+    clip: [120, 55, 260, 115]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: laghubhaskariya_1963 PDF 187, the second pulveriser
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [120, 55, 260, 115]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''
+- name: input.second.divisor
+  role: input
+  value: 210339
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 114
+  pdf_page: 187
+  locus: 'the appendix ''Theory of the pulveriser'', §2.9 (stanzas …–…), ''Ex. 5. The residue of the sign of the Sun is …; find the days (ahargaṇa) and the revolutions and signs of the Sun''s longitude.'' and its solution, pp. 113–114 (PDF 186–187), p. 114, the same pulveriser: the denominator, printed ….'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tile r1c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 187)
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 347
+    clip: [120, 55, 260, 115]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: laghubhaskariya_1963 PDF 187, the second pulveriser
+  status: double_read
+  emendation:
+    printed: 210339
+    adopted: 210389
+    evidence: 'the same example''s first pulveriser ''(12u−154168)/210389 = v'' (p. 113) and footnote 2 of p. 110 (''576A/210389'') print 210389; the printed solution x = 176564 gives an integer y only with 210389: 576 × 176564 − 82977 = 101617887 = 483 × 210389, while 101617887 leaves 24150 on division by 210339 (the reader''s arithmetic). An editor''s or printer''s slip; the page''s own figures, no second printing.'
+    evidence_indic: false
+    by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    owner_signoff: null
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [120, 55, 260, 115]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''
+- name: output.ahargana
+  role: output
+  value: 176564
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 114
+  pdf_page: 187
+  locus: the appendix 'Theory of the pulveriser', §2.9 (stanzas …–…), 'Ex. 5. The residue of the sign of the Sun is …; find the days (ahargaṇa) and the revolutions and signs of the Sun's longitude.' and its solution, pp. 113–114 (PDF 186–187), p. 114, 'We get x=…,'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tile r1c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 187)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''
+- name: output.y
+  role: output
+  value: 5800
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 114
+  pdf_page: 187
+  locus: the appendix 'Theory of the pulveriser', §2.9 (stanzas …–…), 'Ex. 5. The residue of the sign of the Sun is …; find the days (ahargaṇa) and the revolutions and signs of the Sun's longitude.' and its solution, pp. 113–114 (PDF 186–187), p. 114, 'y=….' ('where x denotes the days (ahargaṇa) and y the revolutions of the Sun's longitude').
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 348
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 348
+    max_edge: 2000
+    note: tile r1c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 187)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 20, 400, 210.67]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''

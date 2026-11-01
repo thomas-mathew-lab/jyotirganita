@@ -1,0 +1,631 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "jyotirganita/records.schema.json",
+ "title": "Datum files, authority fixtures and corpus cells",
+ "$comment": "",
+ "$defs": {
+  "date": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"},
+  "key": {"type": "string", "pattern": "^[a-z0-9_]+(\\.[a-z0-9_]+)+$"},
+  "issue_id": {"type": "string", "pattern": "^(I-[0-9]{3}|disputed)$"},
+  "identity": {
+   "type": "string",
+   "pattern": "^([a-z0-9][a-z0-9.-]*/[0-9]{4}-[0-9]{2}-[0-9]{2}-[A-Za-z0-9][A-Za-z0-9._-]*|text-layer/[^\\s].*|transcription/[^\\s].*)$"
+  },
+  "number": {
+   "anyOf": [
+    {"type": "integer"},
+    {"type": "string", "pattern": "^[+-]?([0-9]+(\\.[0-9]*)?|\\.[0-9]+)$"}
+   ]
+  },
+  "script": {"enum": ["latin", "devanagari", "malayalam", "grantha", "tamil"]},
+  "form": {"enum": ["integer", "fraction", "sexagesimal", "rdms", "numeral_word", "table", "text"]},
+  "scalar_form": {"enum": ["integer", "fraction", "sexagesimal", "rdms"]},
+  "page": {"anyOf": [{"type": "integer", "minimum": 1}, {"type": "string", "minLength": 1}]},
+  "pdf_page": {"type": "integer", "minimum": 1},
+  "range_end": {
+   "$comment": "One end of a model's range or accuracy interval as its source states it: an astronomical year (0 = 1 BCE), or a calendar date tagged with its calendar.",
+   "oneOf": [
+    {"type": "object", "required": ["year"], "additionalProperties": false, "properties": {"year": {"type": "integer"}}},
+    {"type": "object", "required": ["date", "calendar"], "additionalProperties": false, "properties": {"date": {"$ref": "#/$defs/date"}, "calendar": {"enum": ["julian", "gregorian"]}}}
+   ]
+  },
+  "model_range": {
+   "$comment": "A model's range: the interval of validity or of intended use its source states, with the datum that states it; or `unstated`, a recorded absence that imposes no bound.",
+   "oneOf": [
+    {"const": "unstated"},
+    {
+     "type": "object", "required": ["from", "to", "stated_by"], "additionalProperties": false,
+     "properties": {"from": {"$ref": "#/$defs/range_end"}, "to": {"$ref": "#/$defs/range_end"}, "stated_by": {"$ref": "#/$defs/key"}, "note": {"type": "string", "minLength": 1}}
+    }
+   ]
+  },
+  "model_accuracy": {
+   "$comment": "A precision stated over an interval: not a range; outside the interval the model runs as a stated convention and the preset header says so.",
+   "type": "object", "required": ["value", "unit", "interval", "stated_by"], "additionalProperties": false,
+   "properties": {
+    "value": {"$ref": "#/$defs/number"},
+    "unit": {"type": "string", "minLength": 1},
+    "interval": {
+     "type": "object", "required": ["from", "to"], "additionalProperties": false,
+     "properties": {"from": {"$ref": "#/$defs/range_end"}, "to": {"$ref": "#/$defs/range_end"}}
+    },
+    "stated_by": {"$ref": "#/$defs/key"},
+    "note": {"type": "string", "minLength": 1}
+   }
+  },
+  "read": {
+   "type": "object",
+   "required": ["by", "on", "dpi", "clip", "delivered_ppi"],
+   "additionalProperties": false,
+   "properties": {
+    "by": {"$ref": "#/$defs/identity"},
+    "on": {"$ref": "#/$defs/date"},
+    "dpi": {"anyOf": [{"type": "integer", "minimum": 1}, {"type": "null"}]},
+    "clip": {
+     "anyOf": [
+      {"type": "array", "items": {"$ref": "#/$defs/number"}, "minItems": 4, "maxItems": 4},
+      {"const": "page"}
+     ]
+    },
+    "delivered_ppi": {"anyOf": [{"$ref": "#/$defs/number"}, {"enum": ["vector", "none"]}]},
+    "max_edge": {"type": "integer", "minimum": 1},
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "note": {"type": "string"}
+   }
+  },
+  "reads": {"type": "array", "items": {"$ref": "#/$defs/read"}, "minItems": 1},
+  "third_look": {
+   "type": "object",
+   "required": ["issue", "read", "matches"],
+   "additionalProperties": false,
+   "properties": {
+    "issue": {"$ref": "#/$defs/issue_id"},
+    "read": {"$ref": "#/$defs/read"},
+    "matches": {"enum": ["read", "second_read", "neither", "look"]},
+    "look": {"$ref": "#/$defs/identity"}
+   }
+  },
+  "signoff": {
+   "type": "object",
+   "required": ["on", "by", "ref", "scope", "signed_hash", "note"],
+   "additionalProperties": false,
+   "properties": {
+    "on": {"$ref": "#/$defs/date"},
+    "by": {"const": "owner"},
+    "ref": {"type": "string"},
+    "scope": {"enum": ["individual", "batch"]},
+    "signed_hash": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+    "note": {"type": "string"}
+   }
+  },
+  "word": {
+   "type": "object",
+   "required": ["text", "script", "system", "decode"],
+   "additionalProperties": false,
+   "properties": {
+    "text": {"type": "string", "minLength": 1},
+    "script": {"$ref": "#/$defs/script"},
+    "system": {"enum": ["katapayadi", "bhutasankhya", "aryabhata_alphabetic"]},
+    "decode": {}
+   }
+  },
+  "emendation": {
+   "anyOf": [
+    {"type": "null"},
+    {
+     "type": "object",
+     "required": ["printed", "adopted", "evidence", "evidence_indic", "by", "on", "owner_signoff"],
+     "additionalProperties": false,
+     "properties": {
+      "printed": {},
+      "adopted": {},
+      "evidence": {"type": "string", "minLength": 1},
+      "evidence_indic": {"type": "boolean"},
+      "by": {"$ref": "#/$defs/identity"},
+      "on": {"$ref": "#/$defs/date"},
+      "owner_signoff": {"anyOf": [{"type": "null"}, {"$ref": "#/$defs/signoff"}]}
+     }
+    }
+   ]
+  },
+  "variant": {
+   "type": "object",
+   "required": ["witness", "word", "decode"],
+   "additionalProperties": false,
+   "properties": {"witness": {"type": "string", "minLength": 1}, "word": {"type": "string"}, "decode": {}}
+  },
+  "block": {
+   "$comment": "The value block every printed value carries: a datum, a fixture value, a corpus cell.",
+   "type": "object",
+   "required": ["value", "form", "unit", "script", "read", "status"],
+   "properties": {
+    "value": {},
+    "form": {"$ref": "#/$defs/form"},
+    "value_form": {"$ref": "#/$defs/scalar_form"},
+    "columns": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "negative": {"type": "boolean"},
+    "unit": {"type": "string", "minLength": 1},
+    "script": {"$ref": "#/$defs/script"},
+    "word": {"$ref": "#/$defs/word"},
+    "read": {"$ref": "#/$defs/reads"},
+    "second_read": {"$ref": "#/$defs/reads"},
+    "third_look": {"$ref": "#/$defs/third_look"},
+    "further_look": {"type": "array", "items": {"$ref": "#/$defs/third_look"}, "minItems": 1},
+    "status": {"enum": ["read", "double_read"]},
+    "emendation": {"$ref": "#/$defs/emendation"},
+    "mismatch_issue": {"$ref": "#/$defs/issue_id"},
+    "read_issue": {"$ref": "#/$defs/issue_id"},
+    "owner_signoff": {"$ref": "#/$defs/signoff"},
+    "decides": {
+     "type": "array",
+     "$comment": "method_identity: a reading that makes a method what it is (the two suryasiddhanta_paramesvara_1957 data of suryasiddhanta_paramesvara_recension)",
+     "items": {"enum": ["procedure", "emendation", "control_answer", "method_identity"]},
+     "minItems": 1,
+     "uniqueItems": true
+    },
+    "variants": {"type": "array", "items": {"$ref": "#/$defs/variant"}},
+    "notes": {"type": "string"}
+   }
+  },
+  "place": {
+   "type": "object",
+   "properties": {
+    "source": {"type": "string"},
+    "file": {"type": "string"},
+    "edition_page": {"$ref": "#/$defs/page"},
+    "pdf_page": {"$ref": "#/$defs/pdf_page"},
+    "locus": {"type": "string", "minLength": 1}
+   }
+  },
+  "datum": {
+   "allOf": [{"$ref": "#/$defs/block"}, {"$ref": "#/$defs/place"}],
+   "required": ["key", "source", "edition_page", "pdf_page", "locus", "verified_by", "emendation", "notes"],
+   "properties": {
+    "key": {"$ref": "#/$defs/key"},
+    "verified_by": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+    "basis": {"enum": ["stated", "inferred", "inferred_from_example", "fallback_no_stated_rule"]},
+    "basis_ref": {"type": "string", "minLength": 1},
+    "kind": {
+     "$comment": "A datum that is a model, a series or a polynomial: it carries `range` and may carry `accuracy`; no other datum carries either.",
+     "enum": ["model"]
+    },
+    "range": {"$ref": "#/$defs/model_range"},
+    "accuracy": {"type": "array", "items": {"$ref": "#/$defs/model_accuracy"}, "minItems": 1},
+    "convention": {"enum": ["stated", "inferred_from_pair", "unstated"]},
+    "provisional": {"type": "string", "minLength": 1},
+    "procedure": {
+     "$comment": "On a procedure datum: the name, in the procedure registry of siddhantic/procedures.py, of the implementation of the rule the datum states. Only in a text's procedures.yaml or corrections.yaml.",
+     "type": "string",
+     "pattern": "^[a-z][a-z0-9_]*(\\.[a-z0-9_]+)+$"
+    },
+    "acts_on": {
+     "$comment": "On a carry entry: what the correction acts on, as the page states it.",
+     "enum": ["mean_before_equation", "true_after_equation", "sunrise_instant_only"]
+    },
+    "motion": {
+     "$comment": "On a carry entry: the motion the correction's time value is multiplied by, as the page states it: the element's mean daily motion or the body's true daily motion (gati).",
+     "enum": ["mean", "true"]
+    },
+    "applies_to": {
+     "$comment": "On a carry entry: the elements or bodies whose positions the statement corrects, as the page names them ('all_elements' for every mean element); an empty list for a correction that moves the sunrise instant only.",
+     "type": "array",
+     "items": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"},
+     "uniqueItems": true
+    },
+    "no_printed_example": {
+     "$comment": "",
+     "type": "object",
+     "required": ["second_witness", "external"],
+     "additionalProperties": false,
+     "properties": {
+      "second_witness": {"type": "string", "minLength": 1},
+      "external": {"type": "string", "minLength": 1}
+     }
+    },
+    "contradiction": {
+     "$comment": "Two printed statements of one thing that disagree, recorded both ways and not resolved: the issue and the datums this one contradicts. The ledger prints 'recorded with contradiction'.",
+     "type": "object",
+     "required": ["issue", "with"],
+     "additionalProperties": false,
+     "properties": {
+      "issue": {"$ref": "#/$defs/issue_id"},
+      "with": {"type": "array", "items": {"$ref": "#/$defs/key"}, "minItems": 1, "uniqueItems": true}
+     }
+    }
+   },
+   "unevaluatedProperties": false
+  },
+  "gap": {
+   "type": "object",
+   "required": ["key", "status", "reason", "searched", "effect"],
+   "additionalProperties": false,
+   "properties": {
+    "key": {"$ref": "#/$defs/key"},
+    "status": {"const": "gap"},
+    "reason": {"type": "string", "minLength": 1},
+    "searched": {"type": "string", "minLength": 1},
+    "effect": {"type": "string", "minLength": 1},
+    "source": {"type": "string"},
+    "notes": {"type": "string"}
+   }
+  },
+  "datum_file": {
+   "type": "array",
+   "items": {
+    "if": {"type": "object", "properties": {"status": {"const": "gap"}}, "required": ["status"]},
+    "then": {"$ref": "#/$defs/gap"},
+    "else": {"$ref": "#/$defs/datum"}
+   }
+  },
+  "places_file": {
+   "$comment": "A provisional place table, regions/<region>/places.yaml: each place names its route and, for route (a), the statement datums its text-unit coordinates are read from; the datums themselves, if any are the file's own, under data.",
+   "type": "object",
+   "required": ["region", "places", "data"],
+   "additionalProperties": false,
+   "properties": {
+    "region": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+    "places": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/place_entry"}},
+    "data": {"$ref": "#/$defs/datum_file"},
+    "notes": {"type": "string"}
+   }
+  },
+  "names_file": {
+   "$comment": "A regional profile's name tables, regions/<region>/names.yaml: every name with its class, index and canonical ASCII id, and its forms by script as datum keys (a Latin form list is the name's accepted spellings); the datums themselves under data. jyotirganita/regions/base.py checks that every key loads and every class is complete.",
+   "type": "object",
+   "required": ["region", "classes", "names", "data"],
+   "additionalProperties": false,
+   "properties": {
+    "region": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+    "karana_cycle": {"$ref": "#/$defs/key", "$comment": "the table datum giving the karana of each half-tithi; required when the profile names karanas"},
+    "classes": {
+     "type": "object",
+     "minProperties": 1,
+     "propertyNames": {"pattern": "^[a-z][a-z0-9_]*$"},
+     "additionalProperties": {
+      "type": "object",
+      "required": ["count", "index"],
+      "additionalProperties": false,
+      "properties": {"count": {"type": "integer", "minimum": 1}, "index": {"type": "string", "minLength": 1}}
+     }
+    },
+    "names": {
+     "type": "array",
+     "minItems": 1,
+     "items": {
+      "type": "object",
+      "required": ["class", "index", "id", "forms"],
+      "additionalProperties": false,
+      "properties": {
+       "class": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"},
+       "index": {"type": "integer", "minimum": 1},
+       "id": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"},
+       "forms": {
+        "type": "object",
+        "required": ["latin"],
+        "additionalProperties": false,
+        "properties": {
+         "malayalam": {"type": "array", "items": {"$ref": "#/$defs/key"}, "minItems": 1, "uniqueItems": true},
+         "devanagari": {"type": "array", "items": {"$ref": "#/$defs/key"}, "minItems": 1, "uniqueItems": true},
+         "tamil": {"type": "array", "items": {"$ref": "#/$defs/key"}, "minItems": 1, "uniqueItems": true},
+         "latin": {"type": "array", "items": {"$ref": "#/$defs/key"}, "minItems": 1, "uniqueItems": true}
+        }
+       }
+      }
+     }
+    },
+    "data": {"$ref": "#/$defs/datum_file"},
+    "notes": {"type": "string"}
+   }
+  },
+  "conventions_file": {
+   "$comment": "A regional profile's conventions, regions/<region>/conventions.yaml: each part names the datum that cites it (a gap key where none is held); the datums under data. jyotirganita/regions/base.py resolves the parts against the registered rules and the era records.",
+   "type": "object",
+   "required": ["region", "civil_day", "assignment", "ksaya_vrddhi", "month_rule", "eras", "encodings", "sunrise_event", "time_standard", "data"],
+   "additionalProperties": false,
+   "properties": {
+    "region": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+    "civil_day": {
+     "type": "object", "required": ["start", "datum"], "additionalProperties": false,
+     "properties": {"start": {"enum": ["sunrise", "midnight", "sunset"]}, "datum": {"$ref": "#/$defs/key"}, "witnesses": {"type": "array", "items": {"$ref": "#/$defs/key"}}}
+    },
+    "assignment": {
+     "type": "object", "required": ["default", "datum"], "additionalProperties": false,
+     "properties": {"default": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"}, "datum": {"$ref": "#/$defs/key"}}
+    },
+    "ksaya_vrddhi": {
+     "type": "object", "required": ["ksaya", "vrddhi"], "additionalProperties": false,
+     "properties": {"ksaya": {"$ref": "#/$defs/key"}, "vrddhi": {"$ref": "#/$defs/key"}}
+    },
+    "month_rule": {
+     "type": "object", "required": ["rule", "datum", "searched"], "additionalProperties": false,
+     "properties": {
+      "rule": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"},
+      "parts": {"$ref": "#/$defs/key"},
+      "within": {"$ref": "#/$defs/key"},
+      "datum": {"$ref": "#/$defs/key"},
+      "region": {"$ref": "#/$defs/key"},
+      "example": {"type": "string", "pattern": "^authority/[a-z0-9_]+(/[a-z0-9_]+)+$"},
+      "provisional": {"type": "string", "minLength": 1},
+      "searched": {"type": "array", "items": {"$ref": "#/$defs/key"}},
+      "selectable": {
+       "$comment": "Further month-rule kinds a run may select instead of `rule`, each with the datum (or recorded gap) that states it.",
+       "type": "array", "uniqueItems": true,
+       "items": {
+        "type": "object", "required": ["rule", "datum"], "additionalProperties": false,
+        "properties": {"rule": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"}, "datum": {"$ref": "#/$defs/key"}, "provisional": {"type": "string", "minLength": 1}}
+       }
+      }
+     }
+    },
+    "eras": {
+     "type": "array", "minItems": 1,
+     "items": {
+      "type": "object", "required": ["era"], "additionalProperties": false,
+      "properties": {
+       "era": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+       "year_start": {
+        "type": "object", "required": ["default", "selectable", "witnesses"], "additionalProperties": false,
+        "properties": {
+         "default": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+         "selectable": {"type": "array", "items": {"type": "string", "pattern": "^[a-z0-9_]+$"}},
+         "decision": {"type": "string", "pattern": "^D-[0-9]{3}$"},
+         "witnesses": {"type": "object", "additionalProperties": {"type": "array", "items": {"$ref": "#/$defs/key"}}}
+        }
+       }
+      }
+     }
+    },
+    "encodings": {
+     "type": "object", "required": ["ending"], "additionalProperties": false,
+     "properties": {
+      "ending": {
+       "type": "object", "required": ["unit", "direction", "reference", "datum"], "additionalProperties": false,
+       "properties": {
+        "unit": {"enum": ["nadika", "ghatika_variable", "hours"]},
+        "direction": {"enum": ["elapsed", "remaining"]},
+        "reference": {"enum": ["sunrise", "midnight"]},
+        "datum": {"$ref": "#/$defs/key"},
+        "witnesses": {"type": "array", "items": {"$ref": "#/$defs/key"}}
+       }
+      }
+     }
+    },
+    "sunrise_event": {"$ref": "#/$defs/key"},
+    "time_standard": {"$ref": "#/$defs/key"},
+    "data": {"$ref": "#/$defs/datum_file"},
+    "notes": {"type": "string"}
+   }
+  },
+  "time_standard_file": {
+   "$comment": "A civil time standard, data/time_standards/<id>.yaml: its definition (an offset from UT, or local mean time at the observer) citing a datum or a fetched table's line, its dates of force (open, or periods read from a fetched table's lines), and the datums under data. jyotirganita/data/time_standards.py checks every period against the table.",
+   "type": "object",
+   "required": ["standard", "title", "definition", "in_force", "data"],
+   "additionalProperties": false,
+   "properties": {
+    "standard": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"},
+    "title": {"type": "string", "minLength": 1},
+    "definition": {
+     "type": "object", "required": ["kind"], "additionalProperties": false,
+     "properties": {
+      "kind": {"enum": ["utc_offset", "local_mean_time"]},
+      "offset": {"type": "string", "pattern": "^[+-][0-9]{2}:[0-9]{2}(:[0-9]{2})?$"},
+      "datum": {"$ref": "#/$defs/key"},
+      "witnesses": {"type": "array", "items": {"$ref": "#/$defs/key"}},
+      "table": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+      "line": {"type": "integer", "minimum": 1}
+     }
+    },
+    "in_force": {
+     "type": "object", "additionalProperties": false,
+     "properties": {
+      "from": {"const": "open"},
+      "to": {"const": "open"},
+      "table": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+      "periods": {
+       "type": "array", "minItems": 1,
+       "items": {
+        "type": "object", "required": ["from", "to", "offset", "line"], "additionalProperties": false,
+        "properties": {
+         "from": {"$ref": "#/$defs/date"},
+         "to": {"anyOf": [{"$ref": "#/$defs/date"}, {"const": "open"}]},
+         "offset": {"type": "string", "pattern": "^[+-][0-9]{2}:[0-9]{2}(:[0-9]{2})?$"},
+         "line": {"type": "integer", "minimum": 1},
+         "war_time": {"type": "boolean"}
+        }
+       }
+      }
+     },
+     "oneOf": [{"required": ["from", "to"], "not": {"required": ["periods"]}}, {"required": ["table", "periods"], "not": {"anyOf": [{"required": ["from"]}, {"required": ["to"]}]}}]
+    },
+    "data": {"$ref": "#/$defs/datum_file"},
+    "notes": {"type": "string"}
+   }
+  },
+  "place_coordinate": {
+   "$comment": "A coordinate: the statement datum it is read from; value is given for route text_units (the text's own figure) and absent for modern_converted (the datum's value is read).",
+   "type": "object",
+   "required": ["unit", "statement", "reading"],
+   "additionalProperties": false,
+   "properties": {
+    "value": {"$ref": "#/$defs/number"},
+    "unit": {"type": "string", "minLength": 1},
+    "statement": {"$ref": "#/$defs/key"},
+    "reading": {"type": "string", "minLength": 1}
+   }
+  },
+  "place_entry": {
+   "type": "object",
+   "$comment": "A place and the route by which it serves its texts: text_units (route (a): latitude and meridian_offset as the text states them), modern_converted (route (b): latitude and longitude from a cited modern coordinate, meridian_longitude the text's meridian in the same terms, conversion the text's rules), or gap (no route: the gap datum says why). user_coordinates is route (b)'s template for a place the user names by its coordinates: meridian_longitude and conversion only.",
+   "required": ["id", "name", "route", "texts"],
+   "additionalProperties": false,
+   "properties": {
+    "id": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"},
+    "name": {"type": "string", "minLength": 1},
+    "route": {"enum": ["text_units", "modern_converted", "gap", "user_coordinates"]},
+    "texts": {"type": "array", "items": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"}, "minItems": 1, "uniqueItems": true},
+    "latitude": {"$ref": "#/$defs/place_coordinate"},
+    "meridian_offset": {"$ref": "#/$defs/place_coordinate"},
+    "longitude": {"$ref": "#/$defs/place_coordinate"},
+    "meridian_longitude": {"$ref": "#/$defs/place_coordinate"},
+    "conversion": {
+     "$comment": "Route (b)'s conversion rules per text: the latitude rule and the meridian offset rule; a text whose meridian_longitude is another text's datum names the statement identifying its line with that meridian and the gap it stands in for.",
+     "type": "object",
+     "minProperties": 1,
+     "propertyNames": {"pattern": "^[a-z][a-z0-9_]*$"},
+     "additionalProperties": {
+      "type": "object",
+      "required": ["latitude", "meridian_offset"],
+      "additionalProperties": false,
+      "dependentRequired": {"meridian_identification": ["meridian_gap"], "meridian_gap": ["meridian_identification"]},
+      "properties": {
+       "latitude": {"$ref": "#/$defs/key"},
+       "meridian_offset": {"$ref": "#/$defs/key"},
+       "meridian_identification": {"$ref": "#/$defs/key"},
+       "meridian_gap": {"$ref": "#/$defs/key"}
+      }
+     }
+    },
+    "gap": {"$ref": "#/$defs/key"},
+    "provisional": {"type": "string", "minLength": 1},
+    "notes": {"type": "string"}
+   }
+  },
+  "era_epoch": {
+   "$comment": "A tagged epoch: the datum of the printed date, the calendar as a datum states it, and the day-start datum.",
+   "type": "object",
+   "required": ["date", "calendar", "calendar_ref", "day_start"],
+   "additionalProperties": false,
+   "properties": {
+    "date": {"$ref": "#/$defs/key"},
+    "calendar": {"enum": ["julian", "gregorian"]},
+    "calendar_ref": {"$ref": "#/$defs/key"},
+    "day_start": {"anyOf": [{"$ref": "#/$defs/key"}, {"const": "unstated"}]}
+   }
+  },
+  "era_file": {
+   "$comment": "An era record, data/eras/<era_id>.yaml: the record's structure, every part naming the datum that cites it, and the datums themselves under data.",
+   "type": "object",
+   "required": ["era", "range", "data"],
+   "additionalProperties": false,
+   "properties": {
+    "era": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+    "epoch": {"$ref": "#/$defs/era_epoch"},
+    "counting": {
+     "type": "object",
+     "required": ["mode", "datum"],
+     "additionalProperties": false,
+     "properties": {"mode": {"enum": ["elapsed", "current"]}, "datum": {"$ref": "#/$defs/key"}}
+    },
+    "year_start": {
+     "type": "object",
+     "minProperties": 1,
+     "propertyNames": {"pattern": "^[a-z0-9_]+$"},
+     "additionalProperties": {
+      "type": "object",
+      "required": ["rule", "sun", "epoch", "datum"],
+      "additionalProperties": false,
+      "properties": {
+       "rule": {"type": "string", "pattern": "^[a-z0-9_]+(\\.[a-z0-9_]+)*$"},
+       "sun": {"enum": [true, "mean"]},
+       "epoch": {"anyOf": [{"const": "era"}, {"$ref": "#/$defs/era_epoch"}]},
+       "datum": {"$ref": "#/$defs/key"}
+      }
+     }
+    },
+    "range": {
+     "type": "object",
+     "required": ["from", "to", "datum"],
+     "additionalProperties": false,
+     "properties": {
+      "from": {"anyOf": [{"const": "epoch"}, {"type": "integer"}]},
+      "to": {"anyOf": [{"const": "open"}, {"type": "integer"}]},
+      "datum": {"$ref": "#/$defs/key"}
+     }
+    },
+    "months": {
+     "type": "object",
+     "required": ["naming", "datum"],
+     "additionalProperties": false,
+     "properties": {"naming": {"enum": ["rasi"]}, "datum": {"$ref": "#/$defs/key"}}
+    },
+    "cycle": {
+     "type": "object",
+     "required": ["length", "names", "anchor"],
+     "additionalProperties": false,
+     "properties": {
+      "length": {"type": "integer", "minimum": 1},
+      "names": {"$ref": "#/$defs/key"},
+      "anchor": {
+       "type": "object",
+       "required": ["datum", "era", "year", "name"],
+       "additionalProperties": false,
+       "properties": {
+        "datum": {"$ref": "#/$defs/key"},
+        "era": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+        "year": {"type": "integer"},
+        "name": {"type": "string", "minLength": 1}
+       }
+      }
+     }
+    },
+    "notes": {"type": "string"},
+    "data": {"$ref": "#/$defs/datum_file"}
+   },
+   "oneOf": [
+    {"required": ["epoch", "counting", "year_start", "months"], "not": {"required": ["cycle"]}},
+    {
+     "required": ["cycle"],
+     "not": {"anyOf": [{"required": ["epoch"]}, {"required": ["counting"]}, {"required": ["year_start"]}, {"required": ["months"]}]}
+    }
+   ]
+  },
+  "fixture_value": {
+   "allOf": [{"$ref": "#/$defs/block"}, {"$ref": "#/$defs/place"}],
+   "required": ["name", "role"],
+   "properties": {
+    "name": {"type": "string", "pattern": "^[a-z0-9_.]+$"},
+    "role": {"enum": ["input", "output"]}
+   },
+   "unevaluatedProperties": false
+  },
+  "fixture_file": {
+   "type": "object",
+   "required": ["id", "methods", "class", "source", "edition_page", "pdf_page", "locus",
+                "rounding", "precision", "datum_keys", "notes", "values"],
+   "additionalProperties": false,
+   "properties": {
+    "id": {"type": "string", "pattern": "^authority/[a-z0-9_]+(/[a-z0-9_]+)+$"},
+    "methods": {"type": "array", "items": {"type": "string", "pattern": "^[a-z0-9_]+$"}, "minItems": 1, "uniqueItems": true},
+    "class": {"enum": ["text_computed", "editor_computed"]},
+    "source": {"type": "string"},
+    "file": {"type": "string"},
+    "edition_page": {"$ref": "#/$defs/page"},
+    "pdf_page": {"$ref": "#/$defs/pdf_page"},
+    "locus": {"type": "string", "minLength": 1},
+    "rounding": {"type": "string", "minLength": 1},
+    "precision": {"anyOf": [{"type": "string", "minLength": 1}, {"type": "null"}]},
+    "datum_keys": {"type": "array", "items": {"$ref": "#/$defs/key"}, "uniqueItems": true},
+    "notes": {"type": "string"},
+    "not_run": {"type": "string", "minLength": 1},
+    "values": {"type": "array", "items": {"$ref": "#/$defs/fixture_value"}, "minItems": 1}
+   }
+  },
+  "corpus_cell": {
+   "allOf": [{"$ref": "#/$defs/block"}, {"$ref": "#/$defs/place"}],
+   "required": ["key", "edition_page", "pdf_page", "locus"],
+   "properties": {"key": {"$ref": "#/$defs/key"}},
+   "unevaluatedProperties": false
+  },
+  "corpus_file": {
+   "type": "object",
+   "required": ["corpus", "source", "cells"],
+   "additionalProperties": false,
+   "properties": {
+    "corpus": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+    "source": {"type": "string"},
+    "file": {"type": "string"},
+    "cells": {"type": "array", "items": {"$ref": "#/$defs/corpus_cell"}, "minItems": 1}
+   }
+  }
+ }
+}

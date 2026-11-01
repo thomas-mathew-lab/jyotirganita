@@ -1,0 +1,247 @@
+id: authority/aryabhatiya/laghubhaskariya_1963_sankaranarayana_daily_motions
+methods: [aryabhatiya]
+class: text_computed
+source: laghubhaskariya_1963
+file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+edition_page: 11
+pdf_page: 84
+locus: 'Shukla''s note on I.31: ''Śaṅkaranārāyaṇa gives the following table for the mean daily motion of the planets'', the table ''Mean daily motion correct to seconds of arc'''
+rounding: to seconds of arc as printed; whether the commentator truncates or rounds is not stated
+precision: null
+datum_keys: [texts.aryabhatiya.sun.revolutions, texts.aryabhatiya.moon.revolutions, texts.aryabhatiya.moon_apogee.revolutions, texts.aryabhatiya.moon_node.revolutions, texts.aryabhatiya.mars.revolutions, texts.aryabhatiya.mercury_sighrocca.revolutions, texts.aryabhatiya.jupiter.revolutions, texts.aryabhatiya.venus_sighrocca.revolutions, texts.aryabhatiya.saturn.revolutions, texts.aryabhatiya.civil_days.laghubhaskariya_1963]
+notes: 'Not in the inventory''s list of examples: found while keying laghubhaskariya_1963 I.31. Śaṅkaranārāyaṇa (a pre-modern commentator on the Laghubhāskarīya) computed these from the revolution numbers in the text''s units, so the class is text_computed; the table is quoted in the editor''s translation. Saturn''s row prints minutes only.'
+values:
+- name: output.sun
+  role: output
+  value: [0, 59, 8]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 11
+  pdf_page: 84
+  locus: Śaṅkaranārāyaṇa's table of mean daily motions quoted in Shukla's note on I.31, the row 'Sun', as [degrees, minutes, seconds] (a missing degree printed as blank, keyed …).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 346
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 84)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 346
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: ''
+- name: output.moon
+  role: output
+  value: [13, 10, 35]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 11
+  pdf_page: 84
+  locus: Śaṅkaranārāyaṇa's table of mean daily motions quoted in Shukla's note on I.31, the row 'Moon', as [degrees, minutes, seconds] (a missing degree printed as blank, keyed …).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 346
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 84)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 346
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: ''
+- name: output.moon_apogee
+  role: output
+  value: [0, 6, 41]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 11
+  pdf_page: 84
+  locus: Śaṅkaranārāyaṇa's table of mean daily motions quoted in Shukla's note on I.31, the row 'Moon's apogee', as [degrees, minutes, seconds] (a missing degree printed as blank, keyed …).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 346
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 84)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 346
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: ''
+- name: output.moon_node
+  role: output
+  value: [0, 3, 11]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 11
+  pdf_page: 84
+  locus: Śaṅkaranārāyaṇa's table of mean daily motions quoted in Shukla's note on I.31, the row 'Moon's ascending node', as [degrees, minutes, seconds] (a missing degree printed as blank, keyed …).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 346
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 84)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 346
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: ''
+- name: output.mars
+  role: output
+  value: [0, 31, 26]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 11
+  pdf_page: 84
+  locus: Śaṅkaranārāyaṇa's table of mean daily motions quoted in Shukla's note on I.31, the row 'Mars', as [degrees, minutes, seconds] (a missing degree printed as blank, keyed …).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 346
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 84)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 346
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: ''
+- name: output.mercury_sighrocca
+  role: output
+  value: [4, 5, 32]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 11
+  pdf_page: 84
+  locus: Śaṅkaranārāyaṇa's table of mean daily motions quoted in Shukla's note on I.31, the row 'Śīghrocca of Mercury', as [degrees, minutes, seconds] (a missing degree printed as blank, keyed …).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 346
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 84)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 346
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: ''
+- name: output.jupiter
+  role: output
+  value: [0, 4, 59]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 11
+  pdf_page: 84
+  locus: Śaṅkaranārāyaṇa's table of mean daily motions quoted in Shukla's note on I.31, the row 'Jupiter', as [degrees, minutes, seconds] (a missing degree printed as blank, keyed …).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 346
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 84)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 346
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: ''
+- name: output.venus_sighrocca
+  role: output
+  value: [1, 36, 8]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 11
+  pdf_page: 84
+  locus: Śaṅkaranārāyaṇa's table of mean daily motions quoted in Shukla's note on I.31, the row 'Śīghrocca of Venus', as [degrees, minutes, seconds] (a missing degree printed as blank, keyed …).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 346
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 84)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 346
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: ''
+- name: output.saturn
+  role: output
+  value: [0, 2]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 11
+  pdf_page: 84
+  locus: 'Śaṅkaranārāyaṇa''s table of mean daily motions quoted in Shukla''s note on I.31, the row ''Saturn'', printed ''…′'' alone: keyed as [degrees, minutes] with the blank degree ….'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 346
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: tile r2c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 84)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 346
+    clip: [25, 202.67, 400, 397.33]
+    delivered_ppi: 346
+    max_edge: 2000
+    note: ''

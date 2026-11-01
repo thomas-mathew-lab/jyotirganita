@@ -1,0 +1,116 @@
+- key: texts.suryasiddhanta.witness.suryasiddhanta_ranganatha_1871.moon.latitude_max
+  value: 27
+  form: numeral_word
+  value_form: integer
+  word:
+    text: विघन
+    script: devanagari
+    system: bhutasankhya
+    decode: 27
+  unit: tens_of_arcminutes
+  script: devanagari
+  source: suryasiddhanta_ranganatha_1871
+  edition_page: 54
+  pdf_page: 63
+  locus: i.70, line 1, the compound's first member (the Moon, by line 2's चन्द्रादीनां क्रमात्); stem
+  variants: []
+  read:
+  - by: claude-opus-5-5/2026-10-31-r3
+    on: 2026-10-31
+    dpi: 600
+    clip: [40, 408, 140, 428]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tight clip on the word; verse line 1 also at [20,402,340,450] 2x1; the reader decodes the word as 27 from the commentary's gloss on the same page and says it cannot derive 27 from the parts as read
+  status: read
+  verified_by: []
+  emendation: null
+  notes: The verse lists the mean latitudes of the Moon and the planets in order, each member multiplied by ten (दशाहताः) to give liptikā; the value is the member, the latitude in minutes is value × 10. The two readers differ on the first akṣara of the word and on the compound's extent; both read the multiplier and line 2 alike.
+  read_issue: disputed
+- key: texts.suryasiddhanta.witness.suryasiddhanta_ranganatha_1871.moon.latitude_max.gloss
+  value: 27
+  form: integer
+  unit: tens_of_arcminutes
+  script: devanagari
+  source: suryasiddhanta_ranganatha_1871
+  edition_page: 54
+  pdf_page: 63
+  locus: Raṅganātha's commentary on i.70 (एवं पूर्वश्लोकाभ्यां …), the number word that glosses the first member for the Moon, before the list closes with दशगुणिताः क्रमादुक्ताः; an ordinary Sanskrit number word (no kaṭapayādi or bhūtasaṅkhyā), its value as an integer, the reader's own reading of the word
+  read:
+  - by: claude-opus-5-5/2026-10-31-r3
+    on: 2026-10-31
+    dpi: 600
+    clip: [20, 455, 340, 590]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: commentary on verse 70, tiled 2x2 overlap 8
+  status: double_read
+  verified_by: [texts.suryasiddhanta.moon.latitude_max]
+  emendation: null
+  notes: printed form सप्तविंशती; the commentary multiplies the list by ten (दशगुणिताः). No figure in digits is printed for it. The gloss on i.69 on the same page states the ninth part of the Moon's greatest latitude (a redundancy, not keyed); the gloss on i.68 (PDF 62) states the greatest latitude in words (extra lead of the Opus reader, not keyed).
+  second_read:
+  - by: claude-fable-5-1/2026-10-31-r1
+    on: 2026-10-31
+    dpi: 600
+    clip: [36, 456, 312, 492]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: gloss lines after the verse, tiled 2x1
+- key: texts.suryasiddhanta.witness.suryasiddhanta_ranganatha_1891.moon.latitude_max
+  value: 27
+  form: numeral_word
+  value_form: integer
+  word:
+    text: विघन
+    script: devanagari
+    system: bhutasankhya
+    decode: 27
+  unit: tens_of_arcminutes
+  script: devanagari
+  source: suryasiddhanta_ranganatha_1891
+  edition_page: 48
+  pdf_page: 50
+  locus: i.70, line 1, the compound's first member (the Moon); stem
+  variants: []
+  read:
+  - by: claude-opus-5-5/2026-10-31-r3
+    on: 2026-10-31
+    dpi: 600
+    clip: [40, 62, 130, 86]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tight clip on the word; verse line 1 also at [15,20,325,100] 2x1; the first consonant's counter is filled with ink in this printing; the reader decodes the word from the commentary's gloss
+  status: read
+  verified_by: []
+  emendation: null
+  notes: As in suryasiddhanta_ranganatha_1871; the two readers differ on the first akṣara and the compound's extent.
+  read_issue: disputed
+- key: texts.suryasiddhanta.witness.suryasiddhanta_ranganatha_1891.moon.latitude_max.gloss
+  value: 27
+  form: integer
+  unit: tens_of_arcminutes
+  script: devanagari
+  source: suryasiddhanta_ranganatha_1891
+  edition_page: 48
+  pdf_page: 50
+  locus: Raṅganātha's commentary on i.70 (एवं पूर्वश्लोकाभ्यां …), the number word that glosses the first member for the Moon; an ordinary Sanskrit number word, its value as an integer, the reader's own reading of the word
+  read:
+  - by: claude-opus-5-5/2026-10-31-r3
+    on: 2026-10-31
+    dpi: 600
+    clip: [15, 180, 325, 255]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: commentary start, tiled 2x1 overlap 8 (the rest at [15,250,325,330])
+  status: double_read
+  verified_by: [texts.suryasiddhanta.moon.latitude_max]
+  emendation: null
+  notes: printed form सप्तविंशती, the same wording as suryasiddhanta_ranganatha_1871; no figure in digits.
+  second_read:
+  - by: claude-fable-5-1/2026-10-31-r1
+    on: 2026-10-31
+    dpi: 600
+    clip: [125, 237, 300, 272]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: gloss word list, 1x1

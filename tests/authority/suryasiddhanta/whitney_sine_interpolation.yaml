@@ -1,0 +1,417 @@
+id: authority/suryasiddhanta/whitney_sine_interpolation
+methods: [suryasiddhanta]
+class: editor_computed
+source: suryasiddhanta_burgess_1860
+edition_page: 204
+pdf_page: 65
+locus: 'note on ii.31-33, suryasiddhanta_burgess_1860 printed p. 204: from "The table of sines and versed sines gives only those belonging to arcs" to "The other rule is the reverse of this, and does not require illustration."'
+rounding: intermediate and result printed as whole minutes (the proportion's fourth term and the sum); the 'actual value' printed to hundredths of a minute
+precision: 'minutes of arc (actual value: hundredths of a minute)'
+datum_keys: [texts.suryasiddhanta.procedures.interpolation.rule]
+notes: 'Sine of 24 deg by linear interpolation in the table of sines (ii.31-32): 1440'' / 225 gives quotient and remainder, proportion over the tabular difference, result added to the sixth sine; compared with Whitney''s modern value. No inverse (ii.33) example is printed: Whitney says the other rule does not require illustration. The reference ''as stated in verse 28'' is not keyed. Uses the 6th tabular sine and the next tabular difference as printed here (not keyed from the table of ii.15-22).'
+values:
+- name: input.table_interval
+  role: input
+  value: [3, 45]
+  form: sexagesimal
+  unit: degrees_minutes
+  script: latin
+  edition_page: 204
+  pdf_page: 65
+  locus: 'para. "The table of sines...", line 2: "multiples of …deg …''"; [deg, min]'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 355, 204, 385]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [55,355,345,385] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_sine_interpolation.yaml (sha256 ac218853)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 355, 204, 385]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.arc_degrees
+  role: input
+  value: [24]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 204
+  pdf_page: 65
+  locus: 'para. "In illustration of the … rule", line 2: "an arc of …deg"; [deg]'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 405, 204, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [55,405,345,540] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_sine_interpolation.yaml (sha256 ac218853)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 405, 204, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.arc_minutes
+  role: input
+  value: 1440
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 204
+  pdf_page: 65
+  locus: 'same line: "or …''"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 405, 204, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [55,405,345,540] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_sine_interpolation.yaml (sha256 ac218853)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 405, 204, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.divisor
+  role: input
+  value: 225
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 204
+  pdf_page: 65
+  locus: 'line 2 end: "dividing the latter number by …"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 405, 345, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [55,405,345,540] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_sine_interpolation.yaml (sha256 ac218853)
+  status: double_read
+  notes: printed without a minute mark
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 405, 345, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.quotient
+  role: output
+  value: 6
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 204
+  pdf_page: 65
+  locus: 'line 3: "the quotient …"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 405, 204, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [55,405,345,540] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_sine_interpolation.yaml (sha256 ac218853)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 405, 204, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.remainder
+  role: output
+  value: 90
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 204
+  pdf_page: 65
+  locus: 'line 3: "the remainder …''"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 405, 345, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [55,405,345,540] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_sine_interpolation.yaml (sha256 ac218853)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 405, 345, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.sixth_sine
+  role: input
+  value: 1315
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 204
+  pdf_page: 65
+  locus: 'line 7: "or the …, is …''"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 405, 345, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [55,405,345,540] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_sine_interpolation.yaml (sha256 ac218853)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 405, 345, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.next_difference
+  role: input
+  value: 205
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 204
+  pdf_page: 65
+  locus: 'line 8: "the next following sine is …''"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 405, 204, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [55,405,345,540] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_sine_interpolation.yaml (sha256 ac218853)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 405, 204, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.proportion_arc_step
+  role: input
+  value: 225
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 204
+  pdf_page: 65
+  locus: 'line 9: "an addition of …'' to the arc"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 405, 345, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [55,405,345,540] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_sine_interpolation.yaml (sha256 ac218853)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 405, 345, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.proportion_sine_step
+  role: input
+  value: 205
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 204
+  pdf_page: 65
+  locus: 'line 10: "increase in the sine of …''"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 405, 204, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [55,405,345,540] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_sine_interpolation.yaml (sha256 ac218853)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 405, 204, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.proportion_arc
+  role: input
+  value: 90
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 204
+  pdf_page: 65
+  locus: 'line 11: "to the arc of …''"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 405, 204, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [55,405,345,540] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_sine_interpolation.yaml (sha256 ac218853)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 405, 204, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.proportion
+  role: output
+  value: '225 : 205 :: 90 : 82'
+  form: text
+  unit: none
+  script: latin
+  edition_page: 204
+  pdf_page: 65
+  locus: 'lines 11: "that is to say, …"; Latin text, spacing normalised; a proportion keyed in the form a: b:: c: d, the symbols: and:: each set off by one space'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 405, 345, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'spans tiles r1c1 and r1c2 of clip [55,405,345,540]; the "::" printed with spaces ": :"; first-read fixture file k9/fixtures/whitney_sine_interpolation.yaml (sha256 ac218853)'
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 405, 345, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.increment
+  role: output
+  value: 82
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 204
+  pdf_page: 65
+  locus: 'line 12: "Upon adding the result, …''"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 405, 204, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [55,405,345,540] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_sine_interpolation.yaml (sha256 ac218853)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 405, 204, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sine
+  role: output
+  value: 1397
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 204
+  pdf_page: 65
+  locus: 'line 12: "the amount, …'', is the sine of the given arc"'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 405, 345, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [55,405,345,540] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_sine_interpolation.yaml (sha256 ac218853)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 405, 345, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.actual_sine
+  role: output
+  value: '1398.26'
+  form: fraction
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 204
+  pdf_page: 65
+  locus: 'line 14: "the sine of …deg, is …''.…"; decimal string, minute mark printed before the point'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 405, 204, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [55,405,345,540] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_sine_interpolation.yaml (sha256 ac218853)
+  status: double_read
+  notes: Whitney's modern value, not the text's arithmetic; the 24deg in this line repeats input.arc_degrees and is not keyed again
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 405, 204, 540]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

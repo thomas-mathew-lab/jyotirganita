@@ -1,0 +1,104 @@
+id: authority/calendar/sewell_dikshit_1896_table1_p130
+methods: [calendar]
+class: text_computed
+source: sewell_dikshit_1896
+edition_page: viii
+pdf_page: 130
+locus: Table I, Kali 3501–3506 (A.D. 399–405)
+rounding: 'none: whole days'
+precision: null
+datum_keys: []
+notes: 'The authors'' own table (Sewell and Dīkṣita): the A.D. date and week-day of each year''s Meṣa saṅkrānti (col. 13–14) are their arithmetic, reproduced exactly. Rows: 3501–3506; Julian (calendar.statement); 400 and 404 are leap years. Week-day numerals count 0 = Saturday (the printed pairs).'
+values:
+- name: years
+  role: input
+  value:
+  - [3501, 399-400]
+  - [3502, '*400-401']
+  - [3503, 401- 2]
+  - [3504, 402- 3]
+  - [3505, 403- 4]
+  - [3506, '*404- 5']
+  form: table
+  columns: [c1, c5]
+  unit: years
+  script: latin
+  edition_page: viii
+  pdf_page: 130
+  locus: 'Table I, every year row inside the clips (a line with a number in col. 1), in printed order, each once: col. 1 (Kali, current) and col. 5 (the A.D. year span, its ''*'' (leap) and ''§'' marks kept as printed, and a space after the hyphen of a year span kept as printed)'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 401
+    clip: [8, 155, 160, 235]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: the unnumbered line between 3505 and 3506 (dashes in cols. 3a and 4 only) is not a year row and is not keyed
+  status: double_read
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 401
+    clip: [8, 155, 160, 235]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+- name: mesha
+  role: output
+  value:
+  - [18 Mar. (77), 6, Fri, 23 Feb. (54), 4, Wed, 3501]
+  - [17 Mar. (77), 0, Sat, 13 Mar. (73), 3, Tues, 3502]
+  - [17 Mar. (76), 1, Sun, 2 Mar. (61), 0, Sat, 3503]
+  - [18 Mar. (77), 3, Tues, 19 Feb. (50), 4, Wed, 3504]
+  - [18 Mar. (77), 4, Wed, 10 Mar. (69), 3, Tues, 3505]
+  - [17 Mar. (77), 5, Thur, 27 Feb. (58), 0, Sat, 3506]
+  form: table
+  columns: [c13, c14_n, c14_day, c19, c20_n, c20_day, c1]
+  unit: dates
+  script: latin
+  edition_page: ix
+  pdf_page: 131
+  locus: 'Table I, every year row inside the clips (a line with a number in col. 1), in printed order, each once: col. 13 (day and month A.D. with the day of the year in brackets), col. 14 split into its numeral (c14_n) and its week-day name without any period or leader dots (c14_day), col. 19 (day and month A.D.), col. 20 split the same way (c20_n, c20_day), and col. 1 (Kali) at the right edge'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 401
+    clip: [55, 155, 385, 235]
+    delivered_ppi: 401
+    max_edge: 2000
+  status: double_read
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 401
+    clip: [55, 155, 385, 235]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+- name: calendar.statement
+  role: input
+  value: I have preferred, however, to introduce the New Style into our Tables from Sept. A.D. 1752 to suit English readers
+  form: text
+  unit: statement
+  script: latin
+  edition_page: 53
+  pdf_page: 69
+  locus: 'footnote 1 [R. S.]: the words from ''I have preferred'' to ''English readers'' Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 401
+    clip: [12, 398, 375, 440]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: tiles 2x1 --overlap 8 of this clip ([12,398,197.5,440], [189.5,398,375,440])
+  status: double_read
+  notes: Dates of the Tables are Old Style (Julian) before September 1752 and New Style (Gregorian) from it.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 401
+    clip: [12, 398, 375, 440]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''

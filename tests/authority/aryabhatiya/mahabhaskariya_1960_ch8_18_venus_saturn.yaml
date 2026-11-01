@@ -1,0 +1,377 @@
+id: authority/aryabhatiya/mahabhaskariya_1960_ch8_18_venus_saturn
+methods: [aryabhatiya]
+class: editor_computed
+source: mahabhaskariya_1960
+file: mahabhaskariya_1960-mahabhaskariya-shukla-1960.pdf
+edition_page: 221
+pdf_page: 306
+locus: VIII.18 and Shukla's solution ('The following is the solution of this example'), p. 221 (PDF 306) to p. 222 (PDF 307)
+rounding: none (integers)
+precision: integers, as printed
+datum_keys: [texts.aryabhatiya.venus_sighrocca.revolutions, texts.aryabhatiya.saturn.revolutions, texts.aryabhatiya.civil_days.laghubhaskariya_1963, texts.aryabhatiya.procedures.residue.from_longitude.mahabhaskariya_1960]
+notes: 'The question is Bhāskara I''s (mahabhaskariya_1960 ch. VIII); the solution and its figures are Shukla''s (editor_computed). A pulveriser: the test checks the printed pair against the keyed revolution number and civil days, not the solving. The inventory''s two ids mahabhaskariya_1960_ch8_18_venus and mahabhaskariya_1960_ch8_18_saturn are one fixture here, named by verse.'
+values:
+- name: venus.input.residue_seconds
+  role: input
+  value: 10
+  form: integer
+  unit: arcseconds
+  script: latin
+  edition_page: 221
+  pdf_page: 306
+  locus: VIII.18 (Venus and Saturn), '… seconds are seen to remain intact' (Venus).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 306)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: venus.input.abraded_revolution_minutes
+  role: input
+  value: 505611936
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 221
+  pdf_page: 306
+  locus: VIII.18 (Venus and Saturn), 'Revolution-number of Venus reduced to minutes / civil days in a yuga = … / …', the numerator.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 306)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: venus.input.abraded_civil_days
+  role: input
+  value: 5259725
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 221
+  pdf_page: 306
+  locus: VIII.18 (Venus and Saturn), the same fraction (Venus), the denominator.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 306)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: venus.output.residue_minutes
+  role: output
+  value: 876620
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 221
+  pdf_page: 306
+  locus: 'VIII.18 (Venus and Saturn), ''the quotient is …: this is the residue of the minutes'' (Venus).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 306)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: venus.output.ahargana
+  role: output
+  value: 4081170
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 222
+  pdf_page: 307
+  locus: VIII.18 (Venus and Saturn), p. 222, 'Solving this pulveriser, we get x = …' (Venus).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 307)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: venus.output.minutes
+  role: output
+  value: 392318660
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 222
+  pdf_page: 307
+  locus: VIII.18 (Venus and Saturn), p. 222, 'y = …' (Venus).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 307)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: venus.output.longitude
+  role: output
+  value: [10, 24, 20, 10]
+  form: rdms
+  unit: rasi_deg_min_sec
+  script: latin
+  edition_page: 222
+  pdf_page: 307
+  locus: VIII.18 (Venus and Saturn), p. 222, 'the corresponding mean longitude of Venus = … signs …° …′ …″'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 307)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: saturn.input.residue_seconds
+  role: input
+  value: 17
+  form: integer
+  unit: arcseconds
+  script: latin
+  edition_page: 221
+  pdf_page: 306
+  locus: VIII.18 (Venus and Saturn), 'Of Saturn, … seconds are found to remain intact'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 306)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: saturn.input.abraded_revolution_minutes
+  role: input
+  value: 10552608
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 222
+  pdf_page: 307
+  locus: VIII.18 (Venus and Saturn), p. 222, 'revolution-number of Saturn reduced to minutes / civil days in a yuga = … / …', the numerator.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 307)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: saturn.input.abraded_civil_days
+  role: input
+  value: 5259725
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 222
+  pdf_page: 307
+  locus: VIII.18 (Venus and Saturn), the same fraction (Saturn), the denominator.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 307)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: saturn.output.residue_minutes
+  role: output
+  value: 1490255
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 222
+  pdf_page: 307
+  locus: 'VIII.18 (Venus and Saturn), p. 222, ''the quotient is …: this is the residue of the minutes'' (Saturn).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 307)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: saturn.output.ahargana
+  role: output
+  value: 3308510
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 222
+  pdf_page: 307
+  locus: VIII.18 (Venus and Saturn), p. 222, 'we get x = …' (Saturn).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 307)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: saturn.output.minutes
+  role: output
+  value: 6637877
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 222
+  pdf_page: 307
+  locus: VIII.18 (Venus and Saturn), p. 222, 'y = …' (Saturn).
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 307)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: saturn.output.longitude
+  role: output
+  value: [3, 21, 17, 17]
+  form: rdms
+  unit: rasi_deg_min_sec
+  script: latin
+  edition_page: 222
+  pdf_page: 307
+  locus: VIII.18 (Venus and Saturn), p. 222, 'the mean longitude of Saturn = … signs …° …′ …″'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 307)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''

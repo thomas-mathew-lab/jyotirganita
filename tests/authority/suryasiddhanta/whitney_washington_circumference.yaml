@@ -1,0 +1,147 @@
+id: authority/suryasiddhanta/whitney_washington_circumference
+methods: [suryasiddhanta]
+class: editor_computed
+source: suryasiddhanta_burgess_1860
+edition_page: 184
+pdf_page: 45
+locus: Whitney's note on i.59-60, the paragraph from "The latitude of Washington being" to "as 3936.75 yojanas." (three lines), printed p. 184.
+rounding: not stated
+precision: hundredths of a yojana; minutes of arc (the sine)
+datum_keys: [texts.suryasiddhanta.yojana_scale.statement.i59.suryasiddhanta_burgess_1860, texts.suryasiddhanta.yojana_scale.i59.n1.suryasiddhanta_burgess_1860, texts.suryasiddhanta.yojana_scale.i59.n2.suryasiddhanta_burgess_1860, texts.suryasiddhanta.yojana_scale.i59.n3.suryasiddhanta_burgess_1860, texts.suryasiddhanta.procedures.desantara.rule]
+notes: 'Applies i.60: the circumference at Washington = earth''s circumference x sine of co-latitude / radius, as the proportion 3438 : 2675 :: 5059.64 : 3936.75. Note the circumference here is printed 5059.64 (the suryasiddhanta_burgess_1860_reprint erratum''s corrected figure), while p. 183 prints 5059.556. No suryasiddhanta_burgess_1860_reprint erratum falls on suryasiddhanta_burgess_1860 PDF 45 (suryasiddhanta_burgess_1860_reprint p. 40). First read lat-a, fixture file sha256 dd6946fd.'
+values:
+- name: input.washington.latitude
+  role: input
+  value: [38, 54]
+  form: sexagesimal
+  unit: degrees_minutes
+  script: latin
+  edition_page: 184
+  pdf_page: 45
+  locus: line 1 of the paragraph, after "The latitude of Washington being"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 150, 355, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 dd6946fd); suryasiddhanta_burgess_1860_p45_600dpi_r1c2_clip40-150.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 150, 355, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.washington.sine_colatitude
+  role: input
+  value: 2675
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 184
+  pdf_page: 45
+  locus: line 2, "is …;" after "the sine of its co-latitude"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 150, 201.5, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 dd6946fd); suryasiddhanta_burgess_1860_p45_600dpi_r1c1_clip40-150.png
+  status: double_read
+  notes: 'printed with a minute mark; restated as the second term of the proportion on the same line (not keyed again). locus as first keyed: line 2, "is 2675′;" after "the sine of its co-latitude"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 150, 201.5, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.radius
+  role: input
+  value: 3438
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 184
+  pdf_page: 45
+  locus: line 2, first term of "the proportion …"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 150, 201.5, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 dd6946fd); suryasiddhanta_burgess_1860_p45_600dpi_r1c1_clip40-150.png
+  status: double_read
+  notes: 'printed without a unit mark (the radius in minutes). locus as first keyed: line 2, first term of "the proportion 3438: 2675:: 5059.64: 3936.75"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [40, 150, 201.5, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.earth.circumference
+  role: input
+  value: '5059.64'
+  form: fraction
+  unit: yojanas
+  script: latin
+  edition_page: 184
+  pdf_page: 45
+  locus: line 2, third term of the proportion
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 150, 355, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 dd6946fd); suryasiddhanta_burgess_1860_p45_600dpi_r1c2_clip40-150.png
+  status: double_read
+  notes: printed without a unit in the proportion.
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 150, 355, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.washington.circumference
+  role: output
+  value: '3936.75'
+  form: fraction
+  unit: yojanas
+  script: latin
+  edition_page: 184
+  pdf_page: 45
+  locus: line 2, fourth term of the proportion; restated on line 3, "the earth's circumference at Washington as … yojanas."
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 150, 355, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 dd6946fd); suryasiddhanta_burgess_1860_p45_600dpi_r1c2_clip40-150.png
+  status: double_read
+  notes: 'the restatement on line 3 (with "yojanas") reads the same and is not keyed again. locus as first keyed: line 2, fourth term of the proportion; restated on line 3, "the earth''s circumference at Washington as 3936.75 yojanas."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 600
+    clip: [193.5, 150, 355, 240]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

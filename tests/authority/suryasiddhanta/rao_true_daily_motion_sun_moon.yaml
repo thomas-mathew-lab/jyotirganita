@@ -1,0 +1,903 @@
+id: authority/suryasiddhanta/rao_true_daily_motion_sun_moon
+methods: [suryasiddhanta]
+class: editor_computed
+source: balachandra_rao_2000
+edition_page: 96
+pdf_page: 110
+locus: '§8.4, from "Example: Find the true daily motions of the Sun and the Moon on March 22, 1991." (printed p. 96, PDF 110) to "= 855′23″ = 14°15′23″" (printed p. 97, PDF 111), before the heading 8.5 (spans edition page 96-97) (spans pdf page 110-111)'
+rounding: not stated
+precision: seconds of arc; decimal minutes to four places (Sun) and to one place (Moon); degrees to four decimal places for the periphery
+datum_keys: [texts.suryasiddhanta.procedures.gati.rule.ii48.suryasiddhanta_burgess_1860]
+notes: Native resolution 300 ppi (page.py). Printed page = PDF - 14 confirmed by the running heads 96 (PDF 110) and 97 (PDF 111). Values keyed in printed order; restated figures not keyed again (noted on the first keying). The prose operators ("additive", "Hence") carry no figures. First read lat-a, fixture file sha256 fefde7c1. Edition_page 96-97 recorded as its first page, the span in the locus. Pdf_page 110-111 recorded as its first page, the span in the locus.
+values:
+- name: input.date
+  role: input
+  value: March 22, 1991
+  form: text
+  unit: date
+  script: latin
+  edition_page: 96
+  pdf_page: 110
+  locus: 'Example, lines 1-2: the whole date printed after "on", from its month name to its year (before the full stop)'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 120, 400, 364]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fefde7c1); balachandra_rao_2000_p110_300dpi_r1c1_clip50-120.png
+  status: double_read
+  notes: 'calendar date, month in words, day and year in figures; restated in (i) and (ii) "as on March 22, 1991, at the preceding midnight" / "for March 22, 1991, at the preceding midnight" (not keyed again). locus as first keyed: Example line 1-2, "on March 22, 1991."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 120, 400, 364]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: no reading changed
+- name: input.sun.mean_daily_motion
+  role: input
+  value: [59, 8]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 96
+  pdf_page: 110
+  locus: '(i), first row of the value list, "Sun''s mean daily motion : n = ……"'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 120, 400, 364]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fefde7c1); balachandra_rao_2000_p110_300dpi_r1c1_clip50-120.png
+  status: double_read
+  notes: 'printed "59′8″" here; restated as "59′08″" in the final sum (not keyed again). locus as first keyed: (i), first row of the value list, "Sun''s mean daily motion: n = 59′8″"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 120, 400, 364]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.sun.mean_longitude
+  role: input
+  value: [334, 51, 30]
+  form: sexagesimal
+  unit: degrees_minutes_seconds
+  script: latin
+  edition_page: 96
+  pdf_page: 110
+  locus: (i), value list row 2, "Sun's mean longitude"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 120, 400, 364]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fefde7c1); balachandra_rao_2000_p110_300dpi_r1c1_clip50-120.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 120, 400, 364]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.sun.apogee
+  role: input
+  value: [77, 17, 39]
+  form: sexagesimal
+  unit: degrees_minutes_seconds
+  script: latin
+  edition_page: 96
+  pdf_page: 110
+  locus: (i), value list row 3, "Sun's apogee (mandocca)"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 120, 400, 364]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fefde7c1); balachandra_rao_2000_p110_300dpi_r1c1_clip50-120.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 120, 400, 364]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.sun.mean_anomaly
+  role: input
+  value: [102, 26, 9]
+  form: sexagesimal
+  unit: degrees_minutes_seconds
+  script: latin
+  edition_page: 96
+  pdf_page: 110
+  locus: (i), value list row 4, "Sun's mean anomaly"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 120, 400, 364]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fefde7c1); balachandra_rao_2000_p110_300dpi_r1c1_clip50-120.png
+  status: double_read
+  notes: seconds printed "09"; restated in the parenthesis below and in "Since the Sun's anomaly, 102° 26′ 09″" (not keyed again)
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 120, 400, 364]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.sun.tabular_sine_difference
+  role: input
+  value: 51
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 96
+  pdf_page: 110
+  locus: '(i), value list row 5, "Tabular difference of sines : …"'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 120, 400, 364]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fefde7c1); balachandra_rao_2000_p110_300dpi_r1c1_clip50-120.png
+  status: double_read
+  notes: 'restated in the formula line "× 51 /" (not keyed again). locus as first keyed: (i), value list row 5, "Tabular difference of sines: 51′"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 120, 400, 364]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.semicircle
+  role: input
+  value: 180
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 96
+  pdf_page: 110
+  locus: parenthesis after the value list, "(corresponding to … = ..."
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 120, 400, 364]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fefde7c1); balachandra_rao_2000_p110_300dpi_r1c1_clip50-120.png
+  status: double_read
+  notes: 'restated on p. 97 in "(200°12′46″ − 180°)" (not keyed again). locus as first keyed: parenthesis after the value list, "(corresponding to 180° − 102° 26′ 09″ = ..."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 120, 400, 364]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.sun.supplement_of_anomaly
+  role: output
+  value: [77, 33, 51]
+  form: sexagesimal
+  unit: degrees_minutes_seconds
+  script: latin
+  edition_page: 96
+  pdf_page: 110
+  locus: same parenthesis, "= …"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 120, 400, 364]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fefde7c1); balachandra_rao_2000_p110_300dpi_r1c1_clip50-120.png
+  status: double_read
+  notes: 'locus as first keyed: same parenthesis, "= 77° 33′ 51″"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 120, 400, 364]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.table_ref.serial_lower
+  role: input
+  value: 20
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 96
+  pdf_page: 110
+  locus: same parenthesis, "see Table … between serial numbers …"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 120, 400, 364]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fefde7c1); balachandra_rao_2000_p110_300dpi_r1c1_clip50-120.png
+  status: double_read
+  notes: 'table row number; the table number "8.2" is a cross-reference label and is not keyed. locus as first keyed: same parenthesis, "see Table 8.2, between serial numbers 20 and 21"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 120, 400, 364]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.table_ref.serial_upper
+  role: input
+  value: 21
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 96
+  pdf_page: 110
+  locus: same parenthesis, "between serial numbers …"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 120, 400, 364]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fefde7c1); balachandra_rao_2000_p110_300dpi_r1c1_clip50-120.png
+  status: double_read
+  notes: 'table row number. locus as first keyed: same parenthesis, "between serial numbers 20 and 21"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 120, 400, 364]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.sun.corrected_periphery
+  role: input
+  value: '13.6745'
+  form: fraction
+  unit: degrees
+  script: latin
+  edition_page: 96
+  pdf_page: 110
+  locus: '"Corrected periphery of the Sun''s epicycle : P = ….…"'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 120, 400, 364]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fefde7c1); balachandra_rao_2000_p110_300dpi_r1c1_clip50-120.png
+  status: double_read
+  notes: 'printed 13°.6745 (degree sign before the decimal point); restated in the formula line (not keyed again). locus as first keyed: "Corrected periphery of the Sun''s epicycle: P = 13°.6745"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 120, 400, 364]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.formula.divisor_circle
+  role: input
+  value: 360
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 96
+  pdf_page: 110
+  locus: formula line "P × n × Tab. sin diff. / (…)"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 356, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fefde7c1); balachandra_rao_2000_p110_300dpi_r2c1_clip50-120.png
+  status: double_read
+  notes: 'restated in the next line and in the Moon formula, where it is printed "360°" in the substituted line (not keyed again). locus as first keyed: formula line "P × n × Tab. sin diff. / (360 × 225)"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 356, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.formula.divisor_sine_step
+  role: input
+  value: 225
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 96
+  pdf_page: 110
+  locus: formula line "/ (…)"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 356, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fefde7c1); balachandra_rao_2000_p110_300dpi_r2c1_clip50-120.png
+  status: double_read
+  notes: 'restated in the next line and in the Moon formula, where it is printed "225′" in the substituted line (not keyed again). locus as first keyed: formula line "/ (360 × 225)"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 356, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.sun.mean_daily_motion_decimal
+  role: input
+  value: '59.13'
+  form: fraction
+  unit: minutes
+  script: latin
+  edition_page: 96
+  pdf_page: 110
+  locus: substituted line "= ….….… / (…)"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 356, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fefde7c1); balachandra_rao_2000_p110_300dpi_r2c1_clip50-120.png
+  status: double_read
+  notes: 'printed 59′.13 (minute sign before the decimal point). locus as first keyed: substituted line "= 13°.6745 × 59′.13 × 51 / (360 × 225)"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 356, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.sun.correction_decimal
+  role: output
+  value: '0.5091'
+  form: fraction
+  unit: minutes
+  script: latin
+  edition_page: 96
+  pdf_page: 110
+  locus: result line "= ….……"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 356, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fefde7c1); balachandra_rao_2000_p110_300dpi_r2c1_clip50-120.png
+  status: double_read
+  notes: 'printed 0′.5091 (minute sign before the decimal point). locus as first keyed: result line "= 0′.5091 = 0′31″"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 356, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.sun.correction
+  role: output
+  value: [0, 31]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 96
+  pdf_page: 110
+  locus: result line, "= ……"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 356, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fefde7c1); balachandra_rao_2000_p110_300dpi_r2c1_clip50-120.png
+  status: double_read
+  notes: 'restated in the final sum "+ 0′31″" (not keyed again). locus as first keyed: result line, "= 0′31″"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 356, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.anomaly_range.lower
+  role: input
+  value: 90
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 96
+  pdf_page: 110
+  locus: '"lies between …" (Sun)'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 356, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fefde7c1); balachandra_rao_2000_p110_300dpi_r2c1_clip50-120.png
+  status: double_read
+  notes: 'restated in the Moon sentence on p. 97 (not keyed again). locus as first keyed: "lies between 90° and 270°" (Sun)'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 356, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.anomaly_range.upper
+  role: input
+  value: 270
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 96
+  pdf_page: 110
+  locus: '"lies between …" (Sun)'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 356, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fefde7c1); balachandra_rao_2000_p110_300dpi_r2c1_clip50-120.png
+  status: double_read
+  notes: 'restated in the Moon sentence on p. 97 (not keyed again). locus as first keyed: "lies between 90° and 270°" (Sun)'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 356, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.quadrant.first_named
+  role: input
+  value: 2
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 96
+  pdf_page: 110
+  locus: '"(i.e., …d and …rd quadrants)"'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 356, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fefde7c1); balachandra_rao_2000_p110_300dpi_r2c1_clip50-120.png
+  status: double_read
+  notes: 'ordinal, printed "2nd". locus as first keyed: "(i.e., 2nd and 3rd quadrants)"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 356, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.quadrant.second_named
+  role: input
+  value: 3
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 96
+  pdf_page: 110
+  locus: '"(i.e., …d and …rd quadrants)"'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 356, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fefde7c1); balachandra_rao_2000_p110_300dpi_r2c1_clip50-120.png
+  status: double_read
+  notes: 'ordinal, printed "3rd". locus as first keyed: "(i.e., 2nd and 3rd quadrants)"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 356, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.sun.true_daily_motion
+  role: output
+  value: [59, 39]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 96
+  pdf_page: 110
+  locus: '"the Sun''s true daily motion = …………."'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 356, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fefde7c1); balachandra_rao_2000_p110_300dpi_r2c1_clip50-120.png
+  status: double_read
+  notes: 'the addends restate input.sun.mean_daily_motion (printed 59′08″) and output.sun.correction. locus as first keyed: "the Sun''s true daily motion = 59′08″ + 0′31″ = 59′39″."'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 356, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.moon.mean_daily_motion
+  role: input
+  value: [790, 35]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 96
+  pdf_page: 110
+  locus: '(ii), value list row 1, "Moon''s mean daily motion : n = …"'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 356, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fefde7c1); balachandra_rao_2000_p110_300dpi_r2c1_clip50-120.png
+  status: double_read
+  notes: 'restated in the final sum on p. 97 (not keyed again). locus as first keyed: (ii), value list row 1, "Moon''s mean daily motion: n = 790′ 35″"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 356, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.moon.apogee_mean_daily_motion
+  role: input
+  value: '6.683'
+  form: fraction
+  unit: minutes
+  script: latin
+  edition_page: 96
+  pdf_page: 110
+  locus: '(ii), value list row 2, "Mean daily motion of the Moon''s apogee : n′ = ….…"'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 356, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fefde7c1); balachandra_rao_2000_p110_300dpi_r2c1_clip50-120.png
+  status: double_read
+  notes: 'printed 6′.683 (minute sign before the decimal point); restated as "6.683′" in the substituted line on p. 97 (not keyed again). locus as first keyed: (ii), value list row 2, "Mean daily motion of the Moon''s apogee: n′ = 6′.683"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 356, 400, 600]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.moon.mean_longitude
+  role: input
+  value: [47, 44, 48]
+  form: sexagesimal
+  unit: degrees_minutes_seconds
+  script: latin
+  edition_page: 97
+  pdf_page: 111
+  locus: (ii), value list continued on p. 97, row "Moon's mean longitude"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 40, 400, 280]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fefde7c1); balachandra_rao_2000_p111_300dpi_clip50-40.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 40, 400, 280]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.moon.apogee
+  role: input
+  value: [247, 57, 34]
+  form: sexagesimal
+  unit: degrees_minutes_seconds
+  script: latin
+  edition_page: 97
+  pdf_page: 111
+  locus: row "Moon's apogee (mandocca)"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 40, 400, 280]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fefde7c1); balachandra_rao_2000_p111_300dpi_clip50-40.png
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 40, 400, 280]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.moon.mean_anomaly
+  role: input
+  value: [200, 12, 46]
+  form: sexagesimal
+  unit: degrees_minutes_seconds
+  script: latin
+  edition_page: 97
+  pdf_page: 111
+  locus: row "Moon's mean anomaly"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 40, 400, 280]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fefde7c1); balachandra_rao_2000_p111_300dpi_clip50-40.png
+  status: double_read
+  notes: restated in the next row "(200°12′46″ − 180°)" and in "Since the Moon's anomaly 200° 12′ 46″" (not keyed again)
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 40, 400, 280]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.moon.tabular_sine_difference
+  role: input
+  value: 210
+  form: integer
+  unit: minutes
+  script: latin
+  edition_page: 97
+  pdf_page: 111
+  locus: 'row "Tabular sine diff. for (………) : …"'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 40, 400, 280]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fefde7c1); balachandra_rao_2000_p111_300dpi_clip50-40.png
+  status: double_read
+  notes: 'restated in the substituted line (not keyed again). locus as first keyed: row "Tabular sine diff. for (200°12′46″ − 180°): 210′"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 40, 400, 280]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.moon.corrected_periphery
+  role: input
+  value: '31.8848'
+  form: fraction
+  unit: degrees
+  script: latin
+  edition_page: 97
+  pdf_page: 111
+  locus: 'row "Moon''s corrected periphery of the epicycle : P = ….…"'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 40, 400, 280]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fefde7c1); balachandra_rao_2000_p111_300dpi_clip50-40.png
+  status: double_read
+  notes: 'printed 31°.8848 (degree sign before the decimal point); "periphery" printed with a damaged e; restated as "31.8848°" in the substituted line (not keyed again). locus as first keyed: row "Moon''s corrected periphery of the epicycle: P = 31°.8848"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 40, 400, 280]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.moon.mean_daily_motion_decimal
+  role: input
+  value: '790.583'
+  form: fraction
+  unit: minutes
+  script: latin
+  edition_page: 97
+  pdf_page: 111
+  locus: substituted line "= (…) × … / (…)"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 40, 400, 280]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fefde7c1); balachandra_rao_2000_p111_300dpi_clip50-40.png
+  status: double_read
+  notes: 'printed 790.583′. locus as first keyed: substituted line "= (790.583′ − 6.683′) × 31.8848° × 210′ / (360° × 225′)"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 40, 400, 280]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.moon.correction_decimal
+  role: output
+  value: '64.8'
+  form: fraction
+  unit: minutes
+  script: latin
+  edition_page: 97
+  pdf_page: 111
+  locus: result line "= …"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 40, 400, 280]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fefde7c1); balachandra_rao_2000_p111_300dpi_clip50-40.png
+  status: double_read
+  notes: 'printed 64.8′. locus as first keyed: result line "= 64.8′ = 64′ 48″"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 40, 400, 280]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.moon.correction
+  role: output
+  value: [64, 48]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 97
+  pdf_page: 111
+  locus: result line, "= …"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 40, 400, 280]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fefde7c1); balachandra_rao_2000_p111_300dpi_clip50-40.png
+  status: double_read
+  notes: 'restated in the final sum "+ 64′48″" (not keyed again). locus as first keyed: result line, "= 64′ 48″"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 40, 400, 280]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.moon.true_daily_motion_minutes
+  role: output
+  value: [855, 23]
+  form: sexagesimal
+  unit: minutes_seconds
+  script: latin
+  edition_page: 97
+  pdf_page: 111
+  locus: '"The Moon''s true daily motion = ………………"'
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 265, 400, 335]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fefde7c1); balachandra_rao_2000_p111_300dpi_clip50-265.png
+  status: double_read
+  notes: 'locus as first keyed: "The Moon''s true daily motion = 790′35″ + 64′48″ = 855′23″ = 14°15′23″"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 265, 400, 335]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.moon.true_daily_motion
+  role: output
+  value: [14, 15, 23]
+  form: sexagesimal
+  unit: degrees_minutes_seconds
+  script: latin
+  edition_page: 97
+  pdf_page: 111
+  locus: same line, "= ………"
+  read:
+  - by: claude-opus-5-5/2026-10-22-r7
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 265, 400, 335]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file lat-a (sha256 fefde7c1); balachandra_rao_2000_p111_300dpi_clip50-265.png
+  status: double_read
+  notes: 'end of the extent. locus as first keyed: same line, "= 14°15′23″"'
+  second_read:
+  - by: claude-opus-5-5/2026-10-22-r9
+    on: 2026-10-22
+    dpi: 300
+    clip: [50, 265, 400, 335]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''

@@ -1,0 +1,860 @@
+- key: regions.kerala.places.kozhikode.name.gopala_varyar_1954
+  value: കോഴിക്കോട്ട്
+  form: text
+  unit: statement
+  script: malayalam
+  source: gopala_varyar_1954
+  file: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+  edition_page: 145
+  pdf_page: 162
+  locus: 'the table headed ''Latitude and Longitude'' (columns: place; latitude north, degrees and minutes; longitude east of Greenwich, degrees and minutes; printed twice across the page, a left and a right half), its left half, the 13th row counted up from the table''s last row: the place-name cell. Malayalam keyed in Unicode (NFC) as printed: chillus as the atomic letters U+0D7A–U+0D7F; the candrakkala wherever printed, word-final included (an old-style u sign with candrakkala keyed as U+0D41 U+0D4D); a conjunct as consonant–virama–consonant whether set as a ligature or as two letters side by side (the old ററ keyed റ്റ); the dot reph keyed as the chillu ർ; the vowel sign au as U+0D4C whatever its printed shape; old-style vowel signs by their Unicode reading; a word broken at a line end (no hyphen printed) joined; spacing at punctuation normalised; quotation marks as straight quotes.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 132, 204, 264]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of the page, 1x2 (gopala_varyar_1954 PDF 162)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [20, 172, 63, 181]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [20,172,104,181] 2x1 rendered --dpi 2400 --upsample, tile r1c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 4800
+    clip: [20, 172, 42, 181]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [20,172,62,181] 2x1 --overlap 2 rendered --dpi 4800 --upsample, tile r1c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 4800
+    clip: [40, 172, 62, 181]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [20,172,62,181] 2x1 --overlap 2 rendered --dpi 4800 --upsample, tile r1c2 (native 600 ppi)
+  status: read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: gopala_varyar_1954 p. 145 (PDF 162), the latitude and longitude table
+  notes: 'The place''s name in the manual''s table, which identifies the row whose coordinates the two data of this place carry. Doubtful cells: the conjunct of the fourth akṣara, read as the doubled k by comparison with the same conjunct in another row of the left half (the 4800-dpi look at [20,139,45,148]); the last akṣara is a stacked conjunct with a raised crescent, keyed with the candrakkala; no u sign is printed under it.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 2400
+    clip: [20, 172, 63, 181]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-08-r8
+      on: 2026-10-08
+      dpi: 4800
+      clip: [20, 172, 42, 181]
+      delivered_ppi: 600
+      max_edge: 2000
+      note: ''
+    matches: neither
+  read_issue: disputed
+- key: regions.kerala.places.kozhikode.latitude.gopala_varyar_1954
+  value: [11, 15]
+  form: sexagesimal
+  unit: degrees_north
+  script: latin
+  source: gopala_varyar_1954
+  file: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+  edition_page: 145
+  pdf_page: 162
+  locus: 'the table headed ''Latitude and Longitude'' (columns: place; latitude north, degrees and minutes; longitude east of Greenwich, degrees and minutes; printed twice across the page, a left and a right half), its left half, the 13th row counted up from the table''s last row: the latitude cells (degrees, minutes). The two numbers keyed as [degrees, minutes], European digits as printed; the column heads give the unit and the sense (north; east of Greenwich).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 132, 204, 264]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of the page, 1x2 (gopala_varyar_1954 PDF 162)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [61, 172, 104, 181]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [20,172,104,181] 2x1 rendered --dpi 2400 --upsample, tile r1c2 (native 600 ppi)
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: gopala_varyar_1954 p. 145 (PDF 162), the latitude and longitude table
+  notes: A modern latitude printed in a 1954 manual (class 2, cited individually).
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 132, 204, 264]
+    delivered_ppi: 600
+    note: ''
+- key: regions.kerala.places.kozhikode.longitude.gopala_varyar_1954
+  value: [75, 49]
+  form: sexagesimal
+  unit: degrees_east
+  script: latin
+  source: gopala_varyar_1954
+  file: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+  edition_page: 145
+  pdf_page: 162
+  locus: 'the table headed ''Latitude and Longitude'' (columns: place; latitude north, degrees and minutes; longitude east of Greenwich, degrees and minutes; printed twice across the page, a left and a right half), its left half, the 13th row counted up from the table''s last row: the longitude cells (degrees, minutes). The two numbers keyed as [degrees, minutes], European digits as printed; the column heads give the unit and the sense (north; east of Greenwich).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 132, 204, 264]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of the page, 1x2 (gopala_varyar_1954 PDF 162)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [61, 172, 104, 181]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [20,172,104,181] 2x1 rendered --dpi 2400 --upsample, tile r1c2 (native 600 ppi)
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: gopala_varyar_1954 p. 145 (PDF 162), the latitude and longitude table
+  notes: A modern longitude east of Greenwich printed in a 1954 manual (class 2, cited individually).
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 132, 204, 264]
+    delivered_ppi: 600
+    note: ''
+- key: regions.kerala.places.thiruvananthapuram.name.gopala_varyar_1954
+  value: തിരുവനന്തപുരം
+  form: text
+  unit: statement
+  script: malayalam
+  source: gopala_varyar_1954
+  file: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+  edition_page: 145
+  pdf_page: 162
+  locus: 'the table headed ''Latitude and Longitude'' (columns: place; latitude north, degrees and minutes; longitude east of Greenwich, degrees and minutes; printed twice across the page, a left and a right half), its right half, the 5th row counted up from the table''s last row: the place-name cell. Malayalam keyed in Unicode (NFC) as printed: chillus as the atomic letters U+0D7A–U+0D7F; the candrakkala wherever printed, word-final included (an old-style u sign with candrakkala keyed as U+0D41 U+0D4D); a conjunct as consonant–virama–consonant whether set as a ligature or as two letters side by side (the old ററ keyed റ്റ); the dot reph keyed as the chillu ർ; the vowel sign au as U+0D4C whatever its printed shape; old-style vowel signs by their Unicode reading; a word broken at a line end (no hyphen printed) joined; spacing at punctuation normalised; quotation marks as straight quotes.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 132, 204, 264]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of the page, 1x2 (gopala_varyar_1954 PDF 162)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [104, 204.5, 145, 214]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [104,204.5,184,214] 2x1 rendered --dpi 2400 --upsample, tile r1c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 4800
+    clip: [104, 204.5, 125.5, 214]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [104,204.5,145,214] 2x1 --overlap 2 rendered --dpi 4800 --upsample, tile r1c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 4800
+    clip: [123.5, 204.5, 145, 214]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [104,204.5,145,214] 2x1 --overlap 2 rendered --dpi 4800 --upsample, tile r1c2 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 7200
+    clip: [113, 205, 131, 214]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip rendered --dpi 7200 --upsample, 1x1 (native 600 ppi)
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: gopala_varyar_1954 p. 145 (PDF 162), the latitude and longitude table
+  notes: 'The place''s name in the manual''s table, which identifies the row whose coordinates the two data of this place carry. The row is set opposite a two-line row of the left half. Doubtful cells: the fifth akṣara carries a heavy dot at its foot, read as the letter''s own tail, not a separate sign; the akṣara before the anusvāra is an open loop with a faint stroke inside, read as the letter r (the 7200-dpi look at [113,205,131,214]).'
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 2400
+    clip: [104, 204.5, 145, 214]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: regions.kerala.places.thiruvananthapuram.latitude.gopala_varyar_1954
+  value: [8, 30]
+  form: sexagesimal
+  unit: degrees_north
+  script: latin
+  source: gopala_varyar_1954
+  file: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+  edition_page: 145
+  pdf_page: 162
+  locus: 'the table headed ''Latitude and Longitude'' (columns: place; latitude north, degrees and minutes; longitude east of Greenwich, degrees and minutes; printed twice across the page, a left and a right half), its right half, the 5th row counted up from the table''s last row: the latitude cells (degrees, minutes). The two numbers keyed as [degrees, minutes], European digits as printed; the column heads give the unit and the sense (north; east of Greenwich).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 132, 204, 264]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of the page, 1x2 (gopala_varyar_1954 PDF 162)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [143, 204.5, 184, 214]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [104,204.5,184,214] 2x1 rendered --dpi 2400 --upsample, tile r1c2 (native 600 ppi)
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: gopala_varyar_1954 p. 145 (PDF 162), the latitude and longitude table
+  notes: A modern latitude printed in a 1954 manual (class 2, cited individually).
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 132, 204, 264]
+    delivered_ppi: 600
+    note: ''
+- key: regions.kerala.places.thiruvananthapuram.longitude.gopala_varyar_1954
+  value: [77, 0]
+  form: sexagesimal
+  unit: degrees_east
+  script: latin
+  source: gopala_varyar_1954
+  file: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+  edition_page: 145
+  pdf_page: 162
+  locus: 'the table headed ''Latitude and Longitude'' (columns: place; latitude north, degrees and minutes; longitude east of Greenwich, degrees and minutes; printed twice across the page, a left and a right half), its right half, the 5th row counted up from the table''s last row: the longitude cells (degrees, minutes). The two numbers keyed as [degrees, minutes], European digits as printed; the column heads give the unit and the sense (north; east of Greenwich).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 132, 204, 264]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of the page, 1x2 (gopala_varyar_1954 PDF 162)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [143, 204.5, 184, 214]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [104,204.5,184,214] 2x1 rendered --dpi 2400 --upsample, tile r1c2 (native 600 ppi)
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: gopala_varyar_1954 p. 145 (PDF 162), the latitude and longitude table
+  notes: A modern longitude east of Greenwich printed in a 1954 manual (class 2, cited individually).
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 132, 204, 264]
+    delivered_ppi: 600
+    note: ''
+- key: regions.kerala.places.thrissur.name.gopala_varyar_1954
+  value: തൃശിവപേരൂർ
+  form: text
+  unit: statement
+  script: malayalam
+  source: gopala_varyar_1954
+  file: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+  edition_page: 145
+  pdf_page: 162
+  locus: 'the table headed ''Latitude and Longitude'' (columns: place; latitude north, degrees and minutes; longitude east of Greenwich, degrees and minutes; printed twice across the page, a left and a right half), its right half, the 4th row counted up from the table''s last row: the place-name cell. Malayalam keyed in Unicode (NFC) as printed: chillus as the atomic letters U+0D7A–U+0D7F; the candrakkala wherever printed, word-final included (an old-style u sign with candrakkala keyed as U+0D41 U+0D4D); a conjunct as consonant–virama–consonant whether set as a ligature or as two letters side by side (the old ററ keyed റ്റ); the dot reph keyed as the chillu ർ; the vowel sign au as U+0D4C whatever its printed shape; old-style vowel signs by their Unicode reading; a word broken at a line end (no hyphen printed) joined; spacing at punctuation normalised; quotation marks as straight quotes.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 132, 204, 264]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of the page, 1x2 (gopala_varyar_1954 PDF 162)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [104, 213, 145, 222.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [104,213,184,222.5] 2x1 rendered --dpi 2400 --upsample, tile r1c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 4800
+    clip: [104, 213, 125.5, 222.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [104,213,145,222.5] 2x1 --overlap 2 rendered --dpi 4800 --upsample, tile r1c1 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 4800
+    clip: [123.5, 213, 145, 222.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [104,213,145,222.5] 2x1 --overlap 2 rendered --dpi 4800 --upsample, tile r1c2 (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 7200
+    clip: [112, 214, 130, 222]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip rendered --dpi 7200 --upsample, 1x1 (native 600 ppi)
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: gopala_varyar_1954 p. 145 (PDF 162), the latitude and longitude table
+  notes: 'The place''s name in the manual''s table, which identifies the row whose coordinates the two data of this place carry. Doubtful cells: the vowel sign before the fifth consonant is damaged (an ink blot over its left part; only its upper arc and stem print), read as the sign ē by its place before the consonant and by its upper arc, which matches the ē sign of other rows (the 7200-dpi look at [112,214,130,222]); the sixth akṣara is a letter inside a loop that opens at its upper left, read as rū; the second akṣara is printed with a single ś (no stacked letter below).'
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 2400
+    clip: [104, 213, 145, 222.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: regions.kerala.places.thrissur.latitude.gopala_varyar_1954
+  value: [10, 25]
+  form: sexagesimal
+  unit: degrees_north
+  script: latin
+  source: gopala_varyar_1954
+  file: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+  edition_page: 145
+  pdf_page: 162
+  locus: 'the table headed ''Latitude and Longitude'' (columns: place; latitude north, degrees and minutes; longitude east of Greenwich, degrees and minutes; printed twice across the page, a left and a right half), its right half, the 4th row counted up from the table''s last row: the latitude cells (degrees, minutes). The two numbers keyed as [degrees, minutes], European digits as printed; the column heads give the unit and the sense (north; east of Greenwich).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 132, 204, 264]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of the page, 1x2 (gopala_varyar_1954 PDF 162)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [143, 213, 184, 222.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [104,213,184,222.5] 2x1 rendered --dpi 2400 --upsample, tile r1c2 (native 600 ppi)
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: gopala_varyar_1954 p. 145 (PDF 162), the latitude and longitude table
+  notes: A modern latitude printed in a 1954 manual (class 2, cited individually).
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 132, 204, 264]
+    delivered_ppi: 600
+    note: ''
+- key: regions.kerala.places.thrissur.longitude.gopala_varyar_1954
+  value: [76, 15]
+  form: sexagesimal
+  unit: degrees_east
+  script: latin
+  source: gopala_varyar_1954
+  file: gopala_varyar_1954-nitya-pancanga-ganitam.pdf
+  edition_page: 145
+  pdf_page: 162
+  locus: 'the table headed ''Latitude and Longitude'' (columns: place; latitude north, degrees and minutes; longitude east of Greenwich, degrees and minutes; printed twice across the page, a left and a right half), its right half, the 4th row counted up from the table''s last row: the longitude cells (degrees, minutes). The two numbers keyed as [degrees, minutes], European digits as printed; the column heads give the unit and the sense (north; east of Greenwich).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 132, 204, 264]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r2c1 of the page, 1x2 (gopala_varyar_1954 PDF 162)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2400
+    clip: [143, 213, 184, 222.5]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: clip [104,213,184,222.5] 2x1 rendered --dpi 2400 --upsample, tile r1c2 (native 600 ppi)
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: gopala_varyar_1954 p. 145 (PDF 162), the latitude and longitude table
+  notes: A modern longitude east of Greenwich printed in a 1954 manual (class 2, cited individually).
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 600
+    clip: [0, 132, 204, 264]
+    delivered_ppi: 600
+    note: ''
+- key: regions.kerala.places.thiruvananthapuram.observatory.longitude.travancore_almanac_1876
+  value: [76, 59, 45]
+  form: sexagesimal
+  unit: degrees_east
+  script: latin
+  source: travancore_almanac_1876
+  file: travancore_almanac_1876-travancore-almanac-1876.pdf
+  edition_page: unnumbered (Calendar, first page)
+  pdf_page: 10
+  locus: 'the ephemeris heading of the Calendar section (''An Ephemeris for the year …, adapted to the meridian of …'', the observatory named below it), the first block of lines under the observatory''s name: the first line (longitude), the arc after the equals sign, keyed as [degrees, minutes, seconds]; ''East'' printed after it.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 451
+    clip: [168.5, 0, 337, 255.5]
+    delivered_ppi: 451
+    max_edge: 2000
+    note: tile r1c2 of the page, 2x2 (travancore_almanac_1876 PDF 10)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1353
+    clip: [160, 143, 219, 163]
+    delivered_ppi: 451
+    max_edge: 2000
+    note: clip [160,143,275,163] 2x1 --overlap 3 rendered --dpi 1353 --upsample, tile r1c1 (native 451 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1353
+    clip: [216, 143, 275, 163]
+    delivered_ppi: 451
+    max_edge: 2000
+    note: the same, tile r1c2
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: travancore_almanac_1876 PDF 10, the Calendar section's ephemeris heading
+  notes: A modern coordinate of the Trivandrum Observatory printed in a Travancore almanac (class 2, cited individually).
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 451
+    clip: [168.5, 0, 337, 255.5]
+    delivered_ppi: 451
+    note: ''
+- key: regions.kerala.places.thiruvananthapuram.observatory.longitude_time.travancore_almanac_1876
+  value: [5, 7, 59]
+  form: sexagesimal
+  unit: hours_east
+  script: latin
+  source: travancore_almanac_1876
+  file: travancore_almanac_1876-travancore-almanac-1876.pdf
+  edition_page: unnumbered (Calendar, first page)
+  pdf_page: 10
+  locus: 'the ephemeris heading of the Calendar section (''An Ephemeris for the year …, adapted to the meridian of …'', the observatory named below it), the first block of lines under the observatory''s name: the first line (longitude), the time before the equals sign, keyed as [hours, minutes, seconds].'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 451
+    clip: [168.5, 0, 337, 255.5]
+    delivered_ppi: 451
+    max_edge: 2000
+    note: tile r1c2 of the page, 2x2 (travancore_almanac_1876 PDF 10)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1353
+    clip: [160, 143, 219, 163]
+    delivered_ppi: 451
+    max_edge: 2000
+    note: clip [160,143,275,163] 2x1 --overlap 3 rendered --dpi 1353 --upsample, tile r1c1 (native 451 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1353
+    clip: [216, 143, 275, 163]
+    delivered_ppi: 451
+    max_edge: 2000
+    note: the same, tile r1c2
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: travancore_almanac_1876 PDF 10, the Calendar section's ephemeris heading
+  notes: A modern coordinate of the Trivandrum Observatory printed in a Travancore almanac (class 2, cited individually). The same longitude in time; the line's own equation of time and arc is an internal check of both readings.
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 451
+    clip: [168.5, 0, 337, 255.5]
+    delivered_ppi: 451
+    note: ''
+- key: regions.kerala.places.thiruvananthapuram.observatory.latitude.travancore_almanac_1876
+  value: [8, 30, 32]
+  form: sexagesimal
+  unit: degrees_north
+  script: latin
+  source: travancore_almanac_1876
+  file: travancore_almanac_1876-travancore-almanac-1876.pdf
+  edition_page: unnumbered (Calendar, first page)
+  pdf_page: 10
+  locus: 'the ephemeris heading of the Calendar section (''An Ephemeris for the year …, adapted to the meridian of …'', the observatory named below it), the first block of lines under the observatory''s name: the second line (latitude), keyed as [degrees, minutes, seconds]; ''North'' printed after it.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 451
+    clip: [168.5, 0, 337, 255.5]
+    delivered_ppi: 451
+    max_edge: 2000
+    note: tile r1c2 of the page, 2x2 (travancore_almanac_1876 PDF 10)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1353
+    clip: [160, 143, 219, 163]
+    delivered_ppi: 451
+    max_edge: 2000
+    note: clip [160,143,275,163] 2x1 --overlap 3 rendered --dpi 1353 --upsample, tile r1c1 (native 451 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1353
+    clip: [216, 143, 275, 163]
+    delivered_ppi: 451
+    max_edge: 2000
+    note: the same, tile r1c2
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 2706
+    clip: [214, 150, 260, 165]
+    delivered_ppi: 451
+    max_edge: 2000
+    note: clip rendered --dpi 2706 --upsample, 1x1 (native 451 ppi)
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: travancore_almanac_1876 PDF 10, the Calendar section's ephemeris heading
+  notes: 'A modern coordinate of the Trivandrum Observatory printed in a Travancore almanac (class 2, cited individually). This printing is heavily inked: the 3 of the latitude''s minutes and of its seconds fills in to look like an 8; read as 3 because each counter is open to the left (the 8 of the degrees has both counters closed) on the 2706-dpi look. The latitude''s seconds differ from those of the 1900 and 1907 printings (travancore_almanac_1900, travancore_almanac_1907); recorded, not resolved.'
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 451
+    clip: [168.5, 0, 337, 255.5]
+    delivered_ppi: 451
+    note: ''
+- key: regions.kerala.places.thiruvananthapuram.observatory.longitude.travancore_almanac_1900
+  value: [76, 59, 45]
+  form: sexagesimal
+  unit: degrees_east
+  script: latin
+  source: travancore_almanac_1900
+  file: travancore_almanac_1900-travancore-almanac-1900.pdf
+  edition_page: unnumbered (Calendar, first page)
+  pdf_page: 7
+  locus: 'the ephemeris heading of the Calendar section (''An Ephemeris for the year …, adapted to the meridian of …'', the observatory named below it), the first block of lines under the observatory''s name: the first line (longitude), the arc after the equals sign, keyed as [degrees, minutes, seconds]; ''East'' printed after it.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 602
+    clip: [102.5, 0, 205, 132]
+    delivered_ppi: 602
+    max_edge: 2000
+    note: tile r1c2 of the page, 2x2 (travancore_almanac_1900 PDF 7)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1806
+    clip: [81.83, 57, 138.17, 71]
+    delivered_ppi: 602
+    max_edge: 2000
+    note: clip [30,57,190,71] 3x1 --overlap 3 rendered --dpi 1806 --upsample, tile r1c2 (native 602 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1806
+    clip: [135.17, 57, 190, 71]
+    delivered_ppi: 602
+    max_edge: 2000
+    note: the same, tile r1c3
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: travancore_almanac_1900 PDF 7, the Calendar section's ephemeris heading
+  notes: A modern coordinate of the Trivandrum Observatory printed in a Travancore almanac (class 2, cited individually).
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 602
+    clip: [102.5, 0, 205, 132]
+    delivered_ppi: 602
+    note: ''
+- key: regions.kerala.places.thiruvananthapuram.observatory.longitude_time.travancore_almanac_1900
+  value: [5, 7, 59]
+  form: sexagesimal
+  unit: hours_east
+  script: latin
+  source: travancore_almanac_1900
+  file: travancore_almanac_1900-travancore-almanac-1900.pdf
+  edition_page: unnumbered (Calendar, first page)
+  pdf_page: 7
+  locus: 'the ephemeris heading of the Calendar section (''An Ephemeris for the year …, adapted to the meridian of …'', the observatory named below it), the first block of lines under the observatory''s name: the first line (longitude), the time before the equals sign, keyed as [hours, minutes, seconds].'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 602
+    clip: [102.5, 0, 205, 132]
+    delivered_ppi: 602
+    max_edge: 2000
+    note: tile r1c2 of the page, 2x2 (travancore_almanac_1900 PDF 7)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1806
+    clip: [81.83, 57, 138.17, 71]
+    delivered_ppi: 602
+    max_edge: 2000
+    note: clip [30,57,190,71] 3x1 --overlap 3 rendered --dpi 1806 --upsample, tile r1c2 (native 602 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1806
+    clip: [135.17, 57, 190, 71]
+    delivered_ppi: 602
+    max_edge: 2000
+    note: the same, tile r1c3
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: travancore_almanac_1900 PDF 7, the Calendar section's ephemeris heading
+  notes: A modern coordinate of the Trivandrum Observatory printed in a Travancore almanac (class 2, cited individually). The same longitude in time; the line's own equation of time and arc is an internal check of both readings.
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 602
+    clip: [102.5, 0, 205, 132]
+    delivered_ppi: 602
+    note: ''
+- key: regions.kerala.places.thiruvananthapuram.observatory.latitude.travancore_almanac_1900
+  value: [8, 30, 33]
+  form: sexagesimal
+  unit: degrees_north
+  script: latin
+  source: travancore_almanac_1900
+  file: travancore_almanac_1900-travancore-almanac-1900.pdf
+  edition_page: unnumbered (Calendar, first page)
+  pdf_page: 7
+  locus: 'the ephemeris heading of the Calendar section (''An Ephemeris for the year …, adapted to the meridian of …'', the observatory named below it), the first block of lines under the observatory''s name: the second line (latitude), keyed as [degrees, minutes, seconds]; ''North'' printed after it.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 602
+    clip: [102.5, 0, 205, 132]
+    delivered_ppi: 602
+    max_edge: 2000
+    note: tile r1c2 of the page, 2x2 (travancore_almanac_1900 PDF 7)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1806
+    clip: [81.83, 57, 138.17, 71]
+    delivered_ppi: 602
+    max_edge: 2000
+    note: clip [30,57,190,71] 3x1 --overlap 3 rendered --dpi 1806 --upsample, tile r1c2 (native 602 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1806
+    clip: [135.17, 57, 190, 71]
+    delivered_ppi: 602
+    max_edge: 2000
+    note: the same, tile r1c3
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: travancore_almanac_1900 PDF 7, the Calendar section's ephemeris heading
+  notes: A modern coordinate of the Trivandrum Observatory printed in a Travancore almanac (class 2, cited individually).
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 602
+    clip: [102.5, 0, 205, 132]
+    delivered_ppi: 602
+    note: ''
+- key: regions.kerala.places.thiruvananthapuram.observatory.longitude.travancore_almanac_1907
+  value: [76, 59, 45]
+  form: sexagesimal
+  unit: degrees_east
+  script: latin
+  source: travancore_almanac_1907
+  file: travancore_almanac_1907-travancore-almanac-1907.pdf
+  edition_page: unnumbered (Calendar, first page)
+  pdf_page: 10
+  locus: 'the ephemeris heading of the Calendar section (''An Ephemeris for the year …, adapted to the meridian of …'', the observatory named below it), the first block of lines under the observatory''s name: the first line (longitude), the arc after the equals sign, keyed as [degrees, minutes, seconds]; ''East'' printed after it.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 601
+    clip: [104, 0, 208, 133]
+    delivered_ppi: 601
+    max_edge: 2000
+    note: tile r1c2 of the page, 2x2 (travancore_almanac_1907 PDF 10)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1803
+    clip: [95, 74, 141.5, 90]
+    delivered_ppi: 601
+    max_edge: 2000
+    note: clip [95,74,185,90] 2x1 --overlap 3 rendered --dpi 1803 --upsample, tile r1c1 (native 601 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1803
+    clip: [138.5, 74, 185, 90]
+    delivered_ppi: 601
+    max_edge: 2000
+    note: the same, tile r1c2
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: travancore_almanac_1907 PDF 10, the Calendar section's ephemeris heading
+  notes: A modern coordinate of the Trivandrum Observatory printed in a Travancore almanac (class 2, cited individually). The 5 of the longitude's arc minutes is a broken type (its upper bar and stem faint); read as 5 by its bowl, and the time and arc forms printed on the line agree with it.
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 601
+    clip: [104, 0, 208, 133]
+    delivered_ppi: 601
+    note: ''
+- key: regions.kerala.places.thiruvananthapuram.observatory.longitude_time.travancore_almanac_1907
+  value: [5, 7, 59]
+  form: sexagesimal
+  unit: hours_east
+  script: latin
+  source: travancore_almanac_1907
+  file: travancore_almanac_1907-travancore-almanac-1907.pdf
+  edition_page: unnumbered (Calendar, first page)
+  pdf_page: 10
+  locus: 'the ephemeris heading of the Calendar section (''An Ephemeris for the year …, adapted to the meridian of …'', the observatory named below it), the first block of lines under the observatory''s name: the first line (longitude), the time before the equals sign, keyed as [hours, minutes, seconds].'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 601
+    clip: [104, 0, 208, 133]
+    delivered_ppi: 601
+    max_edge: 2000
+    note: tile r1c2 of the page, 2x2 (travancore_almanac_1907 PDF 10)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1803
+    clip: [95, 74, 141.5, 90]
+    delivered_ppi: 601
+    max_edge: 2000
+    note: clip [95,74,185,90] 2x1 --overlap 3 rendered --dpi 1803 --upsample, tile r1c1 (native 601 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1803
+    clip: [138.5, 74, 185, 90]
+    delivered_ppi: 601
+    max_edge: 2000
+    note: the same, tile r1c2
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: travancore_almanac_1907 PDF 10, the Calendar section's ephemeris heading
+  notes: A modern coordinate of the Trivandrum Observatory printed in a Travancore almanac (class 2, cited individually). The same longitude in time; the line's own equation of time and arc is an internal check of both readings.
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 601
+    clip: [104, 0, 208, 133]
+    delivered_ppi: 601
+    note: ''
+- key: regions.kerala.places.thiruvananthapuram.observatory.latitude.travancore_almanac_1907
+  value: [8, 30, 33]
+  form: sexagesimal
+  unit: degrees_north
+  script: latin
+  source: travancore_almanac_1907
+  file: travancore_almanac_1907-travancore-almanac-1907.pdf
+  edition_page: unnumbered (Calendar, first page)
+  pdf_page: 10
+  locus: 'the ephemeris heading of the Calendar section (''An Ephemeris for the year …, adapted to the meridian of …'', the observatory named below it), the first block of lines under the observatory''s name: the second line (latitude), keyed as [degrees, minutes, seconds]; ''North'' printed after it.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 601
+    clip: [104, 0, 208, 133]
+    delivered_ppi: 601
+    max_edge: 2000
+    note: tile r1c2 of the page, 2x2 (travancore_almanac_1907 PDF 10)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1803
+    clip: [95, 74, 141.5, 90]
+    delivered_ppi: 601
+    max_edge: 2000
+    note: clip [95,74,185,90] 2x1 --overlap 3 rendered --dpi 1803 --upsample, tile r1c1 (native 601 ppi)
+  - by: claude-opus-5-5/2026-10-08-r6
+    on: 2026-10-08
+    dpi: 1803
+    clip: [138.5, 74, 185, 90]
+    delivered_ppi: 601
+    max_edge: 2000
+    note: the same, tile r1c2
+  status: double_read
+  verified_by: []
+  emendation: null
+  basis: stated
+  basis_ref: travancore_almanac_1907 PDF 10, the Calendar section's ephemeris heading
+  notes: A modern coordinate of the Trivandrum Observatory printed in a Travancore almanac (class 2, cited individually).
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r12
+    on: 2026-10-08
+    dpi: 601
+    clip: [104, 0, 208, 133]
+    delivered_ppi: 601
+    note: ''
+- key: regions.kerala.places.thalassery.coordinates
+  status: gap
+  reason: no held source prints a latitude or longitude for Thalassery as searched
+  searched: gopala_varyar_1954 p. 145 (PDF 162) paged whole; calendar_reform_committee_1955, rashtriya_panchanga_1959 and the indian_astronomical_ephemeris volumes 2018–2022 (generated sidecars; indian_astronomical_ephemeris's place table, 2022 PDF 374–377, paged); travancore_panchangam_1921 and basel_panchangam_1868 (sidecars, Malayalam stems); travancore_almanac_1876, travancore_almanac_1900, travancore_almanac_1907
+  effect: Thalassery is served by no method (route (b) needs a printed coordinate); the library author's answer leaves it a gap, no fetch
+- key: regions.kerala.places.kochi.coordinates
+  status: gap
+  reason: no held source prints a latitude or longitude for Kochi as searched
+  searched: gopala_varyar_1954 p. 145 (PDF 162) paged whole; calendar_reform_committee_1955, rashtriya_panchanga_1959 and the indian_astronomical_ephemeris volumes 2018–2022 (generated sidecars; indian_astronomical_ephemeris's place table, 2022 PDF 374–377, paged); travancore_panchangam_1921 and basel_panchangam_1868 (sidecars, Malayalam stems); travancore_almanac_1876, travancore_almanac_1900, travancore_almanac_1907
+  effect: Kochi is served by no method (route (b) needs a printed coordinate); the library author's answer leaves it a gap, no fetch
+- key: regions.kerala.places.kozhikode.palabha
+  status: gap
+  reason: no held source prints a palabhā (equinoctial shadow) or a yojana offset from the texts' meridian for this place as searched
+  searched: gopala_varyar_1954 p. 145 (PDF 162) paged whole; calendar_reform_committee_1955, rashtriya_panchanga_1959 and the indian_astronomical_ephemeris volumes 2018–2022 (generated sidecars; indian_astronomical_ephemeris's place table, 2022 PDF 374–377, paged); travancore_panchangam_1921 and basel_panchangam_1868 (sidecars, Malayalam stems); travancore_almanac_1876, travancore_almanac_1900, travancore_almanac_1907; laghubhaskariya_1963, mahabhaskariya_1960, aryabhatiya_1976 vol. 1 and grahacaranibandhana_1954 for place values
+  effect: route (a) (the text's own units) does not serve this place; a method reaches it only by route (b), from a printed modern coordinate through the text's own rules
+- key: regions.kerala.places.thiruvananthapuram.palabha
+  status: gap
+  reason: no held source prints a palabhā (equinoctial shadow) or a yojana offset from the texts' meridian for this place as searched
+  searched: gopala_varyar_1954 p. 145 (PDF 162) paged whole; calendar_reform_committee_1955, rashtriya_panchanga_1959 and the indian_astronomical_ephemeris volumes 2018–2022 (generated sidecars; indian_astronomical_ephemeris's place table, 2022 PDF 374–377, paged); travancore_panchangam_1921 and basel_panchangam_1868 (sidecars, Malayalam stems); travancore_almanac_1876, travancore_almanac_1900, travancore_almanac_1907; laghubhaskariya_1963, mahabhaskariya_1960, aryabhatiya_1976 vol. 1 and grahacaranibandhana_1954 for place values
+  effect: route (a) (the text's own units) does not serve this place; a method reaches it only by route (b), from a printed modern coordinate through the text's own rules
+- key: regions.kerala.places.thrissur.palabha
+  status: gap
+  reason: no held source prints a palabhā (equinoctial shadow) or a yojana offset from the texts' meridian for this place as searched
+  searched: gopala_varyar_1954 p. 145 (PDF 162) paged whole; calendar_reform_committee_1955, rashtriya_panchanga_1959 and the indian_astronomical_ephemeris volumes 2018–2022 (generated sidecars; indian_astronomical_ephemeris's place table, 2022 PDF 374–377, paged); travancore_panchangam_1921 and basel_panchangam_1868 (sidecars, Malayalam stems); travancore_almanac_1876, travancore_almanac_1900, travancore_almanac_1907; laghubhaskariya_1963, mahabhaskariya_1960, aryabhatiya_1976 vol. 1 and grahacaranibandhana_1954 for place values
+  effect: route (a) (the text's own units) does not serve this place; a method reaches it only by route (b), from a printed modern coordinate through the text's own rules
+- key: regions.kerala.places.thalassery.palabha
+  status: gap
+  reason: no held source prints a palabhā (equinoctial shadow) or a yojana offset from the texts' meridian for this place as searched
+  searched: gopala_varyar_1954 p. 145 (PDF 162) paged whole; calendar_reform_committee_1955, rashtriya_panchanga_1959 and the indian_astronomical_ephemeris volumes 2018–2022 (generated sidecars; indian_astronomical_ephemeris's place table, 2022 PDF 374–377, paged); travancore_panchangam_1921 and basel_panchangam_1868 (sidecars, Malayalam stems); travancore_almanac_1876, travancore_almanac_1900, travancore_almanac_1907; laghubhaskariya_1963, mahabhaskariya_1960, aryabhatiya_1976 vol. 1 and grahacaranibandhana_1954 for place values
+  effect: route (a) (the text's own units) does not serve this place; a method reaches it only by route (b), from a printed modern coordinate through the text's own rules
+- key: regions.kerala.places.kochi.palabha
+  status: gap
+  reason: no held source prints a palabhā (equinoctial shadow) or a yojana offset from the texts' meridian for this place as searched
+  searched: gopala_varyar_1954 p. 145 (PDF 162) paged whole; calendar_reform_committee_1955, rashtriya_panchanga_1959 and the indian_astronomical_ephemeris volumes 2018–2022 (generated sidecars; indian_astronomical_ephemeris's place table, 2022 PDF 374–377, paged); travancore_panchangam_1921 and basel_panchangam_1868 (sidecars, Malayalam stems); travancore_almanac_1876, travancore_almanac_1900, travancore_almanac_1907; laghubhaskariya_1963, mahabhaskariya_1960, aryabhatiya_1976 vol. 1 and grahacaranibandhana_1954 for place values
+  effect: route (a) (the text's own units) does not serve this place; a method reaches it only by route (b), from a printed modern coordinate through the text's own rules

@@ -1,0 +1,169 @@
+id: authority/aryabhatiya/mahabhaskariya_1960_ch8_19_mars_moon_sum
+methods: [aryabhatiya]
+class: editor_computed
+source: mahabhaskariya_1960
+file: mahabhaskariya_1960-mahabhaskariya-shukla-1960.pdf
+edition_page: 222
+pdf_page: 307
+locus: VIII.19 and Shukla's solution ('The following is the solution of this example'), p. 222 (PDF 307)
+rounding: none (integers)
+precision: integers, as printed
+datum_keys: [texts.aryabhatiya.mars.revolutions, texts.aryabhatiya.moon.revolutions, texts.aryabhatiya.civil_days.laghubhaskariya_1963, texts.aryabhatiya.procedures.residue.from_longitude.mahabhaskariya_1960]
+notes: 'The question is Bhāskara I''s (mahabhaskariya_1960 ch. VIII); the solution and its figures are Shukla''s (editor_computed). A pulveriser: the test checks the printed pair against the keyed revolution number and civil days, not the solving. Footnote 1: ''For Govinda Svāmī''s modification of this example, see supra, chapter I, under stanza 52.'' (mahabhaskariya_1960 p. 43, PDF 128).'
+values:
+- name: input.sum_longitude
+  role: input
+  value: [5, 7, 9]
+  form: rdms
+  unit: rasi_deg_min
+  script: latin
+  edition_page: 222
+  pdf_page: 307
+  locus: VIII.19 (Mars and the Moon), 'The sum of the (mean) longitudes of Mars and the Moon is calculated to be … signs, … degrees, and … minutes'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 307)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.sum_minutes
+  role: output
+  value: 9429
+  form: integer
+  unit: arcminutes
+  script: latin
+  edition_page: 222
+  pdf_page: 307
+  locus: VIII.19 (Mars and the Moon), '= … signs …° …′ = …′'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 307)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.abraded_revolution_sum
+  role: input
+  value: 1000836
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 222
+  pdf_page: 307
+  locus: VIII.19 (Mars and the Moon), 'sum of the revolution-numbers of Mars and the Moon / civil days in a yuga = … / …', the numerator.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 307)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: input.abraded_civil_days
+  role: input
+  value: 26298625
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 222
+  pdf_page: 307
+  locus: VIII.19 (Mars and the Moon), the same fraction, the denominator.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r2c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 307)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 202.67, 380, 397.33]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.residue
+  role: output
+  value: 11480080
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 222
+  pdf_page: 307
+  locus: 'VIII.19 (Mars and the Moon), ''the quotient is …: this is the residue of the revolutions''.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 307)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: output.ahargana
+  role: output
+  value: 5646655
+  form: integer
+  unit: none
+  script: latin
+  edition_page: 222
+  pdf_page: 307
+  locus: VIII.19 (Mars and the Moon), 'Solving the pulveriser, we get x = …'.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r3c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 307)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 389.33, 380, 580]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''

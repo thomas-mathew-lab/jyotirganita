@@ -1,0 +1,19 @@
+preset: suryasiddhanta_paramesvara_recension_kerala
+header:
+  represents: The Sūrya-siddhānta as the text stands in Shukla's edition with Parameśvara's commentary (suryasiddhanta_paramesvara_1957), the method suryasiddhanta_paramesvara_recension (the computation of suryasiddhanta_kerala with the Moon's apogee and node revolutions of suryasiddhanta_paramesvara_1957's text), at the text's sunrise and the observer's place, under the Kerala profile's conventions (regions/kerala/conventions.yaml), created for the dating of Kerala records.
+  hypothesis: That a Kerala reckoner computed by this recension and named its months by the Kerala profile's month rule; no almanac is claimed to have printed this computation, and Parameśvara's Kerala corrections (laghu-yuga, hārāvayava, dṛgbheda) are not in it. The effective composition date is the vulgate's (the recension's own date is a gap, texts.suryasiddhanta.composed.recension.suryasiddhanta_paramesvara_1957). The month rule is the profile's default aparāhna rule (provisional on sewell_dikshit_1896's statement alone), following_day selectable; the Kollam year starts at Siṃha by default, Kanyā selectable.
+  range: docs/verification.md prints the computed date range (from the method's runs_from, no upper end) and the effective composition date; neither is typed here.
+method: suryasiddhanta_paramesvara_recension
+variants: {}
+conventions: kerala
+time_standard: text_local:suryasiddhanta
+intraday: intraday.linear_gati
+sunrise: text
+output:
+  elements: [tithi, nakshatra, yoga, karana]
+  scripts: [latin]
+engine_data:
+  text: suryasiddhanta
+  layers: []
+observer:
+  required: true

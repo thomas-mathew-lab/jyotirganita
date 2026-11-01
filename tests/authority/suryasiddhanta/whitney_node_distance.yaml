@@ -1,0 +1,363 @@
+id: authority/suryasiddhanta/whitney_node_distance
+methods: [suryasiddhanta]
+class: editor_computed
+source: suryasiddhanta_burgess_1860
+edition_page: 229
+pdf_page: 90
+locus: 'note on ii.57-58 (continued from p. 228), suryasiddhanta_burgess_1860 printed p. 229 (PDF 90): two paragraphs, from "Thus, for instance, the position of Jupiter''s node upon the … of January, …" to "the distance remains, as before, …° …''", and from "Thus, for instance, the longitude of Mercury''s conjunction at the given time" to "the distance is, as before, …s …° …''."'
+rounding: all figures to whole minutes
+precision: minutes of arc
+datum_keys: [texts.suryasiddhanta.procedures.latitude.rule]
+notes: 'Not listed in the TASK: Whitney''s worked distances from the node, which feed the latitude table of p. 230 (fixture whitney_latitude): Jupiter by the heliocentric route and by the Hindu method (corrected node), Mercury by applying the third-process equation of the apsis to the conjunction or, by the Hindu method, to the node. Keyed as a proposed fixture. Page references (''see p. 216'', ''see p. 214'', ''see i. 41-44'') not keyed. Proposed by the reader: True.'
+values:
+- name: input.jupiter_node_longitude
+  role: input
+  value: [2, 19, 40]
+  form: rdms
+  unit: signs_degrees_minutes
+  script: latin
+  edition_page: 229
+  pdf_page: 90
+  locus: 'para. "Thus, for instance, the position of Jupiter''s node", line 3: "to be …s …° …''"; rdms [signs, deg, min]'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 125, 204, 200]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [55,125,345,200] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_node_distance.yaml (sha256 4ac1fa29)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 125, 204, 200]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.jupiter_heliocentric_longitude
+  role: input
+  value: [3, 1, 6]
+  form: rdms
+  unit: signs_degrees_minutes
+  script: latin
+  edition_page: 229
+  pdf_page: 90
+  locus: 'same para., lines 4-5: "is …s …° …''"; rdms'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 125, 345, 200]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [55,125,345,200] 2x1 --overlap 8 (the 3s begins at the end of r1c1); first-read fixture file k9/fixtures/whitney_node_distance.yaml (sha256 4ac1fa29)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 125, 345, 200]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.jupiter_heliocentric_node_distance
+  role: output
+  value: [11, 26]
+  form: sexagesimal
+  unit: degrees_minutes
+  script: latin
+  edition_page: 229
+  pdf_page: 90
+  locus: 'same para., line 6: "accordingly, …° …''"; [deg, min]'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 125, 345, 200]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [55,125,345,200] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_node_distance.yaml (sha256 4ac1fa29)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 125, 345, 200]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.jupiter_geocentric_longitude
+  role: input
+  value: [3, 4, 11]
+  form: rdms
+  unit: signs_degrees_minutes
+  script: latin
+  edition_page: 229
+  pdf_page: 90
+  locus: 'same para., line 7: "true geocentric place is …s …° …''"; rdms'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 125, 345, 200]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [55,125,345,200] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_node_distance.yaml (sha256 4ac1fa29)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 125, 345, 200]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.jupiter_corrected_node_longitude
+  role: input
+  value: [2, 22, 45]
+  form: rdms
+  unit: signs_degrees_minutes
+  script: latin
+  edition_page: 229
+  pdf_page: 90
+  locus: 'same para., line 8: "tude of its node is …s …° …''"; rdms'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 192, 204, 215]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [55,192,345,215] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_node_distance.yaml (sha256 4ac1fa29)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 192, 204, 215]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.jupiter_node_distance_hindu
+  role: output
+  value: [11, 26]
+  form: sexagesimal
+  unit: degrees_minutes
+  script: latin
+  edition_page: 229
+  pdf_page: 90
+  locus: 'same para., line 8: "the distance remains, as before, …° …''"; [deg, min]'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 192, 345, 215]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [55,192,345,215] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_node_distance.yaml (sha256 4ac1fa29)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 192, 345, 215]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.mercury_conjunction_longitude
+  role: input
+  value: [4, 16, 57]
+  form: rdms
+  unit: signs_degrees_minutes
+  script: latin
+  edition_page: 229
+  pdf_page: 90
+  locus: 'para. "Thus, for instance, the longitude of Mercury''s conjunction", line 2: "(see p. …) …s …° …''"; rdms'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 462, 204, 548]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [55,462,345,548] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_node_distance.yaml (sha256 4ac1fa29)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 462, 204, 548]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.mercury_apsis_equation
+  role: input
+  value: [2, 2]
+  form: sexagesimal
+  unit: degrees_minutes
+  script: latin
+  edition_page: 229
+  pdf_page: 90
+  locus: 'same para., line 2: "from this subtract …° …''"; [deg, min]'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 462, 345, 548]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [55,462,345,548] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_node_distance.yaml (sha256 4ac1fa29)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 462, 345, 548]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mercury_equated_conjunction
+  role: output
+  value: [4, 14, 55]
+  form: rdms
+  unit: signs_degrees_minutes
+  script: latin
+  edition_page: 229
+  pdf_page: 90
+  locus: 'same para., line 4: "is …s …° …''"; rdms'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 462, 204, 548]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [55,462,345,548] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_node_distance.yaml (sha256 4ac1fa29)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 462, 204, 548]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.mercury_node_longitude
+  role: input
+  value: [20, 41]
+  form: sexagesimal
+  unit: degrees_minutes
+  script: latin
+  edition_page: 229
+  pdf_page: 90
+  locus: 'same para., line 5: "which is …° …''"; [deg, min]'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 462, 204, 548]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [55,462,345,548] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_node_distance.yaml (sha256 4ac1fa29)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 462, 204, 548]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mercury_node_distance
+  role: output
+  value: [3, 24, 14]
+  form: rdms
+  unit: signs_degrees_minutes
+  script: latin
+  edition_page: 229
+  pdf_page: 90
+  locus: 'same para., line 6: "to be …s …° …''"; rdms'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 462, 204, 548]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [55,462,345,548] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_node_distance.yaml (sha256 4ac1fa29)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 462, 204, 548]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mercury_equated_node
+  role: output
+  value: [22, 43]
+  form: sexagesimal
+  unit: degrees_minutes
+  script: latin
+  edition_page: 229
+  pdf_page: 90
+  locus: 'same para., line 7: "its equated longitude is …° …''"; [deg, min]'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 462, 345, 548]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [55,462,345,548] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_node_distance.yaml (sha256 4ac1fa29)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 462, 345, 548]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.mercury_node_distance_hindu
+  role: output
+  value: [3, 24, 14]
+  form: rdms
+  unit: signs_degrees_minutes
+  script: latin
+  edition_page: 229
+  pdf_page: 90
+  locus: 'same para., line 9: "the distance is, as before, …s …° …''"; rdms'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r10
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 462, 204, 548]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [55,462,345,548] 2x1 --overlap 8; first-read fixture file k9/fixtures/whitney_node_distance.yaml (sha256 4ac1fa29)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r15
+    on: 2026-10-11
+    dpi: 600
+    clip: [55, 462, 204, 548]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

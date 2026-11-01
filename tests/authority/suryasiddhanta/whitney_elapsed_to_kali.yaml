@@ -1,0 +1,347 @@
+id: authority/suryasiddhanta/whitney_elapsed_to_kali
+methods: [suryasiddhanta]
+class: editor_computed
+source: suryasiddhanta_burgess_1860
+edition_page: 173
+pdf_page: 34
+locus: 'p. 173 (PDF 34): vv. 46-47 translation from "…. The … Ages" to "… solar years."; note under v. 48 from "As the Surya-Siddhanta professes" to "Total from end of creation to April, …"'
+rounding: whole years
+precision: integers (years)
+datum_keys: [texts.suryasiddhanta.procedures.epoch.any_yuga]
+notes: 'Under vv. 45-47 Whitney prints no steps: he writes "We have already presented this computation, in full, in the notes to verses 23 and 24." (p. 173), so the steps to the end of the Golden Age are not on PDF 33-34 (not keyed here; in the notes to vv. 23-24, outside this TASK). The steps printed are under v. 48: the sum from the end of creation to the end of the last Golden Age, plus the Silver and Brazen Ages, plus 4960 years of the Iron Age, to April 1859. The beginning of the Iron Age (end of creation to Kali start) is not printed as its own figure. Values in words are the verse translation (vv. 46-47); the rest are Whitney''s note. PDF 33 (p. 172) holds only v. 45''s translation (no figure).'
+values:
+- name: input.ages_past
+  role: input
+  value: 27
+  form: integer
+  unit: mahayugas
+  script: latin
+  edition_page: 173
+  pdf_page: 34
+  locus: 'v. 46 translation, line 1: "The … Ages (yuga) that are past"; integer'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [30, 40, 203, 140]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [30,40,370,140] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_elapsed_to_kali.yaml (sha256 3cf970ff)
+  status: double_read
+  notes: printed in words; verse translation
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.v47.elapsed_to_end_of_golden_age
+  role: output
+  value: 1953720000
+  form: integer
+  unit: solar_years
+  script: latin
+  edition_page: 173
+  pdf_page: 34
+  locus: 'v. 47 translation, lines 2-3: "… solar years"; integer'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [197, 40, 370, 140]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [30,40,370,140] 2x1 --overlap 6; words span both tiles of the clip; first-read fixture file k7/fixtures/whitney_elapsed_to_kali.yaml (sha256 3cf970ff)
+  status: double_read
+  notes: printed in words; verse translation (the text's own result, stated as the time elapsed at the end of the Golden Age)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [15, 20, 385, 219]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.epoch.julian_period_date
+  role: input
+  value: Feb. 18, 1612 J. P.
+  form: text
+  unit: none
+  script: latin
+  edition_page: 173
+  pdf_page: 34
+  locus: 'note under v. 48, line 9: the date in the Julian Period, from the month''s abbreviation through the era abbreviation that closes it, before the words ''or'' and the equivalent in another era (outside the extent); date as printed, spacing normalised'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [207, 262, 370, 382]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [50,262,370,382] 2x1 --overlap 6 and tile r1c2 of clip [50,262,370,382] 2x1 --overlap 6 (the line spans both); first-read fixture file k7/fixtures/whitney_elapsed_to_kali.yaml (sha256 3cf970ff)
+  status: double_read
+  notes: date as printed; the page names the Julian Period, no calendar stated beyond that
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-11-r11
+      on: 2026-10-11
+      dpi: 600
+      clip: [207, 262, 370, 382]
+      delivered_ppi: 600
+      max_edge: 2000
+      note: 'truncated to the extent by the review ruling 7 (not re-read): the look keyed on to the equivalent in another era, outside the extent; within it, it matches the second read'
+    matches: second_read
+- name: input.epoch.year_bc
+  role: input
+  value: 3102
+  form: integer
+  unit: year_bc
+  script: latin
+  edition_page: 173
+  pdf_page: 34
+  locus: 'note under v. 48, line 9: "or … B. C."; year as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [207, 262, 370, 382]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [50,262,370,382] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_elapsed_to_kali.yaml (sha256 3cf970ff)
+  status: double_read
+  notes: era B.C. as printed; calendar not stated on the line
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.date_of_count
+  role: input
+  value: the eleventh of April, 1859
+  form: text
+  unit: none
+  script: latin
+  edition_page: 173
+  pdf_page: 34
+  locus: 'note under v. 48, line 10: "upon …"; date as printed'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [207, 262, 370, 382]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [50,262,370,382] 2x1 --overlap 6 and tile r1c2 of clip [50,262,370,382] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_elapsed_to_kali.yaml (sha256 3cf970ff)
+  status: double_read
+  notes: calendar not stated on the line
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.iron_age_years_elapsed
+  role: input
+  value: 4960
+  form: integer
+  unit: sidereal_years
+  script: latin
+  edition_page: 173
+  pdf_page: 34
+  locus: 'note under v. 48, line 11: "the number of … complete sidereal years of the Iron Age"; integer'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [50, 262, 213, 382]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c1 of clip [50,262,370,382] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_elapsed_to_kali.yaml (sha256 3cf970ff)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.creation_to_end_of_last_golden_age
+  role: output
+  value: 1953720000
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 173
+  pdf_page: 34
+  locus: computation block line 1 "From end of creation to end of last Golden Age," right column; integer, grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [207, 262, 370, 382]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [50,262,370,382] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_elapsed_to_kali.yaml (sha256 3cf970ff)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.silver_age
+  role: input
+  value: 1296000
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 173
+  pdf_page: 34
+  locus: computation block line 2 "Silver Age," middle column; integer, grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [207, 262, 370, 382]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [50,262,370,382] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_elapsed_to_kali.yaml (sha256 3cf970ff)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.brazen_age
+  role: input
+  value: 864000
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 173
+  pdf_page: 34
+  locus: computation block line 3 "Brazen Age," middle column; integer, grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [207, 262, 370, 382]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [50,262,370,382] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_elapsed_to_kali.yaml (sha256 3cf970ff)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.of_iron_age
+  role: input
+  value: 4960
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 173
+  pdf_page: 34
+  locus: computation block line 4 "Of Iron Age," middle column; integer, grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [207, 262, 370, 382]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [50,262,370,382] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_elapsed_to_kali.yaml (sha256 3cf970ff)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.sum_silver_brazen_iron
+  role: output
+  value: 2164960
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 173
+  pdf_page: 34
+  locus: computation block line 4, right column (sum of the middle column); integer, grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [207, 262, 370, 382]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [50,262,370,382] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_elapsed_to_kali.yaml (sha256 3cf970ff)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.total_creation_to_april_1859
+  role: output
+  value: 1955884960
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 173
+  pdf_page: 34
+  locus: computation block line 5 "Total from end of creation to April, …" right column; integer, grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r8
+    on: 2026-10-11
+    dpi: 600
+    clip: [207, 262, 370, 382]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tile r1c2 of clip [50,262,370,382] 2x1 --overlap 6; first-read fixture file k7/fixtures/whitney_elapsed_to_kali.yaml (sha256 3cf970ff)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r14
+    on: 2026-10-11
+    dpi: 600
+    clip: [196, 211, 385, 414]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''

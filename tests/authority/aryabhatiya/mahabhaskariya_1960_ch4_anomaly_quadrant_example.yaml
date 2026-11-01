@@ -1,0 +1,325 @@
+id: authority/aryabhatiya/mahabhaskariya_1960_ch4_anomaly_quadrant_example
+methods: [aryabhatiya]
+class: editor_computed
+source: mahabhaskariya_1960
+file: mahabhaskariya_1960-mahabhaskariya-shukla-1960.pdf
+edition_page: 107
+pdf_page: 192
+locus: 'Shukla''s note on IV.2, ''For example, if the Sun''s mean anomaly is …°, calculate the Rsine of …° and the Rversed-sine of …°; …'': which Rsines and Rversed-sines three anomalies need'
+rounding: none (whole degrees)
+precision: whole degrees, as printed
+datum_keys: [texts.aryabhatiya.procedures.rsine.quadrant_rule.mahabhaskariya_1960]
+notes: Each case lists, in printed order, the arcs whose Rsine (odd quadrant) or Rversed-sine (even quadrant) is to be calculated; the name says which function. Shukla's formulae below it (Rsin(90°+θ) etc.) are not keyed.
+values:
+- name: case1.input.anomaly
+  role: input
+  value: 140
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 107
+  pdf_page: 192
+  locus: Shukla's note on IV.2, 'For example, if the Sun's mean anomaly is …°', the first case, 'is …°'. A degree sign printed as a superscript … is keyed as °.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 192)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: case1.output.1.rsine
+  role: output
+  value: 90
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 107
+  pdf_page: 192
+  locus: Shukla's note on IV.2, 'For example, if the Sun's mean anomaly is …°', the first case, 'the Rsine of …°'. A degree sign printed as a superscript … is keyed as °.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 192)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: case1.output.2.rversine
+  role: output
+  value: 50
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 107
+  pdf_page: 192
+  locus: Shukla's note on IV.2, 'For example, if the Sun's mean anomaly is …°', the first case, 'the Rversed-sine of …°'. A degree sign printed as a superscript … is keyed as °.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 192)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: case2.input.anomaly
+  role: input
+  value: 240
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 107
+  pdf_page: 192
+  locus: Shukla's note on IV.2, 'For example, if the Sun's mean anomaly is …°', the second case, 'is …°'. A degree sign printed as a superscript … is keyed as °.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 192)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: case2.output.1.rsine
+  role: output
+  value: 90
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 107
+  pdf_page: 192
+  locus: Shukla's note on IV.2, 'For example, if the Sun's mean anomaly is …°', the second case, 'the Rsine of …°'. A degree sign printed as a superscript … is keyed as °.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 192)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: case2.output.2.rversine
+  role: output
+  value: 90
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 107
+  pdf_page: 192
+  locus: Shukla's note on IV.2, 'For example, if the Sun's mean anomaly is …°', the second case, 'the Rversed-sine of …°'. A degree sign printed as a superscript … is keyed as °.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 192)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: case2.output.3.rsine
+  role: output
+  value: 60
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 107
+  pdf_page: 192
+  locus: Shukla's note on IV.2, 'For example, if the Sun's mean anomaly is …°', the second case, 'the Rsine of …°'. A degree sign printed as a superscript … is keyed as °.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 192)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: case3.input.anomaly
+  role: input
+  value: 300
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 107
+  pdf_page: 192
+  locus: Shukla's note on IV.2, 'For example, if the Sun's mean anomaly is …°', the third case, 'be …°'. A degree sign printed as a superscript … is keyed as °.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 192)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: case3.output.1.rsine
+  role: output
+  value: 90
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 107
+  pdf_page: 192
+  locus: Shukla's note on IV.2, 'For example, if the Sun's mean anomaly is …°', the third case, 'the Rsine of …°'. A degree sign printed as a superscript … is keyed as °.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 192)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: case3.output.2.rversine
+  role: output
+  value: 90
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 107
+  pdf_page: 192
+  locus: Shukla's note on IV.2, 'For example, if the Sun's mean anomaly is …°', the third case, 'the Rversed-sine of …°'. A degree sign printed as a superscript … is keyed as °.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 192)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: case3.output.3.rsine
+  role: output
+  value: 90
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 107
+  pdf_page: 192
+  locus: Shukla's note on IV.2, 'For example, if the Sun's mean anomaly is …°', the third case, 'again the Rsine of …°'. A degree sign printed as a superscript … is keyed as °.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 192)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''
+- name: case3.output.4.rversine
+  role: output
+  value: 30
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 107
+  pdf_page: 192
+  locus: Shukla's note on IV.2, 'For example, if the Sun's mean anomaly is …°', the third case, 'the Rversed-sine of …°'. A degree sign printed as a superscript … is keyed as °.
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: tile r1c1 of clip [30,20,380,580] 1x3 --overlap 8 (mahabhaskariya_1960 PDF 192)
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r7
+    on: 2026-10-03
+    dpi: 400
+    clip: [30, 20, 380, 210.67]
+    delivered_ppi: 400
+    max_edge: 2000
+    note: ''

@@ -1,0 +1,481 @@
+id: authority/aryabhatiya/laghubhaskariya_1963_ch3_lucknow_rising_times
+methods: [aryabhatiya]
+class: editor_computed
+source: laghubhaskariya_1963
+file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+edition_page: 46
+pdf_page: 119
+locus: 'Shukla''s note on III.6: ''The following table gives the times of rising in asus of the tropical signs at Lucknow.'' and the table (Sign; Time of Rising in asus at Lucknow, each row ''…∓…=…''; Sign), six rows Aries–Virgo paired with Pisces–Libra'
+rounding: none stated on the page; the table prints whole asus
+precision: whole asus, as printed
+datum_keys: [texts.aryabhatiya.procedures.cara.rule]
+notes: 'The serial numbers of the signs (1–12) are row labels, not keyed. Each row is keyed as its three figures: the time of rising at Laṅkā, the ascensional difference at Lucknow, and the result. In the Virgo row the sign before the result is printed as a single bar where the other rows print ''=''. the latitude of Lucknow is not printed on the page, so the engine''s ascensional differences are not compared.'
+values:
+- name: input.aries.rising_lanka
+  role: input
+  value: 1670
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 46
+  pdf_page: 119
+  locus: Shukla's table 'Time of Rising in asus at Lucknow', row 'Aries' (paired 'Pisces'), the expression '…−…=…', the first figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: tight tile clip [160,138,245,212] 1x1 at native 343 (laghubhaskariya_1963 PDF 119); the row labels and the paired signs from tile r1c1 of clip [0,0,419.53,595.28] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: ''
+- name: input.aries.asc_diff
+  role: input
+  value: 354
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 46
+  pdf_page: 119
+  locus: Shukla's table 'Time of Rising in asus at Lucknow', row 'Aries' (paired 'Pisces'), the expression '…−…=…', the second figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: tight tile clip [160,138,245,212] 1x1 at native 343 (laghubhaskariya_1963 PDF 119); the row labels and the paired signs from tile r1c1 of clip [0,0,419.53,595.28] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: ''
+- name: output.aries.rising_lucknow
+  role: output
+  value: 1316
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 46
+  pdf_page: 119
+  locus: Shukla's table 'Time of Rising in asus at Lucknow', row 'Aries' (paired 'Pisces'), the expression '…−…=…', the result after '='.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: tight tile clip [160,138,245,212] 1x1 at native 343 (laghubhaskariya_1963 PDF 119); the row labels and the paired signs from tile r1c1 of clip [0,0,419.53,595.28] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: ''
+- name: input.taurus.rising_lanka
+  role: input
+  value: 1795
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 46
+  pdf_page: 119
+  locus: Shukla's table 'Time of Rising in asus at Lucknow', row 'Taurus' (paired 'Aquarius'), the expression '…−…=…', the first figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: tight tile clip [160,138,245,212] 1x1 at native 343 (laghubhaskariya_1963 PDF 119); the row labels and the paired signs from tile r1c1 of clip [0,0,419.53,595.28] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: ''
+- name: input.taurus.asc_diff
+  role: input
+  value: 290
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 46
+  pdf_page: 119
+  locus: Shukla's table 'Time of Rising in asus at Lucknow', row 'Taurus' (paired 'Aquarius'), the expression '…−…=…', the second figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: tight tile clip [160,138,245,212] 1x1 at native 343 (laghubhaskariya_1963 PDF 119); the row labels and the paired signs from tile r1c1 of clip [0,0,419.53,595.28] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: ''
+- name: output.taurus.rising_lucknow
+  role: output
+  value: 1505
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 46
+  pdf_page: 119
+  locus: Shukla's table 'Time of Rising in asus at Lucknow', row 'Taurus' (paired 'Aquarius'), the expression '…−…=…', the result after '='.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: tight tile clip [160,138,245,212] 1x1 at native 343 (laghubhaskariya_1963 PDF 119); the row labels and the paired signs from tile r1c1 of clip [0,0,419.53,595.28] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: ''
+- name: input.gemini.rising_lanka
+  role: input
+  value: 1935
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 46
+  pdf_page: 119
+  locus: Shukla's table 'Time of Rising in asus at Lucknow', row 'Gemini' (paired 'Capricorn'), the expression '…−…=…', the first figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: tight tile clip [160,138,245,212] 1x1 at native 343 (laghubhaskariya_1963 PDF 119); the row labels and the paired signs from tile r1c1 of clip [0,0,419.53,595.28] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: ''
+- name: input.gemini.asc_diff
+  role: input
+  value: 119
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 46
+  pdf_page: 119
+  locus: Shukla's table 'Time of Rising in asus at Lucknow', row 'Gemini' (paired 'Capricorn'), the expression '…−…=…', the second figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: tight tile clip [160,138,245,212] 1x1 at native 343 (laghubhaskariya_1963 PDF 119); the row labels and the paired signs from tile r1c1 of clip [0,0,419.53,595.28] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: ''
+- name: output.gemini.rising_lucknow
+  role: output
+  value: 1816
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 46
+  pdf_page: 119
+  locus: Shukla's table 'Time of Rising in asus at Lucknow', row 'Gemini' (paired 'Capricorn'), the expression '…−…=…', the result after '='.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: tight tile clip [160,138,245,212] 1x1 at native 343 (laghubhaskariya_1963 PDF 119); the row labels and the paired signs from tile r1c1 of clip [0,0,419.53,595.28] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: ''
+- name: input.cancer.rising_lanka
+  role: input
+  value: 1935
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 46
+  pdf_page: 119
+  locus: Shukla's table 'Time of Rising in asus at Lucknow', row 'Cancer' (paired 'Sagittarius'), the expression '…+…=…', the first figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: tight tile clip [160,138,245,212] 1x1 at native 343 (laghubhaskariya_1963 PDF 119); the row labels and the paired signs from tile r1c1 of clip [0,0,419.53,595.28] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: ''
+- name: input.cancer.asc_diff
+  role: input
+  value: 119
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 46
+  pdf_page: 119
+  locus: Shukla's table 'Time of Rising in asus at Lucknow', row 'Cancer' (paired 'Sagittarius'), the expression '…+…=…', the second figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: tight tile clip [160,138,245,212] 1x1 at native 343 (laghubhaskariya_1963 PDF 119); the row labels and the paired signs from tile r1c1 of clip [0,0,419.53,595.28] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: ''
+- name: output.cancer.rising_lucknow
+  role: output
+  value: 2054
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 46
+  pdf_page: 119
+  locus: Shukla's table 'Time of Rising in asus at Lucknow', row 'Cancer' (paired 'Sagittarius'), the expression '…+…=…', the result after '='.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: tight tile clip [160,138,245,212] 1x1 at native 343 (laghubhaskariya_1963 PDF 119); the row labels and the paired signs from tile r1c1 of clip [0,0,419.53,595.28] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: ''
+- name: input.leo.rising_lanka
+  role: input
+  value: 1795
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 46
+  pdf_page: 119
+  locus: Shukla's table 'Time of Rising in asus at Lucknow', row 'Leo' (paired 'Scorpio'), the expression '…+…=…', the first figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: tight tile clip [160,138,245,212] 1x1 at native 343 (laghubhaskariya_1963 PDF 119); the row labels and the paired signs from tile r1c1 of clip [0,0,419.53,595.28] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: ''
+- name: input.leo.asc_diff
+  role: input
+  value: 290
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 46
+  pdf_page: 119
+  locus: Shukla's table 'Time of Rising in asus at Lucknow', row 'Leo' (paired 'Scorpio'), the expression '…+…=…', the second figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: tight tile clip [160,138,245,212] 1x1 at native 343 (laghubhaskariya_1963 PDF 119); the row labels and the paired signs from tile r1c1 of clip [0,0,419.53,595.28] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: ''
+- name: output.leo.rising_lucknow
+  role: output
+  value: 2085
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 46
+  pdf_page: 119
+  locus: Shukla's table 'Time of Rising in asus at Lucknow', row 'Leo' (paired 'Scorpio'), the expression '…+…=…', the result after '='.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: tight tile clip [160,138,245,212] 1x1 at native 343 (laghubhaskariya_1963 PDF 119); the row labels and the paired signs from tile r1c1 of clip [0,0,419.53,595.28] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: ''
+- name: input.virgo.rising_lanka
+  role: input
+  value: 1670
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 46
+  pdf_page: 119
+  locus: Shukla's table 'Time of Rising in asus at Lucknow', row 'Virgo' (paired 'Libra'), the expression '…+…=…', the first figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: tight tile clip [160,138,245,212] 1x1 at native 343 (laghubhaskariya_1963 PDF 119); the row labels and the paired signs from tile r1c1 of clip [0,0,419.53,595.28] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: ''
+- name: input.virgo.asc_diff
+  role: input
+  value: 354
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 46
+  pdf_page: 119
+  locus: Shukla's table 'Time of Rising in asus at Lucknow', row 'Virgo' (paired 'Libra'), the expression '…+…=…', the second figure.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: tight tile clip [160,138,245,212] 1x1 at native 343 (laghubhaskariya_1963 PDF 119); the row labels and the paired signs from tile r1c1 of clip [0,0,419.53,595.28] 1x2 --overlap 8
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: ''
+- name: output.virgo.rising_lucknow
+  role: output
+  value: 2024
+  form: integer
+  unit: asus
+  script: latin
+  edition_page: 46
+  pdf_page: 119
+  locus: Shukla's table 'Time of Rising in asus at Lucknow', row 'Virgo' (paired 'Libra'), the expression '…+…=…', the result after '='.
+  read:
+  - by: claude-opus-5-5/2026-10-08-r7
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: tight tile clip [160,138,245,212] 1x1 at native 343 (laghubhaskariya_1963 PDF 119); the sign before this figure is printed as a single bar (−), not as '=' as in the five rows above; the figure itself is clear
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 343
+    clip: [160, 138, 245, 212]
+    delivered_ppi: 343
+    max_edge: 2000
+    note: ''

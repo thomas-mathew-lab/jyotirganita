@@ -1,0 +1,1566 @@
+- key: texts.aryabhatiya.epicycles.multiplier
+  value: 9/2
+  form: numeral_word
+  value_form: fraction
+  word:
+    text: झार्धानि
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 9/2
+  unit: degrees_per_epicycle_unit
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 23
+  pdf_page: 97
+  locus: 'Gītikā 10: the verse''s opening word jhārdhāni (nines of halves) and the bold translation''s ''each multiplied by …'' (p. 23, PDF 97, second line). A mixed number printed with a half (…) is keyed as the improper ratio (…/…). The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 on PDF 97: the translation''s figures for Gītikā 10; the verse read on PDF 96 from clip [70,268,265,330]'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'jha (9) with ardhāni (halves): every circumference of Gītikā 10 and 11 is its number times 9/2 degrees (the translation says so for both verses).'
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.moon.manda.odd
+  value: 7
+  form: numeral_word
+  value_form: integer
+  word:
+    text: छ
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 7
+  unit: epicycle_units
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 23
+  pdf_page: 97
+  locus: 'Gītikā 10 (odd quadrants): the verse''s word for the Moon''s manda epicycle (śaśinaś cha) (p. 22, PDF 96, the verse''s second or fourth line) and the bold translation''s figure before ''each multiplied by …'' (p. 23, PDF 97). The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 on PDF 97: the translation''s figures for Gītikā 10; the verse read on PDF 96 from clip [70,268,265,330]'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: In units of texts.aryabhatiya.epicycles.multiplier degrees of the deferent's 360.
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.sun.manda.odd
+  value: 3
+  form: numeral_word
+  value_form: integer
+  word:
+    text: ग
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 3
+  unit: epicycle_units
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 23
+  pdf_page: 97
+  locus: 'Gītikā 10 (odd quadrants): the verse''s word for the Sun''s manda epicycle (first of the verse''s six words) (p. 22, PDF 96, the verse''s second or fourth line) and the bold translation''s figure before ''each multiplied by …'' (p. 23, PDF 97). The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 on PDF 97: the translation''s figures for Gītikā 10; the verse read on PDF 96 from clip [70,268,265,330]'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'In units of texts.aryabhatiya.epicycles.multiplier degrees of the deferent''s 360. Struck (the locus carried the first reader''s transliteration of the word): claude-fable-5-1/2026-10-03-r3.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r2
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.mercury.manda.odd
+  value: 7
+  form: numeral_word
+  value_form: integer
+  word:
+    text: छ
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 7
+  unit: epicycle_units
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 23
+  pdf_page: 97
+  locus: 'Gītikā 10 (odd quadrants): the verse''s word for Mercury''s manda epicycle (second of the verse''s six words) (p. 22, PDF 96, the verse''s second or fourth line) and the bold translation''s figure before ''each multiplied by …'' (p. 23, PDF 97). The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 on PDF 97: the translation''s figures for Gītikā 10; the verse read on PDF 96 from clip [70,268,265,330]'
+  status: double_read
+  verified_by: [texts.aryabhatiya.epicycles.mercury.manda.odd.laghubhaskariya_1963]
+  emendation: null
+  notes: 'In units of texts.aryabhatiya.epicycles.multiplier degrees of the deferent''s 360. Struck (the locus carried the first reader''s transliteration of the word): claude-fable-5-1/2026-10-03-r3.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r2
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.venus.manda.odd
+  value: 4
+  form: numeral_word
+  value_form: integer
+  word:
+    text: घ
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 4
+  unit: epicycle_units
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 23
+  pdf_page: 97
+  locus: 'Gītikā 10 (odd quadrants): the verse''s word for Venus''s manda epicycle (third of the verse''s six words) (p. 22, PDF 96, the verse''s second or fourth line) and the bold translation''s figure before ''each multiplied by …'' (p. 23, PDF 97). The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 on PDF 97: the translation''s figures for Gītikā 10; the verse read on PDF 96 from clip [70,268,265,330]'
+  status: double_read
+  verified_by: [texts.aryabhatiya.epicycles.venus.manda.odd.laghubhaskariya_1963]
+  emendation: null
+  notes: 'In units of texts.aryabhatiya.epicycles.multiplier degrees of the deferent''s 360. Struck (the locus carried the first reader''s transliteration of the word): claude-fable-5-1/2026-10-03-r3.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r2
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.mars.manda.odd
+  value: 14
+  form: numeral_word
+  value_form: integer
+  word:
+    text: ढ
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 14
+  unit: epicycle_units
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 23
+  pdf_page: 97
+  locus: 'Gītikā 10 (odd quadrants): the verse''s word for Mars''s manda epicycle (fourth of the verse''s six words) (p. 22, PDF 96, the verse''s second or fourth line) and the bold translation''s figure before ''each multiplied by …'' (p. 23, PDF 97). The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 on PDF 97: the translation''s figures for Gītikā 10; the verse read on PDF 96 from clip [70,268,265,330]'
+  status: double_read
+  verified_by: [texts.aryabhatiya.epicycles.mars.manda.odd.laghubhaskariya_1963]
+  emendation: null
+  notes: 'In units of texts.aryabhatiya.epicycles.multiplier degrees of the deferent''s 360. Struck (the locus carried the first reader''s transliteration of the word): claude-fable-5-1/2026-10-03-r3.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r2
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.jupiter.manda.odd
+  value: 7
+  form: numeral_word
+  value_form: integer
+  word:
+    text: छ
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 7
+  unit: epicycle_units
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 23
+  pdf_page: 97
+  locus: 'Gītikā 10 (odd quadrants): the verse''s word for Jupiter''s manda epicycle (fifth of the verse''s six words) (p. 22, PDF 96, the verse''s second or fourth line) and the bold translation''s figure before ''each multiplied by …'' (p. 23, PDF 97). The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 on PDF 97: the translation''s figures for Gītikā 10; the verse read on PDF 96 from clip [70,268,265,330]'
+  status: double_read
+  verified_by: [texts.aryabhatiya.epicycles.jupiter.manda.odd.laghubhaskariya_1963]
+  emendation: null
+  notes: 'In units of texts.aryabhatiya.epicycles.multiplier degrees of the deferent''s 360. Struck (the locus carried the first reader''s transliteration of the word): claude-fable-5-1/2026-10-03-r3.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r2
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.saturn.manda.odd
+  value: 9
+  form: numeral_word
+  value_form: integer
+  word:
+    text: झ
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 9
+  unit: epicycle_units
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 23
+  pdf_page: 97
+  locus: 'Gītikā 10 (odd quadrants): the verse''s word for Saturn''s manda epicycle (sixth of the verse''s six words) (p. 22, PDF 96, the verse''s second or fourth line) and the bold translation''s figure before ''each multiplied by …'' (p. 23, PDF 97). The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 on PDF 97: the translation''s figures for Gītikā 10; the verse read on PDF 96 from clip [70,268,265,330]'
+  status: double_read
+  verified_by: [texts.aryabhatiya.epicycles.saturn.manda.odd.laghubhaskariya_1963]
+  emendation: null
+  notes: 'In units of texts.aryabhatiya.epicycles.multiplier degrees of the deferent''s 360. Struck (the locus carried the first reader''s transliteration of the word): claude-fable-5-1/2026-10-03-r3.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r2
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.saturn.sighra.odd
+  value: 9
+  form: numeral_word
+  value_form: integer
+  word:
+    text: झा
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 9
+  unit: epicycle_units
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 23
+  pdf_page: 97
+  locus: 'Gītikā 10 (odd quadrants): the verse''s word for Saturn''s śīghra epicycle (first of the verse''s five words) (p. 22, PDF 96, the verse''s second or fourth line) and the bold translation''s figure before ''each multiplied by …'' (p. 23, PDF 97). The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 on PDF 97: the translation''s figures for Gītikā 10; the verse read on PDF 96 from clip [70,268,265,330]'
+  status: double_read
+  verified_by: [texts.aryabhatiya.epicycles.saturn.sighra.odd.laghubhaskariya_1963]
+  emendation: null
+  variants:
+  - witness: others (aryabhatiya_1976 vol. 1 p. 22 footnote 2)
+    word: झ
+    decode: 9
+  notes: 'In units of texts.aryabhatiya.epicycles.multiplier degrees of the deferent''s 360. Struck (the locus carried the first reader''s transliteration of the word): claude-fable-5-1/2026-10-03-r3.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r2
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.jupiter.sighra.odd
+  value: 16
+  form: numeral_word
+  value_form: integer
+  word:
+    text: ग्ड
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 16
+  unit: epicycle_units
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 23
+  pdf_page: 97
+  locus: 'Gītikā 10 (odd quadrants): the verse''s word for Jupiter''s śīghra epicycle (second of the verse''s five words) (p. 22, PDF 96, the verse''s second or fourth line) and the bold translation''s figure before ''each multiplied by …'' (p. 23, PDF 97). The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 on PDF 97: the translation''s figures for Gītikā 10; the verse read on PDF 96 from clip [70,268,265,330]'
+  status: double_read
+  verified_by: [texts.aryabhatiya.epicycles.jupiter.sighra.odd.laghubhaskariya_1963]
+  emendation: null
+  notes: 'In units of texts.aryabhatiya.epicycles.multiplier degrees of the deferent''s 360. Struck (the locus carried the first reader''s transliteration of the word): claude-fable-5-1/2026-10-03-r3.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r2
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.mars.sighra.odd
+  value: 53
+  form: numeral_word
+  value_form: integer
+  word:
+    text: ग्ला
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 53
+  unit: epicycle_units
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 23
+  pdf_page: 97
+  locus: 'Gītikā 10 (odd quadrants): the verse''s word for Mars''s śīghra epicycle (third of the verse''s five words) (p. 22, PDF 96, the verse''s second or fourth line) and the bold translation''s figure before ''each multiplied by …'' (p. 23, PDF 97). The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 on PDF 97: the translation''s figures for Gītikā 10; the verse read on PDF 96 from clip [70,268,265,330]'
+  status: double_read
+  verified_by: [texts.aryabhatiya.epicycles.mars.sighra.odd.laghubhaskariya_1963]
+  emendation: null
+  variants:
+  - witness: all others (aryabhatiya_1976 vol. 1 p. 22 footnote 3)
+    word: ग्ल
+    decode: 53
+  notes: 'In units of texts.aryabhatiya.epicycles.multiplier degrees of the deferent''s 360. Struck (the locus carried the first reader''s transliteration of the word): claude-fable-5-1/2026-10-03-r3.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r2
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.venus.sighra.odd
+  value: 59
+  form: numeral_word
+  value_form: integer
+  word:
+    text: र्ध
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 59
+  unit: epicycle_units
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 23
+  pdf_page: 97
+  locus: 'Gītikā 10 (odd quadrants): the verse''s word for Venus''s śīghra epicycle (fourth of the verse''s five words) (p. 22, PDF 96, the verse''s second or fourth line) and the bold translation''s figure before ''each multiplied by …'' (p. 23, PDF 97). The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 on PDF 97: the translation''s figures for Gītikā 10; the verse read on PDF 96 from clip [70,268,265,330]'
+  status: double_read
+  verified_by: [texts.aryabhatiya.epicycles.venus.sighra.odd.laghubhaskariya_1963]
+  emendation: null
+  notes: 'In units of texts.aryabhatiya.epicycles.multiplier degrees of the deferent''s 360. Printed with the reph. Footnote 4 gives Bh. and Go. for this reading and a reading of all others that is read here, with doubt, as झ्ल (also 59). Struck (the locus carried the first reader''s transliteration of the word): claude-fable-5-1/2026-10-03-r3; third look claude-fable-5-1/2026-10-03-r2 (matched read).'
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r2
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.mercury.sighra.odd
+  value: 31
+  form: numeral_word
+  value_form: integer
+  word:
+    text: द्ड
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 31
+  unit: epicycle_units
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 23
+  pdf_page: 97
+  locus: 'Gītikā 10 (odd quadrants): the verse''s word for Mercury''s śīghra epicycle (fifth of the verse''s five words) (p. 22, PDF 96, the verse''s second or fourth line) and the bold translation''s figure before ''each multiplied by …'' (p. 23, PDF 97). The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 on PDF 97: the translation''s figures for Gītikā 10; the verse read on PDF 96 from clip [70,268,265,330]'
+  status: double_read
+  verified_by: [texts.aryabhatiya.epicycles.mercury.sighra.odd.laghubhaskariya_1963]
+  emendation: null
+  notes: 'In units of texts.aryabhatiya.epicycles.multiplier degrees of the deferent''s 360. Struck (the locus carried the first reader''s transliteration of the word): claude-fable-5-1/2026-10-03-r3.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r2
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.mercury.manda.even
+  value: 5
+  form: numeral_word
+  value_form: integer
+  word:
+    text: ङ
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 5
+  unit: epicycle_units
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 23
+  pdf_page: 97
+  locus: 'Gītikā 11 (even quadrants): the verse''s word for Mercury''s manda epicycle (first of ṅa-kha-da-ja-ḍā) and the bold translation''s figure before ''each multiplied by …'' (p. 23, PDF 97). The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8 on PDF 97: the verse''s second half and the translation of Gītikā 11; the first half read in tile r1c1 [40,25,265,163.67]'
+  status: double_read
+  verified_by: [texts.aryabhatiya.epicycles.mercury.manda.even.laghubhaskariya_1963]
+  emendation: null
+  notes: In units of texts.aryabhatiya.epicycles.multiplier degrees of the deferent's 360.
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.venus.manda.even
+  value: 2
+  form: numeral_word
+  value_form: integer
+  word:
+    text: ख
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 2
+  unit: epicycle_units
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 23
+  pdf_page: 97
+  locus: 'Gītikā 11 (even quadrants): the verse''s word for Venus''s manda epicycle (second of ṅa-kha-da-ja-ḍā) and the bold translation''s figure before ''each multiplied by …'' (p. 23, PDF 97). The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8 on PDF 97: the verse''s second half and the translation of Gītikā 11; the first half read in tile r1c1 [40,25,265,163.67]'
+  status: double_read
+  verified_by: [texts.aryabhatiya.epicycles.venus.manda.even.laghubhaskariya_1963]
+  emendation: null
+  notes: In units of texts.aryabhatiya.epicycles.multiplier degrees of the deferent's 360.
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.mars.manda.even
+  value: 18
+  form: numeral_word
+  value_form: integer
+  word:
+    text: द
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 18
+  unit: epicycle_units
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 23
+  pdf_page: 97
+  locus: 'Gītikā 11 (even quadrants): the verse''s word for Mars''s manda epicycle (third of ṅa-kha-da-ja-ḍā) and the bold translation''s figure before ''each multiplied by …'' (p. 23, PDF 97). The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8 on PDF 97: the verse''s second half and the translation of Gītikā 11; the first half read in tile r1c1 [40,25,265,163.67]'
+  status: double_read
+  verified_by: [texts.aryabhatiya.epicycles.mars.manda.even.laghubhaskariya_1963]
+  emendation: null
+  notes: In units of texts.aryabhatiya.epicycles.multiplier degrees of the deferent's 360.
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.jupiter.manda.even
+  value: 8
+  form: numeral_word
+  value_form: integer
+  word:
+    text: ज
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 8
+  unit: epicycle_units
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 23
+  pdf_page: 97
+  locus: 'Gītikā 11 (even quadrants): the verse''s word for Jupiter''s manda epicycle (fourth of ṅa-kha-da-ja-ḍā) and the bold translation''s figure before ''each multiplied by …'' (p. 23, PDF 97). The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8 on PDF 97: the verse''s second half and the translation of Gītikā 11; the first half read in tile r1c1 [40,25,265,163.67]'
+  status: double_read
+  verified_by: [texts.aryabhatiya.epicycles.jupiter.manda.even.laghubhaskariya_1963]
+  emendation: null
+  notes: In units of texts.aryabhatiya.epicycles.multiplier degrees of the deferent's 360.
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.saturn.manda.even
+  value: 13
+  form: numeral_word
+  value_form: integer
+  word:
+    text: डा
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 13
+  unit: epicycle_units
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 23
+  pdf_page: 97
+  locus: 'Gītikā 11 (even quadrants): the verse''s word for Saturn''s manda epicycle (fifth of ṅa-kha-da-ja-ḍā) and the bold translation''s figure before ''each multiplied by …'' (p. 23, PDF 97). The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8 on PDF 97: the verse''s second half and the translation of Gītikā 11; the first half read in tile r1c1 [40,25,265,163.67]'
+  status: double_read
+  verified_by: [texts.aryabhatiya.epicycles.saturn.manda.even.laghubhaskariya_1963]
+  emendation: null
+  notes: In units of texts.aryabhatiya.epicycles.multiplier degrees of the deferent's 360.
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.saturn.sighra.even
+  value: 8
+  form: numeral_word
+  value_form: integer
+  word:
+    text: जा
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 8
+  unit: epicycle_units
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 23
+  pdf_page: 97
+  locus: 'Gītikā 11 (even quadrants): the verse''s word for Saturn''s śīghra epicycle (first of the verse''s five words) and the bold translation''s figure before ''each multiplied by …'' (p. 23, PDF 97). The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8 on PDF 97: the verse''s second half and the translation of Gītikā 11; the first half read in tile r1c1 [40,25,265,163.67]'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'In units of texts.aryabhatiya.epicycles.multiplier degrees of the deferent''s 360. Struck (the locus carried the first reader''s transliteration of the word): claude-fable-5-1/2026-10-03-r3.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r2
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.jupiter.sighra.even
+  value: 15
+  form: numeral_word
+  value_form: integer
+  word:
+    text: ण
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 15
+  unit: epicycle_units
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 23
+  pdf_page: 97
+  locus: 'Gītikā 11 (even quadrants): the verse''s word for Jupiter''s śīghra epicycle (second of the verse''s five words) and the bold translation''s figure before ''each multiplied by …'' (p. 23, PDF 97). The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8 on PDF 97: the verse''s second half and the translation of Gītikā 11; the first half read in tile r1c1 [40,25,265,163.67]'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: In units of texts.aryabhatiya.epicycles.multiplier degrees of the deferent's 360. The second read is the clean-memory claude-fable-5-1/2026-10-08-r3. The value is the same in every read.
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r3
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-08-r3
+      on: 2026-10-08
+      dpi: 600
+      clip: [78, 158, 118, 177]
+      delivered_ppi: 600
+      max_edge: 2000
+      note: ''
+    matches: second_read
+- key: texts.aryabhatiya.epicycles.mars.sighra.even
+  value: 51
+  form: numeral_word
+  value_form: integer
+  word:
+    text: क्ल
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 51
+  unit: epicycle_units
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 23
+  pdf_page: 97
+  locus: 'Gītikā 11 (even quadrants): the verse''s word for Mars''s śīghra epicycle (third of the verse''s five words) and the bold translation''s figure before ''each multiplied by …'' (p. 23, PDF 97). The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8 on PDF 97: the verse''s second half and the translation of Gītikā 11; the first half read in tile r1c1 [40,25,265,163.67]'
+  status: read
+  verified_by: []
+  emendation: null
+  notes: 'In units of texts.aryabhatiya.epicycles.multiplier degrees of the deferent''s 360. Struck (the locus carried the first reader''s transliteration of the word): claude-fable-5-1/2026-10-03-r3.'
+  read_issue: disputed
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r2
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-08-r2
+      on: 2026-10-08
+      dpi: 600
+      clip: [40, 155.67, 265, 298.33]
+      delivered_ppi: 600
+      max_edge: 2000
+      note: ''
+    matches: read
+  further_look:
+  - issue: disputed
+    read:
+      by: claude-fable-5-1/2026-10-08-r1
+      on: 2026-10-08
+      dpi: 600
+      clip: [40, 155.67, 265, 298.33]
+      delivered_ppi: 600
+      max_edge: 2000
+      note: ''
+    matches: second_read
+- key: texts.aryabhatiya.epicycles.venus.sighra.even
+  value: 57
+  form: numeral_word
+  value_form: integer
+  word:
+    text: छ्ल
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 57
+  unit: epicycle_units
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 23
+  pdf_page: 97
+  locus: 'Gītikā 11 (even quadrants): the verse''s word for Venus''s śīghra epicycle (fourth of the verse''s five words) and the bold translation''s figure before ''each multiplied by …'' (p. 23, PDF 97). The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8 on PDF 97: the verse''s second half and the translation of Gītikā 11; the first half read in tile r1c1 [40,25,265,163.67]'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'In units of texts.aryabhatiya.epicycles.multiplier degrees of the deferent''s 360. Struck (the locus carried the first reader''s transliteration of the word): claude-fable-5-1/2026-10-03-r3.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r2
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.mercury.sighra.even
+  value: 29
+  form: numeral_word
+  value_form: integer
+  word:
+    text: झ्न
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 29
+  unit: epicycle_units
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 23
+  pdf_page: 97
+  locus: 'Gītikā 11 (even quadrants): the verse''s word for Mercury''s śīghra epicycle (fifth of the verse''s five words, joined in sandhi to the word after it) and the bold translation''s figure before ''each multiplied by …'' (p. 23, PDF 97). The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8 on PDF 97: the verse''s second half and the translation of Gītikā 11; the first half read in tile r1c1 [40,25,265,163.67]'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: 'In units of texts.aryabhatiya.epicycles.multiplier degrees of the deferent''s 360. Struck (the locus carried the first reader''s transliteration of the word): claude-fable-5-1/2026-10-03-r3.'
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r2
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.wind_circumference
+  value: 3375
+  form: numeral_word
+  value_form: integer
+  word:
+    text: गियिङश
+    script: devanagari
+    system: aryabhata_alphabetic
+    decode: 3375
+  unit: yojanas
+  script: devanagari
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 23
+  pdf_page: 97
+  locus: 'Gītikā 11, last line: the word before kuvāyukakṣyāntyā and the bold translation''s figure (''… is the outermost circumference of the terrestrial wind''). The word: Devanagari Unicode (NFC), from its first to its last akṣara, without the body''s name or punctuation, a line-end hyphen joined, the vowel ḷ as the sign ॢ; decoded in Āryabhaṭa''s alphabetic notation. The value: the editors'' figure in the bold translation, Indian comma grouping keyed as the integer.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 155.67, 265, 298.33]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r2c1 of clip [40,25,265,429] 1x3 --overlap 8 on PDF 97: the verse''s second half and the translation of Gītikā 11; the first half read in tile r1c1 [40,25,265,163.67]'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: Not used by the engine; keyed because the verse states it (the editors tie it to the Rsine radius, p. 28).
+  second_read:
+  - by: claude-fable-5-1/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.quadrants
+  value: (in the first and third anomalistic quadrants)
+  form: text
+  unit: statement
+  script: latin
+  source: aryabhatiya_1976
+  file: aryabhatiya_1976-aryabhatiya-v1-1976.pdf
+  edition_page: 23
+  pdf_page: 97
+  locus: 'Gītikā 10, bold translation: the parenthesis after the manda epicycles'' bodies (it ends p. 22, PDF 96); Gītikā 11''s translation reads ''(in the second and fourth anomalistic quadrants)''. Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 25, 265, 163.67]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: 'tile r1c1 of clip [40,25,265,429] 1x3 --overlap 8 on PDF 97: the translation''s figures for Gītikā 10; the verse read on PDF 96 from clip [70,268,265,330]'
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: Which quadrants each set holds for; at which point of a quadrant the stated circumference holds is not said here (the quadrant convention, procedures.yaml).
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r5
+    on: 2026-10-03
+    dpi: 600
+    clip: [40, 290.33, 265, 429]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.mars.manda.odd.laghubhaskariya_1963
+  value: 14
+  form: integer
+  unit: epicycle_units
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 6
+  pdf_page: 79
+  locus: 'I.19–21, Shukla''s translation: the manda epicycles ''are …, …, …, …, and … (in the beginnings of odd quadrants)'', value no. 1. The values are assigned to Mars, Mercury, Jupiter, Venus and Saturn in that order (the order of the week-days beginning with Mars, ''beginning with Mars'' of the translation).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 79)
+  status: double_read
+  verified_by: [texts.aryabhatiya.epicycles.mars.manda.odd]
+  emendation: null
+  notes: Bhāskara I's statement in the Laghubhāskarīya, a second witness of the Āryabhaṭīya's value (aryabhatiya_1976 Gītikā 10–11); not the aryabhatiya_1976 datum.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [55, 395, 360, 485]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.mercury.manda.odd.laghubhaskariya_1963
+  value: 7
+  form: integer
+  unit: epicycle_units
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 6
+  pdf_page: 79
+  locus: 'I.19–21, Shukla''s translation: the manda epicycles ''are …, …, …, …, and … (in the beginnings of odd quadrants)'', value no. 2. The values are assigned to Mars, Mercury, Jupiter, Venus and Saturn in that order (the order of the week-days beginning with Mars, ''beginning with Mars'' of the translation).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 79)
+  status: double_read
+  verified_by: [texts.aryabhatiya.epicycles.mercury.manda.odd]
+  emendation: null
+  notes: Bhāskara I's statement in the Laghubhāskarīya, a second witness of the Āryabhaṭīya's value (aryabhatiya_1976 Gītikā 10–11); not the aryabhatiya_1976 datum.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [55, 395, 360, 485]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.jupiter.manda.odd.laghubhaskariya_1963
+  value: 7
+  form: integer
+  unit: epicycle_units
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 6
+  pdf_page: 79
+  locus: 'I.19–21, Shukla''s translation: the manda epicycles ''are …, …, …, …, and … (in the beginnings of odd quadrants)'', value no. 3. The values are assigned to Mars, Mercury, Jupiter, Venus and Saturn in that order (the order of the week-days beginning with Mars, ''beginning with Mars'' of the translation).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 79)
+  status: double_read
+  verified_by: [texts.aryabhatiya.epicycles.jupiter.manda.odd]
+  emendation: null
+  notes: Bhāskara I's statement in the Laghubhāskarīya, a second witness of the Āryabhaṭīya's value (aryabhatiya_1976 Gītikā 10–11); not the aryabhatiya_1976 datum.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [55, 395, 360, 485]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.venus.manda.odd.laghubhaskariya_1963
+  value: 4
+  form: integer
+  unit: epicycle_units
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 6
+  pdf_page: 79
+  locus: 'I.19–21, Shukla''s translation: the manda epicycles ''are …, …, …, …, and … (in the beginnings of odd quadrants)'', value no. 4. The values are assigned to Mars, Mercury, Jupiter, Venus and Saturn in that order (the order of the week-days beginning with Mars, ''beginning with Mars'' of the translation).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 79)
+  status: double_read
+  verified_by: [texts.aryabhatiya.epicycles.venus.manda.odd]
+  emendation: null
+  notes: Bhāskara I's statement in the Laghubhāskarīya, a second witness of the Āryabhaṭīya's value (aryabhatiya_1976 Gītikā 10–11); not the aryabhatiya_1976 datum.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [55, 395, 360, 485]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.saturn.manda.odd.laghubhaskariya_1963
+  value: 9
+  form: integer
+  unit: epicycle_units
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 6
+  pdf_page: 79
+  locus: 'I.19–21, Shukla''s translation: the manda epicycles ''are …, …, …, …, and … (in the beginnings of odd quadrants)'', value no. 5. The values are assigned to Mars, Mercury, Jupiter, Venus and Saturn in that order (the order of the week-days beginning with Mars, ''beginning with Mars'' of the translation).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 79)
+  status: double_read
+  verified_by: [texts.aryabhatiya.epicycles.saturn.manda.odd]
+  emendation: null
+  notes: Bhāskara I's statement in the Laghubhāskarīya, a second witness of the Āryabhaṭīya's value (aryabhatiya_1976 Gītikā 10–11); not the aryabhatiya_1976 datum.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [55, 395, 360, 485]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.mars.manda.even.laghubhaskariya_1963
+  value: 18
+  form: integer
+  unit: epicycle_units
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 6
+  pdf_page: 79
+  locus: 'I.19–21, Shukla''s translation: the manda epicycles ''…, …, …, …, and … in the (beginnings of) even quadrants'', value no. 1. The values are assigned to Mars, Mercury, Jupiter, Venus and Saturn in that order (the order of the week-days beginning with Mars, ''beginning with Mars'' of the translation).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 79)
+  status: double_read
+  verified_by: [texts.aryabhatiya.epicycles.mars.manda.even]
+  emendation: null
+  notes: Bhāskara I's statement in the Laghubhāskarīya, a second witness of the Āryabhaṭīya's value (aryabhatiya_1976 Gītikā 10–11); not the aryabhatiya_1976 datum.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [55, 395, 360, 485]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.mercury.manda.even.laghubhaskariya_1963
+  value: 5
+  form: integer
+  unit: epicycle_units
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 6
+  pdf_page: 79
+  locus: 'I.19–21, Shukla''s translation: the manda epicycles ''…, …, …, …, and … in the (beginnings of) even quadrants'', value no. 2. The values are assigned to Mars, Mercury, Jupiter, Venus and Saturn in that order (the order of the week-days beginning with Mars, ''beginning with Mars'' of the translation).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 79)
+  status: double_read
+  verified_by: [texts.aryabhatiya.epicycles.mercury.manda.even]
+  emendation: null
+  notes: Bhāskara I's statement in the Laghubhāskarīya, a second witness of the Āryabhaṭīya's value (aryabhatiya_1976 Gītikā 10–11); not the aryabhatiya_1976 datum.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [55, 395, 360, 485]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.jupiter.manda.even.laghubhaskariya_1963
+  value: 8
+  form: integer
+  unit: epicycle_units
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 6
+  pdf_page: 79
+  locus: 'I.19–21, Shukla''s translation: the manda epicycles ''…, …, …, …, and … in the (beginnings of) even quadrants'', value no. 3. The values are assigned to Mars, Mercury, Jupiter, Venus and Saturn in that order (the order of the week-days beginning with Mars, ''beginning with Mars'' of the translation).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 79)
+  status: double_read
+  verified_by: [texts.aryabhatiya.epicycles.jupiter.manda.even]
+  emendation: null
+  notes: Bhāskara I's statement in the Laghubhāskarīya, a second witness of the Āryabhaṭīya's value (aryabhatiya_1976 Gītikā 10–11); not the aryabhatiya_1976 datum.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [55, 395, 360, 485]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.venus.manda.even.laghubhaskariya_1963
+  value: 2
+  form: integer
+  unit: epicycle_units
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 6
+  pdf_page: 79
+  locus: 'I.19–21, Shukla''s translation: the manda epicycles ''…, …, …, …, and … in the (beginnings of) even quadrants'', value no. 4. The values are assigned to Mars, Mercury, Jupiter, Venus and Saturn in that order (the order of the week-days beginning with Mars, ''beginning with Mars'' of the translation).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 79)
+  status: double_read
+  verified_by: [texts.aryabhatiya.epicycles.venus.manda.even]
+  emendation: null
+  notes: Bhāskara I's statement in the Laghubhāskarīya, a second witness of the Āryabhaṭīya's value (aryabhatiya_1976 Gītikā 10–11); not the aryabhatiya_1976 datum.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [55, 395, 360, 485]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.saturn.manda.even.laghubhaskariya_1963
+  value: 13
+  form: integer
+  unit: epicycle_units
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 6
+  pdf_page: 79
+  locus: 'I.19–21, Shukla''s translation: the manda epicycles ''…, …, …, …, and … in the (beginnings of) even quadrants'', value no. 5. The values are assigned to Mars, Mercury, Jupiter, Venus and Saturn in that order (the order of the week-days beginning with Mars, ''beginning with Mars'' of the translation).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 79)
+  status: double_read
+  verified_by: [texts.aryabhatiya.epicycles.saturn.manda.even]
+  emendation: null
+  notes: Bhāskara I's statement in the Laghubhāskarīya, a second witness of the Āryabhaṭīya's value (aryabhatiya_1976 Gītikā 10–11); not the aryabhatiya_1976 datum.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [55, 395, 360, 485]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.mars.sighra.odd.laghubhaskariya_1963
+  value: 53
+  form: integer
+  unit: epicycle_units
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 6
+  pdf_page: 79
+  locus: 'I.19–21, Shukla''s translation: the śīghra epicycles ''… plus …, … plus …, …, …, and …'' (in the beginnings of odd quadrants), each sum keyed as its integer, value no. 1. The values are assigned to Mars, Mercury, Jupiter, Venus and Saturn in that order (the order of the week-days beginning with Mars, ''beginning with Mars'' of the translation).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 79)
+  status: double_read
+  verified_by: [texts.aryabhatiya.epicycles.mars.sighra.odd]
+  emendation: null
+  notes: Bhāskara I's statement in the Laghubhāskarīya, a second witness of the Āryabhaṭīya's value (aryabhatiya_1976 Gītikā 10–11); not the aryabhatiya_1976 datum.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [55, 395, 360, 485]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.mercury.sighra.odd.laghubhaskariya_1963
+  value: 31
+  form: integer
+  unit: epicycle_units
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 6
+  pdf_page: 79
+  locus: 'I.19–21, Shukla''s translation: the śīghra epicycles ''… plus …, … plus …, …, …, and …'' (in the beginnings of odd quadrants), each sum keyed as its integer, value no. 2. The values are assigned to Mars, Mercury, Jupiter, Venus and Saturn in that order (the order of the week-days beginning with Mars, ''beginning with Mars'' of the translation).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 79)
+  status: double_read
+  verified_by: [texts.aryabhatiya.epicycles.mercury.sighra.odd]
+  emendation: null
+  notes: Bhāskara I's statement in the Laghubhāskarīya, a second witness of the Āryabhaṭīya's value (aryabhatiya_1976 Gītikā 10–11); not the aryabhatiya_1976 datum.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [55, 395, 360, 485]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.jupiter.sighra.odd.laghubhaskariya_1963
+  value: 16
+  form: integer
+  unit: epicycle_units
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 6
+  pdf_page: 79
+  locus: 'I.19–21, Shukla''s translation: the śīghra epicycles ''… plus …, … plus …, …, …, and …'' (in the beginnings of odd quadrants), each sum keyed as its integer, value no. 3. The values are assigned to Mars, Mercury, Jupiter, Venus and Saturn in that order (the order of the week-days beginning with Mars, ''beginning with Mars'' of the translation).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 79)
+  status: double_read
+  verified_by: [texts.aryabhatiya.epicycles.jupiter.sighra.odd]
+  emendation: null
+  notes: Bhāskara I's statement in the Laghubhāskarīya, a second witness of the Āryabhaṭīya's value (aryabhatiya_1976 Gītikā 10–11); not the aryabhatiya_1976 datum.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [55, 395, 360, 485]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.venus.sighra.odd.laghubhaskariya_1963
+  value: 59
+  form: integer
+  unit: epicycle_units
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 6
+  pdf_page: 79
+  locus: 'I.19–21, Shukla''s translation: the śīghra epicycles ''… plus …, … plus …, …, …, and …'' (in the beginnings of odd quadrants), each sum keyed as its integer, value no. 4. The values are assigned to Mars, Mercury, Jupiter, Venus and Saturn in that order (the order of the week-days beginning with Mars, ''beginning with Mars'' of the translation).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 79)
+  status: double_read
+  verified_by: [texts.aryabhatiya.epicycles.venus.sighra.odd]
+  emendation: null
+  notes: Bhāskara I's statement in the Laghubhāskarīya, a second witness of the Āryabhaṭīya's value (aryabhatiya_1976 Gītikā 10–11); not the aryabhatiya_1976 datum.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [55, 395, 360, 485]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.saturn.sighra.odd.laghubhaskariya_1963
+  value: 9
+  form: integer
+  unit: epicycle_units
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 6
+  pdf_page: 79
+  locus: 'I.19–21, Shukla''s translation: the śīghra epicycles ''… plus …, … plus …, …, …, and …'' (in the beginnings of odd quadrants), each sum keyed as its integer, value no. 5. The values are assigned to Mars, Mercury, Jupiter, Venus and Saturn in that order (the order of the week-days beginning with Mars, ''beginning with Mars'' of the translation).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 79)
+  status: double_read
+  verified_by: [texts.aryabhatiya.epicycles.saturn.sighra.odd]
+  emendation: null
+  notes: Bhāskara I's statement in the Laghubhāskarīya, a second witness of the Āryabhaṭīya's value (aryabhatiya_1976 Gītikā 10–11); not the aryabhatiya_1976 datum.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [55, 395, 360, 485]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.mars.sighra.even_decrement.laghubhaskariya_1963
+  value: 2
+  form: integer
+  unit: epicycle_units
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 6
+  pdf_page: 79
+  locus: 'I.19–21, Shukla''s translation: ''the same diminished respectively by …, …, …, …, and … are their own (śīghra) epicycles in the (beginnings of) even quadrants'', value no. 1. The values are assigned to Mars, Mercury, Jupiter, Venus and Saturn in that order (the order of the week-days beginning with Mars, ''beginning with Mars'' of the translation).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 79)
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: The even-quadrant śīghra epicycle is printed as the odd-quadrant one less this decrement; the decrement is the printed form.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [55, 395, 360, 485]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.mercury.sighra.even_decrement.laghubhaskariya_1963
+  value: 2
+  form: integer
+  unit: epicycle_units
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 6
+  pdf_page: 79
+  locus: 'I.19–21, Shukla''s translation: ''the same diminished respectively by …, …, …, …, and … are their own (śīghra) epicycles in the (beginnings of) even quadrants'', value no. 2. The values are assigned to Mars, Mercury, Jupiter, Venus and Saturn in that order (the order of the week-days beginning with Mars, ''beginning with Mars'' of the translation).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 79)
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: The even-quadrant śīghra epicycle is printed as the odd-quadrant one less this decrement; the decrement is the printed form.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [55, 395, 360, 485]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.jupiter.sighra.even_decrement.laghubhaskariya_1963
+  value: 1
+  form: integer
+  unit: epicycle_units
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 6
+  pdf_page: 79
+  locus: 'I.19–21, Shukla''s translation: ''the same diminished respectively by …, …, …, …, and … are their own (śīghra) epicycles in the (beginnings of) even quadrants'', value no. 3. The values are assigned to Mars, Mercury, Jupiter, Venus and Saturn in that order (the order of the week-days beginning with Mars, ''beginning with Mars'' of the translation).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 79)
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: The even-quadrant śīghra epicycle is printed as the odd-quadrant one less this decrement; the decrement is the printed form.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [55, 395, 360, 485]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.venus.sighra.even_decrement.laghubhaskariya_1963
+  value: 2
+  form: integer
+  unit: epicycle_units
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 6
+  pdf_page: 79
+  locus: 'I.19–21, Shukla''s translation: ''the same diminished respectively by …, …, …, …, and … are their own (śīghra) epicycles in the (beginnings of) even quadrants'', value no. 4. The values are assigned to Mars, Mercury, Jupiter, Venus and Saturn in that order (the order of the week-days beginning with Mars, ''beginning with Mars'' of the translation).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 79)
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: The even-quadrant śīghra epicycle is printed as the odd-quadrant one less this decrement; the decrement is the printed form.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [55, 395, 360, 485]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.saturn.sighra.even_decrement.laghubhaskariya_1963
+  value: 1
+  form: integer
+  unit: epicycle_units
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 6
+  pdf_page: 79
+  locus: 'I.19–21, Shukla''s translation: ''the same diminished respectively by …, …, …, …, and … are their own (śīghra) epicycles in the (beginnings of) even quadrants'', value no. 5. The values are assigned to Mars, Mercury, Jupiter, Venus and Saturn in that order (the order of the week-days beginning with Mars, ''beginning with Mars'' of the translation).'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 79)
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: The even-quadrant śīghra epicycle is printed as the odd-quadrant one less this decrement; the decrement is the printed form.
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [55, 395, 360, 485]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''
+- key: texts.aryabhatiya.epicycles.quadrants.laghubhaskariya_1963
+  value: The manda epicycles (of the planets beginning with Mars) are 14, 7, 7, 4, and 9 (in the beginnings of odd quadrants) and 18, 5, 8, 2, and 13 in the (beginnings of) even quadrants. 50 plus 3, 30 plus 1, 16, 59, and 9 have been stated to be the śīghra epicycles (of the same planets) (in the beginnings of odd quadrants) and the same diminished respectively by 2, 2, 1, 2, and 1 are their own (śīghra) epicycles in the (beginnings of) even quadrants.
+  form: text
+  unit: statement
+  script: latin
+  source: laghubhaskariya_1963
+  file: laghubhaskariya_1963-laghubhaskariya-shukla-1963.pdf
+  edition_page: 6
+  pdf_page: 79
+  locus: 'I.19–21, Shukla''s translation: the whole of I.19–21 (the footnote marks not keyed). Text keyed as printed (spelling, diacritics, punctuation; a line-end hyphen joined; quotation marks as straight quotes, single or double as printed; a space inside an abbreviation and a hyphen kept as printed), with spacing at punctuation and parentheses normalised, a dash keyed as − for a sign and — between words, and a daṇḍa not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r4
+    on: 2026-10-03
+    dpi: 347
+    clip: [25, 389.33, 400, 580]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: tile r3c1 of clip [25,20,400,580] 1x3 --overlap 8 (laghubhaskariya_1963 PDF 79)
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: '''beginnings'' of the quadrants is in the translator''s parentheses both times: the quadrant convention as laghubhaskariya_1963 states it rests on the translation''s supplement (the queue entry on the quadrant convention).'
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r8
+    on: 2026-10-03
+    dpi: 347
+    clip: [55, 395, 360, 485]
+    delivered_ppi: 347
+    max_edge: 2000
+    note: ''

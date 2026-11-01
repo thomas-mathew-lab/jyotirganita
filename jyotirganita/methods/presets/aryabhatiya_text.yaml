@@ -1,0 +1,19 @@
+preset: aryabhatiya_text
+header:
+  represents: The Āryabhaṭīya's own computation (the pure 499 CE element set, with Bhāskara I's procedures as Shukla edits them, mahabhaskariya_1960, laghubhaskariya_1963), at the text's sunrise and meridian, without a region (text_only).
+  hypothesis: No almanac is claimed to have printed this computation; a comparison with an almanac needs a regional preset. The Kali year is the method's mean year (sun mean), not an almanac's.
+  range: docs/verification.md prints the computed date range (from the method's runs_from, no upper end) and the effective composition date; neither is typed here.
+method: aryabhatiya
+variants: {}
+conventions: text_only
+time_standard: text_local:aryabhatiya
+intraday: intraday.linear_gati
+sunrise: text
+output:
+  elements: [tithi, nakshatra, yoga, karana]
+  scripts: []
+engine_data:
+  text: aryabhatiya
+  layers: []
+observer:
+  required: true

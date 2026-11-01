@@ -1,0 +1,1313 @@
+id: authority/suryasiddhanta/rao_manda_sun_moon
+methods: [suryasiddhanta]
+class: editor_computed
+source: balachandra_rao_2000
+edition_page: 93
+pdf_page: 107
+locus: '§8.3 example: from "Example: Find the equations of the centre and hence the true longitudes of the Sun and the Moon" (printed p. 93) to the Moon''s true longitude at the end of (ii) (printed p. 94) (pdf_page as keyed: 107-108; edition_page as keyed: 93-94)'
+rounding: equations computed in decimal minutes to 4-8 decimals and converted to whole seconds; sines printed to 6-7 decimals; peripheries to 4 decimals of a degree; mean-anomaly conversions to 4-5 decimals of a degree. Rounding or truncation of the seconds is not stated
+precision: seconds of arc
+datum_keys: []
+notes: 'Sun''s mandocca motion since the Kali epoch from the kalpa revolutions (Note, p. 93); then for the Sun and the Moon: mandakendra m = mandocca − mean longitude, corrected periphery, equation of the centre, true longitude. Periphery: Rao''s own formula (printed pp. 91-92, PDF 105-106), the periphery at the end of the even quadrants minus a third of a degree times |sin m|, "assuming that the variation is sinusoidally periodic" (his words), with the equation = (3438/360)[periphery] sin m expanded into two terms with decimal coefficients (the coefficients are inputs here). Sine: continuous decimal sine values (6-7 decimals), not the tabular Rsines of his Table 8.2 (PDF 106, not keyed). The mean longitudes after the deśāntara correction for Bangalore come from §7.5 (not keyed there by this context) and are inputs; the Moon''s mean longitude and mandocca listed on p. 93 differ from those used in (ii) on p. 94 (both keyed as printed). The restatement of the Sun''s mean longitude and mandocca at the head of (i), the restated factor in the periphery displays and the repeated fourth line of the Moon''s equation display are not keyed again. Fixture pages: the first page recorded as the fixture''s page, the span in the locus. Printed places (the review''s N9 (x)): each value''s `pdf_page` names the place it was keyed from. The Moon''s mean longitude and mandocca are printed at the head of §8.3 (PDF 107) and again as used in (ii) (PDF 108); both places are keyed and they differ (the values'' notes). The Sun''s mean longitude is keyed from PDF 107 only; §9.2 (PDF 122) and §9.4 (PDF 127) print the Sun''s mean longitude for another date (fixtures rao_sighra_mercury_saturn, rao_saturn_four_steps). §8.4 (PDF 110, handed to 2d, not keyed) prints one too; whether it differs from this fixture''s needs a read and is a milestone item.'
+values:
+- name: input.date
+  role: input
+  value: the mean midnight at Banglore, between March 21 and 22, 1991
+  form: text
+  unit: none
+  script: latin
+  edition_page: 93
+  pdf_page: 107
+  locus: '"Example:" sentence, from "the mean midnight" to the year; Latin text (spelling "Banglore" as printed)'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: calendar not stated
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.sun.mean_longitude
+  role: input
+  value: [334, 46, 31]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 93
+  pdf_page: 107
+  locus: list of values after the deśāntara correction, line 1 (Mean longitude of the Sun); sexagesimal [deg, min, sec] as printed, marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: restated at the head of (i) and in the true-longitude sum on p. 94
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.moon.mean_longitude_list
+  role: input
+  value: [48, 21, 12]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 93
+  pdf_page: 107
+  locus: list of values after the deśāntara correction, line 2 (Mean longitude of the Moon); sexagesimal [deg, min, sec] as printed, marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: differs from the Moon's mean longitude used in (ii) on p. 94 (input.moon.mean_longitude); both keyed as printed
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.moon_apogee.longitude_list
+  role: input
+  value: [247, 57, 20]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 93
+  pdf_page: 107
+  locus: list of values after the deśāntara correction, line 3 (Moon's mandocca); sexagesimal [deg, min, sec] as printed, marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: differs from the Moon's mandocca used in (ii) on p. 94; both keyed as printed
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.sun_apogee.longitude_list
+  role: output
+  value: [77, 17, 39]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 93
+  pdf_page: 107
+  locus: list of values after the deśāntara correction, line 4 (Sun's mandocca); sexagesimal [deg, min, sec] as printed, marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: derived in the Note below and restated at the head of (i)
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.sun_apogee.kalpa_revolutions
+  role: input
+  value: 387
+  form: integer
+  unit: revolutions_per_kalpa
+  script: latin
+  edition_page: 93
+  pdf_page: 107
+  locus: Note, line 2 ("completes ... revolutions in a Kalpa"); Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: restated in the display
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.kalpa_years.mantissa
+  role: input
+  value: 432
+  form: integer
+  unit: years
+  script: latin
+  edition_page: 93
+  pdf_page: 107
+  locus: Note, line 2 ("a Kalpa of ... × …^n years"), the factor before "×"; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.kalpa_years.exponent
+  role: input
+  value: 7
+  form: integer
+  unit: power_of_ten
+  script: latin
+  edition_page: 93
+  pdf_page: 107
+  locus: Note, line 2, superscript exponent of …
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.kali_epoch
+  role: input
+  value: February 17/18, 3102 BC
+  form: text
+  unit: none
+  script: latin
+  edition_page: 93
+  pdf_page: 107
+  locus: Note, line 4, inside the parenthesis after "(i.e.,"; Latin text
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: '"BC" in small capitals; calendar not stated'
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.sun_apogee.epoch_position
+  role: input
+  value: [77, 7, 48]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 93
+  pdf_page: 107
+  locus: Note, line 4 ("works out to be ..."); sexagesimal [deg, min, sec] as printed, marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: the derivation of this epoch value is not printed
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.kali_ahargana
+  role: input
+  value: 1859872
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 93
+  pdf_page: 107
+  locus: Note, line 5 ("for the ahargaṇa of ..."); Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: restated in the display
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.date_ahargana
+  role: input
+  value: March 22, 1991
+  form: text
+  unit: none
+  script: latin
+  edition_page: 93
+  pdf_page: 107
+  locus: Note, lines 5-6 ("corresponding to ..."); Latin text
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.civil_days
+  role: input
+  value: 1577917828
+  form: integer
+  unit: days
+  script: latin
+  edition_page: 93
+  pdf_page: 107
+  locus: display of the Sun's mandocca motion, first line, inside the parenthesis before "× …"; Latin figure, digit grouping dropped
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [60, 315, 420, 365]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [60, 315, 420, 365]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.civil_days_factor.exponent
+  role: input
+  value: 3
+  form: integer
+  unit: power_of_ten
+  script: latin
+  edition_page: 93
+  pdf_page: 107
+  locus: display, first line, superscript exponent of … multiplying the civil days
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [60, 315, 420, 365]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [60, 315, 420, 365]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.degrees_per_revolution
+  role: input
+  value: 360
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 93
+  pdf_page: 107
+  locus: display, first line, the factor after the revolution number
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [60, 315, 420, 365]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [60, 315, 420, 365]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.minutes_per_degree
+  role: input
+  value: 60
+  form: integer
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 93
+  pdf_page: 107
+  locus: display, first line, the last factor (with minute mark)
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [60, 315, 420, 365]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [60, 315, 420, 365]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.sun_apogee.motion_min
+  role: output
+  value: '9.853'
+  form: fraction
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 93
+  pdf_page: 107
+  locus: display, second line, before the … "="; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [60, 315, 420, 365]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [60, 315, 420, 365]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.sun_apogee.motion
+  role: output
+  value: [9, 51]
+  form: sexagesimal
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 93
+  pdf_page: 107
+  locus: 'display, second line, after the … "=": minutes and seconds printed; parts as printed [min, sec]'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [60, 315, 420, 365]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: restated in the sum on the next line
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [60, 315, 420, 365]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.sun_apogee.longitude
+  role: output
+  value: [77, 17, 39]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 93
+  pdf_page: 107
+  locus: '"the Sun''s mandocca = ... + ... = ...", the result after the last "="; sexagesimal [deg, min, sec] as printed, marks to unit'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.sun.anomaly
+  role: output
+  value: [102, 31, 8]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 93
+  pdf_page: 107
+  locus: (i) display of m, third line (marked "by adding …°"); sexagesimal [deg, min, sec] as printed, marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: seconds printed with a leading zero
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.sun.anomaly_deg
+  role: output
+  value: '102.5189'
+  form: fraction
+  unit: degrees
+  script: latin
+  edition_page: 93
+  pdf_page: 107
+  locus: (i) display of m, fourth line; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.sun.periphery_even
+  role: input
+  value: 14
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 93
+  pdf_page: 107
+  locus: '"the rectified periphery = ... − (…/…)° |sin m| = ...", the first term'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.sun.periphery_reduction
+  role: input
+  value: 1/3
+  form: fraction
+  unit: degrees
+  script: latin
+  edition_page: 93
+  pdf_page: 107
+  locus: same line, the fraction in parentheses (degree mark outside); fraction as num/den
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.sun.periphery
+  role: output
+  value: '13.6745'
+  form: fraction
+  unit: degrees
+  script: latin
+  edition_page: 93
+  pdf_page: 107
+  locus: same line, the result after the last "="; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.sun.coef_sin
+  role: input
+  value: '133.7'
+  form: fraction
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 94
+  pdf_page: 108
+  locus: p. 94, "The Sun's equation of the centre", … display line, the coefficient of sin m; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: restated in the second line; Rao's formula p. 91
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.sun.coef_sin_abs_sin
+  role: input
+  value: '3.183'
+  form: fraction
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 94
+  pdf_page: 108
+  locus: same display, first line, the coefficient of (sin m)|sin m|; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: restated in the second line
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.sun.sin_m
+  role: output
+  value: '0.9765377'
+  form: fraction
+  unit: none
+  script: latin
+  edition_page: 94
+  pdf_page: 108
+  locus: same display, second line, the … factor in parentheses after the coefficient; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.sun.sin_m_abs_sin_m
+  role: output
+  value: '0.953626'
+  form: fraction
+  unit: none
+  script: latin
+  edition_page: 94
+  pdf_page: 108
+  locus: same display, second line, the last factor in parentheses; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.sun.term_1
+  role: output
+  value: '130.5631'
+  form: fraction
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 94
+  pdf_page: 108
+  locus: same display, third line, first term; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.sun.term_2
+  role: output
+  value: '3.0353917'
+  form: fraction
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 94
+  pdf_page: 108
+  locus: same display, third line, the subtracted term; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.sun.equation_min
+  role: output
+  value: '127.52771'
+  form: fraction
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 94
+  pdf_page: 108
+  locus: same display, fourth line, before the … "="; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.sun.equation
+  role: output
+  value: [2, 7, 32]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 94
+  pdf_page: 108
+  locus: same display, fourth line, after the … "="; sexagesimal [deg, min, sec] as printed, marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: restated in the true-longitude sum
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.sun.true_longitude
+  role: output
+  value: [336, 54, 3]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 94
+  pdf_page: 108
+  locus: true longitude of the Sun, … display line, the result after the last "="; sexagesimal [deg, min, sec] as printed, marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: seconds printed with a leading zero
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.moon.mean_longitude
+  role: input
+  value: [47, 44, 48]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 94
+  pdf_page: 108
+  locus: (ii) first list, line 1 (Moon's mean longitude); sexagesimal [deg, min, sec] as printed, marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: restated in the m display and the true-longitude display; differs from the p. 93 list
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.moon_apogee.longitude
+  role: input
+  value: [247, 57, 34]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 94
+  pdf_page: 108
+  locus: (ii) first list, line 2 (Moon's mandocca); sexagesimal [deg, min, sec] as printed, marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: restated in the m display; differs from the p. 93 list
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 0, 468, 345]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.moon.anomaly
+  role: output
+  value: [200, 12, 46]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 94
+  pdf_page: 108
+  locus: (ii) display of m, third line, before the … "="; sexagesimal [deg, min, sec] as printed, marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [60, 315, 420, 365]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [60, 315, 420, 365]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.moon.anomaly_deg
+  role: output
+  value: '200.21278'
+  form: fraction
+  unit: degrees
+  script: latin
+  edition_page: 94
+  pdf_page: 108
+  locus: (ii) display of m, third line, after the … "="; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [60, 315, 420, 365]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [60, 315, 420, 365]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.moon.periphery_even
+  role: input
+  value: 32
+  form: integer
+  unit: degrees
+  script: latin
+  edition_page: 94
+  pdf_page: 108
+  locus: '"the corrected periphery of the epicycle = ... − (…/…)° |sin m| = ...", the first term'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.moon.periphery
+  role: output
+  value: '31.8848'
+  form: fraction
+  unit: degrees
+  script: latin
+  edition_page: 94
+  pdf_page: 108
+  locus: same display, the result after the last "="; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.moon.coef_sin
+  role: input
+  value: '305.6'
+  form: fraction
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 94
+  pdf_page: 108
+  locus: '"The Moon''s equation of centre", … display line, the coefficient of sin m; decimal string with the point as printed, mark to unit'
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: restated in the second line
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: input.moon.coef_sin_abs_sin
+  role: input
+  value: '3.183'
+  form: fraction
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 94
+  pdf_page: 108
+  locus: same display, first line, the coefficient of (sin m)|sin(m)|; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: restated in the second line without the minute mark
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.moon.sin_m
+  role: output
+  value: '0.3455074'
+  form: fraction
+  negative: true
+  unit: none
+  script: latin
+  edition_page: 94
+  pdf_page: 108
+  locus: same display, second line, the … factor in parentheses after the coefficient (a minus sign printed inside the parenthesis); decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.moon.sin_m_abs_sin_m
+  role: output
+  value: '0.1193754'
+  form: fraction
+  negative: true
+  unit: none
+  script: latin
+  edition_page: 94
+  pdf_page: 108
+  locus: same display, second line, the last factor in parentheses (a minus sign printed inside); decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.moon.term_1
+  role: output
+  value: '105.58709'
+  form: fraction
+  negative: true
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 94
+  pdf_page: 108
+  locus: same display, third line, first term (minus sign printed); decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: the fourth line repeats the third line identically; not keyed again
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.moon.term_2
+  role: output
+  value: '0.3799719'
+  form: fraction
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 94
+  pdf_page: 108
+  locus: same display, third line, the added term; decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.moon.equation_min
+  role: output
+  value: '105.20712'
+  form: fraction
+  negative: true
+  unit: minutes_of_arc
+  script: latin
+  edition_page: 94
+  pdf_page: 108
+  locus: same display, last line, before the … "=" (minus sign printed); decimal string with the point as printed, mark to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.moon.equation
+  role: output
+  value: [1, 45, 12]
+  form: sexagesimal
+  negative: true
+  unit: degrees
+  script: latin
+  edition_page: 94
+  pdf_page: 108
+  locus: same display, last line, after the … "=", printed as a minus sign before a parenthesis; sexagesimal [deg, min, sec] as printed, marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: restated in the true-longitude subtraction
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- name: output.moon.true_longitude
+  role: output
+  value: [45, 59, 36]
+  form: sexagesimal
+  unit: degrees
+  script: latin
+  edition_page: 94
+  pdf_page: 108
+  locus: True longitude of the Moon, last display line; sexagesimal [deg, min, sec] as printed, marks to unit
+  read:
+  - by: claude-opus-5-5/2026-10-11-r9
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: first-read fixture file k8/fixtures/rao_manda_sun_moon.yaml (sha256 f984da00)
+  status: double_read
+  notes: ''
+  second_read:
+  - by: claude-opus-5-5/2026-10-11-r12
+    on: 2026-10-11
+    dpi: 300
+    clip: [0, 345, 468, 690]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''

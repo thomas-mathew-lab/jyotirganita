@@ -4,31 +4,99 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "jyotirganita"
-version = "0.0.1"
-description = "Name reservation for jyotirganita, a deterministic pañcāṅgam computation engine under active development. This release is a placeholder and contains no functionality."
+# the version is set in one place, jyotirganita/__init__.py
+dynamic = ["version"]
+description = "A Python library for traditional and modern Indian calendrical astronomy"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 license = "Apache-2.0"
-license-files = ["LICENSE"]
-authors = [{ name = "Thomas Mathew", email = "mathew.physics@gmail.com" }]
-keywords = ["panchanga", "pancangam", "indian-calendar", "astronomy", "siddhanta"]
+license-files = ["LICENSE", "NOTICE"]
+keywords = ["Indian calendar", "calendrical astronomy", "panchangam", "siddhantic astronomy", "inscriptions", "Kerala"]
 classifiers = [
-    "Development Status :: 1 - Planning",
+    "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Science/Research",
-    "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3 :: Only",
-    "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
     "Topic :: Scientific/Engineering :: Astronomy",
 ]
-dependencies = []
+dependencies = [
+    "numpy>=2.0",
+    "jplephem>=2.21",
+    "PyYAML>=6.0",
+    "jsonschema>=4.20",
+]
+
+[project.scripts]
+jyotirganita = "jyotirganita.io.cli:main"
+
+[project.optional-dependencies]
+# Swiss Ephemeris (AGPL-3.0), reserved for cross-check tests; the 1.0.0 suite
+# holds none (its `extras` tier is empty).
+swisseph = ["pyswisseph>=2.10"]
+dev = [
+    "pytest>=8",
+    "ruff>=0.6",
+    "mypy>=1.13",
+    "types-PyYAML",
+    "types-jsonschema",
+    "build>=1.2",
+]
 
 [project.urls]
-Homepage = "https://github.com/thomas-mathew-lab/jyotirganita"
 Repository = "https://github.com/thomas-mathew-lab/jyotirganita"
-Issues = "https://github.com/thomas-mathew-lab/jyotirganita/issues"
 
-[tool.setuptools]
-packages = ["jyotirganita"]
+[tool.setuptools.dynamic]
+version = {attr = "jyotirganita.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["jyotirganita*"]
+
+[tool.setuptools.package-data]
+# jyotirganita/data/ ships as package data, with the method registry and the
+# place tables; kernels are excluded below and by .gitignore.
+jyotirganita = [
+    "py.typed",
+    "data/*.yaml",
+    "data/**/*.yaml",
+    "data/**/*.json",
+    "methods/*.yaml",
+    "methods/presets/*.yaml",
+    "regions/**/*.yaml",
+    "io/*.json",
+    "search/*.json",
+    "search/reading_profiles/*.yaml",
+]
+
+[tool.setuptools.exclude-package-data]
+jyotirganita = ["data/ephemerides/*", "data/ephemerides/**"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-exclude = ["tests/unit/mypy_cases"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "RUF"]
+# Docstrings and comments carry IAST diacritics and the Unicode minus of
+# printed forms deliberately.
+ignore = ["RUF001", "RUF002", "RUF003"]
+
+[tool.mypy]
+strict = true
+files = ["jyotirganita", "tools", "tests"]
+exclude = ["^tests/unit/mypy_cases/"]
+warn_unreachable = true
+
+[[tool.mypy.overrides]]
+# jplephem ships no complete type information.
+module = ["jplephem", "jplephem.*"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = ["--strict-markers", "-p", "no:cacheprovider"]
+markers = [
+    "de441: tier de441, needs the DE441 kernel; deselected in CI by marker",
+    "extras: tier extras, needs the swisseph extra; deselected in CI by marker",
+]

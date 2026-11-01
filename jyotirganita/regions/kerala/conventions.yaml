@@ -1,0 +1,616 @@
+region: kerala
+notes: The Kerala profile's conventions, each part naming the datum that cites it.
+civil_day:
+  start: sunrise
+  datum: regions.kerala.conventions.civil_day.start.sewell_dikshit_1896
+  witnesses: [regions.kerala.conventions.civil_day.weekday.sewell_dikshit_1896]
+assignment:
+  default: at_sunrise
+  datum: regions.kerala.conventions.assignment.at_sunrise.sewell_dikshit_1896
+ksaya_vrddhi:
+  ksaya: regions.kerala.conventions.ksaya.sewell_dikshit_1896
+  vrddhi: regions.kerala.conventions.vrddhi.sewell_dikshit_1896
+month_rule:
+  rule: aparahna_parts
+  parts: regions.kerala.conventions.month_rule.parts.sewell_dikshit_1896
+  within: regions.kerala.conventions.month_rule.within.sewell_dikshit_1896
+  datum: regions.kerala.conventions.month_rule.statement.sewell_dikshit_1896
+  region: regions.kerala.conventions.month_rule.region.sewell_dikshit_1896
+  example: authority/calendar/sewell_dikshit_1896_art28_month_rule
+  provisional: the rule's only statement held is sewell_dikshit_1896's (Sewell–Dikshit, an editor's statement of practice); Pillai's (pillai_1922_ephemeris vol. I) is not held, gopala_varyar_1954 states none, and the practice witness of 1868 is left for later work
+  searched: [regions.kerala.conventions.month_rule.statement.pillai_1922_ephemeris, regions.kerala.conventions.month_rule.statement.gopala_varyar_1954, regions.kerala.conventions.month_rule.practice.basel_panchangam_1868]
+  selectable:
+  - rule: following_day
+    datum: regions.kerala.conventions.month_rule.following_day.basel_panchangam_1868
+    provisional: the rule (the month begins on the civil day after the saṅkramam) is witnessed only by the 1868 almanac, whose pages are left for later work; its pinning test is left for later work
+  - rule: sunset
+    datum: regions.kerala.conventions.month_rule.sunset.statement.sewell_dikshit_1896
+    provisional: sewell_dikshit_1896 Art. 28 (2) states the rule for the Tamil and Tinnevelly countries (regions.kerala.conventions.month_rule.sunset.region.sewell_dikshit_1896), not for Malabar; offered for the records of that side; no printed example pins it, and an entry at sunset itself, which the rule does not name, is taken as not before it
+eras:
+- era: kali
+  year_start:
+    default: 'true'
+    selectable: [mean]
+    witnesses:
+      'true': [eras.kali.year_start.true.vakyakarana_1962]
+      mean: [eras.kali.epoch.day_start.vakyakarana_1962]
+- era: saka
+  year_start:
+    default: mesha
+    selectable: []
+    witnesses:
+      mesha: [eras.saka.year_start.calendar_reform_committee_1955]
+- era: kollam
+  year_start:
+    default: simha
+    selectable: [kanya]
+    witnesses:
+      simha: [regions.kerala.conventions.kollam_year_start.calendar_reform_committee_1955_30]
+      kanya: [regions.kerala.conventions.kollam_year_start.calendar_reform_committee_1955_32]
+encodings:
+  ending:
+    unit: nadika
+    direction: elapsed
+    reference: sunrise
+    datum: regions.kerala.conventions.encoding.column_sense.travancore_panchangam_1921
+    witnesses: [regions.kerala.conventions.civil_day.start.sewell_dikshit_1896]
+sunrise_event: regions.kerala.conventions.sunrise_event
+time_standard: regions.kerala.conventions.almanac_time_standard
+data:
+- key: regions.kerala.conventions.month_rule.statement.sewell_dikshit_1896
+  value: By another rule the day between sunrise and sunset being divided into five parts, if a saṅkrânti takes place within the first three of them the month begins on the same day, otherwise it begins on the following day
+  form: text
+  unit: statement
+  script: latin
+  source: sewell_dikshit_1896
+  file: sewell_dikshit_1896-sewell-dikshit-indian-calendar-1896.pdf
+  edition_page: 12
+  pdf_page: 28
+  locus: 'sewell_dikshit_1896 printed 12, Art. 28, rule (b): from ''By another rule'' to ''following day'', the end of its sentence (the ''(b)'' before it not keyed). Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 401
+    clip: [15, 316, 375, 404]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: tiles 2x1 --overlap 6 of this clip, native 401 ppi
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 1600
+    clip: [300, 322, 375, 334]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: the punctuation after 'rule', --dpi 1600 --upsample
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  basis: stated
+  basis_ref: sewell_dikshit_1896 Art. 28 rule (b)
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r16
+    on: 2026-10-08
+    dpi: 401
+    clip: [190, 316, 375, 412]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-fable-5-1/2026-10-08-r8
+      on: 2026-10-08
+      dpi: 401
+      clip: [15, 316, 375, 404]
+      delivered_ppi: 401
+      max_edge: 2000
+      note: no letter changed
+    matches: second_read
+- key: regions.kerala.conventions.month_rule.region.sewell_dikshit_1896
+  value: The latter (b) rule is observed in the North and South Malayâḷam country
+  form: text
+  unit: statement
+  script: latin
+  source: sewell_dikshit_1896
+  file: sewell_dikshit_1896-sewell-dikshit-indian-calendar-1896.pdf
+  edition_page: 12
+  pdf_page: 28
+  locus: 'sewell_dikshit_1896 printed 12, Art. 28, after the worked example: from ''The latter'' to ''country'' (the clause after it not keyed). Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 401
+    clip: [15, 316, 375, 404]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: tiles 2x1 --overlap 6 of this clip, native 401 ppi
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 600
+    clip: [15, 388, 375, 412]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: tiles 2x1 of this clip, --dpi 600 (delivered at native 401)
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  basis: stated
+  basis_ref: sewell_dikshit_1896 Art. 28
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r16
+    on: 2026-10-08
+    dpi: 401
+    clip: [190, 316, 375, 412]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+- key: regions.kerala.conventions.civil_day.weekday.sewell_dikshit_1896
+  value: Remember that the week-day is counted from sunrise to sunrise
+  form: text
+  unit: statement
+  script: latin
+  source: sewell_dikshit_1896
+  file: sewell_dikshit_1896-sewell-dikshit-indian-calendar-1896.pdf
+  edition_page: 12
+  pdf_page: 28
+  locus: 'sewell_dikshit_1896 printed 12, the footnote numbered 1 at the foot of the page: from ''Remember'' to the end of its sentence. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 600
+    clip: [15, 425, 250, 440]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: --dpi 600 (delivered at native 401)
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  basis: stated
+  basis_ref: sewell_dikshit_1896 p. 12 fn. 1
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r16
+    on: 2026-10-08
+    dpi: 401
+    clip: [15, 425, 250, 440]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+- key: regions.kerala.conventions.assignment.at_sunrise.sewell_dikshit_1896
+  value: The general rule for civil purposes, as well as for some ordinary religious purposes for which no particular time of day happens to be prescribed, is that the tithi current at sunrise of the solar day gives its name and numeral to that day, and is coupled with its week-day
+  form: text
+  unit: statement
+  script: latin
+  source: sewell_dikshit_1896
+  file: sewell_dikshit_1896-sewell-dikshit-indian-calendar-1896.pdf
+  edition_page: 16
+  pdf_page: 32
+  locus: 'sewell_dikshit_1896 printed 16, Art. 31: the sentence from ''The general rule'' to ''week-day'' (its end). Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 401
+    clip: [15, 275, 375, 355]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: tiles 2x1 --overlap 6 of this clip, native 401 ppi
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  basis: stated
+  basis_ref: sewell_dikshit_1896 Art. 31
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r16
+    on: 2026-10-08
+    dpi: 401
+    clip: [190, 275, 375, 355]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+- key: regions.kerala.conventions.ksaya.sewell_dikshit_1896
+  value: A tithi on which the sun does not rise is expunged
+  form: text
+  unit: statement
+  script: latin
+  source: sewell_dikshit_1896
+  file: sewell_dikshit_1896-sewell-dikshit-indian-calendar-1896.pdf
+  edition_page: 18
+  pdf_page: 34
+  locus: 'sewell_dikshit_1896 printed 18, Art. 32: the sentence from ''A tithi on which the sun does not rise'' to its end. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 401
+    clip: [15, 76, 375, 120]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: tiles 2x1 --overlap 6 of this clip, native 401 ppi
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  basis: stated
+  basis_ref: sewell_dikshit_1896 Art. 32
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r16
+    on: 2026-10-08
+    dpi: 401
+    clip: [15, 76, 200, 120]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+- key: regions.kerala.conventions.vrddhi.sewell_dikshit_1896
+  value: On the other hand, a tithi on which the sun rises twice is repeated
+  form: text
+  unit: statement
+  script: latin
+  source: sewell_dikshit_1896
+  file: sewell_dikshit_1896-sewell-dikshit-indian-calendar-1896.pdf
+  edition_page: 18
+  pdf_page: 34
+  locus: 'sewell_dikshit_1896 printed 18, Art. 32: the sentence from ''On the other hand'' to its end. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 401
+    clip: [15, 76, 375, 120]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: tiles 2x1 --overlap 6 of this clip, native 401 ppi
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  basis: stated
+  basis_ref: sewell_dikshit_1896 Art. 32
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r16
+    on: 2026-10-08
+    dpi: 401
+    clip: [190, 76, 375, 120]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+- key: regions.kerala.conventions.civil_day.start.sewell_dikshit_1896
+  value: Indian astronomers count the day from sunrise, to sunrise, and give, at least in theory, the ending moments of tithis in time reckoned from actual or true sunrise
+  form: text
+  unit: statement
+  script: latin
+  source: sewell_dikshit_1896
+  file: sewell_dikshit_1896-sewell-dikshit-indian-calendar-1896.pdf
+  edition_page: 19
+  pdf_page: 35
+  locus: 'sewell_dikshit_1896 printed 19, Art. 36, second paragraph: its first sentence, from ''Indian astronomers'' to ''true sunrise''. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 401
+    clip: [15, 280, 375, 400]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: tiles 2x2 --overlap 6 of this clip, native 401 ppi
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: ''
+  basis: stated
+  basis_ref: sewell_dikshit_1896 Art. 36
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r16
+    on: 2026-10-08
+    dpi: 401
+    clip: [15, 280, 200, 400]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+- key: regions.kerala.conventions.kollam_year_start.calendar_reform_committee_1955_30
+  value: Kollam Era, 1129 begins on 17th August, 1953
+  form: text
+  unit: date
+  script: latin
+  source: calendar_reform_committee_1955
+  file: calendar_reform_committee_1955-calendar-reform-committee-1955.pdf
+  edition_page: 28
+  pdf_page: 40
+  locus: 'calendar_reform_committee_1955 printed 28, the almanac reply numbered (30), the answer to question 9: from ''Kollam'' to ''1953''. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 600
+    clip: [222, 218, 420, 300]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: --dpi 600 --upsample (native 300 ppi)
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: A witness of the year start the reply's almanac follows.
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r18
+    on: 2026-10-08
+    dpi: 300
+    clip: [222, 218, 420, 300]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- key: regions.kerala.conventions.kollam_year_start.calendar_reform_committee_1955_32
+  value: Malayalam Era 1129 begins on 17th September, 1953
+  form: text
+  unit: date
+  script: latin
+  source: calendar_reform_committee_1955
+  file: calendar_reform_committee_1955-calendar-reform-committee-1955.pdf
+  edition_page: 28
+  pdf_page: 40
+  locus: 'calendar_reform_committee_1955 printed 28, the almanac reply numbered (32), the answer to question 9: from ''Malayalam'' to ''1953''. A mark above the line after ''Era'' is a blemish, not keyed. Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 600
+    clip: [40, 630, 235, 712]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: --dpi 600 --upsample (native 300 ppi)
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: A witness of the year start the reply's almanac follows.
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r18
+    on: 2026-10-08
+    dpi: 300
+    clip: [40, 630, 235, 712]
+    delivered_ppi: 300
+    max_edge: 2000
+    note: ''
+- key: regions.kerala.conventions.encoding.column_sense.travancore_panchangam_1921
+  value: ദിവസംപ്രതി ഉള്ള നക്ഷത്രതിഥിനിത്യയോഗങ്ങളിൽ സൂര്യോദയാൽപരം ഉള്ള നാഴികയും
+  form: text
+  unit: statement
+  script: malayalam
+  source: travancore_panchangam_1921
+  file: travancore_panchangam_1921-travancore-govt-pancanga-me1097.pdf
+  edition_page: 62
+  pdf_page: 64
+  locus: 'travancore_panchangam_1921 printed 62, the paragraph headed as the explanation of the pañcāṅga (the lower half of the page): from the second word of the paragraph''s third line to the second word of its fourth line. Malayalam text keyed in Unicode NFC as printed from the first to the last word named, under the letter conventions of the names (chillus atomic, conjuncts with the virāma, candrakkala where printed, au as U+0D4C, dot reph as ർ, no ZWJ or ZWNJ); a word broken at a line end joined; spacing normalised; the value ends before a full stop or daṇḍa, not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 1500
+    clip: [28, 208, 190, 256]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles 2x1 --overlap 4 of this clip, --dpi 1500 --upsample (native 600 ppi)
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 1700
+    clip: [30, 229, 110, 243]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the two lines again, left half, --dpi 1700 --upsample
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 1700
+    clip: [105, 229, 185, 243]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: the two lines again, right half, --dpi 1700 --upsample
+  status: read
+  verified_by: []
+  emendation: null
+  notes: 'The almanac''s own statement of what its daily ending columns give (F4). The print is degraded on these lines. It decides the encoding of the record''s ending leaves: individual sign-off.'
+  basis: stated
+  basis_ref: travancore_panchangam_1921 p. 62
+  decides: [procedure]
+  second_read:
+  - by: claude-fable-5-1/2026-10-08-r9
+    on: 2026-10-08
+    dpi: 2400
+    clip: [30, 230, 190, 243]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+  third_look:
+    issue: disputed
+    read:
+      by: claude-opus-5-5/2026-10-08-r15
+      on: 2026-10-08
+      dpi: 3600
+      clip: [44, 227.5, 184, 235.5]
+      delivered_ppi: 600
+      max_edge: 2000
+      note: ''
+    matches: neither
+  read_issue: disputed
+- key: regions.kerala.conventions.month_rule.parts.sewell_dikshit_1896
+  value: 5
+  form: integer
+  unit: count
+  script: latin
+  source: sewell_dikshit_1896
+  file: sewell_dikshit_1896-sewell-dikshit-indian-calendar-1896.pdf
+  edition_page: 12
+  pdf_page: 28
+  locus: 'sewell_dikshit_1896 printed 12, Art. 28, rule (b): the number of parts the day between sunrise and sunset is divided into, printed as a word. A number printed as an English word keyed as the integer it names.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 401
+    clip: [15, 316, 375, 404]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: tiles 2x1 --overlap 6 of this clip, native 401 ppi
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: A parameter of the month rule, read from the statement regions.kerala.conventions.month_rule.statement.sewell_dikshit_1896.
+  basis: stated
+  basis_ref: sewell_dikshit_1896 Art. 28 rule (b)
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r16
+    on: 2026-10-08
+    dpi: 401
+    clip: [190, 316, 375, 412]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+- key: regions.kerala.conventions.month_rule.within.sewell_dikshit_1896
+  value: 3
+  form: integer
+  unit: count
+  script: latin
+  source: sewell_dikshit_1896
+  file: sewell_dikshit_1896-sewell-dikshit-indian-calendar-1896.pdf
+  edition_page: 12
+  pdf_page: 28
+  locus: 'sewell_dikshit_1896 printed 12, Art. 28, rule (b): the number of first parts within which the month begins on the same day, printed as a word. A number printed as an English word keyed as the integer it names.'
+  read:
+  - by: claude-opus-5-5/2026-10-08-r14
+    on: 2026-10-08
+    dpi: 401
+    clip: [15, 316, 375, 404]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: tiles 2x1 --overlap 6 of this clip, native 401 ppi
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: A parameter of the month rule, read from the statement regions.kerala.conventions.month_rule.statement.sewell_dikshit_1896.
+  basis: stated
+  basis_ref: sewell_dikshit_1896 Art. 28 rule (b)
+  second_read:
+  - by: claude-opus-5-5/2026-10-08-r16
+    on: 2026-10-08
+    dpi: 401
+    clip: [15, 316, 200, 412]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: ''
+- key: regions.kerala.conventions.month_rule.statement.pillai_1922_ephemeris
+  status: gap
+  reason: Pillai's statement of the rules is in pillai_1922_ephemeris vol. I, which is not held
+  searched: sources.yaml (pillai_1922_ephemeris vol. I absent); pillai_1922_ephemeris vol. 5 preface, PDF 3–5, read for its references to vol. I
+  effect: the month rule rests on sewell_dikshit_1896's statement alone and ships provisional
+  source: pillai_1922_ephemeris
+- key: regions.kerala.conventions.month_rule.statement.gopala_varyar_1954
+  status: gap
+  reason: gopala_varyar_1954 states no month rule
+  searched: gopala_varyar_1954 pp. 1–27, 96–147
+  effect: no Malayalam statement of the month rule; the rule ships provisional
+  source: gopala_varyar_1954
+- key: regions.kerala.conventions.month_rule.practice.basel_panchangam_1868
+  status: gap
+  reason: the 1868 almanac's saṅkramam rows would witness the rule in practice
+  searched: basel_panchangam_1868 PDF 9, 11 located; not keyed
+  effect: no practice witness of the month rule is keyed; a dated almanac comparison would supply it
+  source: basel_panchangam_1868
+- key: regions.kerala.conventions.month_rule.following_day.basel_panchangam_1868
+  status: gap
+  reason: the 1868 almanac's saṅkramam rows and month headings witness the rule "the month begins on the civil day after the saṅkramam"; no page has been keyed for it
+  searched: deferred
+  effect: the following_day month rule is selectable and ships provisional; its pinning test is left for later work
+  source: basel_panchangam_1868
+- key: regions.kerala.conventions.practice.sreedharan_grahasthana_ganitam
+  status: gap
+  reason: sreedharan_grahasthana_ganitam (Grahasthāna Gaṇitam) is not held; the library author holds the copy
+  searched: 'sources.yaml (sreedharan_grahasthana_ganitam held: false)'
+  effect: the Malayalam practice it would witness is not cited; recorded as pending until a scan is deposited
+  source: sreedharan_grahasthana_ganitam
+- key: regions.kerala.conventions.sunrise_event
+  status: gap
+  reason: no Kerala almanac or calendar_reform_committee_1955 page states whether the Kerala almanacs' sunrise is the Sun's centre or limb
+  searched: travancore_panchangam_1921 PDF 64 (the explanation of the pañcāṅga); gopala_varyar_1954; calendar_reform_committee_1955 PDF 34–41 (the Malayalam almanac replies); basel_panchangam_1868's header pages not keyed
+  effect: the Kerala profile's modern sunrise_event has no cited statement
+- key: regions.kerala.conventions.almanac_time_standard
+  status: gap
+  reason: no Kerala almanac page read states a clock standard of its own
+  searched: travancore_panchangam_1921 PDF 64; basel_panchangam_1868 deferred
+  effect: an almanac-specific standard is not modelled; the civil standards are lmt, madras_time and ist
+- key: regions.kerala.conventions.month_rule.sunset.statement.sewell_dikshit_1896
+  value: One is that when a saṅkrânti takes place after sunrise and before sunset the month begins on the same day, while if it takes place after sunset the month begins on the following day
+  form: text
+  unit: statement
+  script: latin
+  source: sewell_dikshit_1896
+  file: sewell_dikshit_1896-sewell-dikshit-indian-calendar-1896.pdf
+  edition_page: 12
+  pdf_page: 28
+  locus: 'sewell_dikshit_1896 printed 12, Art. 28, paragraph (2), rule (a): from ''One is that'' to ''following day'', the words before the semicolon (the ''(a)'' before it not keyed; the example after the semicolon not keyed). Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the semicolon, which is not keyed.'
+  read:
+  - by: claude-opus-5-5/2026-10-29-r1
+    on: 2026-10-29
+    dpi: 401
+    clip: [15, 286, 375, 332]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: tiles 2x1 --overlap 6 of this clip, native 401 ppi
+  - by: claude-opus-5-5/2026-10-29-r1
+    on: 2026-10-29
+    dpi: 1200
+    clip: [15, 284, 340, 314]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: tighter tiles of the first three lines (--dpi 1200 and 1600 --upsample, delivered at native 401) for the diacritics of the rule's noun and for letters with faint strokes
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: In 'when' and in the 'begins' at the start of the third line the crossbar of the e is not visible at native resolution; the face's e elsewhere on those lines is clear, and the letter is keyed e (worn type, not a different letter).
+  basis: stated
+  basis_ref: sewell_dikshit_1896 Art. 28 (2) rule (a)
+  second_read:
+  - by: claude-opus-5-5/2026-10-29-r2
+    on: 2026-10-29
+    dpi: 401
+    clip: [15, 286, 375, 332]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: tiles 2x1 of this clip (1004x258, 1003x258 px), native 401 ppi, not shrunk
+  - by: claude-opus-5-5/2026-10-29-r2
+    on: 2026-10-29
+    dpi: 1200
+    clip: [15, 284, 340, 314]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: tiles 3x1 of this clip, --dpi 1200 --upsample (1806x501 px each, delivered at native 401), for the diacritics
+- key: regions.kerala.conventions.month_rule.sunset.region.sewell_dikshit_1896
+  value: the former (a) in other parts of Southern India where the solar reckoning is used, viz., in the Tamil and Tinnevelly countries
+  form: text
+  unit: statement
+  script: latin
+  source: sewell_dikshit_1896
+  file: sewell_dikshit_1896-sewell-dikshit-indian-calendar-1896.pdf
+  edition_page: 12
+  pdf_page: 28
+  locus: 'sewell_dikshit_1896 printed 12, Art. 28, after the worked example, the clause after the comma that follows ''country'': from ''the former'' to ''countries'' (the ''and'' before it and the footnote number after it not keyed). Latin text keyed as printed (spelling, diacritics, case; italics not marked); a line-end hyphen joined; quotation marks as straight quotes; a superscript keyed on the line; spacing at punctuation normalised; a dash between numbers as U+2212 and between words as U+2014; the value ends before the sentence''s closing full stop, which is not keyed (an abbreviation''s own points inside the value kept).'
+  read:
+  - by: claude-opus-5-5/2026-10-29-r1
+    on: 2026-10-29
+    dpi: 401
+    clip: [15, 388, 375, 426]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: tiles 2x1 --overlap 6 of this clip, native 401 ppi
+  status: double_read
+  verified_by: []
+  emendation: null
+  notes: Several e's of this clause print with a faint crossbar (worn type); each is keyed e.
+  basis: stated
+  basis_ref: sewell_dikshit_1896 Art. 28 (2)
+  second_read:
+  - by: claude-opus-5-5/2026-10-29-r2
+    on: 2026-10-29
+    dpi: 401
+    clip: [15, 388, 375, 426]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: tiles 2x1 of this clip (1004x213, 1003x213 px), native 401 ppi, not shrunk
+  - by: claude-opus-5-5/2026-10-29-r2
+    on: 2026-10-29
+    dpi: 1200
+    clip: [15, 396, 375, 426]
+    delivered_ppi: 401
+    max_edge: 2000
+    note: tiles 3x1 of this clip, --dpi 1200 --upsample (2000x500 px each, delivered at native 401)

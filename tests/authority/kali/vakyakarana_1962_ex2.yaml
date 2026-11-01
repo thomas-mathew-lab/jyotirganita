@@ -1,0 +1,84 @@
+id: authority/kali/vakyakarana_1962_ex2
+methods: [eras]
+class: editor_computed
+source: vakyakarana_1962
+edition_page: 253
+pdf_page: 290
+locus: 'Example 2 (a): the days elapsed since the Meṣa saṅkramaṇa'
+rounding: 'none: exact sexagesimal subtraction'
+precision: 'the editors'' arithmetic in the text''s units: whole Kali days exact; the fraction of a day in nāḍikās and vināḍikās as printed'
+datum_keys: [eras.kali.epoch.date.pillai_1911_chronology]
+notes: The editors' worked example; its Kali days continue Example 1's.
+values:
+- name: input.kali_days
+  role: input
+  value: 1844004
+  form: integer
+  unit: days
+  script: latin
+  locus: 'Example 2 (a), the question: the Kali days given (keyed as the integer)'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 600
+    clip: [65, 118, 400, 180]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles 2x1 --overlap 8 of this clip ([65,118,236.5,180], [228.5,118,400,180])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [65, 118, 400, 180]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: input.mesha_kali_days
+  role: input
+  value: [1843823, 40, 19]
+  form: sexagesimal
+  unit: days, nadika, vinadika
+  script: latin
+  locus: 'Example 2 (a): the Kali days at the moment of Meṣa saṅkramaṇa, keyed as [days, nāḍikā, vināḍikā]'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 600
+    clip: [100, 170, 400, 215]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles 2x1 --overlap 8 of this clip ([100,170,254,215], [246,170,400,215])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [100, 170, 400, 215]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
+- name: output.elapsed
+  role: output
+  value: [180, 19, 41]
+  form: sexagesimal
+  unit: days, nadika, vinadika
+  script: latin
+  locus: 'Example 2 (a): the days elapsed, keyed as [days, nāḍikā, vināḍikā]'
+  read:
+  - by: claude-opus-5-5/2026-10-03-r1
+    on: 2026-10-03
+    dpi: 600
+    clip: [100, 170, 400, 215]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: tiles 2x1 --overlap 8 of this clip ([100,170,254,215], [246,170,400,215])
+  status: double_read
+  second_read:
+  - by: claude-opus-5-5/2026-10-03-r3
+    on: 2026-10-03
+    dpi: 600
+    clip: [100, 170, 400, 215]
+    delivered_ppi: 600
+    max_edge: 2000
+    note: ''
